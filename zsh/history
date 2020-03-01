@@ -6101,3 +6101,18 @@ module.exports = withCSS({}); fg
 : 1583051313:0;down
 : 1583056955:0;jt dotfiles
 : 1583056960:0;down
+: 1583057006:0;la
+: 1583057044:0;vi
+: 1583057424:0;g g "fix git problems"
+: 1583057456:0;g h
+: 1583057469:0;vi
+: 1583057717:0;g a
+: 1583057744:0;g g "remove unwanted plugins"
+: 1583057830:0;bos -h
+: 1583057836:0;bos -vs install
+: 1583057912:0;bos -h
+: 1583057916:0;bos -vs backup
+: 1583057918:0;g d
+: 1583057919:0;g s
+: 1583057943:0;vi
+: 1583057951:0;down
