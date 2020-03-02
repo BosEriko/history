@@ -6126,3 +6126,20 @@ module.exports = withCSS({}); fg
 : 1583059002:0;g d
 : 1583059024:0;~
 : 1583059025:0;down
+: 1583118624:0;jt dotfiles
+: 1583118625:0;la
+: 1583118626:0;g s
+: 1583118627:0;g d
+: 1583118634:0;../.history
+: 1583118635:0;la
+: 1583118636:0;g d
+: 1583118639:0;jt dotfiles
+: 1583118646:0;g pl -u origin master
+: 1583118651:0;g pl
+: 1583118662:0;g pl origin master
+: 1583118669:0;../.history
+: 1583118672:0;g pl origin master
+: 1583118684:0;g remote -v
+: 1583118689:0;jt dotfiles
+: 1583118693:0;la
+: 1583118695:0;down
