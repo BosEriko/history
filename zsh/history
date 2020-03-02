@@ -6143,3 +6143,51 @@ module.exports = withCSS({}); fg
 : 1583118689:0;jt dotfiles
 : 1583118693:0;la
 : 1583118695:0;down
+: 1583119093:0;../.history
+: 1583119099:0;git pull -u origin master
+: 1583119116:0;git branch --set-upstream-to=origin/master master
+: 1583119118:0;jt dotfiles
+: 1583119119:0;up
+: 1583119264:0;vi
+: 1583119346:0;g d
+: 1583119366:0;g g "add plug clean on up command"
+: 1583119382:0;up
+: 1583119424:0;vi
+: 1583119455:0;g d
+: 1583119471:0;g g "add a message to vim plugclean"
+: 1583119515:0;vi
+: 1583119615:0;echo $(( $EPOCHSECONDS / 60 / 60 / 24 ))
+: 1583119901:0;bos -vs install
+: 1583119922:0;vi
+: 1583119987:0;brew update && brew upgrade
+: 1583123488:0;jt ops
+: 1583123490:0;g pl
+: 1583126325:0;type g
+: 1583126363:0;vi
+: 1583126486:0;g d
+: 1583126494:0;g g "update the color of git help"
+: 1583126551:0;vi
+: 1583126704:0;g d
+: 1583126754:0;mv ~/.vim/workspace ~/.history/vim/workspace
+: 1583126767:0;mkdir ~/.history/vim
+: 1583126771:0;mv ~/.vim/workspace ~/.history/vim/workspace
+: 1583126794:0;g d
+: 1583126836:0;g g "move workspace to .history"
+: 1583126852:0;vi
+: 1583126858:0;../.history
+: 1583126858:0;la
+: 1583126860:0;g d
+: 1583126862:0;g s
+: 1583126871:0;g a
+: 1583126880:0;g c -m "add vim"
+: 1583126883:0;g ps
+: 1583126914:0;vi
+: 1583126919:0;g d
+: 1583126920:0;g s
+: 1583126939:0;g d
+: 1583126940:0;g s
+: 1583126949:0;jt dotfiles
+: 1583126961:0;vi
+: 1583127079:0;g d
+: 1583127099:0;la
+: 1583127102:0;down
