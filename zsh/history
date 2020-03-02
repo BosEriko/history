@@ -6191,3 +6191,46 @@ module.exports = withCSS({}); fg
 : 1583127079:0;g d
 : 1583127099:0;la
 : 1583127102:0;down
+: 1583127143:0;la
+: 1583127145:0;g d
+: 1583127172:0;g g "update down command to push the whole directory of .history"
+: 1583127261:0;../.history
+: 1583127262:0;la
+: 1583127267:0;touch vim/.keep
+: 1583127269:0;la
+: 1583127281:0;\git add .
+: 1583127283:0;g s
+: 1583127287:0;g reset
+: 1583127289:0;la
+: 1583127292:0;g s
+: 1583127303:0;git add vim
+: 1583127305:0;g s
+: 1583127321:0;g c -m "add .keep to vim so it doesn't get deleted"
+: 1583127322:0;g ps
+: 1583127364:0;vi
+: 1583127559:0;g co rake-task-to-update-catalog-item-details-171346507
+: 1583127566:0;g d
+: 1583127567:0;g s
+: 1583127572:0;g lol
+: 1583127588:0;git reset --hard origin/rake-task-to-update-catalog-item-details-171346507
+: 1583128697:0;g d
+: 1583128721:0;g g "fourth"
+: 1583129200:0;vi
+: 1583129204:0;jt dotfiles
+: 1583129206:0;vi
+: 1583129928:0;g g
+: 1583130039:0;rc
+: 1583137049:0;jt personal
+: 1583137076:0;g co git@github.com:LyonInc/lyon-api-server.git
+: 1583137082:0;g clone git@github.com:LyonInc/lyon-api-server.git
+: 1583137741:0;la
+: 1583137743:0;cd lyon-api-server
+: 1583137744:0;vi
+: 1583138020:0;yarn install
+: 1583138188:0;brew services restart yabai && brew services restart skhd
+: 1583138253:0;code .
+: 1583138672:0;yarn test
+: 1583138743:0;g co develop
+: 1583138744:0;vi
+: 1583138781:0;yarn install
+: 1583138983:0;down
