@@ -6254,3 +6254,168 @@ module.exports = withCSS({}); fg
 : 1583213342:0;vi
 : 1583213725:0;la
 : 1583219637:0;down
+: 1583220133:0;la
+: 1583220138:0;..
+: 1583220138:0;la
+: 1583220141:0;..
+: 1583220142:0;la
+: 1583220143:0;..
+: 1583220143:0;la
+: 1583220165:0;g clone git@github.com:kuru-project/main-website-client.git
+: 1583220174:0;la
+: 1583220189:0;mv main-website-client-old
+: 1583220197:0;mv main-website-client main-website-client-old
+: 1583220204:0;mkdir main-website-client
+: 1583220205:0;la
+: 1583220207:0;cd main-website-client
+: 1583220209:0;npm init
+: 1583220211:0;yarn init -y
+: 1583220230:0;git init
+: 1583220233:0;rm -rf .git
+: 1583220234:0;..
+: 1583220255:0;mv main-website-client-old/.git main-website-client/.git
+: 1583220258:0;cd main-website-client
+: 1583220259:0;la
+: 1583220259:0;g d
+: 1583220285:0;la
+: 1583220287:0;yarn add next react react-dom
+: 1583220447:0;la
+: 1583220450:0;vi
+: 1583220522:0;g pl
+: 1583220525:0;g d
+: 1583220527:0;g s
+: 1583220539:0;g fetch
+: 1583220547:0;g co issue-34-Upgrade_to_Next_js_9_for_you_front-end
+: 1583220548:0;la
+: 1583220550:0;g d
+: 1583220569:0;g g "delete most files"
+: 1583220599:0;la
+: 1583220603:0;touch .gitignore
+: 1583220605:0;vi
+: 1583220620:0;g lol
+: 1583220645:0;g reset ded337b
+: 1583220647:0;g d
+: 1583220648:0;g s
+: 1583220650:0;g lol
+: 1583220659:0;g d
+: 1583220660:0;g s
+: 1583220662:0;la
+: 1583220669:0;g g "delete most files"
+: 1583220706:0;vi
+: 1583220721:0;mkdir pages
+: 1583220722:0;la
+: 1583220734:0;touch pages/index.tsx
+: 1583220736:0;vi
+: 1583220745:0;yarn dev
+: 1583220755:0;yarn add --dev typescript @types/react @types/node
+: 1583220765:0;yarn dev
+: 1583220782:0;g a
+: 1583220793:0;vi
+: 1583220836:0;g a
+: 1583220861:0;g d
+: 1583220862:0;g s
+: 1583220868:0;vi
+: 1583220880:0;g s
+: 1583220886:0;vi
+: 1583220906:0;g d
+: 1583220907:0;g s
+: 1583220910:0;vi
+: 1583220922:0;g d
+: 1583220923:0;g s
+: 1583220934:0;g reset
+: 1583220936:0;g s
+: 1583220941:0;vi
+: 1583220948:0;g s
+: 1583220952:0;g a
+: 1583220985:0;g d
+: 1583220986:0;g s
+: 1583220999:0;g rm -rf yarn.lock
+: 1583221001:0;la
+: 1583221003:0;g s
+: 1583221018:0;g c -m "initiate typescript"
+: 1583221019:0;g ps
+: 1583221036:0;g so
+: 1583221043:0;g ps
+: 1583221050:0;git push --set-upstream origin issue-34-Upgrade_to_Next_js_9_for_you_front-end
+: 1583221809:0;g co README.md origin/master
+: 1583221816:0;g co README.md master
+: 1583221822:0;g co README.md
+: 1583221826:0;g co origin/master README.md
+: 1583221861:0;git co origin/master -- README.md
+: 1583221866:0;git co master -- README.md
+: 1583221868:0;la
+: 1583221869:0;g d
+: 1583221870:0;g s
+: 1583221872:0;vi
+: 1583221886:0;g g "revert back the README file"
+: 1583222131:0;..
+: 1583222132:0;la
+: 1583222145:0;mv main-website-client-old/.github main-website-client
+: 1583222147:0;la
+: 1583222152:0;main-website-client
+: 1583222152:0;la
+: 1583222153:0;g s
+: 1583222156:0;g st
+: 1583222175:0;g co master -- .github
+: 1583222176:0;g s
+: 1583222189:0;g g "add back the issue and pr templates"
+: 1583222207:0;vi
+: 1583222358:0;g d
+: 1583222360:0;g a
+: 1583222362:0;y
+: 1583222367:0;g g "update package.json"
+: 1583223142:0;vi
+: 1583223584:0;la
+: 1583224527:0;jt ops
+: 1583224529:0;g pl
+: 1583224660:0;g co rake-task-to-update-catalog-item-details-171346507
+: 1583224663:0;vi
+: 1583224763:0;g pl
+: 1583225729:0;vi
+: 1583225763:0;rm -rf ~/.vim/workspace/
+: 1583225774:0;jt dotfiles
+: 1583225775:0;la
+: 1583225776:0;..
+: 1583225777:0;la
+: 1583225779:0;cd .history
+: 1583225780:0;la
+: 1583225782:0;vim
+: 1583225786:0;cd vim
+: 1583225787:0;la
+: 1583225789:0;cd workspace
+: 1583225789:0;la
+: 1583225803:0;vi
+: 1583230441:0;jt peresonal
+: 1583230445:0;jt personal
+: 1583230446:0;la
+: 1583230450:0;cd main-website-client
+: 1583230451:0;vi
+: 1583230504:0;g d
+: 1583230511:0;g g "update README.md"
+: 1583230533:0;vi
+: 1583230552:0;..
+: 1583230553:0;la
+: 1583230558:0;rm -rf main-website-client main-website-client-old
+: 1583230690:0;la
+: 1583230698:0;rm -rf koa-test
+: 1583230701:0;cd kuru-anime
+: 1583230702:0;la
+: 1583230703:0;cd website-application
+: 1583230703:0;la
+: 1583230705:0;cd client
+: 1583230707:0;g pl
+: 1583230774:0;touch sample.env
+: 1583230779:0;la
+: 1583230791:0;g g "[Hotfix] touch sample.env"
+: 1583230804:0;la
+: 1583230807:0;g lol
+: 1583230828:0;g reset Upgrade to Next.js 9 for you front-end
+: 1583230830:0;g reset df6f74c
+: 1583230832:0;g d
+: 1583230833:0;g s
+: 1583230843:0;g clean -fd
+: 1583230844:0;la
+: 1583230848:0;touch sample.env
+: 1583230850:0;la
+: 1583230853:0;g g "[Hotfix] touch sample.env"
+: 1583232448:0;down
