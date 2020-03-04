@@ -6419,3 +6419,33 @@ module.exports = withCSS({}); fg
 : 1583230850:0;la
 : 1583230853:0;g g "[Hotfix] touch sample.env"
 : 1583232448:0;down
+: 1583239238:0;la
+: 1583239241:0;vi
+: 1583239316:0;g d
+: 1583239319:0;vi
+: 1583239341:0;g g "[Hotfix] add team member section on README.md"
+: 1583239523:0;vi
+: 1583247764:0;g pl
+: 1583247809:0;g co issue-39-Host_the_project_on_Zeit_s_Now
+: 1583247814:0;la
+: 1583247815:0;g d
+: 1583247822:0;g g "add export and deploy on the scripts"
+: 1583248497:0;vi
+: 1583249035:0;g co master
+: 1583249037:0;vi
+: 1583249063:0;g g "[Hotfix] add .env to .gitignore"
+: 1583249109:0;g pl
+: 1583249122:0;la
+: 1583249123:0;g d
+: 1583249125:0;g s
+: 1583249126:0;g lol
+: 1583249141:0;g reset 065be98
+: 1583249143:0;la
+: 1583249145:0;g s
+: 1583249148:0;g d
+: 1583249151:0;g st
+: 1583249158:0;g rebase origin/master
+: 1583249161:0;g lol
+: 1583249165:0;g ps
+: 1583249189:0;g ps --force
+: 1583329698:0;down
