@@ -6449,3 +6449,49 @@ module.exports = withCSS({}); fg
 : 1583249165:0;g ps
 : 1583249189:0;g ps --force
 : 1583329698:0;down
+: 1583330334:0;brew cask install vlc
+: 1583379006:0;jt ops
+: 1583379009:0;g pl
+: 1583379047:0;vi
+: 1583389068:0;jt personal
+: 1583389068:0;la
+: 1583389071:0;kuru-anime
+: 1583389071:0;la
+: 1583389073:0;web
+: 1583389075:0;website-application
+: 1583389076:0;la
+: 1583389077:0;client
+: 1583389077:0;la
+: 1583389079:0;g pl
+: 1583389088:0;g ps
+: 1583389105:0;la
+: 1583389119:0;vi README.md
+: 1583389369:0;g a
+: 1583389401:0;la
+: 1583389402:0;g s
+: 1583389423:0;g g "[Hotfix] Add Kalpa, Neon and Dante on the README.md contributors"
+: 1583389847:0;vi
+: 1583393047:0;g d
+: 1583393055:0;g g "add merge methods"
+: 1583394929:0;vi
+: 1583396078:0;jt personal
+: 1583396079:0;la
+: 1583396082:0;cd kuru-anime
+: 1583396083:0;la
+: 1583396085:0;website-application
+: 1583396085:0;la
+: 1583396094:0;client
+: 1583396095:0;la
+: 1583396097:0;vi
+: 1583396924:0;g pl
+: 1583396986:0;g ps
+: 1583397098:0;vi README.md
+: 1583397168:0;g a
+: 1583397207:0;g g "[Hotfix] Add AJ on the README.md contributors"
+: 1583398173:0;ls -a
+: 1583398174:0;ls
+: 1583398186:0;ls -a
+: 1583398378:0;~
+: 1583398380:0;ls -a
+: 1583398415:0;vi .gitconfig
+: 1583401689:0;down
