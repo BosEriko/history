@@ -6495,3 +6495,273 @@ module.exports = withCSS({}); fg
 : 1583398380:0;ls -a
 : 1583398415:0;vi .gitconfig
 : 1583401689:0;down
+: 1583404536:0;jt personal
+: 1583404536:0;la
+: 1583404541:0;cd kuru-anime
+: 1583404541:0;la
+: 1583404543:0;cd website-application
+: 1583404544:0;la
+: 1583404546:0;cd client
+: 1583411892:0;la
+: 1583411910:0;vi
+: 1583475186:0;jt personal
+: 1583475186:0;la
+: 1583475189:0;cd kuru-anime
+: 1583475189:0;la
+: 1583475190:0;cd website-application
+: 1583475191:0;la
+: 1583475193:0;cd client
+: 1583475195:0;g pl
+: 1583475198:0;g sync master
+: 1583482603:0;jt personal
+: 1583482605:0;jt ops
+: 1583482606:0;la
+: 1583482609:0;vi
+: 1583482691:0;script/backpack -l --skip-assets
+: 1583483581:0;rake db:drop \\
+&& rake db:create \\
+&& script/backpack -R \\
+&& rake db:migrate \\
+&& rails test:prepare \\
+&& rails api:parallel_cache
+: 1583484791:0;vi
+: 1583487602:0;jt personal
+: 1583487604:0;la
+: 1583487607:0;cd kuru-anime
+: 1583487608:0;la
+: 1583487612:0;cd website-application
+: 1583487613:0;cd server
+: 1583487614:0;la
+: 1583491969:0;jt dotfiles
+: 1583491970:0;la
+: 1583491981:0;vi
+: 1583492049:0;g d
+: 1583492059:0;g g "add jake to global yarn"
+: 1583496480:0;g pl
+: 1583496500:0;g lol
+: 1583496516:0;g reset
+: 1583496519:0;g reset if x > 2\
+   puts "x is greater than 2"\
+elsif x <= 2 and x!=0\
+   puts "x is 1"\
+else\
+   puts "I can't guess the number"\
+end
+: 1583496524:0;g reset 26233dd
+: 1583496526:0;g d
+: 1583496529:0;g lol
+: 1583496533:0;g pl
+: 1583496544:0;g lol
+: 1583496555:0;g s
+: 1583496556:0;g d
+: 1583496561:0;g g "add jake to global yarn"
+: 1583506416:0;jt personal
+: 1583506417:0;la
+: 1583506426:0;cd kuru-anime/website-application/client
+: 1583506428:0;vi
+: 1583506454:0;g d
+: 1583506455:0;g pl
+: 1583506469:0;g d
+: 1583506482:0;g g "[Hotfix] Remove the current team members section on the README.md"
+: 1583550782:0;jt personal
+: 1583550783:0;la
+: 1583550785:0;cd kuru-anime
+: 1583550786:0;la
+: 1583550788:0;cd website-application
+: 1583550788:0;la
+: 1583550790:0;cd server
+: 1583550790:0;la
+: 1583550791:0;g pl
+: 1583550795:0;g sync master
+: 1583550832:0;g pl
+: 1583550836:0;g co master
+: 1583550838:0;g sync master
+: 1583552272:0;la
+: 1583552443:0;g pl
+: 1583552461:0;g co issue-50-Rewrite_everything_in_TypeScript_Koa
+: 1583552466:0;la
+: 1583552502:0;rm -rf vendor tmp test storage public public log lib entrypoint.sh docker-compose.yml db config.ru config bin app Rakefile README.md Gemfile.lock Gemfile Dockerfile .ruby-version .byebug_history
+: 1583552504:0;la
+: 1583552508:0;vi
+: 1583552530:0;../client
+: 1583552531:0;la
+: 1583552533:0;vi
+: 1583552551:0;../server
+: 1583552551:0;la
+: 1583552553:0;g d
+: 1583552554:0;g s
+: 1583552557:0;vi
+: 1583552570:0;rm -rf .gitignore
+: 1583552579:0;cp ../client/.gitignore ./.gitignore
+: 1583552580:0;la
+: 1583552582:0;vi
+: 1583552605:0;g g "clean rails files"
+: 1583553361:0;../client
+: 1583553363:0;g pl
+: 1583553368:0;la
+: 1583553371:0;vi README.md
+: 1583553414:0;g d
+: 1583553435:0;g g "[Hotfix] Remove people that still has no contributions on the contribute section of README.md"
+: 1583553505:0;la
+: 1583553513:0;yarn init -y
+: 1583553518:0;g d
+: 1583553519:0;g s
+: 1583553521:0;vi
+: 1583553540:0;g g "initialize node"
+: 1583553598:0;g co master -- Procfile
+: 1583553604:0;g co master -- README.md
+: 1583553606:0;g d
+: 1583553607:0;g s
+: 1583553612:0;g st
+: 1583556584:0;echo "# Kuru Anime (Server)" >> README.md
+: 1583556588:0;g a
+: 1583556595:0;g g "add README.md"
+: 1583556958:0;la
+: 1583556977:0;yarn add koa
+: 1583556980:0;la
+: 1583556981:0;g d
+: 1583556987:0;g g "add koa to the dependencies"
+: 1583557361:0;la
+: 1583557509:0;jt dotfiles
+: 1583557511:0;vi
+: 1583557573:0;g d
+: 1583557576:0;g pl
+: 1583557588:0;g g "add ts-node"
+: 1583557628:0;yarn add -D typescript ts-node
+: 1583557636:0;vi
+: 1583557693:0;g d
+: 1583557713:0;vi
+: 1583557734:0;g g "add ts-node and typescript to dev dependencies"
+: 1583557788:0;g d
+: 1583557803:0;g co master
+: 1583558273:0;g sync master
+: 1583576238:0;la
+: 1583576242:0;..
+: 1583576242:0;la
+: 1583576252:0;cd server
+: 1583576252:0;la
+: 1583576261:0;cp ../.gitmodules .
+: 1583576262:0;g d
+: 1583576263:0;g s
+: 1583576265:0;vi
+: 1583577004:0;g d
+: 1583577006:0;g a
+: 1583577033:0;g g "[Hotfix] Add discord-bot as a git submodule"
+: 1583577062:0;la
+: 1583577068:0;vi
+: 1583577096:0;g g "[Hotfix] Rename the submodule path from discord-bot to bot"
+: 1583577143:0;vi
+: 1583577162:0;mkdir bot
+: 1583577180:0;cd bot
+: 1583577181:0;g pl
+: 1583577279:0;la
+: 1583577280:0;..
+: 1583577284:0;git pull --recurse-submodules
+: 1583577292:0;la
+: 1583577295:0;cd bot
+: 1583577296:0;la
+: 1583577308:0;cp ../../server/.git
+: 1583577353:0;la
+: 1583577360:0;..
+: 1583577361:0;la
+: 1583577363:0;rm -rf bot
+: 1583577396:0;g clone git@github.com:kuru-project/discord-bot.git bot
+: 1583577404:0;la
+: 1583577417:0;g g "[Hotfix] Pull discord-bot into the repository"
+: 1583577447:0;rm -rf .gitmodules bot
+: 1583577461:0;git submodule add git@github.com:kuru-project/discord-bot.git bot
+: 1583577488:0;g st
+: 1583577844:0;la
+: 1583577857:0;....
+: 1583577858:0;la
+: 1583577862:0;rm -rf kuru-anime
+: 1583577966:0;mkdir kuru-anime
+: 1583577969:0;cd kuru-anime
+: 1583577986:0;git clone --recurse-submodules https://github.com/kuru-project/main-website.git main-website
+: 1583578029:0;la
+: 1583578031:0;cd main-website
+: 1583578032:0;la
+: 1583578034:0;cd server
+: 1583578035:0;la
+: 1583578041:0;g pl
+: 1583578049:0;g pl origin master
+: 1583578056:0;la
+: 1583578059:0;cd bot
+: 1583578060:0;la
+: 1583578063:0;..
+: 1583578063:0;la
+: 1583578074:0;rm -rf bot .gitmodules
+: 1583578079:0;la
+: 1583578091:0;g g "[Hotfix] Remove bot submodule"
+: 1583578106:0;g co master
+: 1583578107:0;la
+: 1583578111:0;g lol
+: 1583578116:0;g so
+: 1583578128:0;g pl
+: 1583578136:0;g pl origin master
+: 1583578142:0;rm -rf bot .gitmodules
+: 1583578146:0;g g "[Hotfix] Remove bot submodule"
+: 1583578187:0;../client
+: 1583578190:0;g pl
+: 1583578208:0;g pl origin master
+: 1583578219:0;g so
+: 1583578224:0;g pl
+: 1583578232:0;g pl origin master
+: 1583578240:0;la
+: 1583578242:0;..
+: 1583578243:0;la
+: 1583578247:0;g so
+: 1583578253:0;cd server
+: 1583578254:0;la
+: 1583582115:0;git submodule add git@github.com:kuru-project/discord-bot.git bot
+: 1583582132:0;la
+: 1583582135:0;g d
+: 1583582136:0;g s
+: 1583582140:0;vi .gitmodules
+: 1583582158:0;cd bot
+: 1583582159:0;la
+: 1583582160:0;..
+: 1583582161:0;la
+: 1583582163:0;g d
+: 1583582183:0;g g "[Hotfix] Add discord-bot as a git submodule"
+: 1583582233:0;...
+: 1583582236:0;cd main-website
+: 1583582237:0;la
+: 1583582247:0;rm -rf dev.sh
+: 1583582249:0;cd client
+: 1583582250:0;g pl
+: 1583582260:0;g pl origin master
+: 1583582267:0;g lol
+: 1583582270:0;..
+: 1583582271:0;la
+: 1583582275:0;cd server
+: 1583582293:0;g lol
+: 1583582298:0;g remote -v
+: 1583582300:0;../client
+: 1583582301:0;la
+: 1583582307:0;g remote -v
+: 1583582308:0;..
+: 1583582308:0;la
+: 1583582311:0;cd client
+: 1583582312:0;la
+: 1583582315:0;g pl origin master
+: 1583582328:0;../server
+: 1583582332:0;g pl origin master
+: 1583582339:0;..
+: 1583582341:0;la
+: 1583582345:0;cd server/bot
+: 1583582346:0;la
+: 1583582354:0;git remote -v
+: 1583582361:0;g so
+: 1583582368:0;..
+: 1583582368:0;la
+: 1583582373:0;..
+: 1583582374:0;la
+: 1583582387:0;vi
+: 1583582403:0;g d
+: 1583582408:0;g s
+: 1583582412:0;g co dev.sh
+: 1583582414:0;g s
+: 1583582437:0;g g "[Hotfix] Update both client and server"
+: 1583585012:0;vi
+: 1583587466:0;down
