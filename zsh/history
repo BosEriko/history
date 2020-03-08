@@ -6765,3 +6765,282 @@ end
 : 1583582437:0;g g "[Hotfix] Update both client and server"
 : 1583585012:0;vi
 : 1583587466:0;down
+: 1583588271:0;la
+: 1583588275:0;vi dev.sh
+: 1583629650:0;la
+: 1583629655:0;jt personal
+: 1583629657:0;la
+: 1583629665:0;cd kuru-anime/main-website/server/bot
+: 1583629666:0;la
+: 1583629680:0;mv Procfile ..
+: 1583629681:0;g d
+: 1583629692:0;g g "[Hotfix] Remove procfile"
+: 1583629714:0;..
+: 1583629715:0;la
+: 1583629727:0;vi Procfile
+: 1583629873:0;g s
+: 1583629883:0;g g "[Hotfix] Add procfile"
+: 1583630249:0;vi
+: 1583630291:0;g d
+: 1583630302:0;g g "[Hotfix] Update procfile"
+: 1583630437:0;vi
+: 1583630515:0;g g "[Hotfix] Add workspace for bot"
+: 1583630752:0;la
+: 1583630754:0;vi
+: 1583630764:0;g d
+: 1583630770:0;g s
+: 1583630775:0;yarn install
+: 1583631286:0;g d
+: 1583631289:0;g s
+: 1583631292:0;yarn install
+: 1583631617:0;node --version
+: 1583631620:0;npm --version
+: 1583631624:0;yarn --version
+: 1583631651:0;jt dotfiles
+: 1583631654:0;vi
+: 1583631789:0;g d
+: 1583631792:0;nvm install 12.16.1\
+
+: 1583631801:0;rm -rf node_modules
+: 1583631805:0;la
+: 1583631806:0;g d
+: 1583631890:0;node --version
+: 1583631985:0;g d
+: 1583631992:0;vi
+: 1583632017:0;g g "add version for node"
+: 1583632052:0;nvm --help
+: 1583632059:0;nvm list
+: 1583632064:0;node --version
+: 1583632077:0;vi
+: 1583632123:0;nvm install lts
+: 1583632187:0;nvm install lts/*
+: 1583632195:0;g d
+: 1583632202:0;jt personal
+: 1583632203:0;la
+: 1583632205:0;node --version
+: 1583632295:0;jt dotfiles
+: 1583632296:0;vi
+: 1583632315:0;nvm use 12.16.1\
+
+: 1583632320:0;g d
+: 1583632329:0;g g "set node version globally"
+: 1583632392:0;jt personal
+: 1583632393:0;la
+: 1583632402:0;node --version
+: 1583632404:0;nvm use 12.16.1\
+
+: 1583632412:0;nvm use 12.16.1
+: 1583632712:0;node --version
+: 1583632717:0;cd kuru-anime/main-website/server/bot
+: 1583632718:0;..
+: 1583632719:0;la
+: 1583632727:0;g d
+: 1583632730:0;yarn install
+: 1583633669:0;npm list -g --depth=0
+: 1583633687:0;npm --version
+: 1583633691:0;bos -h
+: 1583633703:0;bos -y list
+: 1583633716:0;bos -y upgrade
+: 1583633729:0;bos -y list
+: 1583633746:0;~/.dotfiles/install/modules/node.sh
+: 1583638634:0;la
+: 1583638636:0;../
+: 1583638637:0;la
+: 1583638638:0;cd client
+: 1583638638:0;la
+: 1583638642:0;g pl
+: 1583638653:0;g pl origin master
+: 1583638746:0;g br
+: 1583638749:0;g b
+: 1583641750:0;../server
+: 1583641751:0;la
+: 1583641755:0;yarn isntall
+: 1583641763:0;yarn install
+: 1583642147:0;../client
+: 1583642148:0;la
+: 1583642149:0;rm -rf node_modules
+: 1583642151:0;g d
+: 1583642153:0;vi
+: 1583642165:0;g pl
+: 1583642173:0;g pl origin master
+: 1583642190:0;g a
+: 1583642208:0;yarn install
+: 1583642263:0;g d
+: 1583642264:0;g s
+: 1583642281:0;g g "[Hotfix] Add yarn.lock back"
+: 1583642292:0;g lol
+: 1583642298:0;g co master
+: 1583642300:0;g d
+: 1583642301:0;g s
+: 1583642312:0;git reset --hard origin/master
+: 1583642404:0;g pl
+: 1583642417:0;git branch --set-upstream-to=origin/master master
+: 1583642420:0;g pl
+: 1583642432:0;g ps
+: 1583642449:0;g d
+: 1583642450:0;g s
+: 1583642460:0;g d
+: 1583642461:0;g s
+: 1583642463:0;vi
+: 1583642482:0;g d
+: 1583642486:0;g g "[Hotfix] Add yarn.lock back"
+: 1583642530:0;../server
+: 1583642531:0;g d
+: 1583642534:0;vi
+: 1583642548:0;g d
+: 1583642551:0;cd bot
+: 1583642552:0;la
+: 1583642558:0;vi
+: 1583642597:0;g d
+: 1583642602:0;rm -rf node_modules
+: 1583642603:0;g d
+: 1583642614:0;g g "[Hotfix] Remove Firebase"
+: 1583642638:0;vi
+: 1583642654:0;g d
+: 1583642664:0;g g "[Hotfix] Add package-lock.json to gitignore"
+: 1583642698:0;yarn install
+: 1583642709:0;g d
+: 1583642710:0;g s
+: 1583642718:0;vi
+: 1583642731:0;..
+: 1583642731:0;la
+: 1583642733:0;g d
+: 1583642737:0;yarn install
+: 1583642742:0;g d
+: 1583642743:0;g s
+: 1583642750:0;cd bot
+: 1583642750:0;la
+: 1583642754:0;g d
+: 1583642755:0;g s
+: 1583642759:0;g lol
+: 1583642764:0;..
+: 1583642765:0;la
+: 1583642768:0;g s
+: 1583642778:0;g g "[Hotfix] Add yarn.lock back"
+: 1583642832:0;g d
+: 1583642833:0;g s
+: 1583642906:0;g d
+: 1583642908:0;g s
+: 1583642910:0;vi
+: 1583642940:0;g d
+: 1583642942:0;vi
+: 1583642985:0;cd bot
+: 1583642985:0;la
+: 1583642986:0;g d
+: 1583642999:0;g g "[Hotfix] Change workspace name to discord-bot"
+: 1583643048:0;..
+: 1583643049:0;la
+: 1583643049:0;g d
+: 1583643051:0;g s
+: 1583643055:0;g g "[Hotfix] Change workspace name to discord-bot"
+: 1583643166:0;yarn workspace bot start
+: 1583643183:0;yarn workspace discord-bot start
+: 1583643188:0;vi
+: 1583643193:0;yarn workspace
+: 1583643196:0;yarn workspace list
+: 1583643200:0;yarn workspace --help
+: 1583643214:0;man yarn workspace
+: 1583643235:0;vi
+: 1583643258:0;g d
+: 1583643261:0;cd bot
+: 1583643262:0;g d
+: 1583643267:0;g g "[Hotfix] Change workspace name to bot"
+: 1583643284:0;..
+: 1583643287:0;g g "[Hotfix] Change workspace name to bot"
+: 1583643338:0;yarn workspace bot start
+: 1583643442:0;vi
+: 1583643455:0;cd bot
+: 1583643456:0;vi
+: 1583643496:0;cd bot
+: 1583643498:0;tsc
+: 1583653911:0;..
+: 1583653913:0;vi
+: 1583654010:0;g st
+: 1583654011:0;cd bot
+: 1583654013:0;g st
+: 1583654014:0;..
+: 1583654014:0;la
+: 1583655976:0;vi
+: 1583656033:0;g d
+: 1583656055:0;g g "[Hotfix] Update procfile to pull bot as well"
+: 1583656207:0;vi
+: 1583656318:0;heroku
+: 1583656322:0;heroku auth:whoami
+: 1583656332:0;heroku auth:logout
+: 1583656362:0;heroku auth:login
+: 1583656397:0;yarn deploy
+: 1583656578:0;heroku --help
+: 1583656584:0;heroku apps
+: 1583656593:0;tldr heroku
+: 1583656676:0;vi
+: 1583656699:0;yarn connect
+: 1583656705:0;git remote -v
+: 1583656708:0;yarn deploy
+: 1583656722:0;g s
+: 1583656723:0;g d
+: 1583656775:0;vi
+: 1583656809:0;g d
+: 1583656828:0;g g "[Hotfix] Add script for deploying and connecting"
+: 1583656856:0;yarn deploy
+: 1583657006:0;vi
+: 1583657127:0;yarn deploy
+: 1583657188:0;g d
+: 1583657214:0;g g "[Hotfix] Add more scripts and fix submodule problem on heroku"
+: 1583657370:0;cd bot
+: 1583657371:0;la
+: 1583657373:0;vi
+: 1583657621:0;g d
+: 1583657655:0;g g "[Hotfix] Remove typescript on the dependencies"
+: 1583657696:0;g d
+: 1583657706:0;vi
+: 1583657844:0;yarn add dotenv
+: 1583657917:0;vi
+: 1583657939:0;g d
+: 1583657959:0;g g "[Hotfix] Add .env and cleanup"
+: 1583658007:0;la
+: 1583658074:0;vi
+: 1583658093:0;g d
+: 1583658096:0;touch sample.env
+: 1583658098:0;vi
+: 1583658124:0;g d
+: 1583658125:0;g s
+: 1583658131:0;g g "[Hotfix] Add sample.env"
+: 1583658170:0;g d
+: 1583658172:0;touch .env
+: 1583658176:0;vi
+: 1583658249:0;g d
+: 1583658251:0;..
+: 1583658252:0;la
+: 1583658253:0;g s
+: 1583658255:0;g d
+: 1583658263:0;g s
+: 1583658265:0;g d
+: 1583658278:0;g g "[Hotfix] Add .env for bot"
+: 1583658305:0;yarn deploy
+: 1583658362:0;vi
+: 1583658392:0;cd bot
+: 1583658393:0;la
+: 1583658394:0;g d
+: 1583658404:0;yarn install
+: 1583658409:0;g d
+: 1583658410:0;g s
+: 1583658411:0;g d
+: 1583658436:0;g g "[Hotfix] Move TypeScript to dependency"
+: 1583658458:0;..
+: 1583658459:0;la
+: 1583658467:0;g s
+: 1583658468:0;g d
+: 1583658475:0;g g "[Hotfix] Move TypeScript to dependency for bot"
+: 1583658503:0;yarn deploy
+: 1583659800:0;cd bot
+: 1583659805:0;vi
+: 1583660571:0;\
+\
+
+: 1583660573:0;..
+: 1583660574:0;la
+: 1583660575:0;vi
+: 1583660583:0;g d
+: 1583660593:0;g g "[Hotfix] Rename worker to discord on Procfile"
+: 1583660683:0;yarn deploy
+: 1583662071:0;down
