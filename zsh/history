@@ -7044,3 +7044,185 @@ end
 : 1583660593:0;g g "[Hotfix] Rename worker to discord on Procfile"
 : 1583660683:0;yarn deploy
 : 1583662071:0;down
+: 1583662912:0;vi
+: 1583663013:0;g d
+: 1583663057:0;g g "[Hotfix] Reduce dyno to 1"
+: 1583663106:0;vi
+: 1583663125:0;yarn deploy
+: 1583663545:0;vi
+: 1583664330:0;g d
+: 1583664333:0;yarn deploy
+: 1583664374:0;g d
+: 1583664387:0;g g "[Hotfix] Add simple KOA"
+: 1583664445:0;yarn deploy
+: 1583664504:0;vi
+: 1583664520:0;g d
+: 1583664528:0;g s
+: 1583664530:0;g d
+: 1583664543:0;g g "[Hotfix} Move ts-node to dependency" && yarn deploy
+: 1583664628:0;vi
+: 1583664659:0;g g "[Hotfix] Change how Procfile is being handled" && yarn deploy
+: 1583664864:0;g d
+: 1583664865:0;vi
+: 1583664944:0;g d
+: 1583664970:0;g g "[Hotfix] Change back to 2 workers" && yarn deploy
+: 1583673836:0;la
+: 1583673839:0;jt personal
+: 1583673840:0;la
+: 1583673842:0;cd kuru-anime
+: 1583673842:0;la
+: 1583673844:0;cd main-website
+: 1583673845:0;la
+: 1583673846:0;cd server
+: 1583673847:0;la
+: 1583673885:0;rm -rf bot .gitmodules
+: 1583673888:0;vi
+: 1583673951:0;g g "[Hotfix] Remove bot submodule"
+: 1583674035:0;la
+: 1583674036:0;..
+: 1583674037:0;la
+: 1583674040:0;..
+: 1583674041:0;la
+: 1583674072:0;g clone git@github.com:kuru-project/discord-bot.git
+: 1583674083:0;cd discord-bot
+: 1583674084:0;g so
+: 1583674088:0;la
+: 1583674093:0;..
+: 1583674094:0;la
+: 1583674095:0;cd main-website
+: 1583674096:0;la
+: 1583674098:0;cd server
+: 1583674098:0;la
+: 1583674100:0;vi
+: 1583674254:0;g lol
+: 1583674259:0;g remote -v
+: 1583674269:0;g so
+: 1583674347:0;la
+: 1583674536:0;..
+: 1583674537:0;la
+: 1583674538:0;..
+: 1583674539:0;la
+: 1583674541:0;cd discord-bot
+: 1583674541:0;la
+: 1583674556:0;cp ../main-website/server/Procfile ./
+: 1583674557:0;g d
+: 1583674558:0;g s
+: 1583674560:0;vi
+: 1583674597:0;g d
+: 1583674599:0;g s
+: 1583674608:0;g g "[Hotfix] Add Procfile"
+: 1583674768:0;vi
+: 1583674777:0;yarn install
+: 1583674791:0;g d
+: 1583674793:0;g s
+: 1583674802:0;g g "[Hotfix] Add yarn.lock back"
+: 1583674965:0;la
+: 1583674967:0;..
+: 1583674968:0;la
+: 1583674970:0;cd main-website
+: 1583674971:0;la
+: 1583674972:0;cd server
+: 1583674972:0;la
+: 1583675079:0;yarn add @types/node
+: 1583675084:0;g d
+: 1583675086:0;g s
+: 1583675091:0;g d package.json
+: 1583675104:0;g g "[Hotfix] Add types for node"
+: 1583675848:0;gtop
+: 1583676656:0;vi
+: 1583677174:0;...
+: 1583677174:0;la
+: 1583677177:0;cd discord-bot
+: 1583677177:0;la
+: 1583677178:0;vi
+: 1583720233:0;jt personal
+: 1583720234:0;la
+: 1583720238:0;cd kuru-anime
+: 1583720307:0;la
+: 1583720309:0;cd discord-bot
+: 1583720310:0;la
+: 1583720311:0;vi
+: 1583720344:0;tldr ts-node
+: 1583720350:0;man ts-node
+: 1583720355:0;ts-node --help
+: 1583721122:0;vi
+: 1583721495:0;g d
+: 1583721501:0;g pl
+: 1583721519:0;g co issue-6-Clean_unused_files
+: 1583721522:0;vi
+: 1583722785:0;g d
+: 1583722790:0;yarn install
+: 1583722796:0;g g "clean"
+: 1583722865:0;yarn start
+: 1583722924:0;g d
+: 1583722925:0;g s
+: 1583722929:0;g co master
+: 1583723097:0;g co issue-6-Clean_unused_files
+: 1583723099:0;la
+: 1583723100:0;vi
+: 1583723116:0;g g "update template issues for PR"
+: 1583723161:0;g co master
+: 1583723261:0;vi
+: 1583723276:0;la
+: 1583723374:0;g sync master
+: 1583723718:0;vi
+: 1583723743:0;g d
+: 1583723754:0;g g "[Hotfix] Add comments to gitignore"
+: 1583727396:0;g pl
+: 1583727448:0;..
+: 1583727449:0;la
+: 1583727450:0;cd main-website
+: 1583727451:0;la
+: 1583727453:0;cd server
+: 1583727453:0;la
+: 1583727724:0;../client
+: 1583727725:0;la
+: 1583727730:0;g d
+: 1583727731:0;g s
+: 1583727732:0;vi
+: 1583727739:0;g syncm master
+: 1583727742:0;g sync master
+: 1583729942:0;g co issue-45-Create_a_Header_and_a_Footer_component_and_put_it_inside_Next_s_main_layout
+: 1583729947:0;g pl origin master
+: 1583729957:0;g lol
+: 1583729971:0;vi
+: 1583730284:0;yarn dev
+: 1583730591:0;vi
+: 1583730639:0;yarn dev
+: 1583733877:0;g d
+: 1583733885:0;vi
+: 1583733920:0;g d
+: 1583733935:0;g s
+: 1583733944:0;g co pages/index.tsx
+: 1583733956:0;g d
+: 1583734016:0;g s
+: 1583734023:0;g g "add footer and header"
+: 1583734671:0;vi
+: 1583734734:0;g d
+: 1583734754:0;g g "update react fragment to header and footer"
+: 1583736497:0;g co master
+: 1583736500:0;g sync master
+: 1583810143:0;jt dotfiles
+: 1583810144:0;vi
+: 1583810340:0;g d
+: 1583810383:0;g g "remove spacing on yabai"
+: 1583811899:0;la
+: 1583811963:0;vi
+: 1583820083:0;g d
+: 1583820086:0;jt personal
+: 1583820086:0;la
+: 1583820088:0;cd kuru-anime
+: 1583820088:0;la
+: 1583820091:0;cd main-website
+: 1583820094:0;cd client
+: 1583820094:0;la
+: 1583820095:0;g pl
+: 1583831841:0;g co issue-60-Create_2_empty_pages_for_Mission_and_Vision
+: 1583831843:0;g co master
+: 1583831844:0;g pl
+: 1583831871:0;g co issue-60-Create_2_empty_pages_for_Mission_and_Vision
+: 1583833335:0;vi
+: 1583835762:0;htop
+: 1583836871:0;jt dotfiles
+: 1583836874:0;vi
+: 1583836979:0;down
