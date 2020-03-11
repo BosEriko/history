@@ -7226,3 +7226,64 @@ end
 : 1583836871:0;jt dotfiles
 : 1583836874:0;vi
 : 1583836979:0;down
+: 1583837270:0;vi
+: 1583838176:0;g d
+: 1583838196:0;g g "add status-bar"
+: 1583838230:0;bos -h
+: 1583838233:0;bos -f matrix
+: 1583838245:0;vi
+: 1583838277:0;g g "bring back the border"
+: 1583838327:0;vi
+: 1583838410:0;g d
+: 1583838422:0;g g "add music icon and a reference to the fonts"
+: 1583838443:0;vi
+: 1583838995:0;g d
+: 1583839012:0;vi
+: 1583839033:0;g d
+: 1583839037:0;vi
+: 1583839066:0;brew cast list | grep "font"
+: 1583839074:0;brew cask list | grep "font"
+: 1583839202:0;g d
+: 1583839209:0;g g "add instruction for status bar"
+: 1583839232:0;vi
+: 1583839383:0;g d
+: 1583839397:0;g g "fix grammar and instructions"
+: 1583839501:0;vi
+: 1583839804:0;g d
+: 1583839829:0;g g "add font awesome to the list"
+: 1583839918:0;vi
+: 1583840107:0;g d
+: 1583840115:0;g g "update the icon of empty desktop on yabai status bar"
+: 1583845450:0;htop
+: 1583845523:0;bos -h
+: 1583845531:0;bos -f pipes
+: 1583845552:0;vi
+: 1583846213:0;g d
+: 1583846217:0;g g "bring back opacity"
+: 1583846451:0;jt personal
+: 1583846452:0;la
+: 1583846455:0;cd kuru-anime
+: 1583846456:0;la
+: 1583846458:0;cd main-website
+: 1583846459:0;la
+: 1583846463:0;cd client
+: 1583846463:0;la
+: 1583846466:0;vi
+: 1583846524:0;g g "add the page"
+: 1583846665:0;g co master
+: 1583846666:0;g pl
+: 1583846687:0;g sync master
+: 1583847807:0;jt personal
+: 1583847808:0;la
+: 1583847810:0;jt dotfiles
+: 1583847811:0;la
+: 1583847812:0;vi
+: 1583847856:0;g d
+: 1583847867:0;g lol
+: 1583847873:0;g g "remove opacity"
+: 1583848478:0;jt personal
+: 1583848481:0;la
+: 1583903182:0;jt dotfiles
+: 1583903183:0;vi
+: 1583903215:0;tldr stow
+: 1583904378:0;down
