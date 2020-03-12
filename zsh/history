@@ -7287,3 +7287,100 @@ end
 : 1583903183:0;vi
 : 1583903215:0;tldr stow
 : 1583904378:0;down
+: 1583904430:0;jt ops
+: 1583904434:0;vi
+: 1583935340:0;down
+: 1583983695:0;jt ops
+: 1583983697:0;vi
+: 1583984613:0;g d
+: 1583984624:0;g a
+: 1583984633:0;gwip duplicate catalog id
+: 1583985599:0;jt dotfiles
+: 1583985600:0;vi
+: 1583986315:0;g d
+: 1583986326:0;vi
+: 1583986346:0;g d
+: 1583986362:0;g g 'change icons'
+: 1584004163:0;irb
+: 1584005403:0;g a
+: 1584005419:0;gwip check duplicate
+: 1584005485:0;g lol
+: 1584005490:0;g ps
+: 1584005787:0;jt personal
+: 1584005789:0;la
+: 1584005792:0;kuru-anime
+: 1584005798:0;main-website
+: 1584005801:0;client
+: 1584005802:0;la
+: 1584005996:0;jt dotfiles
+: 1584005997:0;vi
+: 1584009249:0;la
+: 1584009831:0;bos -h
+: 1584009845:0;bos -cpu usage
+: 1584009852:0;bos -cpu temp
+: 1584010108:0;vi
+: 1584010175:0;g pl
+: 1584010193:0;g co issue-35-Add_a_JavaScript_Style_Guide_on_the_README
+: 1584010195:0;g d
+: 1584010203:0;g g 'add style guide'
+: 1584010342:0;g co master
+: 1584010346:0;g sync master
+: 1584010450:0;g pl
+: 1584010511:0;g co issue-48-Link_Twitter_Facebook_Discord_on_the_Footer_and_Header
+: 1584010549:0;vi
+: 1584010565:0;yarn dev
+: 1584010832:0;g d
+: 1584010836:0;g a
+: 1584010854:0;g g "add social media component and import it on footer and header"
+: 1584011052:0;g co master
+: 1584011055:0;g sync master
+: 1584011157:0;g pl
+: 1584011188:0;g co issue-63-Create_an_empty_opensource_page
+: 1584011189:0;vi
+: 1584011230:0;g d
+: 1584011233:0;g s
+: 1584011239:0;g g "add open source page"
+: 1584011413:0;g co master
+: 1584011419:0;g sync master
+: 1584011438:0;g pl master
+: 1584011446:0;g pl
+: 1584011519:0;g co issue-51-Create_an_empty_page_for_team_members
+: 1584011525:0;g pl origin master
+: 1584011531:0;g lol
+: 1584011549:0;vi
+: 1584011581:0;g g "add a team page"
+: 1584011761:0;g co master
+: 1584011763:0;g sync master
+: 1584012436:0;g pl master
+: 1584012440:0;g pl
+: 1584012522:0;issue-49-Create_a_simple_Navigation_on_the_Header
+: 1584012524:0;g co issue-49-Create_a_simple_Navigation_on_the_Header
+: 1584012526:0;vi
+: 1584013115:0;g g "fix pages and add links to header and footer"
+: 1584013139:0;g co master
+: 1584013295:0;g sync master
+: 1584013435:0;la
+: 1584013436:0;g pl
+: 1584013447:0;g co issue-53-Work_on_the_front-end-checklist
+: 1584013448:0;vi
+: 1584013619:0;g d
+: 1584013620:0;g s
+: 1584013623:0;g co pages/index.tsx
+: 1584013624:0;vi
+: 1584013945:0;g d
+: 1584013950:0;g g "add meta tags"
+: 1584014204:0;vi
+: 1584014816:0;g co master
+: 1584014819:0;g sync master
+: 1584014867:0;g co issue-40-Add_Ant_Design_to_the_project
+: 1584014869:0;g pl master
+: 1584014873:0;g pl origin master
+: 1584014914:0;vi
+: 1584014917:0;yarn add antd
+: 1584015065:0;g d
+: 1584015069:0;g a
+: 1584015079:0;g g "add ant design and import it"
+: 1584015194:0;g co master && g sync master
+: 1584015266:0;htop
+: 1584027663:0;la
+: 1584027668:0;down
