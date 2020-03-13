@@ -7384,3 +7384,41 @@ end
 : 1584015266:0;htop
 : 1584027663:0;la
 : 1584027668:0;down
+: 1584068971:0;jt ops
+: 1584068972:0;la
+: 1584068974:0;vi
+: 1584069003:0;g d
+: 1584069011:0;script/backpack -l --skip-assets
+: 1584069096:0;heroku auth:logout && heroku auth:login
+: 1584069130:0;script/backpack -l --skip-assets
+: 1584069751:0;rake db:drop \\
+&& rake db:create \\
+&& script/backpack -R \\
+&& rake db:migrate \\
+&& rails test:prepare \\
+&& rails api:parallel_cache
+: 1584071017:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
+: 1584071137:0;g d
+: 1584071154:0;g g "call merge"
+: 1584072397:0;..
+: 1584072399:0;jt personal
+: 1584072400:0;la
+: 1584072404:0;cd kuru-anime
+: 1584072405:0;la
+: 1584072406:0;ma
+: 1584072408:0;main-website
+: 1584072409:0;la
+: 1584072411:0;ser
+: 1584072416:0;server
+: 1584072419:0;g pl
+: 1584072441:0;g sync master
+: 1584072468:0;vi
+: 1584072540:0;g pl
+: 1584073571:0;vi
+: 1584073617:0;g pl
+: 1584073630:0;g co issue-57-Add_a_JavaScript_Style_Guide_on_the_README
+: 1584073635:0;g d
+: 1584073642:0;vi
+: 1584073651:0;g g "add style guide link"
+: 1584073775:0;g co master && g sync master
+: 1584073853:0;down
