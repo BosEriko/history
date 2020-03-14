@@ -7422,3 +7422,92 @@ end
 : 1584073651:0;g g "add style guide link"
 : 1584073775:0;g co master && g sync master
 : 1584073853:0;down
+: 1584089653:0;..
+: 1584089653:0;la
+: 1584089654:0;..
+: 1584089655:0;la
+: 1584089660:0;rm -rf *
+: 1584091114:0;jt ops
+: 1584091188:0;script/deploy -B --skip-migrations -f f
+: 1584091225:0;script/deploy -B --skip-migrations -f
+: 1584091862:0;heroku run bash -r staging
+: 1584091920:0;vi
+: 1584093209:0;jt dotfiles
+: 1584093214:0;vi
+: 1584093254:0;g d
+: 1584093277:0;g g "move music icon to the most left"
+: 1584093306:0;down
+: 1584094840:0;l
+: 1584094841:0;la
+: 1584094844:0;jt ops
+: 1584094934:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_march_2020.csv"\]
+: 1584095065:0;heroku run rake catalog_items:update_catalog_items["oneoff/1_catalog_item_update_march_2020.csv"] -r staging
+: 1584095073:0;heroku run rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_march_2020.csv"\] -r staging
+: 1584095299:0;g co master
+: 1584095301:0;g pl
+: 1584095316:0;git checkout hotfix-production
+: 1584095319:0;g pl
+: 1584095337:0;script/deploy -B --skip-migrations -f
+: 1584095738:0;script/deploy --skip-migrations -f
+: 1584101556:0;la
+: 1584101559:0;jt personal
+: 1584101560:0;la
+: 1584101564:0;cd kuru-anime
+: 1584101565:0;la
+: 1584101776:0;g clone git@github.com:BosEriko/discord-bot.git
+: 1584101911:0;cd discord-bot
+: 1584101914:0;g so
+: 1584101943:0;git remote --help
+: 1584101955:0;git remote remove github
+: 1584101969:0;git remote add github git@github.com:BosEriko/discord-bot.git
+: 1584101971:0;git remote -v
+: 1584102684:0;jt dotfiles
+: 1584102685:0;vi
+: 1584102715:0;g so
+: 1584102796:0;la
+: 1584102808:0;git remote -v
+: 1584102817:0;git remote rm bitbucket
+: 1584102820:0;git remote rm github
+: 1584102822:0;git remote rb gitlab
+: 1584102825:0;git remote rm gitlab
+: 1584102829:0;git remote rm origin
+: 1584102832:0;git remote -v
+: 1584103038:0;g so
+: 1584103056:0;git remote -v
+: 1584103063:0;git remote rm bitbucket github gitlab origin
+: 1584103067:0;git remote rm bitbucket
+: 1584103070:0;git remote rm gitlab
+: 1584103072:0;git remote rm github
+: 1584103076:0;git remote rm origin
+: 1584103077:0;git remote -v
+: 1584103083:0;g so
+: 1584103130:0;git remote add fork git@github.com:BosEriko/discord-bot.git
+: 1584103133:0;git remote -v
+: 1584103143:0;echo "hello" >> test.text
+: 1584103149:0;git add .
+: 1584103153:0;git commit -m "test"
+: 1584103162:0;git push github master
+: 1584103177:0;la
+: 1584103184:0;git push fork master
+: 1584103201:0;git reset --hard origin/master
+: 1584103208:0;git pull
+: 1584103219:0;git branch --set-upstream-to=origin/master master
+: 1584103224:0;git reset --hard origin/master
+: 1584103226:0;g lol
+: 1584103243:0;g ps --force fork master
+: 1584103318:0;g pl
+: 1584103333:0;g co issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584103338:0;vi
+: 1584103544:0;yarn install
+: 1584104794:0;g d
+: 1584104878:0;yarn add eslint
+: 1584104886:0;g d
+: 1584104894:0;g a
+: 1584104919:0;g commit -m "install eslint"
+: 1584104922:0;g a
+: 1584104970:0;g c -m "remove tslint flag on index.ts"
+: 1584104977:0;g bnc
+: 1584104983:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website\
+
+: 1584105080:0;g remote -v
+: 1584155747:0;down
