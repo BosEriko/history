@@ -7511,3 +7511,103 @@ end
 
 : 1584105080:0;g remote -v
 : 1584155747:0;down
+: 1584156907:0;jt personal
+: 1584156907:0;la
+: 1584159085:0;cd kuru-anime
+: 1584159085:0;la
+: 1584159087:0;cd discord-bot
+: 1584159088:0;la
+: 1584159090:0;vi
+: 1584159123:0;g d
+: 1584159131:0;g a
+: 1584159140:0;g c -m "add guide to index.ts"
+: 1584159151:0;g bnc
+: 1584159156:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584159288:0;g d
+: 1584159289:0;g a
+: 1584159300:0;g c -m "add eslintrc"
+: 1584159303:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584159410:0;vi
+: 1584159422:0;g a
+: 1584159434:0;g c -m "update linter rules"
+: 1584159436:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584159620:0;vi
+: 1584159677:0;yarn start
+: 1584160330:0;g d
+: 1584160333:0;g a
+: 1584160344:0;g c -m "update tabbing to spaces instead of tab"
+: 1584160347:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584160542:0;g d
+: 1584160543:0;g a
+: 1584160555:0;g c -m "add ping/pong feature"
+: 1584160556:0;g ps
+: 1584160561:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584161757:0;g d
+: 1584161759:0;g a
+: 1584161768:0;g c -m "add a prefix config.json"
+: 1584161770:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584162390:0;g d
+: 1584162394:0;g a
+: 1584162410:0;g c -m "create config json and require it to index.ts"
+: 1584162412:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584162614:0;vi
+: 1584162740:0;g d
+: 1584162745:0;g a
+: 1584163036:0;g c -m "destructure config.json"
+: 1584163039:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584163178:0;vi
+: 1584163189:0;yarn add nodemon
+: 1584163198:0;g a
+: 1584163229:0;y
+: 1584163234:0;g d
+: 1584163235:0;g s
+: 1584163243:0;g c -m "add nodemon"
+: 1584163251:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584163257:0;yarn watch
+: 1584163271:0;vi
+: 1584163349:0;yarn add ts-node-dev --dev
+: 1584163359:0;vi
+: 1584163423:0;g d
+: 1584163428:0;g a
+: 1584163445:0;y
+: 1584163449:0;yarn install
+: 1584163457:0;g a
+: 1584163468:0;y
+: 1584163480:0;la
+: 1584163493:0;g c -m "use ts-node-dev in favor of nodemon"
+: 1584163495:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584163543:0;yarn watch
+: 1584163740:0;g d
+: 1584163742:0;g a
+: 1584163754:0;g c -m "add prefix"
+: 1584163756:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584186487:0;g d
+: 1584186492:0;g a
+: 1584186498:0;g c -m "remove config.json"
+: 1584186500:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584187055:0;g a
+: 1584187065:0;g c -m "use starts with instead"
+: 1584187068:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584187388:0;g d
+: 1584187389:0;g a
+: 1584187397:0;g c -m "add total members count"
+: 1584187399:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584187856:0;g a
+: 1584187876:0;g c -m "fix warnings for closing curly brace and add user-info"
+: 1584187888:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584188321:0;g d
+: 1584188343:0;g a
+: 1584188356:0;g c -m "minimize the code by using args and command"
+: 1584188358:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584188997:0;jt dotfiles
+: 1584188999:0;brew cask install alacritty
+: 1584189327:0;bos -h
+: 1584189418:0;vi
+: 1584189860:0;g d
+: 1584189865:0;g g "add raindrop"
+: 1584189889:0;vi
+: 1584196696:0;g d
+: 1584196698:0;g a
+: 1584196703:0;g c -m "add current point"
+: 1584196706:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584237590:0;down
