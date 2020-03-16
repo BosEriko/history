@@ -7611,3 +7611,134 @@ end
 : 1584196703:0;g c -m "add current point"
 : 1584196706:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
 : 1584237590:0;down
+: 1584237628:0;jt personal
+: 1584237629:0;la
+: 1584237632:0;cd kuru-anime
+: 1584237633:0;la
+: 1584238258:0;cd discord-bot
+: 1584238813:0;vi
+: 1584241400:0;yarn watch
+: 1584242041:0;g a
+: 1584242046:0;g c -m "add args-info"
+: 1584242048:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584242087:0;g d
+: 1584242098:0;g s
+: 1584242100:0;g d
+: 1584242104:0;g lol
+: 1584242107:0;g d
+: 1584242129:0;g a
+: 1584242136:0;g c -m "update prefix"
+: 1584242137:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584242556:0;vi
+: 1584242619:0;g d
+: 1584242620:0;g a
+: 1584242631:0;g c -m "provide a way to avoid multiple spaces"
+: 1584244100:0;g a
+: 1584244108:0;g c -m "add kick mention"
+: 1584244110:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584245365:0;g d
+: 1584245367:0;g a
+: 1584245376:0;g c -m "add a way to check if someone is tagged on kick or not"
+: 1584245377:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584245624:0;code .
+: 1584245691:0;vi
+: 1584248294:0;g d
+: 1584248296:0;g a
+: 1584248304:0;g c -m "update current point"
+: 1584248306:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584265409:0;jt personal
+: 1584265409:0;la
+: 1584265411:0;cd kuru-anime
+: 1584265412:0;la
+: 1584265414:0;discord-bot
+: 1584265414:0;la
+: 1584265453:0;vi
+: 1584265459:0;yarn watch
+: 1584266301:0;g d
+: 1584266308:0;g a
+: 1584266314:0;g c -m "add a way to get avatar"
+: 1584266315:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584266507:0;g a
+: 1584266512:0;g c -m "add multiple printing"
+: 1584266515:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584266604:0;g a
+: 1584266611:0;g c -m "add prune option"
+: 1584266612:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584266695:0;g d
+: 1584266712:0;g a
+: 1584266720:0;g c -m "finish prune option"
+: 1584266722:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584266813:0;g a
+: 1584266819:0;g c -m "add a catch for prune"
+: 1584266882:0;g a
+: 1584266891:0;g c -m "remove the prune message itself on the count"
+: 1584266893:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584266947:0;g d
+: 1584266949:0;g a
+: 1584266953:0;g c -m "update current point"
+: 1584266955:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584271039:0;g d
+: 1584271714:0;g a
+: 1584271728:0;g c -m "add admin rights for prune and add welcome message for joining users"
+: 1584271809:0;g co master
+: 1584271848:0;g co issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584271850:0;g lol
+: 1584271852:0;g ps
+: 1584271857:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
+: 1584271989:0;g lol
+: 1584272123:0;g co master
+: 1584275186:0;..
+: 1584275210:0;git clone --recurse-submodules https://github.com/kuru-project/main-website.git
+: 1584275313:0;la
+: 1584275314:0;cd main-website
+: 1584275315:0;la
+: 1584275317:0;cd client
+: 1584275349:0;g so
+: 1584275397:0;g remote add fork git@github.com:BosEriko/main-website-client.git
+: 1584275408:0;git reset --hard origin/master
+: 1584275413:0;g pl
+: 1584275428:0;g pl origin master
+: 1584275441:0;g lol
+: 1584275453:0;vi
+: 1584275497:0;g pl
+: 1584275514:0;g co issue-81-Add_a_bot_page
+: 1584275517:0;vi
+: 1584275564:0;yarn install
+: 1584275597:0;less package.json
+: 1584275603:0;yarn dev
+: 1584275656:0;g a
+: 1584275683:0;y
+: 1584275691:0;g c -m "add bot page"
+: 1584275695:0;g bnc
+: 1584275702:0;g ps fork issue-81-Add_a_bot_page\
+
+: 1584276341:0;g co master
+: 1584288321:0;g sync master
+: 1584288967:0;..
+: 1584288968:0;la
+: 1584288970:0;..
+: 1584288971:0;la
+: 1584288973:0;cd discord-bot
+: 1584288974:0;la
+: 1584288977:0;g sync master
+: 1584317208:0;jt personal
+: 1584317209:0;la
+: 1584317212:0;..
+: 1584317212:0;la
+: 1584317215:0;cd Work
+: 1584317215:0;la
+: 1584317222:0;mkdir Lyon
+: 1584317223:0;cd Lyon
+: 1584318402:0;g clone git@github.com:LyonInc/lyon-html-renderer.git
+: 1584318417:0;g clone git@github.com:LyonInc/lyon-api-server.git
+: 1584318739:0;la
+: 1584318742:0;cd lyon-api-server
+: 1584318786:0;g co develop
+: 1584318788:0;vi
+: 1584318964:0;yarn install
+: 1584319076:0;vi
+: 1584319134:0;yarn dev
+: 1584319184:0;touch .env
+: 1584319187:0;vi .env
+: 1584319220:0;yarn dev
+: 1584319493:0;down
