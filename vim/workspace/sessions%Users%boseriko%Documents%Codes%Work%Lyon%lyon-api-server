@@ -7,14 +7,11 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +21 src/utils/axios.ts
-badd +1 src/controllers/attendance.ts
-badd +63 package.json
-badd +1 .env
-badd +1 src/utils/mailgun.ts
+badd +13 src/controllers/attendance.ts
+badd +1 src/controllers/carousel.ts
 argglobal
 %argdel
-edit src/utils/mailgun.ts
+edit src/controllers/attendance.ts
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -33,6 +30,21 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
+13,21fold
+24,34fold
+37,49fold
+52,86fold
+1,86fold
+1
+normal! zo
+13
+normal! zo
+24
+normal! zo
+37
+normal! zo
+52
+normal! zo
 let s:l = 1 - ((0 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l

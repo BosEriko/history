@@ -7742,3 +7742,284 @@ end
 : 1584319187:0;vi .env
 : 1584319220:0;yarn dev
 : 1584319493:0;down
+: 1584320262:0;..
+: 1584320262:0;la
+: 1584320274:0;mv lyon-api-server api-server
+: 1584320286:0;mv lyon-html-renderer html-renderer
+: 1584320287:0;la
+: 1584320289:0;cd html-renderer
+: 1584320290:0;la
+: 1584320333:0;g co develop
+: 1584320336:0;vi
+: 1584320358:0;yarn install
+: 1584320419:0;yarn dev
+: 1584320813:0;vi
+: 1584320824:0;../api-server
+: 1584320826:0;vi
+: 1584320838:0;yarn dev
+: 1584326158:0;../html-renderer
+: 1584326160:0;vi
+: 1584326178:0;touch .env
+: 1584327121:0;../api-server
+: 1584327126:0;vi
+: 1584329123:0;../html-renderer
+: 1584329129:0;vi
+: 1584329444:0;yarn dev
+: 1584343962:0;vi
+: 1584348284:0;yarn dev
+: 1584350780:0;..
+: 1584350781:0;la
+: 1584350786:0;g clone git@github.com:LyonInc/lyon-admin-console.git admin-console
+: 1584351105:0;la
+: 1584351108:0;cd admin-console
+: 1584351109:0;la
+: 1584351115:0;vi
+: 1584351139:0;g co develop
+: 1584354597:0;yarn start
+: 1584354603:0;yarn install
+: 1584354690:0;yarn start
+: 1584355817:0;g d
+: 1584356267:0;yarn dev
+: 1584359693:0;g d
+: 1584359695:0;g s
+: 1584400000:0;jt work
+: 1584400031:0;la
+: 1584400032:0;cd lyon
+: 1584400033:0;ka
+: 1584400034:0;la
+: 1584401132:0;cd api-server
+: 1584401137:0;../html-renderer
+: 1584401143:0;vi
+: 1584401243:0;jt dotfiles
+: 1584401245:0;vi
+: 1584401400:0;less package.json
+: 1584401407:0;yarn dev
+: 1584401450:0;../api-server
+: 1584401452:0;vi
+: 1584401457:0;yarn dev
+: 1584401461:0;vi
+: 1584412449:0;../html-renderer
+: 1584412461:0;vi
+: 1584412464:0;yarn dev
+: 1584412468:0;vi
+: 1584412471:0;yarn dev
+: 1584413474:0;jt dotfiles
+: 1584413475:0;vi
+: 1584421861:0;yarn dev
+: 1584425015:0;g d
+: 1584425042:0;g br hotfix-fix-phone-number-validation
+: 1584425046:0;g b hotfix-fix-phone-number-validation
+: 1584425057:0;g co hotfix-fix-phone-number-alidation
+: 1584425064:0;g co hotfix-fix-phone-number-validation
+: 1584425102:0;g b hotfix-fix-phone-number-validation
+: 1584425106:0;g co hotfix-fix-phone-number-validation
+: 1584425107:0;g a
+: 1584425126:0;g c -m "update PHONE_NUMBER_VALIDATOR to be optional instead of required"
+: 1584425129:0;g bnc
+: 1584425140:0;g ps origin hotfix-fix-phone-number-validation\
+
+: 1584425188:0;g d
+: 1584425192:0;g a
+: 1584425209:0;g c -m "update PHONE_NUMBER_VALIDATOR to be optional instead of required"
+: 1584425214:0;g ps origin hotfix-fix-phone-number-validation\
+
+: 1584426771:0;g co develop
+: 1584435551:0;node --version
+: 1584436364:0;g d
+: 1584436370:0;yarn dev
+: 1584437927:0;g d
+: 1584437928:0;g s
+: 1584437932:0;g d
+: 1584437968:0;yarn dev
+: 1584441448:0;g d
+: 1584441451:0;yarn dev
+: 1584441663:0;g d
+: 1584441667:0;yarn dev
+: 1584441887:0;g d
+: 1584441891:0;yarn dev
+: 1584445072:0;g d
+: 1584445223:0;yarn dev
+: 1584446249:0;g d
+: 1584446283:0;yarn dev
+: 1584446320:0;g d
+: 1584446329:0;yarn dev
+: 1584446366:0;g d
+: 1584446383:0;g s
+: 1584446389:0;g d
+: 1584446401:0;yarn dev
+: 1584447543:0;g d
+: 1584447720:0;yarn dev
+: 1584499427:0;jt work
+: 1584499428:0;la
+: 1584499432:0;cd Lyon
+: 1584499440:0;la
+: 1584499445:0;cd api-server
+: 1584499451:0;../html-renderer
+: 1584499458:0;vi
+: 1584499460:0;yarn dev
+: 1584499463:0;vi
+: 1584499472:0;yarn dev
+: 1584499874:0;jt dotfiles
+: 1584499875:0;vi
+: 1584499968:0;g d
+: 1584499979:0;g g "move back to normal"
+: 1584500930:0;g d
+: 1584501186:0;yarn dev
+: 1584501357:0;g d
+: 1584501733:0;yarn dev
+: 1584509955:0;g pl
+: 1584509975:0;yarn dev
+: 1584510560:0;g d
+: 1584510561:0;g s
+: 1584510565:0;g st
+: 1584510569:0;g d
+: 1584511377:0;g pl origin develop
+: 1584513627:0;g co feature-recommended-provider
+: 1584513649:0;g pl origin feature-recommended-provider
+: 1584513657:0;g lol
+: 1584513665:0;yarn dev
+: 1584513752:0;g lol
+: 1584513885:0;g d
+: 1584513887:0;g st
+: 1584514001:0;yarn dev
+: 1584514370:0;g d
+: 1584514371:0;g s
+: 1584519232:0;g d
+: 1584519240:0;g st
+: 1584519256:0;g st pop
+: 1584519257:0;g d
+: 1584519263:0;yarn dev
+: 1584519366:0;vi
+: 1584519484:0;g d
+: 1584519486:0;g st
+: 1584519960:0;yarn dev
+: 1584520238:0;g d
+: 1584520245:0;yarn dev
+: 1584520298:0;g d
+: 1584520300:0;g st
+: 1584520315:0;yarn dev
+: 1584520693:0;g st
+: 1584520956:0;g d
+: 1584520958:0;g s
+: 1584520959:0;g st
+: 1584521113:0;g d
+: 1584521215:0;yarn dev
+: 1584526858:0;g d
+: 1584526866:0;g pl
+: 1584526954:0;g d
+: 1584526958:0;g st
+: 1584526962:0;g co develop
+: 1584526964:0;g st pop
+: 1584526966:0;g d
+: 1584527088:0;g b hotfix-add-payload-to-provider-and-industry-post-method
+: 1584527091:0;g a
+: 1584527113:0;g c -m "add payload for provider and industry post method"
+: 1584527119:0;g lol
+: 1584527132:0;g reset 003b012
+: 1584527141:0;g co hotfix-add-payload-to-provider-and-industry-post-method
+: 1584527142:0;g d
+: 1584527144:0;g a
+: 1584527150:0;g c -m "add payload for provider and industry post method"
+: 1584527153:0;g bnc
+: 1584527166:0;g ps origin hotfix-add-payload-to-provider-and-industry-post-method
+: 1584527367:0;yarn dev
+: 1584576039:0;jt work
+: 1584576039:0;la
+: 1584576042:0;cd Lyon
+: 1584576043:0;la
+: 1584576219:0;..
+: 1584576220:0;la
+: 1584576221:0;..
+: 1584576221:0;la
+: 1584576223:0;cd Personal
+: 1584576224:0;la
+: 1584576225:0;cd kuru-anime
+: 1584576226:0;la
+: 1584576227:0;cd discord-bot
+: 1584576230:0;la
+: 1584576232:0;vi
+: 1584577765:0;g pl
+: 1584577781:0;g co issue-12-Divide_index_ts_into_commands
+: 1584577783:0;g d
+: 1584577788:0;g st
+: 1584577791:0;g co issue-12-Divide_index_ts_into_commands
+: 1584577793:0;g st pop
+: 1584577795:0;g d
+: 1584579169:0;vi
+: 1584579209:0;less package.json
+: 1584579216:0;yarn watch
+: 1584579300:0;g a
+: 1584579320:0;g remote -v
+: 1584579338:0;g c -m "move ping, server and args-info to its own component"
+: 1584579342:0;g bnc
+: 1584579346:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584579934:0;g d
+: 1584579937:0;g a
+: 1584579970:0;g c -m "move avatar, kick and user-info to their own components"
+: 1584579972:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584580662:0;rm -rf node_modules && yarn install
+: 1584581202:0;yarn watch
+: 1584581857:0;g d
+: 1584581863:0;g a
+: 1584581878:0;g c -m "modularize the files"
+: 1584581880:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584582183:0;g d
+: 1584582190:0;g a
+: 1584582205:0;g c -m "remove unwanted codes"
+: 1584582207:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584582461:0;g a
+: 1584582470:0;g c -m "remove the if-else chain"
+: 1584582472:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584582559:0;g d
+: 1584582563:0;g a
+: 1584582571:0;g c -m "update checkpoint"
+: 1584582573:0;g a
+: 1584582584:0;g c -m "remove .ts from file names"
+: 1584582586:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584582664:0;jt work
+: 1584582665:0;la
+: 1584582667:0;lyon
+: 1584582668:0;la
+: 1584582673:0;api-server
+: 1584582674:0;vi
+: 1584582717:0;jt work
+: 1584582718:0;Lyon
+: 1584582719:0;la
+: 1584582731:0;cd api-server
+: 1584582732:0;vi
+: 1584582786:0;g d
+: 1584583163:0;g st
+: 1584583337:0;g d
+: 1584583341:0;g st
+: 1584583519:0;g d
+: 1584583527:0;g s
+: 1584583536:0;g a
+: 1584583549:0;g c -m "fix comments and add rules link on the welcome message"
+: 1584583551:0;g ps fork issue-12-Divide_index_ts_into_commands
+: 1584583578:0;g co master
+: 1584583580:0;g d
+: 1584583583:0;g st
+: 1584583905:0;jt work
+: 1584583906:0;Lyon
+: 1584583907:0;la
+: 1584585743:0;cd html-renderer
+: 1584585744:0;la
+: 1584585749:0;g co master
+: 1584585753:0;g pl origin master
+: 1584585778:0;g co develop
+: 1584585779:0;g pl
+: 1584585784:0;g pl origin develop
+: 1584585800:0;cd ../api-server
+: 1584585801:0;la
+: 1584585807:0;g co master
+: 1584585811:0;g pl origin master
+: 1584585827:0;g co develop
+: 1584585827:0;la
+: 1584585852:0;g pl origin develop
+: 1584585876:0;yarn dev
+: 1584585878:0;vi
+: 1584585885:0;../html-renderer
+: 1584585887:0;la
+: 1584585890:0;vi
+: 1584585897:0;yarn dev
+: 1584589199:0;down
