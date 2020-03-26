@@ -8521,3 +8521,262 @@ end
 : 1585054818:0;g d
 : 1585101417:0;jt dotfiles
 : 1585101420:0;down
+: 1585102508:0;la
+: 1585102511:0;jt work
+: 1585102511:0;la
+: 1585102513:0;cd Lyon
+: 1585102514:0;la
+: 1585102516:0;cd api-server
+: 1585102532:0;../html-renderer
+: 1585102539:0;yarn dev
+: 1585102540:0;vi
+: 1585102541:0;yarn dev
+: 1585102542:0;vi
+: 1585110993:0;g s
+: 1585111000:0;g co scoped-models
+: 1585111005:0;git clean -fd
+: 1585111013:0;g d
+: 1585111031:0;g co utils/api/payloads
+: 1585111034:0;g s
+: 1585111035:0;g d
+: 1585111555:0;g s
+: 1585112092:0;vi
+: 1585112485:0;g d
+: 1585112715:0;g s
+: 1585113863:0;g d
+: 1585118121:0;vi
+: 1585118839:0;g st
+: 1585118843:0;g co master
+: 1585118850:0;g co develop
+: 1585118857:0;g pl origin develop
+: 1585118872:0;g st pop
+: 1585118873:0;g d
+: 1585118883:0;g a
+: 1585118897:0;g c -m "fetching check-manager"
+: 1585118904:0;g lol
+: 1585118938:0;g reset c546a78
+: 1585118939:0;g d
+: 1585118942:0;g a
+: 1585118948:0;g reset
+: 1585118969:0;g br feature-event-page-data
+: 1585118973:0;g b feature-event-page-data
+: 1585118981:0;g co feature-event-page-data
+: 1585118988:0;g bnc
+: 1585118992:0;g ps origin c546a78
+: 1585118997:0;g ps origin feature-event-page-data\
+
+: 1585119039:0;g a
+: 1585119045:0;g c -m "fetching check-manager"
+: 1585119048:0;g ps origin feature-event-page-data\
+
+: 1585121605:0;vi
+: 1585122390:0;g d
+: 1585125271:0;g a
+: 1585125303:0;g c -m "pass isProvider"
+: 1585125305:0;g bnc
+: 1585125315:0;g ps origin feature-event-page-data\
+
+: 1585126082:0;g lol
+: 1585126099:0;g co feature-event-page
+: 1585126135:0;g pl origin feature-event-page
+: 1585126191:0;g co develop
+: 1585126197:0;g pl origin develop
+: 1585126234:0;g co feature-event-page-data
+: 1585126235:0;g d
+: 1585126237:0;g lol
+: 1585126241:0;g d
+: 1585126264:0;g co feature-event-page
+: 1585126273:0;g rebase origin/feature-event-page-data
+: 1585126420:0;git add
+: 1585126423:0;git add .
+: 1585126430:0;git rebase --continue
+: 1585126432:0;g lol
+: 1585126588:0;git diff feature-event-page..develop
+: 1585126599:0;git diff develop..feature-event-page
+: 1585126657:0;g d
+: 1585126659:0;g a
+: 1585126671:0;g c -m "remove the duplicate when import"
+: 1585126723:0;g lol
+: 1585126731:0;g ps origin feature-event-page
+: 1585126787:0;g ps --force origin feature-event-page
+: 1585127549:0;g lol
+: 1585128100:0;g d
+: 1585128109:0;g a
+: 1585128118:0;g c -m "change event id to provider id"
+: 1585128125:0;g ps origin feature-event-page
+: 1585141355:0;jt work
+: 1585141358:0;jt personal
+: 1585141548:0;la
+: 1585141551:0;cd kuru-anime
+: 1585141552:0;la
+: 1585141553:0;cd discord-bot
+: 1585141554:0;la
+: 1585141558:0;g pl origin master
+: 1585141585:0;g co NeonNature:master
+: 1585141589:0;g co origin NeonNature:master
+: 1585141796:0;git fetch origin pull/16/NeonNature:master
+: 1585141806:0;git remote -v
+: 1585141931:0;git fetch origin pull/16/NeonNature:master
+: 1585142023:0;git fetch origin pull/16/head:master
+: 1585142061:0;git fetch origin pull/16/NeonNature:master
+: 1585142119:0;git fetch github pull/16/NeonNature:master
+: 1585142130:0;git remote -v
+: 1585142456:0;vi
+: 1585187475:0;jt work
+: 1585187476:0;la
+: 1585187478:0;cd Lyon
+: 1585187478:0;la
+: 1585187483:0;cd api-server
+: 1585187483:0;la
+: 1585187493:0;cd ../html-renderer
+: 1585187598:0;vi
+: 1585187601:0;yarn dev
+: 1585187608:0;vi
+: 1585187612:0;g pl origin feature-event-page
+: 1585187623:0;yarn dev
+: 1585188101:0;g d
+: 1585188103:0;g st
+: 1585188108:0;g co origin develop
+: 1585188128:0;g pl origin develop
+: 1585188138:0;g co origin develop
+: 1585188142:0;g co origin master
+: 1585188146:0;g remote -v
+: 1585188160:0;git checkout origin master
+: 1585188181:0;g b
+: 1585188195:0;git fetch
+: 1585188210:0;g co origin master
+: 1585188453:0;la
+: 1585188457:0;g d
+: 1585188459:0;..
+: 1585188459:0;la
+: 1585188605:0;g co origin develop
+: 1585188690:0;git checkout origin develop
+: 1585188693:0;la
+: 1585188694:0;g b
+: 1585188791:0;g pl
+: 1585188804:0;g co origin develop
+: 1585188953:0;jt personal
+: 1585188954:0;la
+: 1585188956:0;cd home
+: 1585188958:0;..
+: 1585188959:0;la
+: 1585188960:0;cd kuru-anime
+: 1585188960:0;la
+: 1585188963:0;cd discord-bot
+: 1585188963:0;la
+: 1585188966:0;g b
+: 1585188975:0;g co origin issue-2-Work_on_the_README_md
+: 1585188979:0;g remote -v
+: 1585188993:0;la
+: 1585189030:0;git doctor
+: 1585189087:0;git co origin/issue-2-Work_on_the_README_md
+: 1585189160:0;git switch -c issue-2-Work_on_the_README_md
+: 1585189164:0;g co master
+: 1585189170:0;g b
+: 1585189175:0;g co origin issue-2-Work_on_the_README_md
+: 1585189177:0;g co issue-2-Work_on_the_README_md
+: 1585189267:0;cd api-server
+: 1585189268:0;la
+: 1585189271:0;g co develop
+: 1585189277:0;g pl origin develop
+: 1585189583:0;g co develop
+: 1585189696:0;~
+: 1585189709:0;ls -a | wc -l
+: 1585189763:0;ls -a
+: 1585189848:0;cd .config
+: 1585189850:0;la
+: 1585189853:0;ls -a | wc -l
+: 1585189939:0;~
+: 1585189944:0;ls -a | wc -l
+: 1585189946:0;ls -a
+: 1585189964:0;vi .zshrc.zs
+: 1585189982:0;vi .zshrc.zwc
+: 1585190304:0;jt personal
+: 1585190304:0;la
+: 1585190319:0;cd kuru-anime
+: 1585190319:0;la
+: 1585190322:0;cd discord-bot
+: 1585190322:0;la
+: 1585190365:0;git fetch origin pull/17/NeonNature:issue-14-Fix_the_problem_with_node's_`fs`_so_you_can_use_it
+: 1585190371:0;git fetch origin pull/17/NeonNature:issue-14-Fix_the_problem_with_node\'s_\`fs\`_so_you_can_use_it
+: 1585190400:0;git fetch origin pull/17/"NeonNature:issue-14-Fix_the_problem_with_node's_`fs`_so_you_can_use_it"
+: 1585192133:0;g co master
+: 1585192136:0;g sync master
+: 1585192202:0;g pl origin develop
+: 1585192450:0;la
+: 1585192532:0;g co feature-event-page
+: 1585192543:0;git reset --hard origin/develop
+: 1585192546:0;g lol
+: 1585192570:0;g ps origin feature-event-page --force
+: 1585193303:0;g bnc
+: 1585193312:0;g pl origin feature-event-page\
+
+: 1585193691:0;vi
+: 1585196723:0;jt dotfiles
+: 1585196723:0;vi
+: 1585198932:0;jt personal
+: 1585198932:0;la
+: 1585198933:0;cd kuru-anime
+: 1585198934:0;la
+: 1585198939:0;cd discord-bot
+: 1585198940:0;la
+: 1585198940:0;vi
+: 1585199030:0;g pl origin feature-event-page
+: 1585199478:0;yarn dev
+: 1585199924:0;yarn update
+: 1585199928:0;yarn install
+: 1585199955:0;yarn dev
+: 1585200851:0;code components/event/LyonEventStreamsSectionTitle/index.tsx
+: 1585206219:0;g d
+: 1585206224:0;g pl origin feature-event-page
+: 1585210198:0;g co origin develop
+: 1585210203:0;g pl origin develop
+: 1585210214:0;g d
+: 1585210222:0;g st
+: 1585210235:0;g st pop
+: 1585210236:0;g d
+: 1585210271:0;g b hotfix-revert-check-manager-method
+: 1585210280:0;g co hotfix-revert-check-manager-method
+: 1585210289:0;g bnc
+: 1585210297:0;g ps origin hotfix-revert-check-manager-method
+: 1585210309:0;g a
+: 1585210314:0;g c -m "revert"
+: 1585210317:0;g ps origin hotfix-revert-check-manager-method
+: 1585210530:0;g co origin develop
+: 1585210536:0;g co develop
+: 1585210579:0;g pl origin develop
+: 1585212335:0;vi
+: 1585212338:0;g d
+: 1585212341:0;g s
+: 1585212754:0;g d
+: 1585212755:0;g s
+: 1585214946:0;g d
+: 1585215000:0;code components/event/LyonEvent/index.tsx
+: 1585215081:0;g a
+: 1585215244:0;g s
+: 1585215265:0;g diff components/event/LyonEvent/index.tsx
+: 1585215283:0;g diff components/event/LyonEventStatistic/index.tsx
+: 1585215298:0;g co components/event/LyonEventStatistic/index.tsx
+: 1585215301:0;g s
+: 1585215315:0;g diff components/event/LyonEventStreamsSectionTitle/index.tsx
+: 1585215321:0;g co components/event/LyonEventStreamsSectionTitle/index.tsx
+: 1585215322:0;g s
+: 1585215334:0;g d
+: 1585215373:0;g pl origin feature-event-page
+: 1585215386:0;g a
+: 1585215424:0;g c -m "move checking of manager on the scope model"
+: 1585215433:0;g ps origin feature-event-page
+: 1585216098:0;g d
+: 1585216107:0;g co scoped-models
+: 1585221170:0;g d
+: 1585223720:0;g a
+: 1585223743:0;g c -m "fix error on getProviderRights"
+: 1585223750:0;g ps origin feature-event-page
+: 1585224226:0;g a
+: 1585224257:0;g c -m "remove hard code type for provider result"
+: 1585224262:0;g ps origin feature-event-page
+: 1585227087:0;g d
+: 1585227105:0;g a
+: 1585227192:0;g c -m "fix check manager"
+: 1585227198:0;g ps origin feature-event-page
+: 1585230992:0;down
