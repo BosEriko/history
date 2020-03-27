@@ -8780,3 +8780,12 @@ end
 : 1585227192:0;g c -m "fix check manager"
 : 1585227198:0;g ps origin feature-event-page
 : 1585230992:0;down
+: 1585231685:0;jt dotfiles
+: 1585231686:0;la
+: 1585231686:0;vi
+: 1585231790:0;g a
+: 1585231803:0;g c -m "remove hyperline and update games list"
+: 1585231809:0;g ps origin master
+: 1585271514:0;jt personal
+: 1585271514:0;la
+: 1585273381:0;down
