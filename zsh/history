@@ -8789,3 +8789,62 @@ end
 : 1585271514:0;jt personal
 : 1585271514:0;la
 : 1585273381:0;down
+: 1585280329:0;jt work
+: 1585280330:0;la
+: 1585280331:0;cd Lyon
+: 1585280331:0;la
+: 1585280334:0;cd api-server
+: 1585280338:0;g pl origin develop
+: 1585280349:0;yarn dev
+: 1585280357:0;vi
+: 1585280358:0;yarn dev
+: 1585280361:0;../html-renderer
+: 1585280362:0;la
+: 1585280367:0;g pl origin feature-event-page
+: 1585280374:0;vi
+: 1585280377:0;yarn dev
+: 1585281006:0;g b feature-event-page
+: 1585281010:0;g co feature-event-page
+: 1585281014:0;g ps origin feature-event-page
+: 1585292223:0;g d
+: 1585292894:0;g a
+: 1585295500:0;g d
+: 1585298037:0;jt dotfiles
+: 1585298038:0;vi
+: 1585298293:0;g d
+: 1585298305:0;g g "add insomnia, seeql and postbird on programs I use"
+: 1585298368:0;g d
+: 1585298374:0;g g "move insomnia to brew"
+: 1585298453:0;brew cask install insomnia
+: 1585304276:0;g d
+: 1585304808:0;g a
+: 1585304830:0;g s
+: 1585304839:0;g co src/controllers
+: 1585304841:0;g s
+: 1585304843:0;g d
+: 1585304846:0;g s
+: 1585304855:0;g c -m "add endpoint for events purchased"
+: 1585304857:0;g bnc
+: 1585304864:0;g ps origin feature-event-page\
+
+: 1585304977:0;htop
+: 1585305065:0;vi
+: 1585306453:0;g d
+: 1585306454:0;g lol
+: 1585306457:0;g pl origin feature-event-page
+: 1585307456:0;bos -h
+: 1585308727:0;la
+: 1585308729:0;jt ops
+: 1585308730:0;la
+: 1585308736:0;cd script
+: 1585308741:0;vi
+: 1585310366:0;jt personal
+: 1585313972:0;la
+: 1585313974:0;cd kuru-anime
+: 1585313974:0;la
+: 1585313976:0;cd main-website
+: 1585313976:0;la
+: 1585313979:0;cd client
+: 1585313980:0;la
+: 1585314020:0;vi
+: 1585315825:0;down
