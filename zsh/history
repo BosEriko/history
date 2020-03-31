@@ -9303,3 +9303,199 @@ end
 : 1585528195:0;cd main-website/client
 : 1585528197:0;g sync master
 : 1585529033:0;down
+: 1585529173:0;jt work
+: 1585529173:0;la
+: 1585529183:0;jt dotfiles
+: 1585529188:0;la
+: 1585529193:0;vi
+: 1585529247:0;g d
+: 1585529261:0;g g "update project list"
+: 1585529348:0;jt
+: 1585529354:0;jt work
+: 1585529354:0;la
+: 1585529356:0;cd Lyon
+: 1585529357:0;la
+: 1585529360:0;cd api-server
+: 1585529366:0;../html-renderer
+: 1585529376:0;g pl origin feature-event-page
+: 1585529385:0;g lol
+: 1585529395:0;g d
+: 1585529399:0;yarn dev
+: 1585529401:0;vi
+: 1585529409:0;g pl origin feature-event-page
+: 1585529422:0;yarn dev
+: 1585529430:0;vi
+: 1585530127:0;g d
+: 1585530487:0;g lol
+: 1585531131:0;g d
+: 1585531132:0;g s
+: 1585531457:0;g lol
+: 1585531461:0;g a
+: 1585531482:0;g s
+: 1585531504:0;g c -m "add event purchase status call and scopemodel"
+: 1585531515:0;g ps origin feature-event-page\
+
+: 1585531635:0;g a
+: 1585531647:0;g c -m "fix the error on the GET method of both provider and event"
+: 1585531650:0;g ps origin feature-event-page\
+
+: 1585535868:0;g a
+: 1585535891:0;g c -m "remove hardcoded booleans"
+: 1585535897:0;g ps origin feature-event-page\
+
+: 1585537215:0;code .
+: 1585544070:0;g pl origin develop
+: 1585544694:0;git reset --hard origin/feature-event-page
+: 1585544696:0;g lol
+: 1585544710:0;g pl origin feature-event-page
+: 1585544771:0;g lol
+: 1585551063:0;g pl origin develop
+: 1585552532:0;g pl origin feature-event-page
+: 1585553058:0;vi
+: 1585553917:0;g pl origin feature-event-page
+: 1585554237:0;g co -b feature-provider-facing-event-management-pane
+: 1585561076:0;g d
+: 1585561087:0;g s
+: 1585561093:0;g st
+: 1585561617:0;g co master
+: 1585561624:0;g pl origin master
+: 1585561683:0;g co feature-event-page
+: 1585561688:0;g pl origin feature-event-page
+: 1585561717:0;g co master
+: 1585561721:0;g co hotfix-event-page-blank-state
+: 1585561724:0;g pl
+: 1585561878:0;g co hotfix-event-page-blank-state
+: 1585562013:0;g lol
+: 1585562023:0;g pl origin feature-event-page
+: 1585562047:0;g lol
+: 1585562128:0;g a
+: 1585562137:0;g bnc
+: 1585562141:0;g ps origin hotfix-event-page-blank-state\
+
+: 1585562224:0;g c -m "remove hard code isProvider"
+: 1585562226:0;g ps origin hotfix-event-page-blank-state\
+
+: 1585562521:0;g co master
+: 1585562547:0;g co feature-provider-facing-event-management-pane
+: 1585562550:0;g lol
+: 1585562760:0;g ps origin feature-provider-facing-event-management-pane
+: 1585565800:0;g d
+: 1585565801:0;g s
+: 1585568882:0;g d
+: 1585568884:0;g s
+: 1585573330:0;g bnc
+: 1585573335:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585621552:0;jt work
+: 1585621553:0;la
+: 1585621555:0;cd Lyon
+: 1585621555:0;la
+: 1585621587:0;cd html-renderer
+: 1585621588:0;la
+: 1585621599:0;g co master
+: 1585621602:0;g d
+: 1585621605:0;g st
+: 1585621620:0;g co master
+: 1585621624:0;g pl origin master
+: 1585621646:0;g co develop
+: 1585621651:0;g pl origin develop
+: 1585621667:0;g co feature-event-page
+: 1585621670:0;g pl origin feature-event-page
+: 1585621680:0;g lol
+: 1585621709:0;g co hotfix-event-page-blank-state
+: 1585621752:0;g pl origin hotfix-event-page-blank-state
+: 1585621832:0;g pl origin feature-event-page
+: 1585621853:0;g lol
+: 1585621860:0;g d
+: 1585621862:0;g lol
+: 1585621863:0;g s
+: 1585621881:0;g bnc
+: 1585621888:0;g ps origin hotfix-event-page-blank-state\
+
+: 1585621953:0;g co feature-provider-facing-event-management-pane
+: 1585621961:0;g pl origin feature-provider-facing-event-management-pane
+: 1585621992:0;g st pop
+: 1585622005:0;vi
+: 1585622423:0;yarn dev
+: 1585622438:0;../api-server
+: 1585622442:0;vi
+: 1585622445:0;yarn dev
+: 1585623937:0;g d
+: 1585624925:0;g s
+: 1585626442:0;g d
+: 1585626443:0;g s
+: 1585626727:0;g lol
+: 1585626949:0;g d
+: 1585627188:0;g s
+: 1585628048:0;g d
+: 1585630628:0;g a
+: 1585630722:0;g c -m "create a reusable modal"
+: 1585630728:0;g bnc
+: 1585630732:0;g ps origin feature-provider-facing-event-management-pane\
+
+: 1585630816:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585630901:0;g a
+: 1585630913:0;g c -m "fix conflict"
+: 1585630916:0;g ps origin feature-provider-facing-event-management-pane\
+
+: 1585631151:0;g a
+: 1585631167:0;g c -m "rename global modal to lyon global modal"
+: 1585632958:0;g a
+: 1585632968:0;g c -m "remote instructional"
+: 1585632973:0;g ps origin feature-provider-facing-event-management-pane\
+
+: 1585638183:0;g d
+: 1585639116:0;g lol
+: 1585639128:0;g d
+: 1585639142:0;g st
+: 1585639146:0;g bnc
+: 1585639152:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585639214:0;g st pop
+: 1585639329:0;g bnc
+: 1585639339:0;git reset --hard origin/feature-provider-facing-event-management-pane\
+
+: 1585639341:0;g lol
+: 1585639478:0;g st
+: 1585640194:0;g a
+: 1585640219:0;g c -m "put the logic of modal inside the components"
+: 1585640223:0;g bnc
+: 1585640227:0;g ps origin feature-provider-facing-event-management-pane\
+
+: 1585640242:0;g lol
+: 1585640307:0;g d
+: 1585640308:0;g s
+: 1585640309:0;g d
+: 1585640334:0;g co feature-event-page
+: 1585640342:0;g st
+: 1585640343:0;g d
+: 1585640355:0;g bnc
+: 1585640359:0;g pl origin feature-event-page\
+
+: 1585640372:0;g co feature-event-page\
+
+: 1585640378:0;g co feature-provider-facing-event-management-pane
+: 1585640392:0;g diff feature-provider-facing-event-management-pane..origin/feature-event-page
+: 1585640409:0;g diff origin/feature-event-page..feature-provider-facing-event-management-pane
+: 1585640476:0;g pull origin feature-event-page
+: 1585640498:0;g bnc
+: 1585640501:0;g ps origin feature-provider-facing-event-management-pane\
+
+: 1585640962:0;vi
+: 1585645302:0;g bnc
+: 1585645307:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585646078:0;g co develop
+: 1585646081:0;g pl origin develop
+: 1585648324:0;yarn dev
+: 1585648330:0;g co develop
+: 1585648335:0;g pl origin develop
+: 1585648589:0;yarn dev
+: 1585649013:0;jt personal
+: 1585649013:0;la
+: 1585649017:0;cd kuru-anime
+: 1585649017:0;la
+: 1585651476:0;hto
+: 1585651478:0;htop
+: 1585654948:0;down
