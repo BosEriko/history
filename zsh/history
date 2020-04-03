@@ -9499,3 +9499,354 @@ end
 : 1585651476:0;hto
 : 1585651478:0;htop
 : 1585654948:0;down
+: 1585655603:0;vi
+: 1585656081:0;la
+: 1585656094:0;cd main-website
+: 1585656095:0;la
+: 1585656096:0;cd client
+: 1585656098:0;g bnc
+: 1585656100:0;g pl origin master\
+
+: 1585656207:0;g pl origin master
+: 1585656212:0;g pl msater
+: 1585656214:0;g pl
+: 1585656228:0;g co issue-90-Setup_dotenv
+: 1585656276:0;vi
+: 1585656287:0;..
+: 1585656289:0;la
+: 1585656291:0;..
+: 1585656291:0;la
+: 1585656295:0;cd discord-bot
+: 1585656297:0;la
+: 1585656299:0;vi
+: 1585656328:0;yarn add dotenv
+: 1585656335:0;jt work
+: 1585656335:0;la
+: 1585656337:0;cd Lyon
+: 1585656337:0;la
+: 1585656344:0;html
+: 1585656348:0;html-renderer
+: 1585656349:0;la
+: 1585656352:0;vi
+: 1585656415:0;g d
+: 1585656419:0;g a
+: 1585656429:0;g d
+: 1585656431:0;g s
+: 1585656441:0;g c -m "install dotenv"
+: 1585656445:0;g bnc
+: 1585656447:0;g ps origin issue-90-Setup_dotenv\
+
+: 1585656607:0;g ps fork issue-90-Setup_dotenv\
+
+: 1585656811:0;g d
+: 1585656817:0;g a
+: 1585656835:0;g c -m "require dotenv on next config"
+: 1585658617:0;bos -h
+: 1585658626:0;bos -f pipes
+: 1585658704:0;gtop
+: 1585703099:0;jt work
+: 1585704076:0;la
+: 1585704083:0;cd Lyon
+: 1585704084:0;la
+: 1585704087:0;cd api-server
+: 1585704088:0;la
+: 1585704095:0;g pl origin develop
+: 1585704197:0;g lol
+: 1585704774:0;vi
+: 1585704779:0;yarn dev
+: 1585704785:0;../html-renderer
+: 1585704802:0;g b
+: 1585704826:0;g b feature-provider-facing-event-management-pane
+: 1585704831:0;g co feature-provider-facing-event-management-pane
+: 1585704835:0;g pl origin feature-provider-facing-event-management-pane
+: 1585704849:0;yarn dev
+: 1585704852:0;vi
+: 1585704863:0;yarn install
+: 1585704881:0;yarn dev
+: 1585704916:0;yarn install
+: 1585704929:0;yarn dev
+: 1585705085:0;vi
+: 1585705111:0;g d
+: 1585705191:0;g lol
+: 1585706415:0;g revert 0fcbff8
+: 1585706423:0;g revert -m 0fcbff8
+: 1585706429:0;la
+: 1585706430:0;g d
+: 1585706433:0;g st
+: 1585706436:0;g revert -m 0fcbff8
+: 1585706440:0;g lol
+: 1585706469:0;g reset 08ac2c9
+: 1585706471:0;g st
+: 1585706473:0;g clean -fd
+: 1585706482:0;yarn dev
+: 1585706595:0;g lol
+: 1585706616:0;git reset --hard origin/develop
+: 1585706619:0;g lol
+: 1585706622:0;yarn dev
+: 1585708404:0;g pl origin develop
+: 1585708415:0;g lol
+: 1585708615:0;git diff 08bb2d8..aa905f0
+: 1585720409:0;g st
+: 1585720929:0;yarn dev
+: 1585721076:0;g d
+: 1585722903:0;g co -b get-event-customers
+: 1585722905:0;g a
+: 1585722916:0;g c -m "add endpoint for get event customers"
+: 1585722921:0;g ps origin get-event-customers
+: 1585722933:0;g co develop
+: 1585724781:0;g co -b hotfix-license-number
+: 1585724783:0;g a
+: 1585724795:0;g c -m "add licenseNumber to the validator"
+: 1585724801:0;g ps origin hotfix-license-number
+: 1585725742:0;g co develop
+: 1585725747:0;g pl origin develop
+: 1585725800:0;g bnc
+: 1585725803:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585726054:0;g pl origin feature-provider-facing-event-management-pane
+: 1585726063:0;g lol
+: 1585726145:0;g log
+: 1585734506:0;g d
+: 1585734517:0;g st
+: 1585734666:0;g b
+: 1585734683:0;g co get-event-customers
+: 1585734689:0;g co -b feature-get-event-customers
+: 1585734698:0;g ps origin feature-get-event-customers
+: 1585739605:0;bos -p ngrok 8081
+: 1585790623:0;jt work
+: 1585790625:0;cd Lyon
+: 1585790625:0;la
+: 1585790627:0;cd html-renderer
+: 1585790627:0;la
+: 1585790694:0;g bnc
+: 1585790699:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585790702:0;g pl origin feature-provider-facing-event-management-pane
+: 1585790730:0;g lol
+: 1585790787:0;g co develop
+: 1585790790:0;g d
+: 1585790793:0;g st
+: 1585790795:0;g co develop
+: 1585790801:0;g pl origin develop
+: 1585790834:0;g co feature-event-page
+: 1585790838:0;g pl origin feature-event-page
+: 1585790875:0;../api-server
+: 1585790887:0;../html-renderer
+: 1585790889:0;vi
+: 1585790894:0;yarn dev
+: 1585791668:0;vi
+: 1585791694:0;g a
+: 1585791709:0;g c -m "return null if token doesn't exist"
+: 1585791713:0;g ps origin feature-event-page
+: 1585792294:0;vi
+: 1585792295:0;yarn dev
+: 1585793684:0;g a
+: 1585793726:0;g c -m "perform request only if token exists"
+: 1585793738:0;g ps origin feature-event-page
+: 1585794030:0;g lol
+: 1585794036:0;g pl origin feature-event-page
+: 1585794089:0;g co develop
+: 1585794093:0;g pl origin develop
+: 1585794102:0;g co feature-event-date
+: 1585794110:0;g pl origin feature-event-date
+: 1585794149:0;g pl origin feature-event-page
+: 1585794287:0;g lol
+: 1585794316:0;g ps origin feature-event-date
+: 1585794401:0;g co develop
+: 1585794403:0;g co hotfix-event-page-blank-state
+: 1585794411:0;g pl origin hotfix-event-page-blank-state
+: 1585794423:0;g pl origin feature-event-page
+: 1585794474:0;g bnc
+: 1585794478:0;g ps origin hotfix-event-page-blank-state
+: 1585794528:0;g co develop
+: 1585794589:0;g b
+: 1585794598:0;g co feature-provider-facing-event-management-pane
+: 1585794605:0;g pl origin feature-provider-facing-event-management-pane
+: 1585794678:0;g bnc
+: 1585794682:0;g pl origin feature-provider-facing-event-management-pane
+: 1585794741:0;g pl origin feature-event-page
+: 1585794795:0;g lol
+: 1585794797:0;g bnc
+: 1585794800:0;g ps origin feature-provider-facing-event-management-pane
+: 1585798128:0;g d
+: 1585801792:0;g pl origin feature-provider-facing-event-management-pane
+: 1585802203:0;yarn dev
+: 1585802206:0;g d
+: 1585802294:0;yarn dev
+: 1585803513:0;g d
+: 1585804171:0;g a
+: 1585804289:0;g c -m "remove selection of customers on the controller of event"
+: 1585804295:0;g bnc
+: 1585804300:0;g ps origin feature-get-event-customers
+: 1585804703:0;g bnc
+: 1585804706:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585804708:0;g pl origin feature-provider-facing-event-management-pane
+: 1585805443:0;g d
+: 1585805453:0;g st
+: 1585806435:0;g a
+: 1585806471:0;g c -m "append Payload to my payloads"
+: 1585806474:0;g bnc
+: 1585806477:0;g ps origin feature-provider-facing-event-management-pane
+: 1585806551:0;g lol
+: 1585806561:0;g reset eeb1f78
+: 1585806572:0;g lol
+: 1585806578:0;g reset f5b3e8a
+: 1585806580:0;g st
+: 1585806585:0;g pl origin feature-provider-facing-event-management-pane
+: 1585807133:0;g a
+: 1585807137:0;g st pop
+: 1585807138:0;g a
+: 1585807170:0;g c -m "append Payload to my payloads"
+: 1585807173:0;g ps origin feature-provider-facing-event-management-pane
+: 1585807510:0;g d
+: 1585809304:0;g a
+: 1585809344:0;g c -m "filter customers"
+: 1585809346:0;g bnc
+: 1585809349:0;g ps origin feature-get-event-customers
+: 1585809467:0;g d
+: 1585809543:0;g a
+: 1585809547:0;g c -m "update comment"
+: 1585809550:0;g ps origin feature-get-event-customers
+: 1585809673:0;g a
+: 1585809699:0;g c -m "add api request for getting the customers"
+: 1585809705:0;g pl origin feature-provider-facing-event-management-pane
+: 1585809719:0;g ps origin feature-provider-facing-event-management-pane
+: 1585810128:0;g a
+: 1585810154:0;g c -m "add display photo"
+: 1585810163:0;g ps origin feature-get-event-customers
+: 1585810216:0;g d
+: 1585810221:0;g a
+: 1585810229:0;g c -m "add display photo"
+: 1585810230:0;g bnc
+: 1585810234:0;g ps origin feature-provider-facing-event-management-pane
+: 1585814882:0;g d
+: 1585814887:0;g bnc
+: 1585814891:0;g pl origin feature-provider-facing-event-management-pane
+: 1585818613:0;g d
+: 1585818614:0;g a
+: 1585818622:0;g pl origin feature-provider-facing-event-management-pane
+: 1585818724:0;g a
+: 1585818740:0;g c -m "create scope model for customers of event"
+: 1585818744:0;g ps origin feature-provider-facing-event-management-pane
+: 1585820391:0;g d
+: 1585820413:0;g s
+: 1585820421:0;g co scoped-models/EventCustomersData.tsx
+: 1585820452:0;g d
+: 1585823079:0;jt personal
+: 1585871731:0;jt work
+: 1585871732:0;la
+: 1585871735:0;Lyon
+: 1585871735:0;la
+: 1585871739:0;cd api-server
+: 1585871747:0;../html-renderer
+: 1585873528:0;g bnc
+: 1585873533:0;g pl origin feature-get-event-customers
+: 1585873544:0;vi
+: 1585873548:0;yarn dev
+: 1585873551:0;g bnc
+: 1585873553:0;g d
+: 1585873557:0;g st
+: 1585873578:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585873580:0;g pl origin feature-provider-facing-event-management-pane
+: 1585873590:0;g st pop
+: 1585873592:0;vi
+: 1585873599:0;yarn dev
+: 1585874170:0;g lol
+: 1585877346:0;g pl origin feature-reward-rehaul && g co feature-reward-rehaul
+: 1585877416:0;g co feature-get-event-customers
+: 1585877420:0;g bnc
+: 1585877428:0;git reset --hard origin/feature-get-event-customers\
+
+: 1585877436:0;g co feature-reward-rehaul
+: 1585877440:0;yarn install
+: 1585877461:0;yarn dev
+: 1585877562:0;g lol
+: 1585877589:0;git reset --hard origin/feature-reward-rehaul
+: 1585877591:0;g lol
+: 1585877600:0;yarn dev
+: 1585881556:0;g co feature-get-event-customers
+: 1585881558:0;g lol
+: 1585881563:0;yarn dev
+: 1585883016:0;g d
+: 1585883023:0;g s
+: 1585886258:0;g d
+: 1585887736:0;g a
+: 1585887749:0;g c -m "add id to endpoint"
+: 1585887755:0;g ps origin feature-get-event-customers
+: 1585887900:0;yarn dev
+: 1585888480:0;g a
+: 1585888585:0;g d
+: 1585888586:0;g a
+: 1585888671:0;g c -m "pass customer as props\
+"
+: 1585888673:0;g bnc
+: 1585888677:0;g ps origin feature-provider-facing-event-management-pane
+: 1585888843:0;g a
+: 1585888852:0;g c -m "fix error on customer"
+: 1585888856:0;g ps origin feature-provider-facing-event-management-pane
+: 1585890632:0;g d
+: 1585894870:0;g bnc
+: 1585894873:0;g pl origin feature-provider-facing-event-management-pane
+: 1585895022:0;g bnc
+: 1585895027:0;g pl origin feature-provider-facing-event-management-pane
+: 1585895036:0;g lol
+: 1585896387:0;g bnc
+: 1585896388:0;g d
+: 1585896393:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585896457:0;g st
+: 1585896459:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585896469:0;g st pop
+: 1585896488:0;g bnc
+: 1585896498:0;git reset --hard origin/feature-provider-facing-event-management-pane\
+
+: 1585896501:0;g st pop
+: 1585896505:0;git reset --hard origin/feature-provider-facing-event-management-pane\
+
+: 1585896880:0;g a
+: 1585896901:0;g c -m "fix the import for types"
+: 1585896903:0;g bnc
+: 1585896906:0;g ps origin feature-provider-facing-event-management-pane
+: 1585902628:0;gtop
+: 1585904281:0;yarn dev
+: 1585904286:0;g bnc
+: 1585904293:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585906347:0;git reset --hard origin/feature-provider-facing-event-management-pane
+: 1585906351:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1585906355:0;g pl origin feature-provider-facing-event-management-pane
+: 1585906498:0;g d
+: 1585906503:0;g a
+: 1585906526:0;g c -m "use reduce"
+: 1585906529:0;g ps origin feature-provider-facing-event-management-pane
+: 1585906842:0;g pl origin develop
+: 1585906872:0;g d
+: 1585906892:0;g a
+: 1585906908:0;g c -m "fix conflict"
+: 1585906911:0;g lol
+: 1585906920:0;g ps origin feature-provider-facing-event-management-pane
+: 1585909300:0;jt dotfiles
+: 1585909300:0;la
+: 1585909308:0;vi
+: 1585909336:0;g d
+: 1585909342:0;g g "add airline toggle"
+: 1585909846:0;g a
+: 1585909892:0;g c -m "remove redundant template literals"
+: 1585909894:0;g bnc
+: 1585909897:0;g ps origin feature-provider-facing-event-management-pane
+: 1585909950:0;vi
+: 1585910217:0;jt dotfiles
+: 1585910222:0;vi
+: 1585912081:0;g d
+: 1585912092:0;vi
+: 1585912104:0;g a
+: 1585912112:0;g c -m "hide statusbar"
+: 1585912113:0;g ps
+: 1585912155:0;vi
+: 1585912259:0;g ps
+: 1585912284:0;g lol |grep "theme"
+: 1585912320:0;down
