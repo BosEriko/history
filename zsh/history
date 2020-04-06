@@ -9850,3 +9850,309 @@ end
 : 1585912259:0;g ps
 : 1585912284:0;g lol |grep "theme"
 : 1585912320:0;down
+: 1585912367:0;vi
+: 1585912440:0;g revert 5e26bb5
+: 1585912445:0;vi
+: 1585912463:0;g d
+: 1585912467:0;vi
+: 1585912560:0;g d
+: 1585912563:0;g lol
+: 1585912566:0;g d
+: 1585912570:0;g s
+: 1585912573:0;g reset
+: 1585912575:0;g d
+: 1585912619:0;g g "[Theme] Move back to onedark"
+: 1585912653:0;vi
+: 1585912677:0;jt work
+: 1585912677:0;la
+: 1585912679:0;cd Lyon
+: 1585912680:0;la
+: 1585912682:0;cd html-renderer
+: 1585912682:0;la
+: 1585912684:0;vi
+: 1585912773:0;jt dotfiles
+: 1585912774:0;la
+: 1585912775:0;vi
+: 1585912827:0;g d
+: 1585912840:0;g g "move to config for hiding nerdtree path and statusline"
+: 1585912864:0;vi
+: 1585913010:0;g d
+: 1585913011:0;g st
+: 1585913014:0;vi
+: 1585914258:0;jt personal
+: 1585914259:0;la
+: 1585914261:0;cd kuru-anime
+: 1585914261:0;la
+: 1585914263:0;cd main-website
+: 1585914264:0;la
+: 1585914266:0;cd server
+: 1585914266:0;la
+: 1585914270:0;../client
+: 1585914323:0;vi
+: 1585914340:0;jt dotfiles
+: 1585914340:0;la
+: 1585914341:0;vi
+: 1585914371:0;jt work
+: 1585914371:0;la
+: 1585914373:0;cd Lyon
+: 1585914373:0;la
+: 1585914375:0;cd html-renderer
+: 1585914375:0;la
+: 1585914381:0;../api-server
+: 1585914382:0;la
+: 1585914382:0;vi
+: 1585914473:0;..
+: 1585914474:0;la
+: 1585914477:0;server
+: 1585914478:0;la
+: 1585914492:0;g pl origin master
+: 1585914516:0;g pl
+: 1585914539:0;g b
+: 1585914560:0;g co issue-59-Setup_Postgres_and_TypeORM
+: 1585914576:0;vi
+: 1585914590:0;yarn add typeorm
+: 1585914609:0;yarn add reflect-metadata
+: 1585914617:0;vi
+: 1585914731:0;yarn add pg
+: 1585914738:0;g d
+: 1585914756:0;g co package.json
+: 1585914758:0;g d
+: 1585914763:0;g co package-lock.json
+: 1585914768:0;g co yarn.lock
+: 1585914769:0;g d
+: 1585914777:0;yarn add pg
+: 1585914872:0;g d
+: 1585914929:0;g a
+: 1585915026:0;g c -m "install typeorm packages"
+: 1585915039:0;g bnc
+: 1585915042:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1585915618:0;touch ormconfig.js
+: 1585915627:0;mv ormconfig.js ormconfig.ts
+: 1585915673:0;g a
+: 1585915689:0;g c -m "add typeorm config"
+: 1585915697:0;g bnc
+: 1585915705:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1585918447:0;vi
+: 1585918466:0;jt dotfiles
+: 1585918468:0;vi
+: 1585918507:0;g st
+: 1585918513:0;vi
+: 1585967286:0;la
+: 1585967288:0;jt dotfiles
+: 1585967289:0;la
+: 1585967291:0;vi
+: 1585967296:0;jt personal
+: 1585967297:0;la
+: 1585967302:0;cd kuru-anime
+: 1585967302:0;la
+: 1585967313:0;cd main-website
+: 1585967313:0;la
+: 1585967315:0;cd server
+: 1585967315:0;la
+: 1585967318:0;vi
+: 1585967459:0;la
+: 1585967460:0;jt work
+: 1585967461:0;la
+: 1585967463:0;Lyon
+: 1585967464:0;la
+: 1585967465:0;api-server
+: 1585967466:0;la
+: 1585967467:0;vi
+: 1585967646:0;g a
+: 1585967655:0;g c -m "add sample.env"
+: 1585967657:0;g bnc
+: 1585967661:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1585967705:0;..
+: 1585967706:0;la
+: 1585967706:0;..
+: 1585967707:0;la
+: 1585967709:0;cd discord-bot
+: 1585967712:0;vi
+: 1585967728:0;yarn add dotenv
+: 1585967843:0;yarn add --dev ts-node-dev
+: 1585967853:0;g a
+: 1585967892:0;g c -m "add dotenv capabilities"
+: 1585967893:0;g bnc
+: 1585967897:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1585972182:0;yarn typeorm:cli
+: 1585972225:0;yarn typeorm:cli migration:show
+: 1585973056:0;g d
+: 1585973060:0;g a
+: 1585973075:0;g c -m "add typeorm cli on package.json and move ormconfig to src"
+: 1585973080:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1585975709:0;la
+: 1585975710:0;...
+: 1585975711:0;la
+: 1585975719:0;mkdir bujo
+: 1585975722:0;cd bujo
+: 1585975868:0;g clone git@github.com:jorenrui/bujo-app.git ./client
+: 1585975886:0;g clone git@github.com:jorenrui/bujo-api-server.git ./server
+: 1585975896:0;la
+: 1585975901:0;cd server
+: 1585975901:0;la
+: 1585975909:0;git remote add origin git@github.com:jorenrui/bujo-api-server.git
+: 1585975920:0;..
+: 1585975921:0;la
+: 1585975929:0;cd bujo
+: 1585975929:0;la
+: 1585975931:0;cd server
+: 1585975932:0;la
+: 1585975961:0;cp -rf ../../kuru-anime/main-website/server/.github ./.github
+: 1585975962:0;la
+: 1585975981:0;g co -b feature-templates
+: 1585975982:0;la
+: 1585975987:0;g a
+: 1585975991:0;vi
+: 1585976040:0;g a
+: 1585976050:0;g c -m "add templates"
+: 1585976052:0;g bnc
+: 1585976056:0;g ps origin feature-templates
+: 1585976115:0;g co master
+: 1585976119:0;g co -b master
+: 1585976123:0;la
+: 1585976129:0;g lol
+: 1585976138:0;g ps origin master
+: 1586049360:0;jt personal
+: 1586049361:0;la
+: 1586049363:0;cd kuru-anime
+: 1586049363:0;la
+: 1586049366:0;..
+: 1586049368:0;cd bujo
+: 1586049370:0;la
+: 1586049374:0;cd server
+: 1586049376:0;g b
+: 1586049379:0;..
+: 1586049380:0;la
+: 1586049383:0;cd client
+: 1586049391:0;g co -b feature-templates
+: 1586049413:0;cp -rf ../server/.github ./.github
+: 1586049415:0;la
+: 1586049417:0;vi
+: 1586049480:0;g a
+: 1586049489:0;g c -m "add templates"
+: 1586049493:0;g ps origin feature-templates
+: 1586049544:0;g rebase origin/master
+: 1586049546:0;g lol
+: 1586049551:0;g ps origin feature-templates
+: 1586049587:0;g pl origin master
+: 1586049654:0;git diff feature-templates..master
+: 1586049667:0;g lol
+: 1586049672:0;git log
+: 1586049770:0;..
+: 1586049771:0;la
+: 1586049771:0;..
+: 1586049772:0;la
+: 1586049774:0;cd kuru-anime
+: 1586049775:0;la
+: 1586049779:0;cd main-website/server
+: 1586049781:0;vi
+: 1586049981:0;g d
+: 1586049983:0;g a
+: 1586049990:0;g c -m "change main path on package.json"
+: 1586049993:0;g bnc
+: 1586049997:0;g ps origin issue-59-Setup_Postgres_and_TypeORM\
+
+: 1586049999:0;g ps origin issue-59-Setup_Postgres_and_TypeORM
+: 1586050048:0;vi
+: 1586050237:0;g a
+: 1586050247:0;g c -m "update the template of .env"
+: 1586050252:0;g ps origin issue-59-Setup_Postgres_and_TypeORM
+: 1586050262:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1586052856:0;..
+: 1586052857:0;la
+: 1586052858:0;..
+: 1586052858:0;la
+: 1586052860:0;discord-bot
+: 1586052862:0;g sync master
+: 1586053240:0;jt dotfiles
+: 1586053243:0;vi
+: 1586053279:0;g d
+: 1586053286:0;g a
+: 1586053302:0;g g "remove the statusline options"
+: 1586053415:0;which psql
+: 1586053421:0;brew cask list
+: 1586053433:0;brew list
+: 1586053444:0;which postgresql
+: 1586053447:0;which psql
+: 1586053450:0;psql help
+: 1586053453:0;psql --help
+: 1586053563:0;tldr psql
+: 1586053579:0;psql database
+: 1586053603:0;psql
+: 1586053630:0;psql -c "\l"
+: 1586053721:0;g d
+: 1586053724:0;g a
+: 1586053732:0;g c -m "update the order of sample.env"
+: 1586053734:0;g bnc
+: 1586053737:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1586053758:0;psql -c boseriko
+: 1586053762:0;psql -c "boseriko"
+: 1586053772:0;psql -c "\c boseriko"
+: 1586053776:0;psql
+: 1586053792:0;psql --help
+: 1586053809:0;psql -l
+: 1586053825:0;psql
+: 1586054137:0;g a
+: 1586054150:0;g c -m "update to proper usage of .env"
+: 1586054153:0;g bnc
+: 1586054157:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1586056196:0;jt personal
+: 1586056196:0;la
+: 1586056249:0;yarn dev
+: 1586056252:0;yarn watch
+: 1586056356:0;g d
+: 1586056361:0;g a
+: 1586056367:0;g c -m "update .env"
+: 1586056373:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1586056889:0;yarn add @types/koa
+: 1586056900:0;g d
+: 1586056904:0;g a
+: 1586056912:0;g c -m "add koa types"
+: 1586056915:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1586131634:0;jt work
+: 1586131634:0;la
+: 1586131638:0;psql
+: 1586131774:0;la
+: 1586131776:0;cd Lyon
+: 1586131777:0;la
+: 1586131780:0;cd api-server
+: 1586131781:0;la
+: 1586131789:0;../html-renderer
+: 1586138795:0;g co develop
+: 1586138797:0;la
+: 1586138798:0;g d
+: 1586138799:0;g st
+: 1586138801:0;g co develop
+: 1586138812:0;g pl origin develop
+: 1586138849:0;g co feature-provider-facing-event-management-pane
+: 1586138851:0;g lol
+: 1586138862:0;g pl origin develop
+: 1586138884:0;g co feature-event-page
+: 1586138886:0;g pl origin feature-event-page
+: 1586138907:0;g co feature-provider-facing-event-management-pane
+: 1586138912:0;g pl origin feature-event-page
+: 1586138920:0;g lol
+: 1586138930:0;g bnc
+: 1586138932:0;g lol
+: 1586138940:0;g ps oiring feature-provider-facing-event-management-pane\
+
+: 1586138952:0;g ps origin feature-provider-facing-event-management-pane
+: 1586138970:0;g bnc
+: 1586138976:0;git reset --hard origin/feature-provider-facing-event-management-pane\
+
+: 1586138980:0;g pl origin feature-event-page
+: 1586138991:0;g ps origin feature-provider-facing-event-management-pane
+: 1586139028:0;git reset --hard origin/feature-provider-facing-event-management-pane
+: 1586139031:0;g bnc
+: 1586139034:0;g pl origin feature-provider-facing-event-management-pane\
+
+: 1586139048:0;g pl origin feature-provider-facing-event-management-pane
+: 1586139057:0;git reset --hard origin/feature-provider-facing-event-management-pane
+: 1586139059:0;g lol
+: 1586139065:0;g pl origin feature-event-page
+: 1586139080:0;g pl origin feature-provider-facing-event-management-pane
+: 1586139094:0;g ps origin feature-provider-facing-event-management-pane
+: 1586139112:0;g co feature-event-page
+: 1586139116:0;g pl origin feature-event-page
+: 1586139129:0;g co feature-provider-facing-event-management-pane
+: 1586139781:0;down
