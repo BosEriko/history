@@ -10156,3 +10156,238 @@ end
 : 1586139116:0;g pl origin feature-event-page
 : 1586139129:0;g co feature-provider-facing-event-management-pane
 : 1586139781:0;down
+: 1586142286:0;vi
+: 1586142287:0;yarn dev
+: 1586142291:0;vi
+: 1586143036:0;g a
+: 1586143051:0;g c -m "use callback on open"
+: 1586143054:0;g bnc
+: 1586143058:0;g ps fork feature-provider-facing-event-management-pane
+: 1586143066:0;g ps origin feature-provider-facing-event-management-pane
+: 1586143073:0;la
+: 1586143080:0;g d
+: 1586143084:0;g st
+: 1586143086:0;g lol
+: 1586143095:0;g reset feature-provider-facing-event-management-pane\
+
+: 1586143099:0;g lol
+: 1586143102:0;g reset 1d51cfe
+: 1586143103:0;g d
+: 1586143107:0;g st
+: 1586143112:0;git reset --hard origin/feature-provider-facing-event-management-pane
+: 1586143117:0;g pl origin feature-provider-facing-event-management-pane
+: 1586143126:0;g st pop
+: 1586143130:0;g d
+: 1586143133:0;g a
+: 1586143137:0;g c -m "use callback on open"
+: 1586143141:0;g ps origin feature-provider-facing-event-management-pane
+: 1586144784:0;g pl origin feature-provider-facing-event-management-pane
+: 1586148593:0;curl -sLf https://spacevim.org/install.sh | vi
+: 1586148624:0;curl -sLf https://spacevim.org/install.sh | bash
+: 1586148669:0;vi
+: 1586148683:0;\vi
+: 1586148705:0;jt dotfiles
+: 1586148711:0;la
+: 1586148719:0;generate.sh
+: 1586148724:0;./generate.sh
+: 1586148745:0;jt work
+: 1586148747:0;la
+: 1586148748:0;Lyon
+: 1586148748:0;la
+: 1586148760:0;html-renderer
+: 1586148761:0;vi
+: 1586149343:0;docker pull spacevim/spacevim
+: 1586149409:0;jt dotfiles
+: 1586149411:0;vi
+: 1586149459:0;g d
+: 1586149465:0;g g "add spacevim"
+: 1586149491:0;spacevim
+: 1586149534:0;vi
+: 1586150087:0;spacevim
+: 1586154031:0;g pl origin feature-provider-facing-event-management-pane
+: 1586154045:0;g lol
+: 1586154059:0;g co -b feature-post-event-management
+: 1586154061:0;g bnc
+: 1586154064:0;g ps origin feature-post-event-management
+: 1586163138:0;g d
+: 1586163140:0;g st
+: 1586163143:0;g co feature-event-page
+: 1586163151:0;g pl origin feature-event-page
+: 1586163728:0;g ps origin feature-event-page
+: 1586164299:0;g a
+: 1586164305:0;g st pop
+: 1586164307:0;g d
+: 1586164309:0;g a
+: 1586164356:0;g c -m "remove the nullish coalescing operator"
+: 1586164359:0;g bnc
+: 1586164362:0;g ps origin feature-event-page
+: 1586165845:0;g co feature-provider-facing-event-management-pane
+: 1586165851:0;g fetch origin feature-provider-facing-event-management-pane
+: 1586165859:0;g status
+: 1586165862:0;g lol
+: 1586170086:0;la
+: 1586170097:0;jt personal
+: 1586170097:0;la
+: 1586170102:0;cd kuru-anime
+: 1586170102:0;la
+: 1586170132:0;cd main-website
+: 1586170133:0;la
+: 1586170134:0;cd server
+: 1586170135:0;la
+: 1586174192:0;..
+: 1586174193:0;la
+: 1586174194:0;..
+: 1586174195:0;la
+: 1586174197:0;cd disco
+: 1586174200:0;cd discord-bot
+: 1586174203:0;g sync master
+: 1586174268:0;vi
+: 1586174297:0;g pl origin master
+: 1586174334:0;g b
+: 1586174338:0;g pl
+: 1586174345:0;g b
+: 1586174355:0;g co issue-18-Fix_the_typo_on_the_Prune_error_message
+: 1586174357:0;g d
+: 1586174360:0;g a
+: 1586174377:0;g c -m "Fix the typo and update the other messages to Uppercase first letter"
+: 1586174379:0;g bnc
+: 1586174383:0;g ps fork issue-18-Fix_the_typo_on_the_Prune_error_message
+: 1586174821:0;g co master
+: 1586174826:0;..
+: 1586174828:0;la
+: 1586176009:0;cd discord-bot
+: 1586176010:0;la
+: 1586176012:0;g b
+: 1586176021:0;g co issue-18-Fix_the_typo_on_the_Prune_error_message
+: 1586176026:0;g d
+: 1586176029:0;g lol
+: 1586176047:0;vi
+: 1586176069:0;g d
+: 1586176071:0;g a
+: 1586176081:0;g c -m "fix yet another typo"
+: 1586176082:0;g bnc
+: 1586176086:0;g ps origin issue-18-Fix_the_typo_on_the_Prune_error_message
+: 1586176113:0;g ps fork issue-18-Fix_the_typo_on_the_Prune_error_message
+: 1586176377:0;g co master
+: 1586239288:0;jt work
+: 1586239288:0;la
+: 1586239290:0;cd Lyon
+: 1586239291:0;la
+: 1586239293:0;api-server
+: 1586239294:0;la
+: 1586239402:0;vi
+: 1586239409:0;g bnc
+: 1586239413:0;g pl origin feature-get-event-customers
+: 1586239423:0;yarn dev
+: 1586239433:0;g d
+: 1586239440:0;../html-renderer
+: 1586239443:0;g bnc
+: 1586239446:0;g pl origin feature-provider-facing-event-management-pane
+: 1586239456:0;vi
+: 1586239460:0;yarn dev
+: 1586240817:0;g d
+: 1586241160:0;g s
+: 1586241216:0;g a
+: 1586241247:0;g c -m "update global modal constants to use kebab instead of pascal case"
+: 1586241249:0;g bnc
+: 1586241253:0;g ps origin feature-provider-facing-event-management-pane
+: 1586242324:0;gtop
+: 1586245585:0;yarn lint:components
+: 1586245848:0;la
+: 1586245854:0;jt dotfiles
+: 1586245863:0;vi
+: 1586246036:0;ifconfig-me
+: 1586246044:0;timetsamp
+: 1586246170:0;git_pair_info 
+: 1586246565:0;rm zsh/modules/ops.z.sh
+: 1586246582:0;g d
+: 1586246583:0;g s
+: 1586246588:0;g g "remove ops files"
+: 1586246658:0;g d
+: 1586246663:0;g g "remove the remnants of ops"
+: 1586251847:0;yarn dev
+: 1586252254:0;g d
+: 1586252286:0;yarn dev
+: 1586252468:0;g bnc
+: 1586252472:0;g pl origin feature-provider-facing-event-management-pane
+: 1586253127:0;g a
+: 1586253138:0;g c -m "remove TEXT from theme"
+: 1586253140:0;g bnc
+: 1586253145:0;g ps origin feature-provider-facing-event-management-pane
+: 1586253158:0;g a
+: 1586253237:0;g c -m "add types go useGlobalModal"
+: 1586253239:0;g bnc
+: 1586253242:0;g ps origin feature-provider-facing-event-management-pane
+: 1586310120:0;jt work
+: 1586310122:0;cd Lyon
+: 1586310123:0;la
+: 1586314302:0;cd api-server
+: 1586314309:0;vi
+: 1586314312:0;yarn dev
+: 1586314316:0;../html-renderer
+: 1586314319:0;g co hotfix-buy-event-provider-facing
+: 1586314323:0;g pl
+: 1586314333:0;g co hotfix-buy-event-provider-facing
+: 1586314335:0;g d
+: 1586314337:0;g st
+: 1586314339:0;g co hotfix-buy-event-provider-facing
+: 1586314341:0;g pl origin hotfix-buy-event-provider-facing
+: 1586314440:0;vi
+: 1586314444:0;yarn dev
+: 1586314666:0;g st
+: 1586314668:0;g b
+: 1586314688:0;g co feature-post-event-management
+: 1586314691:0;g pl origin feature-post-event-management
+: 1586324174:0;g co feature-post-event-management
+: 1586324177:0;g bnc
+: 1586324179:0;g pl origin feature-post-event-management\
+
+: 1586324182:0;g pl origin feature-post-event-management
+: 1586324450:0;g d
+: 1586324475:0;g bnc
+: 1586324577:0;g st
+: 1586324580:0;g co feature-provider-facing-event-management-pane
+: 1586324582:0;g pl origin feature-provider-facing-event-management-pane
+: 1586324622:0;g st pop
+: 1586324660:0;g a
+: 1586324695:0;g c -m "remove the array wrapper on globalmodalcomponents"
+: 1586324696:0;g bnc
+: 1586324702:0;g ps origin feature-provider-facing-event-management-pane
+: 1586324910:0;g co https://github.com/LyonInc/lyon-html-renderer/pull/130/commits/863294107a738a88d1de38cfde7e96015c78e014
+: 1586324913:0;g co feature-post-event-management
+: 1586324917:0;g pl origin feature-post-event-management
+: 1586330049:0;g d
+: 1586330054:0;g st
+: 1586330057:0;g bnc
+: 1586330060:0;g pl origin feature-post-event-management
+: 1586330071:0;g st pop
+: 1586330146:0;g pl origin feature-provider-facing-event-management-pane
+: 1586330159:0;g d
+: 1586330163:0;g st
+: 1586330168:0;g bnc
+: 1586330172:0;g ps origin feature-post-event-management
+: 1586330206:0;g st pop
+: 1586331814:0;g a
+: 1586331836:0;g c -m "add section for post-event"
+: 1586331839:0;g bnc
+: 1586331843:0;g ps origin feature-post-event-management
+: 1586332253:0;g pl origin feature-post-event-management
+: 1586332283:0;g a
+: 1586332299:0;g c -m "make components for main side bar and post event sidebar"
+: 1586332301:0;g bnc
+: 1586332304:0;g ps origin feature-post-event-management
+: 1586332598:0;g a
+: 1586332609:0;g c -m "fix the 100 char error"
+: 1586332611:0;g bnc
+: 1586332614:0;g ps origin feature-post-event-management
+: 1586332651:0;eslint components/sidebar/LyonSidebar/index.tsx
+: 1586332675:0;eslint --fix components/sidebar/LyonSidebar/index.tsx
+: 1586332702:0;g a
+: 1586332710:0;g c -m "add comma"
+: 1586332714:0;g ps origin feature-post-event-management
+: 1586333960:0;g pl origin feature-post-event-management
+: 1586335486:0;g d
+: 1586335489:0;g st
+: 1586337673:0;g d
+: 1586337674:0;g s
+: 1586337685:0;down
