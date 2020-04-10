@@ -10431,3 +10431,45 @@ end
 : 1586418887:0;cd api-server
 : 1586418889:0;vi
 : 1586437164:0;down
+: 1586505342:0;jt personal
+: 1586505346:0;la
+: 1586505348:0;cd kuru-anime
+: 1586505348:0;la
+: 1586505350:0;cd main-website
+: 1586505351:0;la
+: 1586505353:0;cd client
+: 1586505353:0;la
+: 1586505358:0;g b
+: 1586505369:0;g co issue-73-Header_Component_MVP_Design
+: 1586505372:0;g d
+: 1586505374:0;g lol
+: 1586505376:0;g st
+: 1586505377:0;g d
+: 1586505382:0;g s
+: 1586505393:0;g bnc
+: 1586505396:0;g ps origin issue-73-Header_Component_MVP_Design
+: 1586505444:0;yarn watch
+: 1586505446:0;yarn dev
+: 1586505476:0;vi
+: 1586505494:0;g pull
+: 1586505510:0;g pl origin master
+: 1586505523:0;vi
+: 1586505561:0;g d
+: 1586505569:0;g a
+: 1586505587:0;g c -m "merge"
+: 1586505591:0;g ps origin issue-73-Header_Component_MVP_Design
+: 1586518227:0;../server
+: 1586518231:0;vi
+: 1586563151:0;jt personal
+: 1586563152:0;la
+: 1586563158:0;cd kuru-anime
+: 1586563158:0;la
+: 1586563160:0;cd main-website
+: 1586563160:0;la
+: 1586563167:0;cd server
+: 1586563169:0;g d
+: 1586563170:0;g s
+: 1586563179:0;g d
+: 1586563181:0;g bnc
+: 1586563185:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
+: 1586563192:0;down
