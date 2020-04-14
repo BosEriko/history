@@ -10473,3 +10473,207 @@ end
 : 1586563181:0;g bnc
 : 1586563185:0;g ps fork issue-59-Setup_Postgres_and_TypeORM
 : 1586563192:0;down
+: 1586657258:0;jt work
+: 1586657258:0;la
+: 1586657259:0;vi
+: 1586657266:0;la
+: 1586657269:0;Lyon
+: 1586657269:0;la
+: 1586657273:0;cd api-server
+: 1586657274:0;la
+: 1586657275:0;vi
+: 1586742110:0;jt work
+: 1586742112:0;cd Lyon
+: 1586742322:0;la
+: 1586742324:0;cd api-server
+: 1586742385:0;vi
+: 1586742639:0;g d
+: 1586743254:0;../html-renderer
+: 1586743254:0;la
+: 1586743482:0;~
+: 1586743485:0;development
+: 1586743486:0;ops
+: 1586743487:0;la
+: 1586743489:0;cd OpsManager
+: 1586743490:0;la
+: 1586743492:0;vi
+: 1586743537:0;pg_restore --help
+: 1586744257:0;psql --help
+: 1586744259:0;psql --help |grep version
+: 1586744263:0;psql -V
+: 1586745662:0;vi
+: 1586745802:0;g d
+: 1586745804:0;g pl origin feature-post-event-management
+: 1586745812:0;g lol
+: 1586746170:0;pg_dump --help
+: 1586746186:0;cd ~
+: 1586746187:0;la
+: 1586746189:0;cd development/la
+: 1586746190:0;cd development
+: 1586746191:0;la
+: 1586746193:0;cd OpsManager
+: 1586746194:0;la
+: 1586746200:0;vi
+: 1586746361:0;pg_dump --help |grep password
+: 1586746375:0;pg_dump --help |grep -h
+: 1586746378:0;pg_dump --help |grep h
+: 1586746400:0;pg_dump --help |grep password
+: 1586746415:0;~
+: 1586746415:0;la
+: 1586746418:0;cd Downloads
+: 1586746419:0;la
+: 1586746422:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com --password -U postgres -d postgres > lyon-dev.sql
+: 1586746509:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres -d postgres > lyon-dev.sql
+: 1586746554:0;la
+: 1586746559:0;vi lyon-dev.sql
+: 1586746627:0;~
+: 1586746627:0;la
+: 1586746629:0;cd development
+: 1586746630:0;la
+: 1586746631:0;cd OpsManager
+: 1586746632:0;la
+: 1586746633:0;vi
+: 1586746656:0;la
+: 1586746660:0;cd Work
+: 1586746660:0;la
+: 1586746664:0;jt work
+: 1586746665:0;la
+: 1586746667:0;Lyon
+: 1586746668:0;la
+: 1586746704:0;psql
+: 1586747394:0;jt ~
+: 1586747396:0;cd ~
+: 1586747397:0;la
+: 1586747400:0;cd Downloads
+: 1586747400:0;la
+: 1586747411:0;pg_restore --verbose --username=boseriko --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads ~/Downloads/lyon-dev.sql
+: 1586747425:0;pg_restore --verbose --username=boseriko --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
+: 1586747621:0;pg_restore --help |grep --no-acl
+: 1586747627:0;pg_restore -h
+: 1586747631:0;pg_restore --help
+: 1586747635:0;pg_restore --help |grep acl
+: 1586747717:0;psql --help
+: 1586747744:0;psql --command="create database test_database;"
+: 1586747753:0;psql --command="\l"
+: 1586748340:0;g co feature-event-page
+: 1586748343:0;g d
+: 1586748364:0;g co feature-get-event-customers
+: 1586748368:0;g bnc
+: 1586748369:0;g st
+: 1586748379:0;g pl origin feature-get-event-customers\
+
+: 1586748395:0;g bnc
+: 1586748399:0;g pl origin feature-post-event-management
+: 1586748449:0;g co feature-event-page
+: 1586748453:0;g pl origin feature-event-page
+: 1586749137:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-production.cdjkyrltcwm4.ap-southeast-1.rds.amazonaws.com -U -d postgres > ~/Downloads/lyon-prod.sql
+: 1586749474:0;g co feature-event-page
+: 1586749489:0;g pl origin feature-event-page
+: 1586749498:0;g co feature-get-event-customers
+: 1586749499:0;yarn dev
+: 1586749630:0;g lol
+: 1586749785:0;yarn install
+: 1586749815:0;yarn dev
+: 1586749951:0;htop
+: 1586749982:0;g d
+: 1586749983:0;g s
+: 1586749987:0;g st pop
+: 1586749988:0;g d
+: 1586749994:0;yarn dev
+: 1586750196:0;htop
+: 1586750200:0;yarn dev
+: 1586750297:0;yarn install
+: 1586750305:0;yarn dev
+: 1586750772:0;g lol
+: 1586751966:0;g co feature-provider-facing-event-management-pane
+: 1586751968:0;g d
+: 1586751970:0;g st
+: 1586751974:0;g pl origin feature-provider-facing-event-management-pane
+: 1586752006:0;g pl origin feature-event-page
+: 1586752014:0;g lol
+: 1586752028:0;g d
+: 1586752029:0;g lol
+: 1586752059:0;git diff 9e46129..007f9fb
+: 1586752070:0;git diff 007f9fb..9e46129
+: 1586752079:0;g lol
+: 1586752085:0;g bnc
+: 1586752088:0;g ps origin feature-provider-facing-event-management-pane
+: 1586752192:0;yarn install
+: 1586753549:0;vi
+: 1586753569:0;g co feature-post-event-management
+: 1586753573:0;g pl origin feature-post-event-management
+: 1586754328:0;g bnc
+: 1586754334:0;g pl origin feature-post-event-management
+: 1586754339:0;g lol
+: 1586754341:0;g log
+: 1586754361:0;vi
+: 1586754369:0;yarn install && yarn dev
+: 1586756239:0;vi
+: 1586757190:0;g d
+: 1586757206:0;g s
+: 1586757223:0;g co components/sidebar/LyonPostEventSidebar/index.tsx
+: 1586758008:0;g diff feature-post-event-management..origin/feature-post-event-management
+: 1586758012:0;g d
+: 1586758027:0;g fetch
+: 1586758037:0;g diff feature-post-event-management..origin/feature-post-event-management
+: 1586759017:0;htop
+: 1586759277:0;g d
+: 1586759282:0;g st
+: 1586759288:0;g pl origin feature-post-event-management
+: 1586759295:0;g d
+: 1586759296:0;g s
+: 1586759301:0;g st pop
+: 1586759306:0;g d
+: 1586759310:0;g s
+: 1586759357:0;g d
+: 1586759438:0;g a
+: 1586759461:0;g c -m "add links to nav sidebar post_event"
+: 1586759466:0;g bnc
+: 1586759469:0;g ps origin feature-post-event-management
+: 1586760157:0;yarn install
+: 1586760178:0;yarn dev
+: 1586760350:0;g pl origin feature-post-event-management
+: 1586760809:0;yarn dev
+: 1586760837:0;g bnc
+: 1586760840:0;g pl origin feature-post-event-management
+: 1586761258:0;g d
+: 1586761260:0;g s
+: 1586761264:0;g clean -fd
+: 1586761266:0;g st
+: 1586761268:0;g bnc
+: 1586761270:0;g pl origin feature-post-event-management\
+
+: 1586761273:0;g pl origin feature-post-event-management
+: 1586761341:0;g a
+: 1586761358:0;g c -m "Revet 3994ed3463e97ac2febdd2d8c39294573685b984"
+: 1586761385:0;g bnc
+: 1586761390:0;g ps origin feature-post-event-management
+: 1586764780:0;vi
+: 1586768598:0;la
+: 1586768606:0;vi
+: 1586769678:0;g d
+: 1586769833:0;g s
+: 1586769843:0;g bnc
+: 1586769844:0;g st
+: 1586769848:0;g pl origin feature-post-event-management
+: 1586769858:0;g lol
+: 1586769860:0;g log
+: 1586769936:0;g d
+: 1586769939:0;g st pop
+: 1586770361:0;g d
+: 1586770640:0;g s
+: 1586770727:0;g d
+: 1586770768:0;g st
+: 1586770778:0;g st pop
+: 1586770784:0;g a
+: 1586770848:0;g c -m "move the margin and padding to the block itself instead of the container and panel of sidebar"
+: 1586770851:0;g bnc
+: 1586770855:0;g ps origin feature-post-event-management
+: 1586770885:0;g st
+: 1586771362:0;g d
+: 1586771363:0;g s
+: 1586771364:0;g st
+: 1586771365:0;g bnc
+: 1586771369:0;g pl origin feature-post-event-management
+: 1586783011:0;bos -h
+: 1586828976:0;down
