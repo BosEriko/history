@@ -10677,3 +10677,47 @@ end
 : 1586771369:0;g pl origin feature-post-event-management
 : 1586783011:0;bos -h
 : 1586828976:0;down
+: 1586836964:0;jt work
+: 1586836965:0;la
+: 1586836966:0;cd Lyon
+: 1586836967:0;la
+: 1586836969:0;cd html-renderer
+: 1586836976:0;../api-server
+: 1586836983:0;vi
+: 1586836996:0;yarn dev fg
+: 1586837001:0;yarn dev
+: 1586858920:0;g bnc
+: 1586858923:0;g pl origin feature-post-event-management
+: 1586859241:0;g a
+: 1586859251:0;g reset
+: 1586859301:0;g a
+: 1586859364:0;g c -m "hide from post event sidebar on mobile"
+: 1586859365:0;g bnc
+: 1586859369:0;g ps origin feature-post-event-management
+: 1586860323:0;g d
+: 1586871396:0;jt work
+: 1586871397:0;la
+: 1586871398:0;cd Lyon
+: 1586871401:0;la
+: 1586871402:0;cd api-server
+: 1586871404:0;la
+: 1586871405:0;vi
+: 1586909763:0;jt personal
+: 1586909764:0;la
+: 1586909772:0;mv bujo denik
+: 1586909774:0;cd denik
+: 1586909775:0;la
+: 1586909777:0;cd client
+: 1586909778:0;la
+: 1586909780:0;g bnc
+: 1586909784:0;g co master
+: 1586909787:0;g pl origin master
+: 1586909794:0;la
+: 1586909848:0;g co -b feature-social-logins
+: 1586909878:0;yarn dev
+: 1586909884:0;vi
+: 1586909894:0;yarn install
+: 1586910013:0;yarn dev
+: 1586910106:0;g flow
+: 1586911959:0;vi
+: 1586912069:0;down
