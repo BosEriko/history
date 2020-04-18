@@ -10721,3 +10721,383 @@ end
 : 1586910106:0;g flow
 : 1586911959:0;vi
 : 1586912069:0;down
+: 1586914771:0;jt work
+: 1586914772:0;la
+: 1586914780:0;cd Lyon/api-server
+: 1586914801:0;../html-renderer
+: 1586914852:0;vi
+: 1586917438:0;g bnc
+: 1586917441:0;g pl oiring feature-post-event-management
+: 1586917453:0;g pl origin feature-post-event-management
+: 1586917486:0;g co feature-provider-facing-event-management-pane
+: 1586917487:0;g d
+: 1586917501:0;g s
+: 1586917504:0;g st
+: 1586917508:0;g co feature-provider-facing-event-management-pane
+: 1586917513:0;g pl origin feature-provider-facing-event-management-pane
+: 1586917605:0;g co develop
+: 1586917608:0;g pl origin develop
+: 1586917619:0;g loq
+: 1586917624:0;g log
+: 1586917646:0;g co feature-provider-facing-event-management-pane
+: 1586917652:0;g pl origin feature-provider-facing-event-management-pane
+: 1586917659:0;g pl origin develop
+: 1586917673:0;g ps origin feature-provider-facing-event-management-pane
+: 1586918259:0;yarn dev
+: 1586918578:0;g a
+: 1586918589:0;g c -m "remove react memo"
+: 1586918591:0;g bnc
+: 1586918595:0;g ps origin feature-provider-facing-event-management-pane
+: 1586921051:0;g co requireUserIsManagingProvider
+: 1586921053:0;g co feature-post-event-management
+: 1586921056:0;g log
+: 1586921060:0;g st pop
+: 1586922930:0;gtop
+: 1586926241:0;yarn dev
+: 1586926249:0;../html-renderer
+: 1586926394:0;yarn dev
+: 1586926412:0;vi
+: 1586926489:0;g d
+: 1586926518:0;g s
+: 1586927054:0;yarn dev
+: 1586927487:0;g s
+: 1586928203:0;g d
+: 1586928205:0;g s
+: 1586928225:0;g co components/sidebar/LyonPostEventSidebar/index.tsx
+: 1586928230:0;g d
+: 1586928255:0;g s
+: 1586928266:0;g d components/sidebar/LyonSidebar
+: 1586928282:0;g co components/sidebar/LyonSidebar
+: 1586928365:0;g s
+: 1586928367:0;g d
+: 1586928834:0;g bnc
+: 1586928838:0;g pl origin feature-post-event-management
+: 1586929114:0;g a
+: 1586929143:0;g c -m "fix links bug"
+: 1586931361:0;g bnc
+: 1586931364:0;g ps origin feature-post-event-management
+: 1586931424:0;g lol
+: 1586931612:0;g d
+: 1586931622:0;g s
+: 1586931714:0;g co components/sidebar/LyonPostEventSidebar/LyonPostEventTabBarInfo/LyonPostEventTitle/index.tsx
+: 1586935033:0;g d
+: 1586935035:0;g s
+: 1586937032:0;gtop
+: 1586937092:0;yarn dev
+: 1586937121:0;gtop
+: 1586941153:0;yarn dev
+: 1586941947:0;gtop
+: 1586942536:0;yarn dev
+: 1586953066:0;jt work
+: 1586953067:0;la
+: 1586953069:0;cd Lyon
+: 1586953069:0;la
+: 1586953076:0;html-renderer
+: 1586953078:0;g d
+: 1586953090:0;vi
+: 1586954712:0;la
+: 1586954714:0;jt personal
+: 1586954715:0;la
+: 1586954716:0;cd denik
+: 1586954717:0;la
+: 1586954719:0;cd client
+: 1586954719:0;la
+: 1586954724:0;vi
+: 1586954796:0;yarn dev
+: 1586954995:0;yarn add dotenv
+: 1586955004:0;la
+: 1586955006:0;g d
+: 1586955012:0;g a
+: 1586955061:0;vi
+: 1586955086:0;g c -m "add dotenv"
+: 1586955089:0;g bnc
+: 1586955092:0;g ps origin feature-social-logins
+: 1586955117:0;ci
+: 1586955118:0;vi
+: 1586955208:0;jt personal
+: 1586955209:0;la
+: 1586955210:0;cd kuru-anime
+: 1586955210:0;la
+: 1586955212:0;cd discord-bot
+: 1586955213:0;la
+: 1586955213:0;vi
+: 1586955236:0;g d
+: 1586955240:0;g a
+: 1586955349:0;jt work
+: 1586955349:0;la
+: 1586955351:0;cd Lyon
+: 1586955351:0;la
+: 1586955354:0;cd html-renderer
+: 1586955354:0;la
+: 1586955355:0;vi
+: 1586955545:0;yarn dev
+: 1586955583:0;g a
+: 1586955607:0;g c -m "add next.config.js"
+: 1586955610:0;g bnc
+: 1586955612:0;g ps origin feature-social-logins\
+
+: 1586955615:0;g ps origin feature-social-logins
+: 1586955851:0;jt personal
+: 1586955852:0;la
+: 1586955855:0;cd kuru-anime
+: 1586955855:0;la
+: 1586955857:0;cd main-website
+: 1586955858:0;la
+: 1586955860:0;cd client
+: 1586955860:0;la
+: 1586955862:0;vi
+: 1586955966:0;yarn add @types/node
+: 1586955982:0;yarn add @types/react
+: 1586956102:0;g a
+: 1586956118:0;g c -m "add types for node and react"
+: 1586956120:0;g a
+: 1586956132:0;g c -m "add _app.tsx"
+: 1586956135:0;g ps origin feature-social-logins
+: 1586956522:0;g a
+: 1586956531:0;g c -m "update structure of .env.sample"
+: 1586956532:0;g bnc
+: 1586956535:0;g ps origin feature-social-logins
+: 1586956576:0;yarn add firebase
+: 1586956615:0;g d
+: 1586956617:0;g a
+: 1586956627:0;y
+: 1586956631:0;g c -m "install firebase"
+: 1586956633:0;g ps
+: 1586956637:0;g ps origin feature-social-logins
+: 1586956820:0;g d
+: 1586956870:0;yarn dev
+: 1586956958:0;g a
+: 1586956964:0;g c -m "initialize firebase"
+: 1586956968:0;g ps origin feature-social-logins
+: 1586996806:0;jt personal
+: 1586996806:0;la
+: 1586996808:0;cd denik
+: 1586996809:0;la
+: 1586996812:0;cd client
+: 1586996813:0;la
+: 1586996813:0;vi
+: 1586998259:0;jt work
+: 1586998260:0;la
+: 1586998261:0;cd Lyon
+: 1586998261:0;la
+: 1586998270:0;cd html-renderer
+: 1586998270:0;la
+: 1586998271:0;vi
+: 1586999005:0;g a
+: 1586999024:0;g d
+: 1586999025:0;g s
+: 1586999032:0;git add .
+: 1586999034:0;g s
+: 1586999042:0;g c -m "add utils folder with authentication in it"
+: 1586999044:0;g bnc
+: 1586999047:0;g ps origin feature-social-logins
+: 1587001004:0;g a
+: 1587001008:0;g s
+: 1587001018:0;g c -m "move authentication files into a single file"
+: 1587001021:0;g bnc
+: 1587001025:0;g ps origin feature-social-logins
+: 1587001496:0;g a
+: 1587001512:0;g c -m "link docs to functions for future reference"
+: 1587001514:0;g bnc
+: 1587001517:0;g ps origin feature-social-logins
+: 1587012242:0;la
+: 1587012243:0;jt personal
+: 1587012244:0;la
+: 1587012246:0;cd denik
+: 1587012246:0;la
+: 1587012249:0;cd client
+: 1587012256:0;g co master
+: 1587012258:0;g pl origin master
+: 1587012279:0;git reset --hard origin/master
+: 1587012285:0;g pl origin master
+: 1587012294:0;g co feature-social-logins
+: 1587012306:0;g rebase origin/master
+: 1587012310:0;vi
+: 1587012342:0;git rebase --abort
+: 1587012346:0;g pl origin master
+: 1587012424:0;../api-server
+: 1587012432:0;../html-renderer
+: 1587012459:0;vi
+: 1587016326:0;yarn dev
+: 1587016464:0;g d
+: 1587016475:0;g s
+: 1587016479:0;g co src/index.ts
+: 1587016486:0;g d
+: 1587016487:0;g s
+: 1587016497:0;g d
+: 1587016503:0;g a
+: 1587016507:0;g bnc
+: 1587016510:0;g pl origin feature-post-event-management
+: 1587017662:0;g co feature-provider-facing-event-management-pane
+: 1587017664:0;g d
+: 1587017666:0;g st
+: 1587017671:0;g co feature-provider-facing-event-management-pane
+: 1587018011:0;g d
+: 1587018015:0;g s
+: 1587018025:0;g co scoped-models/ProviderCheckManager.tsx
+: 1587018027:0;g d
+: 1587018034:0;g a
+: 1587018065:0;g c -m "make global modal type undefed at first instead of an empty string"
+: 1587018067:0;g bnc
+: 1587018071:0;g ps origin feature-provider-facing-event-management-pane
+: 1587019771:0;g lol
+: 1587019781:0;g co feature-post-event-management
+: 1587019787:0;g pl origin feature-post-event-management
+: 1587019793:0;g st pop
+: 1587019794:0;g a
+: 1587019845:0;g c -m "add catcher for multiple pids and rename id to eventId"
+: 1587019846:0;g bnc
+: 1587019850:0;g ps origin feature-post-event-management
+: 1587019933:0;g s
+: 1587020634:0;g d
+: 1587020636:0;g s
+: 1587020639:0;vi
+: 1587023133:0;g co components/sidebar/LyonPostEventSidebar/LyonPostEventTabBarInfo/LyonPostEventTitle/index.tsx
+: 1587023538:0;gtop
+: 1587024158:0;yarn dev
+: 1587024387:0;g d
+: 1587028098:0;yarn dev
+: 1587028112:0;vi
+: 1587028199:0;g co develop
+: 1587028203:0;g pl origin develop
+: 1587028205:0;g st
+: 1587028208:0;g pl origin develop
+: 1587028371:0;g co -b feature-event-stream-data
+: 1587028380:0;yarn dev
+: 1587029288:0;g d
+: 1587029290:0;g st pop
+: 1587031616:0;../html-renderer
+: 1587031617:0;vi
+: 1587033205:0;g lol
+: 1587033223:0;yarn dev
+: 1587033231:0;g pl origin feature-post-event-management
+: 1587033352:0;g d
+: 1587033354:0;g st
+: 1587033883:0;yarn dev
+: 1587034776:0;g d
+: 1587034778:0;g bnc
+: 1587034784:0;g co origin feature-post-event-management
+: 1587034788:0;la
+: 1587034795:0;g s
+: 1587034799:0;g co components
+: 1587034802:0;g co pages
+: 1587080881:0;jt personal
+: 1587080882:0;la
+: 1587080884:0;cd denik
+: 1587080884:0;la
+: 1587080887:0;cd client
+: 1587080887:0;la
+: 1587080889:0;vi
+: 1587080900:0;yarn dev
+: 1587082014:0;g rebase origin/master
+: 1587082016:0;vi
+: 1587082136:0;g co origin/master yarn.lock
+: 1587082139:0;g d
+: 1587082141:0;g s
+: 1587082174:0;g d
+: 1587082176:0;g s
+: 1587082183:0;vi
+: 1587082236:0;git reset --hard origin/master
+: 1587082237:0;g lol
+: 1587082243:0;git rebase --abort
+: 1587082246:0;git reset --hard origin/master
+: 1587082249:0;g s
+: 1587082256:0;rm -rf .env
+: 1587082373:0;vi
+: 1587082378:0;yarn dev
+: 1587082423:0;yarn install
+: 1587088965:0;jt work
+: 1587088988:0;la
+: 1587088989:0;cd Lyon
+: 1587088990:0;la
+: 1587088991:0;cd html-renderer
+: 1587088992:0;la
+: 1587088999:0;../api-server
+: 1587091184:0;vi
+: 1587091185:0;yarn dev
+: 1587091187:0;g d
+: 1587091189:0;g a
+: 1587091210:0;g c -m "add eager for stream/event relationship"
+: 1587091211:0;g bnc
+: 1587091214:0;g ps origin feature-event-stream-data
+: 1587091237:0;g b
+: 1587091260:0;g co develop
+: 1587091262:0;g d
+: 1587091264:0;g s
+: 1587091270:0;g co src/routes
+: 1587091274:0;g st
+: 1587091277:0;g pl origin develop
+: 1587091293:0;g st pop
+: 1587091342:0;vi
+: 1587091346:0;yarn dev
+: 1587091347:0;vi
+: 1587091352:0;g pl origin develop
+: 1587091375:0;g lol
+: 1587091552:0;g bnc
+: 1587091553:0;g st
+: 1587091561:0;git reset --hard origin/feature-post-event-management\
+
+: 1587091568:0;g st pop
+: 1587091569:0;g d
+: 1587092014:0;g st
+: 1587092016:0;g pl origin master
+: 1587092027:0;g bnc
+: 1587092031:0;g pl origin feature-post-event-management
+: 1587092042:0;g st pop
+: 1587092184:0;g s
+: 1587092232:0;g co scoped-models/ProviderCheckManager.tsx
+: 1587096670:0;g a
+: 1587096735:0;g c -m "add data to sidebar"
+: 1587096737:0;g bnc
+: 1587096739:0;g ps feature-post-event-management
+: 1587096813:0;g ps origin feature-post-event-management
+: 1587109462:0;g pl origin develop
+: 1587109932:0;g co feature-event-stream-data
+: 1587114267:0;jt work
+: 1587114267:0;la
+: 1587116966:0;jt personal
+: 1587116967:0;la
+: 1587116971:0;jt work
+: 1587116972:0;la
+: 1587116975:0;Lyon/
+: 1587116975:0;la
+: 1587116977:0;cd html-renderer
+: 1587116977:0;la
+: 1587116980:0;../api-server
+: 1587116987:0;yarn dev
+: 1587116989:0;g bnc
+: 1587116992:0;g pl origin feature-event-stream-data
+: 1587118188:0;vi
+: 1587120130:0;../html-renderer
+: 1587120131:0;la
+: 1587120132:0;vi
+: 1587120521:0;g d
+: 1587121094:0;g s
+: 1587121102:0;g co src/models/entities/Event.ts
+: 1587121103:0;g d
+: 1587121113:0;g s
+: 1587121116:0;g co src/routes/event.ts
+: 1587121118:0;g d
+: 1587121129:0;g a
+: 1587121149:0;g c -m "add hyphen to streams route"
+: 1587121151:0;g bnc
+: 1587121154:0;g ps origin feature-event-stream-data
+: 1587121653:0;g s
+: 1587121662:0;g co src/routes/stream.ts
+: 1587121679:0;g s
+: 1587121680:0;g d
+: 1587121698:0;g co src/controllers
+: 1587121701:0;g co src/models
+: 1587174339:0;la
+: 1587174344:0;jt personal
+: 1587174345:0;deik
+: 1587174346:0;la
+: 1587174348:0;cd denik
+: 1587174348:0;la
+: 1587174349:0;cd client
+: 1587174350:0;la
+: 1587174357:0;git reset --hard origin/master
+: 1587174359:0;g lol
+: 1587175996:0;vi
+: 1587176001:0;yarn dev
+: 1587177205:0;down
