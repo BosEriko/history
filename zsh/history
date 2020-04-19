@@ -11245,3 +11245,94 @@ end
 : 1587260384:0;g bnc
 : 1587260387:0;g ps origin feature-social-logins
 : 1587261063:0;down
+: 1587266708:0;rm -rf pages/sign-in.tsx
+: 1587266710:0;la
+: 1587266711:0;g s
+: 1587266714:0;g a
+: 1587266719:0;git add .
+: 1587266726:0;g c -m "remove pages that was used for testing"
+: 1587266734:0;g bnc
+: 1587266737:0;g ps origin feature-social-logins
+: 1587266852:0;vi
+: 1587276017:0;g co develop
+: 1587276022:0;g co master
+: 1587276025:0;g pl origin master
+: 1587276048:0;g co origin/feature-templates .github
+: 1587276051:0;g d
+: 1587276054:0;vi
+: 1587276158:0;g lol
+: 1587276163:0;g a
+: 1587276183:0;g s
+: 1587276190:0;git add .github
+: 1587276196:0;g c -m "add github templates"
+: 1587276202:0;g s
+: 1587276221:0;g reset a7f75c8
+: 1587276222:0;g s
+: 1587276225:0;g lol
+: 1587276234:0;g reset 9b900fc
+: 1587276237:0;g s
+: 1587276240:0;git add .github
+: 1587276243:0;g lol
+: 1587276257:0;g c -m "[Hotfix] Add GitHub templates"
+: 1587276260:0;g ps origin master
+: 1587276272:0;../server
+: 1587276274:0;vi
+: 1587276316:0;g pl origin master
+: 1587276346:0;g lol
+: 1587276359:0;g a
+: 1587276438:0;g df
+: 1587276439:0;g d
+: 1587276440:0;g s
+: 1587276444:0;g reset
+: 1587276446:0;g a
+: 1587276473:0;g s
+: 1587276475:0;g d
+: 1587276486:0;..
+: 1587276489:0;cd server
+: 1587276489:0;la
+: 1587276491:0;g d
+: 1587276495:0;g st
+: 1587276512:0;vi
+: 1587276645:0;g a
+: 1587276664:0;g c -m "[Hotfix] Update GitHub templates"
+: 1587276668:0;g ps origin master
+: 1587276705:0;../client
+: 1587276705:0;la
+: 1587276741:0;vi
+: 1587276751:0;g co feature-social-logins
+: 1587276755:0;g d
+: 1587276759:0;g lol
+: 1587276762:0;g d
+: 1587276804:0;g a
+: 1587276818:0;g c -m "[Hotfix] Update GitHub templates"
+: 1587276822:0;g ps origin master
+: 1587276845:0;g co feature-social-logins
+: 1587276855:0;g pl origin master
+: 1587276868:0;g lol
+: 1587276871:0;g st
+: 1587276880:0;rm -rf .env
+: 1587276887:0;g pl origin master
+: 1587276899:0;g s
+: 1587276902:0;g st
+: 1587276905:0;g s
+: 1587276911:0;g rebase origin/master
+: 1587276915:0;g lol
+: 1587276988:0;vi
+: 1587277097:0;g lol
+: 1587277105:0;vi
+: 1587277134:0;vi test
+: 1587277315:0;vi
+: 1587286550:0;jt work
+: 1587286551:0;la
+: 1587286552:0;cd Lyon
+: 1587286553:0;la
+: 1587286556:0;cd api-server
+: 1587286557:0;vi
+: 1587290364:0;jt lyo
+: 1587290366:0;jt work
+: 1587290367:0;cd Lyon
+: 1587290368:0;la
+: 1587290370:0;cd html-renderer
+: 1587290370:0;la
+: 1587290371:0;vi
+: 1587340126:0;down
