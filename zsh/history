@@ -11101,3 +11101,147 @@ end
 : 1587175996:0;vi
 : 1587176001:0;yarn dev
 : 1587177205:0;down
+: 1587177392:0;yarn add dotenv
+: 1587177456:0;g d
+: 1587177460:0;g a
+: 1587177466:0;g c -m "add dotenv"
+: 1587177520:0;g d
+: 1587177522:0;g s
+: 1587177603:0;g d
+: 1587177605:0;g s
+: 1587177606:0;g a
+: 1587177620:0;g c -m "add .env to .gitignore and created .env.sample"
+: 1587177658:0;g a
+: 1587177665:0;g c -m "require dotenv on next.config.js"
+: 1587177693:0;yarn add @types/react @types/node
+: 1587177712:0;g d
+: 1587177734:0;g a
+: 1587177742:0;g c -m "update types for node and react"
+: 1587177808:0;g a
+: 1587177819:0;g c -m "update structure of .env.sample"
+: 1587177838:0;yarn add firebase
+: 1587177924:0;g a
+: 1587177948:0;g c -m "install firebase"
+: 1587178069:0;g a
+: 1587178095:0;g c -m "initialize firebase and changed _app and _document from jsx to tsx"
+: 1587178099:0;g top
+: 1587178101:0;gtop
+: 1587178291:0;g a
+: 1587178295:0;g s
+: 1587178298:0;git add .
+: 1587178314:0;g c -m "create files for the authentication system"
+: 1587178321:0;g bnc
+: 1587178328:0;g ps --force origin feature-social-logins
+: 1587186567:0;yarn dev
+: 1587187019:0;jt work
+: 1587187019:0;la
+: 1587187021:0;cd Lyon
+: 1587187022:0;la
+: 1587187026:0;cd html-renderer
+: 1587187026:0;la
+: 1587187033:0;vi next.config.js
+: 1587187576:0;yarn dev
+: 1587187983:0;yarn install
+: 1587187997:0;yarn dev
+: 1587188115:0;rm -rf node_modules && yarn.lock
+: 1587188129:0;rm -rf node_modules yarn.lock
+: 1587188131:0;yarn install
+: 1587188311:0;yarn dev
+: 1587194069:0;g d
+: 1587194074:0;g a
+: 1587194090:0;g reset
+: 1587194092:0;g a
+: 1587194109:0;g c -m "add env on next.config.js"
+: 1587194118:0;g a
+: 1587194147:0;g s
+: 1587194156:0;g c -m "move _app and _document back to jsx"
+: 1587194164:0;g a
+: 1587194178:0;g c -m "update authentication file"
+: 1587194179:0;g a
+: 1587194186:0;g c -m "update yarn.lock"
+: 1587194914:0;g a
+: 1587194941:0;g c -m "minimize the authorization code"
+: 1587194945:0;g bnc
+: 1587194948:0;g ps origin feature-social-logins
+: 1587195034:0;g d
+: 1587195037:0;g a
+: 1587195056:0;g c -m "remove function block from authentication file"
+: 1587195057:0;g bnc
+: 1587195060:0;g ps origin feature-social-logins
+: 1587195098:0;g s
+: 1587195104:0;g co pages
+: 1587195259:0;g a
+: 1587195271:0;g c -m "add API_URL to next.config.js"
+: 1587195272:0;g bnc
+: 1587195275:0;g ps origin feature-social-logins
+: 1587195302:0;yarn dev
+: 1587195371:0;g st
+: 1587195850:0;yarn dev
+: 1587198003:0;g a
+: 1587199130:0;g d
+: 1587199142:0;g a
+: 1587199152:0;g c -m "add sign-in page"
+: 1587199154:0;g bnc
+: 1587199158:0;g ps origin feature-social-logins
+: 1587199257:0;g a
+: 1587199268:0;g c -m "remove string from .env.sample"
+: 1587199269:0;g bnc
+: 1587199271:0;g ps origin feature-social-logins
+: 1587202919:0;g d
+: 1587202926:0;g a
+: 1587202946:0;g c -m "add a way to detect user's state"
+: 1587202948:0;g bnc
+: 1587202951:0;g ps origin feature-social-logins
+: 1587203005:0;g st
+: 1587204566:0;g a
+: 1587204593:0;g c -m "add _ for baseAuthentication to have a hint that it's a private method"
+: 1587204595:0;g bnc
+: 1587204597:0;g ps origin feature-social-logins
+: 1587207062:0;g a
+: 1587207086:0;g c -m "update authentication for social accounts to SignIn and added a user sign out method"
+: 1587207087:0;g bnc
+: 1587207089:0;g ps origin feature-social-logins
+: 1587211692:0;yarn dev
+: 1587212063:0;g a
+: 1587212078:0;g c -m "add data to sessionStorage"
+: 1587212082:0;g ps origin feature-social-logins
+: 1587212437:0;yarn dev
+: 1587213121:0;g s
+: 1587213125:0;g co pages
+: 1587213820:0;g a
+: 1587213845:0;g c -m "update variable name of state checker on _app.js"
+: 1587213847:0;g a
+: 1587213857:0;g c -m "add more methods on sign-in page"
+: 1587213858:0;g a
+: 1587213877:0;g c -m "update authentication util"
+: 1587213879:0;g ps origin feature-social-logins
+: 1587254576:0;jt personal
+: 1587254577:0;la
+: 1587254642:0;cd denik
+: 1587254642:0;la
+: 1587254643:0;cd client
+: 1587254643:0;la
+: 1587254645:0;vi
+: 1587254663:0;jt work
+: 1587254664:0;Lyon
+: 1587254664:0;la
+: 1587254668:0;cd html-renderer
+: 1587254668:0;la
+: 1587254670:0;vi
+: 1587259088:0;yarn dev
+: 1587259178:0;g s
+: 1587259181:0;g co utils
+: 1587259864:0;g s
+: 1587259870:0;g co pages
+: 1587260228:0;g a
+: 1587260235:0;n
+: 1587260245:0;g c -m "remove the checker for user status"
+: 1587260246:0;g a
+: 1587260282:0;g c -m "add window object check utility and remove unwanted syntax on authentication"
+: 1587260284:0;g bnc
+: 1587260286:0;g ps origin feature-social-logins
+: 1587260376:0;g a
+: 1587260382:0;g c -m "add void type to userSignOut"
+: 1587260384:0;g bnc
+: 1587260387:0;g ps origin feature-social-logins
+: 1587261063:0;down
