@@ -10885,3 +10885,201 @@ end
 : 1588201799:0;la
 : 1588201800:0;vi
 : 1588201806:0;down
+: 1588202350:0;jt work
+: 1588202351:0;la
+: 1588202352:0;cd api
+: 1588202354:0;la
+: 1588202356:0;cd Lyon
+: 1588202357:0;la
+: 1588202358:0;cd api-server
+: 1588202358:0;la
+: 1588202359:0;vi
+: 1588202437:0;yarn dev
+: 1588202445:0;g a
+: 1588202466:0;g c -m "limit redux devtools to development"
+: 1588202467:0;g bnc
+: 1588202470:0;g ps origin feature-redux
+: 1588202520:0;g a
+: 1588202534:0;g c -m "change redux page to signin page"
+: 1588202536:0;g a
+: 1588202546:0;g c -m "add Action to all the action names to avoid confusion"
+: 1588202550:0;g ps origin feature-redux
+: 1588202617:0;g a
+: 1588202633:0;g c -m "namespace Provider to ReduxProvider"
+: 1588202635:0;g ps origin feature-redux
+: 1588202756:0;g a
+: 1588202764:0;g c -m "update anchor comments"
+: 1588202766:0;g ps origin feature-redux
+: 1588203584:0;g a
+: 1588203608:0;g c -m "move actions to its own folder"
+: 1588203612:0;g a
+: 1588203616:0;n
+: 1588203629:0;g c -m "add AUTHENTICATE to types"
+: 1588203630:0;g a
+: 1588203645:0;g c -m "move reducers to its own folder"
+: 1588203647:0;g bnc
+: 1588203652:0;g ps origin feature-redux
+: 1588204256:0;g a
+: 1588204283:0;g c -m "fix index reducers error"
+: 1588204288:0;g a
+: 1588204309:0;g c -m "move isLogged to authenticate"
+: 1588204310:0;g a
+: 1588204322:0;g c -m "fix the import issue on counter reducer"
+: 1588204324:0;g ps origin feature-redux
+: 1588204590:0;g a
+: 1588204597:0;g c -m "add comments to reducers"
+: 1588204599:0;g bnc
+: 1588204601:0;g ps origin feature-redux
+: 1588204742:0;g a
+: 1588204753:0;g c -m "add comments to actions"
+: 1588204756:0;g ps origin feature-redux
+: 1588204812:0;g a
+: 1588204819:0;g reset
+: 1588204820:0;g a
+: 1588204831:0;g c -m "fix typo on Redux Improts"
+: 1588204834:0;g ps origin feature-redux
+: 1588204877:0;yarn dev
+: 1588205176:0;g a
+: 1588205195:0;g c -m "fix the NODE_ENV for the redux devtools"
+: 1588205198:0;g ps origin feature-redux
+: 1588205297:0;jt work
+: 1588205298:0;la
+: 1588205523:0;g a
+: 1588205534:0;g c -m "namespace increment and decrement action"
+: 1588205535:0;g bnc
+: 1588205538:0;g ps origin feature-redux
+: 1588206506:0;g a
+: 1588206524:0;g c -m "add a redux page"
+: 1588206528:0;g ps origin feature-redux
+: 1588208412:0;g a
+: 1588208432:0;g c -m "update pages"
+: 1588208436:0;g ps origin feature-redux
+: 1588209629:0;jt work
+: 1588215411:0;la
+: 1588215413:0;cd Lyon
+: 1588215413:0;la
+: 1588215415:0;cd api-server
+: 1588215417:0;vi
+: 1588215420:0;yarn dev
+: 1588215423:0;../html-renderer
+: 1588215423:0;la
+: 1588215425:0;vi
+: 1588215428:0;yarn dev
+: 1588216824:0;g d
+: 1588216826:0;g s
+: 1588216831:0;g co src/controllers/attendance.ts
+: 1588218262:0;yarn dev
+: 1588219001:0;jt work
+: 1588219003:0;cd Lyon
+: 1588219003:0;la
+: 1588219005:0;cd api-server
+: 1588219013:0;../html-renderer
+: 1588219018:0;vi
+: 1588219020:0;yarn dev
+: 1588219021:0;vi
+: 1588219023:0;yarn dev
+: 1588220083:0;g d
+: 1588220099:0;g s
+: 1588220105:0;g co src/controllers/attendance.ts
+: 1588220106:0;g d
+: 1588220116:0;g co src/controllers/stream.ts
+: 1588220118:0;g d
+: 1588220127:0;g s
+: 1588220136:0;g co src/utils/middlewares/streamMiddlewares.ts
+: 1588220137:0;g s
+: 1588220143:0;g co src/routes/attendance.ts
+: 1588220348:0;g s
+: 1588220351:0;g co src/routes
+: 1588221194:0;g s
+: 1588221203:0;g d
+: 1588221207:0;g d src/controllers
+: 1588221219:0;g st src/controllers
+: 1588221225:0;g co src/controllers
+: 1588221225:0;g d
+: 1588221227:0;g s
+: 1588221232:0;g co src/index.ts
+: 1588221237:0;g d src/routes
+: 1588221243:0;g co src/routes
+: 1588221247:0;g d src/utils
+: 1588221250:0;g co src/utils
+: 1588221251:0;g s
+: 1588221382:0;g co src/routes
+: 1588221511:0;g a
+: 1588221526:0;g c -m "fix routes error for attendance"
+: 1588221527:0;g bnc
+: 1588221530:0;g ps origin feature-attendance-endpoint
+: 1588227728:0;g s
+: 1588227729:0;g d
+: 1588228693:0;g s
+: 1588228699:0;g co src/routes/provider
+: 1588228706:0;g co src/controllers/provider
+: 1588228708:0;g co src/controllers/provider.ts
+: 1588228709:0;g s
+: 1588228710:0;g d
+: 1588228820:0;yarn dev
+: 1588228828:0;g s
+: 1588228833:0;g co src/routes/provider.ts
+: 1588229902:0;g d
+: 1588229910:0;g a
+: 1588229922:0;g c -m "add query"
+: 1588229923:0;g bnc
+: 1588229925:0;g ps origin feature-attendance-endpoint
+: 1588229951:0;g co develop
+: 1588229955:0;g pl origin develop
+: 1588229958:0;g st
+: 1588229960:0;g pl origin develop
+: 1588229968:0;g st pop
+: 1588229971:0;g lol
+: 1588229972:0;g s
+: 1588229975:0;g d
+: 1588229999:0;g st
+: 1588230021:0;g d
+: 1588230089:0;g st
+: 1588230095:0;git reset --hard origin/develop
+: 1588230178:0;g co feature-attendance-endpoint
+: 1588230182:0;g st pop
+: 1588230183:0;g d
+: 1588231957:0;g a
+: 1588231976:0;g c -m "fix the controller and add random attendance trigger"
+: 1588232154:0;g a
+: 1588232173:0;g c -m "add attendance random route"
+: 1588232174:0;g bnc
+: 1588232176:0;g ps origin feature-attendance-endpoint
+: 1588232253:0;g a
+: 1588232261:0;g c -m "fix the controller being called"
+: 1588232266:0;g ps origin feature-attendance-endpoint
+: 1588232361:0;g a
+: 1588232372:0;g c -m "revert event controller"
+: 1588232375:0;g ps origin feature-attendance-endpoint
+: 1588233005:0;g a
+: 1588233024:0;g c -m "create a reusable function for controller of attendance"
+: 1588233181:0;g ps origin feature-attendance-endpoint
+: 1588233321:0;g pl origin develop
+: 1588233336:0;g st
+: 1588233339:0;g pl origin develop
+: 1588233354:0;g ps origin feature-attendance-endpoint
+: 1588233365:0;g co feature-event-stream-data
+: 1588233367:0;g pl origin develop
+: 1588233376:0;g pl origin feature-event-stream-data
+: 1588233432:0;g pl origin develop
+: 1588233463:0;g ps origin feature-event-stream-data
+: 1588233484:0;g co feature-attendance-endpoint
+: 1588233958:0;yarn dev
+: 1588236065:0;g d
+: 1588236073:0;g s
+: 1588236077:0;g co src/models/entities/Event.ts
+: 1588238113:0;g d
+: 1588238658:0;g a
+: 1588238676:0;g c -m "use stream namespace for the route"
+: 1588238677:0;g bnc
+: 1588238681:0;g ps origin feature-attendance-endpoint
+: 1588239433:0;la
+: 1588296102:0;jt personal
+: 1588296103:0;la
+: 1588296105:0;cd denik
+: 1588296105:0;la
+: 1588296107:0;cd client
+: 1588296110:0;vi
+: 1588296114:0;yarn dev
+: 1588306308:0;jt dotfiles
+: 1588306309:0;down
