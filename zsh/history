@@ -11083,3 +11083,164 @@ end
 : 1588296114:0;yarn dev
 : 1588306308:0;jt dotfiles
 : 1588306309:0;down
+: 1588306443:0;vi
+: 1588308123:0;yarn global add blitz
+: 1588309539:0;blitz --help
+: 1588309553:0;g d
+: 1588309558:0;g a
+: 1588309572:0;g c -m "add blitz and move jake to the proper line"
+: 1588309574:0;g bnc
+: 1588309576:0;g ps origin master
+: 1588317849:0;figlet --help
+: 1588317854:0;figlet "Bos Eriko Reyes"
+: 1588317870:0;tldr figlet
+: 1588317881:0;showfigfonts
+: 1588317923:0;tldr figlet
+: 1588317930:0;figlet "Lyon" -f broadway
+: 1588317940:0;figlet Lyon -f broadway
+: 1588317950:0;figlet -f broadway Lyon
+: 1588317998:0;figlet -f starwars Lyon
+: 1588318013:0;figlet -f smisome1 Lyon
+: 1588318092:0;cowsay -l && fortune | cowsay -f ghostbusters
+: 1588318099:0;tldr cowsay
+: 1588318103:0;cowsay -l
+: 1588318112:0;cowsay -l && fortune | cowsay -f bunny
+: 1588318118:0;cowsay -l && fortune | cowsay -f tux
+: 1588318138:0;cowsay -l && 'Lyoooooooon' | cowsay -f tux
+: 1588318150:0;cowsay -l && cowsay -f tux "Lyoooooooon"
+: 1588318164:0;cowsay -l && cowsay -f hellokitty "Lyon"
+: 1588318171:0;cowsay -l && cowsay -f beavis.zen "Lyon"
+: 1588318217:0;cowsay -l && cowsay -f beavis.zen "Lyon CLI anyone?"
+: 1588318223:0;cowsay -l && cowsay -f telebears "Lyon CLI anyone?"
+: 1588318280:0;cowsay -l && cowsay -f meow "Lyon CLI anyone?"
+: 1588318287:0;cowsay -l && cowsay -f kiss "Lyon CLI anyone?"
+: 1588318294:0;cowsay -l && cowsay -f mutilated "Lyon CLI anyone?"
+: 1588318307:0;cowsay -l && cowsay -f vader "Lyon CLI anyone?"
+: 1588318313:0;cowsay -l && cowsay -f turtle "Lyon CLI anyone?"
+: 1588318367:0;cowsay -l && cowsay -f turtle "Lyon CLI anyone?" | lolcat
+: 1588318649:0;grep --help
+: 1588318654:0;tldr grep
+: 1588318675:0;tldr cat
+: 1588318741:0;tldr less
+: 1588319453:0;jt dotfiles
+: 1588319459:0;g lol |grep "AUTO"
+: 1588319566:0;jt dotfiles
+: 1588319571:0;jt personal
+: 1588319572:0;la
+: 1588319576:0;cd kuru-anime
+: 1588319577:0;la
+: 1588319579:0;cd main-website
+: 1588319580:0;la
+: 1588319581:0;g lol |grep "AUTO"
+: 1588319586:0;cd client
+: 1588319588:0;g lol |grep "AUTO"
+: 1588319590:0;..
+: 1588319705:0;jt dotfiles
+: 1588319707:0;vi
+: 1588323806:0;jt personal
+: 1588323808:0;la
+: 1588323810:0;cd denik
+: 1588323811:0;la
+: 1588323813:0;cd client
+: 1588323815:0;vi
+: 1588323819:0;yarn dev
+: 1588324697:0;g d
+: 1588324701:0;g s
+: 1588324711:0;g co pages/redux.tsx
+: 1588324715:0;g co utils
+: 1588324715:0;g d
+: 1588324722:0;g st
+: 1588324968:0;g d
+: 1588325041:0;g a
+: 1588325059:0;g reset
+: 1588325325:0;yarn dev
+: 1588325535:0;g st
+: 1588325543:0;vi
+: 1588326312:0;g a
+: 1588326324:0;g c -m "move redux store to its own file"
+: 1588326586:0;g a
+: 1588326593:0;g lol
+: 1588326596:0;g a
+: 1588326611:0;g c -m "use redux instead of sessionStorage"
+: 1588327129:0;g a
+: 1588327190:0;g c -m "use redux for for toggling the signin page"
+: 1588327355:0;g ps origin feature-redux
+: 1588327472:0;g lol
+: 1588327486:0;vi blank
+: 1588328277:0;g a
+: 1588328288:0;g c -m "remove the authenticate state on the redux page"
+: 1588328289:0;g bnc
+: 1588328292:0;g ps origin feature-redux
+: 1588331021:0;g a
+: 1588331047:0;g c -m "remove the unused interface type on IRootState"
+: 1588331048:0;g bnc
+: 1588331051:0;g ps origin feature-redux
+: 1588331162:0;g a
+: 1588331177:0;g c -m "add null to the authenticateReducer object"
+: 1588331179:0;g bnc
+: 1588331182:0;g ps origin feature-redux
+: 1588333844:0;g a
+: 1588333870:0;g c -m "indent the ternary operator properly"
+: 1588333871:0;g bnc
+: 1588333874:0;g ps origin feature-redux
+: 1588334122:0;g st
+: 1588334752:0;jt personal
+: 1588334752:0;la
+: 1588334762:0;cd denik
+: 1588334762:0;la
+: 1588334765:0;cd client
+: 1588334766:0;vi
+: 1588336644:0;la
+: 1588336646:0;..
+: 1588336646:0;la
+: 1588336648:0;..
+: 1588336648:0;la
+: 1588336653:0;blitz new blog
+: 1588336730:0;cd blog
+: 1588336732:0;vi
+: 1588336735:0;blitz start
+: 1588336856:0;jt dotfiles
+: 1588336858:0;vi
+: 1588337092:0;g a
+: 1588337099:0;g c -m "add devtools to brave-extensions"
+: 1588337102:0;g bnc
+: 1588337104:0;g ps origin master
+: 1588337676:0;jt personal
+: 1588337681:0;jt dotfiles
+: 1588337763:0;vi
+: 1588337894:0;g a
+: 1588337906:0;g c -m "sort and add reverse file on vim"
+: 1588337908:0;g ps origin master
+: 1588340148:0;jt personal
+: 1588340150:0;vi
+: 1588340157:0;cd denik
+: 1588340158:0;la
+: 1588340159:0;cd client
+: 1588340159:0;vi
+: 1588340162:0;yarn dev
+: 1588340262:0;g a
+: 1588340281:0;g c -m "remove the return keyword and use a single line arrow function"
+: 1588340283:0;g bnc
+: 1588340285:0;g ps origin feature-redux
+: 1588341243:0;g co master
+: 1588341245:0;g pl origin master
+: 1588378343:0;jt personal
+: 1588378343:0;la
+: 1588378344:0;cd denik
+: 1588378345:0;la
+: 1588378347:0;cd client
+: 1588378348:0;la
+: 1588378349:0;vi
+: 1588378360:0;../server
+: 1588378381:0;yarn dev
+: 1588378383:0;vi
+: 1588378473:0;g pl origin master
+: 1588378480:0;vi
+: 1588378486:0;jt work
+: 1588378490:0;cd Lyon/api-server
+: 1588378492:0;vi
+: 1588380805:0;yarn install
+: 1588381949:0;g d
+: 1588382122:0;psql --command="create database kaizen;"
+: 1588382167:0;yarn dev
+: 1588382229:0;down
