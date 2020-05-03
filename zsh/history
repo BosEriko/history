@@ -11244,3 +11244,91 @@ end
 : 1588382122:0;psql --command="create database kaizen;"
 : 1588382167:0;yarn dev
 : 1588382229:0;down
+: 1588382563:0;yarn install firebase-admin
+: 1588382568:0;yarn add firebase-admin
+: 1588384132:0;cd ~/Downloads
+: 1588384139:0;vi kaizen-studios-firebase-adminsdk-28rjt-6d19873c11.json
+: 1588384392:0;g a
+: 1588384417:0;g s
+: 1588384435:0;g c -m "add firebase to .env.example and create utility for firebase"
+: 1588384436:0;g bnc
+: 1588384441:0;la
+: 1588384443:0;g lol
+: 1588384459:0;g co -b feature-firebase
+: 1588384464:0;g lol
+: 1588384468:0;g bnc
+: 1588384471:0;g ps origin feature-firebase
+: 1588384551:0;../client
+: 1588384551:0;la
+: 1588384552:0;vi
+: 1588384593:0;g a
+: 1588384612:0;g c -m "update env variable for FIREBASE_DATABASE_URL"
+: 1588384628:0;g ps origin feature-firebase
+: 1588386394:0;jt personal
+: 1588386395:0;denik
+: 1588386396:0;la
+: 1588386397:0;cd client
+: 1588386398:0;la
+: 1588386401:0;vi
+: 1588386411:0;g lol
+: 1588386418:0;../server
+: 1588386418:0;la
+: 1588386422:0;vi
+: 1588386425:0;g lol
+: 1588386436:0;vi log
+: 1588391599:0;..
+: 1588391600:0;la
+: 1588391602:0;..
+: 1588391602:0;la
+: 1588391605:0;cd kuru-anime
+: 1588391605:0;la
+: 1588391607:0;cd main-website
+: 1588391607:0;la
+: 1588391609:0;cd client
+: 1588391609:0;la
+: 1588391617:0;g co master
+: 1588391625:0;g co issue-100-Task_Authentication_using_Google/Twitter/GitHub/Facebook/Email
+: 1588391628:0;g lol
+: 1588391629:0;g s
+: 1588391631:0;g d
+: 1588391646:0;g a yarn.lock
+: 1588391656:0;git add yarn.lock
+: 1588391662:0;g s
+: 1588391663:0;g d
+: 1588394686:0;g s
+: 1588399821:0;vi
+: 1588400600:0;..
+: 1588400600:0;la
+: 1588400601:0;jt denik
+: 1588400602:0;la
+: 1588400603:0;vi
+: 1588460631:0;jt denik
+: 1588460632:0;la
+: 1588460635:0;jt personal
+: 1588460635:0;la
+: 1588460639:0;cd denik
+: 1588460639:0;la
+: 1588460641:0;cd server
+: 1588460643:0;g co master
+: 1588460647:0;g s
+: 1588460658:0;git reset --hard origin/master
+: 1588460661:0;g pl origin master
+: 1588460713:0;vi
+: 1588460716:0;yarn dev
+: 1588464603:0;g co -b feature-authentication
+: 1588470907:0;jt personal
+: 1588470908:0;la
+: 1588470910:0;cd denik
+: 1588470910:0;la
+: 1588470920:0;jt work
+: 1588470921:0;la
+: 1588470922:0;cd Lyon
+: 1588470923:0;la
+: 1588470928:0;cd api-server
+: 1588470930:0;vi
+: 1588472912:0;g a
+: 1588472932:0;g c -m "create controller and middleware for user token verification"
+: 1588472933:0;g bnc
+: 1588472935:0;g ps origin feature-authentication
+: 1588472969:0;vi
+: 1588473045:0;down
