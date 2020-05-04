@@ -11332,3 +11332,94 @@ end
 : 1588472935:0;g ps origin feature-authentication
 : 1588472969:0;vi
 : 1588473045:0;down
+: 1588473735:0;g a
+: 1588473740:0;g c -m "remove import of firebase"
+: 1588473741:0;g bnc
+: 1588473761:0;g ps origin feature-authentication
+: 1588474753:0;g a
+: 1588474770:0;g c -m "add middlewares"
+: 1588474771:0;g bnc
+: 1588474773:0;g ps origin feature-authentication
+: 1588474907:0;yarn install
+: 1588475006:0;yarn dev
+: 1588475265:0;g a
+: 1588475277:0;g c -m "add dotenv on script start"
+: 1588475278:0;g bnc
+: 1588475281:0;g ps origin feature-authentication
+: 1588475344:0;yarn dev
+: 1588475537:0;g s
+: 1588476946:0;jt personal
+: 1588476946:0;la
+: 1588476950:0;cd blog
+: 1588476950:0;la
+: 1588476951:0;vi
+: 1588476959:0;blitz --help
+: 1588476964:0;blitz generate --help
+: 1588476978:0;blitz generate pages test
+: 1588477020:0;blitz --help
+: 1588477025:0;blitz generate --help
+: 1588477037:0;blitz generate crud test
+: 1588477227:0;blitz generate --help
+: 1588477251:0;blitz generate pages hello
+: 1588477265:0;blitz generate all hello
+: 1588477517:0;blitz --help
+: 1588477542:0;blitz console
+: 1588479223:0;jt personal
+: 1588479225:0;jt dotfiles
+: 1588479226:0;vi
+: 1588479330:0;g a
+: 1588479342:0;g c -m "remove the extra jake"
+: 1588479344:0;g ps
+: 1588479678:0;g s
+: 1588479680:0;g d
+: 1588479685:0;g a
+: 1588479694:0;g c -m "remove hub and use gh for github terminal"
+: 1588479702:0;g ps && brew install github/gh/gh
+: 1588479713:0;vi
+: 1588480358:0;gh issue list
+: 1588480399:0;gh --help
+: 1588480407:0;gh issue 23
+: 1588480410:0;gh issue #23
+: 1588480418:0;gh list
+: 1588480425:0;gh completion
+: 1588480432:0;gh --shell completion
+: 1588480437:0;gh completion --shell
+: 1588480451:0;gh completion --shell zsh
+: 1588480457:0;g d
+: 1588480459:0;g s
+: 1588480461:0;g a
+: 1588480466:0;g c -m "add sort functionality"
+: 1588480472:0;g bnc
+: 1588480475:0;g ps origin master
+: 1588480644:0;gh
+: 1588480652:0;hub
+: 1588480659:0;gh
+: 1588480663:0;gh pr
+: 1588480666:0;gh pr list
+: 1588480670:0;gh pr status
+: 1588563936:0;jt work
+: 1588563952:0;la
+: 1588563953:0;cd Lyon
+: 1588563954:0;la
+: 1588563955:0;cd html-renderer
+: 1588563956:0;la
+: 1588563958:0;gh pr 130
+: 1588563965:0;gh pr checkout 130
+: 1588563976:0;g lol
+: 1588563978:0;g s
+: 1588563980:0;g d
+: 1588563984:0;g st
+: 1588563993:0;../api-server
+: 1588563996:0;vi
+: 1588563998:0;yarn dev
+: 1588564002:0;../html-renderer
+: 1588564004:0;vi
+: 1588564007:0;yarn dev
+: 1588566280:0;g a
+: 1588566304:0;g c -m "remove redundant codes"
+: 1588566305:0;g bnc
+: 1588566307:0;g ps origin feature-attendance-endpoint
+: 1588566520:0;g co master
+: 1588566527:0;g co develop
+: 1588566532:0;g pl origin develop
+: 1588566542:0;down
