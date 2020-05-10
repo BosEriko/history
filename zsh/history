@@ -11423,3 +11423,205 @@ end
 : 1588566527:0;g co develop
 : 1588566532:0;g pl origin develop
 : 1588566542:0;down
+: 1588567079:0;g pl origin develop
+: 1588567099:0;g co -b feature-attendance-scope-models
+: 1588567108:0;yarn dev
+: 1588567116:0;yarn install && yarn dev
+: 1588568268:0;vi
+: 1588571338:0;g d
+: 1588571340:0;g s
+: 1588571588:0;vi
+: 1588571796:0;g s
+: 1588575505:0;vi
+: 1588580537:0;yarn dev
+: 1588586155:0;g bnc
+: 1588668003:0;jt work
+: 1588668003:0;la
+: 1588668004:0;cd Lyon
+: 1588668005:0;la
+: 1588668007:0;cd api-server
+: 1588668008:0;vi
+: 1588668182:0;fortune | cowsay -f ghostbusters | lolcat\
+
+: 1588731509:0;alksdjf
+: 1588736172:0;la
+: 1588736175:0;jt personal
+: 1588736175:0;la
+: 1588736178:0;jt work
+: 1588736178:0;la
+: 1588736179:0;cd Lyon
+: 1588736180:0;la
+: 1588736185:0;cd api-server
+: 1588736191:0;../html-renderer
+: 1588736195:0;yarn dev
+: 1588736196:0;vi
+: 1588736201:0;yarn dev
+: 1588736202:0;vi
+: 1588738243:0;g a
+: 1588738280:0;g c -m "create 2 routes for attendance"
+: 1588738281:0;g bnc
+: 1588738283:0;g ps origin feature-attendance-endpoint
+: 1588740262:0;g a
+: 1588740297:0;g c -m "update attendances router and controller"
+: 1588740299:0;g bnc
+: 1588740301:0;g ps origin feature-attendance-endpoint
+: 1588752444:0;g a
+: 1588752471:0;g c -m "add id to attendances"
+: 1588752472:0;g bnc
+: 1588752476:0;g ps origin feature-attendance-endpoint
+: 1588757899:0;g d
+: 1588757900:0;g s
+: 1588757907:0;g d src/controllers
+: 1588757912:0;g co src/controllers
+: 1588760296:0;g a
+: 1588760307:0;g c -m "flatten the object for attendance"
+: 1588760308:0;g bnc
+: 1588760310:0;g ps origin feature-attendance-endpoint
+: 1588819539:0;jt work
+: 1588819539:0;la
+: 1588819540:0;cd Lyon
+: 1588819541:0;la
+: 1588819543:0;cd api-server
+: 1588819543:0;la
+: 1588819556:0;../html-renderer
+: 1588819557:0;la
+: 1588820052:0;vi
+: 1588820055:0;yarn dev
+: 1588820056:0;vi
+: 1588820057:0;yarn dev
+: 1588828300:0;g d
+: 1588828533:0;vi
+: 1588829007:0;g a
+: 1588829026:0;g c -m "add eventId to streams data on firestore"
+: 1588829028:0;g bnc
+: 1588829030:0;g ps origin feature-attendance-endpoint
+: 1588829043:0;jt dotfiles
+: 1588829044:0;vi
+: 1588829069:0;git branch | grep \*
+: 1588829080:0;git branch | grep \* | cut -d ' ' -f2 |\
+exit
+: 1588829084:0;git branch | grep \* | cut -d ' ' -f2
+: 1588829109:0;git branch | grep \* | cut -d ' ' -f1
+: 1588829111:0;git branch | grep \* | cut -d ' ' -f2
+: 1588829126:0;git branch | grep \* | cut -d ' ' -f2 | cut -d '\n' -f1
+: 1588829212:0;git branch | grep \* | cut -d ' ' -f2 | tr -d '\n'
+: 1588829225:0;git branch | grep \* | cut -d ' ' -f2 | tr -d '\n' | pbcopy
+: 1588829244:0;g a
+: 1588829258:0;g c -m "remove trailing newline on git branch command"
+: 1588829260:0;g bnc
+: 1588829266:0;g ps origin master
+: 1588829343:0;bos -h |grep restart
+: 1588829356:0;bos -a restart-zsh
+: 1588829361:0;g bnc
+: 1588830216:0;g a
+: 1588830250:0;g c -m "add streamId to the attendances document"
+: 1588830251:0;g bnc
+: 1588830255:0;bos -a restart-zsh
+: 1588830258:0;g bnc
+: 1588830261:0;g ps origin feature-attendance-endpoint
+: 1588832253:0;yarn dev
+: 1588832255:0;vi
+: 1588832258:0;yarn dev
+: 1588832259:0;vi
+: 1588840539:0;g a
+: 1588840582:0;g c -m "overhaul of whole attendance controller and add 2 more routes"
+: 1588840584:0;g bnc
+: 1588840586:0;g ps origin feature-attendance-endpoint
+: 1588840749:0;g a
+: 1588840767:0;g c -m "fix routes error"
+: 1588840770:0;g bnc
+: 1588840771:0;g ps origin feature-attendance-endpoint
+: 1588841022:0;g a
+: 1588841042:0;g c -m "add id type on IFetchAttendancePayload"
+: 1588841043:0;g bnc
+: 1588841046:0;g ps origin feature-attendance-endpoint
+: 1588842101:0;g a
+: 1588842118:0;g c -m "add types to the data"
+: 1588842119:0;g bnc
+: 1588842121:0;g ps origin feature-attendance-endpoint
+: 1588847994:0;g a
+: 1588848096:0;g c -m "generate data for date"
+: 1588848098:0;g bnc
+: 1588848100:0;g ps origin feature-attendance-endpoint
+: 1588848677:0;g a
+: 1588848723:0;g s
+: 1588848728:0;g reset
+: 1588848729:0;g s
+: 1588848731:0;g a
+: 1588848740:0;n
+: 1588849765:0;g s
+: 1588849772:0;g diff src/controllers
+: 1588849777:0;g co src/controllers
+: 1588914417:0;jt work
+: 1588914418:0;la
+: 1588914419:0;cd Lyon
+: 1588914420:0;la
+: 1588914431:0;cd api-server
+: 1588914432:0;vi
+: 1588917123:0;../html-renderer
+: 1588917136:0;vi
+: 1588923980:0;g lol
+: 1588923992:0;../html-renderer
+: 1588924255:0;vi
+: 1588924259:0;yarn dev
+: 1588924260:0;vi
+: 1588924268:0;yarn dev
+: 1588925472:0;g co feature-post-event-management
+: 1588925475:0;g pl origin feature-post-event-management
+: 1588926302:0;yarn install
+: 1588926323:0;yarn dev
+: 1588927948:0;g d
+: 1588927953:0;g s
+: 1588927956:0;g co src/controllers
+: 1588930142:0;g d
+: 1588930194:0;g a
+: 1588930370:0;g c -m 'add schema validation'
+: 1588930371:0;g bnc
+: 1588930372:0;g ps origin feature-attendance-endpoint
+: 1588930836:0;g a
+: 1588931426:0;g c -m "update payload for getUserById to get the id instead of participantId"
+: 1588931664:0;g bnc
+: 1588931667:0;g pl origin feature-post-event-management
+: 1588931721:0;g a
+: 1588931746:0;g reset
+: 1588931748:0;g lol
+: 1588931756:0;g s
+: 1588931781:0;rm -rf scoped-models/attendance/
+: 1588931783:0;g lol
+: 1588931850:0;g a
+: 1588931877:0;g c -m "rename participantId to id on payloads for stream data"
+: 1588931928:0;g a
+: 1588931937:0;g lol
+: 1588931951:0;g bnc
+: 1588931953:0;g ps origin feature-attendance-endpoint
+: 1588931999:0;g lol
+: 1588932000:0;g bnc
+: 1588932003:0;g ps origin feature-post-event-management
+: 1588932149:0;g a
+: 1588932161:0;g c -m "rename schema from providerId to id"
+: 1588932162:0;g bnc
+: 1588932163:0;g ps origin feature-attendance-endpoint
+: 1588938459:0;jt personal
+: 1589070885:0;la
+: 1589070887:0;cd denik
+: 1589070887:0;la
+: 1589070889:0;cd client
+: 1589103896:0;jt personal
+: 1589104000:0;la
+: 1589104278:0;mkdir codewars-local-environment-ts
+: 1589104285:0;gh help
+: 1589104298:0;la
+: 1589104300:0;cd codewars-local-environment-ts
+: 1589104395:0;la
+: 1589104399:0;git init
+: 1589104476:0;jt dotfiles
+: 1589104476:0;la
+: 1589104477:0;vi
+: 1589104657:0;la
+: 1589104661:0;yarn init -y
+: 1589104664:0;la
+: 1589104677:0;touch index.ts
+: 1589104683:0;touch index.test.ts
+: 1589104715:0;ts
+: 1589111672:0;vi
+: 1589112728:0;down
