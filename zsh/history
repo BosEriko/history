@@ -11625,3 +11625,121 @@ exit
 : 1589104715:0;ts
 : 1589111672:0;vi
 : 1589112728:0;down
+: 1589113093:0;jt dotfiles
+: 1589113335:0;vi
+: 1589113497:0;cmatrix
+: 1589113507:0;cowsay
+: 1589113516:0;cowsay hahaha
+: 1589113518:0;figlet
+: 1589113520:0;figlet test
+: 1589113522:0;fortune
+: 1589113537:0;joplin
+: 1589113571:0;links facebook.com
+: 1589113597:0;pastel
+: 1589113614:0;ranger
+: 1589113647:0;sl
+: 1589113889:0;g lol |grep "[THEME]"
+: 1589113902:0;g lol |grep "THEME"
+: 1589113905:0;g lol |grep "theme"
+: 1589113912:0;g lol |grep "Theme"
+: 1589164333:0;jt work
+: 1589164334:0;la
+: 1589164335:0;cd Lyon
+: 1589164335:0;la
+: 1589164337:0;cd api-server
+: 1589164338:0;la
+: 1589164341:0;g co develop
+: 1589164345:0;la
+: 1589164346:0;g lol
+: 1589164347:0;g s
+: 1589164351:0;g d
+: 1589164359:0;g st
+: 1589164365:0;g pl origin develop
+: 1589164510:0;g st pop
+: 1589164521:0;g co -b feature-profile-endpoints
+: 1589164523:0;g bnc
+: 1589164660:0;g st
+: 1589164670:0;g co feature-attendance-endpoint
+: 1589164672:0;g lol
+: 1589165321:0;g co feature-profile-endpoints
+: 1589165328:0;g st pop
+: 1589165333:0;yarn dev
+: 1589165334:0;vi
+: 1589165341:0;../html-renderer
+: 1589165341:0;la
+: 1589165421:0;g co develop
+: 1589165425:0;g d
+: 1589165428:0;g st 
+: 1589165431:0;la
+: 1589165438:0;g co develop
+: 1589165439:0;vi
+: 1589165445:0;g pl origin develop
+: 1589165454:0;yarn dev
+: 1589169665:0;vi
+: 1589176493:0;g co develop
+: 1589176495:0;g st
+: 1589176500:0;g pl
+: 1589176608:0;g co feature-event-participants
+: 1589176611:0;g st pop
+: 1589177680:0;vi
+: 1589179819:0;g so feature-profile-endpoints
+: 1589179826:0;g remote -v
+: 1589179833:0;g co select: ['parentProvider'],
+: 1589179836:0;g co feature-profile-endpoints
+: 1589179840:0;g st
+: 1589179848:0;g co feature-profile-endpoints
+: 1589179931:0;git remote add origin git@github.com:LyonInc/lyon-api-server.git
+: 1589182747:0;g co feature-event-participants
+: 1589182749:0;g bnc
+: 1589182751:0;g pl origin feature-event-participants
+: 1589183022:0;vi
+: 1589183145:0;g s
+: 1589183147:0;g d
+: 1589183150:0;g st pop
+: 1589183154:0;g lol
+: 1589183156:0;g s
+: 1589183160:0;g d
+: 1589183166:0;g d src/controllers
+: 1589183171:0;g co src/controllers
+: 1589183173:0;g s
+: 1589183184:0;g co src/utils
+: 1589185118:0;g co -b feature-profile-endpoints
+: 1589185125:0;g co feature-profile-endpoints
+: 1589185128:0;g st
+: 1589185129:0;g co feature-profile-endpoints
+: 1589185131:0;g st pop
+: 1589185132:0;g d
+: 1589185136:0;g s
+: 1589185145:0;g st
+: 1589185151:0;g st pop
+: 1589185153:0;g d
+: 1589185155:0;g reset
+: 1589185160:0;g co src/routes
+: 1589185162:0;g s
+: 1589185164:0;g d
+: 1589247104:0;jt work
+: 1589247105:0;la
+: 1589247106:0;cd Lyon
+: 1589247106:0;la
+: 1589247109:0;cd api-server
+: 1589247118:0;../html-renderer
+: 1589247125:0;g pl origin develop
+: 1589247127:0;vi
+: 1589247136:0;yarn dev
+: 1589259406:0;g b
+: 1589259433:0;g co Feature: Attendance Endpoint #78
+: 1589259442:0;g co feature-post-event-management
+: 1589259446:0;g pl origin feature-post-event-management
+: 1589271855:0;g co feature-event-participants
+: 1589271857:0;g lol
+: 1589271859:0;g s
+: 1589271860:0;g d
+: 1589271868:0;yarn dev
+: 1589271874:0;g bnc
+: 1589271877:0;g pl origin feature-post-event-management
+: 1589271896:0;g bnc
+: 1589271899:0;g pl origin feature-event-participants
+: 1589273939:0;g bnc
+: 1589273942:0;g pl origin feature-event-participants
+: 1589329250:0;jt work
+: 1589329481:0;down
