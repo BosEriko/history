@@ -83,7 +83,6 @@
 : 1575564055:0;rm -rf javascript
 : 1575564055:0;cd personal
 : 1575564055:0;cd content
-: 1575564055:0;cd blog
 : 1575564055:0;rm -rf 190226003-stressed-out 190322001-almost-done 190313001-when-will-i-feel-normal/
 : 1575564055:0;rm -rf 190308001-close-to-being-free/ 190306001-i-did-it/ 190304001-can-i-do-it/ 190227001-adding-dates-on-url/ 190226002-redirecting-the-old-blogs/
 : 1575564055:0;rm -rf 190226001-moving-to-gatsbyjs/
@@ -470,476 +469,134 @@ fi
 : 1577017784:0;g g "bump the version"
 : 1577017863:0;gem push befr-0.0.3.gem
 : 1577017946:0;vi ~/dotfiles/install.sh
-: 1577018188:0;g d
-: 1577018195:0;./lib/befr.rb
 : 1577018234:0;echo $PATH | tr \: \\n
-: 1577018277:0;jd dotfiles
-: 1577018278:0;vi
-: 1577018329:0;g d
 : 1577018343:0;bos -a
-: 1577018345:0;bos -h
-: 1577018351:0;bos -a generate-config
-: 1577018356:0;bos -h
-: 1577018358:0;bos -a path
 : 1577018366:0;g g "add listing of paths"
-: 1577018426:0;jd ops
-: 1577018427:0;la
-: 1577018429:0;vi
-: 1577018440:0;bos -a path
-: 1577018463:0;g d
-: 1577018488:0;g st
-: 1577018490:0;g pl
-: 1577018528:0;bos -a restart-zsh
-: 1577018532:0;bos -a path
-: 1577018560:0;vi
-: 1577018593:0;g d
-: 1577018611:0;lib/befr.rb
-: 1577018614:0;./lib/befr.rb
-: 1577018619:0;g d
-: 1577018621:0;g st
-: 1577018622:0;g d
-: 1577018623:0;vi
 : 1577018631:0;g g "remove the require"
-: 1577020428:0;g d
-: 1577020430:0;g s
-: 1577020432:0;vi
 : 1577021350:0;bash
-: 1577021868:0;befr
-: 1577021906:0;vi
 : 1577021925:0;mv lib/befr.rb lib/befr
 : 1577021928:0;lib/befr
-: 1577021932:0;g d
-: 1577021934:0;g st
-: 1577021936:0;g clean -fd
 : 1577022001:0;./lib/befr.rb
-: 1577022059:0;jd ops
-: 1577022069:0;vi
-: 1577022287:0;jd dotfiles
-: 1577022290:0;vi install.sh
-: 1577022307:0;g d
-: 1577022321:0;g g "update shebang"
 : 1577022344:0;cp install.sh test.sh
 : 1577022346:0;vi test.sh
-: 1577022358:0;./test.sh
-: 1577022362:0;sh ./test.sh
 : 1577022561:0;test.sh
 : 1577022563:0;./test.sh
 : 1577022568:0;sh ./test.sh
-: 1577022570:0;g d
-: 1577022572:0;g s
-: 1577022574:0;g clean -fd
-: 1577022579:0;g d
-: 1577022580:0;g s
 : 1577022690:0;chmod +x lib/befr.rb
-: 1577022694:0;g d
-: 1577022696:0;g s
-: 1577022698:0;g d
 : 1577022708:0;g g "make the file executable"
-: 1577022730:0;ls -a
-: 1577022732:0;la
-: 1577022736:0;cd lib
-: 1577022737:0;la
-: 1577022931:0;cd ..
-: 1577022931:0;la
-: 1577022958:0;g d
-: 1577022962:0;vi
-: 1577022991:0;g d
-: 1577023002:0;g g "bump the version\
-"
 : 1577023007:0;jd dofiles
-: 1577023008:0;la
-: 1577023012:0;jd dotfiles
-: 1577023012:0;la
-: 1577023013:0;g d
 : 1577023022:0;chmod +x install.sh
-: 1577023024:0;la
-: 1577023027:0;g d
 : 1577023035:0;g g "make the install script executable"
-: 1577023058:0;code README.md
-: 1577023071:0;g d
 : 1577023079:0;g g "update install script"
-: 1577023085:0;la
-: 1577023092:0;gem build befr.gemspec
 : 1577023103:0;gem push befr-0.0.4.gem
 : 1577023112:0;gem update befr
-: 1577023120:0;befr
-: 1577023129:0;gem uninstall befr
-: 1577023132:0;gem install befr
 : 1577023135:0;befr 
-: 1577023136:0;befr
-: 1577023143:0;bos -a restart-zsh
-: 1577023145:0;befr
-: 1577023152:0;g d
-: 1577023158:0;befr --version
-: 1577023205:0;la
-: 1577023209:0;lib/befr.rb
 : 1577023224:0;gem query --local |grep BEFR
-: 1577023226:0;gem query --local |grep befr
-: 1577023229:0;befr
-: 1577023308:0;gem query --local |grep befr
 : 1577023315:0;gem query --local |grep rails
 : 1577023329:0;cd usr/bin
 : 1577023332:0;cd /usr/bin
-: 1577023334:0;la
 : 1577023339:0;la |grep rails
 : 1577023342:0;vi rails
-: 1577023365:0;jd personal
-: 1577023366:0;la
-: 1577023373:0;cd befr
-: 1577023374:0;vi
-: 1577023386:0;g d
-: 1577023389:0;vi
-: 1577023399:0;g d
-: 1577023406:0;gem uninstall befr
-: 1577023412:0;g d
 : 1577023419:0;g g "update the executable shebang"
-: 1577023441:0;gem build befr.gemspec
 : 1577023448:0;gem push befr-0.0.5.gem
-: 1577023453:0;gem install befr
-: 1577023457:0;befr
-: 1577023467:0;bos -a restart-zsh
-: 1577023469:0;g d
-: 1577023617:0;befr
-: 1577023620:0;cd ~
-: 1577023621:0;befr
-: 1577023878:0;jd personal
-: 1577023879:0;la
-: 1577023880:0;cd befr
-: 1577023880:0;la
-: 1577077462:0;jd ops
-: 1577077464:0;la
-: 1577077465:0;g pl
-: 1577077608:0;vi
-: 1577081627:0;rc
-: 1577081629:0;rs
 : 1577081644:0;bundle insall
-: 1577081648:0;bundle install
-: 1577081717:0;rs
-: 1577081743:0;bundle exec sidekiq
-: 1577081750:0;rc
-: 1577081925:0;script/backpack -l --skip-assets
-: 1577087372:0;jd personal
-: 1577087373:0;la
-: 1577087375:0;vi
-: 1577087378:0;g d
-: 1577087382:0;la
-: 1577087385:0;cd befr
-: 1577087386:0;la
-: 1577087393:0;rm -rf befr-*
-: 1577087405:0;vi
-: 1577087413:0;g d
 : 1577087417:0;g g "update shebang"
-: 1577088865:0;htop
-: 1577088888:0;rails api:parallel_cache
-: 1577089749:0;rc
-: 1577089800:0;bundle exec sidekiq
-: 1577089803:0;rs
-: 1577089955:0;la
 : 1577089965:0;cd lib
-: 1577089966:0;la
 : 1577089969:0;cd tasks
-: 1577089969:0;la
 : 1577089981:0;cd db/oneoff
-: 1577089982:0;la
-: 1577090320:0;htop
-: 1577090473:0;g d
-: 1577090475:0;g s
 : 1577090827:0;rake db:one fg
-: 1577090852:0;rake db:oneoff:update_catalog_item_prices\
-
-: 1577090892:0;...
-: 1577090900:0;rake db:oneoff:update_catalog_item_prices
-: 1577090973:0;g d
-: 1577091199:0;story_branch create
 : 1577091205:0;story_branch start
-: 1577091221:0;story_branch create
-: 1577091232:0;g d
-: 1577091233:0;g s
 : 1577091246:0;g g "WIP - add rake task"
-: 1577091370:0;rake db:oneoff:update_catalog_item_prices
-: 1577092249:0;open .
-: 1577092506:0;rc
 : 1577092554:0;rake db:oneoff:update_catalog_item_prices\
 
-: 1577092597:0;rake db:oneoff:update_catalog_item_prices
-: 1577092889:0;irb
-: 1577093524:0;rake db:oneoff:update_catalog_item_prices
-: 1577093553:0;open .
-: 1577093580:0;rake db:oneoff:update_catalog_item_prices
-: 1577094714:0;g d
 : 1577094892:0;g g "WIP - print out necessary details for now"
-: 1577110615:0;jd ops
-: 1577110618:0;open .
-: 1577110638:0;open tmp
-: 1577157507:0;la
-: 1577157509:0;jd ops
-: 1577157509:0;la
-: 1577157511:0;vi
 : 1577157546:0;g g "WIP - add the necessary data to a variable"
-: 1577159357:0;open tmp
-: 1577163034:0;rake db:oneoff:update_catalog_item_prices\["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
 : 1577163068:0;git d
 : 1577163471:0;rake db:oneoff:update_catalog_item_prices["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"]
-: 1577163481:0;rake db:oneoff:update_catalog_item_prices\["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577163501:0;vi
-: 1577163507:0;rake db:oneoff:update_catalog_item_prices\["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577164076:0;rails credentials:edit
 : 1577164156:0;rake db:oneoff:update_catalog_item_prices\["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577164460:0;rails credentials:edit
-: 1577164544:0;rake db:oneoff:update_catalog_item_prices\["oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
 : 1577164813:0;git diff
-: 1577165795:0;g pl
-: 1577165805:0;rs
 : 1577165809:0;bundle exec sidekiq
-: 1577165816:0;vi
-: 1577165835:0;rc
 : 1577167154:0;rake db:oneoff:update_catalog_item_prices
-: 1577174037:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/1_catalog_item_new_prices.csv"\]
-: 1577180066:0;exit
-: 1577180075:0;htop
 : 1577180486:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/1_catalog_item_new_prices.csv"\]
-: 1577180545:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/2_catalog_item_new_prices.csv"\]
-: 1577180560:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/3_catalog_item_new_prices.csv"\]
 : 1577180767:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/2_catalog_item_new_prices.csv"\]
-: 1577180780:0;open tmp
 : 1577180837:0;g g "WIP - add a way to back up the updated price"
-: 1577190596:0;jd personal
-: 1577190596:0;la
-: 1577190598:0;cd befr
-: 1577190599:0;la
-: 1577190606:0;vi
 : 1577191393:0;befr --version
-: 1577191394:0;befr
-: 1577191418:0;la
-: 1577191525:0;gem query --local |grep befr
-: 1577191530:0;gem uninstall befr
-: 1577276887:0;jd personal
-: 1577276887:0;la
 : 1577276904:0;cd kuru-animecd bef
-: 1577276912:0;cd befr
-: 1577276913:0;la
-: 1577280305:0;gem query --local |grep befr
-: 1577280310:0;gem build befr.gemspec
 : 1577280335:0;gem install befr-0.0.5.gem
-: 1577280340:0;gem query --local |grep befr
-: 1577280348:0;befr
-: 1577280349:0;vi
-: 1577280355:0;gem uninstall befr
-: 1577280533:0;rm -rf befr-*
-: 1577280540:0;gem build befr.gemspec
-: 1577280567:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.5.gem
-: 1577280580:0;gem query --local |grep befr
-: 1577280586:0;befr
 : 1577280719:0;lib/befr.rb
 : 1577280875:0;bundle exec befr
 : 1577281153:0;which befr
-: 1577281159:0;gem query --local |grep befr
 : 1577281162:0;which rails
-: 1577281229:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.5.gem
 : 1577281395:0;mkdir bin
 : 1577281441:0;touch bin/cli
 : 1577281449:0;mv bin/cli bin/befr-cli
 : 1577281505:0;chmod +x bin/befr-cli
-: 1577281511:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.5.gem
 : 1577281545:0;less ~/dotfiles/install.sh
 : 1577281554:0;rbenv rehash
 : 1577281616:0;rm -rf /Users/boseriko/.rbenv/shims/.rbenv-shim
 : 1577281619:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.5.gem
 : 1577281633:0;befr-cli
-: 1577281669:0;g d
-: 1577281682:0;vi
-: 1577281698:0;g d
 : 1577281712:0;g g "finally add a cli"
-: 1577281740:0;gem uninstall befr
 : 1577281747:0;gem build befr.gemspec
 : 1577281765:0;gem push befr-0.0.6.gem
-: 1577281938:0;gem query --local |grep befr
 : 1577281943:0;gem install befr
-: 1577281949:0;befr
-: 1577281954:0;gem uninstall befr
-: 1577282070:0;g d
-: 1577282072:0;g s
-: 1577282091:0;g d
-: 1577282093:0;g s
 : 1577282104:0;g g "require befr"
 : 1577282180:0;g g "bump the version\
 "
-: 1577282239:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577282244:0;befr
-: 1577282271:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577282291:0;befr
 : 1577282299:0;befr Befr
 : 1577282305:0;befr hi
 : 1577282309:0;befr befrhi
 : 1577282314:0;befr Befr.hi
-: 1577282322:0;jd ops
-: 1577282361:0;vi
-: 1577282967:0;g d
-: 1577282974:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577282981:0;befr
-: 1577282985:0;befr -H
 : 1577282991:0;befr -W
-: 1577283028:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577283044:0;befr
-: 1577283063:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577283068:0;befr
-: 1577283111:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577283116:0;befr
 : 1577283119:0;befr -H
-: 1577283122:0;befr --world
-: 1577283130:0;gem uninstall befr
 : 1577283139:0;g g "add a few options"
-: 1577283243:0;g d
-: 1577283246:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577283250:0;befr
-: 1577283694:0;g d
 : 1577283700:0;gem install figlet
-: 1577283711:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577283717:0;befr
 : 1577283777:0;gem uninstall figlet
-: 1577283815:0;g d
 : 1577283825:0;g g "add requirements"
 : 1577284020:0;g g "remove extra space"
 : 1577324782:0;befr --world
 : 1577324789:0;gem uninstall befr
-: 1577324908:0;jd ops
-: 1577324910:0;g pl
-: 1577324919:0;rs
-: 1577324926:0;rc
-: 1577324928:0;vi
-: 1577327236:0;g d
 : 1577327262:0;g g "WIP - remove unwanted comments"
 : 1577327345:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/3_catalog_item_new_prices.csv"\]
-: 1577327361:0;open tmp
-: 1577327890:0;g d
 : 1577327908:0;g g "WIP - add comments to indicate updated catalog item"
-: 1577329321:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/4_catalog_item_new_prices.csv"\]
-: 1577329494:0;irb
-: 1577329509:0;g d
 : 1577329516:0;g g "WIP - add timestamp"
-: 1577330341:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/4_catalog_item_new_prices.csv"\]
-: 1577330369:0;open tmp
-: 1577330429:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/4_catalog_item_new_prices.csv"\]
-: 1577330734:0;irb
-: 1577331146:0;g d
 : 1577331163:0;g g "WIP - update to accomodate real float numbers on cost_in_cents"
-: 1577331219:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/4_catalog_item_new_prices.csv"\]
-: 1577331244:0;open tmp
-: 1577333068:0;irb
-: 1577333952:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/4_catalog_item_new_prices.csv"\]
-: 1577334071:0;g d
-: 1577334073:0;g st
 : 1577334282:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/4_catalog_item_new_prices.csv"\]
 : 1577335572:0;rails credentials:edit
-: 1577335712:0;heroku auth:whoami
 : 1577337009:0;vi /Users/boseriko/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.93/lib/aws-sdk-core/client.rb
 : 1577338419:0;gem query --local |grep befr
-: 1577339934:0;bos -h
-: 1577340910:0;irb
-: 1577342293:0;rc
-: 1577342319:0;script/backpack -l --skip-assets
-: 1577350692:0;rc
-: 1577350822:0;open tmp
-: 1577352596:0;rails api:parallel_cache
-: 1577352831:0;open tmp
-: 1577352905:0;script/backpack
-: 1577352966:0;rc
-: 1577353007:0;script/backpack -R
 : 1577353123:0;script/backpack -R && script/backpack --api
-: 1577353579:0;script/backpack
-: 1577353632:0;rs
 : 1577353691:0;rails db:drop && rails db:create
 : 1577353832:0;rails db:drop RAILS_ENV=development && rails db:create bin/rails db:migrate RAILS_ENV=development
-: 1577353875:0;script/backpack -l --skip-assets
-: 1577354062:0;g d
-: 1577354115:0;script/backpack -l --skip-assets
-: 1577358223:0;rake db:drop
-: 1577358311:0;rake db:create
 : 1577358406:0;rake db:drop && rake db:create && script/backpack -R && script/backpack --api
-: 1577358870:0;rails api:parallel_cache
-: 1577359387:0;htop
-: 1577359401:0;g d
-: 1577359405:0;g s
 : 1577359407:0;g co script
-: 1577361079:0;g d
-: 1577361811:0;g s
 : 1577361831:0;g co lib/tasks/merge_wells_with_proposed_names.rake
-: 1577361845:0;g d
 : 1577361862:0;g g "WUP - add s3 support"
-: 1577361918:0;g d
 : 1577361927:0;g g "update source path"
-: 1577361990:0;rake db:oneoff:update_catalog_item_prices\["oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577362051:0;g d
 : 1577362071:0;g g "WIP - update name of csv backup"
-: 1577362132:0;g d
 : 1577362139:0;g g "WIP - remove the todo comment"
-: 1577362162:0;g d
-: 1577362177:0;rake db:drop && rake db:create && script/backpack -R && rails test:prepare && rails api:parallel_cache
-: 1577362884:0;open tmp
-: 1577362899:0;rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577363023:0;g d
-: 1577363031:0;irb
-: 1577363207:0;rake db:drop && rake db:create && script/backpack -R && rails test:prepare && rails api:parallel_cache
-: 1577363212:0;g d
-: 1577363246:0;rake db:drop
 : 1577363256:0;rake db:create
 : 1577363268:0;rake db:drop
-: 1577363279:0;g d
 : 1577363293:0;g g "WIP - update backup name"
 : 1577363318:0;rake db:oneoff:update_catalog_item_prices\["oneoff/3_catalog_item_new_prices_dec_2019.csv"\]
-: 1577363338:0;rake db:oneoff:update_catalog_item_prices\["oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
 : 1577363419:0;script/backpack -R
-: 1577363562:0;rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577363685:0;rs
 : 1577363744:0;bin/rails db:migrate RAILS_ENV=development
-: 1577363763:0;rs
-: 1577363868:0;rc
-: 1577365465:0;g lol
-: 1577365501:0;script/deploy -B --skip-migrations -f
 : 1577367691:0;rake db:oneoff:update_catalog_item_prices\["oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
 : 1577367790:0;heroku run console
 : 1577367831:0;heroku run --app opsmanager-staging
 : 1577367835:0;heroku run --app opsmanager-staging console
 : 1577367916:0;heroku run --app opsmanager-staging rake db:oneoff:update_catalog_item_prices\["oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577369602:0;jd personal
-: 1577369605:0;cd befr
-: 1577369606:0;g pl
-: 1577370320:0;vi
-: 1577370334:0;jd dotfiles
-: 1577370335:0;vi
-: 1577371542:0;irb
 : 1577371605:0;curl parrot.live
-: 1577371740:0;g d
-: 1577371761:0;jd ops
-: 1577371764:0;vi
-: 1577371890:0;g d
 : 1577371922:0;g g "add parrot commands"
-: 1577372048:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577372056:0;befr
 : 1577372066:0;befr --parot-say
 : 1577372069:0;befr --parrot-say
 : 1577372075:0;befr --parrot-party
-: 1577372108:0;jd ops
-: 1577372110:0;la
-: 1577372111:0;vi
 : 1577372135:0;script/backpack
-: 1577372278:0;g d
 : 1577372327:0;g g "add generate config"
-: 1577372354:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
-: 1577372362:0;befr
 : 1577372366:0;befr -g
-: 1577425564:0;jd personal
-: 1577425565:0;la
 : 1577425569:0;mkdir glootie
-: 1577425571:0;cd glootie
-: 1577425572:0;git init
 : 1577425585:0;echo "# Glootie" > README.md
-: 1577425588:0;g so
 : 1577425597:0;g g "Initial commit"
-: 1577431001:0;jd ops
-: 1577431004:0;g pl
-: 1577431696:0;vi
-: 1577437223:0;g d
 : 1577437249:0;g g "WIP - adjust based on PR reviews\
 "
 : 1577438228:0;rake db:drop && rake db:create && script/backpack -R && rails test:prepare && rails api:parallel_cache
@@ -947,330 +604,101 @@ fi
 : 1577438408:0;g co master config
 : 1577438416:0;g co master app/assets
 : 1577438426:0;g g "WIP - Remove unwanted changes"
-: 1577440596:0;jd personal
-: 1577440597:0;la
-: 1577440599:0;cd befr
-: 1577440599:0;la
 : 1577440607:0;rm -rf befr-*
-: 1577440610:0;vi
-: 1577440725:0;jd ops
-: 1577440726:0;vi
-: 1577440783:0;jd dotfiles
-: 1577440784:0;vi
-: 1577441121:0;jd personal
-: 1577441121:0;la
-: 1577441124:0;cd glootie
-: 1577441127:0;npm init -y
 : 1577441139:0;yarn add discord.js
-: 1577441154:0;vi
 : 1577441175:0;g g "add npm"
-: 1577441575:0;touch README.md
-: 1577441585:0;g d
-: 1577441587:0;g s
-: 1577442259:0;g d
-: 1577442260:0;g s
 : 1577442267:0;g g "add a procfile"
-: 1577442489:0;g d
 : 1577442493:0;g g "add invite link"
-: 1577443738:0;g d
-: 1577443739:0;g s
 : 1577443744:0;g g "add simple bot"
-: 1577448632:0;g d
 : 1577448638:0;g g "add a link to the discordjs guide"
-: 1577458724:0;jd personal
-: 1577458725:0;la
-: 1577458727:0;cd glootie
-: 1577459719:0;..
-: 1577459720:0;la
 : 1577459722:0;cd befr
-: 1577459727:0;jd ops
-: 1577459731:0;jd dotfiles
-: 1577459732:0;vi
-: 1577460890:0;g d
 : 1577460895:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.7.gem
 : 1577460903:0;befr
 : 1577460909:0;befr --markdown README.md
 : 1577460924:0;befr --markdown ./README.md
 : 1577460949:0;g g "add a markdown reader that does not work"
 : 1577461172:0;vi personal
-: 1577461181:0;jd personal
-: 1577461182:0;la
-: 1577461185:0;cd kuru-anime
-: 1577461186:0;la
-: 1577461191:0;cd website-application
-: 1577461191:0;la
-: 1577461205:0;cd server
-: 1577461208:0;g pl
-: 1577461299:0;vi
-: 1577493165:0;jd personal
-: 1577493167:0;jd ops
 : 1577493276:0;git checkout master
-: 1577493280:0;g pl origin master
-: 1577493292:0;git checkout hotfix-production
-: 1577493296:0;git pull
-: 1577493305:0;g lol
-: 1577493351:0;git cherry-pick e55d2a2bca29f3974b78a812af352247183ac182
-: 1577493354:0;g lol
 : 1577493365:0;vi lib/tasks/db/oneoff/update_catalog_item_prices.rake
-: 1577493441:0;script/deploy production -B --skip-migrations
 : 1577493532:0;heroku run --app opsmanager-staging bash
-: 1577493745:0;g log
 : 1577493963:0;script/deploy
 : 1577493972:0;script/deploy -h
-: 1577494085:0;git reset --hard origin/hotfix-production 
-: 1577494087:0;g lol
-: 1577494113:0;g pl
-: 1577494171:0;git fetch
-: 1577494180:0;g st 
-: 1577494182:0;g clean -fd
-: 1577494185:0;g s
-: 1577494194:0;git merge --abort
-: 1577494202:0;g clean -fd
-: 1577494204:0;g d
-: 1577494205:0;g st
-: 1577494207:0;g s
-: 1577494224:0;git reset --hard origin/hotfix-production 
-: 1577494227:0;g log
 : 1577494251:0;g pl origin hotfix-production
 : 1577494261:0;git merge --abort
-: 1577494264:0;g s
-: 1577494274:0;g lol
-: 1577494277:0;git remote -v
 : 1577494302:0;HEAD
 : 1577494328:0;git fetch origin hotfix-production
 : 1577494339:0;git reset --hard origin/hotfix-production 
-: 1577494342:0;g lol
-: 1577494345:0;g loq
-: 1577494348:0;g log
-: 1577494406:0;g co master
-: 1577494422:0;git branch -D hotfix-production 
 : 1577494430:0;g pull origin hotfix-production
-: 1577494444:0;git reset --hard origin/master
-: 1577494446:0;g lol
-: 1577494453:0;g fetch
-: 1577494464:0;g co hotfix-production
-: 1577494467:0;g lol
 : 1577494472:0;git cherry-pick e55d2a2bca29f3974b78a812af352247183ac182
-: 1577494476:0;g lol
-: 1577494480:0;g log
 : 1577494503:0;g ps origin hotfix-production
-: 1577494555:0;script/deploy production -B --skip-migrations
-: 1577494633:0;g lol
 : 1577494775:0;heroku logs --tail
 : 1577494783:0;heroku logs --tail --app opsmanager-production
 : 1577495010:0;heroku run --app opsmanager-production git log
 : 1577495062:0;heroku run --app opsmanager-production bash
-: 1577495133:0;git remote -v
 : 1577495138:0;git log production
-: 1577495406:0;vi
-: 1577495822:0;heroku --help
-: 1577496013:0;g co master
-: 1577496021:0;git branch -D hotfix-production 
-: 1577496033:0;g fetch
 : 1577496048:0;g co origin/hotfix-production
-: 1577496051:0;g lol
-: 1577496089:0;g co master
 : 1577496095:0;git branch -D hotfix-production 
-: 1577496098:0;g fetch
-: 1577496111:0;g co hotfix-production
-: 1577496114:0;g lol
-: 1577496125:0;script/deploy production -B --skip-migrations
-: 1577496665:0;heroku run --app opsmanager-production rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577497203:0;git lol
 : 1577497212:0;git push origin hotfix-production 
-: 1577497238:0;heroku run --app opsmanager-production rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577497322:0;vi
-: 1577497465:0;rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577497567:0;g d
-: 1577497571:0;g st pop
-: 1577497573:0;g co master
-: 1577497575:0;g pl
-: 1577497582:0;g d
-: 1577497585:0;g lol
-: 1577497589:0;g d
 : 1577497608:0;rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577497622:0;g d
-: 1577497632:0;git add .
 : 1577497653:0;ghot fix rake for new catalog item prices
-: 1577497655:0;g ps
-: 1577497692:0;g d
-: 1577497693:0;g s
-: 1577497695:0;g lol
-: 1577497754:0;g co update-catalog-item-prices-170422024
-: 1577497756:0;g lol
-: 1577497765:0;g co master
-: 1577497768:0;g lol
 : 1577497779:0;g reset e55d2a2bc
-: 1577497781:0;g lol
-: 1577497783:0;g d
 : 1577497792:0;g co update-catalog-item-prices-170422024
-: 1577497793:0;g d
-: 1577497801:0;ganp
-: 1577497818:0;gwip fix for catalog item new prices rake task
-: 1577497820:0;g ps
-: 1577497948:0;g d
-: 1577497950:0;g s
-: 1577497952:0;g lol
 : 1577497963:0;g reset 761f8db42
-: 1577497964:0;g d
-: 1577497966:0;g st
-: 1577497975:0;git reset --hard origin/master
-: 1577497978:0;g lol
-: 1577497983:0;g st pop
-: 1577497984:0;g d
-: 1577497987:0;ganp
 : 1577497995:0;gwip fix for catalog item new prices rake task
 : 1577498004:0;git push
-: 1577498019:0;git push --force
 : 1577498206:0;g co mater
-: 1577498208:0;g co master
-: 1577498213:0;g co hotfix-production
-: 1577498214:0;g lol
-: 1577498227:0;g co master
-: 1577498229:0;g pl
-: 1577498237:0;g lol
 : 1577498244:0;g co hotfix-prod
-: 1577498247:0;g co hotfix-production
 : 1577498255:0;git cherry-pick 32e1b6ad0
-: 1577498256:0;g lol
 : 1577498279:0;g sp
-: 1577498280:0;g ps
-: 1577498323:0;script/deploy production -B --skip-migrations
 : 1577498871:0;heroku run --app opsmanager-production rake db:oneoff:update_catalog_item_prices\["oneoff/2_catalog_item_new_prices_dec_2019.csv"\]
-: 1577499087:0;g d
-: 1577499089:0;g s
-: 1577499093:0;g lol
-: 1577499097:0;g ps
 : 1577499113:0;heroku run --app opsmanager-production rake db:oneoff:update_catalog_item_prices\["oneoff/3_catalog_item_new_prices_dec_2019.csv"\]
 : 1577499287:0;heroku run --app opsmanager-production rake db:oneoff:update_catalog_item_prices\["oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577500097:0;g d
-: 1577500101:0;jd personal
-: 1577501370:0;la
-: 1577501377:0;cd glootie
-: 1577518033:0;jd dotfiles
-: 1577518035:0;la
-: 1577518037:0;vi install.sh
-: 1577518061:0;g d
 : 1577518069:0;g g "add typescript on the install script"
-: 1577519657:0;vi
-: 1577520053:0;g d
-: 1577520076:0;yarn add typescript
-: 1577520108:0;tsc --help
-: 1577520109:0;tsc
-: 1577520115:0;g st
-: 1577520121:0;vi
-: 1577520138:0;g d
-: 1577520143:0;git rm -rf yarn.lock
-: 1577520144:0;g d
 : 1577520148:0;g g "remove lock files"
 : 1577520195:0;yarn global add typescript
-: 1577520204:0;rm -rf node_modules
 : 1577520209:0;rm -rf yarn.lock
-: 1577520211:0;g d
-: 1577520212:0;g s
-: 1577520215:0;yarn install
 : 1577520230:0;tsc --init
-: 1577520234:0;g d
-: 1577520236:0;g s
-: 1577520289:0;g d
 : 1577520728:0;git rm -rf public
-: 1577520729:0;g d
-: 1577520730:0;g s
-: 1577520807:0;g d
 : 1577520812:0;g g "add typescript support"
-: 1577520836:0;tsc
 : 1577520869:0;npm i @types/node
-: 1577520880:0;yarn add @types/node
-: 1577520882:0;tsc
-: 1577521035:0;g log
 : 1577521042:0;g g "add types for nodes"
 : 1577521086:0;g g "fix the indentations on tsconfig"
-: 1577521435:0;tsc
-: 1577521454:0;la
 : 1577521475:0;g g "add type any to message variable on onMessage"
 : 1577521794:0;yarn add typescript
 : 1577521805:0;g g "add typescript locally"
-: 1577521854:0;g d
 : 1577521861:0;g g "add logs to scripts"
 : 1577522296:0;tsc --help
 : 1577522301:0;tsc --help |grep reload
-: 1577522342:0;yarn develop
-: 1577522351:0;g d
 : 1577522362:0;g g "add a develop script"
-: 1577525097:0;g d
 : 1577525113:0;g g "add a build script on package.json"
-: 1577599627:0;jd personal
-: 1577599627:0;la
-: 1577599636:0;cd glootie
-: 1577599637:0;la
-: 1577599640:0;vi
-: 1577599783:0;ganp
 : 1577599795:0;git commit -m "add staging link to readme.md"
-: 1577599797:0;g ps
-: 1577599821:0;g d
-: 1577599835:0;yarn start
-: 1577599978:0;g d
 : 1577600389:0;heroku config
 : 1577600399:0;heroku config --app
 : 1577600404:0;heroku --app config
-: 1577600616:0;g d
-: 1577600635:0;g st
-: 1577600649:0;g d
 : 1577600666:0;g g "print process.env for testing"
-: 1577600775:0;g d
-: 1577600777:0;g s
-: 1577600779:0;g d
 : 1577600834:0;g g "check for process.env before using config file"
 : 1577600945:0;yarn logs
 : 1577600960:0;heroku logs --tail --app glootie
-: 1577601017:0;g d
 : 1577601031:0;g g "update gitconfig to remove config.json and update packge.json scripts"
-: 1577601076:0;yarn develop
-: 1577601143:0;yarn watch
-: 1577601146:0;yarn start
-: 1577601151:0;g d
 : 1577601169:0;g g "[Hotfix] Update the scripts on package.json"
-: 1577601280:0;yarn start
-: 1577601438:0;g d
-: 1577601462:0;g s
-: 1577601465:0;g d
 : 1577601476:0;g g "[Hotfix] Remove config.json"
-: 1577601505:0;g d
 : 1577601513:0;g g "[Hotfix] ignore .env\
 "
-: 1577601546:0;yarn add dotenv
-: 1577601548:0;g d
 : 1577601560:0;g g "[Hotfix] add .env on node_modules"
-: 1577601603:0;g d
-: 1577601633:0;yarn start
-: 1577601648:0;g d
-: 1577601651:0;g s
-: 1577601652:0;g d
 : 1577601665:0;g g "[Hotfix] update script when starting to use .env"
 : 1577601775:0;echo .env
 : 1577601782:0;less .env
 : 1577601793:0;cat .env | pbcopy
-: 1577602085:0;g d
-: 1577602104:0;yarn add nodemon
-: 1577602112:0;g d
 : 1577602124:0;g g "[Hotfix] Add nodemon\
 "
 : 1577602131:0;less package.jso
-: 1577602132:0;less package.json
-: 1577602138:0;yarn watch
-: 1577602141:0;yarn develop
-: 1577602174:0;g d
 : 1577602271:0;g g "[Hotfix] Use import instead of require"
-: 1577602388:0;code README.md
-: 1577603656:0;g d
 : 1577603665:0;g g "[Hotfix] Update the README.md"
-: 1577603693:0;g d
 : 1577603702:0;g g "[Hotfix] Fix typo on the word staging"
 : 1577604105:0;mkdir.github
 : 1577604113:0;mkdir .github
 : 1577604161:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/PULL_REQUEST_TEMPLATE.md > .github/PULL_REQUEST_TEMPLATE.md
 : 1577604188:0;code .github
-: 1577604249:0;g d
 : 1577604259:0;g g "[Hotfix] Add a PR template"
 : 1577604297:0;mkdir .github/ISSUE_TEMPLATE
 : 1577604365:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/ISSUE_TEMPLATE/feature_request.md > .github/ISSUE_TEMPLATE/feature_request.md
@@ -1278,1335 +706,244 @@ fi
 : 1577604393:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/ISSUE_TEMPLATE/question.md > .github/ISSUE_TEMPLATE/question.md
 : 1577604406:0;code .github/ISSUE_TEMPLATE
 : 1577604538:0;g g "[Hotfix] Add Issue Templates"
-: 1577604955:0;g fetch
 : 1577605002:0;g co issue-3-Add_FIrebase
 : 1577605524:0;yarn add --save firebase-admin
-: 1577605560:0;yarn add firebase-admin
-: 1577605577:0;g d
 : 1577605593:0;g g "add the firebase admin to dependencies"
-: 1577605658:0;g d
 : 1577605667:0;g g "import firebase to the main ts file"
-: 1577607187:0;htop
-: 1577609857:0;g d
 : 1577609861:0;g g "remove firebase"
-: 1577609887:0;yarn add firebase
-: 1577610079:0;htop
-: 1577610090:0;g d
 : 1577610097:0;g g "add the normal firebase for the web"
-: 1577610130:0;g d
 : 1577610137:0;g g "import firebase web to the main ts file"
-: 1577610510:0;g d
 : 1577610527:0;g g "add firebase config"
-: 1577610560:0;less .env |pbcopy
-: 1577610690:0;code README.md
-: 1577610710:0;g d
 : 1577610717:0;g g "add instructions for firebase web setup"
-: 1577610752:0;g co master
-: 1577610902:0;g pl
 : 1577620382:0;less .env |pbcopy
-: 1577620520:0;g d
 : 1577620551:0;g g "[Hotfix] use environment variables for project names of firebase"
-: 1577620701:0;code README.md
-: 1577620811:0;g d
 : 1577620833:0;g g "[Hotfix] list all the environment variables needed on the README file"
-: 1577621009:0;g d
-: 1577621011:0;g s
-: 1577621013:0;g clean -fd
-: 1577621086:0;code README.md
-: 1577621199:0;g d
-: 1577621201:0;g clean -fd
-: 1577621216:0;g d
-: 1577621218:0;g s
-: 1577621219:0;g st
-: 1577674437:0;la
-: 1577674442:0;jd personal
-: 1577674443:0;la
-: 1577674446:0;cd glootie
-: 1577674447:0;la
-: 1577674447:0;clear
-: 1577674448:0;vi
-: 1577674597:0;less package.json
-: 1577674607:0;yarn watch
-: 1577674610:0;yarn develop
-: 1577674632:0;yarn watch
-: 1577686694:0;g d
-: 1577686706:0;g fetch
 : 1577686729:0;g co issue-5-Save_user_details_and_server_details_on_Firestore
-: 1577686735:0;g d
 : 1577686739:0;g g "tidying up"
-: 1577687288:0;code README.md
-: 1577687323:0;g d
-: 1577687329:0;ganp
 : 1577687349:0;g commit -m "add firestore to readme and import"
-: 1577687350:0;g ps
-: 1577705327:0;jd personal
-: 1577705328:0;la
-: 1577705330:0;cd glootie
-: 1577705357:0;yarn develop
-: 1577705359:0;yarn watch
-: 1577705363:0;vi
-: 1577705929:0;g d
 : 1577707921:0;g g "add prefix and add 2 basic commands"
-: 1577709358:0;g d
 : 1577709380:0;g g "add validations"
-: 1577709466:0;g d
 : 1577709470:0;g g "add a taggedUser"
-: 1577709943:0;g d
-: 1577709978:0;g st
-: 1577763094:0;jd personal
-: 1577763096:0;la
 : 1577763100:0;cd glootie
-: 1577763102:0;vi
-: 1577763472:0;yarn develop
-: 1577763473:0;yarn watch
-: 1577765988:0;jd ka-site
-: 1577765989:0;la
-: 1577765991:0;vi
-: 1577765994:0;g pl
-: 1577766045:0;code README.md
-: 1577766102:0;g d
-: 1577766109:0;g s
-: 1577766114:0;ganp
-: 1577766124:0;g st
-: 1577766126:0;gap
-: 1577766131:0;g reset
-: 1577766133:0;g d
-: 1577766134:0;g s
-: 1577766149:0;code README.md
-: 1577766173:0;g d
-: 1577766176:0;gap
-: 1577766180:0;g s
-: 1577766190:0;g d
 : 1577766217:0;git commit -m "[Hotfix] Add StackShare to README.md"
-: 1577766218:0;g ps
-: 1577767901:0;g d
 : 1577768005:0;g g "add a way to save message to firestore"
-: 1577768758:0;g d
-: 1577768759:0;g st
-: 1577768763:0;g st pop
-: 1577768764:0;g d
 : 1577768770:0;g co src
-: 1577768794:0;g d
-: 1577768795:0;g s
-: 1577768796:0;g clean -fd
-: 1577768799:0;g lol
-: 1577770451:0;vi
-: 1577782363:0;g d
 : 1577782369:0;g g "add constant for the table name"
-: 1577792318:0;g d
 : 1577792331:0;g g "add users and servers on the constants\
 "
-: 1577799068:0;g d
-: 1577853835:0;jd personal
-: 1577853837:0;jd ka-site
-: 1577853839:0;la
-: 1577853852:0;cd server
-: 1577853856:0;cd client
-: 1577853860:0;less package.json
 : 1577853884:0;less ../dev.sh
-: 1577853891:0;yarn dev
-: 1577853905:0;dr-up
-: 1577855195:0;jd personal
-: 1577855196:0;la
-: 1577855198:0;cd boseriko.com
-: 1577855199:0;la
-: 1577855200:0;g pl
-: 1577855219:0;vi
-: 1577855240:0;g d
 : 1577855251:0;g g "change javascript to typescript"
-: 1577855510:0;jd personal
-: 1577855512:0;la
-: 1577855515:0;cd boseriko.com
-: 1577855517:0;vi
-: 1577855563:0;g d
 : 1577855576:0;g g "add youtube to the header components"
-: 1577858416:0;..
-: 1577858416:0;la
-: 1577858420:0;jd ka-site
-: 1577858476:0;la
-: 1577858478:0;cd server
-: 1577858482:0;vi
-: 1577858586:0;g fetch
 : 1577858605:0;g co issue-26-Remove_unwanted_files
-: 1577858618:0;g d
-: 1577858621:0;g st
-: 1577858748:0;dr-up
 : 1577858782:0;dr-web ls -a
 : 1577858800:0;rails g migration DropUsers
-: 1577858805:0;dr-web rails g migration DropUsers
-: 1577858892:0;dr-web rake db:migrate
 : 1577858934:0;rails g migration DropPosts
 : 1577858943:0;dr-web rails g migration DropPosts
-: 1577858980:0;dr-web rake db:migrate
-: 1577859005:0;g d
-: 1577859014:0;g s
 : 1577859033:0;git add db
-: 1577859037:0;g s
 : 1577859059:0;git commit -m "remove posts and users table"
-: 1577859060:0;g ps
-: 1577859220:0;g d
-: 1577859221:0;g s
-: 1577859223:0;g clean -fd
-: 1577859319:0;dr-web rake db:migrate
-: 1577859335:0;g d
-: 1577859340:0;g s
 : 1577859348:0;g g "remove the 2 unwanted migration file regarding posts"
-: 1577859507:0;g s
 : 1577859572:0;g g "remove unwanted files generated and created by devise"
 : 1577859615:0;docker-compose down
-: 1577859657:0;code .github/PULL_REQUEST_TEMPLATE.md
 : 1577859686:0;docker-compose run web bundle install
 : 1577859716:0;docker-compose up --build
-: 1577860110:0;g d
 : 1577860118:0;g g "update gemfile.lock"
-: 1577860282:0;g co master
-: 1577860284:0;g pl
-: 1577860798:0;dr-down
-: 1577864246:0;jd personal
-: 1577864248:0;jd ka-site
-: 1577864711:0;g d
-: 1577864717:0;g s
-: 1577864765:0;cd server
-: 1577866825:0;jd personal
-: 1577866829:0;jd ka-site
-: 1577866830:0;la
-: 1577866842:0;cd server
-: 1577867234:0;htop
-: 1577867591:0;jd personal
-: 1577867592:0;la
-: 1577867645:0;jd ka-site
-: 1577867686:0;vi
-: 1577869840:0;cd server
-: 1577869847:0;cd client
-: 1577869852:0;yarn dev
-: 1577869856:0;dr-up
-: 1577869886:0;cd server
-: 1577869891:0;vi
-: 1577870336:0;dr-up
-: 1577872366:0;g fetch
 : 1577872395:0;g co origin/issue-27-Use_Doorkeeper_for_authentication
-: 1577872421:0;g co master
 : 1577872430:0;g co issue-27-Use_Doorkeeper_for_authentication
-: 1577872431:0;g s
-: 1577872544:0;dr-down
 : 1577872599:0;dr-web bundle install && dr-up --build
-: 1577872870:0;g d
-: 1577872873:0;ganp
 : 1577872889:0;gwip add doorkeeper to the gems
-: 1577872890:0;g ps
 : 1577872943:0;bundle add doorkeeper
-: 1577872951:0;g d
-: 1577872952:0;g s
 : 1577872958:0;dr-web bundle add doorkeeper
-: 1577872979:0;g s
-: 1577872987:0;dr-web bundle exec rails generate doorkeeper:install
 : 1577873382:0;dr-web rails generate doorkeeper:migration
-: 1577873399:0;g lol
-: 1577873409:0;dr-web rake db:migrate
-: 1577873457:0;g d
-: 1577873465:0;g s
-: 1577873468:0;ganp
-: 1577873489:0;gwip initialize doorkeeper
-: 1577873491:0;g ps
-: 1577876238:0;dr-down && dr-web bundle install && dr-up --build
-: 1577876634:0;g d
-: 1577876636:0;ganp
 : 1577876683:0;gwip add devise to the gems
-: 1577876777:0;g ps
 : 1577876801:0;rails g devise User
 : 1577876824:0;dr-up rails g devise User
 : 1577876851:0;dr-web rails g devise User
-: 1577876937:0;g d
-: 1577876939:0;g s
-: 1577876942:0;g d
-: 1577876945:0;ganp
-: 1577876965:0;dr-web rake db:migrate
-: 1577883332:0;dr-down && dr-web bundle install && dr-up --build
-: 1577883335:0;g d
-: 1577883673:0;dr-down && dr-web bundle install && dr-up --build
-: 1577883819:0;git reset --hard origin/master
-: 1577883822:0;g lol
-: 1577883865:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1577883933:0;dr-down && dr-web bundle install && dr-up --build
 : 1577884225:0;git push --force
-: 1577885739:0;dr-down && dr-web bundle install && dr-up --build
 : 1577886234:0;rails generate devise:install
-: 1577886238:0;dr-web rails generate devise:install
-: 1577886341:0;g d
-: 1577886343:0;g s
-: 1577886347:0;g d
-: 1577886354:0;g s
-: 1577886356:0;g d
 : 1577886383:0;dr-web rails generate devise User
 : 1577886431:0;dr-down && dr-web db:migrate && dr-up
 : 1577886441:0;dr-down && dr-web rake db:migrate && dr-up
-: 1577886501:0;ganp
 : 1577886538:0;gwip add devise to gems and initiate it
-: 1577886540:0;g ps
-: 1577886567:0;g lol
-: 1577886601:0;dr-down && dr-web bundle install && dr-up --build
-: 1577887106:0;g s
-: 1577887107:0;g d
-: 1577887111:0;ganp
 : 1577887122:0;gwip add doorkpeer to the gemfile
-: 1577887123:0;g ps
 : 1577887186:0;dr-web bundle exec rails generate doorkeeper:install
 : 1577887300:0;dr-web bundle exec rails generate doorkeeper:migration
 : 1577887427:0;dr-web bundle exec rake db:migrate
-: 1577887486:0;dr-web rake routes
-: 1577887540:0;g s
-: 1577887543:0;ganp
 : 1577887571:0;gwip initialize doorkeeper
-: 1577887573:0;g ps
-: 1577887945:0;dr-down
-: 1577940000:0;jd personal
-: 1577940044:0;la
-: 1577940046:0;jd ka-site
-: 1577940524:0;la
-: 1577940526:0;cd server
-: 1577940533:0;cd ..
-: 1577940534:0;la
 : 1577940541:0;chmod +x dev.sh
-: 1577940543:0;g d
-: 1577940546:0;ganp
-: 1577940566:0;vi
 : 1577940579:0;dev.sh
-: 1577940583:0;./dev.sh
-: 1577940594:0;g s
 : 1577940607:0;git commit -m "[Hotfix] make dev.sh executable"
-: 1577940608:0;g ps
-: 1577945518:0;g d
-: 1577945521:0;cd server
-: 1577945958:0;jd
-: 1577945962:0;jd vol
-: 1577945962:0;la
-: 1577945965:0;cd Bos
-: 1577945965:0;la
-: 1577945970:0;cd Movies
-: 1577945971:0;la
 : 1577945980:0;rm -rf Incredibles\ 2\ \(2018\)\ \[BluRay\]\ \[720p\]\ \[YTS.AM\] She\'s\ Out\ of\ My\ League\ \(2010\)
-: 1577945982:0;la
 : 1577946042:0;open .
-: 1577947436:0;jd personal
-: 1577951537:0;la
-: 1577951544:0;jd ka-site
-: 1577951587:0;la
-: 1577951591:0;cd server
-: 1577951592:0;la
-: 1577951870:0;dr-web rake routes
-: 1577951941:0;vi
-: 1577951952:0;less package.json
-: 1577951955:0;dr-up
-: 1577970471:0;jd ops
-: 1577970473:0;g pl
-: 1577970480:0;g co master
-: 1577970482:0;g pl
-: 1577971174:0;jd ka-site
-: 1577971176:0;cd server
-: 1577971178:0;vi
-: 1577971602:0;la
-: 1577974312:0;dr-up
-: 1577974985:0;g d
 : 1577975053:0;g g "add api only and devise configuration on doorkeeper initalizer"
-: 1577977144:0;dr-web rake routes
-: 1577977888:0;g d
-: 1577977891:0;g lol
-: 1577977906:0;g d
 : 1577977912:0;g reset   #\
 
-: 1577977916:0;g d
 : 1577977922:0;g reset 21e7ebc
-: 1577977925:0;ganp
 : 1577977946:0;gwip add devise and use api mode for doorkeeper
-: 1577977948:0;g push --force
-: 1577979036:0;ganp
 : 1577979046:0;gwip add a space on the user model
-: 1577979047:0;g ps
 : 1577979275:0;rspec test/models/user_test.rb
 : 1577979280:0;dr-web rspec test/models/user_test.rb
-: 1577979422:0;g d
-: 1577979427:0;ganp
 : 1577979441:0;gwip add before_action to ApplicationController
-: 1577979442:0;g ps
-: 1577980998:0;vi
-: 1577981021:0;dr-web rake routes
 : 1577981154:0;dr-web rails console
-: 1577981587:0;dr-down
-: 1578040923:0;jd ops
-: 1578040927:0;jd ka-site
-: 1578040966:0;la
-: 1578040969:0;cd server
-: 1578040971:0;g pl
-: 1578058545:0;jd personal
-: 1578058545:0;la
-: 1578058547:0;cd ka-site
-: 1578058549:0;jd ka-site
-: 1578058549:0;la
-: 1578058552:0;cd server
-: 1578058555:0;g co master
-: 1578058558:0;g st
-: 1578058560:0;g co master
-: 1578058565:0;g pl
-: 1578058608:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1578059834:0;g lol
-: 1578059836:0;vi
-: 1578059909:0;dr-up
-: 1578060086:0;g fetch
 : 1578060105:0;g co issue-33-Use_devise_token_auth_for_authentication
-: 1578060110:0;g d
-: 1578060174:0;dr-down && dr-web bundle install && dr-up --build
-: 1578060497:0;g d
-: 1578060604:0;ganp
 : 1578060618:0;gwip add devise_token_auth
-: 1578060694:0;dr-web rails g devise_token_auth:install User auth
-: 1578060708:0;g d
-: 1578060715:0;g s
-: 1578060720:0;dr-web rake db:migrate
-: 1578060853:0;g d
-: 1578060912:0;g st
-: 1578060914:0;g lol
-: 1578107470:0;jd ka-site
-: 1578107501:0;la
-: 1578107502:0;cd server
-: 1578107503:0;la
-: 1578112523:0;jd ka-site
-: 1578112524:0;cd server
-: 1578112539:0;g lol
-: 1578112543:0;g s
-: 1578112545:0;g d
-: 1578112547:0;ganp
-: 1578112562:0;g clean -fd
 : 1578112661:0;dr-web rails g CreateUserModle
 : 1578112715:0;dr-web rails g CreateUserModel
-: 1578112741:0;dr-web rails g migration CreateUserTable
-: 1578112856:0;vi
-: 1578112861:0;g s
-: 1578112872:0;g st
 : 1578112880:0;g co app
-: 1578112882:0;g co config
-: 1578112884:0;g s
 : 1578112894:0;git restore app
 : 1578112897:0;git restore config
-: 1578112898:0;g s
 : 1578112908:0;rm -rf app/models/user.rb config/initializers/devise_token_auth.rb
-: 1578112910:0;g s
-: 1578112915:0;g lol
-: 1578112917:0;g st
-: 1578112919:0;g d
-: 1578112920:0;g s
-: 1578112974:0;g ps
-: 1578113009:0;dr-web rails g migration CreateUserTable
-: 1578113010:0;g s
-: 1578113017:0;g st
-: 1578113018:0;g d
-: 1578113020:0;g s
-: 1578113022:0;g clean -fd
 : 1578113024:0;dr-web rails g migration CreateUserTable
-: 1578113503:0;g s
-: 1578113504:0;g st
-: 1578113506:0;g d
-: 1578113507:0;g s
-: 1578113508:0;g clean -fd
-: 1578113526:0;vi
-: 1578113542:0;dr-web rails generate devise_token_auth:install User auth
-: 1578113628:0;g d
 : 1578113654:0;dr-web rails g migration NewDeviseTokenAuthCreateUsers
-: 1578113734:0;g st
-: 1578113736:0;g clean -fd
-: 1578113771:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
 : 1578113814:0;dr-web rails generate devise_token_auth:install User auth
-: 1578113830:0;g s
 : 1578113856:0;g co db/migrate
-: 1578113859:0;g s
 : 1578113879:0;rm -rf db/migrate/20200104045705_devise_token_auth_create_users.rb
-: 1578113882:0;g s
-: 1578113886:0; fg
-: 1578113901:0;g d
-: 1578113904:0;gs
-: 1578113909:0;g s
-: 1578113954:0;dr-web rake db:migrate
-: 1578114040:0;g st
-: 1578114042:0;g clean -fd
-: 1578114043:0;g d
-: 1578114045:0;g s
-: 1578114046:0;g lol
 : 1578114082:0;rm -rf db/migrate/20200101060705_drop_users.rb 
-: 1578114093:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1578114132:0;g d
-: 1578114134:0;g s
-: 1578114140:0;ganp
-: 1578114144:0;g s
 : 1578114151:0;gwip create user table
-: 1578114152:0;g ps
-: 1578114175:0;dr-web rails g devise_token_auth:install User auth
-: 1578114210:0;vi
-: 1578114233:0;g d
-: 1578114239:0;dr-web rake db:migrate
-: 1578114310:0;g d
-: 1578114312:0;g s
-: 1578114317:0;ganp
 : 1578114339:0;gwip initialize devise_token_auth
-: 1578114340:0;g ps
-: 1578114446:0;g d
-: 1578114453:0;ganp
 : 1578114458:0;gwip fix cors
-: 1578114459:0;g ps
-: 1578114552:0;g d
-: 1578114557:0;ganp
 : 1578114561:0;gwip add omniauth
-: 1578114562:0;g ps
-: 1578114569:0;dr-down && dr-web bundle install && dr-up --build
-: 1578115142:0;g d
-: 1578115144:0;ganp
 : 1578115164:0;gwip update gemfile.lock and disable change_headers_on_each_request
-: 1578115165:0;g ps
-: 1578120985:0;jd personal
-: 1578120989:0;la
-: 1578120991:0;jd ka-site
-: 1578120992:0;la
-: 1578120995:0;cd server
-: 1578120995:0;la
-: 1578120997:0;vi
-: 1578121439:0;dr-web rake routes
-: 1578121485:0;dr-up
-: 1578121515:0;dr-web rails c
 : 1578121520:0;curl http://localhost:3000/auth --data "email=test123@example.com&password=password"
-: 1578122170:0;g s
-: 1578144847:0;la
-: 1578144849:0;jd ka-site
-: 1578144850:0;la
-: 1578144851:0;cd server
-: 1578144857:0;g co master
-: 1578144987:0;g pl
-: 1578145004:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1578190696:0;jd personal
-: 1578190697:0;la
-: 1578190699:0;jd ka-site
-: 1578190699:0;la
-: 1578190704:0;cd server
-: 1578190706:0;cd client
-: 1578190710:0;cd ../client
-: 1578191721:0;la
-: 1578191733:0;vi
-: 1578191761:0;la
-: 1578191862:0;cd ../server
-: 1578191863:0;la
-: 1578191867:0;vi
-: 1578191872:0;code README.md
-: 1578191978:0;g d
-: 1578191986:0;ganp
-: 1578191991:0;g pl
 : 1578191998:0;ghot add core gems
-: 1578192008:0;g ps
-: 1578192452:0;la
-: 1578192456:0;cd ../client
-: 1578192463:0;cd ..
-: 1578192464:0;la
-: 1578192466:0;vi
-: 1578192536:0;la
-: 1578192716:0;cd client
-: 1578192718:0;la
-: 1578192861:0;g fetch
 : 1578192877:0;g co issue-28-Recreate_the_whole_front-end_and_make_a_simple_authentication_form
-: 1578192891:0;la
 : 1578192944:0;rm -rf .babelrc .editorconfig .eslintrc.js .nuxt .gitignore README.md components dist jest.config.js jsconfig.json layouts/ middleware/ node_modules nuxt.config.js package.json pages plugins static store tailwind.config.js test yarn.lock
-: 1578192952:0;la
 : 1578192959:0;rm -rf .prettierrc assets
-: 1578192960:0;la
-: 1578192962:0;g d
-: 1578192966:0;ganp
-: 1578192970:0;git add .
 : 1578192975:0;gwip remove all files
-: 1578192976:0;g ps
-: 1578193020:0;cd ..
 : 1578193033:0;gatsby new new-client
-: 1578193315:0;la
-: 1578193322:0;rm -rf new-client
-: 1578193328:0;la
-: 1578193340:0;gatsby new new-client https://github.com/fabien0102/gatsby-starter\
-
 : 1578193585:0;npm i -g gatsby-cli
-: 1578193624:0;la
 : 1578193627:0;rm -rf new-client
 : 1578193763:0;gatsby new new-client https://github.com/fabien0102/gatsby-starter\
 
-: 1578194705:0;la
 : 1578194714:0;rm new-client/.git
-: 1578194730:0;cd client
-: 1578194732:0;la
 : 1578194749:0;mv .git ../new-client/.git
 : 1578194761:0;mv .github/ ../new-client/.github
-: 1578194764:0;ls -a
-: 1578194765:0;la
-: 1578194773:0;git remote -v
-: 1578194776:0;ls -a
-: 1578194780:0;cd ..
-: 1578194782:0;cd client
-: 1578194782:0;la
-: 1578194784:0;cd ..
-: 1578194788:0;la
-: 1578194791:0;rm -rf client
 : 1578194797:0;mv new-client client
-: 1578194798:0;la
-: 1578194800:0;g d
-: 1578194803:0;cd client
-: 1578194804:0;ls -a
-: 1578195021:0;la
-: 1578195022:0;g s
 : 1578195047:0;less .gitignore
-: 1578195053:0;vi .gitignore
-: 1578195076:0;git add .
 : 1578195085:0;gwip turn into typescript gatsby
-: 1578195111:0;vi
-: 1578195130:0;yarn install
-: 1578195180:0;less package.json
-: 1578195192:0;yarn develop
-: 1578196320:0;git status
-: 1578196327:0;g ps
 : 1578196398:0;git push --no-verify
-: 1578196414:0;g lol
-: 1578196422:0;git status
-: 1578196428:0;git add .
 : 1578196447:0;gwip initialize typescript gatsby project
-: 1578196465:0;code README.md
-: 1578196538:0;g reset
 : 1578196541:0;g clean
-: 1578196543:0;g clean -fd
-: 1578196548:0;g st
-: 1578196550:0;ls -a
-: 1578196557:0;g log
-: 1578196561:0;g lol
 : 1578196583:0;g reset 1b0835a
-: 1578196588:0;g s
-: 1578196590:0;g clean -fd
-: 1578196610:0;ls -a
-: 1578196641:0;cd ..
-: 1578196641:0;la
 : 1578196654:0;gatsby new client-ts https://github.com/resir014/gatsby-starter-typescript-plus
-: 1578196721:0;la
 : 1578196730:0;rm -rf client-ts/.git
 : 1578196733:0;rm -rf client-ts/.github
 : 1578196743:0;mv client/.git client-ts/.git
 : 1578196747:0;mv client/.github client-ts/.github
-: 1578196751:0;cd client
-: 1578196753:0;la
-: 1578196756:0;..
-: 1578196758:0;la
 : 1578196761:0;rm -rf client
 : 1578196767:0;mv client-ts client
-: 1578196768:0;cd client
-: 1578196770:0;g d
-: 1578196771:0;g s
-: 1578196780:0;vi .gitignore
-: 1578196822:0;g d
-: 1578196823:0;g s
-: 1578196826:0;git add .
-: 1578196829:0;vi
-: 1578196837:0;g d
-: 1578196838:0;g s
 : 1578196847:0;gwip initialize gatsby
-: 1578196854:0;g reset
 : 1578196858:0;git lol
 : 1578196865:0;g reset gatsby new gatsby-starter-typescript-plus https://github.com/resir014/gatsby-starter-typescript-plus\
 
 : 1578196869:0;git reset 1b0835a
-: 1578196871:0;g d
-: 1578196871:0;g s
-: 1578196876:0;vi .gitignore
-: 1578197181:0;yarn install
-: 1578197197:0;rm -rf node_modules && yarn install
-: 1578197561:0;g ps
-: 1578197582:0;g s
-: 1578197585:0;git add .
 : 1578197592:0;gwip initialize gatsby with typescript
-: 1578197594:0;g ps
-: 1578197705:0;vi
 : 1578197899:0;yarn add husky -- dev
 : 1578197903:0;yarn add husky --dev
-: 1578197934:0;ganp
 : 1578197946:0;gwip add husky to node_modules
-: 1578197948:0;g ps
-: 1578198896:0;yarn develop
-: 1578198901:0;less package.json
-: 1578198919:0;vi
-: 1578198937:0;g d
-: 1578198941:0;ganp
 : 1578198950:0;gwip change dev to develop on package.json
-: 1578198953:0;g ps
-: 1578198983:0;yarn develop
-: 1578199097:0;g d
-: 1578199431:0;vi
-: 1578199682:0;yarn add dotenv
-: 1578199698:0;vi
-: 1578199760:0;g d
-: 1578199762:0;g st
-: 1578199764:0;g d
-: 1578199767:0;rm -rf node_modules && yarn install
-: 1578199783:0;yarn develop
-: 1578199906:0;touch .env
-: 1578199908:0;la
-: 1578199909:0;g d
-: 1578200144:0;g st
-: 1578215882:0;la
-: 1578215906:0;jd dotfiles
-: 1578215906:0;la
-: 1578215911:0;jd ka-site
-: 1578215912:0;la
-: 1578215915:0;cd server
-: 1578216457:0;cd ../client
 : 1578216638:0;echo 'API_URL="localhost:3000"' > .env
-: 1578216639:0;g s
-: 1578216641:0;vi
-: 1578216655:0;yarn add dotenv
-: 1578216692:0;la
-: 1578216693:0;ganp
-: 1578216697:0;g s
-: 1578216749:0;yarn develop
 : 1578216781:0;yarn upgrade
-: 1578216872:0;yarn develop
 : 1578216896:0;yarn add fs
-: 1578216910:0;yarn develop
-: 1578216923:0;g d
-: 1578216993:0;rm -rf node_modules && yarn install
-: 1578217101:0;g d
-: 1578217185:0;g st
-: 1578217190:0;yarn develop
-: 1578217195:0;jd personal
-: 1578217196:0;la
-: 1578217335:0;g d
-: 1578217344:0;ganp
-: 1578217351:0;g reset
-: 1578217352:0;g d
-: 1578217353:0;g st
 : 1578217359:0;mv .env .env.development
-: 1578217360:0;g d
-: 1578217360:0;g s
-: 1578217372:0;g d
-: 1578217373:0;g s
-: 1578217375:0;ganp
 : 1578217409:0;gwip add gatsby environment variables to gitignore
-: 1578217411:0;g ps
-: 1578217498:0;yarn develop
-: 1578217755:0;g d
-: 1578217756:0;ganp
 : 1578217792:0;gwip add an authentication page
-: 1578217794:0;g ps
-: 1578217858:0;g d
-: 1578217861:0;ganp
 : 1578217865:0;gwip add tagline on the title
-: 1578217866:0;g ps
-: 1578217995:0;g d
-: 1578217997:0;ganp
 : 1578218034:0;gwip fix authentication class name on the authentication page
-: 1578218036:0;g ps
-: 1578218168:0;g d
-: 1578218173:0;ganp
 : 1578218182:0;gwip add a holder for login and register
-: 1578218184:0;g ps
-: 1578218754:0;g lol
-: 1578315540:0;jd personal
-: 1578315541:0;la
 : 1578315543:0;cd ka-site
-: 1578315544:0;la
-: 1578315545:0;jd ka-site
-: 1578315546:0;la
-: 1578315551:0;cd server
-: 1578315551:0;la
-: 1578315616:0;cd ../client
-: 1578315627:0;vi
-: 1578315818:0;g d
-: 1578315823:0;g s
-: 1578315825:0;ganp
 : 1578315834:0;gwip divide the login and register page
-: 1578315836:0;g ps
-: 1578391653:0;jd dotfiles
-: 1578391657:0;g pl
 : 1578391670:0;code markdown/chrome-extensions.md
-: 1578391688:0;code markdown/apps.md
-: 1578391745:0;g d
 : 1578391752:0;g g "add keycastr"
-: 1578391781:0;vi
-: 1578391819:0;g d
 : 1578391826:0;g g "add keycastr to homebrew"
-: 1578392881:0;code markdown/apps.md
-: 1578392966:0;g d
 : 1578392978:0;g g "add ishowu to stream apps"
 : 1578393070:0;code markdown/apps.md
-: 1578393124:0;g d
 : 1578393133:0;g g "add instructions to iShowU"
-: 1578394885:0;jd dotfiles
-: 1578394889:0;jd ka-site
-: 1578394891:0;g d
-: 1578394900:0;cd server
-: 1578394907:0;cd ../client
-: 1578394917:0;dr-up
 : 1578394922:0;yarn develop
-: 1578394933:0;cd ../server
-: 1578394935:0;vi
-: 1578394954:0;jd personal
-: 1578394954:0;la
-: 1578395043:0;g d
-: 1578395051:0;ganp
 : 1578395063:0;gwip "revert readme"
-: 1578395066:0;g ps
-: 1578395079:0;dr-down && dr-web bundle install && dr-up --build
 : 1578395325:0;g clone git@github.com:kuru-project/girudo-client.git
-: 1578395922:0;la
-: 1578395925:0;cd girudo-client
-: 1578396006:0;vi
-: 1578396047:0;g d
-: 1578396050:0;ganp
 : 1578396059:0;gwip add axios to the dependecies
-: 1578396062:0;g ps
-: 1578396561:0;yarn install
-: 1578399693:0;g d
-: 1578399704:0;ganp
 : 1578399714:0;gwip add an example button
-: 1578399716:0;g ps
-: 1578400742:0;g st
-: 1578400762:0;dr-down
-: 1578480892:0;jd personal
-: 1578480894:0;jd dotfiles
-: 1578480895:0;g pl
-: 1578480900:0;g d
-: 1578480903:0;g st
-: 1578480905:0;g pl
-: 1578480912:0;jd ka-site
-: 1578481447:0;la
 : 1578481453:0;less dev.sh
-: 1578481462:0;./dev.sh
-: 1578481486:0;cd client
-: 1578481491:0;vi package.json
-: 1578481508:0;cd ..
 : 1578481511:0;./dev.sh
-: 1578481538:0;cd ..
-: 1578481539:0;vi
-: 1578481714:0;dr-down
-: 1578481725:0;cd server
-: 1578481726:0;cd client
-: 1578481728:0;vi
-: 1578481738:0;cd server
-: 1578481740:0;dr-down
-: 1578481748:0;cd ../client
-: 1578481760:0;dr-down
-: 1578481765:0;yarn dev
-: 1578481768:0;dr-up
-: 1578481777:0;..
-: 1578481778:0;la
-: 1578481781:0;..
-: 1578481781:0;la
 : 1578481784:0;cd girudo-client
-: 1578481785:0;vi
-: 1578481973:0;code README.md
-: 1578482026:0;g d
 : 1578482599:0;dr-web rake routes
-: 1578483721:0;g d
-: 1578483722:0;ganp
 : 1578483746:0;gwip add simple register page for example use
-: 1578483799:0;yarn dev
-: 1578483941:0;dr-web rails c
-: 1578483999:0;g d
-: 1578484000:0;g s
-: 1578484007:0;ganp
 : 1578484015:0;gwip update api_url on sample env
-: 1578484017:0;g ps
-: 1578484412:0;g st
-: 1578486097:0;g d
-: 1578486100:0;g s
-: 1578486102:0;g st
-: 1578486502:0;g d
-: 1578486562:0;ganp
 : 1578486566:0;gwip add login page
-: 1578486567:0;g ps
-: 1578486887:0;g d
-: 1578486888:0;gs
-: 1578486892:0;g s
-: 1578486936:0;g d
-: 1578486946:0;ganp
 : 1578486952:0;gwip use sessionstorage for login
-: 1578486955:0;g ps
-: 1578487168:0;g d
-: 1578487255:0;ganp
 : 1578487269:0;gwip add user on sessionStorage
-: 1578487270:0;g ps
-: 1578487432:0;g co master
-: 1578487434:0;g pl
-: 1578537539:0;jd personal
-: 1578537542:0;jd ops
-: 1578537546:0;g pl
-: 1578537560:0;script/backpack -l --skip-assets
-: 1578538684:0;rails api:parallel_cache
-: 1578541787:0;vi
-: 1578541789:0;rs
-: 1578541791:0;rc
-: 1578542003:0;rails api:parallel_cache
-: 1578542319:0;rs
-: 1578544282:0;jd ka-site
-: 1578544601:0;la
 : 1578544610:0;lkasdjflaksjdfl
-: 1578544622:0;exit
-: 1578544636:0;jd ka-site
-: 1578548553:0;cd client
-: 1578548556:0;cd server
-: 1578548561:0;cd client
-: 1578552295:0;g lol
 : 1578552298:0;g graph
-: 1578556149:0;ganp
-: 1578556317:0;jd ops
 : 1578556322:0;g reset API_URL="http://localhost:3000"\
 TAGLINE="El Psy Congroo\
 
 : 1578556354:0;g reset 4c7705b0ae9dea3d69450698a78b171eb62b542e
-: 1578556356:0;g d
-: 1578556358:0;g st
-: 1578556362:0;g clean -fd
-: 1578556366:0;rails api:parallel_cache
-: 1578556512:0;g d
-: 1578556513:0;g s
 : 1578556531:0;ghot update environment variables
-: 1578556532:0;g ps
-: 1578556818:0;g pl
-: 1578556830:0;rails api:parallel_cache
-: 1578556835:0;rc
-: 1578556983:0;g d
-: 1578556988:0;ganp
 : 1578557048:0;ghot change REACT_APP GATSBY
-: 1578557050:0;g ps
-: 1578557074:0;g d
-: 1578557076:0;g lol
-: 1578557508:0;g pl
-: 1578557887:0;jd ops
 : 1578557891:0;rails api:parallel_cache
-: 1578558095:0;rs
-: 1578558098:0;rc
-: 1578558099:0;vi
-: 1578560575:0;la
-: 1578560577:0;g d
-: 1578560578:0;g s
-: 1578560582:0;jd ka-site
-: 1578560584:0;cd server
-: 1578560586:0;g pl
-: 1578560593:0;vi
-: 1578560616:0;g d
-: 1578560625:0;dr-down && dr-web bundle install && dr-up --build
-: 1578560819:0;dr-down
-: 1578560851:0;ganp
-: 1578560858:0;g lol
 : 1578560867:0;ghot add discord omniauth
-: 1578560868:0;g ps
-: 1578564146:0;g pl
 : 1578564156:0;g co investigate-failing-parallel-cache-on-local-170616496
-: 1578564158:0;g lol
 : 1578564179:0;rake db:drop && rake db:create && script/backpack -R && rake db:migrate && rails test:prepare && rails api:parallel_cache
-: 1578565278:0;g co master
-: 1578566085:0;jd ka-site
-: 1578566109:0;htop
-: 1578567153:0;jd ops
-: 1578567159:0;jd ka-site
-: 1578567163:0;cd server
-: 1578567176:0;cd ../client
-: 1578567186:0;dr-up
-: 1578567187:0;yarn dev
-: 1578567199:0;cd ../server
-: 1578567201:0;vi
-: 1578567269:0;yarn dev
-: 1578567302:0;cd ..
-: 1578567302:0;la
-: 1578567306:0;g d
-: 1578567315:0;cd client
-: 1578567317:0;g pl
-: 1578567324:0;cd ../server
-: 1578567325:0;g pl
-: 1578567337:0;g lol
-: 1578567340:0;cd ..
-: 1578567349:0;g pl
-: 1578567355:0;g lol
-: 1578567550:0;g fetch
 : 1578567597:0;g co 
-: 1578567611:0;g s
-: 1578567615:0;g d
-: 1578567619:0;cd client
-: 1578567620:0;g d
-: 1578567624:0;g lol
-: 1578567628:0;..
-: 1578567630:0;cd server
-: 1578567632:0;g s
-: 1578567633:0;g lol
-: 1578567636:0;cd ..
-: 1578567636:0;la
-: 1578567639:0;ganp
 : 1578567647:0;g co issue-45-Alpha_Version_0_0_1
-: 1578567690:0;ganp
-: 1578567692:0;la
-: 1578567695:0;g s
 : 1578567705:0;gwip add simple login feature and hosted it on netlify/heroku
 : 1578567713:0;gwip add simple login feature and hosted it on netlify and heroku
-: 1578567720:0;g s
-: 1578567722:0;g lol
-: 1578567732:0;g s
-: 1578567738:0;g ps
 : 1578567784:0;g co server
-: 1578567801:0;g d
-: 1578567802:0;g s
-: 1578567805:0;cd server
-: 1578567814:0;less .github/PULL_REQUEST_TEMPLATE.md
-: 1578567819:0;cd ../client
 : 1578567822:0;less .github/PULL_REQUEST_TEMPLATE.md
-: 1578567834:0;..
 : 1578567843:0;rm -rf .github/PULL_REQUEST_TEMPLATE.md
 : 1578567872:0;cp ./client/.github/PULL_REQUEST_TEMPLATE.md .github/PULL_REQUEST_TEMPLATE.md
-: 1578567873:0;g d
-: 1578567878:0;vi
-: 1578567888:0;code .github/PULL_REQUEST_TEMPLATE.md
-: 1578567905:0;g d
-: 1578567909:0;ganp
 : 1578567925:0;code .github/PULL_REQUEST_TEMPLATE.md
-: 1578567937:0;ganp
-: 1578567945:0;g reset
-: 1578567946:0;g d
-: 1578567950:0;g lol
-: 1578567955:0;ganp
 : 1578567961:0;gwip update PR template
-: 1578567963:0;g ps
-: 1578568073:0;g co master
-: 1578568076:0;g d
-: 1578568126:0;g pl
-: 1578568134:0;g ps
-: 1578568171:0;g d
-: 1578568173:0;g pl
 : 1578568183:0;g
-: 1578568186:0;g help
 : 1578568204:0;g t
 : 1578568255:0;g t Bulbasaur
-: 1578568412:0;g lol
-: 1578568431:0;git commit -m "test"
-: 1578568507:0;cd client
-: 1578568509:0;vi
 : 1578568580:0;npm uninstall husky
-: 1578568830:0;g lol
-: 1578568833:0;g s
-: 1578568834:0;g d
-: 1578568842:0;ganp
-: 1578568844:0;gwip
-: 1578568849:0;g lol
-: 1578568861:0;g reset a675bb2
-: 1578568863:0;g lol
-: 1578568865:0;ganp
 : 1578568883:0;gwip remove husky from node_modules
-: 1578568884:0;g ps
 : 1578568905:0;g reset a675bb2
-: 1578568910:0;ghot remove husky from node_modules
-: 1578568917:0;ganp
 : 1578568920:0;ghot remove husky from node_modules
-: 1578568928:0;g ps --force
-: 1578569273:0;g lol
-: 1578569280:0;..
-: 1578569281:0;la
-: 1578569286:0;g d
-: 1578569294:0;ganp
 : 1578569300:0;ghot remove husky from node_modules (client)
 : 1578569315:0;ghot "remove husky from node_modules (client)"
-: 1578569319:0;g ps
-: 1578569399:0;cd client
-: 1578569401:0;vi
-: 1578569410:0;vi .git
-: 1578569418:0;cd ..
 : 1578569420:0;vi .git
 : 1578569518:0;rm -rf .git/hooks/post-commit
-: 1578569522:0;g d
-: 1578569525:0;ganp
-: 1578569718:0;g lol
-: 1578570464:0;yarn dev
-: 1578570514:0;code README.md
-: 1578570553:0;g d
-: 1578570577:0;ganp
 : 1578570595:0;ghot "update the url of development instructions and remove generate"
-: 1578570597:0;g ps
-: 1578571320:0;g pl
-: 1578571328:0;g lol
-: 1578571341:0;dr-down && dr-web bundle install && dr-up --build
-: 1578618964:0;jd personal
-: 1578618967:0;jd ops
-: 1578619314:0;rs
-: 1578619318:0;rc
-: 1578619321:0;vi
-: 1578624343:0;jd dotfiles
-: 1578656239:0;jd ka-site
-: 1578656241:0;la
-: 1578656251:0;cd client
-: 1578656253:0;cd server
-: 1578656257:0;cd client
-: 1578656258:0;cd server
-: 1578656262:0;dr-up
-: 1578656264:0;yarn dev
-: 1578656267:0;vi
-: 1578656391:0;dr-web rake db:migrate
-: 1578656667:0;dr-web rails c
-: 1578657056:0;g fetch
 : 1578657070:0;g co issue-31-Add_Redux_and_use_it_to_change_the_state_of_the_whole_application_when_someone_logs_in
-: 1578657258:0;yarn add redux
-: 1578657283:0;rm -rf package-lock.json
-: 1578657285:0;g d
-: 1578657749:0;yarn dev
-: 1578658173:0;dr-down
-: 1578716254:0;vi
-: 1578716274:0;jd ka-site
-: 1578716337:0;vi
-: 1578716475:0;jd dotfiles
-: 1578716569:0;vi
-: 1578716601:0;g st
-: 1578716707:0;vi
-: 1578716859:0;g d
-: 1578716860:0;g pl
-: 1578717471:0;g lol
-: 1578717479:0;bos -a generate-config
 : 1578717484:0;bos -f sl
-: 1578717487:0;bos -h
-: 1578717492:0;bos -f train
-: 1578717499:0;vi install.sh
 : 1578717508:0;brew install sl\
 
-: 1578717677:0;bos -f train
-: 1578717875:0;jd ka-site
-: 1578717879:0;la
-: 1578717894:0;cd server
-: 1578717900:0;cd client
-: 1578717907:0;cd ../client
-: 1578717909:0;vi
-: 1578717930:0;dr-up
-: 1578717935:0;yarn dev
-: 1578717980:0;dr-web rails c
-: 1578722450:0;g d
-: 1578722452:0;g st
-: 1578722459:0;rm -rf package-lock.json yarn.lock node_modules
-: 1578722519:0;g lol
-: 1578722528:0;yarn install
-: 1578722784:0;yarn add react-redux
-: 1578722792:0;yarn dev
-: 1578722941:0;jd personal
 : 1578722944:0;g clone git@github.com:BosEriko/rr-calculator.git
-: 1578722954:0;cd rr-calculator
-: 1578722955:0;vi
-: 1578723323:0;yarn add redux
-: 1578723333:0;g d
 : 1578726413:0;yarn add @types/react-redux --dev
-: 1578726487:0;g d
 : 1578726499:0;yarn add @types/redux --dev
-: 1578726508:0;less package.json
-: 1578726511:0;ganp
 : 1578726537:0;gwip "add redux boilerplate (not finished)"
-: 1578726539:0;g ps
-: 1578728751:0;yarn dev
-: 1578729130:0;g d
 : 1578729133:0;ganp 
 : 1578729143:0;gwip add default value to state of current data
-: 1578729144:0;g ps
-: 1578739672:0;jd ka-site
-: 1578739673:0;la
-: 1578739681:0;dr-up
-: 1578739690:0;cd server
-: 1578739695:0;dr-up
-: 1578739698:0;cd client
-: 1578739705:0;cd server
-: 1578739707:0;cd ../server
-: 1578739708:0;vi
-: 1578739721:0;dr-web rails c
-: 1578739726:0;yarn dev
-: 1578739739:0;jd personal
-: 1578739739:0;la
 : 1578739741:0;cd rr-calculator
-: 1578739742:0;vi
-: 1578740476:0;g d
-: 1578744051:0;jd ka-site
-: 1578744498:0;la
-: 1578744504:0;cd server
-: 1578744507:0;cd client
-: 1578744512:0;cd server
-: 1578744516:0;cd ../server
-: 1578744517:0;vi
-: 1578744520:0;yarn dev
-: 1578744522:0;dr-up
-: 1578744525:0;dr-web rails c
-: 1578745797:0;g d
-: 1578745799:0;g st
-: 1578745905:0;g st pop
-: 1578746237:0;g co master
-: 1578746239:0;g st
-: 1578746241:0;g co master
 : 1578746256:0;rm -rf package-lock.json yarn.lock node_modules
-: 1578746265:0;yarn install
 : 1578746565:0;cd ../server
-: 1578746567:0;dr-down
-: 1578752815:0;jd ka-site
-: 1578752816:0;cd server
-: 1578752818:0;vi
-: 1578753039:0;g d
-: 1578753097:0;ganp
-: 1578753107:0;ghot add authenticate_user on the root controller
-: 1578753110:0;g pl
-: 1578753132:0;git reset --hard origin/master
-: 1578753142:0;g d
-: 1578753143:0;ganp
 : 1578753148:0;ghot add authenticate_user on the root controller
-: 1578753149:0;g ps
-: 1578753275:0;vi
-: 1578753343:0;g d
-: 1578753346:0;dr-down && dr-web bundle install && dr-up --build
-: 1578754134:0;dr-down
-: 1578754155:0;g d
-: 1578754157:0;ganp
-: 1578754169:0;g lol
 : 1578754188:0;ghot add twitter and remove githup/apple on omniauth
-: 1578754190:0;g ps
-: 1578754572:0;la
-: 1578793690:0;jd ka-site
-: 1578793694:0;cd server
-: 1578793696:0;la
-: 1578793698:0;clear
-: 1578793760:0;la
-: 1578793764:0;dr-up
-: 1578793772:0;dr-web rails c
-: 1578793775:0;vi
-: 1578793786:0;g pl
-: 1578793933:0;g d
-: 1578793944:0;dr-down && dr-web bundle install && dr-up --build
-: 1578794089:0;g fetch
 : 1578794170:0;g co issue-38-Use_GraphQL_for_your_data
-: 1578794177:0;g lol
-: 1578794211:0;g d
-: 1578794215:0;ganp
 : 1578794232:0;gwip add graphql to the gems
-: 1578794233:0;g ps
 : 1578794475:0;rails g graphql:install
 : 1578794479:0;dr-web rails g graphql:install
-: 1578794632:0;g s
-: 1578794633:0;g d
-: 1578794636:0;ganp
-: 1578795037:0;g s
-: 1578795046:0;g d
-: 1578795049:0;ganp
-: 1578795052:0;g d
-: 1578795053:0;g s
-: 1578795056:0;git add .
-: 1578795058:0;g d
-: 1578795059:0;g s
-: 1578795067:0;g lol
-: 1578795074:0;gwip initialize graphql
-: 1578795075:0;g ps
-: 1578798662:0;g lol
 : 1578798675:0;g lol | grep "[Finish\
 "
 : 1578798679:0;g lol | grep "[Finish"
-: 1578798682:0;g lol | grep "Finish"
 : 1578798686:0;g lol | grep "Finishes"
 : 1578798701:0;g lol | grep "Hotfix"
-: 1578798708:0;jd ops
 : 1578798715:0;g lol | grep "Finish"
-: 1578798881:0;g d
-: 1578798882:0;g s
-: 1578798883:0;g lol
 : 1578799020:0;g lol | grep -m 1 "Finish"
 : 1578799023:0;g lol | grep -m 5 "Finish"
-: 1578799497:0;type ganp
 : 1578799528:0;type gwip
 : 1578799533:0;alias git-wip
 : 1578799540:0;alias dr-up
-: 1578799551:0;type dr-up
-: 1578799556:0;bos -a restart-zsh
-: 1578799573:0;g lol
-: 1578799582:0;dr-web rails c
-: 1578799584:0;vi
-: 1578806441:0;dr-down
-: 1578809366:0;jd ka-site
-: 1578809367:0;cd server
-: 1578809369:0;dr-up
-: 1578809376:0;dr-web rails c
-: 1578809378:0;vi
-: 1578809385:0;dr-web rails c
-: 1578809998:0;cd ../client
-: 1578810005:0;yarn dev
-: 1578810021:0;cd ../client
-: 1578810022:0;vi
-: 1578810216:0;g d
-: 1578810226:0;dr-down && dr-web bundle install && dr-up --build
-: 1578811256:0;g d
-: 1578811261:0;ganp
 : 1578811269:0;gwip add graphiql
-: 1578811273:0;g ps
-: 1578812005:0;g lol
-: 1578812032:0;dr-web rails generate model Link url:string description:text
-: 1578812053:0;g d
-: 1578812056:0;ganp
-: 1578812070:0;gwip generated a model named Link
 : 1578812087:0;dr-web rails db:migrate
-: 1578812102:0;dr-web rails c
-: 1578812272:0;g d
-: 1578812278:0;ganp
 : 1578812293:0;gwip update schema.rb and add link on graphql types
-: 1578812295:0;g ps
-: 1578812342:0;g d
-: 1578812611:0;dr-down && dr-web bundle install && dr-up --build
-: 1578812968:0;g d
-: 1578812996:0;ganp
-: 1578813026:0;g s
 : 1578813036:0;gwip add graphiql and Link types
-: 1578813037:0;g ps
-: 1578813331:0;dr-down && dr-web bundle install && dr-up --build
-: 1578813655:0;dr-web rails c
-: 1578813720:0;g d
-: 1578813721:0;g s
-: 1578813722:0;g d
-: 1578814987:0;dr-down && dr-web bundle install && dr-up --build
-: 1578815116:0;g d
-: 1578815247:0;dr-web rails c
-: 1578815343:0;ganp
 : 1578815370:0;gwip use a specific version of graphiql and graphql
-: 1578815371:0;g ps
-: 1578815397:0;ganp
-: 1578815411:0;gwip skip authentication for graphql \(for now\)
-: 1578815414:0;g ps
-: 1578815529:0;g d
-: 1578815530:0;ganp
 : 1578815544:0;gwip uncomment protect_from_forgery
-: 1578815546:0;g ps
-: 1578815919:0;g d
-: 1578815940:0;dr-down && dr-web bundle install && dr-up --build
-: 1578816012:0;g d
-: 1578816013:0;g st
-: 1578816021:0;dr-down && dr-web bundle install && dr-up --build
-: 1578816352:0;g d
-: 1578816358:0;g st
-: 1578816370:0;g d
-: 1578816372:0;g lol
 : 1578816381:0;g reset 9e95b33
-: 1578816382:0;g d
-: 1578816383:0;g s
-: 1578816387:0;g lol
-: 1578816400:0;g d
-: 1578816403:0;g ps
-: 1578816421:0;g ps --force
-: 1578816576:0;g d
-: 1578816578:0;ganp
 : 1578816587:0;gwip add mutation type boilerplate back in to avoid errors
-: 1578816588:0;g ps
-: 1578816717:0;code README.md
-: 1578816791:0;g d
-: 1578816823:0;ganp
-: 1578816828:0;gwip add graphql to readme.md
-: 1578816830:0;g ps
-: 1578817609:0;dr-down
-: 1578817617:0;dr-down && dr-web bundle install && dr-up --build
-: 1578817775:0;g d
-: 1578817778:0;g st
-: 1578817779:0;g lol
-: 1578817799:0;dr-down && dr-web bundle install && dr-up --build
-: 1578818121:0;g d
-: 1578818292:0;ganp
-: 1578818306:0;g clean -fd
-: 1578818308:0;g d
-: 1578818310:0;la
-: 1578818311:0;g s
-: 1578818316:0;g clean -fd
 : 1578818325:0;g lol
 : 1578818346:0;git reset --hard origin/HEAD
 : 1578818351:0;git reset --hard origin/issue-38-Use_GraphQL_for_your_data 
@@ -11767,3 +10104,271 @@ exit
 : 1589413480:0;jt personal
 : 1589413480:0;la
 : 1589413502:0;down
+: 1589415293:0;la
+: 1589415387:0;jt personal
+: 1589415390:0;la
+: 1589415398:0;jt work
+: 1589415399:0;la
+: 1589415401:0;cd Lyon
+: 1589415401:0;la
+: 1589415618:0;cd api-server
+: 1589415621:0;vi
+: 1589421014:0;jt develop
+: 1589421018:0;g co develop
+: 1589421021:0;g st
+: 1589421022:0;g co develop
+: 1589421401:0;../html-renderer
+: 1589421405:0;g co develop
+: 1589421411:0;clear
+: 1589424163:0;vi
+: 1589424166:0;yarn dev
+: 1589424167:0;vi
+: 1589424168:0;yarn dev
+: 1589424194:0;g co eature-profile-endpoints
+: 1589424198:0;g co feature-profile-endpoints
+: 1589424202:0;g pl origin feature-profile-endpoints
+: 1589428452:0;g st
+: 1589428455:0;g st pop
+: 1589428459:0;g st 
+: 1589428462:0;g clean -fd
+: 1589428463:0;la
+: 1589428600:0;man git-stash
+: 1589428608:0;git stash list
+: 1589428620:0;man git-stash
+: 1589428645:0;git stash list
+: 1589428649:0;git stash show -p stash@{1}
+: 1589428683:0;git stash show apply stash@{1}
+: 1589428696:0;git stash apply stash@{1}
+: 1589428699:0;g s
+: 1589428701:0;g d
+: 1589428714:0;g clean -fd
+: 1589428715:0;g lol
+: 1589428716:0;g s
+: 1589428722:0;g co src/routes
+: 1589428726:0;g co src/controllers
+: 1589428727:0;g lol
+: 1589428728:0;g s
+: 1589428733:0;g clean -fd
+: 1589428747:0;rm -rf src/controllers/eventParticipant.ts
+: 1589428756:0;rm -rf src/routes/event.ts
+: 1589428758:0;g s
+: 1589428764:0;g co src/controllers
+: 1589428774:0;g reset
+: 1589428775:0;g s
+: 1589428788:0;g d
+: 1589428795:0;g co src/routes
+: 1589428797:0;g s
+: 1589428812:0;g lol
+: 1589428813:0;g s
+: 1589428814:0;g d
+: 1589428871:0;vi
+: 1589436745:0;g a
+: 1589436854:0;g s
+: 1589436855:0;g reset
+: 1589436857:0;g a
+: 1589436877:0;g c -m "move profile controllers to its own files"
+: 1589436879:0;g a
+: 1589436900:0;g c -m "update profile controller method names on the routes file of profile"
+: 1589436901:0;g a
+: 1589436912:0;g c -m "add event-purchases on the routes"
+: 1589436915:0;g d
+: 1589439181:0;g bnc
+: 1589439183:0;g ps origin feature-profile-endpoints
+: 1589445379:0;g d
+: 1589445383:0;g s
+: 1589445392:0;g a
+: 1589445417:0;g c -m "create scope-models and a payload"
+: 1589445423:0;g bnc
+: 1589445431:0;g lol
+: 1589445439:0;g reset develop
+: 1589445443:0;g reset 1d031e8
+: 1589445447:0;g st
+: 1589445449:0;g reset 1d031e8
+: 1589445451:0;g s
+: 1589445455:0;g lol
+: 1589445462:0;g bnc
+: 1589445463:0;g st pop
+: 1589445467:0;g st
+: 1589445469:0;g s
+: 1589445497:0;g co html-renderer/feature-profile-page-overhaul
+: 1589445507:0;g co feature-profile-page-overhaul
+: 1589445513:0;g pl
+: 1589445527:0;g co html-renderer/feature-profile-page-overhaul
+: 1589445529:0;g co feature-profile-page-overhaul
+: 1589445533:0;g s
+: 1589445537:0;g a
+: 1589445544:0;g c -m "create scope-models and a payload"
+: 1589445549:0;g lol
+: 1589445551:0;g bnc
+: 1589445553:0;g s
+: 1589445558:0;g ps origin feature-profile-page-overhaul
+: 1589445582:0;g st pop
+: 1589448314:0;g d
+: 1589448319:0;g s
+: 1589448365:0;g a
+: 1589448391:0;g c -m "update provider subscription scope-model usage"
+: 1589448539:0;yarn dev
+: 1589448580:0;g a
+: 1589448609:0;g reset
+: 1589448610:0;g a
+: 1589448655:0;g c -m "rename ProviderSubscriptionList to ProviderSubscriptions"
+: 1589448657:0;g bnc
+: 1589448661:0;g pl origin feature-profile-page-overhaul
+: 1589448670:0;g bnc
+: 1589448672:0;g ps origin feature-profile-page-overhaul
+: 1589448795:0;g d
+: 1589449017:0;g a
+: 1589449038:0;g c -m "add api requests for event and industry"
+: 1589449046:0;g bnc
+: 1589449048:0;g ps origin feature-profile-page-overhaul
+: 1589449364:0;g s
+: 1589449699:0;g a
+: 1589449718:0;g c -m "update all 3 scope models"
+: 1589449721:0;g bnc
+: 1589449724:0;g ps origin feature-profile-page-overhaul
+: 1589450436:0;g d
+: 1589450437:0;g s
+: 1589450448:0;g a
+: 1589450473:0;g c -m "add profile scope model and result interface"
+: 1589450662:0;g a
+: 1589450680:0;g c -m "fix event-purchases endpoint and add profile scope-models"
+: 1589450681:0;g bnc
+: 1589450683:0;g ps origin feature-profile-page-overhaul
+: 1589450745:0;g a
+: 1589450759:0;g c -m "remove react import from scope-models of profile"
+: 1589450761:0;g bnc
+: 1589450763:0;g ps origin feature-profile-page-overhaul
+: 1589450903:0;g bnc
+: 1589518902:0;jt personal
+: 1589518903:0;la
+: 1589518908:0;jt work
+: 1589518909:0;la
+: 1589518910:0;cd Lyon
+: 1589518910:0;la
+: 1589518912:0;cd api-server
+: 1589518920:0;../html-renderer
+: 1589518924:0;g bnc
+: 1589518926:0;g d
+: 1589518928:0;g st
+: 1589518933:0;g pl origin feature-profile-page-overhaul
+: 1589519023:0;yarn dev
+: 1589519029:0;yarn install && yarn dev
+: 1589519093:0;vi
+: 1589519095:0;g bnc
+: 1589519099:0;g d
+: 1589519103:0;g st
+: 1589519104:0;g pl origin feature-profile-endpoints
+: 1589519112:0;yarn dev
+: 1589519113:0;g st pop
+: 1589519116:0;vi
+: 1589523188:0;g s
+: 1589523190:0;g d
+: 1589523222:0;g a
+: 1589523241:0;g c -m "connect providers"
+: 1589523247:0;g bnc
+: 1589523252:0;g lol
+: 1589523260:0;g reset 44d77452
+: 1589523262:0;g d
+: 1589523265:0;g st
+: 1589523269:0;g bnc
+: 1589523271:0;g pl origin feature-profile-page-overhaul
+: 1589523282:0;g st pop
+: 1589523284:0;g a
+: 1589523289:0;g bnc
+: 1589523293:0;g c -m "connect providers"
+: 1589523296:0;g ps origin feature-profile-page-overhaul
+: 1589526133:0;g bnc
+: 1589526136:0;g pl origin feature-profile-page-overhaul
+: 1589527393:0;g bnc
+: 1589527394:0;g st
+: 1589527396:0;g pl origin feature-profile-page-overhaul
+: 1589527406:0;g a
+: 1589527408:0;g st pop
+: 1589527410:0;g a
+: 1589527454:0;g c -m "add intereset to profile"
+: 1589527455:0;g bnc
+: 1589527457:0;g ps origin feature-profile-page-overhaul
+: 1589528910:0;g bnc
+: 1589528915:0;g pl origin feature-profile-page-overhaul
+: 1589529860:0;g st
+: 1589529862:0;g bnc
+: 1589529865:0;g pl origin feature-profile-page-overhaul
+: 1589529880:0;g st pop
+: 1589529881:0;g a
+: 1589529900:0;g c -m "add profile to scope models"
+: 1589529901:0;g bnc
+: 1589529903:0;g ps origin feature-profile-page-overhaul
+: 1589530576:0;g a
+: 1589530580:0;g st
+: 1589530581:0;g bnc
+: 1589530586:0;g pl origin feature-profile-page-overhaul
+: 1589530616:0;g st pop
+: 1589530617:0;g a
+: 1589530622:0;g bnc
+: 1589530632:0;g c -m "add profile scope model to details on top"
+: 1589530636:0;g ps origin feature-profile-page-overhaul
+: 1589536057:0;jt work
+: 1589536058:0;la
+: 1589536059:0;cd Lyon
+: 1589536059:0;la
+: 1589536061:0;cd api-server
+: 1589536061:0;la
+: 1589536068:0;../html-renderer
+: 1589536084:0;vi
+: 1589536086:0;yarn dev
+: 1589536087:0;vi
+: 1589536090:0;yarn dev
+: 1589585065:0;jt dotfiles
+: 1589585067:0;vi
+: 1589585162:0;g d
+: 1589585200:0;g a
+: 1589585209:0;g c -m "remove extra comma on keybindings.json"
+: 1589585210:0;g a
+: 1589585216:0;g c -m "add deno install script"
+: 1589585217:0;g bnc
+: 1589585220:0;g ps origin master
+: 1589585287:0;g lol
+: 1589585339:0;g reset 7f7a2ac
+: 1589585343:0;g st
+: 1589585345:0;g bnc
+: 1589585351:0;g pl origin master
+: 1589585371:0;g a
+: 1589585373:0;g st pop
+: 1589585374:0;g a
+: 1589585382:0;g c -m "remove extra comma on keybindings.json"
+: 1589585383:0;g a
+: 1589585391:0;g c -m "add deno install script"
+: 1589585393:0;g lol
+: 1589585411:0;g ps origin master --force
+: 1589585417:0;g ps origin master
+: 1589585442:0;g ps gitlab master --force
+: 1589585457:0;g ps bitbucket master --force
+: 1589585557:0;g ps gitlab master --force
+: 1589585571:0;brew install deno
+: 1589586528:0;deno --help
+: 1589769989:0;spacevim
+: 1589771037:0;jt dotfiles
+: 1589771129:0;vi
+: 1589772564:0;g d
+: 1589772570:0;vi
+: 1589773497:0;g lol
+: 1589773566:0;vi
+: 1589774740:0;g st
+: 1589774743:0;vi
+: 1589774806:0;g d
+: 1589774809:0;g a
+: 1589774815:0;g c -m "change leader key to space"
+: 1589774816:0;g bnc
+: 1589774818:0;g ps origin master
+: 1589950488:0;la
+: 1589950490:0;jt work
+: 1589950492:0;jt personal
+: 1589950492:0;la
+: 1589950494:0;vi
+: 1589950497:0;la
+: 1589950501:0;rm -rf codewars-local-environment-ts
+: 1589950503:0;rm -rf blog
+: 1589950507:0;rm -rf barangay
+: 1589950511:0;la
+: 1589950631:0;downl
+: 1589950633:0;down
