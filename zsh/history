@@ -10165,3 +10165,75 @@ exit
 : 1590020981:0;jt personal
 : 1590021002:0;jt work
 : 1590021109:0;down
+: 1590021151:0;bos -h
+: 1590021161:0;bos -p ssh-key
+: 1590021240:0;g clone git@github.com:LyonInc/lyon-html-renderer.git
+: 1590021261:0;g clone git@github.com:LyonInc/lyon-api-server.git
+: 1590021444:0;~/.dotfiles/install/modules/karabiner.sh
+: 1590023297:0;la
+: 1590023300:0;cd lyon-api-server
+: 1590023303:0;yarn install
+: 1590023319:0;../lyon-html-renderer
+: 1590023320:0;la
+: 1590023347:0;rm -rf node_modules yarn.lock
+: 1590023365:0;g co develop
+: 1590023369:0;yarn install
+: 1590023379:0;g co develop
+: 1590023384:0;yarn install
+: 1590023450:0;touch .env
+: 1590023457:0;vi .env
+: 1590023917:0;touch .env
+: 1590023919:0;vi .env
+: 1590027065:0;jt work
+: 1590027081:0;..
+: 1590027145:0;cd Work
+: 1590027147:0;la
+: 1590030909:0;xcode-select --install
+: 1590032467:0;htop
+: 1590032471:0;la
+: 1590032479:0;cd lyon-api-server
+: 1590032492:0;../lyon-html-renderer
+: 1590032503:0;g -v
+: 1590032508:0;g lol
+: 1590032515:0;yarn dev
+: 1590032598:0;la
+: 1590032676:0;yarn dev
+: 1590034844:0;gtop
+: 1590035661:0;~/.dotfiles/install/modules/karabiner.sh
+: 1590035703:0;sudo xcodebuild -license
+: 1590035721:0;~/.dotfiles/install/modules/karabiner.sh
+: 1590037577:0;gtop
+: 1590038332:0;brew list
+: 1590038348:0;brew --help
+: 1590038362:0;brew uninstall yabai && brew uninstall skhd
+: 1590040264:0;xcode-select --install
+: 1590042255:0;~/.dotfiles/install/modules/karabiner.sh
+: 1590046592:0;gtop
+: 1590050105:0;jt dotfiles
+: 1590050106:0;vi
+: 1590050317:0;g a
+: 1590050332:0;g s
+: 1590050367:0;g st config
+: 1590050370:0;g co config
+: 1590050371:0;g s
+: 1590050377:0;g clean -fd
+: 1590050379:0;g s
+: 1590050390:0;g a zsh/modules/config.z.sh
+: 1590050403:0;g s
+: 1590050407:0;g clean -fd
+: 1590050412:0;g s
+: 1590050419:0;rm -rf config
+: 1590050423:0;g s
+: 1590050427:0;g d
+: 1590050428:0;git s
+: 1590050431:0;git stash
+: 1590050432:0;g s
+: 1590050442:0;vi
+: 1590050458:0;g a
+: 1590050464:0;g c -m "disable compfix"
+: 1590050465:0;g bnc
+: 1590050470:0;g pl origin master
+: 1590050478:0;g ps origin master
+: 1590050504:0;bos -p ssh-key
+: 1590050686:0;g ps origin master
+: 1590050735:0;down
