@@ -944,297 +944,69 @@ TAGLINE="El Psy Congroo\
 : 1578815544:0;gwip uncomment protect_from_forgery
 : 1578816381:0;g reset 9e95b33
 : 1578816587:0;gwip add mutation type boilerplate back in to avoid errors
-: 1578818325:0;g lol
 : 1578818346:0;git reset --hard origin/HEAD
 : 1578818351:0;git reset --hard origin/issue-38-Use_GraphQL_for_your_data 
-: 1578818355:0;g s
-: 1578818365:0;g d
-: 1578818367:0;ganp
-: 1578818373:0;gwip remove nodejs from docker
-: 1578818390:0;g d
-: 1578818391:0;g s
-: 1578818394:0;g lol
-: 1578818400:0;g ps
-: 1578818673:0;g d
 : 1578818680:0; fg
-: 1578818720:0;dr-down && dr-web bundle install && dr-up --build
-: 1578819176:0;g s
-: 1578819177:0;g d
-: 1578819539:0;dr-down && dr-up
-: 1578820392:0;git reset --hard origin/master
-: 1578820393:0;g lol
-: 1578820403:0;dr-down
-: 1578820426:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1578821346:0;vi
-: 1578822933:0;g d
-: 1578822957:0;dr-down && dr-web bundle install && dr-up --build
-: 1578823152:0;g d
-: 1578823159:0;ganp
-: 1578823173:0;g s
 : 1578823179:0;rm -rf app/graphql
-: 1578823181:0;vi
-: 1578823193:0;g s
 : 1578823227:0;g co master app
-: 1578823229:0;g s
-: 1578823231:0;ganp
-: 1578823235:0;git add .
-: 1578823236:0;g s
 : 1578823255:0;gwip add graphql and graphiql to the gems
 : 1578823286:0;dr-web rails generate graphql:install
-: 1578823318:0;g s
-: 1578823375:0;g d
-: 1578823377:0;ganp
 : 1578823420:0;gwip initialize graphql
-: 1578823474:0;g d
-: 1578823475:0;g s
-: 1578823487:0;ganp
-: 1578823489:0;g s
-: 1578823492:0;git add .
 : 1578823499:0;gwip add .keep files from graphql
-: 1578823580:0;g d
-: 1578823599:0;g lol
-: 1578823602:0;ganp
 : 1578823633:0;gwip configure graphiql
-: 1578823685:0;g d
-: 1578823687:0;ganp
 : 1578823691:0;gwip skip authentication for graphql \(for now\)
-: 1578823694:0;g lol
-: 1578823717:0;ganp
 : 1578823720:0;gwip remove nodejs from docker
-: 1578823724:0;g lol
-: 1578823742:0;code README.md
-: 1578823754:0;ganp
 : 1578823759:0;gwip add graphql to readme.md
 : 1578823814:0;dr-web rails generate model Link url:string description:text
-: 1578823847:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1578823956:0;dr-down && dr-web bundle install && dr-up --build
-: 1578823965:0;dr-web rails c
-: 1578824199:0;g lol
-: 1578824202:0;ganp
 : 1578824224:0;gwip generated a model named Link
-: 1578824340:0;ganp
 : 1578824362:0;gwip create a link_type and create a resolver for it
-: 1578824411:0;g ps --force
-: 1578824662:0;dr-down && dr-up
-: 1578824702:0;code README.md
-: 1578824737:0;g d
 : 1578824742:0;gap
-: 1578824751:0;g s
 : 1578824758:0;gwip add tutorial link on readme.md for graphql
-: 1578824824:0;g d
-: 1578824826:0;g s
-: 1578824879:0;ganp
 : 1578824897:0;gwip add graphql mutation for creating new links
-: 1578824899:0;g ps
-: 1578825107:0;g d
-: 1578825108:0;g s
 : 1578825138:0;dr-web rails test
-: 1578825225:0;ganp
 : 1578825239:0;gwip add test for creating new links
-: 1578825244:0;g ps
-: 1578833662:0;jd ka-site
-: 1578833664:0;cd server
-: 1578833666:0;la
-: 1578833668:0;vi
-: 1578834116:0;g d
-: 1578834120:0;g st
-: 1578834150:0;dr-down && dr-web bundle install && dr-up --build
-: 1578834195:0;g d
 : 1578834366:0;dr-web rails generate graphql_devise:install
-: 1578834428:0;g d
-: 1578834431:0;g s
 : 1578834438:0;g d config
-: 1578834465:0;g d
-: 1578834486:0;g s
 : 1578834501:0;rm -rf config/initializers/devise
 : 1578834515:0;rm -rf config/locales/devise.en.yml
-: 1578834517:0;g s
-: 1578834553:0;g d
-: 1578834555:0;g s
 : 1578834567:0;rm -rf config/initializers/devise.rb
-: 1578834568:0;g s
-: 1578834852:0;g d
-: 1578834858:0;ganp
 : 1578834870:0;gwip add graphql devise
-: 1578834872:0;g ps
 : 1578834905:0;dr-web rails generate devise:install
 : 1578834931:0;dr-web rails generate devise_token_auth:install
-: 1578834970:0;g s
-: 1578834971:0;g d
-: 1578834973:0;g st
-: 1578834974:0;g lol
-: 1578836382:0;g d
-: 1578836383:0;g s
-: 1578836384:0;g lol
 : 1578836394:0;g reset rails generate graphql_devise:install
 : 1578836396:0;g reset aa2d41b
-: 1578836397:0;g lol
-: 1578836399:0;g d
-: 1578836400:0;g st
 : 1578836404:0;g push --force
-: 1578836421:0;dr-down && dr-web bundle install && dr-up --build
-: 1578836624:0;g lol
 : 1578840663:0;cd ../client
-: 1578840664:0;vi
-: 1578910160:0;jd ka-site
-: 1578910162:0;cd server
-: 1578910177:0;dr-up
-: 1578910181:0;dr-web rails c
-: 1578910183:0;vi
-: 1578910289:0;g d
-: 1578910290:0;g s
-: 1578910292:0;g d
-: 1578911194:0;ganp
 : 1578911220:0;gwip move the authentication to GraphqlController
-: 1578911221:0;g ps
-: 1578911617:0;g co master
-: 1578911619:0;g pl
-: 1578911631:0;dr-down && dr-web bundle install && dr-up --build
-: 1578911648:0;g fetch
 : 1578911660:0;g co issue-42-Update_your_GraphQL_and_authenticate_it_using_devise_token_auth
-: 1578911664:0;vi
-: 1578914388:0;dr-down
-: 1579002731:0;jd dotfiles
-: 1579002733:0;g pl
-: 1579002751:0;jd ka-site
-: 1579002754:0;la
-: 1579002756:0;cd server
-: 1579002760:0;g pl
-: 1579012881:0;jd ka-site
-: 1579012883:0;la
-: 1579012885:0;cd server
-: 1579012886:0;la
 : 1579085082:0;jd vol
-: 1579085083:0;la
-: 1579085084:0;cd Bos
-: 1579085085:0;la
 : 1579085089:0;rm -rf Avengers\ Endgame\ \(2019\)\ \[WEBRip\]\ \[720p\]\ \[YTS.LT\]
-: 1579085091:0;cd Movies
-: 1579085091:0;la
 : 1579085099:0;rm -rf ._*
 : 1579085104:0;rm -rf [*
-: 1579085105:0;la
 : 1579085114:0;rm -rf [H*
 : 1579085119:0;rm -rf \[*
-: 1579085120:0;la
 : 1579085127:0;rm -rf It\ Chapter\ Two\ \(2019\)\ \[WEBRip\]\ \[720p\]\ \[YTS.LT\]
-: 1579085127:0;la
-: 1579085130:0;cd ..
-: 1579085131:0;la
-: 1579085142:0;jd ops
-: 1579087367:0;jd ka-site
-: 1579087369:0;cd server
-: 1579087374:0;dr-up
-: 1579087377:0;dr-web rails c
-: 1579087379:0;vi
-: 1579087405:0;dr-web rails c
-: 1579133162:0;jd ka-site
-: 1579133164:0;la
 : 1579133165:0;cd -server
-: 1579133175:0;cd server
-: 1579180019:0;jd ka-site
-: 1579180021:0;cd server
-: 1579180025:0;g pl
-: 1579180035:0;g rebase origin/master
-: 1579180037:0;g lol
-: 1579180892:0;la
-: 1579180893:0;g s
-: 1579180897:0;g lol
-: 1579180904:0;g ps
-: 1579181081:0;vi
-: 1579181086:0;dr-up
-: 1579181089:0;dr-web rails c
-: 1579215100:0;la
-: 1579215110:0;jd ka-site
-: 1579215155:0;cd server
-: 1579215158:0;g d
-: 1579215160:0;g s
-: 1579215162:0;ganp
-: 1579215178:0;dr-up
-: 1579215186:0;vi
-: 1579215409:0;dr-down && dr-web bundle install && dr-up --build
-: 1579215869:0;dr-web rails c
 : 1579216036:0;docker attach web
 : 1579216040:0;docker-compose attach web
 : 1579216059:0;docker-compose exec web
-: 1579216082:0;dr-down
 : 1579216226:0;type dr-up
-: 1579216807:0;g d
 : 1579216849:0;g co Gemfile Gemfile.lock
-: 1579216853:0;ganp
-: 1579216864:0;dr-up
-: 1579217054:0;dr-web rails c
-: 1579217455:0;jd dotfiles
-: 1579217457:0;g pl
 : 1579217487:0;vi install.sh
 : 1579217503:0;brew cask install graphiql\
 
-: 1579217671:0;g d
-: 1579217673:0;ganp
 : 1579217684:0;g g "add graphiql app"
-: 1579217945:0;g d
-: 1579217947:0;ganp
 : 1579218042:0;gwip add user types that exposes ID and skipping user authentication graphql controller in favor of contexts
-: 1579218280:0;dr-down
-: 1579236818:0;jd ops
-: 1579236819:0;g pl
-: 1579236827:0;g lol
-: 1579236855:0;rs
-: 1579236858:0;vi
-: 1579236861:0;rc
-: 1579253780:0;jd ka-site
-: 1579253782:0;cd server
-: 1579253786:0;vi
-: 1579253789:0;dr-up
-: 1579253927:0;g s
-: 1579253928:0;g d
-: 1579253932:0;g lol
-: 1579254109:0;g ps
-: 1579254412:0;dr-web rails c
-: 1579256675:0;git reset --hard origin/master
-: 1579256677:0;g lol
-: 1579256856:0;g ps --force
-: 1579256974:0;g d
-: 1579256996:0;code README.md
-: 1579257008:0;g d
 : 1579257119:0;dr-web rails generate migration drop_user_model
-: 1579257171:0;g d
-: 1579257174:0;ganp
 : 1579257184:0;gwip remove gems for authentication
-: 1579257186:0;ganp
 : 1579257194:0;gwip remove devise_token_auth from README.md
-: 1579257195:0;ganp
 : 1579257209:0;gwip remove devise_token_auth checker
-: 1579257211:0;g ps
-: 1579257232:0;dr-web rails g migration DropUsers
-: 1579257270:0;exit
-: 1579257288:0;dr-web rails g migration DropUsers
-: 1579257373:0;g d
 : 1579257381:0;dr-web rails g migration DropUsers
-: 1579257420:0;g d
-: 1579257423:0;ganp
-: 1579257429:0;n
-: 1579257437:0;ganp
-: 1579257440:0;g lol
-: 1579257445:0;g d
-: 1579257446:0;g s
 : 1579257458:0;gwip remove devise files and created a dropusers migration
-: 1579257461:0;g ps
 : 1579257519:0;dr-web rake db:migrate
-: 1579257537:0;dr-down
-: 1579257546:0;dr-down && dr-web bundle install && dr-up --build
 : 1579257709:0;rm -rf Gemfile.lock
 : 1579257712:0;touch Gemfile.lock
-: 1579257715:0;g d
-: 1579257716:0;g s
-: 1579257721:0;dr-down && dr-web bundle install && dr-up --build
-: 1579257987:0;git reset --hard origin/master
-: 1579258059:0;dr-down && dr-web bundle install && dr-up --build
 : 1579258242:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1579342224:0;jd ka-site
-: 1579342275:0;la
-: 1579342276:0;cd server
-: 1579342277:0;la
 : 1579342408:0;dr-up
 : 1579342446:0;dr-down
 : 1579342518:0;dr-up
@@ -10372,3 +10144,24 @@ exit
 : 1589950511:0;la
 : 1589950631:0;downl
 : 1589950633:0;down
+: 1589977489:0;exit
+: 1589977926:0;~/.dotfiles/install/entry.sh
+: 1589978618:0;clear
+: 1589978621:0;jt dotfiles
+: 1589978624:0;g d
+: 1589978628:0;g st
+: 1589978648:0;~/.dotfiles/vscodium/extensions.sh
+: 1589978677:0;sh ~/.dotfiles/vscodium/extensions.sh
+: 1589978697:0;bos -h
+: 1589978750:0;bos -vs install
+: 1590019632:0;brew services list
+: 1590019646:0;brew services stop yabai
+: 1590019661:0;brew services stop skhd
+: 1590019737:0;exit
+: 1590019741:0;jt dotfiles
+: 1590019753:0;vi ./install/entry.sh
+: 1590019772:0;~/.dotfiles/install/modules/karabiner.sh\
+
+: 1590020981:0;jt personal
+: 1590021002:0;jt work
+: 1590021109:0;down
