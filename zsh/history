@@ -10300,3 +10300,86 @@ exit
 : 1590140429:0;g lol
 : 1590140441:0;g bnc
 : 1590196565:0;down
+: 1590197334:0;jt personal
+: 1590197334:0;la
+: 1590197337:0;jt work
+: 1590197337:0;la
+: 1590197341:0;cd kaizen-studios
+: 1590197341:0;la
+: 1590197468:0;g clone git@github.com:kaizenstudios/denik-api-server.git
+: 1590197607:0;la
+: 1590197609:0;cd denik-api-server
+: 1590197610:0;la
+: 1590197622:0;g co -b feature-authentication-middleware
+: 1590197633:0;vi
+: 1590197680:0;g a
+: 1590197690:0;g co -m "add dotenv on script start"
+: 1590197695:0;g c -m "add dotenv on script start"
+: 1590197696:0;g bnc
+: 1590197699:0;g ps origin feature-authentication-middleware
+: 1590199180:0;yarn install
+: 1590202875:0;la
+: 1590202876:0;tree
+: 1590202879:0;la
+: 1590202899:0;mkdir src/controller
+: 1590202950:0;mkdir src/middleware
+: 1590202958:0;mkdir src/middleware/User
+: 1590202967:0;touch src/middleware/User/userSetCurrentUserMiddleware.ts
+: 1590203106:0;g d
+: 1590203107:0;g s
+: 1590203109:0;g a
+: 1590203173:0;g c -m "create controller and middleware for user token verification"
+: 1590203174:0;g bnc
+: 1590203177:0;g ps origin feature-authentication-middleware
+: 1590207358:0;jt work
+: 1590207359:0;la
+: 1590207362:0;cd lyon/
+: 1590207363:0;la
+: 1590207365:0;cd api-server
+: 1590207365:0;la
+: 1590207367:0;vi
+: 1590209320:0;g a
+: 1590209337:0;g c -m "add a TODO for the problem with userGetByTokenAction"
+: 1590209338:0;g bnc
+: 1590209339:0;g ps origin feature-authentication-middleware
+: 1590209376:0;vi ~/Downloads/kaizen-studios-firebase-adminsdk-28rjt-6f8b5b582d.json
+: 1590209688:0;g a
+: 1590209698:0;g c -m "update env name for db_url"
+: 1590209699:0;g bnc
+: 1590209702:0;g ps origin feature-authentication-middleware
+: 1590209885:0;yarn dev
+: 1590219712:0;gtop
+: 1590229075:0;jt personal
+: 1590229077:0;jt work
+: 1590229077:0;la
+: 1590229083:0;cd kaizen-studios
+: 1590229084:0;la
+: 1590229087:0;cd denik-api-server
+: 1590229088:0;vi .env
+: 1590231901:0;jt work
+: 1590231902:0;la
+: 1590231905:0;cd kaizen-studios
+: 1590231906:0;la
+: 1590231908:0;cd denik-api-server
+: 1590231909:0;vi
+: 1590232079:0;...
+: 1590232079:0;la
+: 1590232081:0;cd lyon
+: 1590232081:0;la
+: 1590232082:0;cd api-server
+: 1590232083:0;vi
+: 1590232340:0;g a
+: 1590232364:0;psql
+: 1590232505:0;jt work
+: 1590232506:0;la
+: 1590232508:0;cd lyon
+: 1590232509:0;cd api-server
+: 1590232513:0;vi
+: 1590233209:0;psql --command="ALTER USER boserikoreyes WITH PASSWORD 'boserikoreyes';"
+: 1590233213:0;psql
+: 1590233288:0;g d
+: 1590233575:0;g a
+: 1590233588:0;g c -m "create a user if it does not exist"
+: 1590233589:0;g bnc
+: 1590233591:0;g ps origin feature-authentication-middleware
+: 1590282957:0;down
