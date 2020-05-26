@@ -10383,3 +10383,132 @@ exit
 : 1590233589:0;g bnc
 : 1590233591:0;g ps origin feature-authentication-middleware
 : 1590282957:0;down
+: 1590286910:0;g ps bitbucket master
+: 1590286917:0;cd .history
+: 1590286918:0;g ps bitbucket master
+: 1590286930:0;g ps
+: 1590286933:0;g ps origin master
+: 1590288286:0;g ps github master
+: 1590288304:0;g ps bitbucket master
+: 1590288660:0;jt work
+: 1590288660:0;la
+: 1590288665:0;cd kaizen-studios
+: 1590288665:0;la
+: 1590288671:0;mkdir denik
+: 1590288679:0;mv denik-api-server denik/api-server
+: 1590288682:0;cd denik
+: 1590288682:0;la
+: 1590288684:0;cd api-server
+: 1590288687:0;vi
+: 1590288708:0;yarn dev
+: 1590289637:0;psql
+: 1590296759:0;yarn dev
+: 1590296796:0;ts-node src/index.ts
+: 1590296826:0;yarn dev
+: 1590296871:0;psql --command="\l"
+: 1590315745:0;yarn dev
+: 1590316237:0;g a
+: 1590316256:0;g s
+: 1590316257:0;g reset
+: 1590316258:0;g a
+: 1590316282:0;g reset
+: 1590317838:0;tldr curl
+: 1590361206:0;jt work
+: 1590361206:0;la
+: 1590361208:0;cd lyon
+: 1590361209:0;la
+: 1590361211:0;cd api-server
+: 1590361217:0;../html-renderer
+: 1590363127:0;yarn install && vi
+: 1590363128:0;yarn dev
+: 1590363133:0;yarn install && vi
+: 1590364540:0;yarn dev
+: 1590369203:0;g bnc
+: 1590369206:0;g pl origin feature-profile-endpoints
+: 1590369216:0;g pl origin feature-event-participants
+: 1590369229:0;g d
+: 1590369233:0;g bnc
+: 1590369238:0;g ps origin feature-profile-endpoints
+: 1590370018:0;yarn dev
+: 1590370024:0;g bnc
+: 1590370029:0;g d
+: 1590370042:0;g bnc
+: 1590370044:0;g pl origin feature-profile-page-overhaul
+: 1590372579:0;g lol
+: 1590372595:0;components/certificate-card/LyonCertificateCardItemContainer/index.tsx
+: 1590372601:0;yarn dev
+: 1590373021:0;g lol
+: 1590373030:0;g pl origin feature-profile-page-overhaul
+: 1590379165:0;yarn dev
+: 1590379198:0;g s
+: 1590379199:0;g d
+: 1590379213:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1590394290:0;vi
+: 1590396778:0;yarn dev
+: 1590396779:0;vi
+: 1590396780:0;yarn dev
+: 1590452173:0;la
+: 1590452177:0;jt work
+: 1590452179:0;la
+: 1590452182:0;cd lyon
+: 1590452182:0;la
+: 1590452184:0;cd api-server
+: 1590452192:0;../html-renderer
+: 1590453438:0;yarn dev
+: 1590453439:0;vi
+: 1590453440:0;yarn dev
+: 1590453441:0;vi
+: 1590454256:0;g s
+: 1590454258:0;g d
+: 1590454289:0;g co components/profile/LyonProfile/LyonProfileTabs/LyonProfileTabsCertificates/index.tsx
+: 1590458093:0;g d
+: 1590458096:0;g s
+: 1590467762:0;g d
+: 1590467768:0;g s
+: 1590467780:0;g co components/certificate-modal/LyonCertificateModal.tsx
+: 1590469485:0;g d
+: 1590469987:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1590471407:0;g s
+: 1590471409:0;g d
+: 1590471411:0;g st
+: 1590471415:0;g bnc
+: 1590471418:0;g pl origin feature-profile-page-overhaul
+: 1590471428:0;g pl origin develop
+: 1590471437:0;g d
+: 1590471592:0;g bnc
+: 1590471599:0;git reset --hard origin/feature-profile-page-overhaul
+: 1590471602:0;g st pop
+: 1590471662:0;g d
+: 1590471672:0;g st
+: 1590471677:0;g d
+: 1590471688:0;git reset --hard origin/feature-profile-page-overhaul
+: 1590471695:0;g d
+: 1590471776:0;g bnc
+: 1590471808:0;g co develop
+: 1590471811:0;g pl origin develop
+: 1590471850:0;g co -b feature-profile-page-overhaul-updated
+: 1590471866:0;g pl origin feature-profile-page-overhaul
+: 1590471889:0;g d
+: 1590471892:0;g bnc
+: 1590471894:0;g a
+: 1590471899:0;g d
+: 1590471900:0;g s
+: 1590471910:0;g c -m "merge develop"
+: 1590471913:0;g bnc
+: 1590471919:0;g ps origin feature-profile-page-overhaul-updated
+: 1590471936:0;g co feature-profile-page-overhaul
+: 1590471939:0;g st pop
+: 1590471964:0;git reset --hard origin/feature-profile-page-overhaul
+: 1590472057:0;yarn dev
+: 1590472103:0;g lol
+: 1590472155:0;g log
+: 1590472165:0;g log |grep develop
+: 1590491620:0;jt work
+: 1590491620:0;la
+: 1590491622:0;cd kuru-anime
+: 1590491622:0;la
+: 1590491623:0;vi
+: 1590491651:0;jt work
+: 1590491651:0;la
+: 1590491654:0;cd kuru-anime
+: 1590491701:0;down
