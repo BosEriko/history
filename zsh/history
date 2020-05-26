@@ -10512,3 +10512,11 @@ exit
 : 1590491651:0;la
 : 1590491654:0;cd kuru-anime
 : 1590491701:0;down
+: 1590491758:0;la
+: 1590491773:0;g clone git@github.com:kuru-project/discord-bot.git
+: 1590491799:0;gh pr checkout 22
+: 1590491801:0;la
+: 1590491803:0;cd discord-bot
+: 1590491805:0;gh pr checkout 22
+: 1590491828:0;la
+: 1590532817:0;down
