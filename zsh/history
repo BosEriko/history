@@ -10520,3 +10520,151 @@ exit
 : 1590491805:0;gh pr checkout 22
 : 1590491828:0;la
 : 1590532817:0;down
+: 1590542475:0;jt work
+: 1590542475:0;la
+: 1590542480:0;cd lyon
+: 1590542481:0;cd api-server
+: 1590542482:0;vi
+: 1590542551:0;g co develop
+: 1590542556:0;g d
+: 1590542614:0;g pl origin develop
+: 1590543661:0;g co feature-profile-endpoints
+: 1590543663:0;g d
+: 1590543677:0;../html-renderer
+: 1590544283:0;vi
+: 1590544284:0;yarn dev
+: 1590544285:0;vi
+: 1590544286:0;yarn dev
+: 1590553961:0;g bnc
+: 1590553968:0;g st
+: 1590553971:0;g bnc
+: 1590553973:0;g pl origin feature-profile-page-overhaul
+: 1590553994:0;g co -b feature-profile-reward-certificate
+: 1590553997:0;g st apply
+: 1590553999:0;g d
+: 1590554012:0;g a
+: 1590554040:0;g c -m "enabled the certificates tab and add certificate for approved events"
+: 1590554041:0;g bnc
+: 1590554043:0;g ps origin feature-profile-reward-certificate
+: 1590557835:0;g d
+: 1590557853:0;g a
+: 1590557863:0;g c -m "add event completion date"
+: 1590557864:0;g bnc
+: 1590557872:0;g ps origin feature-profile-reward-certificate
+: 1590557876:0;g bnc
+: 1590557881:0;g pl origin feature-profile-endpoints
+: 1590557901:0;g co -b feature-profile-reward-certificate
+: 1590558410:0;g d
+: 1590558849:0;g s
+: 1590558857:0;g d src/models/payloads
+: 1590559200:0;g a
+: 1590559217:0;g c -m "add create date"
+: 1590559218:0;g bnc
+: 1590559219:0;g ps origin feature-profile-reward-certificate
+: 1590559223:0;g a
+: 1590559247:0;g s
+: 1590559260:0;g bnc
+: 1590559267:0;g c -m "pass createdAt"
+: 1590559269:0;g bnc
+: 1590559272:0;g ps origin feature-profile-reward-certificate
+: 1590561169:0;g a
+: 1590561189:0;g c -m "add date formatting"
+: 1590561190:0;g bnc
+: 1590561193:0;g ps origin feature-profile-reward-certificate
+: 1590561493:0;g a
+: 1590561513:0;g c -m "add event id to be used as a link"
+: 1590561514:0;g bnc
+: 1590561517:0;g ps origin feature-profile-reward-certificate
+: 1590572299:0;g d
+: 1590572321:0;g co feature-profile-endpoints
+: 1590572459:0;g a
+: 1590572473:0;g bnc
+: 1590572476:0;g pl origin feature-profile-endpoints
+: 1590572492:0;g a
+: 1590572508:0;g c -m "remove variable for PARTICIPANT_VALIDATOR"
+: 1590572511:0;g bnc
+: 1590572514:0;g ps origin feature-profile-endpoints
+: 1590632228:0;jt work
+: 1590632229:0;la
+: 1590632231:0;cd lyon
+: 1590632232:0;la
+: 1590632234:0;cd api-server
+: 1590633351:0;g b
+: 1590633361:0;g co feature-profile-reward-certificate
+: 1590633378:0;../html-renderer
+: 1590635654:0;vi
+: 1590635655:0;yarn dev
+: 1590635656:0;vi
+: 1590635657:0;yarn dev
+: 1590637434:0;g d
+: 1590637438:0;yarn dev
+: 1590638817:0;g d
+: 1590638832:0;yarn dev
+: 1590649780:0;g d
+: 1590649783:0;g st
+: 1590649789:0;g pl origin develop
+: 1590649798:0;g d
+: 1590649856:0;g s
+: 1590649873:0;rm -rf components/event-card/LyonEventCardLink/index.tsx
+: 1590649889:0;g co origin/develop -- components/event-card/LyonEventCardLink/index.tsx
+: 1590649916:0;g s
+: 1590649924:0;g c -m "merge develop"
+: 1590649926:0;g bnc
+: 1590649929:0;g ps origin feature-profile-reward-certificate
+: 1590650002:0;g lol
+: 1590650087:0;g reset 1e3aa98
+: 1590650090:0;g st
+: 1590650093:0;g lol
+: 1590650114:0;g pl origin feature-profile-page-overhaul
+: 1590650123:0;g d
+: 1590650144:0;g s
+: 1590650148:0;g clean -fd
+: 1590650152:0;g pl origin feature-profile-page-overhaul
+: 1590650277:0;g bnc
+: 1590650285:0;git reset --hard origin/feature-profile-reward-certificate
+: 1590650289:0;g reset 1e3aa98
+: 1590650291:0;g clean -fd
+: 1590650295:0;g st
+: 1590650296:0;g lol
+: 1590650331:0;g bnc
+: 1590650337:0;g ps --force origin feature-profile-reward-certificate
+: 1590650383:0;g b
+: 1590650395:0;g bnc
+: 1590650403:0;g diff feature-profile-page-overhaul..feature-profile-reward-certificate
+: 1590650435:0;g status feature-profile-page-overhaul..feature-profile-reward-certificate
+: 1590651818:0;vi
+: 1590653246:0;g st apply
+: 1590653251:0;g st
+: 1590653263:0;git stash show -p stash@{1}
+: 1590653273:0;git stash list
+: 1590653284:0;git stash show -p stash@{0}
+: 1590653297:0;git stash list
+: 1590653311:0;git stash show -p stash@{2}
+: 1590653315:0;git stash show -p stash@{3}
+: 1590653327:0;git stash apply stash@{3}
+: 1590654829:0;g bnc
+: 1590655783:0;g a
+: 1590655803:0;g d
+: 1590655804:0;g s
+: 1590655821:0;g c -m "add fake data to certificate route"
+: 1590655822:0;g bnc
+: 1590655828:0;g ps origin feature-profile-reward-certificate
+: 1590655867:0;g st
+: 1590655875:0;g co origin/develop -- components/certificate-modal/LyonCertificateModal.tsx
+: 1590656319:0;g a
+: 1590656335:0;g s
+: 1590656343:0;g c -m "add data to fake url"
+: 1590656347:0;g bnc
+: 1590656350:0;g ps origin feature-profile-reward-certificate
+: 1590669831:0;jt work
+: 1590669831:0;la
+: 1590669833:0;cd kuru-anime
+: 1590669834:0;la
+: 1590669849:0;discord-bot
+: 1590669852:0;g co master
+: 1590669855:0;g pl origin master
+: 1590669885:0;vi
+: 1590669989:0;yarn dev
+: 1590670001:0;yarn watch
+: 1590670008:0;yarn install && yarn watch
+: 1590670756:0;down
