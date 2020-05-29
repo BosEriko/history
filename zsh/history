@@ -10668,3 +10668,34 @@ exit
 : 1590670001:0;yarn watch
 : 1590670008:0;yarn install && yarn watch
 : 1590670756:0;down
+: 1590719332:0;jt personal
+: 1590719334:0;la
+: 1590719335:0;cd lyon
+: 1590719337:0;jt work
+: 1590719338:0;lyon
+: 1590719339:0;la
+: 1590719342:0;cd api-server
+: 1590719343:0;vi
+: 1590720069:0;g co develop
+: 1590720072:0;g d
+: 1590720076:0;g s
+: 1590720077:0;g d
+: 1590720094:0;g a
+: 1590720113:0;g c -m "add back the proper certificate endpoint"
+: 1590720118:0;g bnc
+: 1590720120:0;g ps origin feature-profile-reward-certificate
+: 1590720131:0;g stash
+: 1590720135:0;g co develop
+: 1590720139:0;g bnc
+: 1590720144:0;g pl origin develop
+: 1590720200:0;g co -b hotfix-event-customer-list
+: 1590720204:0;g st apply
+: 1590720207:0;g d
+: 1590720215:0;vi
+: 1590720250:0;g d
+: 1590720254:0;g s
+: 1590720256:0;g reset
+: 1590720260:0;g s
+: 1590720262:0;g bnc
+: 1590720266:0;g ps origin hotfix-event-customer-list
+: 1590722277:0;down
