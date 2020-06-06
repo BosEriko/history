@@ -1106,520 +1106,131 @@ TAGLINE="El Psy Congroo\
 : 1580469646:0;g g "add description"
 : 1580472669:0;nvm install 7
 : 1580472736:0;npm install koa
-: 1580472749:0;g lol
-: 1580472750:0;g d
-: 1580472751:0;g s
-: 1580472757:0;git add -p
 : 1580472766:0;type ganp
 : 1580472769:0;git add -N .
-: 1580472772:0;g d
-: 1580472778:0;g s
 : 1580472781:0;git add -p
-: 1580472805:0;g g "initialize node"
-: 1580472830:0;node --version
-: 1580472834:0;npm --version
-: 1580472837:0;yarn --version
-: 1580472839:0;npm --version
-: 1580472843:0;cd ..
-: 1580472848:0;node --version
-: 1580472865:0;jd dotfiles
-: 1580472867:0;node --version
-: 1580472878:0;jd personal
-: 1580472878:0;la
 : 1580472898:0;jd ~/dotfiles/install/modules/node.sh
 : 1580472902:0;vi ~/dotfiles/install/modules/node.sh
-: 1580472934:0;nvm --help
 : 1580472937:0;tldr nvm
-: 1580472944:0;nvm list
-: 1580472974:0;node --version
 : 1580473034:0;nvm --version
-: 1580473036:0;node --version
-: 1580473038:0;npm --version
 : 1580473068:0;nvm install 12.14.1
-: 1580473154:0;node --version
-: 1580473161:0;la
-: 1580473164:0;jd dotfiles
-: 1580473165:0;la
-: 1580473168:0;g d
-: 1580473169:0;g s
-: 1580473177:0;jd personal
-: 1580473178:0;la
-: 1580473180:0;barangay
-: 1580473181:0;la
 : 1580473186:0;yarn install koa
-: 1580473190:0;yarn add koa
-: 1580473225:0;la
-: 1580473226:0;g d
 : 1580473232:0;g g "add koa"
-: 1580473280:0;g d
-: 1580473281:0;g lol
-: 1580473286:0;g s
-: 1580473288:0;vi 
-: 1580473327:0;g d
-: 1580473331:0;git add .
 : 1580473336:0;g g "add version to nodejs"
 : 1580473361:0;git rm -rf node_modules
-: 1580473362:0;g d
-: 1580473364:0;g lol
-: 1580473366:0;g s
-: 1580473368:0;vi
-: 1580473375:0;touch .gitignore
-: 1580473424:0;g d
-: 1580473425:0;g s
 : 1580473434:0;g g "add gitignore and remove node_modules"
-: 1580473466:0;g d
-: 1580473467:0;g s
 : 1580473542:0;mv .gitignore .gitignore
-: 1580473544:0;g s
-: 1580473546:0;g d
 : 1580473553:0;g g "change the comment on gitignore"
 : 1580473586:0;npm install
-: 1580473593:0;g d
-: 1580473594:0;g s
 : 1580473611:0;rm -rf package-lock.json
-: 1580473648:0;yarn --version
-: 1580473751:0;g d
 : 1580473758:0;g g "add version to yarn"
-: 1580474082:0;g d
-: 1580474092:0;g g "update package.json"
-: 1580474130:0;yarn add next react react-dom
-: 1580474176:0;g d
-: 1580474183:0;g s
 : 1580474244:0;git rm -rf yarn.lock
-: 1580474245:0;g d
 : 1580474259:0;g g "remove yarn.lock and add next, react and react-dom to the packages"
-: 1580474316:0;g d
 : 1580474325:0;g g "add version for react and next.js"
-: 1580474645:0;g d
-: 1580474648:0;ganp
 : 1580474665:0;g g "add node types, dotenv, nodemon and typescript"
-: 1580474719:0;yarn install
-: 1580474775:0;g d
 : 1580474789:0;g g "add scripts for nuxt.js"
-: 1580474828:0;mkdir pages
 : 1580474832:0;touch pages/index.js
-: 1580474873:0;g d
-: 1580474876:0;yarn dev
-: 1580474885:0;g d
-: 1580474886:0;g s
 : 1580474890:0;g g "add index.ts"
 : 1580474931:0;yarn add --dev @types/react
-: 1580475000:0;yarn install
-: 1580475005:0;yarn dev
 : 1580475013:0;yarn add --dev typescript
-: 1580475044:0;ganp
 : 1580475058:0;g g "add typescript and types for react and node"
 : 1580475103:0;g g "add version to koa"
-: 1580475133:0;yarn dev
-: 1580475209:0;g d
-: 1580475210:0;g s
-: 1580475269:0;g d
-: 1580475289:0;ganp
 : 1580475306:0;g g "generate tsconfig and add .next to gitignore"
-: 1580475386:0;yarn dev
-: 1580475408:0;g d
-: 1580475409:0;g s
 : 1580475422:0;g g "rename page/index.ts to page/index.tsx\
 "
 : 1580511183:0;jd ka-site
-: 1580511189:0;jd personal
-: 1580511189:0;la
-: 1580511193:0;cd barangay
-: 1580511197:0;vi
-: 1580511205:0;yarn dev
-: 1580511266:0;jd dotfiles
-: 1580511266:0;la
-: 1580511269:0;vi
-: 1580511284:0;g d
 : 1580511291:0;g g "remove opacity for yabairc"
-: 1580511315:0;brew services restart yabai
-: 1580511952:0;g d
 : 1580511962:0;g g "add index server"
-: 1580512010:0;g d
 : 1580512019:0;g g "change the js file on the server to ts"
-: 1580512477:0;jd dotfiles
-: 1580512481:0;code README.md
-: 1580512884:0;g d
 : 1580512909:0;g g "add instruction to remove the mission control animation and opacity"
-: 1580512986:0;g d
 : 1580512996:0;yarn server
-: 1580513100:0;g d
-: 1580513166:0;ganp
 : 1580513185:0;g g "add .server to gitignore and create a simple hello world for Koa"
-: 1580524111:0;g so
-: 1580524118:0;g ps
 : 1580524123:0;https://github.com/jorenrui/
-: 1580524127:0;git push --set-upstream origin master
-: 1580528961:0;la
 : 1580528996:0;rm -rf node_modules pages server tsconfig.json yarn.lock next-env.d.ts .next
-: 1580529000:0;la
-: 1580529008:0;rm -rf package.json
-: 1580529010:0;la
-: 1580529014:0;rm -rf .gitignore
-: 1580529015:0;la
 : 1580529027:0;g g "remove most files"
 : 1580529048:0;touch .gitmodules
 : 1580529121:0;g g "add submodule details"
 : 1580529218:0;yarn init
-: 1580529223:0;la
-: 1580529227:0;yarn init -y
-: 1580529230:0;la
 : 1580529234:0;rm -rf yarn-error.log
-: 1580529241:0;touch .gitignore
-: 1580529357:0;g d
 : 1580529364:0;g g "add package.json and update gitignore"
-: 1580529386:0;yarn pull
-: 1580529397:0;g lol
 : 1580529401:0;yarn pull
-: 1580529409:0;la
-: 1580529413:0;rm -rf barangay
-: 1580529481:0;g d
 : 1580529517:0;code README.md
-: 1580529537:0;g d
 : 1580529553:0;g g "add clone recursive details and remove script file for cloning"
 : 1580549831:0;jd personal
 : 1580549833:0;jd dotfiles
-: 1580549834:0;vi
-: 1580550004:0;g d
 : 1580550022:0;g g "remove some links on jd"
-: 1580550061:0;up
 : 1580550094:0;jd
-: 1580550119:0;g d
 : 1580550123:0;g g "rename jd to jt"
-: 1580550155:0;up
-: 1580596346:0;jt
-: 1580596351:0;jt personal
-: 1580596361:0;la
 : 1580596386:0;rm -rf test-devise social the-odin-project glootie girudo-client app
 : 1580596400:0;rm -rf rr-calculator
-: 1580596402:0;la
-: 1580596408:0;jt work
-: 1580596409:0;la
 : 1580596416:0;rm -rf rebot .DS_Store
-: 1580596502:0;jt dotfiles
-: 1580596506:0;la
-: 1580598409:0;htop
-: 1580598601:0;vi
 : 1580598706:0;vi ~/.zsh_history
-: 1580599009:0;g d
 : 1580599116:0;mv ~/.zsh_history ~/dotfiles/zsh_history
-: 1580599784:0;g d
-: 1580599785:0;g s
-: 1580599788:0;g lol
-: 1580599812:0;g d
-: 1580599824:0;g s
-: 1580599833:0;jt personal
-: 1580599960:0;up
-: 1580600285:0;la
-: 1580600290:0;cd barangay
-: 1580600298:0;la
-: 1580600299:0;vi
-: 1580600307:0;la
 : 1580600312:0;mkdir web
 : 1580600314:0;mkdir server
-: 1580600316:0;cd web
 : 1580600325:0;echo "# Barangay (Web)" >> README.md
-: 1580600328:0;..
-: 1580600331:0;cd server
 : 1580600336:0;echo "# Barangay (Server)" >> README.md
-: 1580600338:0;git init
-: 1580600341:0;g so
-: 1580600350:0;g ps
-: 1580600359:0;git push --set-upstream origin master
-: 1580600395:0;g lol
-: 1580600405:0;git init
-: 1580600408:0;g so
-: 1580600420:0;g ps
-: 1580600427:0;git push --set-upstream origin master
-: 1580600445:0;la
-: 1580600453:0;git init
-: 1580600455:0;git add .
-: 1580600461:0;git commit -m "First commit"
-: 1580600462:0;g so
-: 1580600469:0;g ps
-: 1580600476:0;git push --set-upstream origin master
-: 1580600505:0;..
-: 1580600508:0;la
-: 1580600508:0;g d
-: 1580600509:0;g s
 : 1580600515:0;rm -rf .next
-: 1580600516:0;la
-: 1580600523:0;g d
-: 1580600524:0;g s
-: 1580600530:0;cd web
-: 1580600532:0;git init
-: 1580600534:0;la
-: 1580600537:0;git add .
 : 1580600540:0;git commit -m "First commit"
-: 1580600543:0;g ps
-: 1580600546:0;g so
-: 1580600552:0;g ps
 : 1580600558:0;git push --set-upstream origin master
-: 1580600587:0;..
-: 1580600588:0;g lol
 : 1580600592:0;g g "add submodules"
-: 1580600714:0;vi
-: 1580600806:0;g d
 : 1580600811:0;g g "add workspace"
-: 1580601795:0;la
-: 1580601796:0;g lol
 : 1580601835:0;cp .gitignore web/.gitignore
 : 1580601839:0;cp .gitignore server/.gitignore
-: 1580601840:0;g d
-: 1580601841:0;g s
-: 1580601844:0;cd server
-: 1580601853:0;g g "add .gitignore"
-: 1580601874:0;..
-: 1580601875:0;cd web
 : 1580601877:0;g g "add .gitignore"
-: 1580601900:0;..
-: 1580601900:0;la
-: 1580601905:0;g s
 : 1580601914:0;g g "add gitignore to web/server"
-: 1580609804:0;la
-: 1580609806:0;cd server
-: 1580609806:0;la
-: 1580651847:0;jt dotfiles
-: 1580651848:0;la
-: 1580651849:0;g d
-: 1580651862:0;vi
 : 1580651880:0;gs
-: 1580651885:0;g s
 : 1580651889:0;g g "update history"
-: 1580688469:0;g lol
-: 1580688473:0;g s
 : 1580688480:0;rm -rf zsh_history
-: 1580688481:0;la
-: 1580688483:0;g lol
-: 1580688505:0;g d
-: 1580688510:0;g lol
-: 1580688512:0;g s
-: 1580688892:0;jt dotfiles
-: 1580688893:0;la
-: 1580688896:0;vi
-: 1580689059:0;g d
 : 1580689069:0;g g "add down command"
-: 1580689097:0;g d
-: 1580689098:0;up
-: 1580689117:0;down
-: 1580689119:0;up
-: 1580689145:0;down
-: 1580689187:0;up
-: 1580689224:0;down
-: 1580689263:0;g d
-: 1580689270:0;ganp
 : 1580689315:0;git commit -m "update history command"
-: 1580689317:0;g ps
-: 1580689337:0;up
-: 1580689362:0;down
-: 1580692590:0;vi
-: 1580692604:0;brew install hub
-: 1580692651:0;g d
-: 1580692663:0;down
-: 1580692683:0;g d
 : 1580692697:0;g g "add hub to brew install script"
 : 1580694778:0;hub --help
-: 1580694809:0;hub ci-status
 : 1580694828:0;git config --global hub.protocol https
-: 1580694831:0;hub ci-status
-: 1580694834:0;g lol
-: 1580694835:0;g s
-: 1580694837:0;git remote -v
-: 1580694843:0;g d
-: 1580694861:0;git add gitconfig
-: 1580694868:0;git commit -m "add hub protocol"
-: 1580694889:0;g d
-: 1580694892:0;g lol
-: 1580694894:0;g d
-: 1580694895:0;g reset
 : 1580694907:0;hub ci-status
-: 1580694921:0;g d
 : 1580694932:0;git add gitconfig
 : 1580694939:0;git commit -m "add hub protocol"
-: 1580694941:0;g ps
-: 1580695192:0;la
-: 1580695195:0;g d
-: 1580695204:0;down
-: 1580695207:0;up
-: 1580695230:0;down
-: 1580696341:0;jt dotfiles
-: 1580696342:0;la
-: 1580696344:0;vi
 : 1580697134:0;less yabairc
-: 1580697200:0;up
-: 1580697227:0;g d
 : 1580697232:0;g co yabairc
-: 1580697234:0;g d
-: 1580697236:0;up
-: 1580697254:0;down
-: 1580697720:0;g d
 : 1580698239:0;type down
-: 1580698436:0;down
-: 1580708443:0;jt dotfiles
-: 1580708444:0;la
-: 1580708451:0;vi
-: 1580708516:0;g d
 : 1580708525:0;git add zsh
 : 1580708549:0;git commit -m "Add shutdown command after down"
-: 1580708551:0;up
-: 1580708572:0;down
 : 1580709696:0;g g "update up and down script"
-: 1580712285:0;down
-: 1580722564:0;g d
-: 1580722572:0;g lol
-: 1580722590:0;whoami
-: 1580723378:0;down
-: 1580723523:0;g lol
-: 1580723584:0;g d
 : 1580723663:0;g g "move the sync of history up"
-: 1580723737:0;g lol
 : 1580723764:0;brew install hub
 : 1580723800:0;hub --version
-: 1580723829:0;jt personal
-: 1580723842:0;la
-: 1580723848:0;barangay
-: 1580723849:0;la
-: 1580723853:0;cd server
-: 1580723855:0;la
-: 1580723864:0;yarn init -y
 : 1580723875:0;yarn init 
-: 1580723883:0;cd ..
 : 1580723888:0;vi package.json
-: 1580724147:0;cd server
-: 1580724149:0;npm init -y
-: 1580724154:0;g lol
-: 1580724160:0;cd ..
 : 1580724162:0;cd web
 : 1580724166:0;npm init -y
-: 1580724173:0;g d
-: 1580724174:0;g s
-: 1580724178:0;g g "add package.json"
-: 1580724197:0;..
-: 1580724198:0;server
-: 1580724201:0;g g "add package.json"
-: 1580724227:0;g lol
-: 1580724232:0;..
-: 1580724232:0;la
 : 1580724239:0;g g "add package.json for both web and server"
-: 1580725556:0;la
-: 1580725558:0;cd server
-: 1580725819:0;la
-: 1580725824:0;vi
-: 1580727694:0;down
-: 1580776715:0;jt personal
 : 1580776716:0;tldr
-: 1580776721:0;cd tldr
-: 1580776722:0;la
-: 1580776737:0;hub clone tldr
 : 1580776747:0;git config --global hub.protocol ssh
 : 1580776749:0;hub clone tldr
-: 1580776761:0;g clone git@github.com:BosEriko/tldr.git
-: 1580776775:0;la
-: 1580776777:0;cd tldr
-: 1580776781:0;g br
 : 1580776783:0;g branch
-: 1580776786:0;g fetch
 : 1580776795:0;g co origin/yabai
-: 1580776799:0;g co master
 : 1580776802:0;g co yabai
-: 1580776807:0;g pl
-: 1580776814:0;vi
-: 1580776823:0;code .
-: 1580777035:0;g d
 : 1580777055:0;g g "update based comments"
 : 1580781308:0;lol
-: 1580781314:0;jt ops
-: 1580785545:0;jt personal
-: 1580785546:0;la
-: 1580785548:0;cd barangay
-: 1580785549:0;cd server
-: 1580785550:0;la
-: 1580791309:0;jt dotfiles
-: 1580791311:0;g s
-: 1580791313:0;g d
-: 1580791320:0;down
-: 1580874679:0;jt personal
-: 1580874679:0;la
-: 1580874682:0;clear
-: 1580874686:0;g d
-: 1580874688:0;la
-: 1580874690:0;cd barangay
-: 1580874690:0;la
-: 1580874692:0;cd server
-: 1580874693:0;vi
-: 1580874794:0;yarn add koa
-: 1580874813:0;..
 : 1580874821:0;yarn workspace server add koa
 : 1580875199:0;yarn --help |grep workspace
-: 1580875220:0;jt personal
-: 1580875221:0;la
 : 1580875223:0;cd barnagay
-: 1580875226:0;cd barangay
-: 1580875230:0;yarn workspace
-: 1580875232:0;yarn workspaces
 : 1580875235:0;rm -rf package.json
-: 1580875237:0;yarn workspaces
-: 1580875244:0;yarn init -y
 : 1580875251:0;yarn workspaces
 : 1580875256:0;yarn add workspace
-: 1580875260:0;la
-: 1580875263:0;rm -rf node_modules
-: 1580883511:0;jt dotfiles
-: 1580883513:0;la
-: 1580883530:0;down
-: 1580883576:0;jt personal
-: 1580883577:0;la
 : 1580883750:0;g clone git@github.com:BosEriko/cheatsheets.git
-: 1580883764:0;la
 : 1580883772:0;cd cheatsheets
-: 1580883774:0;la
 : 1580883790:0;g remote add upstream git@github.com:rstacruz/cheatsheets.git
-: 1580883795:0;g remote -v
 : 1580883798:0;g pl upstream
-: 1580883807:0;g lol
-: 1580883811:0;g ps
-: 1580883833:0;la
 : 1580883835:0;qg lol
-: 1580883836:0;g lol
-: 1580883847:0;g pl upstream master
-: 1580883853:0;g lol
-: 1580883856:0;g ps
-: 1580883886:0;vi
 : 1580883945:0;docker-compose build
-: 1580894025:0;jt ops
-: 1580897825:0;jt personal
-: 1580897826:0;la
-: 1580897839:0;cd barangay
-: 1580897840:0;la
-: 1580897842:0;g d
-: 1580897848:0;vi
-: 1580897858:0;g d
-: 1580897871:0;cd server
-: 1580897872:0;la
-: 1580897879:0;vi
-: 1580897921:0;yarn install
-: 1580897930:0;cd ..
-: 1580897930:0;la
-: 1580897937:0;g s
-: 1580897938:0;g d
 : 1580897947:0;g g "remove workspaces and scripts for now"
-: 1580898033:0;vi
-: 1580898056:0;yarn start
-: 1580912132:0;exit
-: 1580949982:0;g d
-: 1580949984:0;g s
-: 1580949985:0;g d
 : 1580950008:0;g g "remove symlink for zsy_history"
-: 1580950552:0;g d
 : 1580950673:0;down && g g "remove .zshenv"
-: 1580950733:0;vi
 : 1580951155:0;yarn config list
 : 1580951774:0;yarn list -g --depth=0
-: 1580951809:0;yarn global list
 : 1580951829:0;yarn global list --depth=0
-: 1580951838:0;npm list -g --depth=0
 : 1580951861:0;yarn global list
-: 1580951880:0;g d
 : 1580951978:0;yarn global outdated
 : 1580952001:0;yarn global --help
 : 1580952009:0;yarn global --help |grep "update"
@@ -1627,24 +1238,11 @@ TAGLINE="El Psy Congroo\
 : 1580952027:0;yarn global --help |grep "upgrade"
 : 1580952044:0;yarn global upgrade-interactive
 : 1580952062:0;yarn global upgrade --latest
-: 1580952206:0;g d
 : 1580952274:0;down && g g "use yarn instead of npm on install and personal script"
-: 1580952523:0;g lol
-: 1580956632:0;vi
-: 1580956657:0;g d
 : 1580956668:0;brew install git-flow\
 
-: 1580956698:0;g flow
-: 1580956707:0;g d
 : 1580956721:0;down && g g "add git-flow to homebrew"
-: 1581037751:0;jt ops
-: 1581037759:0;la
-: 1581037760:0;rc
 : 1581037762:0;pl
-: 1581037822:0;g pl
-: 1581038046:0;vi
-: 1581040993:0;down
-: 1581042350:0;g pl
 : 1581042359:0;g lol |grep "farhan"
 : 1581042393:0;g lol |grep "norly"
 : 1581042397:0;g lol |grep "bos"
@@ -1654,221 +1252,78 @@ TAGLINE="El Psy Congroo\
 : 1581042412:0;g lol |grep "marc"
 : 1581042418:0;g lol |grep "siti"
 : 1581044109:0;cd ..
-: 1581044110:0;la
-: 1581044112:0;jt personal
-: 1581044113:0;la
 : 1581044119:0;cd gatsby-nuntium
-: 1581044120:0;vi
-: 1581044128:0;..
-: 1581044129:0;la
-: 1581044129:0;vi
 : 1581044155:0;cd boseriko.com
-: 1581044156:0;la
-: 1581044156:0;vi
-: 1581044240:0;..
-: 1581044240:0;la
-: 1581044244:0;cd kuru-anime
-: 1581044245:0;la
-: 1581044247:0;cd website-application
-: 1581044247:0;la
 : 1581044250:0;vi client
-: 1581044264:0;...
-: 1581044265:0;la
 : 1581044304:0;mkdir norly
 : 1581044305:0;cd norly
-: 1581044310:0;yarn init -y
-: 1581044323:0;yarn add next react react-dom
-: 1581044347:0;vi
 : 1581044362:0;next
-: 1581044371:0;vi
-: 1581044391:0;yarn start
-: 1581044404:0;vi
-: 1581044432:0;la
-: 1581044440:0;..
-: 1581044441:0;la
 : 1581044443:0;rm -rf norly
-: 1581045105:0;la
-: 1581048336:0;clear
-: 1581048341:0;~
-: 1581049133:0;jt ops
-: 1581049135:0;vi
-: 1581061510:0;down
-: 1581131837:0;g d
 : 1581131856:0;down && g g "fix typo on hard time"
-: 1581132511:0;vi
-: 1581132620:0;g d
 : 1581132632:0;down && g g "disable md formats"
-: 1581144470:0;vi
-: 1581144547:0;g d
 : 1581144576:0;down && g g "update vscodium extension command"
-: 1581144706:0;la
 : 1581144851:0;~/Library/Application\ Support/
-: 1581144852:0;la
 : 1581144866:0;~/Library/Application\ Support/Google
-: 1581144867:0;la
-: 1581144871:0;~/Library/Application\ Support/Google/Chrome
-: 1581144872:0;la
-: 1581144901:0;~/Library/Application\ Support/Google/Chrome
 : 1581144963:0;~/Library/Application\ Support/Google/Chrome/System\ Profile
-: 1581144964:0;la
 : 1581144971:0;~/Library/Application\ Support/Google/Chrome
-: 1581144981:0;la
-: 1581144994:0;vi
 : 1581145094:0;~/Library/Application\ Support/Google/Chrome/Default
-: 1581145095:0;la
 : 1581145107:0;~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
 : 1581145118:0;vi ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
 : 1581145146:0;cd ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
-: 1581145190:0;jt dotfiles
-: 1581145192:0;la
 : 1581145208:0;mkdir google-chrome
 : 1581145230:0;cp ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks ~/.dotfiles/google-chrome/Bookmarks
-: 1581145232:0;g d
-: 1581145233:0;g s
-: 1581145239:0;vi
-: 1581145296:0;g d
 : 1581145318:0;down && g g "add bookmarks"
 : 1581145385:0;~/.dotfiles/install/modules/dotfiles.sh
-: 1581145398:0;g d
-: 1581145399:0;g s
 : 1581145422:0;~/Library/Application\ Support/Google/Chrome/Default/
-: 1581145423:0;la
 : 1581145432:0;rm ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks\
 
-: 1581145438:0;la
 : 1581145450:0;ln -s ~/.dotfiles/google-chrome/Bookmarks ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
-: 1581145451:0;la
-: 1581145467:0;g d
-: 1581145469:0;g s
-: 1581145472:0;la
-: 1581147275:0;g d
-: 1581147309:0;g s
 : 1581147322:0;down && g g "update personal script"
-: 1581147472:0;g d
 : 1581147476:0;bos
-: 1581147477:0;bos -h
 : 1581147482:0;bos -vs
 : 1581147484:0;bos -gc
 : 1581147487:0;bos -cpu
-: 1581147491:0;bos -cpu usage
-: 1581147498:0;bos -cpu temp
-: 1581147501:0;bos -h
 : 1581147513:0;bos --google-chrome open http://facebook.com/
 : 1581147538:0;bos --vs backup
-: 1581147543:0;bos -vs backup
-: 1581147556:0;g d
 : 1581147566:0;bos --vscodium install
-: 1581147596:0;bos -h
-: 1581147694:0;vi
-: 1581147708:0;g d
 : 1581147717:0;down && g g "update the help instructions of my personal script"
-: 1581148267:0;g d
 : 1581148289:0;down && g g "add gc bookmarks options to personal script"
 : 1581148396:0;bos -gc install-bookmarks
-: 1581148400:0;g d
-: 1581148714:0;vi
-: 1581148764:0;g d
-: 1581148787:0;g s
 : 1581148802:0;down && g g "remove google chrome bookmarks script"
 : 1581149333:0;brew install chrome-cli
-: 1581149401:0;g d
 : 1581149536:0;chrome-cli windows
 : 1581149547:0;chrome-cli list windows
 : 1581149650:0;chrome-cli -h
 : 1581149837:0;chrome-cli help
-: 1581149847:0;g d
 : 1581149864:0;down && g g "add chrome-cli" && up
-: 1581150243:0;g lol
-: 1581150284:0;g d
 : 1581150313:0;down && g g "remove chrome-cli" && up
-: 1581150514:0;g d
 : 1581150549:0;down && g g "add qutebrowser" && up
-: 1581150665:0;bos -h
 : 1581150673:0;bos qute http://facebook.com/
 : 1581150679:0;bos -b qute http://facebook.com/
-: 1581154059:0;vi
-: 1581154240:0;g d
 : 1581154610:0;down && g g "organize personal script" && up
-: 1581155110:0;bos -h
-: 1581155138:0;g d
 : 1581155161:0;down && g g "change personal script message to lakad matatag" && up
-: 1581155274:0;bos -h
-: 1581156872:0;g d
-: 1581156874:0;vi
-: 1581156893:0;bos -h
-: 1581156904:0;g d
-: 1581157816:0;jt personal
-: 1581157822:0;la
-: 1581157825:0;cd barangay
-: 1581157826:0;la
-: 1581157946:0;cd server
-: 1581157946:0;la
-: 1581157948:0;g d
-: 1581158301:0;curl -sLf https://spacevim.org/install.sh | vi
-: 1581159146:0;la
-: 1581159149:0;jt personal
-: 1581159149:0;la
-: 1581159155:0;jt dotfiles
-: 1581159156:0;vi
-: 1581159182:0;g d
 : 1581159206:0;down && g g "remove branch-generate" && up
-: 1581159292:0;jt personal
-: 1581159293:0;la
-: 1581159295:0;cd barangay
-: 1581159295:0;la
-: 1581159296:0;server
-: 1581159296:0;la
 : 1581159311:0;g br develop
 : 1581159313:0;g b develop
-: 1581159316:0;g b
 : 1581159324:0;g ps -u origin develop
 : 1581159363:0;g flow init
-: 1581216000:0;bos -h
-: 1581217357:0;la
 : 1581217373:0;vi .vimrc
 : 1581217378:0;rm -rf .vimrc
 : 1581217383:0;less .viminfo
-: 1581217414:0;jt dotfiles
-: 1581217414:0;la
-: 1581217421:0;jt
-: 1581218426:0;g d
-: 1581218429:0;down
-: 1581218749:0;jt personal
-: 1581218749:0;la
-: 1581218856:0;jt dotfiles
-: 1581218861:0;vi
-: 1581219648:0;g d
 : 1581219664:0;down && g g "add extra line to vim plugins" && up
-: 1581220095:0;g d
 : 1581220111:0;down && g g "add coc.nvim file config" && up
-: 1581236829:0;g d
 : 1581236845:0;down && g g "change the border to shadow" && up
-: 1581237235:0;g d
 : 1581237311:0;brew info links
-: 1581237362:0;links facebook.com
-: 1581237408:0;g d
 : 1581237413:0;links boseriko.com
 : 1581237430:0;links wikipedia.com
-: 1581237461:0;g d
 : 1581237491:0;down && g g "add links to personal script" && up
 : 1581237603:0;bos -b
-: 1581237608:0;vi
 : 1581237645:0;down && g g "update browser usage instruction" && up
 : 1581237786:0;bos -b terminal facebook.com
 : 1581237798:0;bos -b terminal http://facebook.com/
-: 1581237810:0;vi
-: 1581237823:0;g d
 : 1581237831:0;down && g g "fix links" && up
-: 1581240583:0;vi
-: 1581241598:0;g d
 : 1581241613:0;down && g g "remove coc install script" && up
-: 1581242347:0;vi
-: 1581242409:0;g d
 : 1581242422:0;down && g g "define coc" && up
-: 1581243055:0;vi
-: 1581246100:0;jt ops
-: 1581246104:0;g co master
-: 1581246105:0;g pl
 : 1581246127:0;vi
 : 1581246349:0;jt dotfiles
 : 1581246377:0;vi
@@ -10699,3 +10154,525 @@ exit
 : 1590720262:0;g bnc
 : 1590720266:0;g ps origin hotfix-event-customer-list
 : 1590722277:0;down
+: 1590725543:0;yarn dev
+: 1590725562:0;gh pr checkout 213
+: 1590725573:0;../html-renderer
+: 1590725579:0;gh pr checkout 213
+: 1590725603:0;yarn dev
+: 1590725608:0;g d
+: 1590727200:0;vi
+: 1590733870:0;g bnc
+: 1590733874:0;g st
+: 1590733877:0;g pl origin hotfix-event-customer-list
+: 1590734356:0;g a
+: 1590734367:0;g c -m "add create event participant"
+: 1590734368:0;g bnc
+: 1590734373:0;g ps origin hotfix-event-customer-list
+: 1590734777:0;yarn dev
+: 1590734783:0;g d
+: 1590734794:0;g st apply
+: 1590736986:0;g d
+: 1590736999:0;g a
+: 1590737060:0;g c -m "change the controller for geteventcustomers"
+: 1590737093:0;g bnc
+: 1590737096:0;g ps origin hotfix-event-customer-list
+: 1590737140:0;../html-renderer
+: 1590737141:0;vi
+: 1590737147:0;g co develop
+: 1590737153:0;g s
+: 1590737154:0;g d
+: 1590737157:0;g pl origin develop
+: 1590737206:0;yarn dev
+: 1590737306:0;yarn install && yarn dev
+: 1590737836:0;g a
+: 1590737847:0;g d
+: 1590737943:0;g a
+: 1590738097:0;g c -m "minimize the code footprint of event customers\
+"
+: 1590738101:0;g bnc
+: 1590738104:0;g ps origin hotfix-event-customer-list
+: 1590741146:0;g a
+: 1590741181:0;g bnc
+: 1590741190:0;g c -m "remove the adding of event participant to dragon pay"
+: 1590741193:0;g ps origin hotfix-event-customer-list
+: 1590743225:0;g a
+: 1590743245:0;g c -m "use payload"
+: 1590743246:0;g bnc
+: 1590743249:0;g ps origin hotfix-event-customer-list
+: 1590743443:0;g a
+: 1590743488:0;g c -m "check if event participant exists first before using map"
+: 1590743489:0;g bnc
+: 1590743492:0;g ps origin hotfix-event-customer-list
+: 1590794345:0;jt work
+: 1590794348:0;cd lyon
+: 1590794349:0;la
+: 1590794350:0;vi
+: 1590830898:0;if true; then\
+echo "tae"\
+fi
+: 1590831676:0;jt personal
+: 1590831710:0;g clone git@github.com:BosEriko/Vieb.git
+: 1590831721:0;la
+: 1590831723:0;cd vieb
+: 1590831725:0;yarn install
+: 1590831766:0;vi
+: 1590831819:0;yarn start
+: 1590834476:0;g st
+: 1590834479:0;yarn start
+: 1590834651:0;vi ~/Downloads/chromium.viebrc
+: 1590835035:0;yarn start
+: 1590835771:0;jt dotfiles
+: 1590835775:0;vi
+: 1590836386:0;g a
+: 1590836394:0;g d
+: 1590836395:0;g s
+: 1590836400:0;git add .
+: 1590836402:0;g d
+: 1590836412:0;g c -m "add viebrc"
+: 1590836414:0;g bnc
+: 1590836417:0;g ps origin master
+: 1590836447:0;install/modules/dotfiles.sh
+: 1590836461:0;vi ~/.viebrc
+: 1590836475:0;g d
+: 1590836494:0;g st
+: 1590836536:0;g d
+: 1590836542:0;g s
+: 1590836555:0;g st
+: 1590836557:0;g clean -fd
+: 1590836586:0;vi ~/.viebrc
+: 1590836594:0;yarn start
+: 1590836751:0;g a
+: 1590836862:0;vi
+: 1590836877:0;yarn start
+: 1590836911:0;g c -m "add previous and next tab hotkeys for vieb"
+: 1590836919:0;g ps origin master
+: 1590836988:0;g d
+: 1590837047:0;yarn start
+: 1590837115:0;g d
+: 1590837150:0;yarn start
+: 1590837163:0;g d
+: 1590837169:0;g st
+: 1590837200:0;yarn start
+: 1590837489:0;g st
+: 1590837515:0;yarn start
+: 1590837524:0;g st
+: 1590837670:0;yarn start
+: 1590837737:0;rm -rf app/img/icons/1024x1024.png
+: 1590837746:0;curl https://images.discordapp.net/avatars/544299097121882113/f45728fa365f6162680b99155fc51606.png\?size\=512 > app/img/icons/1024x1024.png
+: 1590837754:0;yarn start
+: 1590837806:0;g d
+: 1590837811:0;g s
+: 1590837878:0;yarn start
+: 1590837916:0;mv app/img/icons/1024x1024.png app/img/icons/personal.png
+: 1590837928:0;g d
+: 1590837934:0;g s
+: 1590837965:0;g co app/img/icons/1024x1024.png
+: 1590837966:0;g d
+: 1590838008:0;g s
+: 1590838060:0;vi
+: 1590838063:0;yarn start
+: 1590838114:0;g st
+: 1590838116:0;g clean -fd
+: 1590838139:0;yarn install && yarn start
+: 1590838907:0;yarn start
+: 1590839053:0;g a
+: 1590839068:0;g c -m "add quit vieb and close tab"
+: 1590839071:0;g ps origin master
+: 1590839280:0;yarn start
+: 1590839300:0;g a
+: 1590839475:0;yarn start
+: 1590839521:0;g a
+: 1590839531:0;g c -m "enable mouse support"
+: 1590839531:0;g bnc
+: 1590839534:0;g ps origin master
+: 1590839541:0;yarn start
+: 1590842227:0;jt dotfiles
+: 1590842228:0;vi
+: 1590847854:0;jt personal
+: 1590847866:0;la
+: 1590847868:0;cd Vieb
+: 1590847871:0;vi
+: 1590899411:0;jt personal
+: 1590899412:0;la
+: 1590899414:0;cd Vieb
+: 1590899415:0;la
+: 1590899417:0;g d
+: 1590899418:0;g s
+: 1590899425:0;vi
+: 1590899446:0;yarn buildmac
+: 1590899580:0;less package.json
+: 1590899588:0;yarn start
+: 1590978567:0;jt work
+: 1590978567:0;la
+: 1590978569:0;cd kuru-anime
+: 1590978569:0;la
+: 1590978572:0;cd discord-bot
+: 1590978572:0;la
+: 1590978598:0;vi
+: 1590978623:0;g a
+: 1590978651:0;g c -m "[Hotfix] Rename watch to dev on yarn scripts"
+: 1590978654:0;g ps origin master
+: 1590978659:0;g remote -v
+: 1590978660:0;g so
+: 1590978669:0;g ps origin master
+: 1590978720:0;yarn dev
+: 1590978727:0;g a
+: 1590978777:0;g c -m "[Hotfix] Add an interface on Axios and fix a few eslint errors"
+: 1590978779:0;g ps origin master
+: 1590979059:0;jt work
+: 1590979059:0;la
+: 1590979061:0;cd lyon
+: 1590979062:0;la
+: 1590979065:0;cd api-server
+: 1590979065:0;la
+: 1590979066:0;vi
+: 1591063927:0;jt work
+: 1591063928:0;la
+: 1591063930:0;cd lyon
+: 1591063934:0;cd api-server
+: 1591063952:0;g co feature-profile-reward-certificate
+: 1591063956:0;g st
+: 1591063959:0;g co feature-profile-reward-certificate
+: 1591063961:0;g st pop
+: 1591063964:0;g d
+: 1591063973:0;git reset --hard origin/feature-profile-reward-certificate
+: 1591063976:0;g lol
+: 1591064377:0;../html-renderer
+: 1591064385:0;g bnc
+: 1591064397:0;g co feature-profile-reward-certificate
+: 1591064400:0;g st
+: 1591064404:0;g co feature-profile-reward-certificate
+: 1591067432:0;g bnc
+: 1591067435:0;g pl origin feature-profile-reward-certificate
+: 1591067451:0;vi
+: 1591067480:0;g lol
+: 1591069390:0;yarn dev
+: 1591072081:0;g bnc
+: 1591072084:0;g pl origin feature-profile-reward-certificate
+: 1591072092:0;yarn dev
+: 1591072097:0;vi
+: 1591072762:0;g a
+: 1591072800:0;g c -m "move the array to ctx.body"
+: 1591081646:0;g d
+: 1591083216:0;g a
+: 1591083238:0;g c -m "add a get participant events"
+: 1591083240:0;g bnc
+: 1591083244:0;g a
+: 1591083273:0;g reset
+: 1591083276:0;g a
+: 1591083317:0;g d
+: 1591083318:0;g s
+: 1591083341:0;g c -m "initial certificates"
+: 1591083342:0;g bnc
+: 1591083345:0;g ps origin feature-profile-reward-certificate
+: 1591093870:0;g d
+: 1591093874:0;g a
+: 1591094028:0;g c -m "use single quote instead of \`'
+: 1591094030:0;g c -m "use single quote instead of \`"
+: 1591094110:0;g d
+: 1591094113:0;g st
+: 1591094116:0;g co develop
+: 1591094118:0;g st apply
+: 1591094122:0;g d
+: 1591094239:0;rm -rf src/models/entities/Discount.ts
+: 1591094241:0;g co src/models/entities/Discount.ts
+: 1591094245:0;g d
+: 1591094247:0;g s
+: 1591094277:0;g co origin/develop -- src/models/entities/Discount.ts
+: 1591094279:0;g d
+: 1591094348:0;g co origin/develop
+: 1591094350:0;g d
+: 1591094364:0;g s
+: 1591094372:0;qg reset
+: 1591094373:0;g reset
+: 1591094391:0;g co origin/develop
+: 1591094396:0;g d
+: 1591094408:0;git reset --hard origin/develop
+: 1591094435:0;g pl origin develop
+: 1591094511:0;g co -b feature-github-templates
+: 1591094536:0;g co develop
+: 1591094540:0;g pl origin develop
+: 1591094558:0;g co -b feature-github-templates
+: 1591095163:0;cp -rf ../../kaizen-studios/denik/api-server/.github
+: 1591095173:0;cp ../../kaizen-studios/denik/api-server/.github
+: 1591095183:0;cp -rf ../../kaizen-studios/denik/api-server/.github .github
+: 1591095185:0;g d
+: 1591095201:0;cp -rf ../../kaizen-studios/denik/api-server/.github .github
+: 1591095340:0;vi
+: 1591095375:0;g d
+: 1591095377:0;g s
+: 1591095991:0;g a
+: 1591096000:0;g d
+: 1591096002:0;g s
+: 1591096007:0;g c -m "add templates"
+: 1591096010:0;g a
+: 1591096019:0;g c -m "add templates\
+"
+: 1591096021:0;g bnc
+: 1591096028:0;g ps origin feature-github-templates
+: 1591152578:0;jt work
+: 1591152578:0;la
+: 1591152584:0;cd lyon
+: 1591152671:0;cd api-server
+: 1591152681:0;g co feature-profile-reward-certificate
+: 1591152685:0;g st apply
+: 1591152700:0;../html-renderer
+: 1591152705:0;g co feature-profile-reward-certificate
+: 1591152713:0;vi
+: 1591152714:0;yarn dev
+: 1591152715:0;vi
+: 1591152716:0;yarn dev
+: 1591160835:0;g a
+: 1591160860:0;g c -m "move the certificate details to controller"
+: 1591160876:0;g bnc
+: 1591160880:0;g ps origin feature-profile-reward-certificate
+: 1591171024:0;g a
+: 1591171119:0;g c -m "add a temporary way to create a reward certificate"
+: 1591171120:0;g bnc
+: 1591171123:0;g ps origin feature-profile-reward-certificate
+: 1591176487:0;g d
+: 1591176504:0;g s
+: 1591176507:0;g st
+: 1591176523:0;gh pr checkout 110
+: 1591241920:0;jt work
+: 1591241921:0;lyon
+: 1591241935:0;cd api-server
+: 1591241956:0;g co feature-profile-reward-certificate
+: 1591241959:0;g st apply
+: 1591241962:0;vi
+: 1591242576:0;g a
+: 1591242588:0;g c -m "update fake data"
+: 1591242828:0;../html-renderer
+: 1591242834:0;vi
+: 1591242903:0;yarn dev
+: 1591242908:0;g a
+: 1591242923:0;g c -m "make 5 arrays for the object fake data"
+: 1591242924:0;g bnc
+: 1591242926:0;g ps origin feature-profile-reward-certificate
+: 1591243829:0;g d
+: 1591243832:0;g st
+: 1591243839:0;g co develop
+: 1591243844:0;g pl origin develop
+: 1591243879:0;g st apply
+: 1591243882:0;g d
+: 1591243910:0;yarn dev
+: 1591245271:0;git reset --hard origin/develop
+: 1591245276:0;g co feature-profile-reward-certificate
+: 1591245278:0;g st apply
+: 1591251857:0;yarn dev
+: 1591252378:0;g d
+: 1591252380:0;g s
+: 1591252386:0;g d   associateUserToProviderSchema,\
+
+: 1591252389:0;g d src/routes/provider.ts
+: 1591252393:0;g co src/routes/provider.ts
+: 1591253995:0;g d
+: 1591253997:0;g s
+: 1591254006:0;g co src/routes/provider.ts
+: 1591254012:0;g co src/controllers
+: 1591254013:0;g d
+: 1591254014:0;g s
+: 1591254318:0;g d
+: 1591254321:0;g s
+: 1591254323:0;g st
+: 1591254326:0;g co develop
+: 1591254329:0;g pl origin develop
+: 1591254343:0;g st apply
+: 1591254464:0;g co develop
+: 1591254468:0;g pl origin develop
+: 1591254474:0;yarn dev
+: 1591259196:0;g d
+: 1591259203:0;g s
+: 1591259205:0;g reset
+: 1591265012:0;g s
+: 1591265015:0;g st
+: 1591265019:0;g co feature-profile-reward-certificate
+: 1591311372:0;jt work
+: 1591311376:0;cd lyon
+: 1591311377:0;la
+: 1591311378:0;cd api-server
+: 1591311379:0;vi
+: 1591325414:0;jt work
+: 1591325414:0;la
+: 1591325416:0;cd lyon
+: 1591325416:0;la
+: 1591325418:0;cd api-server
+: 1591325424:0;../html-renderer
+: 1591325432:0;g co feature-profile-reward-certificate
+: 1591325440:0;vi
+: 1591325442:0;yarn dev
+: 1591325443:0;vi
+: 1591325445:0;yarn dev
+: 1591325775:0;g a
+: 1591325789:0;g c -m "delete the unused controller on event participant"
+: 1591326857:0;g a
+: 1591326877:0;g c -m "remove event participant on the controller of certificates"
+: 1591326879:0;g bnc
+: 1591326882:0;g ps origin feature-profile-reward-certificate
+: 1591328127:0;g a
+: 1591328145:0;g c -m "update the controller of certificate details"
+: 1591328147:0;g bnc
+: 1591328153:0;g ps origin feature-profile-reward-certificate
+: 1591328457:0;g a
+: 1591328467:0;g c -m "add reward certificate type"
+: 1591329698:0;yarn dev
+: 1591330042:0;g a
+: 1591330066:0;g c -m "restructure"
+: 1591330067:0;g bnc
+: 1591330071:0;g ps origin feature-profile-reward-certificate
+: 1591330154:0;g a
+: 1591330182:0;g d
+: 1591330183:0;g s
+: 1591330190:0;g c -m "add todo comments"
+: 1591330191:0;g bnc
+: 1591330194:0;g ps origin feature-profile-reward-certificate
+: 1591330350:0;yarn dev
+: 1591330391:0;g a
+: 1591330405:0;g c -m "comment out certificate signatory type for now"
+: 1591330406:0;g bnc
+: 1591330420:0;g ps origin feature-profile-reward-certificate
+: 1591330458:0;g st apply
+: 1591330459:0;g d
+: 1591330464:0;g s
+: 1591330466:0;g reset
+: 1591330486:0;yarn dev
+: 1591332044:0;ga 
+: 1591332045:0;g a
+: 1591332065:0;g c -m "add undefined as type of getting certs"
+: 1591332066:0;g bnc
+: 1591332068:0;g ps origin feature-profile-reward-certificate
+: 1591338435:0;yarn dev
+: 1591338536:0;g d
+: 1591338541:0;yarn dev
+: 1591339717:0;psql --command="\l"
+: 1591340113:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/dump-postgres-202006051451.sql
+: 1591340241:0;yarn dev
+: 1591341455:0;g d
+: 1591346691:0;gtop
+: 1591348415:0;vi
+: 1591348419:0;g d
+: 1591348425:0;g a
+: 1591348435:0;g c -m "add another route"
+: 1591348436:0;g bnc
+: 1591348437:0;g ps origin feature-profile-reward-certificate
+: 1591348451:0;g d
+: 1591348454:0;g co develop
+: 1591348458:0;g st
+: 1591348464:0;g co develop
+: 1591348468:0;g pl origin develop
+: 1591348471:0;vi
+: 1591348476:0;g co develop
+: 1591348479:0;g pl origin develop
+: 1591348483:0;g st apply
+: 1591348504:0;yarn dev
+: 1591348532:0;g d
+: 1591348533:0;g s
+: 1591348535:0;g reset
+: 1591348536:0;g d
+: 1591348544:0;yarn dev
+: 1591348726:0;g co feature-profile-reward-certificate
+: 1591348735:0;g pl origin feature-profile-reward-certificate
+: 1591348752:0;g co feature-profile-reward-certificate
+: 1591348757:0;g co develop
+: 1591348763:0;g co src/models
+: 1591348764:0;g d
+: 1591348770:0;g co feature-profile-reward-certificate
+: 1591348773:0;g st apply
+: 1591348778:0;yarn dev
+: 1591350661:0;g a
+: 1591350691:0;g c -m "return approved event participant on the fake endpoint"
+: 1591351030:0;g a
+: 1591351052:0;g c -m "add user to the event participant"
+: 1591351055:0;g bnc
+: 1591351057:0;g ps origin feature-profile-reward-certificate
+: 1591352056:0;vi
+: 1591352234:0;g a
+: 1591352255:0;g d
+: 1591352258:0;g s
+: 1591352271:0;g d src/routes/certificate.t
+: 1591352276:0;g co src/routes/certificate.t
+: 1591352280:0;g s
+: 1591352296:0;g c -m "add fake cert"
+: 1591352299:0;g co src/routes/certificate.t
+: 1591352310:0;g co src/routes
+: 1591352579:0;g a
+: 1591352589:0;g bnc
+: 1591352590:0;g d
+: 1591352591:0;g s
+: 1591352597:0;g c -m "add fake data to controller"
+: 1591352614:0;g a
+: 1591352623:0;g c -m "remove fake data on routes"
+: 1591352624:0;g bnc
+: 1591352627:0;g ps origin feature-profile-reward-certificate
+: 1591352630:0;yarn dev
+: 1591354248:0;vi
+: 1591354289:0;g pl origin feature-profile-reward-certificate
+: 1591354297:0;g a
+: 1591354305:0;g bnc
+: 1591354308:0;g a
+: 1591354315:0;g c -m "change the url of certificates"
+: 1591354316:0;g bnc
+: 1591354318:0;g ps origin feature-profile-reward-certificate
+: 1591354680:0;g a
+: 1591354696:0;g c -m "remove the empty fields"
+: 1591354698:0;g bnc
+: 1591354700:0;g ps origin feature-profile-reward-certificate
+: 1591354821:0;g d
+: 1591354824:0;g st
+: 1591354968:0;g a
+: 1591354976:0;g c -m "change description verb"
+: 1591354977:0;g bnc
+: 1591354979:0;g ps origin feature-profile-reward-certificate
+: 1591354987:0;yarn dev
+: 1591355227:0;g a
+: 1591355234:0;g c -m "change cpd unit"
+: 1591355235:0;g bnc
+: 1591355237:0;g ps origin feature-profile-reward-certificate
+: 1591356373:0;g bnc
+: 1591356376:0;g pl origin feature-profile-reward-certificate
+: 1591357156:0;vi
+: 1591357805:0;g d
+: 1591358386:0;g a
+: 1591358418:0;g c -m "create scope model for certificate"
+: 1591358420:0;g bnc
+: 1591358423:0;g ps origin feature-profile-reward-certificate
+: 1591358918:0;g a
+: 1591358965:0;g d
+: 1591358974:0;g st
+: 1591359168:0;g st apply
+: 1591359175:0;g d
+: 1591359176:0;g s
+: 1591359184:0;g co components/certificate-modal/LyonCertificateModal.tsx
+: 1591359481:0;g d
+: 1591359867:0;yarn dev
+: 1591359978:0;g a
+: 1591359986:0;g c -m "update types"
+: 1591359987:0;g bnc
+: 1591359989:0;g ps origin feature-profile-reward-certificate
+: 1591360059:0;g a
+: 1591360067:0;g c -m "update desc and uuid"
+: 1591360078:0;g bnc
+: 1591360081:0;g ps origin feature-profile-reward-certificate
+: 1591360212:0;g d
+: 1591360277:0;yarn dev
+: 1591360389:0;g d
+: 1591360415:0;g st
+: 1591360420:0;g d
+: 1591360421:0;g s
+: 1591361292:0;g a
+: 1591361319:0;g c -m "update hard coded data and check first for event participants"
+: 1591361321:0;g bnc
+: 1591361323:0;g ps origin feature-profile-reward-certificate
+: 1591362044:0;g a
+: 1591362058:0;g c -m "remove the optional map"
+: 1591362059:0;g bnc
+: 1591362061:0;g ps origin feature-profile-reward-certificate
+: 1591362195:0;g d
+: 1591365253:0;g a
+: 1591365273:0;g c -m "remove the optional type"
+: 1591365274:0;g bnc
+: 1591365282:0;g ps origin feature-profile-reward-certificate
+: 1591365340:0;g d
+: 1591365341:0;g s
+: 1591365343:0;g st
+: 1591431714:0;down
