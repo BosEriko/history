@@ -2,18 +2,19 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/Documents/Codes/Work/lyon/api-server
+cd ~/Documents/Codes/Work/lyon/html-renderer
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +93 src/routes/certificate.ts
-badd +126 src/controllers/certificate.ts
-badd +186 src/models/payloads/certificate.ts
-badd +82 src/controllers/eventParticipant.ts
+badd +37 components/certificate-modal/LyonCertificateModal.tsx
+badd +63 components/certificate-card/LyonCertificateCard/LyonCertificateCardItem/index.tsx
+badd +57 components/post-event/LyonPostEventParticipants/LyonPostEventParticipantsPanelBody/LyonPostEventParticipantsPanelQuiz/index.tsx
+badd +36 components/answer-modal/LyonAnswerModal/index.tsx
+badd +20 components/answer-modal/LyonAnswerModal/LyonAnswerModalQuiz/index.tsx
 argglobal
 %argdel
-edit src/routes/certificate.ts
+edit components/certificate-modal/LyonCertificateModal.tsx
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -32,13 +33,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 19) / 38)
+let s:l = 85 - ((21 * winheight(0) + 19) / 38)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
-normal! 0
-lcd ~/Documents/Codes/Work/lyon/api-server
+85
+normal! 07|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

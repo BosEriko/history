@@ -10676,3 +10676,226 @@ fi
 : 1591365341:0;g s
 : 1591365343:0;g st
 : 1591431714:0;down
+: 1591432686:0;jt work
+: 1591432687:0;la
+: 1591432689:0;cd kuru-anime
+: 1591432691:0;la
+: 1591432694:0;cd discord-bot
+: 1591432697:0;la
+: 1591432698:0;vi
+: 1591432703:0;yarn dev
+: 1591432908:0;yarn add @types/discord
+: 1591433013:0;g a
+: 1591433048:0;g c -m "[Hotfix] Add source type on the linter option and change some require to import"
+: 1591433049:0;g bnc
+: 1591433052:0;g ps origin master
+: 1591433330:0;g d
+: 1591433336:0;g lol
+: 1591433344:0;g revert master
+: 1591433350:0;g revert 678eb31
+: 1591433357:0;g reset 678eb31
+: 1591433358:0;g d
+: 1591433367:0;g st
+: 1591433378:0;g lol
+: 1591433410:0;g revert 678eb31
+: 1591433458:0;g ps origin master
+: 1591433495:0;git reset --hard origin/master
+: 1591433506:0;g lol
+: 1591433516:0;g revert 18aab8b
+: 1591433540:0;g lol
+: 1591433546:0;g ps origin master
+: 1591488616:0;jt work
+: 1591488616:0;la
+: 1591488618:0;cd kuru-anime
+: 1591488618:0;la
+: 1591488626:0;mkdir rails-server
+: 1591488630:0;rm -rf rails-server
+: 1591488818:0;ruby --version
+: 1591488873:0;vi Dockerfile
+: 1591488903:0;la
+: 1591488904:0;cd rails-api
+: 1591488925:0;vi
+: 1591489117:0;jt dotfiles
+: 1591489156:0;la
+: 1591489549:0;docker-compose run web rails new . --api --force --no-deps --database=postgresql
+: 1591490104:0;la
+: 1591490116:0;dr-web rails start
+: 1591490733:0;docker-compose build
+: 1591490753:0;vi
+: 1591490772:0;la
+: 1591490791:0;vi
+: 1591490810:0;docker-compose build
+: 1591490819:0;vi
+: 1591490823:0;la
+: 1591490824:0;..
+: 1591490825:0;la
+: 1591490827:0;cd rails-api
+: 1591490827:0;la
+: 1591490828:0;..
+: 1591490830:0;rm -rf rails-api
+: 1591490834:0;la
+: 1591490836:0;mkdir rails-api
+: 1591582811:0;jt personal
+: 1591582811:0;la
+: 1591582814:0;jt work
+: 1591582815:0;la
+: 1591582820:0;cd lyon
+: 1591582822:0;cd api-server
+: 1591582823:0;la
+: 1591582831:0;yarn dev
+: 1591582836:0;../html-renderer
+: 1591582842:0;yarn dev
+: 1591585551:0;vi
+: 1591590839:0;g d
+: 1591591576:0;eslint
+: 1591591579:0;eslint .
+: 1591591614:0;yarn lint:utils
+: 1591595342:0;g d
+: 1591597460:0;vi
+: 1591597775:0;yarn dev
+: 1591598728:0;vi
+: 1591598881:0;g a
+: 1591598893:0;g c -m "turn the cpd units into a number"
+: 1591598896:0;g a
+: 1591598913:0;yarn dev
+: 1591598914:0;g a
+: 1591598928:0;g c -m "add conditions to avoid errors"
+: 1591598929:0;g bnc
+: 1591598938:0;g ps origin feature-profile-reward-certificate
+: 1591605430:0;gtop
+: 1591613469:0;..
+: 1591613470:0;la
+: 1591613470:0;..
+: 1591613471:0;la
+: 1591613477:0;rm -rf .DS_Store
+: 1591613480:0;la
+: 1591613488:0;cd kuru-anime
+: 1591613490:0;la
+: 1591613494:0;rm -rf rails-api
+: 1591614121:0;la
+: 1591614145:0;g clone git@github.com:kuru-project/main-website-server.git
+: 1591614153:0;g clone git@github.com:kuru-project/main-website-client.git
+: 1591614166:0;la
+: 1591614207:0;mkdir website
+: 1591614213:0;mv main-website-client website/client
+: 1591614218:0;mv main-website-server website/server
+: 1591614223:0;..
+: 1591614224:0;la
+: 1591614227:0;cd kuru-anime
+: 1591614228:0;la
+: 1591614230:0;rm -rf website
+: 1591614255:0;la
+: 1591614257:0;git clone --recurse-submodules https://github.com/kuru-project/main-website.git
+: 1591614278:0;la
+: 1591614281:0;cd main-website
+: 1591614281:0;la
+: 1591614284:0;cd server
+: 1591614289:0;g pl origin master
+: 1591614294:0;vi
+: 1591614315:0;yarn dev
+: 1591614323:0;yarn install
+: 1591614326:0;yarn dev
+: 1591614404:0;la
+: 1591614405:0;g a
+: 1591614422:0;g c -m "[Hotfix] Add default port when PORT is unavailable"
+: 1591614424:0;g bnc
+: 1591614462:0;g lol
+: 1591614470:0;g co master
+: 1591614481:0;g lol
+: 1591614492:0;g a
+: 1591614497:0;g c -m "[Hotfix] Add default port when PORT is unavailable"
+: 1591614503:0;g ps origin master
+: 1591614507:0;la
+: 1591614509:0;g so
+: 1591614523:0;/
+: 1591614529:0;la
+: 1591614543:0;jt work
+: 1591614543:0;la
+: 1591614544:0;cd kuru-anime
+: 1591614545:0;la
+: 1591614546:0;cd main-website
+: 1591614547:0;la
+: 1591614549:0;cd server
+: 1591614549:0;la
+: 1591614552:0;g remote -v
+: 1591614557:0;g lol
+: 1591614582:0;g ps origin master
+: 1591614595:0;g lol
+: 1591614598:0;g remote -v
+: 1591614620:0;g so
+: 1591614625:0;g ps origin master
+: 1591673332:0;jt work
+: 1591673333:0;la
+: 1591673336:0;cd lyon
+: 1591673336:0;la
+: 1591673339:0;cd api-server
+: 1591673345:0;g bnc
+: 1591673348:0;g pl origin feature-profile-reward-certificate
+: 1591673358:0;vi
+: 1591673365:0;yarn dev
+: 1591673374:0;../html-renderer
+: 1591673376:0;g bnc
+: 1591673389:0;g pl origin feature-profile-reward-certificate
+: 1591673407:0;vi
+: 1591673414:0;yarn dev
+: 1591673507:0;g a
+: 1591673525:0;g c -m "move certificate controller to its own folder"
+: 1591673527:0;g bnc
+: 1591673532:0;g ps origin feature-profile-reward-certificate
+: 1591675617:0;g a
+: 1591675643:0;g c -m "getCertificateSignatoryById was moved to its own file"
+: 1591675644:0;g bnc
+: 1591675647:0;g ps origin feature-profile-reward-certificate
+: 1591675852:0;g a
+: 1591675865:0;g c -m "getCertificateSignatoryByProviderId was moved to its own file"
+: 1591675870:0;g bnc
+: 1591675872:0;g ps origin feature-profile-reward-certificate
+: 1591677276:0;g d
+: 1591677397:0;vi
+: 1591680451:0;g d
+: 1591680466:0;g s
+: 1591680478:0;g co src/controllers
+: 1591680486:0;la
+: 1591680489:0;g s
+: 1591680494:0;g co src/routes
+: 1591680497:0;g clean -fd
+: 1591680500:0;g s
+: 1591681089:0;g lol
+: 1591681292:0;g a
+: 1591681311:0;g reset
+: 1591681312:0;g a
+: 1591681325:0;g c -m "rename getProfileEventParticipatedController"
+: 1591681393:0;g a
+: 1591681405:0;g c -m "rename getProfileProviderSubscriptionsController"
+: 1591681493:0;g a
+: 1591681506:0;g d
+: 1591681508:0;g a
+: 1591681511:0;g s
+: 1591681535:0;g c -m "rename getProfileIndustrySubscriptionsController"
+: 1591681536:0;g bnc
+: 1591681538:0;g lol
+: 1591681542:0;g ps origin feature-profile-reward-certificate
+: 1591681609:0;g a
+: 1591681626:0;g c -m "rename getCertificateSignatoryByIdController"
+: 1591681697:0;g a
+: 1591681732:0;g c -m "rename getCertificateSignatoryByProviderIdController"
+: 1591681734:0;g bnc
+: 1591681737:0;g ps origin feature-profile-reward-certificate
+: 1591682124:0;g a
+: 1591682142:0;g c -m "move createCertificateSignatoryController to its own file"
+: 1591682330:0;g a
+: 1591682349:0;g c -m "move updateCertificateSignatoryController to its own file"
+: 1591682652:0;g a
+: 1591682675:0;g c -m "move deleteCertificateSignatoryController to its own file"
+: 1591682678:0;g bnc
+: 1591682681:0;g ps origin feature-profile-reward-certificate
+: 1591682808:0;g d
+: 1591682810:0;g s
+: 1591683005:0;g a
+: 1591683026:0;g c -m "move readCertificateByIdController to its own file"
+: 1591683527:0;g a
+: 1591683543:0;g c -m "move readCertificatesForUserController to its own file"
+: 1591683545:0;g bnc
+: 1591683547:0;g ps origin feature-profile-reward-certificate
+: 1591686772:0;yarn dev
+: 1591692642:0;down
