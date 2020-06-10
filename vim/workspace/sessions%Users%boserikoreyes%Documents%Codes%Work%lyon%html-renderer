@@ -7,11 +7,10 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +37 components/certificate-modal/LyonCertificateModal.tsx
-badd +63 components/certificate-card/LyonCertificateCard/LyonCertificateCardItem/index.tsx
-badd +57 components/post-event/LyonPostEventParticipants/LyonPostEventParticipantsPanelBody/LyonPostEventParticipantsPanelQuiz/index.tsx
-badd +36 components/answer-modal/LyonAnswerModal/index.tsx
-badd +20 components/answer-modal/LyonAnswerModal/LyonAnswerModalQuiz/index.tsx
+badd +77 components/certificate-modal/LyonCertificateModal.tsx
+badd +17 components/certificate-modal/LyonCertificateModalCertificateTitle/index.tsx
+badd +16 components/certificate-template/LyonCertificate/LyonBordeauxTemplate/LyonBordeauxTemplateCertificateNumber/index.tsx
+badd +18 components/certificate-template/LyonCertificate/LyonBordeauxTemplate/LyonBordeauxTemplateCpdUnitsText/index.tsx
 argglobal
 %argdel
 edit components/certificate-modal/LyonCertificateModal.tsx
@@ -33,12 +32,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 85 - ((21 * winheight(0) + 19) / 38)
+let s:l = 77 - ((16 * winheight(0) + 19) / 38)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-85
-normal! 07|
+77
+normal! 09|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

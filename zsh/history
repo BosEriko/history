@@ -10899,3 +10899,158 @@ fi
 : 1591683547:0;g ps origin feature-profile-reward-certificate
 : 1591686772:0;yarn dev
 : 1591692642:0;down
+: 1591744108:0;jt personal
+: 1591744108:0;la
+: 1591744111:0;jt work
+: 1591744111:0;la
+: 1591744118:0;cd kuru-anime
+: 1591744119:0;la
+: 1591744120:0;cd main-website
+: 1591744120:0;la
+: 1591744122:0;cd server
+: 1591744123:0;la
+: 1591744128:0;vi
+: 1591744143:0;yarn dev
+: 1591744468:0;g pl origin master
+: 1591744476:0;g pl
+: 1591744540:0;g co issue-67-Task_Setup_Prisma
+: 1591744612:0;node --version
+: 1591744662:0;yarn add --dev @prisma/cli
+: 1591744704:0;g a
+: 1591744732:0;g c -m "Install Prisma and add a Prisma script starter"
+: 1591744734:0;g bnc
+: 1591744737:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591744778:0;npx prisma init
+: 1591744904:0;psql --command="\l"
+: 1591744926:0;psql --command="create database kuru_development;"
+: 1591744946:0;psql --command="\l"
+: 1591745047:0;g a
+: 1591745069:0;g c -m "Initialize Prisma 2"
+: 1591745070:0;g bnc
+: 1591745072:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591745168:0;psql --version
+: 1591745184:0;node -v
+: 1591745277:0;g a
+: 1591745287:0;g c -m "add a list of prerequisites"
+: 1591745288:0;g bnc
+: 1591745290:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591745385:0;yarn dev
+: 1591747057:0;jt dotfiles
+: 1591747058:0;vi
+: 1591747102:0;g d
+: 1591747105:0;g st
+: 1591747109:0;g s
+: 1591747121:0;g clean -fd
+: 1591756908:0;jt work
+: 1591758335:0;la
+: 1591758337:0;cd lyon
+: 1591758337:0;la
+: 1591758339:0;cd api-server
+: 1591758347:0;../html-renderer
+: 1591758366:0;vi
+: 1591759580:0;yarn dev
+: 1591767064:0;g d
+: 1591767070:0;g s
+: 1591767099:0;g co components/certificate-modal/LyonCertificateModalCertificateTitle/index.tsx
+: 1591767104:0;g s
+: 1591767115:0;g co components/certificate-template/LyonCertificate/LyonBordeauxTemplate/LyonBordeauxTemplateCertificateNumber/index.tsx
+: 1591767248:0;g a
+: 1591767261:0;g d
+: 1591767269:0;g a
+: 1591767280:0;g c -m "move fake route above"
+: 1591767284:0;g s
+: 1591767291:0;g add public
+: 1591767293:0;g s
+: 1591767295:0;git add .
+: 1591767297:0;g s
+: 1591767303:0;g c -m "update hard coded data"
+: 1591767305:0;g bnc
+: 1591767308:0;g ps origin feature-profile-reward-certificate
+: 1591767453:0;yarn dev
+: 1591767608:0;g a
+: 1591767631:0;g c -m "remove typescript errors"
+: 1591767633:0;g a
+: 1591767639:0;g c -m "update the data under mark"
+: 1591767640:0;g bnc
+: 1591767643:0;g ps origin feature-profile-reward-certificate
+: 1591772707:0;g a
+: 1591772711:0;g s
+: 1591772719:0;g c -m "remove foz and his signature"
+: 1591780799:0;jt work
+: 1591780799:0;la
+: 1591780804:0;cd kuru-anime
+: 1591780805:0;la
+: 1591780806:0;cd main-website
+: 1591780807:0;la
+: 1591780808:0;cd server
+: 1591780964:0;la
+: 1591780965:0;vi
+: 1591781180:0;g a
+: 1591781190:0;g c -m "create a User model in Prisma"
+: 1591781191:0;g bnc
+: 1591781195:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591782198:0;yarn prisma generate
+: 1591782341:0;g a
+: 1591782374:0;g reset
+: 1591782375:0;g a
+: 1591782390:0;g c -m "initiate prisma"
+: 1591782392:0;g bnc
+: 1591782394:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591782454:0;g a
+: 1591782468:0;g c -m "add generate command"
+: 1591782475:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591782687:0;yarn add @types/koa
+: 1591782706:0;g a
+: 1591782717:0;g c -m "add koa types"
+: 1591782718:0;g a
+: 1591782731:0;g reset
+: 1591782732:0;g a
+: 1591782752:0;g c -m "update prisma schema andd instantiate prisma client"
+: 1591782753:0;g a
+: 1591782780:0;g c -m "update the way to call koa into an import"
+: 1591782781:0;g bnc
+: 1591782784:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591783060:0;g a
+: 1591783067:0;g c -m "move prisma to its own fiel"
+: 1591783068:0;g bnc
+: 1591783071:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591783242:0;node src/script.ts
+: 1591783265:0;ts-node src/script.ts
+: 1591783704:0;g a
+: 1591783712:0;g c -m "add a way to add user"
+: 1591783715:0;npx prisma introspect
+: 1591783975:0;yarn prisma:migrate
+: 1591783994:0;g a
+: 1591784006:0;g c -m "add migrate and introspect to package.json"
+: 1591784007:0;g bnc
+: 1591784009:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591784031:0;yarn prisma:migrate up
+: 1591784039:0;yarn prisma:migrate up --experimental
+: 1591784061:0;g a
+: 1591784067:0;g c -m "update migrate command"
+: 1591784071:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591784212:0;yarn prisma:migrate save --name "Init" --experimental
+: 1591784248:0;g d
+: 1591784256:0;g s
+: 1591784329:0;yarn prisma:migrate --help
+: 1591784347:0;g d
+: 1591784360:0;g a
+: 1591784382:0;g c -m "revert the migrate command"
+: 1591784410:0;g bnc
+: 1591784413:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591784451:0;g a
+: 1591784456:0;g d
+: 1591784458:0;g clean -fd
+: 1591784459:0;g s
+: 1591784471:0;g clean -fd
+: 1591784479:0;rm -rf prisma/migrations
+: 1591784483:0;g a
+: 1591784490:0;g c -m "add an extra line after Post"
+: 1591784512:0;yarn prisma:migrate save --name "Create User and Post model" --experimental
+: 1591784624:0;g a
+: 1591784634:0;g c -m "add instructions on README.md"
+: 1591784638:0;g d
+: 1591784639:0;g s
+: 1591784644:0;yarn prisma:migrate up --experimental
+: 1591784670:0;ts-node src/script.ts
+: 1591785772:0;down
