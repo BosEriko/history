@@ -11054,3 +11054,329 @@ fi
 : 1591784644:0;yarn prisma:migrate up --experimental
 : 1591784670:0;ts-node src/script.ts
 : 1591785772:0;down
+: 1591785831:0;g a
+: 1591785843:0;g lol
+: 1591785847:0;g bnc
+: 1591785849:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591785927:0;g lol
+: 1591786015:0;g a
+: 1591786023:0;g d
+: 1591786024:0;g s
+: 1591786032:0;g c -m "create first migration"
+: 1591786034:0;g bnc
+: 1591786036:0;g ps origin issue-67-Task_Setup_Prisma
+: 1591786080:0;g lol
+: 1591786088:0;vi
+: 1591832239:0;jt work
+: 1591832241:0;cd kuru-anime
+: 1591832242:0;la
+: 1591832244:0;cd main-website
+: 1591832244:0;la
+: 1591832246:0;cd server
+: 1591832247:0;la
+: 1591832253:0;g co master
+: 1591832261:0;g pl origin master
+: 1591832279:0;la
+: 1591832283:0;vi
+: 1591832322:0;g pl
+: 1591832331:0;g co  issue-61-Setup_koa-router
+: 1591847234:0;la
+: 1591847237:0;jt work
+: 1591847237:0;la
+: 1591847240:0;cd lyon/api-server
+: 1591847248:0;../html-renderer
+: 1591850634:0;vi
+: 1591850635:0;yarn dev
+: 1591850637:0;vi
+: 1591850638:0;yarn dev
+: 1591871895:0;g a
+: 1591871916:0;g c -m "emptied out the event accr number"
+: 1591871917:0;g bnc
+: 1591871922:0;g ps origin feature-profile-reward-certificate
+: 1591915057:0;jt work
+: 1591915057:0;la
+: 1591915062:0;cd kuru-anime
+: 1591915063:0;la
+: 1591915070:0;cd main-website
+: 1591915070:0;la
+: 1591915071:0;cd server
+: 1591915072:0;la
+: 1591915236:0;vi
+: 1591915260:0;yarn dev
+: 1591915298:0;yarn install
+: 1591915725:0;yarn dev
+: 1591915872:0;../html
+: 1591915876:0;../client
+: 1591915877:0;la
+: 1591915877:0;vi
+: 1591915927:0;cp ../client/tsconfig.json ./tsconfig.json
+: 1591915959:0;yarn dev
+: 1591915984:0;../../
+: 1591915984:0;la
+: 1591915986:0;cd discord-bot
+: 1591915987:0;la
+: 1591915994:0;jt work
+: 1591915995:0;la
+: 1591915997:0;cd lyon
+: 1591915997:0;la
+: 1591916000:0;cd api-server
+: 1591916002:0;vi
+: 1591916058:0;jt work
+: 1591916058:0;la
+: 1591916069:0;cd lyon
+: 1591916070:0;la
+: 1591916071:0;cd api-server
+: 1591916072:0;la
+: 1591916073:0;vi
+: 1591916086:0;../html-renderer
+: 1591916086:0;la
+: 1591916087:0;vi
+: 1591916104:0;yarn dev
+: 1591916188:0;jt work
+: 1591916189:0;cd lyon
+: 1591916190:0;la
+: 1591916192:0;cd api-server
+: 1591916193:0;la
+: 1591916193:0;vi
+: 1591916228:0;g d
+: 1591916229:0;g s
+: 1591916240:0;yarn dev
+: 1591916285:0;g clean -fd
+: 1591916286:0;la
+: 1591916315:0;yarn dev
+: 1591916924:0;g a
+: 1591916935:0;g c -m "revert the koa call"
+: 1591917442:0;mkdir src/routes
+: 1591917445:0;touch src/routes/index.ts
+: 1591917501:0;g a
+: 1591917513:0;g c -m "change the main file on package.json"
+: 1591917529:0;yarn add koa-router
+: 1591919333:0;g d
+: 1591919335:0;g lol
+: 1591919339:0;g st
+: 1591919342:0;g clean -fd
+: 1591919344:0;g lol
+: 1591919464:0;g d
+: 1591919465:0;g s
+: 1591919467:0;g clean -fd
+: 1591919469:0;g s
+: 1591919472:0;g st
+: 1591919473:0;g d
+: 1591919474:0;g s
+: 1591919601:0;yarn add koa-router
+: 1591919607:0;g d
+: 1591919608:0;g a
+: 1591919619:0;g c -m "install koa-router"
+: 1591919620:0;g bnc
+: 1591919622:0;g ps origin issue-61-Setup_koa-router
+: 1591919708:0;yarn dev
+: 1591919873:0;g d
+: 1591919876:0;yarn dev
+: 1591920122:0;g a
+: 1591920131:0;g c -m "create 2 paths for testing"
+: 1591920132:0;g bnc
+: 1591920135:0;g ps origin issue-61-Setup_koa-router
+: 1591920160:0;g co master
+: 1591928619:0;jt personal
+: 1591928619:0;la
+: 1591928622:0;jt work
+: 1591928622:0;la
+: 1591928624:0;cd kuru-anime
+: 1591928624:0;la
+: 1591928628:0;cd main-website/server
+: 1591929464:0;jt work
+: 1591929464:0;la
+: 1591929468:0;cd lyon
+: 1591929468:0;la
+: 1591929470:0;cd html-renderer
+: 1591929470:0;la
+: 1591929471:0;vi
+: 1591931204:0;g sync master
+: 1591932414:0;jt work
+: 1591932414:0;la
+: 1591932415:0;cd lyon
+: 1591932415:0;la
+: 1591932427:0;cd html-renderer
+: 1591932428:0;la
+: 1591932429:0;vi
+: 1591932620:0;g a
+: 1591932639:0;g c -m "add provider accr number"
+: 1591932640:0;g bnc
+: 1591932643:0;g ps origin feature-profile-reward-certificate
+: 1591940301:0;g pl
+: 1591940315:0;g co issue-66-Task_Use_nodemon_instead_of_ts-node-dev_on_local_server
+: 1591940320:0;vi
+: 1591940345:0;jt work
+: 1591940346:0;la
+: 1591940347:0;lyon
+: 1591940347:0;la
+: 1591940349:0;api-server
+: 1591940353:0;vi
+: 1591940370:0;touch nodemon.json
+: 1591940533:0;yarn add nodemon
+: 1591940551:0;g d
+: 1591940563:0;g a
+: 1591940609:0;yarn dev
+: 1591940613:0;g s
+: 1591940621:0;g c -m "upgrade to nodemon for the ts-node watcher"
+: 1591940622:0;g bnc
+: 1591940624:0;g ps origin issue-66-Task_Use_nodemon_instead_of_ts-node-dev_on_local_server
+: 1591940782:0;g co master
+: 1591941168:0;g sync master
+: 1591941301:0;g lol
+: 1591941314:0;g lol | grep "Finishes"
+: 1591941386:0;g pl && g co issue-62-Setup_dotenv
+: 1591941433:0;g lol
+: 1591941436:0;g co issue-62-Setup_dotenv
+: 1591941446:0;yarn add dotenv
+: 1591941487:0;g a
+: 1591941493:0;g c -m "install dotenv"
+: 1591941509:0;vi
+: 1591941571:0;yarn dev
+: 1591941642:0;g a
+: 1591941650:0;g reset
+: 1591941651:0;g a
+: 1591941662:0;g c -m "add the dotenv initiator"
+: 1591941663:0;g a
+: 1591941681:0;g c -m "remove the coalesce operator"
+: 1591941684:0;g bnc
+: 1591941691:0;g ps origin issue-62-Setup_dotenv
+: 1591941753:0;g co master
+: 1591941883:0;g co issue-62-Setup_dotenv
+: 1591941929:0;g a
+: 1591941937:0;g c -m "Create .env.example"
+: 1591941938:0;g bnc
+: 1591941940:0;g ps origin issue-62-Setup_dotenv
+: 1591951690:0;g co master
+: 1591951693:0;g sync master
+: 1591951892:0;g pl
+: 1591951905:0;g co issue-69-Task_Install_Koa_CORS
+: 1591951919:0;yarn add @koa/cors
+: 1591951924:0;g a
+: 1591951932:0;yarn dev
+: 1591952039:0;vi
+: 1591952113:0;g a
+: 1591952121:0;g c -m "Apply Koa CORS"
+: 1591952122:0;g bnc
+: 1591952124:0;g ps origin issue-69-Task_Install_Koa_CORS
+: 1591952255:0;g co master
+: 1591952278:0;g lol
+: 1591953469:0;../client
+: 1591953470:0;la
+: 1591953700:0;g co master
+: 1591953703:0;g pl origin master
+: 1591953710:0;vi
+: 1591953744:0;g pl
+: 1591954223:0;yarn dev
+: 1591954349:0;jt work
+: 1591954350:0;la
+: 1591954351:0;cd lyon
+: 1591954351:0;la
+: 1591954356:0;cd api-server
+: 1591954359:0;vi
+: 1591954515:0;g sync master
+: 1591954566:0;g a
+: 1591954572:0;g d
+: 1591954573:0;g s
+: 1591954576:0;git add .
+: 1591954577:0;g d
+: 1591954578:0;g s
+: 1591954586:0;g c -m "add the relative paths"
+: 1591954608:0;g lol
+: 1591954616:0;g reset
+: 1591954618:0;g reset routes
+: 1591954620:0;g reset d8e4da2
+: 1591954622:0;g lol
+: 1591954624:0;g d
+: 1591954625:0;g s
+: 1591954629:0;g pl
+: 1591954651:0;g co issue-60-Setup_relative_path_similar_to_main-website-client
+: 1591954654:0;g a
+: 1591954656:0;git add .
+: 1591954659:0;g c -m "add the relative paths"
+: 1591954674:0;g lol
+: 1591954677:0;g bnc
+: 1591954679:0;g ps origin issue-60-Setup_relative_path_similar_to_main-website-client
+: 1591954853:0;g co master
+: 1591954857:0;g sync master
+: 1591955849:0;g d
+: 1591955851:0;g st
+: 1591955853:0;g sync master
+: 1591955879:0;g pl
+: 1591955897:0;g co issue-56-Redirect_people_going_to_api_kuru-anime_com_to_web_kuru-anime_com
+: 1591955900:0;g st apply
+: 1591955902:0;g d
+: 1591955904:0;g a
+: 1591955912:0;g s
+: 1591955917:0;g c -m "add the redirect"
+: 1591955918:0;g bnc
+: 1591955921:0;g ps origin issue-56-Redirect_people_going_to_api_kuru-anime_com_to_web_kuru-anime_com
+: 1591956146:0;g co master
+: 1591956149:0;g sync master
+: 1591956206:0;g pl
+: 1591956325:0;g co ssue-63-Add_eslintrc_js -> origin/issue-63-Add_eslintrc_js
+: 1591956339:0;g co issue-63-Add_eslintrc_js -> origin/issue-63-Add_eslintrc_js
+: 1591956350:0;g co issue-63-Add_eslintrc_js
+: 1591956401:0;../client
+: 1591956402:0;vi
+: 1591956521:0;g d
+: 1591956523:0;g st
+: 1591956583:0;la
+: 1591956595:0;jt work
+: 1591956595:0;la
+: 1591956597:0;cd lyon
+: 1591956597:0;la
+: 1591956601:0;cd api-server
+: 1591956602:0;la
+: 1591956622:0;touch .eslintrc.js
+: 1591957149:0;g a
+: 1591957159:0;g c -m "create an eslintrc file"
+: 1591957162:0;g a
+: 1591957179:0;g c -m "add check:syntax command"
+: 1591957181:0;g a
+: 1591957211:0;g reset
+: 1591957213:0;g a
+: 1591957221:0;g reset
+: 1591957222:0;yarn install
+: 1591957401:0;g a
+: 1591957415:0;g c -m "install eslint dependencies"
+: 1591957419:0;g lol
+: 1591957421:0;g bnc
+: 1591957423:0;g ps origin issue-63-Add_eslintrc_js
+: 1591957645:0;g co master
+: 1591957653:0;g sync master
+: 1591960847:0;jt personal
+: 1591960847:0;la
+: 1591960850:0;mkdir test
+: 1591960857:0;mv test float-layout
+: 1591960859:0;cd float-layout
+: 1591960860:0;vi
+: 1591961067:0;bos -h
+: 1591961073:0;bos
+: 1591961075:0;bos --help
+: 1591961089:0;bos -a browser
+: 1591961314:0;la
+: 1591961315:0;..
+: 1591961316:0;la
+: 1591961318:0;rm -rf float-layout
+: 1591961321:0;lolcat
+: 1591961328:0;echo "test" |lolcat
+: 1591961350:0;figlet "Norly" | lolcat
+: 1591961353:0;figlet "test"
+: 1591961358:0;ruby --version
+: 1591961365:0;jt dotfiles
+: 1591961366:0;la
+: 1591961367:0;vi
+: 1591961375:0;brew install lolcat
+: 1592037642:0;jt work
+: 1592037642:0;la
+: 1592037643:0;cd kuru-anime
+: 1592037644:0;la
+: 1592037646:0;cd main-website
+: 1592037646:0;la
+: 1592037648:0;cd client
+: 1592037649:0;la
+: 1592037650:0;vi
+: 1592037676:0;yarn dev
+: 1592037679:0;yarn install
+: 1592037695:0;down
