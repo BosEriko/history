@@ -325,12 +325,10 @@ fi
 : 1575975776:0;sh ~/dotfiles/generate.sh
 : 1575975791:0;bos -a now
 : 1575975795:0;bos -a deploy
-: 1575975940:0;bos -a browser
 : 1575975942:0;bos -a md
 : 1575975945:0;bos -a md .
 : 1575975990:0;brew cask install typora
 : 1575976044:0;g g "add typora to brew install"
-: 1575976106:0;bos --help
 : 1576066042:0;g g "update apps.md"
 : 1576066512:0;g g "add hotkey to foreground"
 : 1576155087:0;cd Maven
@@ -532,7 +530,6 @@ fi
 : 1577281449:0;mv bin/cli bin/befr-cli
 : 1577281505:0;chmod +x bin/befr-cli
 : 1577281545:0;less ~/dotfiles/install.sh
-: 1577281554:0;rbenv rehash
 : 1577281616:0;rm -rf /Users/boseriko/.rbenv/shims/.rbenv-shim
 : 1577281619:0;gem uninstall befr; gem build befr.gemspec; gem install befr-0.0.5.gem
 : 1577281633:0;befr-cli
@@ -575,8 +572,6 @@ fi
 : 1577361927:0;g g "update source path"
 : 1577362071:0;g g "WIP - update name of csv backup"
 : 1577362139:0;g g "WIP - remove the todo comment"
-: 1577363256:0;rake db:create
-: 1577363268:0;rake db:drop
 : 1577363293:0;g g "WIP - update backup name"
 : 1577363318:0;rake db:oneoff:update_catalog_item_prices\["oneoff/3_catalog_item_new_prices_dec_2019.csv"\]
 : 1577363419:0;script/backpack -R
@@ -656,7 +651,6 @@ fi
 : 1577518069:0;g g "add typescript on the install script"
 : 1577520148:0;g g "remove lock files"
 : 1577520195:0;yarn global add typescript
-: 1577520209:0;rm -rf yarn.lock
 : 1577520230:0;tsc --init
 : 1577520728:0;git rm -rf public
 : 1577520812:0;g g "add typescript support"
@@ -727,7 +721,6 @@ fi
 : 1577763100:0;cd glootie
 : 1577766217:0;git commit -m "[Hotfix] Add StackShare to README.md"
 : 1577768005:0;g g "add a way to save message to firestore"
-: 1577768770:0;g co src
 : 1577782369:0;g g "add constant for the table name"
 : 1577792331:0;g g "add users and servers on the constants\
 "
@@ -773,7 +766,6 @@ fi
 : 1577940579:0;dev.sh
 : 1577940607:0;git commit -m "[Hotfix] make dev.sh executable"
 : 1577945980:0;rm -rf Incredibles\ 2\ \(2018\)\ \[BluRay\]\ \[720p\]\ \[YTS.AM\] She\'s\ Out\ of\ My\ League\ \(2010\)
-: 1577946042:0;open .
 : 1577975053:0;g g "add api only and devise configuration on doorkeeper initalizer"
 : 1577977912:0;g reset   #\
 
@@ -928,7 +920,6 @@ TAGLINE="El Psy Congroo\
 : 1578798675:0;g lol | grep "[Finish\
 "
 : 1578798679:0;g lol | grep "[Finish"
-: 1578798686:0;g lol | grep "Finishes"
 : 1578798701:0;g lol | grep "Hotfix"
 : 1578798715:0;g lol | grep "Finish"
 : 1578799020:0;g lol | grep -m 1 "Finish"
@@ -1017,8 +1008,6 @@ TAGLINE="El Psy Congroo\
 : 1579405298:0;rm -rf test-devise
 : 1579405302:0;rails new test-devise --api
 : 1579405465:0;cd test-devise
-: 1579405501:0;bundle install
-: 1579405513:0;rails s
 : 1579405569:0;rails g devise_token_auth:install User auth
 : 1579405615:0;rails db:migrate
 : 1579819643:0;gatsby new jorenrui-design gatsbyjs/gatsby-starter-theme-workspace
@@ -1223,7 +1212,6 @@ TAGLINE="El Psy Congroo\
 : 1580883790:0;g remote add upstream git@github.com:rstacruz/cheatsheets.git
 : 1580883798:0;g pl upstream
 : 1580883835:0;qg lol
-: 1580883945:0;docker-compose build
 : 1580897947:0;g g "remove workspaces and scripts for now"
 : 1580950008:0;g g "remove symlink for zsy_history"
 : 1580950673:0;down && g g "remove .zshenv"
@@ -1279,7 +1267,6 @@ TAGLINE="El Psy Congroo\
 
 : 1581145450:0;ln -s ~/.dotfiles/google-chrome/Bookmarks ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
 : 1581147322:0;down && g g "update personal script"
-: 1581147476:0;bos
 : 1581147482:0;bos -vs
 : 1581147484:0;bos -gc
 : 1581147487:0;bos -cpu
@@ -1324,196 +1311,55 @@ TAGLINE="El Psy Congroo\
 : 1581237831:0;down && g g "fix links" && up
 : 1581241613:0;down && g g "remove coc install script" && up
 : 1581242422:0;down && g g "define coc" && up
-: 1581246127:0;vi
-: 1581246349:0;jt dotfiles
-: 1581246377:0;vi
-: 1581246387:0;g d
-: 1581246391:0;vi
 : 1581246401:0;down && g g "remove coc" up
-: 1581295397:0;vi
-: 1581301834:0;jt ops
-: 1581301842:0;g pl
-: 1581301869:0;vi
-: 1581301955:0;rc
-: 1581301957:0;rs
-: 1581302327:0;g d
-: 1581302328:0;g s
 : 1581302331:0;vi consoe.out
 : 1581302337:0;vi console.out
 : 1581302596:0;rake catalog_item:unique
-: 1581302601:0;rake catalog_items:unique
-: 1581302695:0;open tmp/catalog_item_makes.csv
-: 1581302717:0;rake catalog_items:unique
-: 1581303328:0;vi
-: 1581303353:0;rake catalog_items:unique
-: 1581303616:0;open tmp/catalog_item_makes.csv
-: 1581303649:0;rake catalog_items:unique
-: 1581303736:0;open tmp/catalog_item_makes.csv
-: 1581303783:0;rake catalog_items:unique
-: 1581303794:0;open tmp/catalog_item_makes.csv
-: 1581303821:0;rake catalog_items:unique
-: 1581304102:0;vi tmp/catalog_item_makes.csv
 : 1581304159:0;code tmp/catalog_item_makes.csv
-: 1581304250:0;rake catalog_items:unique
-: 1581304299:0;g st
 : 1581304366:0;rake catalog_items:export\[185\]
-: 1581304446:0;rake catalog_items:unique
-: 1581304460:0;vi tmp/catalog_item_makes.csv
-: 1581304469:0;open tmp/catalog_item_makes.csv
 : 1581304497:0;rake catalog_items:unique
-: 1581304634:0;rake catalog_items:makes
-: 1581304643:0;vi
-: 1581304797:0;rake catalog_items:makes
 : 1581304916:0;open tmp/catalog_item_makes.csv
 : 1581304927:0;vi tmp/catalog_item_makes.csv
-: 1581304966:0;open tmp
 : 1581305088:0;rake catalog_items:makes
 : 1581305113:0;open tmp
-: 1581305232:0;g st
-: 1581305256:0;vi
-: 1581314789:0;jt dotfiles
-: 1581314793:0;vi
-: 1581314862:0;g d
-: 1581314951:0;brew install koekeishiya/formulae/skhd
-: 1581315156:0;g d
 : 1581315181:0;skhd
 : 1581315197:0;touch skhdrc
 : 1581315419:0;touch ~/.dotfiles/skhdrc
-: 1581315420:0;g d
 : 1581315583:0;down && g g "add skhdrc" && down
-: 1581315875:0;vi
 : 1581316673:0;ln -s ~/.dotfiles/skhdrc ~/.skhdrc\
 
-: 1581321395:0;g d
-: 1581321399:0;down
 : 1581323359:0;ln -s ~/.dotfiles/skhdrc ~/.skhdrc
 : 1581323368:0;brew install koekeishiya/formulae/skhd
-: 1581323383:0;jt dotfiles
-: 1581323385:0;vi
 : 1581323451:0;brew services start skhd
-: 1581324905:0;jt dotfiles
-: 1581324907:0;vi
-: 1581326472:0;g d
-: 1581327031:0;brew services restart skhd
 : 1581327328:0;~/Scripts/qtb.sh
 : 1581327680:0;brew install pipes-sh
 : 1581327702:0;pipes-sh
 : 1581327739:0;pipes.sh
-: 1581327847:0;g d
 : 1581327864:0;down && g g "add pipes.sh" && up
 : 1581328324:0;brew services restart skhd
-: 1581328379:0;g d
 : 1581331538:0;down && g g "add hotkeys for skhd" && up
-: 1581335785:0;g d
-: 1581335788:0;down
-: 1581335908:0;g d
-: 1581335910:0;down
-: 1581336003:0;jt personal
-: 1581336004:0;la
 : 1581336048:0;jt barangay
 : 1581336052:0;barangay
-: 1581336053:0;la
-: 1581336057:0;server
-: 1581336061:0;vi
-: 1581336117:0;yarn start
-: 1581336198:0;jt personal
-: 1581336201:0;jt dotfiles
-: 1581336202:0;vi
 : 1581336281:0;brew install jq
-: 1581336420:0;g d
 : 1581336441:0;down && g g "add jq and add hotkey for moving window to a new screen"
-: 1581336665:0;g d
 : 1581336694:0;down && g g "add create, destroy and fast move desktop" && up
-: 1581410504:0;bos -a skhd-keys
-: 1581413283:0;jt personal
-: 1581413284:0;la
-: 1581423416:0;jt dotfiles
-: 1581423419:0;g d
-: 1581423521:0;bos -h
-: 1581423533:0;bos -f pipes
-: 1581423546:0;bos -a skhd-keys
-: 1581424453:0;brew services restart yabai
-: 1581424507:0;vi
-: 1581424521:0;g d
-: 1581424524:0;down
-: 1581520020:0;g d
-: 1581520031:0;jt personal
-: 1581520033:0;g d
-: 1581520035:0;g s
-: 1581520039:0;la
-: 1581520041:0;cd barangay
-: 1581520415:0;g d
-: 1581520418:0;down
-: 1581520540:0;..
-: 1581520541:0;la
-: 1581520545:0;cd kuru-anime
-: 1581520545:0;la
-: 1581520550:0;cd website-application
-: 1581520550:0;la
-: 1581520560:0;vi
-: 1581551067:0;bos -a skhd-keys
-: 1581556635:0;vi
-: 1581556641:0;jt dotfiles
-: 1581556642:0;vi
-: 1581556744:0;g d
 : 1581556758:0;down && g g "add colors to zsh" && up
-: 1581642845:0;jt vol
-: 1581642845:0;la
-: 1581642847:0;cd Bos
-: 1581642848:0;la
 : 1581642864:0;rm -rf ._Reyes,\ Bos\ Eriko\ 1902.pdf Reyes,\ Bos\ Eriko\ 1902.pdf
-: 1581642866:0;la
 : 1581642901:0;cd System\ Volume\ Information
-: 1581642901:0;vi
-: 1581642910:0;g d
-: 1581642912:0;la
-: 1581642913:0;..
-: 1581642913:0;la
-: 1581642918:0;~
-: 1581647265:0;ranger
-: 1581647569:0;down
-: 1581647804:0;jt ops
-: 1581647805:0;vi
 : 1581653977:0;rsync -rI /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/ ~/Desktop/saResourcesBackup
 : 1581653996:0;jt Personal
-: 1581653998:0;jt personal
 : 1581654004:0;git clone git@github.com:tsujp/square-macos-windows.git
-: 1581654088:0;~
-: 1581654088:0;la
-: 1581654092:0;..
-: 1581654092:0;la
-: 1581654094:0;..
-: 1581654095:0;la
-: 1581654099:0;..
-: 1581654100:0;la
 : 1581654105:0;/System
 : 1581654112:0;cd /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/
-: 1581654114:0;la
 : 1581654231:0;cp ~/Documents/Codes/Personal/square-macos-windows/DarkAquaAppearance/Edited/DarkAquaAppearance.car DarkAquaAppearance.car
 : 1581654238:0;sudo cp ~/Documents/Codes/Personal/square-macos-windows/DarkAquaAppearance/Edited/DarkAquaAppearance.car DarkAquaAppearance.car
-: 1581654271:0;jt personal
-: 1581654272:0;la
-: 1581654281:0;jt dotfiles
-: 1581654281:0;la
-: 1581654283:0;vi
-: 1581654306:0;brew services restart yabai
-: 1581654455:0;down
-: 1581671818:0;htop
 : 1581732121:0;brew install cmatrix
-: 1581732245:0;cmatrix
-: 1581732253:0;htop
-: 1581732260:0;jt dotfiles
-: 1581732261:0;vi
-: 1581732307:0;g d
 : 1581732407:0;down && g g "add matrix" && up
 : 1581732513:0;brew install fortune && brew install cowsay
 : 1581732559:0;fortune | cowsay
-: 1581732636:0;g d
 : 1581732676:0;down && g g "add fortune and cowsay" && up
-: 1581732742:0;vi
 : 1581732913:0;cowsay -h
 : 1581732919:0;cowsay --help
-: 1581732933:0;cowsay -l
 : 1581732952:0;fortune | cowsay -f bunny
 : 1581732956:0;fortune | cowsay -f cower
 : 1581732960:0;fortune | cowsay -f daemon
@@ -1525,7 +1371,6 @@ TAGLINE="El Psy Congroo\
 : 1581733000:0;cowsay -l && fortune | cowsay -f vader-koala
 : 1581733004:0;cowsay -l && fortune | cowsay -f vader
 : 1581733009:0;cowsay -l && fortune | cowsay -f udder
-: 1581733011:0;cowsay -l && fortune | cowsay -f tux
 : 1581733014:0;cowsay -l && fortune | cowsay -f turtle
 : 1581733018:0;cowsay -l && fortune | cowsay -f turkey
 : 1581733024:0;cowsay -l && fortune | cowsay -f three-eyes
@@ -1533,339 +1378,113 @@ TAGLINE="El Psy Congroo\
 : 1581733037:0;cowsay -l && fortune | cowsay -f surgery
 : 1581733042:0;cowsay -l && fortune | cowsay -f supermilker
 : 1581733048:0;cowsay -l && fortune | cowsay -f small
-: 1581733061:0;cowsay -l && fortune | cowsay -f ghostbusters
-: 1581733067:0;vi
 : 1581733095:0;down && g g "change cowsay to ghostbusters" && up
 : 1581733186:0;shuf [1, 2]
 : 1581733190:0;shuf
-: 1581733252:0;lolcat
-: 1581733254:0;brew install lolcat
-: 1581733269:0;vi
-: 1581733294:0;fortune | cowsay -f ghostbusters | lolcat\
-
-: 1581733299:0;g d
 : 1581733311:0;down && g g "add colors to cowsay" && up
 : 1581733416:0;down && g g "add colors to personal script" && up
-: 1581733597:0;vi
 : 1581733604:0;brew install doge
-: 1581733659:0;g d
 : 1581733668:0;down && g g "add cowsay" && up
-: 1581742823:0;jt personal
-: 1581742824:0;la
 : 1581742853:0;g clone git@github.com:BosEriko/tldr.git
-: 1581743041:0;la
-: 1581743043:0;cd tldr
 : 1581743060:0;git remote add upstream git@github.com:tldr-pages/tldr.git
 : 1581743065:0;g pl upstream master
-: 1581743076:0;g ps -u origin master
-: 1581743105:0;vi
 : 1581743144:0;g br figlet
-: 1581743148:0;g b figlet
 : 1581743165:0;mv pages/linux/figlet.md pages/common/figlet.md
-: 1581743167:0;g d
 : 1581743172:0;g b figlet
 : 1581743174:0;g co figlet
 : 1581743179:0;g ps -u origin figlet
-: 1581743246:0;g ps
-: 1581743251:0;g d
-: 1581743254:0;g lol
-: 1581743255:0;g s
 : 1581743270:0;g g "move figlet to common pages"
-: 1581744776:0;..
-: 1581744777:0;la
 : 1581744780:0;mkdir home
-: 1581744782:0;cd home
-: 1581744783:0;git init
-: 1581744784:0;g so
-: 1581744790:0;vi
 : 1581744794:0;touch README.md
 : 1581744822:0;g add . && g commit -m "Initial Commit"
 : 1581744827:0;g ps -u origin master
-: 1581745123:0;yarn init -y
 : 1581745130:0;g g "add package.json"
 : 1581745225:0;echo "node_modules" >> .gitignore
 : 1581745229:0;g g "add gitignore"
-: 1581746163:0;rm -rf .gitignore
 : 1581746177:0;cp ../barangay/server/.gitignore .gitignore
-: 1581746178:0;g d
 : 1581746197:0;g g "update gitignore"
-: 1581746618:0;yarn add next react react-dom
 : 1581746687:0;g g "add next files"
-: 1581746859:0;mkdir pages
-: 1581746867:0;touch pages/index.tsx
 : 1581746878:0;g g "create a simple page"
-: 1581746948:0;yarn dev
-: 1581746974:0;yarn add --dev typescript @types/react @types/node
 : 1581746990:0;g g "add types for react and node"
-: 1581747042:0;yarn dev
-: 1581747051:0;g d
-: 1581747052:0;g s
-: 1581747071:0;g d
-: 1581747072:0;g s
 : 1581747079:0;g g "add tsconfig and ignore .next"
-: 1581747195:0;yarn build
-: 1581747213:0;g s
-: 1581747794:0;jt dotfiles
-: 1581747795:0;vi
 : 1581747820:0;now
 : 1581747873:0;npm i -g now@latest
-: 1581747898:0;g d
 : 1581747903:0;g g "add a deploy script"
-: 1581748283:0;jt dotfiles
-: 1581748286:0;vi
-: 1581748868:0;g d
-: 1581748880:0;yarn start
-: 1581748951:0;g d
-: 1581748963:0;yarn dev
-: 1581748987:0;vi
-: 1581749000:0;yarn deploy
-: 1581749038:0;g d
-: 1581749040:0;g s
-: 1581749053:0;ganp
 : 1581749068:0;g commit -m "add .now to gitignore" && g ps
-: 1581749115:0;g d
 : 1581749121:0;g g "update the index page"
 : 1581749185:0;yarn add now
-: 1581749201:0;g d
 : 1581749208:0;g g "add now to the list of packages needed"
-: 1581749824:0;down
-: 1581752192:0;jt dotfiles
-: 1581752198:0;vi
-: 1581752236:0;jt dotfiles
-: 1581752237:0;la
-: 1581752238:0;vi
-: 1581752897:0;jt dotfiles
-: 1581752898:0;vi
-: 1581752921:0;g d
 : 1581752934:0;down && g g "move cowsay so that tmux loads first" && up
 : 1581821072:0;brew install stow
-: 1581821090:0;jt dotfiles
-: 1581821090:0;la
-: 1581821091:0;vi
-: 1581821101:0;g d
 : 1581821132:0;git add install/modules/brew.sh
 : 1581821144:0;g commit -m "add stow to brew"
-: 1581821145:0;g ps
-: 1581821191:0;tldr stow
-: 1581821768:0;jt personal
 : 1581822492:0;stow --version
-: 1581822501:0;jt dotfiles
 : 1581822505:0;touch bos-test
 : 1581822517:0;stow bos-test
-: 1581822524:0;la
 : 1581822529:0;rm -rf bos-test
-: 1581822564:0;la
-: 1581822573:0;g d
-: 1581822576:0;down
-: 1581822601:0;mkdir test
 : 1581822614:0;touch test/test
 : 1581822616:0;stow test
-: 1581822620:0;~
-: 1581822621:0;ls -a
-: 1581822632:0;rm -rf test
-: 1581822633:0;la
-: 1581822634:0;ls -a
-: 1581822642:0;jt dotfiles
-: 1581822643:0;la
-: 1581822644:0;g d
-: 1581822646:0;g s
 : 1581822651:0;rm -rf test
-: 1581822652:0;la
-: 1581822654:0;g d
-: 1581822655:0;g s
-: 1581822659:0;down
-: 1581852249:0;jt personal
-: 1581852252:0;la
-: 1581852330:0;tldr figlet
-: 1581852609:0;~
-: 1581852760:0;jt personal
-: 1581852760:0;la
-: 1581854132:0;tree
-: 1581854215:0;la
-: 1581854219:0;tldr tree
 : 1581854227:0;tree -d
 : 1581854231:0;tldr tree
-: 1581854818:0;jt dotfiles
-: 1581854833:0;la
-: 1581854834:0;vi
-: 1581858373:0;g d
-: 1581858383:0;mkdir stow-test
 : 1581858395:0;touch ~/stow-test-file
-: 1581858400:0;cd ~
-: 1581858401:0;la
-: 1581858431:0;rm -rf stow-test
-: 1581858431:0;la
-: 1581858440:0;g d
-: 1581858444:0;g s
 : 1581858456:0;mkdir stow-test
 : 1581858464:0;echo "test" >> stow-test/stow-test-file
-: 1581858466:0;stow stow-test
 : 1581858486:0;la stow-test
 : 1581858496:0;stow stow-test
 : 1581858507:0;rm ~/stow-test-file && stow stow-test
-: 1581858511:0;g d
-: 1581858512:0;la
 : 1581858518:0;rm -rf stow-test-file
-: 1581858519:0;la
 : 1581858528:0;rm -rf stow-test
-: 1581858529:0;g d
-: 1581858531:0;g s
-: 1581858533:0;g d
-: 1581858534:0;la
-: 1581858536:0;g d
-: 1581858538:0;down
 : 1581904961:0;git --help
 : 1581904964:0;git --help | lolcolor
 : 1581905584:0;brew install lolcolor
-: 1581905797:0;jt dotfiles
-: 1581905798:0;vi
-: 1581905834:0;brew install lolcat
-: 1581905853:0;vi
-: 1581905927:0;brew install lolcat
-: 1581906005:0;git --help | lolcat
 : 1581906018:0;bos -h | lolcat
-: 1581906030:0;figlet "Norly" | lolcat
-: 1581906144:0;g d
 : 1581906157:0;down && g g "add lolcat to the list"
 : 1581909359:0;brew install stow fortune cowsay cmatrix
-: 1581910407:0;jt personalla
-: 1581910409:0;jt ops
-: 1581910410:0;g pl
-: 1581910471:0;vi
-: 1581911631:0;rake catatalog_items:update_make_names\["oneoff/catalog_item_makes_changes_2-17-2020.csv"\]
 : 1581911706:0;rake -t
 : 1581911712:0;rake -T
 : 1581911726:0;rk -T | grep "catalog_items" | lolcat
 : 1581911756:0;rake catatalog_items:update_make_names
-: 1581911781:0;rake catalog_items:update_make_names\["oneoff/catalog_item_makes_changes_2-17-2020.csv"\]
 : 1581911803:0;rails s | lolcat
-: 1581911820:0;vi
-: 1581912191:0;g d
-: 1581912228:0;story_branch create
-: 1581912238:0;g d
 : 1581912243:0;gwip
-: 1581912247:0;ganp
 : 1581912253:0;gwip init
-: 1581912260:0;g bnc
 : 1581912266:0;g ps -u origin rake-task-for-updating-makes-171299753
 : 1581912404:0;rake catatalog_items:update_make_names\["oneoff/catalog_item_makes_changes_2-17-2020.csv"\]
 : 1581912413:0;rake catalog_items:update_make_names\["oneoff/catalog_item_makes_changes_2-17-2020.csv"\]
-: 1581912534:0;rc
-: 1581912795:0;g d
-: 1581912799:0;ganp
 : 1581912804:0;gwip fix grammar
-: 1581912805:0;g ps
-: 1581913265:0;g co master
-: 1581913266:0;g pl
-: 1581913277:0;g lol
 : 1581913286:0;g co hotfix-production
-: 1581913288:0;g pl
-: 1581913315:0;g lol
 : 1581913337:0;g cherry-pick 9d85c7415
-: 1581913338:0;g lol
-: 1581913358:0;g ps
-: 1581913373:0;script/deploy -B --skip-migrations -f
-: 1581913779:0;g lol
-: 1581913786:0;g ps
-: 1581913818:0;script/deploy --skip-migrations -f
-: 1581914061:0;	heroku run console -r staging
 : 1581914155:0;heroku run rake catalog_items:update_make_names\["oneoff/catalog_item_makes_changes_2-17-2020.csv"\] -r staging
 : 1581914196:0;	heroku run console -r staging
 : 1581914402:0;script/deploy production -B --skip-migrations
-: 1581914416:0;rc
 : 1581918531:0;git -h |lolcat
 : 1581918534:0;git -h | lolcat
-: 1581918537:0;lolcat
 : 1581918547:0;echo " test" | lolcat
 : 1581918553:0;git --help | lolcat
-: 1581927052:0;g d
-: 1581927054:0;down
-: 1582023011:0;jt personal
-: 1582023011:0;la
-: 1582023017:0;cd home
-: 1582023018:0;vi
-: 1582024259:0;yarn dev
-: 1582024377:0;down
-: 1582024462:0;yarn add -D tailwindcss autoprefixer @fullhuman/postcss-purgecss
-: 1582024527:0;touch postcss.config.js
-: 1582024628:0;g d
-: 1582024630:0;g s
 : 1582024641:0;g g "create postcss and add tailwind"
-: 1582024647:0;g lol
-: 1582024650:0;g pl
 : 1582024665:0;g co yarn add -D @zeit/next-css
-: 1582024682:0;g co issue-1-Add_TailwindCSS
-: 1582024685:0;g ps
-: 1582024711:0;g co master
-: 1582024721:0;la
-: 1582024722:0;g lol
-: 1582024743:0;g ps
-: 1582024798:0;yarn add -D @zeit/next-css
-: 1582024817:0;g d
-: 1582024825:0;g g "add next-css"
-: 1582024838:0;touch next.config.js
-: 1582024854:0;g g "add next config"
 : 1582024873:0;touch styles.css
-: 1582024884:0;vi
-: 1582024902:0;g d
-: 1582024903:0;g s
-: 1582024907:0;g g "add styles.css"
-: 1582025026:0;yarn dev
-: 1582025273:0;..
-: 1582025278:0;la
 : 1582025281:0;mv home home-old
 : 1582025286:0;npx create-next-app home
-: 1582025358:0;la
 : 1582025367:0;rm -rf home/.git
 : 1582025374:0;mv home-old/.git home
-: 1582025377:0;cd home
-: 1582025378:0;g d
 : 1582025402:0;g g "use the default starter on next"
-: 1582025453:0;vi
-: 1582025471:0;yarn deploy
-: 1582025558:0;vi .gitignore
-: 1582025566:0;yarn dev
-: 1582025600:0;g d
 : 1582025605:0;g g "add deploy script"
-: 1582025682:0;g co issue-1-Add_TailwindCSS
 : 1582025686:0;yarn add -D tailwindcss autoprefixer @fullhuman/postcss-purgecss
-: 1582026202:0;g d
 : 1582026214:0;g g "add tailwindcss, autoprefixer and postcss-purgecss"
-: 1582026253:0;touch postcss.config.js
-: 1582026273:0;g d
-: 1582026274:0;g s
 : 1582026283:0;g g "add postcss config"
 : 1582026309:0;yarn add -D @zeit/next-css
-: 1582026318:0;g d
 : 1582026325:0;g g "add next-css"
 : 1582026349:0;const withCSS = require("@zeit/next-css");\
 \
 module.exports = withCSS({}); fg
 : 1582026356:0;touch next.config.js
-: 1582026367:0;g d
-: 1582026368:0;g s
 : 1582026373:0;g g "add next config"
-: 1582026375:0;yarn dev
 : 1582026399:0;g g "add styles.css"
-: 1582026434:0;la
-: 1582026437:0;vi
-: 1582026459:0;g co master
-: 1582026461:0;g d
-: 1582026463:0;vi
 : 1582026483:0;g co issue-1-Add_TailwindCSS
-: 1582026532:0;git reset --hard origin/master
-: 1582026534:0;g lol
 : 1582026547:0;g g "reset to master"
-: 1582026564:0;g ps --force
-: 1582029823:0;jt dotfiles
-: 1582029823:0;vi
 : 1582030111:0;touch test1 test2
-: 1582030111:0;la
-: 1582030118:0;g d
-: 1582030121:0;g s
 : 1582030125:0;rm -rf test1 test2
-: 1582030129:0;g s
-: 1582030273:0;cp ~/.dotfiles/gitconfig ~/.dotfiles/config/.gitconfig
 : 1582030277:0;mkdir config
 : 1582030279:0;cp ~/.dotfiles/gitconfig ~/.dotfiles/config/.gitconfig
 : 1582030302:0;cp ~/.dotfiles/hyper.js ~/.dotfiles/config/.hyper.js
@@ -1877,576 +1496,143 @@ module.exports = withCSS({}); fg
 : 1582030443:0;mkdir config/Library/Application\ Support/VSCodium/User
 : 1582030475:0;cp ~/.dotfiles/vscodium/settings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/settings.json
 : 1582030492:0;cp ~/.dotfiles/vscodium/keybindings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/keybindings.json
-: 1582030495:0;g s
-: 1582030500:0;down
-: 1582031522:0;la
 : 1582031524:0;la config
-: 1582031524:0;la
 : 1582031567:0;rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc && stow ~/.dotfiles/config
-: 1582031575:0;la
-: 1582031576:0;g d
-: 1582031577:0;g s
 : 1582031582:0;git status
 : 1582031592:0;stow config
-: 1582031643:0;g d
 : 1582031656:0;down && g g "fix the stow command"
 : 1582032230:0;rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc && rm ~/Library/Application\ Support/VSCodium/User/settings.json && rm ~/Library/Application\ Support/VSCodium/User/keybindings.json && (cd ~/.dotfiles && stow config)
-: 1582032472:0;g d
-: 1582032480:0;down
-: 1582076408:0;g d
-: 1582076410:0;g s
-: 1582076413:0;g clean -fd
-: 1582076415:0;g lol
-: 1582076440:0;brew services restart yabai && brew services restart skhd
-: 1582076487:0;g d
-: 1582076494:0;vi
-: 1582076750:0;jt ops
-: 1582076751:0;g pl
 : 1582078780:0;story_branch create
-: 1582078794:0;g bnc
 : 1582078799:0;g ps -u origin rake-task-to-update-catalog-item-details-171346507\
 
-: 1582078890:0;vi
 : 1582079070:0;ganp
 : 1582079080:0;gwip initial rake task
-: 1582079081:0;g ps
 : 1582081001:0;g g "first part"
-: 1582085151:0;g d
 : 1582085173:0;g g "second part"
-: 1582085176:0;rc
 : 1582085501:0;rake catatalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
-: 1582085510:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
-: 1582086073:0;script/backpack -l --skip-assets
-: 1582086764:0;rake db:drop \\
-&& rake db:create \\
-&& script/backpack -R \\
-&& rake db:migrate \\
-&& rails test:prepare \\
-&& rails api:parallel_cache
-: 1582088450:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
-: 1582088474:0;rc
-: 1582088885:0;rs
-: 1582089928:0;g d
 : 1582089936:0;g g "third step"
-: 1582100823:0;jt dotfiles
-: 1582100825:0;g d
-: 1582100826:0;down
-: 1582102029:0;g d
-: 1582102032:0;down
-: 1582102094:0;jt personal
-: 1582102094:0;la
 : 1582102115:0;rm -rf tldr playground girudo gatsby-nuntium firerails devise cheatsheets boseriko.com .DS_Store
-: 1582102147:0;la
-: 1582102456:0;jt dotfiles
-: 1582102470:0;vi
-: 1582102499:0;g d
 : 1582102513:0;down && g g "add skhd to yabai.sh"
-: 1582103040:0;vi
-: 1582103524:0;jt personal
-: 1582103525:0;la
 : 1582103535:0;git clone https://github.com/flutter/flutter.git -b stable ./.flutter
-: 1582103651:0;la
 : 1582103654:0;rm -rf .flutter
-: 1582103660:0;g d
 : 1582103676:0;down && g g "move flutter to its own install script" && up
-: 1582111033:0;la
-: 1582111043:0;vi .zshrc.zwc
 : 1582111053:0;la |grep "."
 : 1582111058:0;la |grep "\."
 : 1582111144:0;rm -rf .nanorc
-: 1582111151:0;jt dotfiles
-: 1582111155:0;vi
-: 1582111651:0;la
-: 1582111653:0;down
-: 1582120832:0;vi
-: 1582120889:0;down
 : 1582120902:0;down && g g "add joplin to list of brew" && brew cask install joplin
 : 1582121300:0;brew install joplin\
 
-: 1582121505:0;joplin
 : 1582121526:0;vi /usr/local/etc/bash_completion.d
-: 1582121560:0;node --version
-: 1582121576:0;joplin
 : 1582121635:0;brew list |grep "joplin"
-: 1582121667:0;joplin
 : 1582121683:0;brew cask uninstall joplin
 : 1582121699:0;brew uninstall joplin
 : 1582121706:0;brew install joplin
-: 1582121750:0;joplin
-: 1582121831:0;jt dotfiles
-: 1582121831:0;vi
-: 1582121899:0;g d
 : 1582121923:0;down && g g "fix joplin" && up
-: 1582159716:0;joplin
-: 1582166196:0;jt ops
-: 1582168288:0;vi
-: 1582168319:0;g log
-: 1582168592:0;bos -h
-: 1582168596:0;bos -a skhd-keys
-: 1582168606:0;jt dotfiles
-: 1582168607:0;vi
-: 1582168641:0;g d
 : 1582168658:0;down && g g "fix the skhdrc" && up
-: 1582187445:0;brew services restart yabai
-: 1582187478:0;jt ops
-: 1582187561:0;script/deploy -B --skip-migrations -f
-: 1582187711:0;jt dotfiles
-: 1582187715:0;g d
 : 1582187729:0;vi 
-: 1582187760:0;brew services restart yabai
-: 1582187775:0;g d
 : 1582187798:0;down && g g "change the unselected windows to white border on yabai"
 : 1582194737:0;brew services restart yabai
-: 1582194926:0;jt personal
-: 1582194927:0;la
 : 1582194932:0;rm -rf home-old
-: 1582194934:0;cd home
-: 1582194935:0;la
-: 1582194936:0;g remote -v
-: 1582194942:0;g co master
-: 1582194950:0;yarn dev
-: 1582194977:0;jt dotfiles
-: 1582194979:0;vi
-: 1582194995:0;g d
 : 1582195012:0;down && g g "update yabai and remove its opacity" && brew services restart yabai
-: 1582202479:0;joplin
-: 1582206727:0;ranger
 : 1582206746:0;ranger --help
-: 1582206770:0;ranger
-: 1582209994:0;vi
-: 1582210351:0;generate.sh
 : 1582210358:0;~/.dotfiles/generate.sh
-: 1582210376:0;g d
 : 1582210386:0;down && g g "and add autocmd"
-: 1582381089:0;vi
-: 1582381235:0;g d
-: 1582381404:0;jt personal
-: 1582381406:0;g d
-: 1582381408:0;la
-: 1582381526:0;joplin
-: 1582381991:0;ranger
-: 1582382330:0;la
 : 1582382333:0;cd tldr
 : 1582382335:0;echo HEAD
 : 1582382342:0;echo $HEAD
-: 1582382347:0;g co master
-: 1582382932:0;jt dotfiles
-: 1582382936:0;g d
-: 1582382939:0;down
-: 1582448436:0;jt personal
-: 1582448436:0;la
-: 1582448439:0;cd barangay
-: 1582448685:0;jt personal
-: 1582448694:0;cd barangay
-: 1582448697:0;cd server
-: 1582448698:0;la
-: 1582448699:0;vi
-: 1582448706:0;la
 : 1582448715:0;yarn build
-: 1582448732:0;yarn watch
-: 1582448735:0;yarn start
-: 1582448869:0;la
-: 1582448870:0;..
-: 1582448871:0;la
 : 1582448874:0;mkdir koa-test
 : 1582448877:0;cd koa-test
-: 1582448877:0;la
-: 1582448879:0;npm init
-: 1582448883:0;yarn init -y
-: 1582448913:0;node --version
-: 1582448915:0;npm --version
-: 1582448920:0;yarn --version
-: 1582448949:0;yarn add koa
 : 1582448960:0;ls node_modules
-: 1582448973:0;vi
-: 1582448999:0;la
 : 1582449002:0;touch app.js
-: 1582449003:0;vi
-: 1582449111:0;jt dotfiles
-: 1582449115:0;vi
-: 1582449189:0;g d
 : 1582449200:0;down && g g "add extra line on plugins of vim"
-: 1582768493:0;la
-: 1582769559:0;jt personal
-: 1582769559:0;vi
-: 1582794793:0;jt ops
-: 1582794794:0;rs
 : 1582795767:0;bos -a skhd-keys
-: 1582796963:0;jt dotfiles
-: 1582796967:0;vi
-: 1582800359:0;g d
-: 1582800405:0;vi
-: 1582800471:0;g d
-: 1582800500:0;vi
-: 1582800753:0;g d
-: 1582800797:0;vi
-: 1582800828:0;g d
-: 1582800838:0;g s
 : 1582800845:0;git add vim tmux config
-: 1582800847:0;g s
 : 1582800855:0;git commit -m "move to xcode theme"
-: 1582800858:0;g ps
-: 1582800878:0;vi
-: 1582801008:0;g d
-: 1582801010:0;down
 : 1582804011:0;Library
-: 1582804012:0;la
 : 1582804021:0;Application\ Support
-: 1582804026:0;la
 : 1582804029:0;Mozilla
-: 1582804030:0;la
 : 1582804037:0;a
-: 1582804038:0;la
-: 1582804041:0;sl
-: 1582804071:0;la
-: 1582804986:0;jt personal
-: 1582804989:0;vi
-: 1582805016:0;jt dotfiles
-: 1582805017:0;vi
 : 1582805810:0;code -h
-: 1582806210:0;vi
-: 1582806301:0;g d
-: 1582806305:0;g s
 : 1582806319:0;git add vscodium config
 : 1582806334:0;git commit -m "move windows setting for vscode to config"
-: 1582806623:0;vi
-: 1582807253:0;g test
 : 1582807256:0;git test
-: 1582807309:0;g test
-: 1582807321:0;vi
-: 1582807347:0;g test
-: 1582807350:0;vi
 : 1582807403:0;g test
-: 1582807405:0;vi
-: 1582807509:0;g d
-: 1582807524:0;g s
 : 1582807530:0;git add zsh/modules config
 : 1582807543:0;git commit -m "move rework on git config"
-: 1582807547:0;down
-: 1582809199:0;vi
-: 1582809316:0;g d
-: 1582809344:0;g s
-: 1582809348:0;git add zsh/modules
 : 1582809359:0;g commit -m "move wtf and go downwards"
-: 1582809362:0;g ps
-: 1582809509:0;vi
-: 1582809594:0;g d
-: 1582809609:0;git add zsh/modules
-: 1582809610:0;g s
 : 1582809637:0;git commit -m "move bnc downwards"
-: 1582809638:0;g ps
-: 1582809668:0;vi
-: 1582809740:0;g d
-: 1582809763:0;g s
 : 1582809769:0;git add zsh/modules
 : 1582809778:0;git commit -m "move branch delete downwards"
-: 1582809791:0;g ps
-: 1582809818:0;vi
-: 1582809871:0;g d
 : 1582809892:0;g a zsh/modules
 : 1582809898:0;git commit -m "move set origin downwards"
-: 1582809899:0;g ps
-: 1582809927:0;vi
-: 1582810304:0;g s
-: 1582810305:0;g d
 : 1582810364:0;down && g g "move sync downwards"
-: 1582860262:0;jt ops
-: 1582860265:0;g pl
-: 1582864103:0;rc
 : 1582877202:0;rs
-: 1582880867:0;vi
-: 1582880891:0;jt dotfiles
-: 1582880892:0;vi
-: 1582884952:0;g d
-: 1582884955:0;down
-: 1582940285:0;jt personal
-: 1582940286:0;la
 : 1582940290:0;cd barangay
-: 1582940292:0;cd server
-: 1582940292:0;la
-: 1582940293:0;vi
-: 1582941038:0;...
 : 1582941043:0;mkdir typescript-practice
 : 1582941046:0;cd typescript-practice
 : 1582941067:0;touch index.html
-: 1582941076:0;vi
-: 1582941247:0;git init
 : 1582941254:0;git add "initial commit"
-: 1582941259:0;git add .
 : 1582941264:0;git commit -m "initial commit"
-: 1582941305:0;git add .
 : 1582941310:0;git commit -m "add script file to index.html"
 : 1582941323:0;git add 
-: 1582941324:0;git add .
 : 1582941328:0;git commit -m "add defer to script"
 : 1582941363:0;touch app.ts
 : 1582941396:0;tsc app.ts
-: 1582941427:0;..
-: 1582941428:0;la
 : 1582941430:0;rm -rf typescript-practice
-: 1582948920:0;jt dotfiles
-: 1582948923:0;vi
-: 1582949005:0;down
-: 1582951249:0;vi
-: 1582961087:0;g d
-: 1582961090:0;g s
 : 1582961095:0;g add zsh/modules
 : 1582961174:0;g commit -m "take out cowsay"
-: 1582961174:0;g ps
-: 1582961235:0;vi
-: 1582961354:0;g a
 : 1582961361:0;g add
-: 1582961365:0;g a
 : 1582961404:0;git commit -m "make the interactive add the default add for git"
-: 1582961407:0;g ps
-: 1582961456:0;vi
-: 1582962811:0;g d
-: 1582962817:0;g a
 : 1582962839:0;g c "add the word add on git help"
 : 1582962852:0;g c -m "add the word add on git help"
-: 1582962854:0;g ps
-: 1582963144:0;g h
-: 1582963152:0;bos -h
-: 1582963167:0;vi
 : 1582963809:0;g dt
-: 1583051313:0;down
-: 1583056955:0;jt dotfiles
-: 1583056960:0;down
-: 1583057006:0;la
-: 1583057044:0;vi
 : 1583057424:0;g g "fix git problems"
 : 1583057456:0;g h
-: 1583057469:0;vi
-: 1583057717:0;g a
 : 1583057744:0;g g "remove unwanted plugins"
-: 1583057830:0;bos -h
-: 1583057836:0;bos -vs install
-: 1583057912:0;bos -h
 : 1583057916:0;bos -vs backup
-: 1583057918:0;g d
-: 1583057919:0;g s
-: 1583057943:0;vi
-: 1583057951:0;down
-: 1583058071:0;vi
-: 1583058162:0;g d
 : 1583058167:0;g g "sort plugins"
-: 1583058249:0;vi
-: 1583058386:0;~
 : 1583058390:0;.history
-: 1583058391:0;la
-: 1583059002:0;g d
-: 1583059024:0;~
-: 1583059025:0;down
-: 1583118624:0;jt dotfiles
-: 1583118625:0;la
-: 1583118626:0;g s
-: 1583118627:0;g d
-: 1583118634:0;../.history
-: 1583118635:0;la
-: 1583118636:0;g d
-: 1583118639:0;jt dotfiles
 : 1583118646:0;g pl -u origin master
-: 1583118651:0;g pl
-: 1583118662:0;g pl origin master
-: 1583118669:0;../.history
-: 1583118672:0;g pl origin master
-: 1583118684:0;g remote -v
-: 1583118689:0;jt dotfiles
-: 1583118693:0;la
-: 1583118695:0;down
-: 1583119093:0;../.history
 : 1583119099:0;git pull -u origin master
-: 1583119116:0;git branch --set-upstream-to=origin/master master
-: 1583119118:0;jt dotfiles
-: 1583119119:0;up
-: 1583119264:0;vi
-: 1583119346:0;g d
 : 1583119366:0;g g "add plug clean on up command"
-: 1583119382:0;up
-: 1583119424:0;vi
-: 1583119455:0;g d
 : 1583119471:0;g g "add a message to vim plugclean"
-: 1583119515:0;vi
 : 1583119615:0;echo $(( $EPOCHSECONDS / 60 / 60 / 24 ))
-: 1583119901:0;bos -vs install
-: 1583119922:0;vi
 : 1583119987:0;brew update && brew upgrade
-: 1583123488:0;jt ops
-: 1583123490:0;g pl
 : 1583126325:0;type g
-: 1583126363:0;vi
-: 1583126486:0;g d
 : 1583126494:0;g g "update the color of git help"
-: 1583126551:0;vi
-: 1583126704:0;g d
-: 1583126754:0;mv ~/.vim/workspace ~/.history/vim/workspace
 : 1583126767:0;mkdir ~/.history/vim
 : 1583126771:0;mv ~/.vim/workspace ~/.history/vim/workspace
-: 1583126794:0;g d
 : 1583126836:0;g g "move workspace to .history"
-: 1583126852:0;vi
-: 1583126858:0;../.history
-: 1583126858:0;la
-: 1583126860:0;g d
-: 1583126862:0;g s
-: 1583126871:0;g a
 : 1583126880:0;g c -m "add vim"
-: 1583126883:0;g ps
-: 1583126914:0;vi
-: 1583126919:0;g d
-: 1583126920:0;g s
-: 1583126939:0;g d
-: 1583126940:0;g s
-: 1583126949:0;jt dotfiles
-: 1583126961:0;vi
-: 1583127079:0;g d
-: 1583127099:0;la
-: 1583127102:0;down
-: 1583127143:0;la
-: 1583127145:0;g d
 : 1583127172:0;g g "update down command to push the whole directory of .history"
 : 1583127261:0;../.history
-: 1583127262:0;la
 : 1583127267:0;touch vim/.keep
-: 1583127269:0;la
 : 1583127281:0;\git add .
-: 1583127283:0;g s
-: 1583127287:0;g reset
-: 1583127289:0;la
-: 1583127292:0;g s
 : 1583127303:0;git add vim
-: 1583127305:0;g s
 : 1583127321:0;g c -m "add .keep to vim so it doesn't get deleted"
-: 1583127322:0;g ps
-: 1583127364:0;vi
-: 1583127559:0;g co rake-task-to-update-catalog-item-details-171346507
-: 1583127566:0;g d
-: 1583127567:0;g s
-: 1583127572:0;g lol
 : 1583127588:0;git reset --hard origin/rake-task-to-update-catalog-item-details-171346507
-: 1583128697:0;g d
 : 1583128721:0;g g "fourth"
-: 1583129200:0;vi
-: 1583129204:0;jt dotfiles
-: 1583129206:0;vi
 : 1583129928:0;g g
 : 1583130039:0;rc
-: 1583137049:0;jt personal
 : 1583137076:0;g co git@github.com:LyonInc/lyon-api-server.git
-: 1583137082:0;g clone git@github.com:LyonInc/lyon-api-server.git
-: 1583137741:0;la
-: 1583137743:0;cd lyon-api-server
-: 1583137744:0;vi
-: 1583138020:0;yarn install
 : 1583138188:0;brew services restart yabai && brew services restart skhd
-: 1583138253:0;code .
 : 1583138672:0;yarn test
-: 1583138743:0;g co develop
-: 1583138744:0;vi
-: 1583138781:0;yarn install
-: 1583138983:0;down
-: 1583207193:0;jt dotfiles
-: 1583207194:0;up
-: 1583213273:0;jt personal
-: 1583213273:0;la
-: 1583213275:0;cd kuru-anime
-: 1583213276:0;la
-: 1583213278:0;cd website-application
-: 1583213279:0;la
-: 1583213281:0;cd client
-: 1583213282:0;la
-: 1583213283:0;..
-: 1583213284:0;la
-: 1583213287:0;..
-: 1583213290:0;cd website-application
-: 1583213291:0;g pl
-: 1583213299:0;cd client
-: 1583213300:0;la
-: 1583213342:0;vi
-: 1583213725:0;la
-: 1583219637:0;down
-: 1583220133:0;la
-: 1583220138:0;..
-: 1583220138:0;la
-: 1583220141:0;..
-: 1583220142:0;la
-: 1583220143:0;..
-: 1583220143:0;la
-: 1583220165:0;g clone git@github.com:kuru-project/main-website-client.git
-: 1583220174:0;la
 : 1583220189:0;mv main-website-client-old
 : 1583220197:0;mv main-website-client main-website-client-old
 : 1583220204:0;mkdir main-website-client
-: 1583220205:0;la
-: 1583220207:0;cd main-website-client
 : 1583220209:0;npm init
-: 1583220211:0;yarn init -y
-: 1583220230:0;git init
 : 1583220233:0;rm -rf .git
-: 1583220234:0;..
 : 1583220255:0;mv main-website-client-old/.git main-website-client/.git
-: 1583220258:0;cd main-website-client
-: 1583220259:0;la
-: 1583220259:0;g d
-: 1583220285:0;la
 : 1583220287:0;yarn add next react react-dom
-: 1583220447:0;la
-: 1583220450:0;vi
-: 1583220522:0;g pl
-: 1583220525:0;g d
-: 1583220527:0;g s
-: 1583220539:0;g fetch
 : 1583220547:0;g co issue-34-Upgrade_to_Next_js_9_for_you_front-end
-: 1583220548:0;la
-: 1583220550:0;g d
-: 1583220569:0;g g "delete most files"
-: 1583220599:0;la
-: 1583220603:0;touch .gitignore
-: 1583220605:0;vi
-: 1583220620:0;g lol
 : 1583220645:0;g reset ded337b
-: 1583220647:0;g d
-: 1583220648:0;g s
-: 1583220650:0;g lol
-: 1583220659:0;g d
-: 1583220660:0;g s
-: 1583220662:0;la
 : 1583220669:0;g g "delete most files"
-: 1583220706:0;vi
 : 1583220721:0;mkdir pages
-: 1583220722:0;la
 : 1583220734:0;touch pages/index.tsx
-: 1583220736:0;vi
-: 1583220745:0;yarn dev
 : 1583220755:0;yarn add --dev typescript @types/react @types/node
-: 1583220765:0;yarn dev
-: 1583220782:0;g a
-: 1583220793:0;vi
-: 1583220836:0;g a
-: 1583220861:0;g d
-: 1583220862:0;g s
-: 1583220868:0;vi
-: 1583220880:0;g s
-: 1583220886:0;vi
-: 1583220906:0;g d
-: 1583220907:0;g s
-: 1583220910:0;vi
-: 1583220922:0;g d
-: 1583220923:0;g s
-: 1583220934:0;g reset
-: 1583220936:0;g s
-: 1583220941:0;vi
-: 1583220948:0;g s
-: 1583220952:0;g a
-: 1583220985:0;g d
-: 1583220986:0;g s
 : 1583220999:0;g rm -rf yarn.lock
-: 1583221001:0;la
-: 1583221003:0;g s
 : 1583221018:0;g c -m "initiate typescript"
-: 1583221019:0;g ps
-: 1583221036:0;g so
-: 1583221043:0;g ps
 : 1583221050:0;git push --set-upstream origin issue-34-Upgrade_to_Next_js_9_for_you_front-end
 : 1583221809:0;g co README.md origin/master
 : 1583221816:0;g co README.md master
@@ -2454,203 +1640,39 @@ module.exports = withCSS({}); fg
 : 1583221826:0;g co origin/master README.md
 : 1583221861:0;git co origin/master -- README.md
 : 1583221866:0;git co master -- README.md
-: 1583221868:0;la
-: 1583221869:0;g d
-: 1583221870:0;g s
-: 1583221872:0;vi
 : 1583221886:0;g g "revert back the README file"
-: 1583222131:0;..
-: 1583222132:0;la
 : 1583222145:0;mv main-website-client-old/.github main-website-client
-: 1583222147:0;la
 : 1583222152:0;main-website-client
-: 1583222152:0;la
-: 1583222153:0;g s
-: 1583222156:0;g st
 : 1583222175:0;g co master -- .github
-: 1583222176:0;g s
 : 1583222189:0;g g "add back the issue and pr templates"
-: 1583222207:0;vi
-: 1583222358:0;g d
-: 1583222360:0;g a
-: 1583222362:0;y
 : 1583222367:0;g g "update package.json"
-: 1583223142:0;vi
-: 1583223584:0;la
-: 1583224527:0;jt ops
-: 1583224529:0;g pl
 : 1583224660:0;g co rake-task-to-update-catalog-item-details-171346507
-: 1583224663:0;vi
-: 1583224763:0;g pl
-: 1583225729:0;vi
 : 1583225763:0;rm -rf ~/.vim/workspace/
-: 1583225774:0;jt dotfiles
-: 1583225775:0;la
-: 1583225776:0;..
-: 1583225777:0;la
-: 1583225779:0;cd .history
-: 1583225780:0;la
 : 1583225782:0;vim
 : 1583225786:0;cd vim
-: 1583225787:0;la
 : 1583225789:0;cd workspace
-: 1583225789:0;la
-: 1583225803:0;vi
 : 1583230441:0;jt peresonal
-: 1583230445:0;jt personal
-: 1583230446:0;la
 : 1583230450:0;cd main-website-client
-: 1583230451:0;vi
-: 1583230504:0;g d
 : 1583230511:0;g g "update README.md"
-: 1583230533:0;vi
-: 1583230552:0;..
-: 1583230553:0;la
 : 1583230558:0;rm -rf main-website-client main-website-client-old
-: 1583230690:0;la
 : 1583230698:0;rm -rf koa-test
-: 1583230701:0;cd kuru-anime
-: 1583230702:0;la
-: 1583230703:0;cd website-application
-: 1583230703:0;la
-: 1583230705:0;cd client
-: 1583230707:0;g pl
-: 1583230774:0;touch sample.env
-: 1583230779:0;la
-: 1583230791:0;g g "[Hotfix] touch sample.env"
-: 1583230804:0;la
-: 1583230807:0;g lol
 : 1583230828:0;g reset Upgrade to Next.js 9 for you front-end
 : 1583230830:0;g reset df6f74c
-: 1583230832:0;g d
-: 1583230833:0;g s
-: 1583230843:0;g clean -fd
-: 1583230844:0;la
-: 1583230848:0;touch sample.env
-: 1583230850:0;la
 : 1583230853:0;g g "[Hotfix] touch sample.env"
-: 1583232448:0;down
-: 1583239238:0;la
-: 1583239241:0;vi
-: 1583239316:0;g d
-: 1583239319:0;vi
 : 1583239341:0;g g "[Hotfix] add team member section on README.md"
-: 1583239523:0;vi
-: 1583247764:0;g pl
 : 1583247809:0;g co issue-39-Host_the_project_on_Zeit_s_Now
-: 1583247814:0;la
-: 1583247815:0;g d
 : 1583247822:0;g g "add export and deploy on the scripts"
-: 1583248497:0;vi
-: 1583249035:0;g co master
-: 1583249037:0;vi
 : 1583249063:0;g g "[Hotfix] add .env to .gitignore"
-: 1583249109:0;g pl
-: 1583249122:0;la
-: 1583249123:0;g d
-: 1583249125:0;g s
-: 1583249126:0;g lol
 : 1583249141:0;g reset 065be98
-: 1583249143:0;la
-: 1583249145:0;g s
-: 1583249148:0;g d
-: 1583249151:0;g st
-: 1583249158:0;g rebase origin/master
-: 1583249161:0;g lol
-: 1583249165:0;g ps
 : 1583249189:0;g ps --force
-: 1583329698:0;down
 : 1583330334:0;brew cask install vlc
-: 1583379006:0;jt ops
-: 1583379009:0;g pl
-: 1583379047:0;vi
-: 1583389068:0;jt personal
-: 1583389068:0;la
-: 1583389071:0;kuru-anime
-: 1583389071:0;la
 : 1583389073:0;web
-: 1583389075:0;website-application
-: 1583389076:0;la
-: 1583389077:0;client
-: 1583389077:0;la
-: 1583389079:0;g pl
-: 1583389088:0;g ps
-: 1583389105:0;la
-: 1583389119:0;vi README.md
-: 1583389369:0;g a
-: 1583389401:0;la
-: 1583389402:0;g s
 : 1583389423:0;g g "[Hotfix] Add Kalpa, Neon and Dante on the README.md contributors"
-: 1583389847:0;vi
-: 1583393047:0;g d
 : 1583393055:0;g g "add merge methods"
-: 1583394929:0;vi
-: 1583396078:0;jt personal
-: 1583396079:0;la
-: 1583396082:0;cd kuru-anime
-: 1583396083:0;la
 : 1583396085:0;website-application
-: 1583396085:0;la
-: 1583396094:0;client
-: 1583396095:0;la
-: 1583396097:0;vi
-: 1583396924:0;g pl
-: 1583396986:0;g ps
-: 1583397098:0;vi README.md
-: 1583397168:0;g a
 : 1583397207:0;g g "[Hotfix] Add AJ on the README.md contributors"
-: 1583398173:0;ls -a
 : 1583398174:0;ls
-: 1583398186:0;ls -a
-: 1583398378:0;~
-: 1583398380:0;ls -a
 : 1583398415:0;vi .gitconfig
-: 1583401689:0;down
-: 1583404536:0;jt personal
-: 1583404536:0;la
-: 1583404541:0;cd kuru-anime
-: 1583404541:0;la
-: 1583404543:0;cd website-application
-: 1583404544:0;la
-: 1583404546:0;cd client
-: 1583411892:0;la
-: 1583411910:0;vi
-: 1583475186:0;jt personal
-: 1583475186:0;la
-: 1583475189:0;cd kuru-anime
-: 1583475189:0;la
-: 1583475190:0;cd website-application
-: 1583475191:0;la
-: 1583475193:0;cd client
-: 1583475195:0;g pl
-: 1583475198:0;g sync master
-: 1583482603:0;jt personal
-: 1583482605:0;jt ops
-: 1583482606:0;la
-: 1583482609:0;vi
-: 1583482691:0;script/backpack -l --skip-assets
-: 1583483581:0;rake db:drop \\
-&& rake db:create \\
-&& script/backpack -R \\
-&& rake db:migrate \\
-&& rails test:prepare \\
-&& rails api:parallel_cache
-: 1583484791:0;vi
-: 1583487602:0;jt personal
-: 1583487604:0;la
-: 1583487607:0;cd kuru-anime
-: 1583487608:0;la
-: 1583487612:0;cd website-application
-: 1583487613:0;cd server
-: 1583487614:0;la
-: 1583491969:0;jt dotfiles
-: 1583491970:0;la
-: 1583491981:0;vi
-: 1583492049:0;g d
-: 1583492059:0;g g "add jake to global yarn"
-: 1583496480:0;g pl
-: 1583496500:0;g lol
-: 1583496516:0;g reset
 : 1583496519:0;g reset if x > 2\
    puts "x is greater than 2"\
 elsif x <= 2 and x!=0\
@@ -2659,847 +1681,167 @@ else\
    puts "I can't guess the number"\
 end
 : 1583496524:0;g reset 26233dd
-: 1583496526:0;g d
-: 1583496529:0;g lol
-: 1583496533:0;g pl
-: 1583496544:0;g lol
-: 1583496555:0;g s
-: 1583496556:0;g d
 : 1583496561:0;g g "add jake to global yarn"
-: 1583506416:0;jt personal
-: 1583506417:0;la
 : 1583506426:0;cd kuru-anime/website-application/client
-: 1583506428:0;vi
-: 1583506454:0;g d
-: 1583506455:0;g pl
-: 1583506469:0;g d
 : 1583506482:0;g g "[Hotfix] Remove the current team members section on the README.md"
-: 1583550782:0;jt personal
-: 1583550783:0;la
-: 1583550785:0;cd kuru-anime
-: 1583550786:0;la
 : 1583550788:0;cd website-application
-: 1583550788:0;la
-: 1583550790:0;cd server
-: 1583550790:0;la
-: 1583550791:0;g pl
-: 1583550795:0;g sync master
-: 1583550832:0;g pl
-: 1583550836:0;g co master
-: 1583550838:0;g sync master
-: 1583552272:0;la
-: 1583552443:0;g pl
 : 1583552461:0;g co issue-50-Rewrite_everything_in_TypeScript_Koa
-: 1583552466:0;la
 : 1583552502:0;rm -rf vendor tmp test storage public public log lib entrypoint.sh docker-compose.yml db config.ru config bin app Rakefile README.md Gemfile.lock Gemfile Dockerfile .ruby-version .byebug_history
-: 1583552504:0;la
-: 1583552508:0;vi
-: 1583552530:0;../client
-: 1583552531:0;la
-: 1583552533:0;vi
-: 1583552551:0;../server
-: 1583552551:0;la
-: 1583552553:0;g d
-: 1583552554:0;g s
-: 1583552557:0;vi
 : 1583552570:0;rm -rf .gitignore
 : 1583552579:0;cp ../client/.gitignore ./.gitignore
-: 1583552580:0;la
-: 1583552582:0;vi
 : 1583552605:0;g g "clean rails files"
-: 1583553361:0;../client
-: 1583553363:0;g pl
-: 1583553368:0;la
 : 1583553371:0;vi README.md
-: 1583553414:0;g d
 : 1583553435:0;g g "[Hotfix] Remove people that still has no contributions on the contribute section of README.md"
-: 1583553505:0;la
-: 1583553513:0;yarn init -y
-: 1583553518:0;g d
-: 1583553519:0;g s
-: 1583553521:0;vi
 : 1583553540:0;g g "initialize node"
 : 1583553598:0;g co master -- Procfile
 : 1583553604:0;g co master -- README.md
-: 1583553606:0;g d
-: 1583553607:0;g s
-: 1583553612:0;g st
 : 1583556584:0;echo "# Kuru Anime (Server)" >> README.md
-: 1583556588:0;g a
 : 1583556595:0;g g "add README.md"
-: 1583556958:0;la
 : 1583556977:0;yarn add koa
-: 1583556980:0;la
-: 1583556981:0;g d
 : 1583556987:0;g g "add koa to the dependencies"
-: 1583557361:0;la
-: 1583557509:0;jt dotfiles
-: 1583557511:0;vi
-: 1583557573:0;g d
-: 1583557576:0;g pl
 : 1583557588:0;g g "add ts-node"
 : 1583557628:0;yarn add -D typescript ts-node
-: 1583557636:0;vi
-: 1583557693:0;g d
-: 1583557713:0;vi
 : 1583557734:0;g g "add ts-node and typescript to dev dependencies"
-: 1583557788:0;g d
-: 1583557803:0;g co master
-: 1583558273:0;g sync master
-: 1583576238:0;la
-: 1583576242:0;..
-: 1583576242:0;la
-: 1583576252:0;cd server
-: 1583576252:0;la
 : 1583576261:0;cp ../.gitmodules .
-: 1583576262:0;g d
-: 1583576263:0;g s
-: 1583576265:0;vi
-: 1583577004:0;g d
-: 1583577006:0;g a
-: 1583577033:0;g g "[Hotfix] Add discord-bot as a git submodule"
-: 1583577062:0;la
-: 1583577068:0;vi
 : 1583577096:0;g g "[Hotfix] Rename the submodule path from discord-bot to bot"
-: 1583577143:0;vi
 : 1583577162:0;mkdir bot
-: 1583577180:0;cd bot
-: 1583577181:0;g pl
-: 1583577279:0;la
-: 1583577280:0;..
 : 1583577284:0;git pull --recurse-submodules
-: 1583577292:0;la
-: 1583577295:0;cd bot
-: 1583577296:0;la
 : 1583577308:0;cp ../../server/.git
-: 1583577353:0;la
-: 1583577360:0;..
-: 1583577361:0;la
-: 1583577363:0;rm -rf bot
 : 1583577396:0;g clone git@github.com:kuru-project/discord-bot.git bot
-: 1583577404:0;la
 : 1583577417:0;g g "[Hotfix] Pull discord-bot into the repository"
 : 1583577447:0;rm -rf .gitmodules bot
-: 1583577461:0;git submodule add git@github.com:kuru-project/discord-bot.git bot
-: 1583577488:0;g st
-: 1583577844:0;la
-: 1583577857:0;....
-: 1583577858:0;la
 : 1583577862:0;rm -rf kuru-anime
-: 1583577966:0;mkdir kuru-anime
-: 1583577969:0;cd kuru-anime
 : 1583577986:0;git clone --recurse-submodules https://github.com/kuru-project/main-website.git main-website
-: 1583578029:0;la
-: 1583578031:0;cd main-website
-: 1583578032:0;la
-: 1583578034:0;cd server
-: 1583578035:0;la
-: 1583578041:0;g pl
-: 1583578049:0;g pl origin master
-: 1583578056:0;la
-: 1583578059:0;cd bot
-: 1583578060:0;la
-: 1583578063:0;..
-: 1583578063:0;la
-: 1583578074:0;rm -rf bot .gitmodules
-: 1583578079:0;la
-: 1583578091:0;g g "[Hotfix] Remove bot submodule"
-: 1583578106:0;g co master
-: 1583578107:0;la
-: 1583578111:0;g lol
-: 1583578116:0;g so
-: 1583578128:0;g pl
-: 1583578136:0;g pl origin master
-: 1583578142:0;rm -rf bot .gitmodules
-: 1583578146:0;g g "[Hotfix] Remove bot submodule"
-: 1583578187:0;../client
-: 1583578190:0;g pl
-: 1583578208:0;g pl origin master
-: 1583578219:0;g so
-: 1583578224:0;g pl
-: 1583578232:0;g pl origin master
-: 1583578240:0;la
-: 1583578242:0;..
-: 1583578243:0;la
-: 1583578247:0;g so
-: 1583578253:0;cd server
-: 1583578254:0;la
 : 1583582115:0;git submodule add git@github.com:kuru-project/discord-bot.git bot
-: 1583582132:0;la
-: 1583582135:0;g d
-: 1583582136:0;g s
 : 1583582140:0;vi .gitmodules
-: 1583582158:0;cd bot
-: 1583582159:0;la
-: 1583582160:0;..
-: 1583582161:0;la
-: 1583582163:0;g d
 : 1583582183:0;g g "[Hotfix] Add discord-bot as a git submodule"
-: 1583582233:0;...
-: 1583582236:0;cd main-website
-: 1583582237:0;la
 : 1583582247:0;rm -rf dev.sh
-: 1583582249:0;cd client
-: 1583582250:0;g pl
-: 1583582260:0;g pl origin master
-: 1583582267:0;g lol
-: 1583582270:0;..
-: 1583582271:0;la
-: 1583582275:0;cd server
-: 1583582293:0;g lol
-: 1583582298:0;g remote -v
-: 1583582300:0;../client
-: 1583582301:0;la
-: 1583582307:0;g remote -v
-: 1583582308:0;..
-: 1583582308:0;la
-: 1583582311:0;cd client
-: 1583582312:0;la
-: 1583582315:0;g pl origin master
-: 1583582328:0;../server
-: 1583582332:0;g pl origin master
-: 1583582339:0;..
-: 1583582341:0;la
 : 1583582345:0;cd server/bot
-: 1583582346:0;la
-: 1583582354:0;git remote -v
-: 1583582361:0;g so
-: 1583582368:0;..
-: 1583582368:0;la
-: 1583582373:0;..
-: 1583582374:0;la
-: 1583582387:0;vi
-: 1583582403:0;g d
-: 1583582408:0;g s
 : 1583582412:0;g co dev.sh
-: 1583582414:0;g s
 : 1583582437:0;g g "[Hotfix] Update both client and server"
-: 1583585012:0;vi
-: 1583587466:0;down
-: 1583588271:0;la
 : 1583588275:0;vi dev.sh
-: 1583629650:0;la
-: 1583629655:0;jt personal
-: 1583629657:0;la
-: 1583629665:0;cd kuru-anime/main-website/server/bot
-: 1583629666:0;la
 : 1583629680:0;mv Procfile ..
-: 1583629681:0;g d
 : 1583629692:0;g g "[Hotfix] Remove procfile"
-: 1583629714:0;..
-: 1583629715:0;la
 : 1583629727:0;vi Procfile
-: 1583629873:0;g s
 : 1583629883:0;g g "[Hotfix] Add procfile"
-: 1583630249:0;vi
-: 1583630291:0;g d
 : 1583630302:0;g g "[Hotfix] Update procfile"
-: 1583630437:0;vi
 : 1583630515:0;g g "[Hotfix] Add workspace for bot"
-: 1583630752:0;la
-: 1583630754:0;vi
-: 1583630764:0;g d
-: 1583630770:0;g s
-: 1583630775:0;yarn install
-: 1583631286:0;g d
-: 1583631289:0;g s
-: 1583631292:0;yarn install
-: 1583631617:0;node --version
-: 1583631620:0;npm --version
-: 1583631624:0;yarn --version
-: 1583631651:0;jt dotfiles
-: 1583631654:0;vi
-: 1583631789:0;g d
 : 1583631792:0;nvm install 12.16.1\
 
-: 1583631801:0;rm -rf node_modules
-: 1583631805:0;la
-: 1583631806:0;g d
-: 1583631890:0;node --version
-: 1583631985:0;g d
-: 1583631992:0;vi
 : 1583632017:0;g g "add version for node"
 : 1583632052:0;nvm --help
 : 1583632059:0;nvm list
-: 1583632064:0;node --version
-: 1583632077:0;vi
 : 1583632123:0;nvm install lts
 : 1583632187:0;nvm install lts/*
-: 1583632195:0;g d
-: 1583632202:0;jt personal
-: 1583632203:0;la
-: 1583632205:0;node --version
-: 1583632295:0;jt dotfiles
-: 1583632296:0;vi
-: 1583632315:0;nvm use 12.16.1\
-
-: 1583632320:0;g d
 : 1583632329:0;g g "set node version globally"
-: 1583632392:0;jt personal
-: 1583632393:0;la
-: 1583632402:0;node --version
 : 1583632404:0;nvm use 12.16.1\
 
 : 1583632412:0;nvm use 12.16.1
-: 1583632712:0;node --version
 : 1583632717:0;cd kuru-anime/main-website/server/bot
-: 1583632718:0;..
-: 1583632719:0;la
-: 1583632727:0;g d
-: 1583632730:0;yarn install
 : 1583633669:0;npm list -g --depth=0
 : 1583633687:0;npm --version
-: 1583633691:0;bos -h
-: 1583633703:0;bos -y list
 : 1583633716:0;bos -y upgrade
-: 1583633729:0;bos -y list
 : 1583633746:0;~/.dotfiles/install/modules/node.sh
-: 1583638634:0;la
-: 1583638636:0;../
-: 1583638637:0;la
-: 1583638638:0;cd client
-: 1583638638:0;la
-: 1583638642:0;g pl
-: 1583638653:0;g pl origin master
 : 1583638746:0;g br
-: 1583638749:0;g b
-: 1583641750:0;../server
-: 1583641751:0;la
 : 1583641755:0;yarn isntall
-: 1583641763:0;yarn install
-: 1583642147:0;../client
-: 1583642148:0;la
-: 1583642149:0;rm -rf node_modules
-: 1583642151:0;g d
-: 1583642153:0;vi
-: 1583642165:0;g pl
-: 1583642173:0;g pl origin master
-: 1583642190:0;g a
-: 1583642208:0;yarn install
-: 1583642263:0;g d
-: 1583642264:0;g s
-: 1583642281:0;g g "[Hotfix] Add yarn.lock back"
-: 1583642292:0;g lol
-: 1583642298:0;g co master
-: 1583642300:0;g d
-: 1583642301:0;g s
-: 1583642312:0;git reset --hard origin/master
-: 1583642404:0;g pl
-: 1583642417:0;git branch --set-upstream-to=origin/master master
-: 1583642420:0;g pl
-: 1583642432:0;g ps
-: 1583642449:0;g d
-: 1583642450:0;g s
-: 1583642460:0;g d
-: 1583642461:0;g s
-: 1583642463:0;vi
-: 1583642482:0;g d
-: 1583642486:0;g g "[Hotfix] Add yarn.lock back"
-: 1583642530:0;../server
-: 1583642531:0;g d
-: 1583642534:0;vi
-: 1583642548:0;g d
-: 1583642551:0;cd bot
-: 1583642552:0;la
-: 1583642558:0;vi
-: 1583642597:0;g d
-: 1583642602:0;rm -rf node_modules
-: 1583642603:0;g d
 : 1583642614:0;g g "[Hotfix] Remove Firebase"
-: 1583642638:0;vi
-: 1583642654:0;g d
 : 1583642664:0;g g "[Hotfix] Add package-lock.json to gitignore"
-: 1583642698:0;yarn install
-: 1583642709:0;g d
-: 1583642710:0;g s
-: 1583642718:0;vi
-: 1583642731:0;..
-: 1583642731:0;la
-: 1583642733:0;g d
-: 1583642737:0;yarn install
-: 1583642742:0;g d
-: 1583642743:0;g s
-: 1583642750:0;cd bot
-: 1583642750:0;la
-: 1583642754:0;g d
-: 1583642755:0;g s
-: 1583642759:0;g lol
-: 1583642764:0;..
-: 1583642765:0;la
-: 1583642768:0;g s
-: 1583642778:0;g g "[Hotfix] Add yarn.lock back"
-: 1583642832:0;g d
-: 1583642833:0;g s
-: 1583642906:0;g d
-: 1583642908:0;g s
-: 1583642910:0;vi
-: 1583642940:0;g d
-: 1583642942:0;vi
-: 1583642985:0;cd bot
-: 1583642985:0;la
-: 1583642986:0;g d
-: 1583642999:0;g g "[Hotfix] Change workspace name to discord-bot"
-: 1583643048:0;..
-: 1583643049:0;la
-: 1583643049:0;g d
-: 1583643051:0;g s
 : 1583643055:0;g g "[Hotfix] Change workspace name to discord-bot"
-: 1583643166:0;yarn workspace bot start
 : 1583643183:0;yarn workspace discord-bot start
-: 1583643188:0;vi
 : 1583643193:0;yarn workspace
 : 1583643196:0;yarn workspace list
 : 1583643200:0;yarn workspace --help
 : 1583643214:0;man yarn workspace
-: 1583643235:0;vi
-: 1583643258:0;g d
-: 1583643261:0;cd bot
-: 1583643262:0;g d
-: 1583643267:0;g g "[Hotfix] Change workspace name to bot"
-: 1583643284:0;..
 : 1583643287:0;g g "[Hotfix] Change workspace name to bot"
 : 1583643338:0;yarn workspace bot start
-: 1583643442:0;vi
-: 1583643455:0;cd bot
-: 1583643456:0;vi
-: 1583643496:0;cd bot
 : 1583643498:0;tsc
-: 1583653911:0;..
-: 1583653913:0;vi
-: 1583654010:0;g st
-: 1583654011:0;cd bot
-: 1583654013:0;g st
-: 1583654014:0;..
-: 1583654014:0;la
-: 1583655976:0;vi
-: 1583656033:0;g d
 : 1583656055:0;g g "[Hotfix] Update procfile to pull bot as well"
-: 1583656207:0;vi
 : 1583656318:0;heroku
 : 1583656322:0;heroku auth:whoami
 : 1583656332:0;heroku auth:logout
 : 1583656362:0;heroku auth:login
-: 1583656397:0;yarn deploy
 : 1583656578:0;heroku --help
 : 1583656584:0;heroku apps
 : 1583656593:0;tldr heroku
-: 1583656676:0;vi
 : 1583656699:0;yarn connect
-: 1583656705:0;git remote -v
-: 1583656708:0;yarn deploy
-: 1583656722:0;g s
-: 1583656723:0;g d
-: 1583656775:0;vi
-: 1583656809:0;g d
 : 1583656828:0;g g "[Hotfix] Add script for deploying and connecting"
-: 1583656856:0;yarn deploy
-: 1583657006:0;vi
-: 1583657127:0;yarn deploy
-: 1583657188:0;g d
 : 1583657214:0;g g "[Hotfix] Add more scripts and fix submodule problem on heroku"
-: 1583657370:0;cd bot
-: 1583657371:0;la
-: 1583657373:0;vi
-: 1583657621:0;g d
 : 1583657655:0;g g "[Hotfix] Remove typescript on the dependencies"
-: 1583657696:0;g d
-: 1583657706:0;vi
-: 1583657844:0;yarn add dotenv
-: 1583657917:0;vi
-: 1583657939:0;g d
 : 1583657959:0;g g "[Hotfix] Add .env and cleanup"
-: 1583658007:0;la
-: 1583658074:0;vi
-: 1583658093:0;g d
 : 1583658096:0;touch sample.env
-: 1583658098:0;vi
-: 1583658124:0;g d
-: 1583658125:0;g s
 : 1583658131:0;g g "[Hotfix] Add sample.env"
-: 1583658170:0;g d
-: 1583658172:0;touch .env
-: 1583658176:0;vi
-: 1583658249:0;g d
-: 1583658251:0;..
-: 1583658252:0;la
-: 1583658253:0;g s
-: 1583658255:0;g d
-: 1583658263:0;g s
-: 1583658265:0;g d
 : 1583658278:0;g g "[Hotfix] Add .env for bot"
-: 1583658305:0;yarn deploy
-: 1583658362:0;vi
-: 1583658392:0;cd bot
-: 1583658393:0;la
-: 1583658394:0;g d
-: 1583658404:0;yarn install
-: 1583658409:0;g d
-: 1583658410:0;g s
-: 1583658411:0;g d
 : 1583658436:0;g g "[Hotfix] Move TypeScript to dependency"
-: 1583658458:0;..
-: 1583658459:0;la
-: 1583658467:0;g s
-: 1583658468:0;g d
 : 1583658475:0;g g "[Hotfix] Move TypeScript to dependency for bot"
-: 1583658503:0;yarn deploy
 : 1583659800:0;cd bot
-: 1583659805:0;vi
 : 1583660571:0;\
 \
 
-: 1583660573:0;..
-: 1583660574:0;la
-: 1583660575:0;vi
-: 1583660583:0;g d
 : 1583660593:0;g g "[Hotfix] Rename worker to discord on Procfile"
-: 1583660683:0;yarn deploy
-: 1583662071:0;down
-: 1583662912:0;vi
-: 1583663013:0;g d
 : 1583663057:0;g g "[Hotfix] Reduce dyno to 1"
-: 1583663106:0;vi
-: 1583663125:0;yarn deploy
-: 1583663545:0;vi
-: 1583664330:0;g d
-: 1583664333:0;yarn deploy
-: 1583664374:0;g d
 : 1583664387:0;g g "[Hotfix] Add simple KOA"
 : 1583664445:0;yarn deploy
-: 1583664504:0;vi
-: 1583664520:0;g d
-: 1583664528:0;g s
-: 1583664530:0;g d
 : 1583664543:0;g g "[Hotfix} Move ts-node to dependency" && yarn deploy
-: 1583664628:0;vi
 : 1583664659:0;g g "[Hotfix] Change how Procfile is being handled" && yarn deploy
-: 1583664864:0;g d
-: 1583664865:0;vi
-: 1583664944:0;g d
 : 1583664970:0;g g "[Hotfix] Change back to 2 workers" && yarn deploy
-: 1583673836:0;la
-: 1583673839:0;jt personal
-: 1583673840:0;la
-: 1583673842:0;cd kuru-anime
-: 1583673842:0;la
-: 1583673844:0;cd main-website
-: 1583673845:0;la
-: 1583673846:0;cd server
-: 1583673847:0;la
 : 1583673885:0;rm -rf bot .gitmodules
-: 1583673888:0;vi
 : 1583673951:0;g g "[Hotfix] Remove bot submodule"
-: 1583674035:0;la
-: 1583674036:0;..
-: 1583674037:0;la
-: 1583674040:0;..
-: 1583674041:0;la
-: 1583674072:0;g clone git@github.com:kuru-project/discord-bot.git
-: 1583674083:0;cd discord-bot
-: 1583674084:0;g so
-: 1583674088:0;la
-: 1583674093:0;..
-: 1583674094:0;la
-: 1583674095:0;cd main-website
-: 1583674096:0;la
-: 1583674098:0;cd server
-: 1583674098:0;la
-: 1583674100:0;vi
-: 1583674254:0;g lol
-: 1583674259:0;g remote -v
-: 1583674269:0;g so
-: 1583674347:0;la
-: 1583674536:0;..
-: 1583674537:0;la
-: 1583674538:0;..
-: 1583674539:0;la
-: 1583674541:0;cd discord-bot
-: 1583674541:0;la
 : 1583674556:0;cp ../main-website/server/Procfile ./
-: 1583674557:0;g d
-: 1583674558:0;g s
-: 1583674560:0;vi
-: 1583674597:0;g d
-: 1583674599:0;g s
 : 1583674608:0;g g "[Hotfix] Add Procfile"
-: 1583674768:0;vi
-: 1583674777:0;yarn install
-: 1583674791:0;g d
-: 1583674793:0;g s
 : 1583674802:0;g g "[Hotfix] Add yarn.lock back"
-: 1583674965:0;la
-: 1583674967:0;..
-: 1583674968:0;la
-: 1583674970:0;cd main-website
-: 1583674971:0;la
-: 1583674972:0;cd server
-: 1583674972:0;la
-: 1583675079:0;yarn add @types/node
-: 1583675084:0;g d
-: 1583675086:0;g s
 : 1583675091:0;g d package.json
 : 1583675104:0;g g "[Hotfix] Add types for node"
-: 1583675848:0;gtop
-: 1583676656:0;vi
-: 1583677174:0;...
-: 1583677174:0;la
-: 1583677177:0;cd discord-bot
-: 1583677177:0;la
-: 1583677178:0;vi
-: 1583720233:0;jt personal
-: 1583720234:0;la
-: 1583720238:0;cd kuru-anime
-: 1583720307:0;la
-: 1583720309:0;cd discord-bot
-: 1583720310:0;la
-: 1583720311:0;vi
 : 1583720344:0;tldr ts-node
 : 1583720350:0;man ts-node
 : 1583720355:0;ts-node --help
-: 1583721122:0;vi
-: 1583721495:0;g d
-: 1583721501:0;g pl
-: 1583721519:0;g co issue-6-Clean_unused_files
-: 1583721522:0;vi
-: 1583722785:0;g d
-: 1583722790:0;yarn install
 : 1583722796:0;g g "clean"
-: 1583722865:0;yarn start
-: 1583722924:0;g d
-: 1583722925:0;g s
-: 1583722929:0;g co master
 : 1583723097:0;g co issue-6-Clean_unused_files
-: 1583723099:0;la
-: 1583723100:0;vi
 : 1583723116:0;g g "update template issues for PR"
-: 1583723161:0;g co master
-: 1583723261:0;vi
-: 1583723276:0;la
-: 1583723374:0;g sync master
-: 1583723718:0;vi
-: 1583723743:0;g d
 : 1583723754:0;g g "[Hotfix] Add comments to gitignore"
-: 1583727396:0;g pl
-: 1583727448:0;..
-: 1583727449:0;la
-: 1583727450:0;cd main-website
-: 1583727451:0;la
-: 1583727453:0;cd server
-: 1583727453:0;la
-: 1583727724:0;../client
-: 1583727725:0;la
-: 1583727730:0;g d
-: 1583727731:0;g s
-: 1583727732:0;vi
 : 1583727739:0;g syncm master
-: 1583727742:0;g sync master
 : 1583729942:0;g co issue-45-Create_a_Header_and_a_Footer_component_and_put_it_inside_Next_s_main_layout
-: 1583729947:0;g pl origin master
-: 1583729957:0;g lol
-: 1583729971:0;vi
-: 1583730284:0;yarn dev
-: 1583730591:0;vi
-: 1583730639:0;yarn dev
-: 1583733877:0;g d
-: 1583733885:0;vi
-: 1583733920:0;g d
-: 1583733935:0;g s
-: 1583733944:0;g co pages/index.tsx
-: 1583733956:0;g d
-: 1583734016:0;g s
 : 1583734023:0;g g "add footer and header"
-: 1583734671:0;vi
-: 1583734734:0;g d
 : 1583734754:0;g g "update react fragment to header and footer"
-: 1583736497:0;g co master
-: 1583736500:0;g sync master
-: 1583810143:0;jt dotfiles
-: 1583810144:0;vi
-: 1583810340:0;g d
 : 1583810383:0;g g "remove spacing on yabai"
-: 1583811899:0;la
-: 1583811963:0;vi
-: 1583820083:0;g d
-: 1583820086:0;jt personal
-: 1583820086:0;la
-: 1583820088:0;cd kuru-anime
-: 1583820088:0;la
-: 1583820091:0;cd main-website
-: 1583820094:0;cd client
-: 1583820094:0;la
-: 1583820095:0;g pl
-: 1583831841:0;g co issue-60-Create_2_empty_pages_for_Mission_and_Vision
-: 1583831843:0;g co master
-: 1583831844:0;g pl
 : 1583831871:0;g co issue-60-Create_2_empty_pages_for_Mission_and_Vision
-: 1583833335:0;vi
-: 1583835762:0;htop
-: 1583836871:0;jt dotfiles
-: 1583836874:0;vi
-: 1583836979:0;down
-: 1583837270:0;vi
-: 1583838176:0;g d
 : 1583838196:0;g g "add status-bar"
-: 1583838230:0;bos -h
 : 1583838233:0;bos -f matrix
-: 1583838245:0;vi
 : 1583838277:0;g g "bring back the border"
-: 1583838327:0;vi
-: 1583838410:0;g d
 : 1583838422:0;g g "add music icon and a reference to the fonts"
-: 1583838443:0;vi
-: 1583838995:0;g d
-: 1583839012:0;vi
-: 1583839033:0;g d
-: 1583839037:0;vi
 : 1583839066:0;brew cast list | grep "font"
 : 1583839074:0;brew cask list | grep "font"
-: 1583839202:0;g d
 : 1583839209:0;g g "add instruction for status bar"
-: 1583839232:0;vi
-: 1583839383:0;g d
 : 1583839397:0;g g "fix grammar and instructions"
-: 1583839501:0;vi
-: 1583839804:0;g d
 : 1583839829:0;g g "add font awesome to the list"
-: 1583839918:0;vi
-: 1583840107:0;g d
 : 1583840115:0;g g "update the icon of empty desktop on yabai status bar"
-: 1583845450:0;htop
-: 1583845523:0;bos -h
-: 1583845531:0;bos -f pipes
-: 1583845552:0;vi
-: 1583846213:0;g d
 : 1583846217:0;g g "bring back opacity"
-: 1583846451:0;jt personal
-: 1583846452:0;la
-: 1583846455:0;cd kuru-anime
-: 1583846456:0;la
-: 1583846458:0;cd main-website
-: 1583846459:0;la
-: 1583846463:0;cd client
-: 1583846463:0;la
-: 1583846466:0;vi
 : 1583846524:0;g g "add the page"
-: 1583846665:0;g co master
-: 1583846666:0;g pl
-: 1583846687:0;g sync master
-: 1583847807:0;jt personal
-: 1583847808:0;la
-: 1583847810:0;jt dotfiles
-: 1583847811:0;la
-: 1583847812:0;vi
-: 1583847856:0;g d
-: 1583847867:0;g lol
 : 1583847873:0;g g "remove opacity"
-: 1583848478:0;jt personal
-: 1583848481:0;la
-: 1583903182:0;jt dotfiles
-: 1583903183:0;vi
 : 1583903215:0;tldr stow
-: 1583904378:0;down
-: 1583904430:0;jt ops
-: 1583904434:0;vi
-: 1583935340:0;down
-: 1583983695:0;jt ops
-: 1583983697:0;vi
-: 1583984613:0;g d
-: 1583984624:0;g a
 : 1583984633:0;gwip duplicate catalog id
-: 1583985599:0;jt dotfiles
-: 1583985600:0;vi
-: 1583986315:0;g d
-: 1583986326:0;vi
-: 1583986346:0;g d
 : 1583986362:0;g g 'change icons'
 : 1584004163:0;irb
-: 1584005403:0;g a
 : 1584005419:0;gwip check duplicate
-: 1584005485:0;g lol
-: 1584005490:0;g ps
-: 1584005787:0;jt personal
-: 1584005789:0;la
-: 1584005792:0;kuru-anime
-: 1584005798:0;main-website
-: 1584005801:0;client
-: 1584005802:0;la
-: 1584005996:0;jt dotfiles
-: 1584005997:0;vi
-: 1584009249:0;la
-: 1584009831:0;bos -h
 : 1584009845:0;bos -cpu usage
 : 1584009852:0;bos -cpu temp
-: 1584010108:0;vi
-: 1584010175:0;g pl
 : 1584010193:0;g co issue-35-Add_a_JavaScript_Style_Guide_on_the_README
-: 1584010195:0;g d
 : 1584010203:0;g g 'add style guide'
-: 1584010342:0;g co master
-: 1584010346:0;g sync master
-: 1584010450:0;g pl
 : 1584010511:0;g co issue-48-Link_Twitter_Facebook_Discord_on_the_Footer_and_Header
-: 1584010549:0;vi
-: 1584010565:0;yarn dev
-: 1584010832:0;g d
-: 1584010836:0;g a
 : 1584010854:0;g g "add social media component and import it on footer and header"
-: 1584011052:0;g co master
-: 1584011055:0;g sync master
-: 1584011157:0;g pl
 : 1584011188:0;g co issue-63-Create_an_empty_opensource_page
-: 1584011189:0;vi
-: 1584011230:0;g d
-: 1584011233:0;g s
 : 1584011239:0;g g "add open source page"
-: 1584011413:0;g co master
-: 1584011419:0;g sync master
-: 1584011438:0;g pl master
-: 1584011446:0;g pl
 : 1584011519:0;g co issue-51-Create_an_empty_page_for_team_members
-: 1584011525:0;g pl origin master
-: 1584011531:0;g lol
-: 1584011549:0;vi
 : 1584011581:0;g g "add a team page"
-: 1584011761:0;g co master
-: 1584011763:0;g sync master
-: 1584012436:0;g pl master
-: 1584012440:0;g pl
 : 1584012522:0;issue-49-Create_a_simple_Navigation_on_the_Header
 : 1584012524:0;g co issue-49-Create_a_simple_Navigation_on_the_Header
-: 1584012526:0;vi
 : 1584013115:0;g g "fix pages and add links to header and footer"
-: 1584013139:0;g co master
-: 1584013295:0;g sync master
-: 1584013435:0;la
-: 1584013436:0;g pl
 : 1584013447:0;g co issue-53-Work_on_the_front-end-checklist
-: 1584013448:0;vi
-: 1584013619:0;g d
-: 1584013620:0;g s
 : 1584013623:0;g co pages/index.tsx
-: 1584013624:0;vi
-: 1584013945:0;g d
 : 1584013950:0;g g "add meta tags"
-: 1584014204:0;vi
-: 1584014816:0;g co master
-: 1584014819:0;g sync master
 : 1584014867:0;g co issue-40-Add_Ant_Design_to_the_project
 : 1584014869:0;g pl master
-: 1584014873:0;g pl origin master
-: 1584014914:0;vi
 : 1584014917:0;yarn add antd
-: 1584015065:0;g d
-: 1584015069:0;g a
 : 1584015079:0;g g "add ant design and import it"
-: 1584015194:0;g co master && g sync master
-: 1584015266:0;htop
-: 1584027663:0;la
-: 1584027668:0;down
-: 1584068971:0;jt ops
-: 1584068972:0;la
-: 1584068974:0;vi
-: 1584069003:0;g d
-: 1584069011:0;script/backpack -l --skip-assets
 : 1584069096:0;heroku auth:logout && heroku auth:login
 : 1584069130:0;script/backpack -l --skip-assets
 : 1584069751:0;rake db:drop \\
@@ -3509,456 +1851,99 @@ end
 && rails test:prepare \\
 && rails api:parallel_cache
 : 1584071017:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
-: 1584071137:0;g d
 : 1584071154:0;g g "call merge"
-: 1584072397:0;..
-: 1584072399:0;jt personal
-: 1584072400:0;la
-: 1584072404:0;cd kuru-anime
-: 1584072405:0;la
 : 1584072406:0;ma
 : 1584072408:0;main-website
-: 1584072409:0;la
 : 1584072411:0;ser
-: 1584072416:0;server
-: 1584072419:0;g pl
-: 1584072441:0;g sync master
-: 1584072468:0;vi
-: 1584072540:0;g pl
-: 1584073571:0;vi
-: 1584073617:0;g pl
 : 1584073630:0;g co issue-57-Add_a_JavaScript_Style_Guide_on_the_README
-: 1584073635:0;g d
-: 1584073642:0;vi
 : 1584073651:0;g g "add style guide link"
 : 1584073775:0;g co master && g sync master
-: 1584073853:0;down
-: 1584089653:0;..
-: 1584089653:0;la
-: 1584089654:0;..
-: 1584089655:0;la
 : 1584089660:0;rm -rf *
-: 1584091114:0;jt ops
 : 1584091188:0;script/deploy -B --skip-migrations -f f
-: 1584091225:0;script/deploy -B --skip-migrations -f
 : 1584091862:0;heroku run bash -r staging
-: 1584091920:0;vi
-: 1584093209:0;jt dotfiles
-: 1584093214:0;vi
-: 1584093254:0;g d
 : 1584093277:0;g g "move music icon to the most left"
-: 1584093306:0;down
 : 1584094840:0;l
-: 1584094841:0;la
-: 1584094844:0;jt ops
 : 1584094934:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_march_2020.csv"\]
 : 1584095065:0;heroku run rake catalog_items:update_catalog_items["oneoff/1_catalog_item_update_march_2020.csv"] -r staging
 : 1584095073:0;heroku run rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_march_2020.csv"\] -r staging
-: 1584095299:0;g co master
-: 1584095301:0;g pl
 : 1584095316:0;git checkout hotfix-production
-: 1584095319:0;g pl
 : 1584095337:0;script/deploy -B --skip-migrations -f
 : 1584095738:0;script/deploy --skip-migrations -f
-: 1584101556:0;la
-: 1584101559:0;jt personal
-: 1584101560:0;la
-: 1584101564:0;cd kuru-anime
-: 1584101565:0;la
 : 1584101776:0;g clone git@github.com:BosEriko/discord-bot.git
-: 1584101911:0;cd discord-bot
-: 1584101914:0;g so
 : 1584101943:0;git remote --help
 : 1584101955:0;git remote remove github
 : 1584101969:0;git remote add github git@github.com:BosEriko/discord-bot.git
-: 1584101971:0;git remote -v
-: 1584102684:0;jt dotfiles
-: 1584102685:0;vi
-: 1584102715:0;g so
-: 1584102796:0;la
-: 1584102808:0;git remote -v
-: 1584102817:0;git remote rm bitbucket
-: 1584102820:0;git remote rm github
 : 1584102822:0;git remote rb gitlab
-: 1584102825:0;git remote rm gitlab
-: 1584102829:0;git remote rm origin
-: 1584102832:0;git remote -v
-: 1584103038:0;g so
-: 1584103056:0;git remote -v
 : 1584103063:0;git remote rm bitbucket github gitlab origin
 : 1584103067:0;git remote rm bitbucket
 : 1584103070:0;git remote rm gitlab
 : 1584103072:0;git remote rm github
 : 1584103076:0;git remote rm origin
-: 1584103077:0;git remote -v
-: 1584103083:0;g so
 : 1584103130:0;git remote add fork git@github.com:BosEriko/discord-bot.git
-: 1584103133:0;git remote -v
 : 1584103143:0;echo "hello" >> test.text
-: 1584103149:0;git add .
 : 1584103153:0;git commit -m "test"
 : 1584103162:0;git push github master
-: 1584103177:0;la
 : 1584103184:0;git push fork master
-: 1584103201:0;git reset --hard origin/master
 : 1584103208:0;git pull
 : 1584103219:0;git branch --set-upstream-to=origin/master master
-: 1584103224:0;git reset --hard origin/master
-: 1584103226:0;g lol
 : 1584103243:0;g ps --force fork master
-: 1584103318:0;g pl
-: 1584103333:0;g co issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584103338:0;vi
-: 1584103544:0;yarn install
-: 1584104794:0;g d
 : 1584104878:0;yarn add eslint
-: 1584104886:0;g d
-: 1584104894:0;g a
 : 1584104919:0;g commit -m "install eslint"
-: 1584104922:0;g a
 : 1584104970:0;g c -m "remove tslint flag on index.ts"
-: 1584104977:0;g bnc
 : 1584104983:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website\
 
-: 1584105080:0;g remote -v
-: 1584155747:0;down
-: 1584156907:0;jt personal
-: 1584156907:0;la
-: 1584159085:0;cd kuru-anime
-: 1584159085:0;la
-: 1584159087:0;cd discord-bot
-: 1584159088:0;la
-: 1584159090:0;vi
-: 1584159123:0;g d
-: 1584159131:0;g a
 : 1584159140:0;g c -m "add guide to index.ts"
-: 1584159151:0;g bnc
-: 1584159156:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584159288:0;g d
-: 1584159289:0;g a
 : 1584159300:0;g c -m "add eslintrc"
-: 1584159303:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584159410:0;vi
-: 1584159422:0;g a
 : 1584159434:0;g c -m "update linter rules"
-: 1584159436:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584159620:0;vi
-: 1584159677:0;yarn start
-: 1584160330:0;g d
-: 1584160333:0;g a
 : 1584160344:0;g c -m "update tabbing to spaces instead of tab"
-: 1584160347:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584160542:0;g d
-: 1584160543:0;g a
 : 1584160555:0;g c -m "add ping/pong feature"
-: 1584160556:0;g ps
-: 1584160561:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584161757:0;g d
-: 1584161759:0;g a
 : 1584161768:0;g c -m "add a prefix config.json"
-: 1584161770:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584162390:0;g d
-: 1584162394:0;g a
 : 1584162410:0;g c -m "create config json and require it to index.ts"
-: 1584162412:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584162614:0;vi
-: 1584162740:0;g d
-: 1584162745:0;g a
 : 1584163036:0;g c -m "destructure config.json"
-: 1584163039:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584163178:0;vi
-: 1584163189:0;yarn add nodemon
-: 1584163198:0;g a
-: 1584163229:0;y
-: 1584163234:0;g d
-: 1584163235:0;g s
 : 1584163243:0;g c -m "add nodemon"
-: 1584163251:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584163257:0;yarn watch
-: 1584163271:0;vi
 : 1584163349:0;yarn add ts-node-dev --dev
-: 1584163359:0;vi
-: 1584163423:0;g d
-: 1584163428:0;g a
-: 1584163445:0;y
-: 1584163449:0;yarn install
-: 1584163457:0;g a
-: 1584163468:0;y
-: 1584163480:0;la
 : 1584163493:0;g c -m "use ts-node-dev in favor of nodemon"
-: 1584163495:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584163543:0;yarn watch
-: 1584163740:0;g d
-: 1584163742:0;g a
 : 1584163754:0;g c -m "add prefix"
-: 1584163756:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584186487:0;g d
-: 1584186492:0;g a
 : 1584186498:0;g c -m "remove config.json"
-: 1584186500:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584187055:0;g a
 : 1584187065:0;g c -m "use starts with instead"
-: 1584187068:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584187388:0;g d
-: 1584187389:0;g a
 : 1584187397:0;g c -m "add total members count"
-: 1584187399:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584187856:0;g a
 : 1584187876:0;g c -m "fix warnings for closing curly brace and add user-info"
-: 1584187888:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584188321:0;g d
-: 1584188343:0;g a
 : 1584188356:0;g c -m "minimize the code by using args and command"
-: 1584188358:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584188997:0;jt dotfiles
-: 1584188999:0;brew cask install alacritty
-: 1584189327:0;bos -h
-: 1584189418:0;vi
-: 1584189860:0;g d
 : 1584189865:0;g g "add raindrop"
-: 1584189889:0;vi
-: 1584196696:0;g d
-: 1584196698:0;g a
 : 1584196703:0;g c -m "add current point"
-: 1584196706:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584237590:0;down
-: 1584237628:0;jt personal
-: 1584237629:0;la
-: 1584237632:0;cd kuru-anime
-: 1584237633:0;la
-: 1584238258:0;cd discord-bot
-: 1584238813:0;vi
-: 1584241400:0;yarn watch
-: 1584242041:0;g a
 : 1584242046:0;g c -m "add args-info"
-: 1584242048:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584242087:0;g d
-: 1584242098:0;g s
-: 1584242100:0;g d
-: 1584242104:0;g lol
-: 1584242107:0;g d
-: 1584242129:0;g a
 : 1584242136:0;g c -m "update prefix"
-: 1584242137:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584242556:0;vi
-: 1584242619:0;g d
-: 1584242620:0;g a
 : 1584242631:0;g c -m "provide a way to avoid multiple spaces"
-: 1584244100:0;g a
 : 1584244108:0;g c -m "add kick mention"
-: 1584244110:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584245365:0;g d
-: 1584245367:0;g a
 : 1584245376:0;g c -m "add a way to check if someone is tagged on kick or not"
-: 1584245377:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584245624:0;code .
-: 1584245691:0;vi
-: 1584248294:0;g d
-: 1584248296:0;g a
-: 1584248304:0;g c -m "update current point"
-: 1584248306:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584265409:0;jt personal
-: 1584265409:0;la
-: 1584265411:0;cd kuru-anime
-: 1584265412:0;la
-: 1584265414:0;discord-bot
-: 1584265414:0;la
-: 1584265453:0;vi
-: 1584265459:0;yarn watch
-: 1584266301:0;g d
-: 1584266308:0;g a
 : 1584266314:0;g c -m "add a way to get avatar"
-: 1584266315:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584266507:0;g a
 : 1584266512:0;g c -m "add multiple printing"
-: 1584266515:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584266604:0;g a
 : 1584266611:0;g c -m "add prune option"
-: 1584266612:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584266695:0;g d
-: 1584266712:0;g a
 : 1584266720:0;g c -m "finish prune option"
-: 1584266722:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584266813:0;g a
 : 1584266819:0;g c -m "add a catch for prune"
-: 1584266882:0;g a
 : 1584266891:0;g c -m "remove the prune message itself on the count"
-: 1584266893:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584266947:0;g d
-: 1584266949:0;g a
 : 1584266953:0;g c -m "update current point"
-: 1584266955:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584271039:0;g d
-: 1584271714:0;g a
 : 1584271728:0;g c -m "add admin rights for prune and add welcome message for joining users"
-: 1584271809:0;g co master
 : 1584271848:0;g co issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584271850:0;g lol
-: 1584271852:0;g ps
 : 1584271857:0;g ps fork issue-9-Create_a_welcome_message_that_will_link_the_user_to_the_rules_on_the_website
-: 1584271989:0;g lol
-: 1584272123:0;g co master
-: 1584275186:0;..
-: 1584275210:0;git clone --recurse-submodules https://github.com/kuru-project/main-website.git
-: 1584275313:0;la
-: 1584275314:0;cd main-website
-: 1584275315:0;la
-: 1584275317:0;cd client
-: 1584275349:0;g so
 : 1584275397:0;g remote add fork git@github.com:BosEriko/main-website-client.git
-: 1584275408:0;git reset --hard origin/master
-: 1584275413:0;g pl
-: 1584275428:0;g pl origin master
-: 1584275441:0;g lol
-: 1584275453:0;vi
-: 1584275497:0;g pl
 : 1584275514:0;g co issue-81-Add_a_bot_page
-: 1584275517:0;vi
-: 1584275564:0;yarn install
-: 1584275597:0;less package.json
-: 1584275603:0;yarn dev
-: 1584275656:0;g a
-: 1584275683:0;y
 : 1584275691:0;g c -m "add bot page"
-: 1584275695:0;g bnc
 : 1584275702:0;g ps fork issue-81-Add_a_bot_page\
 
-: 1584276341:0;g co master
-: 1584288321:0;g sync master
-: 1584288967:0;..
-: 1584288968:0;la
-: 1584288970:0;..
-: 1584288971:0;la
-: 1584288973:0;cd discord-bot
-: 1584288974:0;la
-: 1584288977:0;g sync master
-: 1584317208:0;jt personal
-: 1584317209:0;la
-: 1584317212:0;..
-: 1584317212:0;la
-: 1584317215:0;cd Work
-: 1584317215:0;la
 : 1584317222:0;mkdir Lyon
-: 1584317223:0;cd Lyon
-: 1584318402:0;g clone git@github.com:LyonInc/lyon-html-renderer.git
-: 1584318417:0;g clone git@github.com:LyonInc/lyon-api-server.git
-: 1584318739:0;la
-: 1584318742:0;cd lyon-api-server
-: 1584318786:0;g co develop
-: 1584318788:0;vi
-: 1584318964:0;yarn install
-: 1584319076:0;vi
-: 1584319134:0;yarn dev
-: 1584319184:0;touch .env
-: 1584319187:0;vi .env
-: 1584319220:0;yarn dev
-: 1584319493:0;down
-: 1584320262:0;..
-: 1584320262:0;la
 : 1584320274:0;mv lyon-api-server api-server
 : 1584320286:0;mv lyon-html-renderer html-renderer
-: 1584320287:0;la
-: 1584320289:0;cd html-renderer
-: 1584320290:0;la
-: 1584320333:0;g co develop
-: 1584320336:0;vi
-: 1584320358:0;yarn install
-: 1584320419:0;yarn dev
-: 1584320813:0;vi
-: 1584320824:0;../api-server
-: 1584320826:0;vi
-: 1584320838:0;yarn dev
-: 1584326158:0;../html-renderer
-: 1584326160:0;vi
-: 1584326178:0;touch .env
-: 1584327121:0;../api-server
-: 1584327126:0;vi
-: 1584329123:0;../html-renderer
-: 1584329129:0;vi
-: 1584329444:0;yarn dev
-: 1584343962:0;vi
-: 1584348284:0;yarn dev
-: 1584350780:0;..
-: 1584350781:0;la
 : 1584350786:0;g clone git@github.com:LyonInc/lyon-admin-console.git admin-console
-: 1584351105:0;la
 : 1584351108:0;cd admin-console
-: 1584351109:0;la
-: 1584351115:0;vi
-: 1584351139:0;g co develop
-: 1584354597:0;yarn start
-: 1584354603:0;yarn install
-: 1584354690:0;yarn start
-: 1584355817:0;g d
-: 1584356267:0;yarn dev
-: 1584359693:0;g d
-: 1584359695:0;g s
-: 1584400000:0;jt work
-: 1584400031:0;la
-: 1584400032:0;cd lyon
 : 1584400033:0;ka
-: 1584400034:0;la
-: 1584401132:0;cd api-server
-: 1584401137:0;../html-renderer
-: 1584401143:0;vi
-: 1584401243:0;jt dotfiles
-: 1584401245:0;vi
-: 1584401400:0;less package.json
-: 1584401407:0;yarn dev
-: 1584401450:0;../api-server
-: 1584401452:0;vi
-: 1584401457:0;yarn dev
-: 1584401461:0;vi
-: 1584412449:0;../html-renderer
-: 1584412461:0;vi
-: 1584412464:0;yarn dev
-: 1584412468:0;vi
-: 1584412471:0;yarn dev
-: 1584413474:0;jt dotfiles
-: 1584413475:0;vi
-: 1584421861:0;yarn dev
-: 1584425015:0;g d
 : 1584425042:0;g br hotfix-fix-phone-number-validation
-: 1584425046:0;g b hotfix-fix-phone-number-validation
 : 1584425057:0;g co hotfix-fix-phone-number-alidation
-: 1584425064:0;g co hotfix-fix-phone-number-validation
 : 1584425102:0;g b hotfix-fix-phone-number-validation
 : 1584425106:0;g co hotfix-fix-phone-number-validation
-: 1584425107:0;g a
-: 1584425126:0;g c -m "update PHONE_NUMBER_VALIDATOR to be optional instead of required"
-: 1584425129:0;g bnc
-: 1584425140:0;g ps origin hotfix-fix-phone-number-validation\
-
-: 1584425188:0;g d
-: 1584425192:0;g a
 : 1584425209:0;g c -m "update PHONE_NUMBER_VALIDATOR to be optional instead of required"
 : 1584425214:0;g ps origin hotfix-fix-phone-number-validation\
 
-: 1584426771:0;g co develop
-: 1584435551:0;node --version
-: 1584436364:0;g d
-: 1584436370:0;yarn dev
-: 1584437927:0;g d
-: 1584437928:0;g s
-: 1584437932:0;g d
-: 1584437968:0;yarn dev
-: 1584441448:0;g d
-: 1584441451:0;yarn dev
-: 1584441663:0;g d
-: 1584441667:0;yarn dev
-: 1584441887:0;g d
-: 1584441891:0;yarn dev
-: 1584445072:0;g d
-: 1584445223:0;yarn dev
-: 1584446249:0;g d
-: 1584446283:0;yarn dev
-: 1584446320:0;g d
-: 1584446329:0;yarn dev
-: 1584446366:0;g d
-: 1584446383:0;g s
-: 1584446389:0;g d
-: 1584446401:0;yarn dev
-: 1584447543:0;g d
 : 1584447720:0;yarn dev
 : 1584499427:0;jt work
 : 1584499428:0;la
@@ -11390,3 +9375,1501 @@ fi
 : 1592123608:0;yarn dev
 : 1592123610:0;vi
 : 1592190135:0;down
+: 1592202802:0;jt work
+: 1592202803:0;la
+: 1592202804:0;cd lyon
+: 1592202805:0;la
+: 1592202809:0;cd api-server
+: 1592202822:0;la
+: 1592202831:0;../html-renderer
+: 1592203087:0;g co develop
+: 1592203090:0;g d
+: 1592203093:0;g st
+: 1592203095:0;g co develop
+: 1592203100:0;g pl origin develop
+: 1592203108:0;g co develop
+: 1592203110:0;g pl origin develop
+: 1592203119:0;yarn install
+: 1592203146:0;vi
+: 1592203149:0;clear
+: 1592203151:0;yarn dev
+: 1592203155:0;vi
+: 1592203156:0;yarn dev
+: 1592203347:0;g st apply
+: 1592203350:0;g d
+: 1592203395:0;ts-node --files ./src/index.ts
+: 1592203399:0;g d
+: 1592203406:0;g s
+: 1592203409:0;g reset
+: 1592203410:0;g d
+: 1592203415:0;ts-node --files ./src/index.ts
+: 1592203445:0;g st
+: 1592203451:0;ts-node --files ./src/index.ts
+: 1592204596:0;g st apply
+: 1592204601:0;yarn dev
+: 1592204793:0;g d
+: 1592206795:0;ex
+: 1592207324:0;ts-node --files ./src/index.ts
+: 1592207351:0;g d
+: 1592207354:0;g st
+: 1592207357:0;yarn dev
+: 1592208151:0;g co feature-profile-reward-certificate
+: 1592208154:0;g d
+: 1592208157:0;g lol
+: 1592208159:0;g s
+: 1592208184:0;g co src
+: 1592208188:0;g co feature-profile-reward-certificate
+: 1592208197:0;g st apply
+: 1592208199:0;g d
+: 1592208230:0;yarn dev
+: 1592208274:0;g d
+: 1592208278:0;g s
+: 1592208279:0;g reset
+: 1592208319:0;yarn install
+: 1592208327:0;g d
+: 1592208332:0;rm -rf yarn.lock
+: 1592208337:0;rm -rf node
+: 1592208345:0;la
+: 1592208348:0;g d
+: 1592208351:0;g s
+: 1592208361:0;rm -rf node_modules
+: 1592208368:0;rm -rf a
+: 1592208371:0;la
+: 1592208373:0;g d
+: 1592208374:0;g s
+: 1592208376:0;yarn install
+: 1592208457:0;yarn dev
+: 1592208471:0;g s
+: 1592208938:0;g co feature-profile-reward-certificate
+: 1592208940:0;g lol
+: 1592208952:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592210292:0;vi
+: 1592210685:0;g d
+: 1592210690:0;yarn dev
+: 1592211304:0;g a
+: 1592211330:0;g c -m "start to divide the event participant controller"
+: 1592211331:0;g bnc
+: 1592211334:0;g ps origin feature-profile-reward-certificate
+: 1592212784:0;g d
+: 1592212787:0;g s
+: 1592212815:0;g clean -fd
+: 1592214060:0;g lol
+: 1592214062:0;g s
+: 1592214072:0;g a
+: 1592214093:0;g c -m "move readEventParticipantsByEventIdController to its own file"
+: 1592214418:0;g d
+: 1592214421:0;g a
+: 1592214462:0;g c -m "make EventParticipant singular on its controller methods"
+: 1592214463:0;g bnc
+: 1592214465:0;g ps origin feature-profile-reward-certificate
+: 1592214679:0;g d
+: 1592214682:0;g s
+: 1592214690:0;g a
+: 1592214769:0;g c -m "move readEventParticipantByApprovedUserController to its own file"
+: 1592214779:0;g bnc
+: 1592214882:0;g a
+: 1592214890:0;g c -m "fix the error for readEventParticipantByApprovedUserController"
+: 1592214892:0;g bnc
+: 1592214894:0;g ps origin feature-profile-reward-certificate
+: 1592216386:0;g a
+: 1592216410:0;g c -m "move appove, reject and approve all controllers to their respective own files"
+: 1592216412:0;g bnc
+: 1592216414:0;g ps origin feature-profile-reward-certificate
+: 1592301265:0;jt work
+: 1592301265:0;la
+: 1592301266:0;cd lyon
+: 1592301267:0;la
+: 1592301268:0;cd api-server
+: 1592301270:0;vi
+: 1592301274:0;yarn dev
+: 1592301278:0;../html-renderer
+: 1592301279:0;vi
+: 1592301283:0;yarn dev
+: 1592301945:0;g d
+: 1592301948:0;g st
+: 1592301951:0;g pl origin develop
+: 1592302244:0;g co origin/develop -- yarn.develop
+: 1592302251:0;g co origin/develop -- yarn.lock
+: 1592302510:0;g d
+: 1592302512:0;g s
+: 1592302532:0;g co origin/develop -- src/controllers/eventParticipant.ts
+: 1592302545:0;g co origin/develop -- src/routes/event.ts
+: 1592302547:0;g d
+: 1592302659:0;g s
+: 1592302672:0;g add .
+: 1592302675:0;g lol
+: 1592302676:0;g s
+: 1592302686:0;g c -m "Merge Develop"
+: 1592302694:0;g bnc
+: 1592302697:0;g ps origin feature-profile-reward-certificate
+: 1592302993:0;g lol
+: 1592302995:0;g s
+: 1592302997:0;g d
+: 1592303003:0;g lol
+: 1592303049:0;g reset
+: 1592303055:0;g lol
+: 1592303060:0;g co src/routes/certificate.ts
+: 1592303063:0;g reset d992f2881ea26b3b0f2efebe256c2d86c56b251d
+: 1592303067:0;g d
+: 1592303078:0;g co .github
+: 1592303081:0;g co yarn.lock
+: 1592303085:0;g co src/utils
+: 1592303086:0;g d
+: 1592303087:0;g s
+: 1592303091:0;g co .github
+: 1592303099:0;g s
+: 1592303133:0;git add src/controllers/eventParticipant
+: 1592303135:0;g clean -fd
+: 1592303137:0;g s
+: 1592303158:0;g reset
+: 1592303163:0;g st
+: 1592303169:0;open .
+: 1592303194:0;git reset --hard origin/feature-profile-reward-certificate
+: 1592303263:0;g lol
+: 1592303268:0;g s
+: 1592303291:0;rm -rf .DS_Store src/.DS_Store src/controllers/.DS_Store
+: 1592303292:0;g d
+: 1592303293:0;g s
+: 1592303298:0;g add .
+: 1592303303:0;git add .
+: 1592303313:0;g c -m "fix the error for eventParticipant"
+: 1592303315:0;g bnc
+: 1592303317:0;g ps origin feature-profile-reward-certificate
+: 1592303400:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592303484:0;g lol
+: 1592303494:0;git stash list
+: 1592303502:0;git stash show -p stash@{1}
+: 1592303510:0;git stash show apply stash@{1}
+: 1592303514:0;yarn dev
+: 1592303882:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592304199:0;g lol
+: 1592305580:0;g bnc
+: 1592308138:0;jt work
+: 1592308138:0;la
+: 1592308140:0;cd kuru-anime
+: 1592308140:0;la
+: 1592308144:0;cd main-website
+: 1592308144:0;la
+: 1592308146:0;cd server
+: 1592308147:0;la
+: 1592308151:0;vi
+: 1592341540:0;jt work
+: 1592341540:0;la
+: 1592341545:0;mkdir editmode
+: 1592341568:0;ruby --version
+: 1592341580:0;jt dotfiles
+: 1592341581:0;vi
+: 1592341600:0;g d
+: 1592341601:0;g s
+: 1592341604:0;g clean -fd
+: 1592341605:0;g lol
+: 1592341607:0;g s
+: 1592341608:0;g st
+: 1592341625:0;la
+: 1592341630:0;cd editmode
+: 1592341638:0;rbenv install 2.7.0
+: 1592342174:0;rbenv --help local
+: 1592342188:0;rbenv local 2.7.0
+: 1592342193:0;la
+: 1592342195:0;vi .ruby-version
+: 1592342205:0;psql --version
+: 1592342261:0;git clone git@github.com:Editmode-app/editmode.git main-app
+: 1592342336:0;la
+: 1592342338:0;cd main-app
+: 1592342338:0;la
+: 1592342343:0;rails --version
+: 1592342348:0;sudo gem install rails
+: 1592342593:0;bundle install
+: 1592342601:0;bundle update --bundler
+: 1592342724:0;gem install bundler:1.17.3
+: 1592342835:0;bundle install
+: 1592342940:0;gem install bcrypt -v '3.1.13' --source 'https://rubygems.org/'
+: 1592342947:0;_ gem install bcrypt -v '3.1.13' --source 'https://rubygems.org/'
+: 1592343037:0;bundle install
+: 1592343057:0;_ bundle install
+: 1592343066:0;bundle install
+: 1592343078:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
+: 1592343202:0;bundle install
+: 1592343232:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
+: 1592343296:0;bundle install
+: 1592343360:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
+: 1592343400:0;bundle install
+: 1592343491:0;_ gem install json -v '1.8.6' --source 'https://rubygems.org/'
+: 1592343597:0;bundle install
+: 1592343617:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
+: 1592343730:0;bundle install
+: 1592343780:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
+: 1592343897:0;bundle install
+: 1592344020:0;_ gem install redcarpet -v '3.5.0' --source 'https://rubygems.org/'
+: 1592344065:0;bundle install
+: 1592344127:0;_ gem install eventmachine -v '1.0.8' --source 'https://rubygems.org/'
+: 1592344189:0;bundle install
+: 1592344229:0;_ gem install http_parser.rb -v '0.6.0' --source 'https://rubygems.org/'
+: 1592344300:0;bundle install
+: 1592344352:0;_ gem install ffi -v '1.9.10' --source 'https://rubygems.org/'
+: 1592344432:0;bundle install
+: 1592344548:0;_ gem install jaro_winkler -v '1.5.4' --source 'https://rubygems.org/'
+: 1592344561:0;bundle install
+: 1592344616:0;_ gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+: 1592344701:0;bundle install
+: 1592344768:0;_ gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
+: 1592344864:0;_ gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/' -- --with-system-v8
+: 1592344880:0;bundle install
+: 1592344944:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/'
+: 1592345015:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-v8-dir=/usr/local/opt/v8-315
+: 1592345034:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-system-v8
+: 1592345142:0;gem uninstall libv8
+: 1592345169:0;/Users/boserikoreyes/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems
+: 1592345172:0;la
+: 1592345197:0;libv8-3.16.14.19
+: 1592345199:0;la
+: 1592345231:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-v8-dir=/Users/boserikoreyes/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/libv8-3.16.14.19
+: 1592345264:0;locate v8
+: 1592345296:0;brew tap homebrew/versions
+: 1592345331:0;brew install v8-315
+: 1592345366:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-system-v8
+: 1592345428:0;brew uninstall libv8 && gem uninstall libv8
+: 1592345452:0;gem uninstall libv8
+: 1592345619:0;bundle install
+: 1592345647:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/'
+: 1592345691:0;brew install v8
+: 1592345710:0;brew install v8@3.15
+: 1592345717:0;brew tap homebrew/versions
+: 1592345731:0;brew install v8@3.15
+: 1592345747:0;brew reinstall v8@3.15
+: 1592345754:0;brew link --force v8@3.15
+: 1592345762:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-system-v8
+: 1592345877:0;bundle install
+: 1592345969:0;vi
+: 1592346066:0;touch config/application.yml
+: 1592346086:0;rails --version
+: 1592346092:0;sudo gem install rails
+: 1592346161:0;rails --version
+: 1592346172:0;rake db:create db:migrate
+: 1592346194:0;rake db:seeds
+: 1592346282:0;rake db:seed
+: 1592346318:0;rails console
+: 1592346329:0;sudo gem install rails
+: 1592346401:0;rails --version
+: 1592346427:0;ruby --version
+: 1592346481:0;rails -v
+: 1592346616:0;rails --version
+: 1592346674:0;la
+: 1592346677:0;jt dotfiles
+: 1592346677:0;la
+: 1592346678:0;vi
+: 1592346683:0;rbenv rehash
+: 1592346690:0;rails --version
+: 1592346698:0;rails console
+: 1592346814:0;rake db:seed
+: 1592347313:0;rails s
+: 1592347325:0;rails s -p 3002
+: 1592347481:0;rails --help
+: 1592347743:0;g co new_layout
+: 1592347749:0;rails s -p 3002
+: 1592347756:0;bundle install
+: 1592347983:0;rails s
+: 1592347986:0;rails s -p 3002
+: 1592347996:0;rails console
+: 1592348085:0;rake db:create db:migrate
+: 1592348375:0;rails s -p 3002
+: 1592348410:0;jj
+: 1592348441:0;rails s
+: 1592348450:0;rails s -p 3002
+: 1592348889:0;rails server -h
+: 1592350627:0;lsof -wni tcp:3002
+: 1592352249:0;g d
+: 1592352258:0;g s
+: 1592352266:0;g d
+: 1592352295:0;g st
+: 1592365863:0;la
+: 1592365867:0;jt work
+: 1592365867:0;la
+: 1592365871:0;cd lyon
+: 1592365871:0;la
+: 1592365877:0;cd api-server
+: 1592365879:0;la
+: 1592369605:0;jt work
+: 1592369606:0;la
+: 1592369607:0;cd lyon
+: 1592369607:0;la
+: 1592369610:0;cd api-server
+: 1592369611:0;la
+: 1592369616:0;g bnc
+: 1592369618:0;g co develop
+: 1592369633:0;g st
+: 1592369637:0;g s
+: 1592369640:0;g clean -fd
+: 1592369644:0;g lol
+: 1592369649:0;g pl origin develop
+: 1592369786:0;g co hotfix-profile-reward-certificate
+: 1592369792:0;g co -b hotfix-profile-reward-certificate
+: 1592369801:0;../html-renderer
+: 1592369803:0;la
+: 1592369807:0;g co develop
+: 1592369811:0;g lol
+: 1592369812:0;g d
+: 1592369819:0;g st
+: 1592369823:0;g pl origin develop
+: 1592369930:0;g co -b hotfix-profile-reward-certificate
+: 1592369936:0;vi
+: 1592369937:0;yarn dev
+: 1592369939:0;vi
+: 1592369942:0;yarn dev
+: 1592369979:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592370288:0;yarn dev
+: 1592370366:0;vi
+: 1592371504:0;g a
+: 1592371521:0;g s
+: 1592371529:0;git add public
+: 1592371531:0;g s
+: 1592371571:0;g c -m "update logo and add foz to the signature"
+: 1592371573:0;g bnc
+: 1592371579:0;g ps origin hotfix-profile-reward-certificate
+: 1592372019:0;g d
+: 1592372022:0;g st
+: 1592372027:0;g st apply
+: 1592372028:0;g d
+: 1592372030:0;g co components
+: 1592372443:0;g a
+: 1592372451:0;g lol
+: 1592372463:0;g d
+: 1592372464:0;g s
+: 1592372467:0;g c -m "add endDate"
+: 1592372469:0;g bnc
+: 1592372472:0;g ps origin hotfix-profile-reward-certificate
+: 1592372672:0;g d
+: 1592373543:0;g bnc
+: 1592374451:0;g a
+: 1592374456:0;g d
+: 1592374457:0;g s
+: 1592374463:0;g c -m "update the format of picture"
+: 1592374464:0;g bnc
+: 1592374467:0;g ps origin hotfix-profile-reward-certificate
+: 1592374707:0;bos -p ngrok 8081
+: 1592374722:0;bos -p ngrok 8082
+: 1592376020:0;g d
+: 1592376021:0;g a
+: 1592376041:0;g c -m "update the companyName of foz"
+: 1592376043:0;g bnc
+: 1592376045:0;g ps origin hotfix-profile-reward-certificate
+: 1592376626:0;la
+: 1592376629:0;..
+: 1592376629:0;la
+: 1592376630:0;..
+: 1592376630:0;la
+: 1592376632:0;cd editmode
+: 1592376632:0;la
+: 1592376636:0;cd main-app
+: 1592376648:0;rails s
+: 1592376659:0;rails s -p 3002 -P 23
+: 1592376774:0;rake db:drop
+: 1592376781:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592376801:0;rake db:create db:migrate
+: 1592376847:0;rake db:create
+: 1592376917:0;psql --command="\l"
+: 1592376929:0;brew services list
+: 1592376941:0;psql
+: 1592376949:0;..
+: 1592376952:0;psql
+: 1592376957:0;ruby --version
+: 1592376971:0;psql --version
+: 1592377074:0;brew services restart psql
+: 1592377078:0;brew services list
+: 1592377085:0;brew services restart postgresql
+: 1592377092:0;psql
+: 1592377424:0;where psql
+: 1592377434:0;cd /usr/local/bin/psql
+: 1592377450:0;cd /usr/local/bin/
+: 1592377451:0;la
+: 1592377459:0;..
+: 1592377459:0;la
+: 1592377501:0;cat cat /usr/local/var/postgres/postmaster.pid
+: 1592377512:0;cat /usr/local/var/postgres/postmaster.pid
+: 1592377528:0;rm -rf /usr/local/var/postgres/postmaster.pid
+: 1592377536:0;psql
+: 1592377674:0;rails s
+: 1592377689:0;psql
+: 1592377693:0;rake db:drop
+: 1592377709:0;rake db:create
+: 1592377738:0;rake db:migrate
+: 1592377757:0;rake db:seeds
+: 1592377773:0;rails s
+: 1592377785:0;rails s -p 3002 -P 23
+: 1592377899:0;rails c
+: 1592379604:0;g a
+: 1592379610:0;g c -m "acert on mark as well"
+: 1592379611:0;g bnc
+: 1592379613:0;g ps origin hotfix-profile-reward-certificate
+: 1592379798:0;g a
+: 1592379809:0;g c -m "update directory to director"
+: 1592379810:0;g bnc
+: 1592379812:0;g ps origin hotfix-profile-reward-certificate
+: 1592386252:0;vi
+: 1592386421:0;rails c
+: 1592386431:0;rails s
+: 1592386444:0;rails s -p 3002 -P 23
+: 1592387182:0;rake db:seeds
+: 1592387698:0;rails console
+: 1592387820:0;rake db:destroy
+: 1592387824:0;rake db:drop
+: 1592387861:0;yarn dev
+: 1592387870:0;rake db:drop
+: 1592387894:0;rake db:create db:migrate db:seeds
+: 1592387955:0;rails console
+: 1592388061:0;rake db:seeds
+: 1592388198:0;psql --command="\l"
+: 1592428229:0;jt work
+: 1592428230:0;la
+: 1592428232:0;cd editmode
+: 1592428232:0;la
+: 1592428237:0;cd main-app
+: 1592428238:0;la
+: 1592428239:0;g d
+: 1592428240:0;g s
+: 1592428242:0;g d
+: 1592428247:0;g st
+: 1592428251:0;g bnc
+: 1592428253:0;g pl origin new_layout
+: 1592428265:0;g lol
+: 1592428269:0;g log
+: 1592428295:0;rake db:drop db:create db:migrate db:seeds
+: 1592428439:0;rails console
+: 1592428481:0;rake db:drop
+: 1592428574:0;pg_restore --verbose --username=boseriko --dbname=chunk --clean --no-acl --host=localhost ~/Downloads/chunk.sql
+: 1592428783:0;rake db:drop db:create db:migrate db:seeds
+: 1592428955:0;vi
+: 1592429023:0;rails console
+: 1592429170:0;rake db:drop db:create db:migrate db:seeds
+: 1592430375:0;rake routes
+: 1592430472:0;rails c
+: 1592430586:0;rake db:drop db:create db:migrate db:seeds
+: 1592430612:0;rails console
+: 1592430690:0;rake db:drop db:create db:migrate db:seeds
+: 1592430724:0;rails console
+: 1592430756:0;rake db:seeds
+: 1592430879:0;rails console
+: 1592431228:0;rake db:seeds
+: 1592431697:0;g d
+: 1592431701:0;g st
+: 1592431714:0;vi
+: 1592431718:0;rails s
+: 1592431721:0;rails s -p 3002 -P 23
+: 1592432040:0;../
+: 1592432041:0;la
+: 1592432046:0;mkdir tpm
+: 1592432049:0;mv tpm tmp
+: 1592432051:0;..
+: 1592432051:0;la
+: 1592432052:0;cd lyon
+: 1592432052:0;la
+: 1592432056:0;mv temp tmp
+: 1592432057:0;..
+: 1592432057:0;la
+: 1592432058:0;cd editmode
+: 1592432059:0;la
+: 1592434656:0;cd main-app
+: 1592434700:0;la
+: 1592434704:0;g bnc
+: 1592434706:0;g pl origin new_layout
+: 1592434717:0;rake db:drop db:create db:migrate db:seeds
+: 1592435183:0;rails s
+: 1592435191:0;rails s -p 3002 -P 23
+: 1592439642:0;jt dotfiles
+: 1592439643:0;la
+: 1592439669:0;vi
+: 1592439697:0;g d
+: 1592439701:0;g a
+: 1592439707:0;g c -m "add twitch studio"
+: 1592439708:0;g bnc
+: 1592439710:0;g ps origin master
+: 1592442904:0;jt work
+: 1592449590:0;la
+: 1592449591:0;cd lyon
+: 1592449592:0;la
+: 1592449594:0;cd api-server
+: 1592449594:0;la
+: 1592449598:0;g co develop
+: 1592449601:0;g d
+: 1592449606:0;la
+: 1592449609:0;g d
+: 1592449610:0;g s
+: 1592449612:0;g co yarn.lock
+: 1592449614:0;g st
+: 1592449617:0;g pl origin develop
+: 1592449924:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592450117:0;g st apply
+: 1592450121:0;vi
+: 1592450131:0;../html-renderer
+: 1592450134:0;g co develop
+: 1592450138:0;vi
+: 1592450143:0;g st
+: 1592450148:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592450158:0;yarn dev
+: 1592450166:0;g co feature-profile-edit
+: 1592450173:0;g co -b feature-profile-edit
+: 1592450196:0;vi
+: 1592458188:0;g a
+: 1592458205:0;g d
+: 1592458206:0;g s
+: 1592458219:0;g c -m "create a folder for the user controller"
+: 1592459553:0;g a
+: 1592459583:0;g c -m "move createUserController to its own file"
+: 1592460080:0;g a
+: 1592460094:0;g c -m "move createUserController to its own file"
+: 1592460412:0;g a
+: 1592460425:0;g c -m "move readUserListController to its own file"
+: 1592460748:10;g a
+: 1592460768:0;g c -m "move readUserByEmailController to its own file"
+: 1592460770:0;g bnc
+: 1592460773:7;g ps origin feature-profile-edit
+: 1592461354:0;g a
+: 1592461373:0;g c -m "move readUserProviderAccountController and readUserByIdController to their own files"
+: 1592461375:0;g bnc
+: 1592461377:0;g ps origin feature-profile-edit
+: 1592461746:0;g a
+: 1592461754:0;g d
+: 1592461755:0;g s
+: 1592461757:0;g reset
+: 1592461826:0;g a
+: 1592461857:0;g c -m "move updateUserDisplayPhotoController to its own file"
+: 1592462135:0;g a
+: 1592462158:0;g c -m "move deleteUserDisplayPhotoController to its own file"
+: 1592462160:0;g bnc
+: 1592462162:0;g ps origin feature-profile-edit
+: 1592462420:0;g a
+: 1592462435:0;g c -m "move updateUserLicenseController to its own file"
+: 1592462436:0;g bnc
+: 1592462438:0;g ps origin feature-profile-edit
+: 1592462694:0;g a
+: 1592462714:0;g c -m "move deleteUserLicenseController to its own file"
+: 1592462716:0;g bnc
+: 1592462719:0;g ps origin feature-profile-edit
+: 1592462881:0;g d
+: 1592463160:0;g a
+: 1592463176:0;g c -m "move updateUserController to its own file"
+: 1592463178:0;g bnc
+: 1592463181:0;g ps origin feature-profile-edit
+: 1592463421:10;g a
+: 1592463438:0;g c -m "move updateUserPasswordController to its own controller"
+: 1592463439:0;g bnc
+: 1592463441:7;g ps origin feature-profile-edit
+: 1592463545:0;g a
+: 1592463561:0;g c -m "move readUserIsSubscribedController to its own file"
+: 1592463581:0;g a
+: 1592463599:0;g c -m "fix readUserIsSubscribedController error"
+: 1592463603:0;g bnc
+: 1592463610:0;g ps origin feature-profile-edit
+: 1592474835:0;vi
+: 1592474884:0;g d
+: 1592474886:0;g s
+: 1592474896:0;g a
+: 1592474913:0;g s
+: 1592474937:0;g c -m "move eventParticipantNew to a more obvious unused folder"
+: 1592474938:0;g bnc
+: 1592474940:0;g ps origin feature-profile-edit
+: 1592475330:0;yarn dev
+: 1592516450:0;jt work
+: 1592516451:0;la
+: 1592516452:0;cd editmode
+: 1592516452:0;la
+: 1592516455:0;cd main-app
+: 1592516457:0;la
+: 1592516462:0;g bnc
+: 1592516464:0;g pl origin new_layout
+: 1592516578:0;bundle install
+: 1592516615:0;rails s
+: 1592516620:0;rails s -p 3002 -P 23
+: 1592516786:0;vi
+: 1592516805:0;rspec test/controllers/users_controller_test.rb
+: 1592516850:0;rspec test/controllers/demo_controller_test.rb
+: 1592517367:0;vi
+: 1592517424:0;rspec spec/requests/api/v1/users_request_spec.rb
+: 1592517468:0;rake db:migrate
+: 1592517657:0;rspec spec/requests/api/v1/users_request_spec.rb
+: 1592517895:0;rails console
+: 1592518135:0;rspec spec/requests/api/v1/users_request_spec.rb:7
+: 1592518387:0;rspec spec/support/shared_authentication.rb
+: 1592519531:0;rails s
+: 1592519534:0;rails s -p 3002 -P 23
+: 1592519636:0;psql
+: 1592519847:0;rake db:migrate:reset db:seed
+: 1592520059:0;rails s
+: 1592520068:0;rails s -p 3002 -P 23
+: 1592520530:0;rails console
+: 1592520539:0;rspec spec/support/shared_authentication.rb
+: 1592520763:0;bin/rake db:migrate RAILS_ENV=test
+: 1592520870:0;rake db:migrate:reset db:seed
+: 1592520911:0;rspec spec/support/shared_authentication.rb
+: 1592524304:0;rails console
+: 1592524536:0;vi
+: 1592524870:0;rake db:migrate:reset db:seed
+: 1592525059:0;rails console
+: 1592525166:0;rake db:migrate:reset db:seeds
+: 1592525195:0;rake db:drop
+: 1592525248:0;rake db:migrate:reset db:seeds
+: 1592525301:0;rails console
+: 1592525335:0;rails s
+: 1592525351:0;rails s -p 3002 -P 23
+: 1592525368:0;rspec spec/support/shared_authentication.rb
+: 1592527327:0;jt work
+: 1592527328:0;la
+: 1592527329:0;cd lyon
+: 1592527330:0;la
+: 1592527332:0;cd api-server
+: 1592527334:0;la
+: 1592527336:0;g d
+: 1592527353:0;g co src/index.ts
+: 1592527358:0;g s
+: 1592527363:0;g co src/routes/user.ts
+: 1592527373:0;g pl origin develop
+: 1592527390:0;g lol
+: 1592527409:0;../html-renderer
+: 1592527415:0;g pl origin develop
+: 1592527423:0;g d
+: 1592527425:0;g s
+: 1592527438:0;vi
+: 1592527442:0;yarn dev
+: 1592527446:0;g di
+: 1592527448:0;g d
+: 1592527459:0;g s
+: 1592527464:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592542197:0;g d
+: 1592542198:0;g s
+: 1592542208:0;g co src/routes/user.ts
+: 1592542214:0;g co src/models/payloads/user.ts
+: 1592542271:0;g s
+: 1592542277:0;g a
+: 1592542292:0;g c -m "sort alphabetically"
+: 1592542913:0;g a
+: 1592542940:0;g c -m "make the update details optional"
+: 1592542941:0;g bnc
+: 1592542943:0;g ps origin feature-profile-edit
+: 1592542950:0;g pl origin develop
+: 1592545617:0;g a
+: 1592545751:0;g c -m "add scope-models, payload, result, and api endpoint for update user details"
+: 1592545752:0;g bnc
+: 1592545755:0;g ps origin feature-profile-edit
+: 1592637350:0;jt work
+: 1592637354:0;la
+: 1592637357:0;cd editmode
+: 1592637358:0;la
+: 1592637359:0;vi
+: 1592637377:0;rails s
+: 1592637378:0;rails s -p 3002 -P 23
+: 1592637391:0;la
+: 1592637393:0;cd main-app
+: 1592637398:0;rails s
+: 1592637405:0;la
+: 1592637408:0;cd main-app
+: 1592637409:0;la
+: 1592637438:0;rails s -p 3002 -P 23
+: 1592637456:0;vi
+: 1592637460:0;la
+: 1592637462:0;cd main-app
+: 1592637463:0;vi
+: 1592637468:0;cd main-app
+: 1592637500:0;la
+: 1592637502:0;g bnc
+: 1592637505:0;g pl origin new_layout
+: 1592637518:0;rails s
+: 1592637521:0;bundle install
+: 1592637551:0;rails s
+: 1592637572:0;rails s -p 3002 -P 23
+: 1592641651:0;jt work
+: 1592641651:0;la
+: 1592641652:0;cd editmode
+: 1592641653:0;la
+: 1592641655:0;cd main-app
+: 1592641655:0;la
+: 1592641659:0;vi
+: 1592641669:0;rails s -p 3002 -P 23
+: 1592641670:0;rails s
+: 1592705404:0;jt work
+: 1592705404:0;la
+: 1592705406:0;cd editmode
+: 1592705407:0;la
+: 1592705409:0;cd main-app
+: 1592705410:0;la
+: 1592705432:0;rails s
+: 1592705433:0;rails s -p 3002 -P 23
+: 1592705435:0;rails c
+: 1592705441:0;vi
+: 1592705469:0;rspec spec/features/collections/create_spec.rb
+: 1592705915:0;rspec spec/features/projects/create_spec.rb
+: 1592708540:0;rake test:prepare
+: 1592708570:0;g d
+: 1592708580:0;g s
+: 1592708582:0;g st
+: 1592708586:0;vi 23
+: 1592708592:0;g clean -fd
+: 1592708594:0;g d
+: 1592708594:0;g s
+: 1592708603:0;rspec spec/features/projects/create_spec.rb
+: 1592709640:0;bin/rake db:migrate RAILS_ENV=test
+: 1592709670:0;rake db:migrate:reset db:seeds RAILS_ENV=test
+: 1592709695:0;rspec spec/features/projects/create_spec.rb
+: 1592709955:0;bundle install
+: 1592710094:0;rspec spec/features/projects/create_spec.rb
+: 1592710176:0;g d
+: 1592710206:0;g st
+: 1592710212:0;g pl origin new_layout
+: 1592710241:0;g co -b new_layout_spec
+: 1592710263:0;g st apply
+: 1592710374:0;g d
+: 1592710377:0;g co spec
+: 1592710381:0;g a
+: 1592710407:0;g c -m "add webdrivers to avoid error when running spec"
+: 1592711039:0;vi
+: 1592711060:0;rspec spec/requests/api/v1/users_request_spec.rb
+: 1592713165:0;vi
+: 1592713176:0;rspec spec/features/collections/create_spec.rb
+: 1592713235:0;spec/features/collections/create_spec.rb
+: 1592713238:0;rspec ./spec/features/collections/create_spec.rb:13
+: 1592713260:0;rspec ./spec/features/collections/create_spec.rb
+: 1592713553:0;g a
+: 1592713563:0;g c -m "Add project_type to the factory bot of project"
+: 1592714064:0;rake routes |grep "new_user_session"
+: 1592714178:0;rspec ./spec/features/collections/create_spec.rb
+: 1592714281:0;rake routes |grep "new_user_session"
+: 1592714461:0;rspec ./spec/features/collections/create_spec.rb
+: 1592715371:0;rspec ./spec/features/collections/create_spec.rb:13
+: 1592715469:0;rake routes | grep "project_entity_types"
+: 1592715532:0;rspec ./spec/features/collections/create_spec.rb:13
+: 1592715567:0;g d
+: 1592715643:0;rspec ./spec/features/collections/create_spec.rb
+: 1592715863:0;g a
+: 1592715914:0;g c -m "Fix the error for the shared_authentication spec"
+: 1592715920:0;g bnc
+: 1592715923:0;g ps origin new_layout_spec
+: 1592716619:0;rspec ./spec/features/collections/create_spec.rb
+: 1592776973:0;jt work
+: 1592776973:0;la
+: 1592776975:0;cd editmode
+: 1592776975:0;la
+: 1592776978:0;cd main-app
+: 1592776978:0;la
+: 1592776980:0;g d
+: 1592776984:0;g a
+: 1592776998:0;g c -m "fix the collection button issue"
+: 1592777004:0;rspec ./spec/features/collections/create_spec.rb
+: 1592777261:0;vi
+: 1592777450:0;rspec ./spec/features/collections/create_spec.rb
+: 1592777901:0;rspec ./spec/features/collections/create_spec.rb:13
+: 1592777981:0;rake routes | grep "project_entity_types"
+: 1592778071:0;rspec ./spec/features/collections/create_spec.rb:13
+: 1592778709:0;rails s
+: 1592778713:0;rails s -p 3002 -P 23
+: 1592778715:0;rails c
+: 1592778882:0;rspec ./spec/features/collections/create_spec.rb:13
+: 1592780240:0;rake routes | grep "project_entity_types"
+: 1592780363:0;g pl origin new_layout
+: 1592780374:0;g lol
+: 1592780382:0;rails s
+: 1592780383:0;rails s -p 3002 -P 23
+: 1592783211:0;rspec spec/features/collections/index_spec.rb
+: 1592783263:0;rake routes |grep "projects"
+: 1592783333:0;rspec spec/features/collections/index_spec.rb
+: 1592795590:0;jt work
+: 1592795590:0;la
+: 1592795593:0;cd editmode
+: 1592795604:0;la
+: 1592795606:0;cd ../lyon
+: 1592795607:0;la
+: 1592795609:0;cd api-server
+: 1592795614:0;g d
+: 1592795614:0;g s
+: 1592795616:0;g st
+: 1592795619:0;g pl origin develop
+: 1592795629:0;vi
+: 1592795638:0;rm -rf yarn.lock
+: 1592795640:0;g d
+: 1592795641:0;g s
+: 1592795656:0;g co develop -- yarn.lock
+: 1592795659:0;g s
+: 1592795668:0;vi
+: 1592795679:0;g c -m "merge develop"
+: 1592795683:0;g st apply
+: 1592795686:0;vi
+: 1592795693:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592795710:0;../html-renderer
+: 1592795716:0;g d
+: 1592795718:0;g s
+: 1592795720:0;g st
+: 1592795723:0;g pl origin develop
+: 1592795755:0;vi
+: 1592795760:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592798672:0;g a
+: 1592798801:0;g c -m "create a modal"
+: 1592798802:0;g bnc
+: 1592798805:0;g ps origin feature-profile-edit
+: 1592815412:0;g d
+: 1592815417:0;g s
+: 1592862643:0;jt work
+: 1592862644:0;la
+: 1592862647:0;cd editmode
+: 1592862647:0;la
+: 1592862651:0;cd main-app
+: 1592862654:0;g d
+: 1592862668:0;g a
+: 1592862678:0;g c -m "repurpose the collections spec"
+: 1592862678:0;g bnc
+: 1592862685:0;g ps origin new_layout_spec
+: 1592862748:0;g co master
+: 1592862751:0;g pl origin master
+: 1592862805:0;g d
+: 1592862810:0;g pl
+: 1592862911:0;g co staging
+: 1592862935:0;g co -b staging-edit-entity-slug
+: 1592862953:0;rails s
+: 1592862954:0;rails s -p 3002 -P 23
+: 1592862958:0;bundle install
+: 1592862984:0;rails s
+: 1592862986:0;rails s -p 3002 -P 23
+: 1592862987:0;rails c
+: 1592862992:0;vi
+: 1592863101:0;rake db:migrate
+: 1592863175:0;rails c
+: 1592863177:0;rails s
+: 1592863179:0;rails s -p 3002 -P 23
+: 1592864759:0;g a
+: 1592864781:0;g c -m "make slug editable"
+: 1592864782:0;g bnc
+: 1592864785:0;g ps origin staging-edit-entity-slug
+: 1592864834:0;g lol
+: 1592865157:0;g co new_layout_spec
+: 1592865162:0;g pl origin staging
+: 1592865169:0;g d
+: 1592865171:0;g st
+: 1592865173:0;g s
+: 1592865176:0;g clean -fd
+: 1592865179:0;g pl origin staging
+: 1592865186:0;g s
+: 1592865188:0;rm -rf 23
+: 1592865194:0;g d
+: 1592865195:0;g s
+: 1592865206:0;g stash
+: 1592865207:0;g d
+: 1592865208:0;g s
+: 1592865218:0;g pl origin staging
+: 1592865230:0;g bnc
+: 1592865236:0;g ps origin new_layout_spec
+: 1592865262:0;g co staging -- app/views/content_pieces/index.haml
+: 1592865264:0;g d
+: 1592865265:0;g s
+: 1592865268:0;g a
+: 1592865287:0;g co staging -- app/views/users/sessions/new.html.haml
+: 1592865289:0;g d
+: 1592865290:0;g s
+: 1592865302:0;g c -m "restore unwanted changes"
+: 1592865306:0;g bnc
+: 1592865308:0;g ps origin new_layout_spec
+: 1592865336:0;g co staging
+: 1592865339:0;g pl origin staging
+: 1592865350:0;g co -b staging-sort-collection
+: 1592869244:0;bin/rails generate migration AddPositionToContentPiece
+: 1592869258:0;vi
+: 1592869867:0;rake db:migrate
+: 1592869907:0;g a
+: 1592869917:0;g c -m "add position to content piece"
+: 1592870568:0;rails c
+: 1592873929:0;g a
+: 1592873970:0;g c -m "rename the sort feature query to .sortable-block so it can be reused"
+: 1592874335:0;g a
+: 1592874377:0;g c -m "rename the sortable queries to sortable-block and sortable-handle so it can be reused"
+: 1592879148:0;g a
+: 1592879190:0;g c -m "rename position-field to sortable-position-field"
+: 1592879191:0;g a
+: 1592879228:0;g c -m "sort the content page by position ascending"
+: 1592879229:0;g bnc
+: 1592879231:0;g ps origin staging-sort-collection
+: 1592879252:0;g d
+: 1592879255:0;g a
+: 1592879290:0;g c -m "permit content pieces' id and position on update"
+: 1592879294:0;g d
+: 1592879302:0;g st
+: 1592882047:0;jt work
+: 1592882068:0;la
+: 1592882071:0;cd lyon
+: 1592882073:0;cd api-server
+: 1592882077:0;g d
+: 1592882079:0;g s
+: 1592882235:0;g co yarn.lock
+: 1592882236:0;g st
+: 1592882244:0;g pl origin develop
+: 1592882262:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592882270:0;g st apply
+: 1592882276:0;g d
+: 1592882283:0;vi
+: 1592882289:0;../html-renderer
+: 1592882291:0;vi
+: 1592882298:0;g d
+: 1592882299:0;g s
+: 1592882305:0;rm -rf yarn.lock
+: 1592882310:0;g st
+: 1592882317:0;g pl origin develop
+: 1592882328:0;g st apply
+: 1592882332:0;g s
+: 1592882362:0;g d
+: 1592882364:0;g s
+: 1592882373:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592882386:0;g reset
+: 1592882387:0;g d
+: 1592882390:0;g s
+: 1592882397:0;yarn dev
+: 1592884605:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592884767:0;g d
+: 1592884768:0;g s
+: 1592884781:0;g co origin/develop -- yarn.lock
+: 1592884783:0;g d
+: 1592884784:0;g s
+: 1592884787:0;g st
+: 1592884788:0;g d
+: 1592884789:0;g s
+: 1592884795:0;g co origin develop
+: 1592884808:0;g co develop
+: 1592884811:0;g pl origin develop
+: 1592884954:0;g co feature-profile-edit
+: 1592884967:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592885041:0;g d
+: 1592885047:0;g s
+: 1592885049:0;g st apply
+: 1592885062:0;g co origin/develop -- yarn.lock
+: 1592885064:0;g st apply
+: 1592885067:0;g reset
+: 1592885073:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592885206:0;yarn dev
+: 1592885345:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592885631:0;g d
+: 1592885632:0;g s
+: 1592885639:0;g co origin/develop -- yarn.lock
+: 1592885641:0;g st
+: 1592885644:0;g co develop
+: 1592885647:0;g st apply
+: 1592885650:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592885715:0;g st
+: 1592885723:0;g co feature-profile-edit
+: 1592885727:0;g st apply
+: 1592885730:0;g d
+: 1592885730:0;g s
+: 1592885735:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592885925:0;jt work
+: 1592885926:0;cd lyon
+: 1592885927:0;cd api-server
+: 1592885929:0;vi
+: 1592885937:0;g d
+: 1592885938:0;g s
+: 1592885940:0;g reset
+: 1592885944:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592885949:0;jt work
+: 1592885953:0;lyon/html-renderer
+: 1592885955:0;vi
+: 1592885961:0;g s
+: 1592885966:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592889072:0;g d
+: 1592889074:0;g lol
+: 1592889095:0;g reset e922673
+: 1592889097:0;g d
+: 1592889105:0;g co src/controllers
+: 1592889109:0;g co yarn.lock
+: 1592889113:0;g co src/routes
+: 1592889119:0;g co .github
+: 1592889121:0;g lol
+: 1592889122:0;g s
+: 1592889125:0;g clean -fd
+: 1592889129:0;g co package.json
+: 1592889131:0;g lol
+: 1592889136:0;g d
+: 1592889143:0;yarn dev
+: 1592889149:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592889361:0;yarn dev
+: 1592889392:0;rm -rf node_modules yarn.lock
+: 1592889398:0;yarn install
+: 1592889447:0;yarn dev
+: 1592889599:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592889754:0;g d
+: 1592889758:0;g co package.json
+: 1592889759:0;g s
+: 1592889762:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592890566:0;g co origin/develop -- yarn.lock
+: 1592890569:0;g d
+: 1592890571:0;g s
+: 1592890579:0;g c -m "fix yarn.lock conflict"
+: 1592890582:0;g bnc
+: 1592890586:0;g ps origin feature-profile-edit
+: 1592891360:0;g s
+: 1592891365:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592895852:0;psql --command="\l"
+: 1592896067:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592898833:0;yarn dev
+: 1592899334:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592899414:0;g co develop
+: 1592899416:0;g d
+: 1592899417:0;g s
+: 1592899424:0;g co develop -- package.json
+: 1592899427:0;g co develop -- yarn.lock
+: 1592899429:0;g co develop
+: 1592899433:0;g st
+: 1592899436:0;g pl origin develop
+: 1592899485:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592899585:0;node --version
+: 1592899587:0;yarn --version
+: 1592899746:0;node --version
+: 1592899786:0;nvm user 13.9.0
+: 1592899790:0;node --version
+: 1592899798:0;nvm install 13.9.0
+: 1592899875:0;nvm user 13.9.0
+: 1592899878:0;nvm use 13.9.0
+: 1592899934:0;node --version
+: 1592899952:0;g d
+: 1592899953:0;g s
+: 1592899956:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592900037:0;nvm use node
+: 1592900046:0;node --version
+: 1592900051:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1592900976:0;yarn upgrade
+: 1592901009:0;yarn dev
+: 1592901030:0;yarn --version
+: 1592901049:0;rm -rf node_modules yarn.lock && yarn upgrade && yarn install && yarn dev
+: 1592901090:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
+: 1592903125:0;jt work
+: 1592903126:0;cd lyon
+: 1592903128:0;cd api-server
+: 1592903129:0;vi
+: 1592903136:0;gh pr checkout 135
+: 1592903159:0;yarn docker:dev
+: 1592903324:0;docker ps
+: 1592903347:0;docker-compose attach web
+: 1592903359:0;docker-compose attach api-server_lyon-api-server-dev_1
+: 1592903371:0;docker-compose ps
+: 1592903373:0;docker ps
+: 1592903466:0;docker attach 9defdc3f6239
+: 1592903520:0;docker-compose up -d
+: 1592903544:0;docker-compose -f docker-compose.dev.yml up -d
+: 1592903552:0;docker-compose -f docker-compose.dev.yml down -d
+: 1592903564:0;docker-compose -f docker-compose.dev.yml down
+: 1592903570:0;docker-compose -f docker-compose.dev.yml up -d
+: 1592903608:0;docker ps
+: 1592903615:0;docker container attach 89b6a8d59123
+: 1592903638:0;docker container exec 89b6a8d59123
+: 1592903643:0;docker-compose --help
+: 1592903652:0;docker -h
+: 1592903661:0;docker -h |grep tail
+: 1592903667:0;docker --help |grep tail
+: 1592903671:0;docker --help |grep "tail"
+: 1592903675:0;docker-compose --help |grep "tail"
+: 1592903686:0;docker attach --help
+: 1592903694:0;docker ps
+: 1592903705:0;docker-compose -f docker-compose.dev.yml up -d
+: 1592903718:0;docker ps
+: 1592903729:0;docker attach api-server_lyon-api-server-dev_1
+: 1592903761:0;docker logs
+: 1592903771:0;docker logs api-server_lyon-api-server-dev_1
+: 1592904419:0;g co feature-profile-edit
+: 1592904423:0;g d
+: 1592904424:0;g s
+: 1592904427:0;g st apply
+: 1592904430:0;yarn dev
+: 1592904705:0;vi ~/Downloads/lyon-bos.ppk
+: 1592904766:0;brew install putty
+: 1592904802:0;jt dotfiles
+: 1592904804:0;la
+: 1592904805:0;vi
+: 1592904848:0;g a
+: 1592904852:0;g c -m "add putty"
+: 1592904854:0;g bnc
+: 1592904855:0;g ps origin master
+: 1592904874:0;puttygen ~/Downloads/lyon-bos.ppk
+: 1592904905:0;puttygen ~/Downloads/lyon-bos.ppk -O private-openssh lyon-bos
+: 1592904909:0;puttygen ~/Downloads/lyon-bos.ppk -O private-openssh
+: 1592904915:0;cd ~/Downloads
+: 1592904921:0;jt work
+: 1592904922:0;la
+: 1592904926:0;mkdir server
+: 1592904940:0;mv ~/Downloads/lyon-bos.ppk lyon-bos.ppk
+: 1592905023:0;puttygen lyon-bos.ppk -O public-openssh ~/.ssh/id_rsa.pub
+: 1592905029:0;puttygen lyon-bos.ppk -O public-openssh lyon-bos
+: 1592905035:0;tldr puttygen
+: 1592905043:0;puttygen --help
+: 1592905207:0;puttygen lyon-bos.ppk -O private-openssh -o lyon-bos.pem
+: 1592905210:0;vi
+: 1592905293:0;ssh -i lyon-bos.pem lyon-bos@52.77.185.191
+: 1592905495:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
+: 1592905621:0;history
+: 1592905675:0;bos -h
+: 1592905780:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
+: 1592910275:0;jt dotfiles
+: 1592912179:0;jt personal
+: 1592912181:0;la
+: 1592912184:0;jt work
+: 1592912185:0;la
+: 1592912194:0;cd lyon
+: 1592912196:0;cd api-server
+: 1592912199:0;yarn build
+: 1592912248:0;jt work
+: 1592912257:0;la
+: 1592912265:0;cd editmode
+: 1592912266:0;la
+: 1592912268:0;cd main-app
+: 1592912278:0;rails s -p 3002 -P 23
+: 1592912279:0;rails s
+: 1592912282:0;rails c
+: 1592912286:0;vi
+: 1592912299:0;g b
+: 1592912310:0;g co staging-edit-entity-slug
+: 1592912311:0;g d
+: 1592912313:0;g st
+: 1592912315:0;g co staging-edit-entity-slug
+: 1592912899:0;jt work
+: 1592912899:0;la
+: 1592912901:0;cd lyon
+: 1592912903:0;cd api-server
+: 1592912904:0;yarn why @hapi/hoek
+: 1592914241:0;yarn build && yarn start
+: 1592914625:0;vi package.json
+: 1592953338:0;jt work
+: 1592953339:0;la
+: 1592953354:0;mv lyon-bos.pem server/lyon-bos.pem
+: 1592953361:0;mv lyon-bos.ppk server/lyon-bos.ppk
+: 1592953363:0;la
+: 1592953711:0;cd editmode
+: 1592953746:0;la
+: 1592953747:0;cd main-app
+: 1592953748:0;la
+: 1592953751:0;vi
+: 1592953767:0;g b
+: 1592953779:0;g co staging-sort-collection
+: 1592953784:0;g pl origin staging
+: 1592953850:0;g d
+: 1592953853:0;g s
+: 1592953866:0;g d app/controllers/entity_types_controller.rb
+: 1592953876:0;g add .
+: 1592953885:0;git add .
+: 1592953887:0;g s
+: 1592953897:0;g c -m "Merge staging"
+: 1592953913:0;rails s
+: 1592953915:0;rails s -p 3002 -P 23
+: 1592953917:0;rails c
+: 1592955590:0;g d
+: 1592955595:0;g st
+: 1592956612:0;g co staging -- .
+: 1592956613:0;g d
+: 1592956614:0;g s
+: 1592956616:0;g reset
+: 1592956622:0;g d
+: 1592956624:0;la
+: 1592956625:0;g s
+: 1592956628:0;rm -rf 23
+: 1592956636:0;g d app/views/entity_types/_form.haml
+: 1592956647:0;g st
+: 1592956653:0;g lol
+: 1592956669:0;g co staging
+: 1592956672:0;g pl origin staging
+: 1592956693:0;g co staging-sort-collection
+: 1592956697:0;g pl origin staging
+: 1592956708:0;g lol
+: 1592957831:0;g st
+: 1592957833:0;g co staging
+: 1592957840:0;g pl origin staging
+: 1592957857:0;g co -b staging-editor-styles
+: 1592957869:0;g d
+: 1592957926:0;vi
+: 1592957952:0;rake routes |grep "chunks"
+: 1592959662:0;g a
+: 1592959695:0;vi
+: 1592959710:0;g a
+: 1592959743:0;g c -m "add styling to the trix editor"
+: 1592959744:0;g bnc
+: 1592959746:0;g ps origin staging-editor-styles
+: 1592959936:0;g d
+: 1592959939:0;g st
+: 1592959941:0;g co staging
+: 1592959943:0;g b
+: 1592959950:0;g pl origin staging
+: 1592959960:0;g co staging-editor-styles
+: 1592959962:0;g pl origin staging
+: 1592960121:0;g lol
+: 1592960134:0;g co staging-sort-collection
+: 1592960140:0;g pl origin staging
+: 1592961108:0;vi
+: 1592965001:0;jt work
+: 1592965001:0;la
+: 1592965002:0;cd lyon
+: 1592965002:0;la
+: 1592965005:0;cd api-server
+: 1592965013:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
+: 1592965015:0;g d
+: 1592965016:0;g s
+: 1592972700:0;jt work
+: 1592972701:0;la
+: 1592972703:0;cd lyon
+: 1592972705:0;cd api-server
+: 1592972706:0;la
+: 1592973189:0;g d
+: 1592973191:0;g s
+: 1592973196:0;yarn dev
+: 1592973689:0;vi
+: 1592973722:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
+: 1592974832:0;jt work
+: 1592974833:0;la
+: 1592974834:0;cd lyon
+: 1592974834:0;la
+: 1592974836:0;cd api-server
+: 1592974837:0;l
+: 1592974838:0;la
+: 1592974844:0;l
+: 1592974846:0;la
+: 1592974855:0;g d
+: 1592974856:0;g s
+: 1592974862:0;g d package.json
+: 1592974865:0;g st
+: 1592974868:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
+: 1592974912:0;vi
+: 1592975281:0;...
+: 1592975282:0;la
+: 1592975284:0;cd server
+: 1592975284:0;la
+: 1592975287:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
+: 1592975468:0;node --version
+: 1592976141:0;g d
+: 1592976142:0;g s
+: 1592976146:0;g co yarn.lock
+: 1592976149:0;g st apply
+: 1592976153:0;g d src
+: 1592976220:0;g d
+: 1592977147:0;yarn dev
+: 1592989785:0;jt work
+: 1592989788:0;cd lyon
+: 1592989789:0;la
+: 1592989791:0;cd api-server
+: 1592989791:0;la
+: 1592989792:0;vi
+: 1592996845:0;jt work
+: 1592996847:0;cd editmode
+: 1592996847:0;la
+: 1592996848:0;cd main-app
+: 1592996852:0;rails s
+: 1592996854:0;rails s -p 3002 -P 23
+: 1592996855:0;rails c
+: 1592997143:0;jt work
+: 1592997144:0;la
+: 1592997146:0;cd editmode
+: 1592997146:0;la
+: 1592997148:0;cd main-app
+: 1592997149:0;vi
+: 1593043157:0;jt work
+: 1593043163:0;la
+: 1593043165:0;cd edit
+: 1593043168:0;cd editmode
+: 1593043169:0;la
+: 1593043171:0;cd main-app
+: 1593043178:0;vi
+: 1593043182:0;rails c
+: 1593043185:0;rails s
+: 1593043188:0;rails s -p 3002 -P 23
+: 1593045395:0;rm -rf /usr/local/var/postgres/postmaster.pid
+: 1593045397:0;rails c
+: 1593045399:0;rails s
+: 1593045401:0;rails s -p 3002 -P 23
+: 1593046411:0;g bnc
+: 1593046415:0;g pl origin staging
+: 1593046418:0;g d
+: 1593046419:0;g s
+: 1593046422:0;g clean -fd
+: 1593046422:0;g s
+: 1593046424:0;g st
+: 1593046427:0;g pl origin staging
+: 1593047644:0;rake routes |grep entity_type
+: 1593048722:0;g st
+: 1593048732:0;g st apply
+: 1593049757:0;rake routes |grep entity_type
+: 1593051944:0;rake routes |grep invites
+: 1593052014:0;rake routes |grep entity_type
+: 1593052425:0;g d
+: 1593052593:0;g lol
+: 1593052599:0;g d
+: 1593052600:0;g s
+: 1593052609:0;g bnc
+: 1593052618:0;g co -b staging-sort-collection-jquery-way
+: 1593052620:0;g d
+: 1593052624:0;g s
+: 1593052627:0;git add .
+: 1593052633:0;git commit -m "jquery way"
+: 1593052639:0;g co staging-sort-collection
+: 1593052643:0;g lol
+: 1593071827:0;jt work
+: 1593071827:0;la
+: 1593071833:0;cd lyon
+: 1593071833:0;la
+: 1593071835:0;cd api
+: 1593071837:0;cd api-server
+: 1593071841:0;g d
+: 1593071843:0;g s
+: 1593071852:0;vi
+: 1593071856:0;..
+: 1593071856:0;la
+: 1593071858:0;..
+: 1593071858:0;la
+: 1593071859:0;cd server
+: 1593071859:0;la
+: 1593071863:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
+: 1593071973:0;la
+: 1593071974:0;..
+: 1593071974:0;la
+: 1593071976:0;cd lyon
+: 1593071976:0;la
+: 1593071986:0;cd html
+: 1593071988:0;cd html-renderer
+: 1593071989:0;g d
+: 1593071994:0;vi
+: 1593072053:0;yarn dev
+: 1593080466:0;jt work
+: 1593080468:0;cd lyon/api-server
+: 1593080472:0;...
+: 1593080473:0;la
+: 1593080475:0;cd server
+: 1593080475:0;la
+: 1593080477:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
+: 1593080495:0;g d
+: 1593080496:0;g s
+: 1593080498:0;g st
+: 1593080500:0;g pl origin develop
+: 1593080511:0;g d
+: 1593080512:0;g s
+: 1593080515:0;g st apply
+: 1593080519:0;g d
+: 1593080524:0;g lol
+: 1593080526:0;g s
+: 1593080533:0;g co develop -- yarn.lock
+: 1593080534:0;g d
+: 1593080535:0;g s
+: 1593080543:0;g co develop -- package.json
+: 1593080545:0;g d
+: 1593080546:0;g s
+: 1593080556:0;g co package.json
+: 1593080559:0;g reset
+: 1593080560:0;g co package.json
+: 1593080562:0;g d
+: 1593080563:0;g s
+: 1593080570:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
+: 1593080731:0;g d
+: 1593080732:0;g s
+: 1593080734:0;g st
+: 1593080737:0;vi
+: 1593080752:0;g bnc
+: 1593080803:0;g lol
+: 1593080811:0;g bnc
+: 1593080814:0;g ps origin feature-profile-edit
+: 1593080887:0;...
+: 1593080887:0;la
+: 1593080889:0;cd work
+: 1593080889:0;la
+: 1593080891:0;cd lyon
+: 1593080891:0;la
+: 1593080894:0;cd html-renderer
+: 1593080896:0;g d
+: 1593080897:0;g s
+: 1593080902:0;g st
+: 1593080904:0;g s
+: 1593080913:0;g pl origin develop
+: 1593080948:0;g d
+: 1593080950:0;g s
+: 1593080953:0;g st apply
+: 1593080955:0;g d
+: 1593080962:0;g s
+: 1593080986:0;g co develop -- scoped-models/ProviderCheckManager.tsx
+: 1593080988:0;g s
+: 1593080991:0;g reset
+: 1593080992:0;g s
+: 1593080996:0;vi
+: 1593080999:0;yarn dev
+: 1593082185:0;..
+: 1593082186:0;la
+: 1593082186:0;..
+: 1593082187:0;la
+: 1593082190:0;cd editmode
+: 1593082190:0;la
+: 1593082192:0;cd main-app
+: 1593082192:0;la
+: 1593082205:0;rails c
+: 1593082207:0;rails s
+: 1593082209:0;rails s -p 3002 -P 23
+: 1593082211:0;vi
+: 1593082339:0;g b
+: 1593082346:0;g co staging-sort-collection-jquery-way
+: 1593082347:0;g d
+: 1593082348:0;g s
+: 1593082351:0;rm -rf 23
+: 1593129610:0;jt work
+: 1593129610:0;la
+: 1593129612:0;cd editmode
+: 1593129612:0;la
+: 1593129614:0;cd main-app
+: 1593129615:0;la
+: 1593129625:0;rails c
+: 1593129627:0;rails s
+: 1593129629:0;rails s -p 3002 -P 23
+: 1593129630:0;vi
+: 1593130314:0;rm -rf /usr/local/var/postgres/postmaster.pid
+: 1593130318:0;rails s
+: 1593130320:0;rails s -p 3002 -P 23
+: 1593130326:0;rails c
+: 1593132077:0;g a
+: 1593132484:0;rails c
+: 1593132488:0;rails s
+: 1593132580:0;rails s -p 3002 -P 23
+: 1593133449:0;rails s
+: 1593133451:0;rails s -p 3002 -P 23
+: 1593133452:0;rails c
+: 1593135401:0;g a
+: 1593135426:0;g c -m "update jquery way"
+: 1593135430:0;g co staging
+: 1593135433:0;g a
+: 1593135440:0;g st
+: 1593135443:0;g clean -fd
+: 1593135445:0;g st
+: 1593135447:0;g d
+: 1593135449:0;g s
+: 1593135452:0;rm -rf 23
+: 1593135454:0;g d
+: 1593135457:0;g st
+: 1593135462:0;g pl origin staging
+: 1593135472:0;g st apply
+: 1593135474:0;g a
+: 1593135480:0;g lol
+: 1593135481:0;g log
+: 1593135492:0;g s
+: 1593135506:0;g c -m "add validation to avoid empty string for custom fields slug"
+: 1593135507:0;g bnc
+: 1593135509:0;g ps origin staging
+: 1593135557:0;g lol
+: 1593135558:0;g s
+: 1593135559:0;g d
+: 1593135560:0;g st
+: 1593135562:0;g lol
+: 1593135618:0;g co staging-sort-collection-jquery-way
+: 1593135620:0;g pl origin staging
+: 1593135650:0;g s
+: 1593135657:0;g co staging -- db/schema.rb
+: 1593135659:0;g s
+: 1593135663:0;g reset
+: 1593135665:0;g s
+: 1593135681:0;rake db:migrate
+: 1593135689:0;rails c
+: 1593135690:0;rails s -p 3002 -P 23
+: 1593135691:0;rails s
+: 1593135695:0;bundle install
+: 1593135713:0;rake db:migrate
+: 1593135759:0;g d
+: 1593135761:0;g s
+: 1593135775:0;git add .
+: 1593135779:0;g c -m "Merge staging"
+: 1593135781:0;g lol
+: 1593136120:0;rails s
+: 1593136121:0;rails s -p 3002 -P 23
+: 1593136122:0;rails c
+: 1593136785:0;g a
+: 1593136799:0;g c -m "add accepts_nested_attributes_for on the model of EntityType"
+: 1593136802:0;g bnc
+: 1593136803:0;g ps origin staging-sort-collection-jquery-way
+: 1593136839:0;down
