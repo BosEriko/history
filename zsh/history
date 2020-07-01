@@ -10961,3 +10961,524 @@ fi
 : 1593221029:0;la
 : 1593221031:0;cd twitch-bot
 : 1593221243:0;down
+: 1593221501:0;la
+: 1593221503:0;git init
+: 1593221505:0;g so
+: 1593221512:0;touch README.md
+: 1593221513:0;g a
+: 1593221515:0;g lol
+: 1593221517:0;g s
+: 1593221520:0;git add .
+: 1593221530:0;g c -m "Initial Commit"
+: 1593221532:0;g bnc
+: 1593221534:0;g ps origin master
+: 1593221609:0;npm init
+: 1593221612:0;yarn init
+: 1593221616:0;la
+: 1593221617:0;g d
+: 1593221618:0;g s
+: 1593221623:0;g clean -fd
+: 1593221627:0;yarn init -y
+: 1593221631:0;g a
+: 1593221646:0;g c -m "NPM Initialize"
+: 1593221649:0;g ps origin master
+: 1593221671:0;vi
+: 1593221700:0;g a
+: 1593221715:0;g c -m "[Hotfix] Add reference on the README.md"
+: 1593221716:0;g bnc
+: 1593221720:0;g ps origin master
+: 1593263226:0;bos -h
+: 1593263231:0;bos -f pipes
+: 1593263239:0;bos -f matrix
+: 1593390525:0;jt work
+: 1593390525:0;la
+: 1593390526:0;cd editmode
+: 1593390527:0;la
+: 1593390528:0;cd main-app
+: 1593390531:0;g d
+: 1593390532:0;g s
+: 1593390533:0;g clean -fd
+: 1593390538:0;g st
+: 1593390546:0;g pl origin staging
+: 1593390561:0;g lol
+: 1593390569:0;vi
+: 1593390713:0;bundle install
+: 1593390753:0;rails c
+: 1593390757:0;rails s
+: 1593390758:0;rails s -p 3002 -P 23
+: 1593394628:0;la
+: 1593394629:0;..
+: 1593394629:0;la
+: 1593394642:0;mkdir trix-editmode
+: 1593394644:0;la
+: 1593394658:0;cd trix-editmode
+: 1593394660:0;..
+: 1593394660:0;la
+: 1593394662:0;rm -rf trix-editmode
+: 1593394671:0;g clone git@github.com:BosEriko/trix.git trix-editmode
+: 1593395010:0;la
+: 1593395013:0;cd trix-editmode
+: 1593395013:0;la
+: 1593395016:0;vi
+: 1593395284:0;..
+: 1593395284:0;la
+: 1593395287:0;rm -rf trix-editmode
+: 1593395298:0;g clone git@github.com:BosEriko/trix-editmode.git
+: 1593395377:0;la
+: 1593395380:0;cd trix-editmode
+: 1593395380:0;la
+: 1593395450:0;vi
+: 1593395548:0;g co -b editmode
+: 1593395550:0;g a
+: 1593395568:0;g c -m "[Hotfix] Rename trix.gemspec to trix-editmode.gemspec"
+: 1593395596:0;g bnc
+: 1593395603:0;g ps origin editmode
+: 1593395684:0;la
+: 1593395693:0;gem build trix-editmode.gemspec
+: 1593395697:0;la
+: 1593395715:0;rm -rf trix-0.11.1.gem
+: 1593395717:0;g a
+: 1593395719:0;g lol
+: 1593395721:0;g s
+: 1593395725:0;la
+: 1593395735:0;rm -rf trix-editmode.gemspec
+: 1593395739:0;gem build trix-editmode.gemspec
+: 1593395753:0;g pl origin editmode
+: 1593395758:0;g st
+: 1593395761:0;la
+: 1593395768:0;gem build trix-editmode.gemspec
+: 1593395773:0;la
+: 1593395818:0;rm -rf trix-0.11.1.gem
+: 1593395819:0;la
+: 1593395824:0;g a
+: 1593395838:0;g c -m "[Hotfix] Update the gem name to trix-editmode"
+: 1593395838:0;g bnc
+: 1593395841:0;g ps origin editmode
+: 1593395869:0;gem build trix-editmode.gemspec
+: 1593395874:0;la
+: 1593395899:0;curl -u qrush https://rubygems.org/api/v1/api_key.yaml >\
+~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593395910:0;curl -u qrush https://rubygems.org/api/v1/api_key.yaml ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593395953:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593395997:0;mkdir /Users/boserikoreyes/.gem/credentials
+: 1593395999:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593396019:0;curl -u BosEriko "https://rubygems.org/api/v1/api_key.yaml" ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593396041:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593396054:0;rm -rf /Users/boserikoreyes/.gem/credentials
+: 1593396056:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+: 1593396151:0;la
+: 1593396156:0;rm -rf trix-editmode-0.11.1.gem
+: 1593396159:0;g a
+: 1593396170:0;g c -m "[Hotfix] Update the version"
+: 1593396174:0;g bnc
+: 1593396176:0;g ps origin editmode
+: 1593396189:0;gem build trix-editmode.gemspec
+: 1593396193:0;la
+: 1593396221:0;g lol
+: 1593396224:0;la
+: 1593396231:0;gem push trix-editmode-0.0.1.gem
+: 1593396339:0;rails s
+: 1593396351:0;g d
+: 1593396352:0;g s
+: 1593396357:0;g st
+: 1593396374:0;g co -b trix-variables-link
+: 1593396380:0;g pl origin staging
+: 1593396388:0;g lol
+: 1593396415:0;la
+: 1593396419:0;g st apply
+: 1593396421:0;g a
+: 1593396437:0;g c -m "change the bundle being installed from trix to trix-editmode"
+: 1593396439:0;g st
+: 1593396441:0;bundle install
+: 1593396456:0;rails s
+: 1593396457:0;rails s -p 3002 -P 23
+: 1593396459:0;rails c
+: 1593396638:0;g d
+: 1593396639:0;g s
+: 1593396643:0;g co app
+: 1593397336:0;rails s
+: 1593397339:0;rails s -p 3002 -P 23
+: 1593397340:0;rails c
+: 1593397514:0;g co staging
+: 1593397534:0;g st
+: 1593397536:0;g d
+: 1593397537:0;g s
+: 1593397539:0;g st
+: 1593397542:0;g clean -fd
+: 1593397545:0;bundle install
+: 1593397555:0;rails s
+: 1593397555:0;rails s -p 3002 -P 23
+: 1593397556:0;rails c
+: 1593397563:0;g pl origin staging
+: 1593397582:0;g b
+: 1593397587:0;g co trix-variables-link
+: 1593397590:0;g st apply
+: 1593397601:0;rails s
+: 1593397603:0;rails s -p 3002 -P 23
+: 1593397603:0;rails c
+: 1593399067:0;jt work
+: 1593399067:0;la
+: 1593399069:0;cd editmode
+: 1593399069:0;la
+: 1593399070:0;..
+: 1593399071:0;la
+: 1593399072:0;cd lyon
+: 1593399072:0;la
+: 1593399074:0;cd api-server
+: 1593399074:0;la
+: 1593399113:0;yarn dev
+: 1593399119:0;vi
+: 1593399129:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
+: 1593399139:0;la
+: 1593399144:0;..
+: 1593399144:0;la
+: 1593399146:0;cd lyon/html-renderer
+: 1593399148:0;vi
+: 1593399152:0;yarn dev
+: 1593400500:0;g d
+: 1593400501:0;g s
+: 1593400523:0;git add scoped-models/
+: 1593400529:0;g commit -m "create editprofileforminput"
+: 1593400531:0;g bnc
+: 1593400534:0;g ps origin feature-profile-edit
+: 1593400563:0;g diff components/profile/LyonProfile/LyonProfileDetails/LyonProfileDetailsInfo/index.tsx
+: 1593400569:0;git add components/profile/LyonProfile/LyonProfileDetails/LyonProfileDetailsInfo/index.tsx
+: 1593400609:0;git commit -m "change the message on the edit profile button"
+: 1593400617:0;g diff
+: 1593400618:0;g s
+: 1593400626:0;g co components
+: 1593400671:0;g d
+: 1593400674:0;git add .
+: 1593400680:0;git commit -m "remove constants and layout styles"
+: 1593400681:0;g bnc
+: 1593400684:0;g ps origin feature-profile-edit
+: 1593400721:0;g pl origin develop
+: 1593400860:0;g bnc
+: 1593401950:0;yarn install
+: 1593402030:0;yarn dev
+: 1593409558:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
+: 1593410154:0;g d
+: 1593410156:0;g s
+: 1593410634:0;yarn dev
+: 1593410635:0;vi
+: 1593411177:0;g d
+: 1593411178:0;g s
+: 1593411180:0;git add .
+: 1593411189:0;g c -m "create the base of the form"
+: 1593411190:0;g bnc
+: 1593411193:0;g ps origin feature-profile-edit
+: 1593412401:0;g d
+: 1593412402:0;g s
+: 1593412405:0;git add .
+: 1593412411:0;g c -m "add error"
+: 1593412445:0;g a
+: 1593412452:0;g c -m "call the error component"
+: 1593412453:0;g bnc
+: 1593412455:0;g ps origin feature-profile-edit
+: 1593412608:0;g a
+: 1593412616:0;g c -m "add edit profile to the provider root tree"
+: 1593412617:0;g bnc
+: 1593412618:0;g ps origin feature-profile-edit
+: 1593413184:0;yarn dev
+: 1593413242:0;g a
+: 1593413256:0;g c -m "add the edit profile name component"
+: 1593413257:0;g bnc
+: 1593413261:0;g ps origin feature-profile-edit
+: 1593414228:0;g d
+: 1593414229:0;g s
+: 1593414231:0;g a
+: 1593414270:0;g c -m "add LyonEditProfileActionContainer to the components"
+: 1593414273:0;g d
+: 1593414280:0;g st
+: 1593414455:0;g a
+: 1593414465:0;g c -m "add LyonEditProfileSubmit to the components"
+: 1593414466:0;g bnc
+: 1593414468:0;g ps origin feature-profile-edit
+: 1593414559:0;yarn dev
+: 1593414734:0;g d
+: 1593415018:0;yarn dev
+: 1593415078:0;g a
+: 1593415117:0;g c -m "remove password from the fields, stop signing in of user and stop verification of email"
+: 1593415118:0;g bnc
+: 1593415121:0;g ps orogin feature-profile-edit
+: 1593415134:0;g ps origin feature-profile-edit
+: 1593415738:0;g a
+: 1593415759:0;g c -m "add city and birthdate field"
+: 1593415761:0;g bnc
+: 1593415763:0;g ps origin feature-profile-edit
+: 1593416148:0;g a
+: 1593416168:0;g c -m "add email and update the updateUserDetails"
+: 1593416169:0;g bnc
+: 1593416171:0;g ps origin feature-profile-edit
+: 1593416565:0;g pl origin staging
+: 1593416575:0;g pl origin develop
+: 1593427992:0;jt work
+: 1593427992:0;la
+: 1593427994:0;cd editmode
+: 1593427994:0;la
+: 1593427998:0;cd main-app
+: 1593428112:0;rails c
+: 1593428116:0;rails s
+: 1593428118:0;rails s -p 3002 -P 23
+: 1593428120:0;vi
+: 1593469419:0;jt work
+: 1593472177:0;la
+: 1593472179:0;cd editmode
+: 1593472180:0;la
+: 1593472182:0;cd main-app
+: 1593472182:0;la
+: 1593472185:0;vi
+: 1593472197:0;g pl origin staging
+: 1593472302:0;g d
+: 1593472303:0;g s
+: 1593472305:0;g st
+: 1593472307:0;g pl origin staging
+: 1593472318:0;g st apply
+: 1593472320:0;rails c
+: 1593472323:0;rails s
+: 1593472331:0;bundle install
+: 1593472350:0;rails c
+: 1593472559:0;rails s
+: 1593472560:0;rails s -p 3002 -P 23
+: 1593473450:0;..
+: 1593473451:0;la
+: 1593473454:0;cd trix-editmode
+: 1593473497:0;git remote add kylefox git@github.com:kylefox/trix.git
+: 1593473510:0;g co master
+: 1593473518:0;g pl kylefox master
+: 1593473527:0;g d
+: 1593473528:0;g s
+: 1593473542:0;g co editmode
+: 1593473549:0;g pl kylefox master
+: 1593473555:0;vi
+: 1593473596:0;g d
+: 1593473604:0;git add .
+: 1593473608:0;git commit -m "Fix conflict"
+: 1593473612:0;g bnc
+: 1593473615:0;g ps origin editmode
+: 1593473624:0;g co master
+: 1593473626:0;g ps origin master
+: 1593473640:0;g co editmode
+: 1593473645:0;gem build trix-editmode.gemspec
+: 1593473648:0;g lol
+: 1593473653:0;la
+: 1593473669:0;gem push trix-editmode-0.0.2.gem
+: 1593473710:0;bundle install
+: 1593473866:0;rm -rf Gemfile.lock
+: 1593473868:0;bundle install
+: 1593473898:0;bundle update --bundler
+: 1593473904:0;bundle install
+: 1593473912:0;g d
+: 1593473913:0;g s
+: 1593473923:0;g co master -- Gemfile
+: 1593473925:0;g d
+: 1593473927:0;g s
+: 1593473935:0;g co master -- Gemfile.lock
+: 1593473937:0;g d
+: 1593473939:0;g reset
+: 1593473939:0;g s
+: 1593473944:0;bundle install
+: 1593473953:0;bundle info trix-editmode
+: 1593473963:0;bundle info uglifier
+: 1593473972:0;bundle install
+: 1593474046:0;g d
+: 1593474047:0;g s
+: 1593474051:0;g co Gemfile
+: 1593474068:0;g d
+: 1593474069:0;g s
+: 1593474081:0;bundle install
+: 1593474096:0;g co staging -- Gemfile.lock
+: 1593474098:0;g s
+: 1593474101:0;g reset
+: 1593474106:0;bundle install
+: 1593474128:0;bundle info trix-rails
+: 1593474159:0;git reset --hard origin/master
+: 1593474161:0;g d
+: 1593474162:0;g s
+: 1593474165:0;vi
+: 1593474212:0;g d
+: 1593474216:0;g s
+: 1593474222:0;git add .
+: 1593474228:0;git commit -m "force change"
+: 1593474235:0;g push origin editmode --force
+: 1593474271:0;gem build trix-editmode.gemspec
+: 1593474280:0;gem push trix-editmode-0.0.3.gem
+: 1593474303:0;bundle install
+: 1593474316:0;rails s
+: 1593474318:0;rails s -p 3002 -P 23
+: 1593474320:0;rails c
+: 1593475099:0;g d
+: 1593475100:0;g s
+: 1593475105:0;git add .
+: 1593475116:0;g c -m "move the assets from trix to trix-editmode"
+: 1593475117:0;g bnc
+: 1593475121:0;g ps origin editmode
+: 1593475132:0;git diff master..editmode
+: 1593475169:0;g d
+: 1593475172:0;g a
+: 1593475177:0;g c -m "bump version"
+: 1593475178:0;g bnc
+: 1593475183:0;g ps origin editmode
+: 1593475203:0;gem push trix-editmode-0.0.4.gem
+: 1593475209:0;gem build trix-editmode.gemspec
+: 1593475212:0;gem push trix-editmode-0.0.4.gem
+: 1593475238:0;bundle install
+: 1593475389:0;rails s
+: 1593475390:0;rails s -p 3002 -P 23
+: 1593475400:0;rails c
+: 1593475554:0;g d
+: 1593475555:0;g s
+: 1593475560:0;git add .
+: 1593475570:0;git commit -m "move back the assets to its real name"
+: 1593475571:0;g bnc
+: 1593475573:0;g ps origin editmode
+: 1593475584:0;g d
+: 1593475586:0;g s
+: 1593475592:0;g lol
+: 1593475606:0;git add .
+: 1593475609:0;g c -m "bump version"
+: 1593475615:0;gem build trix-editmode.gemspec
+: 1593475625:0;gem push trix-editmode-0.0.5.gem
+: 1593475698:0;g d
+: 1593475702:0;g s
+: 1593475708:0;git diff app
+: 1593475714:0;g a
+: 1593475732:0;git commit -m "add a way to source local gems"
+: 1593475734:0;g a
+: 1593475758:0;g d
+: 1593475759:0;g s
+: 1593475761:0;g reset
+: 1593475767:0;g d
+: 1593475768:0;g s
+: 1593475772:0;g a
+: 1593475788:0;g d
+: 1593475789:0;g s
+: 1593475807:0;g commit -m "rename trix-editmode asset to trix"
+: 1593475810:0;g d
+: 1593475812:0;g diff
+: 1593475817:0;g st app
+: 1593475842:0;bundle install
+: 1593475852:0;rails s
+: 1593475853:0;rails s -p 3002 -P 23
+: 1593475858:0;rails c
+: 1593475920:0;git diff
+: 1593475923:0;la
+: 1593475924:0;g s
+: 1593475928:0;git add Gemfile.lock
+: 1593475933:0;g c -m "update gemfile"
+: 1593475933:0;g d
+: 1593475935:0;g st
+: 1593475939:0;g pl origin staging
+: 1593475957:0;git diff staging..trix-variables-link
+: 1593475991:0;g co staging
+: 1593475993:0;g d
+: 1593475998:0;la
+: 1593476000:0;g s
+: 1593476003:0;g co app
+: 1593476007:0;rm -rf 23
+: 1593476009:0;g co staging
+: 1593476015:0;g pl origin staging
+: 1593476028:0;g co trix-variables-link
+: 1593476031:0;git diff staging..trix-variables-link
+: 1593477756:0;vi
+: 1593477840:0;rm -rf vendor/assets/javascripts/trix.js
+: 1593477842:0;rm -rf vendor/assets/javascripts/trix.css
+: 1593477864:0;curl https://raw.githubusercontent.com/basecamp/trix/master/dist/trix.js > vendor/assets/javascripts/trix.js
+: 1593477871:0;curl https://raw.githubusercontent.com/basecamp/trix/master/dist/trix.css > vendor/assets/javascripts/trix.css
+: 1593477923:0;g s
+: 1593477933:0;g c -m "update from 1.2.0 to 1.2.3"
+: 1593477939:0;git add .
+: 1593477941:0;g c -m "update from 1.2.0 to 1.2.3"
+: 1593477960:0;g d
+: 1593477964:0;git add .
+: 1593477967:0;g c -m "bump version"
+: 1593477970:0;g lol
+: 1593477978:0;g ps origin editmode
+: 1593477999:0;gem build trix-editmode.gemspec
+: 1593478006:0;gem push trix-editmode-0.0.6.gem
+: 1593478030:0;g a
+: 1593478040:0;g c -m "update trix-editmode to 0.0.6"
+: 1593478043:0;g bnc
+: 1593478047:0;g ps origin trix-variables-link
+: 1593478056:0;rails s
+: 1593478061:0;bundle install
+: 1593478070:0;rails s
+: 1593478073:0;rails s -p 3002 -P 23
+: 1593478075:0;rails c
+: 1593478241:0;..
+: 1593478242:0;la
+: 1593478247:0;g co git@github.com:BosEriko/trix.git trix-basecamp
+: 1593478255:0;g clone git@github.com:BosEriko/trix.git trix-basecamp
+: 1593478266:0;Y
+: 1593478286:0;la
+: 1593478297:0;mv trix-editmode trix-gem
+: 1593478299:0;la
+: 1593478421:0;bundle install
+: 1593478431:0;rails c
+: 1593478435:0;rails s -p 3002 -P 23
+: 1593478438:0;rails s
+: 1593491296:0;jt personal
+: 1593491297:0;la
+: 1593491298:0;jt work
+: 1593491298:0;la
+: 1593491302:0;cd lyon
+: 1593491302:0;la
+: 1593491304:0;cd api-server
+: 1593491306:0;la
+: 1593491309:0;vi
+: 1593491313:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
+: 1593491335:0;la
+: 1593491337:0;..
+: 1593491337:0;la
+: 1593491340:0;cd lyon
+: 1593491340:0;la
+: 1593491342:0;ht
+: 1593491344:0;html-renderer
+: 1593491346:0;la
+: 1593491349:0;vi
+: 1593491353:0;yarn dev
+: 1593499317:0;g a
+: 1593499329:0;g c -m "add style to the edit profile button"
+: 1593499331:0;g bnc
+: 1593499333:0;g ps origin feature-profile-edit
+: 1593505514:0;g d
+: 1593514698:0;jt work
+: 1593514698:0;la
+: 1593514699:0;cd edit
+: 1593514702:0;cd editmode
+: 1593514703:0;la
+: 1593514705:0;cd main-app
+: 1593514706:0;la
+: 1593514712:0;rails s -p 3002 -P 23
+: 1593514714:0;rails s
+: 1593514716:0;rails c
+: 1593515292:0;vi
+: 1593516681:0;..
+: 1593516681:0;la
+: 1593516684:0;cd trix-gem
+: 1593516685:0;la
+: 1593516686:0;vi
+: 1593561872:0;jt work
+: 1593561872:0;la
+: 1593561874:0;cd editmode
+: 1593561874:0;la
+: 1593561894:0;cd main-app
+: 1593561895:0;la
+: 1593561903:0;vi
+: 1593561913:0;rails c
+: 1593561916:0;rails s -p 3002 -P 23
+: 1593561917:0;rails s
+: 1593561922:0;vi
+: 1593562682:0;la
+: 1593562685:0;..
+: 1593562686:0;la
+: 1593562690:0;cd trix-gem
+: 1593562693:0;vi
+: 1593562700:0;../trix-basecamp
+: 1593562704:0;la
+: 1593562710:0;rbenv install 2.3.4
+: 1593563257:0;la
+: 1593563260:0;vi
+: 1593563487:0;g co -b editmode
+: 1593563491:0;g ps origin editmode
+: 1593563517:0;down
