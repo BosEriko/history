@@ -11482,3 +11482,291 @@ fi
 : 1593563487:0;g co -b editmode
 : 1593563491:0;g ps origin editmode
 : 1593563517:0;down
+: 1593563681:0;g a
+: 1593563693:0;g c -m "[Hotfix] Update the links for updating"
+: 1593563694:0;g bnc
+: 1593563696:0;g ps origin editmode
+: 1593564280:0;vi
+: 1593565796:0;g d
+: 1593565798:0;g a
+: 1593565814:0;g c -m "[Hotfix] Remove validation for URL"
+: 1593565815:0;g bnc
+: 1593565818:0;g ps origin editmode
+: 1593565889:0;g d
+: 1593565891:0;g a
+: 1593565905:0;g c -m "[Hotfix] Change the path of the css and js for trix updating"
+: 1593565906:0;g bnc
+: 1593565908:0;g ps origin editmode
+: 1593565949:0;g d
+: 1593565958:0;bin/blade build
+: 1593565964:0;bundle install
+: 1593566010:0;gem install bundler
+: 1593566022:0;bundle install
+: 1593566110:0;bin/blade build
+: 1593566135:0;npm install
+: 1593566140:0;yarn install
+: 1593566173:0;bin/blade build
+: 1593566185:0;g s
+: 1593566194:0;git add dist
+: 1593566198:0;g d
+: 1593566214:0;g c -m "[Hotfix] Update the trix js"
+: 1593566215:0;g bnc
+: 1593566219:0;g ps origin editmode
+: 1593566308:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
+: 1593566312:0;g d
+: 1593566313:0;g s
+: 1593566409:0;g a
+: 1593566427:0;g c -m "[Hotfix] Update the command to update the assets"
+: 1593566428:0;g a
+: 1593566435:0;g c -m "[Hotfix] Update trix"
+: 1593566437:0;g bnc
+: 1593566441:0;g ps origin editmode
+: 1593566459:0;g a
+: 1593566467:0;g c -m "[Hotfix] Bump version"
+: 1593566475:0;gem build trix-editmode.gemspec
+: 1593566483:0;gem push trix-editmode-0.0.7.gem
+: 1593566494:0;g a
+: 1593566509:0;g c -m "update trix-editmode to 0.0.7"
+: 1593566517:0;bundle install
+: 1593566549:0;rails c
+: 1593566551:0;rails s
+: 1593566554:0;rails s -p 3002 -P 23
+: 1593567050:0;git diff master..editmode
+: 1593567056:0;git status master..editmode
+: 1593567059:0;git diff master..editmode
+: 1593567234:0;rails c
+: 1593567850:0;g pl origin staging
+: 1593569115:0;g a
+: 1593569146:0;g s
+: 1593569157:0;g c -m "update styling}
+: 1593569159:0;g c -m "update styling"
+: 1593569161:0;g bnc 
+: 1593569164:0;g ps origin trix-variables-link
+: 1593569647:0;g co staging -- Gemfile.lock
+: 1593569649:0;g d
+: 1593569652:0;g s
+: 1593569659:0;git add Gemfile.lock
+: 1593569661:0;g s
+: 1593569669:0;g c -m "revert gemfile"
+: 1593569682:0;g ps origin trix-variables-link
+: 1593569778:0;g co staging
+: 1593569780:0;g st
+: 1593569782:0;g co staging
+: 1593569785:0;g s
+: 1593569788:0;rm -rf 23
+: 1593569790:0;g st
+: 1593569794:0;g co staging
+: 1593569818:0;g pl origin staging
+: 1593569828:0;bundle install
+: 1593569910:0;jt work
+: 1593577811:0;la
+: 1593577813:0;cd lyon
+: 1593577814:0;la
+: 1593577817:0;cd api-server
+: 1593577820:0;vi
+: 1593577831:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
+: 1593577842:0;la
+: 1593577843:0;...
+: 1593577844:0;la
+: 1593577847:0;cd Work
+: 1593577848:0;la
+: 1593577849:0;cd lyon
+: 1593577849:0;la
+: 1593577852:0;cd api-server
+: 1593577852:0;la
+: 1593577856:0;../html-renderer
+: 1593577858:0;g d
+: 1593577862:0;vi
+: 1593577869:0;yarn dev
+: 1593601472:0;jt work
+: 1593601472:0;la
+: 1593601474:0;cd editmode
+: 1593601476:0;la
+: 1593601479:0;cd main-app
+: 1593601485:0;rails s
+: 1593601496:0;rails s -p 3002 -P 23
+: 1593601498:0;rails c
+: 1593646532:0;clear
+: 1593646533:0;la
+: 1593646539:0;jt work
+: 1593646542:0;clear
+: 1593646555:0;jt work
+: 1593646558:0;cd editmode
+: 1593646559:0;la
+: 1593646561:0;cd main-app
+: 1593646562:0;la
+: 1593647220:0;g d
+: 1593647222:0;g st
+: 1593647225:0;g pl origin staging
+: 1593647232:0;g d
+: 1593647583:0;g co -b staging-url-validation
+: 1593647605:0;rails c
+: 1593647606:0;rails s -p 3002 -P 23
+: 1593647608:0;rails s
+: 1593647611:0;bundle install
+: 1593647632:0;rails s
+: 1593647634:0;rails s -p 3002 -P 23
+: 1593647635:0;rails c
+: 1593647638:0;..
+: 1593647639:0;la
+: 1593647641:0;cd trix-gem
+: 1593647643:0;vi
+: 1593647651:0;../trix-basecamp
+: 1593647653:0;vi
+: 1593650766:0;g d
+: 1593650769:0;g s
+: 1593650772:0;g a
+: 1593650797:0;g c -m "[Hotfix] Add a URL validator using Regexp"
+: 1593650804:0;g bnc
+: 1593650806:0;g ps origin editmode
+: 1593650818:0;g d
+: 1593650831:0;g s
+: 1593650845:0;rm -rf Gemfile.lock
+: 1593650849:0;rm -rf yarn.lock
+: 1593650858:0;bundle install && npm install
+: 1593650963:0;g d
+: 1593650965:0;g s
+: 1593650985:0;la
+: 1593650997:0;git add .
+: 1593651013:0;g c -m "[Hotfix] Update Gemfile and remove yarn.lock"
+: 1593651015:0;g s
+: 1593651017:0;g lol
+: 1593651086:0;bin/blade build
+: 1593651097:0;bundle install
+: 1593651100:0;g d
+: 1593651101:0;g s
+: 1593651104:0;bin/blade build
+: 1593651129:0;rm -rf Gemfile.lock
+: 1593651131:0;bin/blade build
+: 1593651139:0;g lol
+: 1593651140:0;g s
+: 1593651141:0;g d
+: 1593651144:0;bundle install
+: 1593651148:0;g s
+: 1593651151:0;g lol
+: 1593651154:0;g s
+: 1593651155:0;la
+: 1593651165:0;rm -rf Gemfile.lock
+: 1593651166:0;la
+: 1593651167:0;g s
+: 1593651173:0;bin/blade build
+: 1593651177:0;bundle install
+: 1593651183:0;bin/blade build
+: 1593651332:0;bin/setup
+: 1593651341:0;bin/rackup
+: 1593651369:0;bin/blade build
+: 1593651474:0;gem cleanup uglifier
+: 1593651477:0;bin/blade build
+: 1593651483:0;gem uninstall uglifier
+: 1593651489:0;bundle install
+: 1593651495:0;bin/blade build
+: 1593651539:0;g co master -- Gemfile.lock
+: 1593651541:0;g d
+: 1593651543:0;g s
+: 1593651548:0;bundle install
+: 1593651564:0;bin/blade build
+: 1593651573:0;g d
+: 1593651574:0;g s
+: 1593651577:0;git add .
+: 1593651595:0;g c -m "[Hotfix] Revert Gemfile.lock and update trix.js"
+: 1593651599:0;g s
+: 1593651602:0;g ps origin editmode
+: 1593651643:0;g d
+: 1593651647:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
+: 1593651651:0;g d
+: 1593651653:0;g s
+: 1593651663:0;g d
+: 1593651664:0;g s
+: 1593651666:0;git add .
+: 1593651685:0;g c -m "[Hotfix] Use version of trix with url validation using regex and bump version"
+: 1593651687:0;g ps origin editmode
+: 1593651726:0;gem build trix-editmode.gemspec
+: 1593651741:0;gem push trix-editmode-0.0.8.gem
+: 1593651765:0;g d
+: 1593651768:0;g s
+: 1593651771:0;rm -rf 23
+: 1593651777:0;g co staging -- Gemfile.lock
+: 1593651780:0;g s
+: 1593651783:0;g d
+: 1593651787:0;g a
+: 1593651797:0;g c -m "update trix-editmode to 0.0.8"
+: 1593651815:0;bundle install
+: 1593651843:0;rails s
+: 1593651844:0;rails s -p 3002 -P 23
+: 1593651845:0;rails c
+: 1593651936:0;bundle install
+: 1593651947:0;rails c
+: 1593651953:0;rails s -p 3002 -P 23
+: 1593651954:0;bundle install
+: 1593651965:0;rails s
+: 1593651968:0;rails s -p 3002 -P 23
+: 1593651970:0;rails c
+: 1593652022:0;bin/blade build
+: 1593652033:0;g s
+: 1593652047:0;git add .
+: 1593652063:0;g c -m "[Hotfix] Define input on toolbar.coffee"
+: 1593652066:0;g bnc
+: 1593652072:0;g ps origin editmode
+: 1593652087:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
+: 1593652103:0;g d
+: 1593652104:0;g s
+: 1593652106:0;git add .
+: 1593652118:0;g c -m "[Hotfix] fix the input problem and bump version"
+: 1593652121:0;gem build trix-editmode.gemspec
+: 1593652126:0;gem push trix-editmode-0.0.9.gem
+: 1593652140:0;bundle install
+: 1593652170:0;g d
+: 1593652171:0;g s
+: 1593652174:0;g a
+: 1593652191:0;g c -m "update trix-editmode to 0.0.9"
+: 1593652193:0;g bnc
+: 1593652196:0;g ps origin staging-url-validation
+: 1593652197:0;rails s
+: 1593652198:0;rails s -p 3002 -P 23
+: 1593652199:0;rails c
+: 1593652477:0;g d
+: 1593652479:0;bin/blade build
+: 1593652489:0;git add .
+: 1593652551:0;g s
+: 1593652568:0;g c -m "update trix and move the validator on the html itself"
+: 1593652573:0;g ps origin editmode
+: 1593652583:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
+: 1593652587:0;g d
+: 1593652588:0;g s
+: 1593652610:0;g a
+: 1593652618:0;g c -m "update trix version"
+: 1593652623:0;g a
+: 1593652627:0;g c -m "bump version"
+: 1593652631:0;gem build trix-editmode.gemspec
+: 1593652637:0;gem push trix-editmode-0.0.10.gem
+: 1593652653:0;bundle install && rails c
+: 1593652689:0;bundle install
+: 1593652746:0;bundle install && rails c
+: 1593652759:0;rails s
+: 1593652760:0;rails s -p 3002 -P 23
+: 1593652966:0;git diff
+: 1593652968:0;g a
+: 1593652974:0;g c -m "escape the escape"
+: 1593652978:0;bin/blade build
+: 1593652987:0;git add .
+: 1593652991:0;g c -m "update trix"
+: 1593652992:0;g bnc
+: 1593652994:0;g ps origin editmode
+: 1593653002:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
+: 1593653005:0;g d
+: 1593653012:0;git add .
+: 1593653024:0;git commit -m "bump version and escape the escape"
+: 1593653025:0;g bnc
+: 1593653027:0;g ps origin editmode
+: 1593653040:0;gem build trix-editmode.gemspec
+: 1593653044:0;gem push trix-editmode-0.0.11.gem
+: 1593653052:0;bundle install && rails c
+: 1593653075:0;rails s -p 3002 -P 23
+: 1593653076:0;rails s
+: 1593653193:0;g d
+: 1593653198:0;g s
+: 1593653201:0;rm -rf 23
+: 1593653204:0;bundle install
+: 1593653222:0;g a
+: 1593653235:0;g c -m "update trix-editmode version"
+: 1593653288:0;down
