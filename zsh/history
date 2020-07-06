@@ -4,8 +4,6 @@
 : 1575564055:0;g g "add a boilerplate for firerails"
 : 1575564055:0;git reset dea7efbe13fbbbf4d8542b93067f46886a114598
 : 1575564055:0;g g "[Hotfix] Add a boilerplate for FireRails"
-: 1575564055:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml >\
-~/.gem/credentials; chmod 0600 ~/.gem/credentials
 : 1575564055:0;gem push FireRails-0.0.0.gem
 : 1575564055:0;gem list -r FireRails
 : 1575564055:0;gem list -r firerails
@@ -512,7 +510,6 @@ fi
 : 1577163068:0;git d
 : 1577163471:0;rake db:oneoff:update_catalog_item_prices["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"]
 : 1577164156:0;rake db:oneoff:update_catalog_item_prices\["https://staging-opsmanager.s3-ap-southeast-1.amazonaws.com/oneoff/4_catalog_item_new_prices_dec_2019.csv"\]
-: 1577164813:0;git diff
 : 1577165809:0;bundle exec sidekiq
 : 1577167154:0;rake db:oneoff:update_catalog_item_prices
 : 1577180486:0;rake db:oneoff:update_catalog_item_prices\["tmp/Catalog\ Item\ New\ Prices/1_catalog_item_new_prices.csv"\]
@@ -780,7 +777,6 @@ fi
 : 1578060618:0;gwip add devise_token_auth
 : 1578112661:0;dr-web rails g CreateUserModle
 : 1578112715:0;dr-web rails g CreateUserModel
-: 1578112880:0;g co app
 : 1578112894:0;git restore app
 : 1578112897:0;git restore config
 : 1578112908:0;rm -rf app/models/user.rb config/initializers/devise_token_auth.rb
@@ -834,7 +830,6 @@ fi
 : 1578197946:0;gwip add husky to node_modules
 : 1578198950:0;gwip change dev to develop on package.json
 : 1578216638:0;echo 'API_URL="localhost:3000"' > .env
-: 1578216781:0;yarn upgrade
 : 1578216896:0;yarn add fs
 : 1578217359:0;mv .env .env.development
 : 1578217409:0;gwip add gatsby environment variables to gitignore
@@ -979,7 +974,6 @@ TAGLINE="El Psy Congroo\
 : 1579085127:0;rm -rf It\ Chapter\ Two\ \(2019\)\ \[WEBRip\]\ \[720p\]\ \[YTS.LT\]
 : 1579133165:0;cd -server
 : 1579216036:0;docker attach web
-: 1579216040:0;docker-compose attach web
 : 1579216059:0;docker-compose exec web
 : 1579216226:0;type dr-up
 : 1579216849:0;g co Gemfile Gemfile.lock
@@ -995,7 +989,6 @@ TAGLINE="El Psy Congroo\
 : 1579257381:0;dr-web rails g migration DropUsers
 : 1579257458:0;gwip remove devise files and created a dropusers migration
 : 1579257519:0;dr-web rake db:migrate
-: 1579257709:0;rm -rf Gemfile.lock
 : 1579257712:0;touch Gemfile.lock
 : 1579258242:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
 : 1579346803:0;dr-down && dr-up
@@ -1110,7 +1103,6 @@ TAGLINE="El Psy Congroo\
 : 1580473434:0;g g "add gitignore and remove node_modules"
 : 1580473542:0;mv .gitignore .gitignore
 : 1580473553:0;g g "change the comment on gitignore"
-: 1580473586:0;npm install
 : 1580473611:0;rm -rf package-lock.json
 : 1580473758:0;g g "add version to yarn"
 : 1580474244:0;git rm -rf yarn.lock
@@ -1139,7 +1131,6 @@ TAGLINE="El Psy Congroo\
 : 1580529027:0;g g "remove most files"
 : 1580529048:0;touch .gitmodules
 : 1580529121:0;g g "add submodule details"
-: 1580529218:0;yarn init
 : 1580529234:0;rm -rf yarn-error.log
 : 1580529364:0;g g "add package.json and update gitignore"
 : 1580529401:0;yarn pull
@@ -1156,7 +1147,6 @@ TAGLINE="El Psy Congroo\
 : 1580598706:0;vi ~/.zsh_history
 : 1580599116:0;mv ~/.zsh_history ~/dotfiles/zsh_history
 : 1580600312:0;mkdir web
-: 1580600314:0;mkdir server
 : 1580600325:0;echo "# Barangay (Web)" >> README.md
 : 1580600336:0;echo "# Barangay (Server)" >> README.md
 : 1580600515:0;rm -rf .next
@@ -1189,7 +1179,6 @@ TAGLINE="El Psy Congroo\
 : 1580723764:0;brew install hub
 : 1580723800:0;hub --version
 : 1580723875:0;yarn init 
-: 1580723888:0;vi package.json
 : 1580724162:0;cd web
 : 1580724166:0;npm init -y
 : 1580724239:0;g g "add package.json for both web and server"
@@ -1395,7 +1384,6 @@ TAGLINE="El Psy Congroo\
 : 1581743179:0;g ps -u origin figlet
 : 1581743270:0;g g "move figlet to common pages"
 : 1581744780:0;mkdir home
-: 1581744794:0;touch README.md
 : 1581744822:0;g add . && g commit -m "Initial Commit"
 : 1581744827:0;g ps -u origin master
 : 1581745130:0;g g "add package.json"
@@ -1540,7 +1528,6 @@ module.exports = withCSS({}); fg
 : 1582382333:0;cd tldr
 : 1582382335:0;echo HEAD
 : 1582382342:0;echo $HEAD
-: 1582448715:0;yarn build
 : 1582448874:0;mkdir koa-test
 : 1582448877:0;cd koa-test
 : 1582448960:0;ls node_modules
@@ -1621,7 +1608,6 @@ module.exports = withCSS({}); fg
 : 1583220189:0;mv main-website-client-old
 : 1583220197:0;mv main-website-client main-website-client-old
 : 1583220204:0;mkdir main-website-client
-: 1583220209:0;npm init
 : 1583220233:0;rm -rf .git
 : 1583220255:0;mv main-website-client-old/.git main-website-client/.git
 : 1583220287:0;yarn add next react react-dom
@@ -1789,7 +1775,6 @@ end
 : 1583674556:0;cp ../main-website/server/Procfile ./
 : 1583674608:0;g g "[Hotfix] Add Procfile"
 : 1583674802:0;g g "[Hotfix] Add yarn.lock back"
-: 1583675091:0;g d package.json
 : 1583675104:0;g g "[Hotfix] Add types for node"
 : 1583720344:0;tldr ts-node
 : 1583720350:0;man ts-node
@@ -1805,7 +1790,6 @@ end
 : 1583810383:0;g g "remove spacing on yabai"
 : 1583831871:0;g co issue-60-Create_2_empty_pages_for_Mission_and_Vision
 : 1583838196:0;g g "add status-bar"
-: 1583838233:0;bos -f matrix
 : 1583838277:0;g g "bring back the border"
 : 1583838422:0;g g "add music icon and a reference to the fonts"
 : 1583839066:0;brew cast list | grep "font"
@@ -1862,7 +1846,6 @@ end
 : 1584091188:0;script/deploy -B --skip-migrations -f f
 : 1584091862:0;heroku run bash -r staging
 : 1584093277:0;g g "move music icon to the most left"
-: 1584094840:0;l
 : 1584094934:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_march_2020.csv"\]
 : 1584095065:0;heroku run rake catalog_items:update_catalog_items["oneoff/1_catalog_item_update_march_2020.csv"] -r staging
 : 1584095073:0;heroku run rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_march_2020.csv"\] -r staging
@@ -1944,2061 +1927,351 @@ end
 : 1584425209:0;g c -m "update PHONE_NUMBER_VALIDATOR to be optional instead of required"
 : 1584425214:0;g ps origin hotfix-fix-phone-number-validation\
 
-: 1584447720:0;yarn dev
-: 1584499427:0;jt work
-: 1584499428:0;la
-: 1584499432:0;cd Lyon
-: 1584499440:0;la
-: 1584499445:0;cd api-server
-: 1584499451:0;../html-renderer
-: 1584499458:0;vi
-: 1584499460:0;yarn dev
-: 1584499463:0;vi
-: 1584499472:0;yarn dev
-: 1584499874:0;jt dotfiles
-: 1584499875:0;vi
-: 1584499968:0;g d
 : 1584499979:0;g g "move back to normal"
-: 1584500930:0;g d
-: 1584501186:0;yarn dev
-: 1584501357:0;g d
-: 1584501733:0;yarn dev
-: 1584509955:0;g pl
-: 1584509975:0;yarn dev
-: 1584510560:0;g d
-: 1584510561:0;g s
-: 1584510565:0;g st
-: 1584510569:0;g d
-: 1584511377:0;g pl origin develop
 : 1584513627:0;g co feature-recommended-provider
 : 1584513649:0;g pl origin feature-recommended-provider
-: 1584513657:0;g lol
-: 1584513665:0;yarn dev
-: 1584513752:0;g lol
-: 1584513885:0;g d
-: 1584513887:0;g st
-: 1584514001:0;yarn dev
-: 1584514370:0;g d
-: 1584514371:0;g s
-: 1584519232:0;g d
-: 1584519240:0;g st
-: 1584519256:0;g st pop
-: 1584519257:0;g d
-: 1584519263:0;yarn dev
-: 1584519366:0;vi
-: 1584519484:0;g d
-: 1584519486:0;g st
-: 1584519960:0;yarn dev
-: 1584520238:0;g d
-: 1584520245:0;yarn dev
-: 1584520298:0;g d
-: 1584520300:0;g st
-: 1584520315:0;yarn dev
-: 1584520693:0;g st
-: 1584520956:0;g d
-: 1584520958:0;g s
-: 1584520959:0;g st
-: 1584521113:0;g d
-: 1584521215:0;yarn dev
-: 1584526858:0;g d
-: 1584526866:0;g pl
-: 1584526954:0;g d
-: 1584526958:0;g st
-: 1584526962:0;g co develop
-: 1584526964:0;g st pop
-: 1584526966:0;g d
 : 1584527088:0;g b hotfix-add-payload-to-provider-and-industry-post-method
-: 1584527091:0;g a
-: 1584527113:0;g c -m "add payload for provider and industry post method"
-: 1584527119:0;g lol
 : 1584527132:0;g reset 003b012
 : 1584527141:0;g co hotfix-add-payload-to-provider-and-industry-post-method
-: 1584527142:0;g d
-: 1584527144:0;g a
 : 1584527150:0;g c -m "add payload for provider and industry post method"
-: 1584527153:0;g bnc
 : 1584527166:0;g ps origin hotfix-add-payload-to-provider-and-industry-post-method
-: 1584527367:0;yarn dev
-: 1584576039:0;jt work
-: 1584576039:0;la
-: 1584576042:0;cd Lyon
-: 1584576043:0;la
-: 1584576219:0;..
-: 1584576220:0;la
-: 1584576221:0;..
-: 1584576221:0;la
 : 1584576223:0;cd Personal
-: 1584576224:0;la
-: 1584576225:0;cd kuru-anime
-: 1584576226:0;la
-: 1584576227:0;cd discord-bot
-: 1584576230:0;la
-: 1584576232:0;vi
-: 1584577765:0;g pl
-: 1584577781:0;g co issue-12-Divide_index_ts_into_commands
-: 1584577783:0;g d
-: 1584577788:0;g st
 : 1584577791:0;g co issue-12-Divide_index_ts_into_commands
-: 1584577793:0;g st pop
-: 1584577795:0;g d
-: 1584579169:0;vi
-: 1584579209:0;less package.json
-: 1584579216:0;yarn watch
-: 1584579300:0;g a
-: 1584579320:0;g remote -v
 : 1584579338:0;g c -m "move ping, server and args-info to its own component"
-: 1584579342:0;g bnc
-: 1584579346:0;g ps fork issue-12-Divide_index_ts_into_commands
-: 1584579934:0;g d
-: 1584579937:0;g a
 : 1584579970:0;g c -m "move avatar, kick and user-info to their own components"
-: 1584579972:0;g ps fork issue-12-Divide_index_ts_into_commands
 : 1584580662:0;rm -rf node_modules && yarn install
-: 1584581202:0;yarn watch
-: 1584581857:0;g d
-: 1584581863:0;g a
 : 1584581878:0;g c -m "modularize the files"
-: 1584581880:0;g ps fork issue-12-Divide_index_ts_into_commands
-: 1584582183:0;g d
-: 1584582190:0;g a
 : 1584582205:0;g c -m "remove unwanted codes"
-: 1584582207:0;g ps fork issue-12-Divide_index_ts_into_commands
-: 1584582461:0;g a
 : 1584582470:0;g c -m "remove the if-else chain"
-: 1584582472:0;g ps fork issue-12-Divide_index_ts_into_commands
-: 1584582559:0;g d
-: 1584582563:0;g a
 : 1584582571:0;g c -m "update checkpoint"
-: 1584582573:0;g a
 : 1584582584:0;g c -m "remove .ts from file names"
-: 1584582586:0;g ps fork issue-12-Divide_index_ts_into_commands
-: 1584582664:0;jt work
-: 1584582665:0;la
-: 1584582667:0;lyon
-: 1584582668:0;la
-: 1584582673:0;api-server
-: 1584582674:0;vi
-: 1584582717:0;jt work
-: 1584582718:0;Lyon
-: 1584582719:0;la
-: 1584582731:0;cd api-server
-: 1584582732:0;vi
-: 1584582786:0;g d
-: 1584583163:0;g st
-: 1584583337:0;g d
-: 1584583341:0;g st
-: 1584583519:0;g d
-: 1584583527:0;g s
-: 1584583536:0;g a
 : 1584583549:0;g c -m "fix comments and add rules link on the welcome message"
 : 1584583551:0;g ps fork issue-12-Divide_index_ts_into_commands
-: 1584583578:0;g co master
-: 1584583580:0;g d
-: 1584583583:0;g st
-: 1584583905:0;jt work
-: 1584583906:0;Lyon
-: 1584583907:0;la
-: 1584585743:0;cd html-renderer
-: 1584585744:0;la
-: 1584585749:0;g co master
-: 1584585753:0;g pl origin master
-: 1584585778:0;g co develop
-: 1584585779:0;g pl
-: 1584585784:0;g pl origin develop
 : 1584585800:0;cd ../api-server
-: 1584585801:0;la
-: 1584585807:0;g co master
-: 1584585811:0;g pl origin master
-: 1584585827:0;g co develop
-: 1584585827:0;la
-: 1584585852:0;g pl origin develop
-: 1584585876:0;yarn dev
-: 1584585878:0;vi
-: 1584585885:0;../html-renderer
-: 1584585887:0;la
-: 1584585890:0;vi
-: 1584585897:0;yarn dev
-: 1584589199:0;down
-: 1584589318:0;vi
-: 1584590504:0;jt personal
-: 1584590505:0;la
-: 1584590507:0;cd kuru-anime
-: 1584590508:0;la
-: 1584590510:0;cd discord-bot
-: 1584590511:0;la
-: 1584590517:0;g sync master
-: 1584599374:0;g pl origin develop
-: 1584599387:0;yarn dev
-: 1584599395:0;g pl origin develop && yarn dev
-: 1584603493:0;vi
-: 1584610042:0;g pl origin develop && yarn dev
-: 1584610045:0;yarn dev
-: 1584610528:0;g d
-: 1584610605:0;g pl
-: 1584610608:0;g pl origin develop
-: 1584610621:0;g lol
 : 1584610638:0;g b hotfix-industry-follow-bug
 : 1584610642:0;g co hotfix-industry-follow-bug
-: 1584610644:0;g a
 : 1584610661:0;g c -m "rename industrySubscriptions to followedIndustries"
-: 1584610663:0;g bnc
 : 1584610668:0;g ps origin hotfix-industry-follow-bug
-: 1584615564:0;g co develop
-: 1584618192:0;jt personal
-: 1584618193:0;vi
-: 1584618198:0;cd kuru-anime
-: 1584618200:0;cd discord-bot
-: 1584618201:0;la
-: 1584618203:0;vi
-: 1584659349:0;jt personal
-: 1584659352:0;jt work
-: 1584660030:0;la
-: 1584660033:0;Lyon
-: 1584660033:0;la
-: 1584660036:0;api-server
-: 1584660037:0;vi
-: 1584664103:0;la
-: 1584664106:0;jt personal
-: 1584664107:0;la
-: 1584664110:0;cd kuru-anime
-: 1584664111:0;vi
-: 1584664116:0;cd discord-bot
-: 1584664117:0;vi
-: 1584673159:0;yarn dev
-: 1584673165:0;g pl origin develop
-: 1584673241:0;jt work
-: 1584673241:0;la
-: 1584673243:0;cd Lyon
-: 1584673244:0;la
-: 1584673248:0;cd api-server
-: 1584673255:0;g pl origin develop
-: 1584673650:0;g pl origin develop && yarn dev
-: 1584673652:0;vi
-: 1584680444:0;g d
-: 1584680445:0;g s
-: 1584680568:0;yarn install
-: 1584680579:0;yarn dev
-: 1584681812:0;../html-renderer
-: 1584681815:0;yarn dev
-: 1584681821:0;g pl origin develop && yarn dev
-: 1584681823:0;vi
 : 1584682022:0;g pl origin develop && yarn dev
-: 1584702013:0;g d
-: 1584704579:0;g pl origin develop
 : 1584704588:0;g b feature-dragonpay-send-email-on-payment-success
 : 1584704590:0;g co feature-dragonpay-send-email-on-payment-success
-: 1584704595:0;g a
-: 1584704615:0;g ps origin feature-dragonpay-send-email-on-payment-success
 : 1584704830:0;g c -m "add sendEmail on payment success"
 : 1584704832:0;g ps origin feature-dragonpay-send-email-on-payment-success
-: 1584706203:0;g d
-: 1584706205:0;g a
 : 1584706210:0;g c -m "add more details"
-: 1584706213:0;g bnc
-: 1584706221:0;g ps origin feature-dragonpay-send-email-on-payment-success\
-
-: 1584715816:0;g d
-: 1584715819:0;g a
 : 1584715832:0;g c -m "renamse userData to orderDetails"
-: 1584715837:0;g bnc
 : 1584715842:0;g ps origin feature-dragonpay-send-email-on-payment-success\
 
-: 1584752832:0;jt personal
-: 1584752833:0;la
 : 1584752835:0;../Work
-: 1584752836:0;la
-: 1584752838:0;cd Lyon
-: 1584752838:0;la
-: 1584752849:0;cd api-server
-: 1584752855:0;../html-renderer
-: 1584752871:0;g pl origin develop
-: 1584753046:0;vi
-: 1584753222:0;jt personal
-: 1584753223:0;la
-: 1584753225:0;cd kuru-anime
-: 1584753226:0;la
-: 1584753228:0;cd discord-bot
-: 1584753229:0;la
-: 1584753231:0;vi
-: 1584753477:0;g pl
-: 1584753503:0;g co issue-2-Work_on_the_README_md
-: 1584753516:0;g a
 : 1584753533:0;g c -m "copy yagpdb's readme.md"
-: 1584753541:0;g ps fork issue-2-Work_on_the_README_md
-: 1584753592:0;g a
 : 1584753597:0;g c -m "add comment block"
-: 1584753598:0;g ps fork issue-2-Work_on_the_README_md
-: 1584753628:0;g a
 : 1584753637:0;g c -m "fix the comment problem"
-: 1584753639:0;g ps fork issue-2-Work_on_the_README_md
-: 1584753811:0;g d
-: 1584753814:0;g a
-: 1584753832:0;g d
-: 1584753833:0;g a
-: 1584753839:0;g c -m "change the description"
-: 1584753843:0;g ps fork issue-2-Work_on_the_README_md
-: 1584753942:0;g a
 : 1584753946:0;g c -m "change the description"
-: 1584753951:0;g ps fork issue-2-Work_on_the_README_md
-: 1584754179:0;g d
-: 1584754182:0;g a
 : 1584754189:0;g c -m "add links"
-: 1584754192:0;g ps fork issue-2-Work_on_the_README_md
-: 1584754727:0;g d
-: 1584754729:0;g a
 : 1584754738:0;g c -m "add links to prerequisites"
-: 1584754739:0;g ps fork issue-2-Work_on_the_README_md
-: 1584755005:0;g a
 : 1584755009:0;g c -m "add some resources"
-: 1584755011:0;g ps fork issue-2-Work_on_the_README_md
 : 1584755293:0;git --version
-: 1584755304:0;node --version
-: 1584755306:0;yarn --version
-: 1584755357:0;g d
-: 1584755360:0;g a
 : 1584755369:0;g c -m "add a way to test if they are installed"
-: 1584755373:0;g ps fork issue-2-Work_on_the_README_md
-: 1584755406:0;g a
 : 1584755415:0;g c -m "add footer to version checking"
-: 1584755416:0;g ps fork issue-2-Work_on_the_README_md
-: 1584755707:0;g a
 : 1584755716:0;g c -m "add isntructions to install the bot"
-: 1584757345:0;g a
 : 1584757355:0;g c -m "add image'
 : 1584757357:0;g c -m "add image"
-: 1584757359:0;g ps fork issue-2-Work_on_the_README_md
-: 1584757587:0;~
-: 1584783357:0;jt personal
-: 1584783358:0;la
-: 1584783359:0;cd kuru-anime
-: 1584783360:0;la
-: 1584783362:0;cd discord-bot
-: 1584783363:0;la
-: 1584783364:0;vi
-: 1584847739:0;jt personal
-: 1584847740:0;la
-: 1584847742:0;cd kuru-anime
-: 1584847742:0;la
-: 1584847745:0;discord-bot
-: 1584847746:0;la
-: 1584847747:0;vi
-: 1584848257:0;g a
 : 1584848263:0;g c -m "add more stuff"
-: 1584848266:0;g ps fork issue-2-Work_on_the_README_md
-: 1584850124:0;g a
 : 1584850132:0;g c -m "add token instruction"
-: 1584850134:0;g ps fork issue-2-Work_on_the_README_md
-: 1584850457:0;g a
 : 1584850507:0;g c -m "token leak scenario"
-: 1584850571:0;g ps fork issue-2-Work_on_the_README_md
 : 1584850849:0;g a 
 : 1584850857:0;g c -m "add bot to servers"
-: 1584850862:0;g ps fork issue-2-Work_on_the_README_md
-: 1584851256:0;g a
 : 1584851266:0;g c -m "add server instruction"
-: 1584851270:0;g ps fork issue-2-Work_on_the_README_md
-: 1584851338:0;g a
 : 1584851342:0;g c -m "fix image"
-: 1584851343:0;g ps fork issue-2-Work_on_the_README_md
-: 1584851543:0;g a
 : 1584851551:0;g c -m "add local setting"
-: 1584851553:0;g ps fork issue-2-Work_on_the_README_md
-: 1584851716:0;g d
-: 1584851721:0;g a
 : 1584851729:0;g c -m "add instruction for .env"
-: 1584851731:0;g ps fork issue-2-Work_on_the_README_md
-: 1584851994:0;g a
 : 1584852012:0;g c -m "add install dependency and bot local run"
-: 1584852014:0;g ps fork issue-2-Work_on_the_README_md
-: 1584852023:0;g d
-: 1584852025:0;g s
-: 1584852052:0;g a
 : 1584852058:0;g c -m "fix the link for issues"
-: 1584852060:0;g ps fork issue-2-Work_on_the_README_md
-: 1584852535:0;g a
 : 1584852541:0;g c -m "proofread"
 : 1584852543:0;g ps fork issue-2-Work_on_the_README_md
-: 1584852638:0;g lol
-: 1584853339:0;g co master
-: 1584853342:0;g sync master
-: 1584854122:0;g ps fork master
-: 1584936602:0;jt personal
-: 1584936602:0;la
-: 1584936606:0;jt work
-: 1584936607:0;la
-: 1584936609:0;cd Lyon
-: 1584936609:0;la
-: 1584936612:0;cd html-renderer
-: 1584936613:0;la
-: 1584936614:0;yarn dev
-: 1584937962:0;../api-server
-: 1584937967:0;../html-renderer
-: 1584937976:0;g pl origin develop
-: 1584937983:0;vi
-: 1584938002:0;yarn dev
-: 1584941351:0;jt dotfiles
-: 1584941352:0;la
-: 1584941354:0;vi
-: 1584941402:0;g d
 : 1584941535:0;up
-: 1584941547:0;g d
-: 1584941549:0;g a
 : 1584941560:0;g g "add tagbar"
-: 1584941614:0;vi
 : 1584941674:0;jt Work
-: 1584941676:0;jt work
-: 1584941677:0;la
-: 1584941679:0;cd Lyon
-: 1584941679:0;la
-: 1584941681:0;cd api-server
-: 1584941682:0;vi
 : 1584942504:0;yarn global add git+https://github.com/ramitos/jsctags.git
-: 1584942538:0;code .
-: 1584942645:0;vi
-: 1584942659:0;bos -h
 : 1584942672:0;bos -y list
 : 1584942997:0;yarn global remove jsctags
-: 1584943473:0;jt dotfiles
-: 1584943557:0;jt work
-: 1584943557:0;la
-: 1584943559:0;cd Lyon
-: 1584943559:0;la
-: 1584943560:0;cd html-renderer
-: 1584943561:0;la
-: 1584943562:0;g pl
 : 1584943575:0;g co hotfix-overlap-carousel
-: 1584943589:0;yarn dev
-: 1584943745:0;bos -h
-: 1584943763:0;bos -p ngrok 8081
-: 1584944231:0;jt dotfiles
-: 1584944232:0;la
-: 1584944235:0;g lol
-: 1584944248:0;g reset 89aac57
-: 1584944250:0;g d
-: 1584944252:0;g st
 : 1584944263:0;g ps --force origin master
-: 1584944306:0;g pl origin master
-: 1584944316:0;g revert 89aac57
-: 1584944327:0;g d
-: 1584944328:0;g s
-: 1584944330:0;g lol
-: 1584944342:0;git reset --hard origin/master
-: 1584944344:0;g lol
 : 1584944353:0;g pl gitlab master
-: 1584944454:0;g ps origin master
-: 1584944480:0;g d
-: 1584944481:0;g s
-: 1584944483:0;g lol
 : 1584944489:0;g revert 89aac57
-: 1584944491:0;g d
-: 1584944492:0;g s
-: 1584944494:0;g lol
-: 1584944496:0;g ps
-: 1584944577:0;g reset 89aac57
-: 1584944579:0;g d
-: 1584944589:0;g st
-: 1584944599:0;g reset 5de4f0f69343bfd64a7e6c8a43e4476a350c186e
-: 1584944600:0;g d
-: 1584944604:0;g st
 : 1584944614:0;g reset 5de4f0f69343bfd64a7e6c8a43e4476a350c186e
-: 1584944615:0;g d
-: 1584944616:0;g s
-: 1584944726:0;git reset --hard origin/master
-: 1584944727:0;g lol
 : 1584944765:0;g reset 7984443
-: 1584944767:0;g lol
-: 1584944769:0;g d
-: 1584944770:0;g s
-: 1584944777:0;g d
-: 1584944780:0;g lol
-: 1584944792:0;g ps origin master
-: 1584944830:0;g lol
-: 1584944835:0;g remote -v
 : 1584944842:0;g ps gitlab master
-: 1584944849:0;g lol
 : 1584944867:0;g reset 89aac57
-: 1584944891:0;g lol
-: 1584944892:0;g d
-: 1584944911:0;g lol
-: 1584944912:0;g st
-: 1584944922:0;git reset --hard origin/master
-: 1584944935:0;vi
-: 1584945059:0;g d
 : 1584945084:0;g g "remove yabai status bar again and also tagbar"
-: 1584945104:0;vi
-: 1584945135:0;g d
-: 1584945146:0;jt work
-: 1584945146:0;la
-: 1584945148:0;cd Lyon
-: 1584945148:0;la
-: 1584945152:0;cd api-server
-: 1584945156:0;yarn dev
-: 1584945158:0;vi
-: 1584945163:0;../html-renderer
-: 1584945166:0;vi
-: 1584945171:0;g co develop
-: 1584945175:0;g pl origin develop
-: 1584945187:0;yarn dev
 : 1584946062:0;../admin-console
-: 1584946063:0;vi
-: 1584946068:0;g pl origin develop
-: 1584947983:0;..
-: 1584947984:0;la
-: 1584947986:0;..
-: 1584947987:0;la
-: 1584947990:0;jt personal
-: 1584947991:0;la
-: 1584947993:0;cd kuru-anime
-: 1584947993:0;la
-: 1584947995:0;discord-bot
-: 1584948001:0;g sync master
 : 1584948112:0;g ps fork master
-: 1584950160:0;htop
-: 1584952397:0;jt work
-: 1584952400:0;la
-: 1584952402:0;cd Lyon
-: 1584952402:0;la
-: 1584952408:0;cd api-server
-: 1584952410:0;vi
-: 1584952414:0;yarn dev
-: 1584952418:0;../html-renderer
-: 1584952419:0;la
-: 1584952421:0;vi
-: 1584952429:0;yarn dev
-: 1584955354:0;jt dotfiles
-: 1584955354:0;la
-: 1584955355:0;vi
-: 1584955449:0;g d
 : 1584955456:0;g g "move to brave"
-: 1584955489:0;g d
 : 1584955497:0;g g "remove adblock plus because I'm using brave now"
-: 1584955734:0;g co develop
-: 1584955743:0;g pl origin develop
 : 1584955775:0;g b feature-jake-routes
 : 1584955813:0;g co feature-jake-routes
 : 1584955872:0;yarn add jake --dev
-: 1584955893:0;g d
-: 1584955986:0;vi
-: 1584955991:0;jt dotfiles
-: 1584955992:0;vi
-: 1584956026:0;g d
 : 1584956042:0;yarn global add jake && g g "add jake to global modules"
 : 1584956136:0;touch jakefile.js
-: 1584956138:0;vi
-: 1584956154:0;jake
-: 1584956164:0;vi
-: 1584956248:0;jake otherTask
 : 1584956260:0;jake default
 : 1584956274:0;jake -t
 : 1584956279:0;jake otherTask
-: 1584956659:0;jake
 : 1584956960:0;jake routes
-: 1584957087:0;jake
 : 1584957442:0;node
 : 1584957596:0;jake
-: 1584957865:0;vi
-: 1584957874:0;jt dotfiles
-: 1584958207:0;vi
-: 1584958311:0;g d
 : 1584958347:0;g g "add hyperline"
-: 1584958672:0;g d
-: 1584958755:0;g st
-: 1584958771:0;jt dotfiles
-: 1584958772:0;vi
-: 1584961802:0;g d
-: 1584961808:0;g co develop
-: 1584961810:0;g d
-: 1584961816:0;yarn dev
-: 1584961829:0;vi
-: 1584961840:0;..
-: 1584961841:0;la
-: 1584961843:0;cd api-server
-: 1584961844:0;yarn dev
-: 1584961909:0;jt dotfiles
-: 1584961910:0;vi
 : 1584961923:0;brew list |grep "yarn"
-: 1584961934:0;jt dotfiles
-: 1584961935:0;vi
-: 1584961949:0;g d
-: 1584961950:0;g s
-: 1584961951:0;g lol
-: 1584961966:0;vi
-: 1584961981:0;yarn dev
 : 1584961984:0;brew install yarn
-: 1584962238:0;yarn dev
 : 1584962251:0;source npm
 : 1584962257:0;cd /usr
-: 1584962257:0;la
 : 1584962261:0;cd /local
-: 1584962263:0;la
-: 1584962270:0;..
-: 1584962305:0;cd ~
-: 1584962369:0;bos -h
-: 1584962381:0;bos -a path
 : 1584962384:0;bos -a path |grep yarn
 : 1584962438:0;/usr
-: 1584962438:0;la
 : 1584962441:0;local
 : 1584962444:0;cd local
-: 1584962444:0;la
 : 1584962449:0;cd opt
-: 1584962449:0;la
 : 1584962463:0;bos -a path
-: 1584962473:0;..
-: 1584962473:0;la
 : 1584962475:0;bin
-: 1584962475:0;la
 : 1584962490:0;brew uninstall yarn && brew install yarn
-: 1584962567:0;la
 : 1584962573:0;brew doctor
-: 1584962823:0;jt work
-: 1584962825:0;la
-: 1584962827:0;cd Lyon
-: 1584962887:0;la
-: 1584964999:0;cd html-renderer
-: 1584965001:0;vi
-: 1585017931:0;jt work
-: 1585017933:0;Lyon
-: 1585017937:0;cd api-server
-: 1585017938:0;la
-: 1585017939:0;vi
-: 1585017944:0;g pl origin develop
 : 1585017967:0;â€ƒ¼g lol
-: 1585017968:0;g lol
-: 1585018319:0;vi
-: 1585025800:0;../html-renderer
-: 1585025806:0;vi
-: 1585027479:0;yarn dev
-: 1585027487:0;g pl origin develop
-: 1585027495:0;g co origin develop
-: 1585027502:0;g pl origin develop
-: 1585027507:0;yarn dev
-: 1585031438:0;jt work
-: 1585031438:0;la
-: 1585031439:0;cd Lyon
-: 1585031440:0;la
-: 1585031446:0;cd api-server
-: 1585031452:0;../html-renderer
-: 1585031452:0;la
-: 1585031456:0;g pl origin develop
-: 1585031478:0;g b feature-event-page
-: 1585031481:0;g co feature-event-page
-: 1585031484:0;yarn dev
-: 1585031490:0;vi
-: 1585032794:0;g ps origin feature-event-page
-: 1585033235:0;g pl origin develop
-: 1585033240:0;yarn dev
-: 1585033398:0;vi
-: 1585033937:0;g d
 : 1585034143:0;g b hotfix-require-sign-in-for-check-manager
 : 1585034148:0;g co hotfix-require-sign-in-for-check-manager
-: 1585034150:0;g bnc
-: 1585034154:0;g ps origin hotfix-require-sign-in-for-check-manager\
-
-: 1585034253:0;g a
-: 1585034262:0;g clean -fd
-: 1585034264:0;g a
-: 1585034266:0;la
-: 1585034267:0;g d
-: 1585034268:0;g s
-: 1585034271:0;g clean -fd
-: 1585034272:0;g s
 : 1585034274:0;rm -rf jakefile.js
-: 1585034275:0;la
 : 1585034288:0;g c -m "add authentication middleware for check-manager"
 : 1585034297:0;g ps origin hotfix-require-sign-in-for-check-manager\
 
-: 1585035083:0;g d
-: 1585047246:0;g s
-: 1585047263:0;g d
-: 1585047964:0;g s
-: 1585050734:0;g d
-: 1585050750:0;g s
-: 1585054818:0;g d
-: 1585101417:0;jt dotfiles
-: 1585101420:0;down
-: 1585102508:0;la
-: 1585102511:0;jt work
-: 1585102511:0;la
-: 1585102513:0;cd Lyon
-: 1585102514:0;la
-: 1585102516:0;cd api-server
-: 1585102532:0;../html-renderer
-: 1585102539:0;yarn dev
-: 1585102540:0;vi
-: 1585102541:0;yarn dev
-: 1585102542:0;vi
-: 1585110993:0;g s
-: 1585111000:0;g co scoped-models
 : 1585111005:0;git clean -fd
-: 1585111013:0;g d
 : 1585111031:0;g co utils/api/payloads
-: 1585111034:0;g s
-: 1585111035:0;g d
-: 1585111555:0;g s
-: 1585112092:0;vi
-: 1585112485:0;g d
-: 1585112715:0;g s
-: 1585113863:0;g d
-: 1585118121:0;vi
-: 1585118839:0;g st
-: 1585118843:0;g co master
-: 1585118850:0;g co develop
-: 1585118857:0;g pl origin develop
-: 1585118872:0;g st pop
-: 1585118873:0;g d
-: 1585118883:0;g a
-: 1585118897:0;g c -m "fetching check-manager"
-: 1585118904:0;g lol
 : 1585118938:0;g reset c546a78
-: 1585118939:0;g d
-: 1585118942:0;g a
-: 1585118948:0;g reset
 : 1585118969:0;g br feature-event-page-data
 : 1585118973:0;g b feature-event-page-data
-: 1585118981:0;g co feature-event-page-data
-: 1585118988:0;g bnc
 : 1585118992:0;g ps origin c546a78
-: 1585118997:0;g ps origin feature-event-page-data\
-
-: 1585119039:0;g a
 : 1585119045:0;g c -m "fetching check-manager"
-: 1585119048:0;g ps origin feature-event-page-data\
-
-: 1585121605:0;vi
-: 1585122390:0;g d
-: 1585125271:0;g a
 : 1585125303:0;g c -m "pass isProvider"
-: 1585125305:0;g bnc
 : 1585125315:0;g ps origin feature-event-page-data\
 
-: 1585126082:0;g lol
-: 1585126099:0;g co feature-event-page
-: 1585126135:0;g pl origin feature-event-page
-: 1585126191:0;g co develop
-: 1585126197:0;g pl origin develop
 : 1585126234:0;g co feature-event-page-data
-: 1585126235:0;g d
-: 1585126237:0;g lol
-: 1585126241:0;g d
-: 1585126264:0;g co feature-event-page
 : 1585126273:0;g rebase origin/feature-event-page-data
 : 1585126420:0;git add
-: 1585126423:0;git add .
 : 1585126430:0;git rebase --continue
-: 1585126432:0;g lol
 : 1585126588:0;git diff feature-event-page..develop
 : 1585126599:0;git diff develop..feature-event-page
-: 1585126657:0;g d
-: 1585126659:0;g a
 : 1585126671:0;g c -m "remove the duplicate when import"
-: 1585126723:0;g lol
-: 1585126731:0;g ps origin feature-event-page
 : 1585126787:0;g ps --force origin feature-event-page
-: 1585127549:0;g lol
-: 1585128100:0;g d
-: 1585128109:0;g a
 : 1585128118:0;g c -m "change event id to provider id"
-: 1585128125:0;g ps origin feature-event-page
-: 1585141355:0;jt work
-: 1585141358:0;jt personal
-: 1585141548:0;la
-: 1585141551:0;cd kuru-anime
-: 1585141552:0;la
-: 1585141553:0;cd discord-bot
-: 1585141554:0;la
-: 1585141558:0;g pl origin master
 : 1585141585:0;g co NeonNature:master
 : 1585141589:0;g co origin NeonNature:master
-: 1585141796:0;git fetch origin pull/16/NeonNature:master
-: 1585141806:0;git remote -v
-: 1585141931:0;git fetch origin pull/16/NeonNature:master
 : 1585142023:0;git fetch origin pull/16/head:master
 : 1585142061:0;git fetch origin pull/16/NeonNature:master
 : 1585142119:0;git fetch github pull/16/NeonNature:master
-: 1585142130:0;git remote -v
-: 1585142456:0;vi
-: 1585187475:0;jt work
-: 1585187476:0;la
-: 1585187478:0;cd Lyon
-: 1585187478:0;la
-: 1585187483:0;cd api-server
-: 1585187483:0;la
 : 1585187493:0;cd ../html-renderer
-: 1585187598:0;vi
-: 1585187601:0;yarn dev
-: 1585187608:0;vi
-: 1585187612:0;g pl origin feature-event-page
-: 1585187623:0;yarn dev
-: 1585188101:0;g d
-: 1585188103:0;g st
-: 1585188108:0;g co origin develop
-: 1585188128:0;g pl origin develop
-: 1585188138:0;g co origin develop
-: 1585188142:0;g co origin master
-: 1585188146:0;g remote -v
 : 1585188160:0;git checkout origin master
-: 1585188181:0;g b
 : 1585188195:0;git fetch
 : 1585188210:0;g co origin master
-: 1585188453:0;la
-: 1585188457:0;g d
-: 1585188459:0;..
-: 1585188459:0;la
-: 1585188605:0;g co origin develop
 : 1585188690:0;git checkout origin develop
-: 1585188693:0;la
-: 1585188694:0;g b
-: 1585188791:0;g pl
-: 1585188804:0;g co origin develop
-: 1585188953:0;jt personal
-: 1585188954:0;la
 : 1585188956:0;cd home
-: 1585188958:0;..
-: 1585188959:0;la
-: 1585188960:0;cd kuru-anime
-: 1585188960:0;la
-: 1585188963:0;cd discord-bot
-: 1585188963:0;la
-: 1585188966:0;g b
-: 1585188975:0;g co origin issue-2-Work_on_the_README_md
-: 1585188979:0;g remote -v
-: 1585188993:0;la
 : 1585189030:0;git doctor
 : 1585189087:0;git co origin/issue-2-Work_on_the_README_md
 : 1585189160:0;git switch -c issue-2-Work_on_the_README_md
-: 1585189164:0;g co master
-: 1585189170:0;g b
 : 1585189175:0;g co origin issue-2-Work_on_the_README_md
 : 1585189177:0;g co issue-2-Work_on_the_README_md
-: 1585189267:0;cd api-server
-: 1585189268:0;la
-: 1585189271:0;g co develop
-: 1585189277:0;g pl origin develop
-: 1585189583:0;g co develop
-: 1585189696:0;~
-: 1585189709:0;ls -a | wc -l
-: 1585189763:0;ls -a
 : 1585189848:0;cd .config
-: 1585189850:0;la
-: 1585189853:0;ls -a | wc -l
-: 1585189939:0;~
 : 1585189944:0;ls -a | wc -l
 : 1585189946:0;ls -a
 : 1585189964:0;vi .zshrc.zs
 : 1585189982:0;vi .zshrc.zwc
-: 1585190304:0;jt personal
-: 1585190304:0;la
-: 1585190319:0;cd kuru-anime
-: 1585190319:0;la
-: 1585190322:0;cd discord-bot
-: 1585190322:0;la
 : 1585190365:0;git fetch origin pull/17/NeonNature:issue-14-Fix_the_problem_with_node's_`fs`_so_you_can_use_it
 : 1585190371:0;git fetch origin pull/17/NeonNature:issue-14-Fix_the_problem_with_node\'s_\`fs\`_so_you_can_use_it
 : 1585190400:0;git fetch origin pull/17/"NeonNature:issue-14-Fix_the_problem_with_node's_`fs`_so_you_can_use_it"
-: 1585192133:0;g co master
-: 1585192136:0;g sync master
-: 1585192202:0;g pl origin develop
-: 1585192450:0;la
-: 1585192532:0;g co feature-event-page
-: 1585192543:0;git reset --hard origin/develop
-: 1585192546:0;g lol
 : 1585192570:0;g ps origin feature-event-page --force
-: 1585193303:0;g bnc
-: 1585193312:0;g pl origin feature-event-page\
-
-: 1585193691:0;vi
-: 1585196723:0;jt dotfiles
-: 1585196723:0;vi
-: 1585198932:0;jt personal
-: 1585198932:0;la
-: 1585198933:0;cd kuru-anime
-: 1585198934:0;la
-: 1585198939:0;cd discord-bot
-: 1585198940:0;la
-: 1585198940:0;vi
-: 1585199030:0;g pl origin feature-event-page
-: 1585199478:0;yarn dev
 : 1585199924:0;yarn update
-: 1585199928:0;yarn install
-: 1585199955:0;yarn dev
 : 1585200851:0;code components/event/LyonEventStreamsSectionTitle/index.tsx
-: 1585206219:0;g d
-: 1585206224:0;g pl origin feature-event-page
-: 1585210198:0;g co origin develop
-: 1585210203:0;g pl origin develop
-: 1585210214:0;g d
-: 1585210222:0;g st
-: 1585210235:0;g st pop
-: 1585210236:0;g d
 : 1585210271:0;g b hotfix-revert-check-manager-method
 : 1585210280:0;g co hotfix-revert-check-manager-method
-: 1585210289:0;g bnc
-: 1585210297:0;g ps origin hotfix-revert-check-manager-method
-: 1585210309:0;g a
 : 1585210314:0;g c -m "revert"
 : 1585210317:0;g ps origin hotfix-revert-check-manager-method
-: 1585210530:0;g co origin develop
-: 1585210536:0;g co develop
-: 1585210579:0;g pl origin develop
-: 1585212335:0;vi
-: 1585212338:0;g d
-: 1585212341:0;g s
-: 1585212754:0;g d
-: 1585212755:0;g s
-: 1585214946:0;g d
 : 1585215000:0;code components/event/LyonEvent/index.tsx
-: 1585215081:0;g a
-: 1585215244:0;g s
 : 1585215265:0;g diff components/event/LyonEvent/index.tsx
 : 1585215283:0;g diff components/event/LyonEventStatistic/index.tsx
 : 1585215298:0;g co components/event/LyonEventStatistic/index.tsx
-: 1585215301:0;g s
 : 1585215315:0;g diff components/event/LyonEventStreamsSectionTitle/index.tsx
 : 1585215321:0;g co components/event/LyonEventStreamsSectionTitle/index.tsx
-: 1585215322:0;g s
-: 1585215334:0;g d
-: 1585215373:0;g pl origin feature-event-page
-: 1585215386:0;g a
 : 1585215424:0;g c -m "move checking of manager on the scope model"
-: 1585215433:0;g ps origin feature-event-page
-: 1585216098:0;g d
-: 1585216107:0;g co scoped-models
-: 1585221170:0;g d
-: 1585223720:0;g a
 : 1585223743:0;g c -m "fix error on getProviderRights"
-: 1585223750:0;g ps origin feature-event-page
-: 1585224226:0;g a
 : 1585224257:0;g c -m "remove hard code type for provider result"
-: 1585224262:0;g ps origin feature-event-page
-: 1585227087:0;g d
-: 1585227105:0;g a
 : 1585227192:0;g c -m "fix check manager"
-: 1585227198:0;g ps origin feature-event-page
-: 1585230992:0;down
-: 1585231685:0;jt dotfiles
-: 1585231686:0;la
-: 1585231686:0;vi
-: 1585231790:0;g a
 : 1585231803:0;g c -m "remove hyperline and update games list"
-: 1585231809:0;g ps origin master
-: 1585271514:0;jt personal
-: 1585271514:0;la
-: 1585273381:0;down
-: 1585280329:0;jt work
-: 1585280330:0;la
-: 1585280331:0;cd Lyon
-: 1585280331:0;la
-: 1585280334:0;cd api-server
-: 1585280338:0;g pl origin develop
-: 1585280349:0;yarn dev
-: 1585280357:0;vi
-: 1585280358:0;yarn dev
-: 1585280361:0;../html-renderer
-: 1585280362:0;la
-: 1585280367:0;g pl origin feature-event-page
-: 1585280374:0;vi
-: 1585280377:0;yarn dev
 : 1585281006:0;g b feature-event-page
-: 1585281010:0;g co feature-event-page
-: 1585281014:0;g ps origin feature-event-page
-: 1585292223:0;g d
-: 1585292894:0;g a
-: 1585295500:0;g d
-: 1585298037:0;jt dotfiles
-: 1585298038:0;vi
-: 1585298293:0;g d
 : 1585298305:0;g g "add insomnia, seeql and postbird on programs I use"
-: 1585298368:0;g d
 : 1585298374:0;g g "move insomnia to brew"
 : 1585298453:0;brew cask install insomnia
-: 1585304276:0;g d
-: 1585304808:0;g a
-: 1585304830:0;g s
-: 1585304839:0;g co src/controllers
-: 1585304841:0;g s
-: 1585304843:0;g d
-: 1585304846:0;g s
 : 1585304855:0;g c -m "add endpoint for events purchased"
-: 1585304857:0;g bnc
-: 1585304864:0;g ps origin feature-event-page\
-
-: 1585304977:0;htop
-: 1585305065:0;vi
-: 1585306453:0;g d
-: 1585306454:0;g lol
-: 1585306457:0;g pl origin feature-event-page
-: 1585307456:0;bos -h
-: 1585308727:0;la
 : 1585308729:0;jt ops
-: 1585308730:0;la
 : 1585308736:0;cd script
-: 1585308741:0;vi
-: 1585310366:0;jt personal
-: 1585313972:0;la
-: 1585313974:0;cd kuru-anime
-: 1585313974:0;la
-: 1585313976:0;cd main-website
-: 1585313976:0;la
-: 1585313979:0;cd client
-: 1585313980:0;la
-: 1585314020:0;vi
-: 1585315825:0;down
-: 1585366026:0;jt dotfiles
-: 1585366029:0;vi
-: 1585371131:0;down
-: 1585372090:0;la
-: 1585372092:0;jt personal
-: 1585372092:0;la
-: 1585372095:0;cd kuru-anime
-: 1585372095:0;la
-: 1585372097:0;cd main-website
-: 1585372098:0;la
-: 1585372100:0;git remote -v
-: 1585372102:0;cd client
-: 1585372103:0;la
-: 1585372136:0;git remote -v
-: 1585372140:0;g sync master
-: 1585372481:0;g pl origin master
-: 1585372512:0;g pl
-: 1585372532:0;g co issue-73-Header_Component_MVP_Design
-: 1585372575:0;vi
-: 1585372580:0;yarn dev
-: 1585372994:0;jt work
-: 1585372994:0;la
-: 1585372996:0;cd Lyon
-: 1585372996:0;la
-: 1585372998:0;cd html-renderer
-: 1585372999:0;la
-: 1585373000:0;vi
-: 1585373263:0;yarn dev
-: 1585374450:0;g d
-: 1585374469:0;g st
-: 1585374471:0;g clean -fd
-: 1585374473:0;la
-: 1585374474:0;g s
-: 1585376221:0;g co master
-: 1585376222:0;g pl
 : 1585376245:0;g co issue-83-Create_a_relative_path_to_import_paths
-: 1585376247:0;vi
 : 1585379129:0;yarn add --dev tsconfig-paths-webpack-plugin
-: 1585379142:0;yarn dev
-: 1585379447:0;g d
-: 1585379475:0;g a
 : 1585379528:0;g c -m "add `tsconfig-paths-webpack-plugin` and configure it to point to components and pages"
-: 1585379532:0;g bnc
 : 1585379539:0;g ps issue-83-Create_a_relative_path_to_import_paths\
 
 : 1585379544:0;g ps origin issue-83-Create_a_relative_path_to_import_paths\
 
-: 1585379560:0;g remote -v
-: 1585379567:0;g ps fork issue-83-Create_a_relative_path_to_import_paths\
-
-: 1585379742:0;g a
 : 1585379755:0;g c -m "change paths and use @kuru"
 : 1585379759:0;g ps fork issue-83-Create_a_relative_path_to_import_paths\
 
-: 1585379994:0;g co master
-: 1585382498:0;g co issue-73-Header_Component_MVP_Design
-: 1585382521:0;g b
 : 1585382543:0;g pl fork issue-83-Create_a_relative_path_to_import_paths
-: 1585382549:0;g lol
-: 1585382555:0;yarn dev
-: 1585388497:0;g d
-: 1585388500:0;g a
 : 1585388516:0;g c -m "add ant components"
-: 1585388518:0;g bnc
-: 1585388541:0;g ps fork issue-73-Header_Component_MVP_Design\
-
-: 1585390069:0;...
-: 1585390070:0;la
-: 1585390071:0;..
-: 1585390072:0;la
-: 1585390072:0;..
-: 1585390073:0;la
-: 1585390075:0;cd Work
-: 1585390075:0;la
-: 1585391121:0;g d
-: 1585391135:0;g s
 : 1585391142:0;g co components/SocialMedia.tsx
-: 1585391143:0;g d
-: 1585391152:0;g a
 : 1585391170:0;g c -m "add few style on the footer and hid some parts on the header"
-: 1585391172:0;g bnc
-: 1585391181:0;g ps fork issue-73-Header_Component_MVP_Design\
-
 : 1585399611:0;jt personalla
-: 1585399613:0;jt personal
-: 1585399614:0;la
-: 1585399618:0;cd kuru-anime
-: 1585399619:0;la
-: 1585399621:0;cd main-website
-: 1585399621:0;la
-: 1585399623:0;cd client
-: 1585399623:0;la
-: 1585399628:0;vi
 : 1585403907:0;jt vol
-: 1585403908:0;la
 : 1585403922:0;cd Bos
-: 1585403922:0;la
 : 1585403934:0;rm -rf to-print.pdf
 : 1585403936:0;cd Movies
-: 1585403936:0;la
-: 1585403939:0;..
-: 1585403943:0;~
-: 1585445835:0;jt personal
-: 1585445836:0;la
 : 1585445838:0;kuru-anime
-: 1585445838:0;la
-: 1585445841:0;cd main-website
-: 1585445841:0;la
-: 1585445844:0;client
-: 1585445854:0;la
-: 1585445857:0;vi
-: 1585445864:0;g lol
-: 1585445870:0;g sync master
-: 1585445877:0;g bnc
-: 1585445879:0;g co master
-: 1585445883:0;g sync master
-: 1585445909:0;g co issue-73-Header_Component_MVP_Design\
-
-: 1585445911:0;g lol
-: 1585445915:0;g pl origin master
-: 1585445957:0;vi
-: 1585445999:0;g a
-: 1585446009:0;g c -m "fix conflict"
-: 1585446012:0;g lol
-: 1585446035:0;g bnc
 : 1585446043:0;g ps fork issue-73-Header_Component_MVP_Design\
 
-: 1585446396:0;yarn dev
-: 1585448047:0;g bnc
-: 1585448052:0;g diff master..issue-73-Header_Component_MVP_Design\
-
-: 1585448225:0;g d
 : 1585448228:0;g diff master..issue-73-Header_Component_MVP_Design\
 
-: 1585448478:0;g co master
-: 1585448482:0;g pl
 : 1585448598:0;g co issue-73-Header_Component_MVP_Design\
 
-: 1585449147:0;g co master
 : 1585449150:0;g co issue-86-Install_Tailwind
 : 1585449745:0;yarn add --dev tailwindcss autoprefixer @fullhuman/postcss-purgecss
 : 1585449767:0;touch postcss.config.js
-: 1585450007:0;yarn dev
-: 1585450149:0;g d
-: 1585450154:0;g s
-: 1585450164:0;g d
-: 1585450191:0;jt work
-: 1585450191:0;la
-: 1585450198:0;cd Lyon
-: 1585450199:0;la
-: 1585450203:0;cd html-renderer
-: 1585450204:0;la
-: 1585450211:0;vi
-: 1585450329:0;g a
-: 1585450353:0;y
-: 1585450356:0;la
 : 1585450363:0;g c -m "add tailwind"
-: 1585450366:0;g bnc
 : 1585450371:0;g ps fork issue-86-Install_Tailwind\
 
-: 1585450823:0;g co master
 : 1585450989:0;....
-: 1585450991:0;..
-: 1585450991:0;la
-: 1585450993:0;cd Work
-: 1585450993:0;la
 : 1585450996:0;cd Lyon/html-renderer
-: 1585450997:0;la
-: 1585450997:0;vi
-: 1585454903:0;..
-: 1585454903:0;la
-: 1585454904:0;cd server
-: 1585454912:0;g co master
-: 1585454915:0;g sync master
-: 1585460206:0;vi
-: 1585462583:0;yarn install
-: 1585462587:0;vi
-: 1585474529:0;g b hotfix-update-templates
-: 1585474534:0;g co hotfix-update-templates
-: 1585474539:0;g a
-: 1585474555:0;g lol
-: 1585474556:0;g s
-: 1585474584:0;..
-: 1585474584:0;la
-: 1585474587:0;..
-: 1585474587:0;la
 : 1585474599:0;rm -rf bot
-: 1585474601:0;g d
-: 1585474602:0;g s
 : 1585474611:0;git rm rf bot
-: 1585474612:0;la
 : 1585474618:0;git rm -rf bot
-: 1585474621:0;g s
-: 1585474709:0;g a
-: 1585474721:0;g c -m "update templates"
-: 1585474723:0;g bnc
-: 1585474741:0;g remote -v
 : 1585474783:0;g help
-: 1585474787:0;g so
 : 1585474830:0;g remote add fork git@github.com:BosEriko/main-website-server.git
-: 1585474833:0;g bnc
-: 1585474838:0;g ps fork hotfix-update-templates\
-
-: 1585475011:0;g co master
-: 1585475015:0;g sync master
-: 1585475131:0;../client
-: 1585475132:0;la
-: 1585475135:0;g remote -v
 : 1585475139:0;g b hotfix-update-templates
-: 1585475143:0;g co hotfix-update-templates
-: 1585475151:0;vi
-: 1585475164:0;rm -rf .github
-: 1585475166:0;g s
 : 1585475186:0;cp ../server/.github/ ./.github
-: 1585475188:0;g d
-: 1585475189:0;g s
 : 1585475250:0;cp -avr ../server/.github/ ./.github
-: 1585475258:0;cp -rf ../server/.github/ ./.github
-: 1585475296:0;..
-: 1585475299:0;server
-: 1585475299:0;la
-: 1585475305:0;g co hotfix-update-templates
-: 1585475307:0;..
-: 1585475307:0;la
-: 1585475308:0;client
-: 1585475309:0;la
-: 1585475313:0;rm -rf .github
 : 1585475315:0;cp -rf ../server/.github/ ./.github
-: 1585475407:0;../server
-: 1585475407:0;la
-: 1585475410:0;vi
-: 1585475418:0;g d
-: 1585475420:0;g a
 : 1585475428:0;g c -m "remove the extra line on pull request template"
-: 1585475430:0;g ps fork hotfix-update-templates\
-
-: 1585475506:0;g a
-: 1585475519:0;g c -m "update templates"
-: 1585475522:0;g ps fork hotfix-update-templates\
-
-: 1585475870:0;g co master
-: 1585477088:0;la
-: 1585477090:0;..
-: 1585477090:0;la
-: 1585477101:0;g lol
-: 1585477114:0;g d
-: 1585477116:0;g s
-: 1585477159:0;cd client
-: 1585477160:0;la
-: 1585477163:0;g sync master
-: 1585477188:0;../server
-: 1585477191:0;g co master
-: 1585477194:0;g sync master
-: 1585477244:0;..
-: 1585477244:0;la
-: 1585477247:0;g lol
-: 1585477273:0;g a
 : 1585477287:0;g c -m "Update both client and server"
-: 1585477292:0;g lol
-: 1585477306:0;g co hotfix-update-project
 : 1585477311:0;g co -b hotfix-update-project
-: 1585477320:0;g lol
-: 1585477323:0;g remote -v
-: 1585477326:0;g so
 : 1585477370:0;g remote add fork git@github.com:BosEriko/main-website.git
 : 1585477382:0;g ps fork hotfix-update-project
-: 1585478001:0;g co master
-: 1585478005:0;g sync master
-: 1585478029:0;g lol
-: 1585478040:0;git reset --hard origin/master
-: 1585478043:0;g sync master
-: 1585478082:0;g co -b hotfix-update-templates
-: 1585478086:0;rm -rf .github
 : 1585478096:0;cp -rf ./server/.github ./.github
-: 1585478100:0;g d
-: 1585478103:0;g s
-: 1585478140:0;vi
-: 1585478209:0;g d
-: 1585478214:0;g a
-: 1585478224:0;g c -m "update templates"
-: 1585478232:0;g ps fork hotfix-update-templates\
-
-: 1585478332:0;g co master
-: 1585478334:0;g sync master
-: 1585478524:0;..
-: 1585478525:0;la
-: 1585478527:0;cd discord-bot
-: 1585478530:0;g sync master
-: 1585478815:0;git remote -v
-: 1585478822:0;g sync master
-: 1585478992:0;g lol
-: 1585478994:0;g d
-: 1585478996:0;g s
-: 1585479000:0;g d
-: 1585479009:0;g stash
-: 1585479012:0;g sync master
-: 1585479029:0;g pl origin master
-: 1585479036:0;g sync master
-: 1585479199:0;g remote -v
-: 1585479207:0;g sync master
-: 1585479211:0;jt dotfiles
-: 1585479212:0;la
-: 1585479212:0;vi
-: 1585479271:0;g ps origin master
-: 1585479314:0;g ps bitbucket master
-: 1585479357:0;..
-: 1585479358:0;la
-: 1585479360:0;cd main-website
-: 1585479362:0;g sync master
 : 1585479420:0;../discord-bot
-: 1585479526:0;g sync master
-: 1585479565:0;g co -b hotfix-update-templates
-: 1585479570:0;rm -rf .github
-: 1585479579:0;cp -rf ../main-website/server/.github ./.github
-: 1585479582:0;vi
-: 1585479629:0;g a
-: 1585479641:0;g c -m "update templates"
-: 1585479646:0;g ps fork hotfix-update-templates\
-
-: 1585479832:0;g sync master
-: 1585479841:0;g co master
-: 1585479845:0;git reset --hard origin/master
 : 1585479847:0;g sync mster
-: 1585479850:0;g sync master
-: 1585479872:0;..
-: 1585479872:0;la
 : 1585479894:0;g clone git@github.com:kuru-project/mobile-application.git
-: 1585479928:0;la
 : 1585479931:0;cd mobile-application/
-: 1585479931:0;la
-: 1585479934:0;g remote -v
-: 1585479935:0;g so
 : 1585479967:0;git remote add fork git@github.com:BosEriko/mobile-application.git
-: 1585479970:0;la
-: 1585479974:0;g sync master
-: 1585479999:0;rm -rf .github
 : 1585480017:0;cp -rf ../main-website/server/.github ./.github
-: 1585480023:0;g d
-: 1585480024:0;g s
-: 1585480028:0;g a
-: 1585480034:0;g c -m "update templates"
-: 1585480045:0;g co -b hotfix-update-templates
-: 1585480050:0;g ps fork hotfix-update-templates\
-
-: 1585480071:0;vi
-: 1585480119:0;g a
-: 1585480125:0;g c -m "update templates"
-: 1585480127:0;g ps fork hotfix-update-templates\
-
-: 1585480310:0;g co master
-: 1585480312:0;g sync master
 : 1585480343:0;git push gitlab master --force
-: 1585480353:0;g co master
-: 1585480359:0;git reset --hard origin/master
-: 1585480363:0;g sync master
-: 1585480391:0;git reset --hard origin/master
-: 1585480392:0;g lol
-: 1585480400:0;g ps gitlab master --force
-: 1585480410:0;g ps bitbucket master --force
-: 1585480417:0;g lol
 : 1585480441:0;g ps github master --force
-: 1585480451:0;g ps gitlab master --force
-: 1585480613:0;g sync master
-: 1585480643:0;..
-: 1585480643:0;la
 : 1585480997:0;g clone git@github.com:kuru-project/desktop-application.git
-: 1585482019:0;la
 : 1585482021:0;cd desktop-application
-: 1585482039:0;rm -rf .github
 : 1585482052:0;cp -rf ../main-website/server/.github ./github
-: 1585482055:0;la
 : 1585482066:0;g co -b hotfix-update-templates
-: 1585482071:0;vi
-: 1585482120:0;g a
-: 1585482147:0;g c -m "update templates"
-: 1585482150:0;g ps fork hotfix-update-templates\
-
-: 1585482186:0;git remote -v
-: 1585482195:0;g so
 : 1585482221:0;git remote add fork git@github.com:BosEriko/desktop-application.git
 : 1585482223:0;git remote -v
-: 1585482275:0;g ps fork hotfix-update-templates\
-
-: 1585482474:0;g co master
-: 1585482476:0;g sync master
-: 1585482569:0;mv github .github
-: 1585482572:0;la
-: 1585482578:0;g co hotfix-update-project
-: 1585482580:0;g d
-: 1585482581:0;g a
-: 1585482588:0;g c -m "update templates"
-: 1585482592:0;g ps fork hotfix-update-templates\
-
 : 1585482602:0;g co hotfix-update-project
-: 1585482603:0;g lol
 : 1585482613:0;g co hotfix-update-templates
-: 1585482617:0;g ps fork hotfix-update-templates\
-
-: 1585482625:0;la
 : 1585482636:0;mv github .github
-: 1585482638:0;g a
-: 1585482640:0;y
 : 1585482645:0;g c -m "update templates"
 : 1585482647:0;g ps fork hotfix-update-templates\
 
 : 1585482794:0;g co -b hotfix-update-templates-2
 : 1585482800:0;g ps fork hotfix-update-templates-2
-: 1585482896:0;la
-: 1585482963:0;g co master
-: 1585482963:0;la
-: 1585482971:0;git reset --hard origin/master
-: 1585482973:0;la
-: 1585482987:0;g lol
-: 1585482991:0;g pl origin master
-: 1585483011:0;git reset --hard origin/master
-: 1585483012:0;g lol
-: 1585483014:0;la
 : 1585483022:0;rm -rf .github
-: 1585483029:0;git reset --hard origin/master
 : 1585483032:0;rm -rf github
-: 1585483033:0;la
 : 1585483043:0;g co -b hotfix-remove-duplicate-github
-: 1585483046:0;g a
-: 1585483050:0;la
-: 1585483054:0;g rm -rf github
-: 1585483059:0;la
-: 1585483062:0;g st
-: 1585483064:0;la
 : 1585483068:0;g rm -rf github
-: 1585483069:0;la
-: 1585483070:0;g s
-: 1585483075:0;g a
-: 1585483078:0;git add .
-: 1585483081:0;la
 : 1585483097:0;g c -m "delete github"
-: 1585483102:0;g bnc
 : 1585483107:0;g ps fork hotfix-remove-duplicate-github\
 
-: 1585483154:0;vi
-: 1585483231:0;g co master
-: 1585483233:0;git reset --hard origin/master
-: 1585483236:0;g sync master
-: 1585483320:0;..
-: 1585483320:0;la
-: 1585483322:0;cd main-website
-: 1585483322:0;la
-: 1585483324:0;cd server
-: 1585483324:0;la
-: 1585528185:0;jt personal
-: 1585528186:0;la
-: 1585528187:0;cd kuru-anime
-: 1585528188:0;la
 : 1585528195:0;cd main-website/client
-: 1585528197:0;g sync master
-: 1585529033:0;down
-: 1585529173:0;jt work
-: 1585529173:0;la
-: 1585529183:0;jt dotfiles
-: 1585529188:0;la
-: 1585529193:0;vi
-: 1585529247:0;g d
 : 1585529261:0;g g "update project list"
 : 1585529348:0;jt
-: 1585529354:0;jt work
-: 1585529354:0;la
-: 1585529356:0;cd Lyon
-: 1585529357:0;la
-: 1585529360:0;cd api-server
-: 1585529366:0;../html-renderer
-: 1585529376:0;g pl origin feature-event-page
-: 1585529385:0;g lol
-: 1585529395:0;g d
-: 1585529399:0;yarn dev
-: 1585529401:0;vi
-: 1585529409:0;g pl origin feature-event-page
-: 1585529422:0;yarn dev
-: 1585529430:0;vi
-: 1585530127:0;g d
-: 1585530487:0;g lol
-: 1585531131:0;g d
-: 1585531132:0;g s
-: 1585531457:0;g lol
-: 1585531461:0;g a
-: 1585531482:0;g s
 : 1585531504:0;g c -m "add event purchase status call and scopemodel"
-: 1585531515:0;g ps origin feature-event-page\
-
-: 1585531635:0;g a
 : 1585531647:0;g c -m "fix the error on the GET method of both provider and event"
-: 1585531650:0;g ps origin feature-event-page\
-
-: 1585535868:0;g a
 : 1585535891:0;g c -m "remove hardcoded booleans"
 : 1585535897:0;g ps origin feature-event-page\
 
 : 1585537215:0;code .
-: 1585544070:0;g pl origin develop
 : 1585544694:0;git reset --hard origin/feature-event-page
-: 1585544696:0;g lol
-: 1585544710:0;g pl origin feature-event-page
-: 1585544771:0;g lol
-: 1585551063:0;g pl origin develop
-: 1585552532:0;g pl origin feature-event-page
-: 1585553058:0;vi
-: 1585553917:0;g pl origin feature-event-page
 : 1585554237:0;g co -b feature-provider-facing-event-management-pane
-: 1585561076:0;g d
-: 1585561087:0;g s
-: 1585561093:0;g st
-: 1585561617:0;g co master
-: 1585561624:0;g pl origin master
-: 1585561683:0;g co feature-event-page
-: 1585561688:0;g pl origin feature-event-page
-: 1585561717:0;g co master
-: 1585561721:0;g co hotfix-event-page-blank-state
-: 1585561724:0;g pl
-: 1585561878:0;g co hotfix-event-page-blank-state
-: 1585562013:0;g lol
-: 1585562023:0;g pl origin feature-event-page
-: 1585562047:0;g lol
-: 1585562128:0;g a
-: 1585562137:0;g bnc
-: 1585562141:0;g ps origin hotfix-event-page-blank-state\
-
 : 1585562224:0;g c -m "remove hard code isProvider"
-: 1585562226:0;g ps origin hotfix-event-page-blank-state\
-
-: 1585562521:0;g co master
-: 1585562547:0;g co feature-provider-facing-event-management-pane
-: 1585562550:0;g lol
-: 1585562760:0;g ps origin feature-provider-facing-event-management-pane
-: 1585565800:0;g d
-: 1585565801:0;g s
-: 1585568882:0;g d
-: 1585568884:0;g s
-: 1585573330:0;g bnc
-: 1585573335:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585621552:0;jt work
-: 1585621553:0;la
-: 1585621555:0;cd Lyon
-: 1585621555:0;la
-: 1585621587:0;cd html-renderer
-: 1585621588:0;la
-: 1585621599:0;g co master
-: 1585621602:0;g d
-: 1585621605:0;g st
-: 1585621620:0;g co master
-: 1585621624:0;g pl origin master
-: 1585621646:0;g co develop
-: 1585621651:0;g pl origin develop
-: 1585621667:0;g co feature-event-page
-: 1585621670:0;g pl origin feature-event-page
-: 1585621680:0;g lol
-: 1585621709:0;g co hotfix-event-page-blank-state
-: 1585621752:0;g pl origin hotfix-event-page-blank-state
-: 1585621832:0;g pl origin feature-event-page
-: 1585621853:0;g lol
-: 1585621860:0;g d
-: 1585621862:0;g lol
-: 1585621863:0;g s
-: 1585621881:0;g bnc
 : 1585621888:0;g ps origin hotfix-event-page-blank-state\
 
-: 1585621953:0;g co feature-provider-facing-event-management-pane
-: 1585621961:0;g pl origin feature-provider-facing-event-management-pane
-: 1585621992:0;g st pop
-: 1585622005:0;vi
-: 1585622423:0;yarn dev
-: 1585622438:0;../api-server
-: 1585622442:0;vi
-: 1585622445:0;yarn dev
-: 1585623937:0;g d
-: 1585624925:0;g s
-: 1585626442:0;g d
-: 1585626443:0;g s
-: 1585626727:0;g lol
-: 1585626949:0;g d
-: 1585627188:0;g s
-: 1585628048:0;g d
-: 1585630628:0;g a
 : 1585630722:0;g c -m "create a reusable modal"
-: 1585630728:0;g bnc
-: 1585630732:0;g ps origin feature-provider-facing-event-management-pane\
-
-: 1585630816:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585630901:0;g a
-: 1585630913:0;g c -m "fix conflict"
-: 1585630916:0;g ps origin feature-provider-facing-event-management-pane\
-
-: 1585631151:0;g a
 : 1585631167:0;g c -m "rename global modal to lyon global modal"
-: 1585632958:0;g a
 : 1585632968:0;g c -m "remote instructional"
-: 1585632973:0;g ps origin feature-provider-facing-event-management-pane\
-
-: 1585638183:0;g d
-: 1585639116:0;g lol
-: 1585639128:0;g d
-: 1585639142:0;g st
-: 1585639146:0;g bnc
-: 1585639152:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585639214:0;g st pop
-: 1585639329:0;g bnc
-: 1585639339:0;git reset --hard origin/feature-provider-facing-event-management-pane\
-
-: 1585639341:0;g lol
-: 1585639478:0;g st
-: 1585640194:0;g a
 : 1585640219:0;g c -m "put the logic of modal inside the components"
-: 1585640223:0;g bnc
-: 1585640227:0;g ps origin feature-provider-facing-event-management-pane\
-
-: 1585640242:0;g lol
-: 1585640307:0;g d
-: 1585640308:0;g s
-: 1585640309:0;g d
-: 1585640334:0;g co feature-event-page
-: 1585640342:0;g st
-: 1585640343:0;g d
-: 1585640355:0;g bnc
 : 1585640359:0;g pl origin feature-event-page\
 
 : 1585640372:0;g co feature-event-page\
 
-: 1585640378:0;g co feature-provider-facing-event-management-pane
 : 1585640392:0;g diff feature-provider-facing-event-management-pane..origin/feature-event-page
 : 1585640409:0;g diff origin/feature-event-page..feature-provider-facing-event-management-pane
 : 1585640476:0;g pull origin feature-event-page
-: 1585640498:0;g bnc
 : 1585640501:0;g ps origin feature-provider-facing-event-management-pane\
 
-: 1585640962:0;vi
-: 1585645302:0;g bnc
-: 1585645307:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585646078:0;g co develop
-: 1585646081:0;g pl origin develop
-: 1585648324:0;yarn dev
-: 1585648330:0;g co develop
-: 1585648335:0;g pl origin develop
-: 1585648589:0;yarn dev
-: 1585649013:0;jt personal
-: 1585649013:0;la
-: 1585649017:0;cd kuru-anime
-: 1585649017:0;la
 : 1585651476:0;hto
-: 1585651478:0;htop
-: 1585654948:0;down
-: 1585655603:0;vi
-: 1585656081:0;la
-: 1585656094:0;cd main-website
-: 1585656095:0;la
-: 1585656096:0;cd client
-: 1585656098:0;g bnc
 : 1585656100:0;g pl origin master\
 
-: 1585656207:0;g pl origin master
 : 1585656212:0;g pl msater
-: 1585656214:0;g pl
 : 1585656228:0;g co issue-90-Setup_dotenv
-: 1585656276:0;vi
-: 1585656287:0;..
-: 1585656289:0;la
-: 1585656291:0;..
-: 1585656291:0;la
-: 1585656295:0;cd discord-bot
-: 1585656297:0;la
-: 1585656299:0;vi
-: 1585656328:0;yarn add dotenv
-: 1585656335:0;jt work
-: 1585656335:0;la
-: 1585656337:0;cd Lyon
-: 1585656337:0;la
-: 1585656344:0;html
-: 1585656348:0;html-renderer
-: 1585656349:0;la
-: 1585656352:0;vi
-: 1585656415:0;g d
-: 1585656419:0;g a
-: 1585656429:0;g d
-: 1585656431:0;g s
-: 1585656441:0;g c -m "install dotenv"
-: 1585656445:0;g bnc
 : 1585656447:0;g ps origin issue-90-Setup_dotenv\
 
 : 1585656607:0;g ps fork issue-90-Setup_dotenv\
 
-: 1585656811:0;g d
-: 1585656817:0;g a
 : 1585656835:0;g c -m "require dotenv on next config"
-: 1585658617:0;bos -h
-: 1585658626:0;bos -f pipes
-: 1585658704:0;gtop
-: 1585703099:0;jt work
-: 1585704076:0;la
-: 1585704083:0;cd Lyon
-: 1585704084:0;la
-: 1585704087:0;cd api-server
-: 1585704088:0;la
-: 1585704095:0;g pl origin develop
-: 1585704197:0;g lol
-: 1585704774:0;vi
-: 1585704779:0;yarn dev
-: 1585704785:0;../html-renderer
-: 1585704802:0;g b
 : 1585704826:0;g b feature-provider-facing-event-management-pane
-: 1585704831:0;g co feature-provider-facing-event-management-pane
-: 1585704835:0;g pl origin feature-provider-facing-event-management-pane
-: 1585704849:0;yarn dev
-: 1585704852:0;vi
-: 1585704863:0;yarn install
-: 1585704881:0;yarn dev
-: 1585704916:0;yarn install
-: 1585704929:0;yarn dev
-: 1585705085:0;vi
-: 1585705111:0;g d
-: 1585705191:0;g lol
 : 1585706415:0;g revert 0fcbff8
-: 1585706423:0;g revert -m 0fcbff8
-: 1585706429:0;la
-: 1585706430:0;g d
-: 1585706433:0;g st
 : 1585706436:0;g revert -m 0fcbff8
-: 1585706440:0;g lol
 : 1585706469:0;g reset 08ac2c9
-: 1585706471:0;g st
-: 1585706473:0;g clean -fd
-: 1585706482:0;yarn dev
-: 1585706595:0;g lol
-: 1585706616:0;git reset --hard origin/develop
-: 1585706619:0;g lol
-: 1585706622:0;yarn dev
-: 1585708404:0;g pl origin develop
-: 1585708415:0;g lol
 : 1585708615:0;git diff 08bb2d8..aa905f0
-: 1585720409:0;g st
-: 1585720929:0;yarn dev
-: 1585721076:0;g d
 : 1585722903:0;g co -b get-event-customers
-: 1585722905:0;g a
 : 1585722916:0;g c -m "add endpoint for get event customers"
 : 1585722921:0;g ps origin get-event-customers
-: 1585722933:0;g co develop
 : 1585724781:0;g co -b hotfix-license-number
-: 1585724783:0;g a
 : 1585724795:0;g c -m "add licenseNumber to the validator"
 : 1585724801:0;g ps origin hotfix-license-number
-: 1585725742:0;g co develop
-: 1585725747:0;g pl origin develop
-: 1585725800:0;g bnc
-: 1585725803:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585726054:0;g pl origin feature-provider-facing-event-management-pane
-: 1585726063:0;g lol
-: 1585726145:0;g log
-: 1585734506:0;g d
-: 1585734517:0;g st
-: 1585734666:0;g b
 : 1585734683:0;g co get-event-customers
 : 1585734689:0;g co -b feature-get-event-customers
-: 1585734698:0;g ps origin feature-get-event-customers
-: 1585739605:0;bos -p ngrok 8081
-: 1585790623:0;jt work
-: 1585790625:0;cd Lyon
-: 1585790625:0;la
-: 1585790627:0;cd html-renderer
-: 1585790627:0;la
-: 1585790694:0;g bnc
-: 1585790699:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585790702:0;g pl origin feature-provider-facing-event-management-pane
-: 1585790730:0;g lol
-: 1585790787:0;g co develop
-: 1585790790:0;g d
-: 1585790793:0;g st
-: 1585790795:0;g co develop
-: 1585790801:0;g pl origin develop
-: 1585790834:0;g co feature-event-page
-: 1585790838:0;g pl origin feature-event-page
-: 1585790875:0;../api-server
-: 1585790887:0;../html-renderer
-: 1585790889:0;vi
-: 1585790894:0;yarn dev
-: 1585791668:0;vi
-: 1585791694:0;g a
 : 1585791709:0;g c -m "return null if token doesn't exist"
-: 1585791713:0;g ps origin feature-event-page
-: 1585792294:0;vi
-: 1585792295:0;yarn dev
-: 1585793684:0;g a
 : 1585793726:0;g c -m "perform request only if token exists"
-: 1585793738:0;g ps origin feature-event-page
-: 1585794030:0;g lol
-: 1585794036:0;g pl origin feature-event-page
-: 1585794089:0;g co develop
-: 1585794093:0;g pl origin develop
 : 1585794102:0;g co feature-event-date
 : 1585794110:0;g pl origin feature-event-date
-: 1585794149:0;g pl origin feature-event-page
-: 1585794287:0;g lol
 : 1585794316:0;g ps origin feature-event-date
-: 1585794401:0;g co develop
 : 1585794403:0;g co hotfix-event-page-blank-state
 : 1585794411:0;g pl origin hotfix-event-page-blank-state
-: 1585794423:0;g pl origin feature-event-page
-: 1585794474:0;g bnc
 : 1585794478:0;g ps origin hotfix-event-page-blank-state
-: 1585794528:0;g co develop
-: 1585794589:0;g b
-: 1585794598:0;g co feature-provider-facing-event-management-pane
-: 1585794605:0;g pl origin feature-provider-facing-event-management-pane
-: 1585794678:0;g bnc
-: 1585794682:0;g pl origin feature-provider-facing-event-management-pane
-: 1585794741:0;g pl origin feature-event-page
-: 1585794795:0;g lol
-: 1585794797:0;g bnc
-: 1585794800:0;g ps origin feature-provider-facing-event-management-pane
-: 1585798128:0;g d
-: 1585801792:0;g pl origin feature-provider-facing-event-management-pane
-: 1585802203:0;yarn dev
-: 1585802206:0;g d
-: 1585802294:0;yarn dev
-: 1585803513:0;g d
-: 1585804171:0;g a
 : 1585804289:0;g c -m "remove selection of customers on the controller of event"
-: 1585804295:0;g bnc
-: 1585804300:0;g ps origin feature-get-event-customers
-: 1585804703:0;g bnc
-: 1585804706:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585804708:0;g pl origin feature-provider-facing-event-management-pane
-: 1585805443:0;g d
-: 1585805453:0;g st
-: 1585806435:0;g a
-: 1585806471:0;g c -m "append Payload to my payloads"
-: 1585806474:0;g bnc
-: 1585806477:0;g ps origin feature-provider-facing-event-management-pane
-: 1585806551:0;g lol
 : 1585806561:0;g reset eeb1f78
-: 1585806572:0;g lol
 : 1585806578:0;g reset f5b3e8a
-: 1585806580:0;g st
-: 1585806585:0;g pl origin feature-provider-facing-event-management-pane
-: 1585807133:0;g a
-: 1585807137:0;g st pop
-: 1585807138:0;g a
 : 1585807170:0;g c -m "append Payload to my payloads"
-: 1585807173:0;g ps origin feature-provider-facing-event-management-pane
-: 1585807510:0;g d
-: 1585809304:0;g a
 : 1585809344:0;g c -m "filter customers"
-: 1585809346:0;g bnc
-: 1585809349:0;g ps origin feature-get-event-customers
-: 1585809467:0;g d
-: 1585809543:0;g a
 : 1585809547:0;g c -m "update comment"
-: 1585809550:0;g ps origin feature-get-event-customers
-: 1585809673:0;g a
 : 1585809699:0;g c -m "add api request for getting the customers"
-: 1585809705:0;g pl origin feature-provider-facing-event-management-pane
-: 1585809719:0;g ps origin feature-provider-facing-event-management-pane
-: 1585810128:0;g a
-: 1585810154:0;g c -m "add display photo"
-: 1585810163:0;g ps origin feature-get-event-customers
-: 1585810216:0;g d
-: 1585810221:0;g a
 : 1585810229:0;g c -m "add display photo"
-: 1585810230:0;g bnc
-: 1585810234:0;g ps origin feature-provider-facing-event-management-pane
-: 1585814882:0;g d
-: 1585814887:0;g bnc
-: 1585814891:0;g pl origin feature-provider-facing-event-management-pane
-: 1585818613:0;g d
-: 1585818614:0;g a
-: 1585818622:0;g pl origin feature-provider-facing-event-management-pane
-: 1585818724:0;g a
 : 1585818740:0;g c -m "create scope model for customers of event"
-: 1585818744:0;g ps origin feature-provider-facing-event-management-pane
-: 1585820391:0;g d
-: 1585820413:0;g s
 : 1585820421:0;g co scoped-models/EventCustomersData.tsx
-: 1585820452:0;g d
-: 1585823079:0;jt personal
-: 1585871731:0;jt work
-: 1585871732:0;la
-: 1585871735:0;Lyon
-: 1585871735:0;la
-: 1585871739:0;cd api-server
-: 1585871747:0;../html-renderer
-: 1585873528:0;g bnc
-: 1585873533:0;g pl origin feature-get-event-customers
-: 1585873544:0;vi
-: 1585873548:0;yarn dev
-: 1585873551:0;g bnc
-: 1585873553:0;g d
-: 1585873557:0;g st
-: 1585873578:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585873580:0;g pl origin feature-provider-facing-event-management-pane
-: 1585873590:0;g st pop
-: 1585873592:0;vi
-: 1585873599:0;yarn dev
-: 1585874170:0;g lol
 : 1585877346:0;g pl origin feature-reward-rehaul && g co feature-reward-rehaul
-: 1585877416:0;g co feature-get-event-customers
-: 1585877420:0;g bnc
 : 1585877428:0;git reset --hard origin/feature-get-event-customers\
 
 : 1585877436:0;g co feature-reward-rehaul
-: 1585877440:0;yarn install
-: 1585877461:0;yarn dev
-: 1585877562:0;g lol
 : 1585877589:0;git reset --hard origin/feature-reward-rehaul
-: 1585877591:0;g lol
-: 1585877600:0;yarn dev
-: 1585881556:0;g co feature-get-event-customers
-: 1585881558:0;g lol
-: 1585881563:0;yarn dev
-: 1585883016:0;g d
-: 1585883023:0;g s
-: 1585886258:0;g d
-: 1585887736:0;g a
 : 1585887749:0;g c -m "add id to endpoint"
-: 1585887755:0;g ps origin feature-get-event-customers
-: 1585887900:0;yarn dev
-: 1585888480:0;g a
-: 1585888585:0;g d
-: 1585888586:0;g a
 : 1585888671:0;g c -m "pass customer as props\
 "
-: 1585888673:0;g bnc
-: 1585888677:0;g ps origin feature-provider-facing-event-management-pane
-: 1585888843:0;g a
 : 1585888852:0;g c -m "fix error on customer"
-: 1585888856:0;g ps origin feature-provider-facing-event-management-pane
-: 1585890632:0;g d
-: 1585894870:0;g bnc
-: 1585894873:0;g pl origin feature-provider-facing-event-management-pane
-: 1585895022:0;g bnc
-: 1585895027:0;g pl origin feature-provider-facing-event-management-pane
-: 1585895036:0;g lol
-: 1585896387:0;g bnc
-: 1585896388:0;g d
-: 1585896393:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585896457:0;g st
-: 1585896459:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585896469:0;g st pop
-: 1585896488:0;g bnc
-: 1585896498:0;git reset --hard origin/feature-provider-facing-event-management-pane\
-
-: 1585896501:0;g st pop
-: 1585896505:0;git reset --hard origin/feature-provider-facing-event-management-pane\
-
-: 1585896880:0;g a
 : 1585896901:0;g c -m "fix the import for types"
-: 1585896903:0;g bnc
-: 1585896906:0;g ps origin feature-provider-facing-event-management-pane
-: 1585902628:0;gtop
-: 1585904281:0;yarn dev
-: 1585904286:0;g bnc
-: 1585904293:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585906347:0;git reset --hard origin/feature-provider-facing-event-management-pane
-: 1585906351:0;g pl origin feature-provider-facing-event-management-pane\
-
-: 1585906355:0;g pl origin feature-provider-facing-event-management-pane
-: 1585906498:0;g d
-: 1585906503:0;g a
 : 1585906526:0;g c -m "use reduce"
-: 1585906529:0;g ps origin feature-provider-facing-event-management-pane
-: 1585906842:0;g pl origin develop
-: 1585906872:0;g d
-: 1585906892:0;g a
 : 1585906908:0;g c -m "fix conflict"
-: 1585906911:0;g lol
-: 1585906920:0;g ps origin feature-provider-facing-event-management-pane
-: 1585909300:0;jt dotfiles
-: 1585909300:0;la
-: 1585909308:0;vi
-: 1585909336:0;g d
 : 1585909342:0;g g "add airline toggle"
-: 1585909846:0;g a
 : 1585909892:0;g c -m "remove redundant template literals"
-: 1585909894:0;g bnc
-: 1585909897:0;g ps origin feature-provider-facing-event-management-pane
-: 1585909950:0;vi
-: 1585910217:0;jt dotfiles
-: 1585910222:0;vi
-: 1585912081:0;g d
-: 1585912092:0;vi
-: 1585912104:0;g a
 : 1585912112:0;g c -m "hide statusbar"
-: 1585912113:0;g ps
-: 1585912155:0;vi
-: 1585912259:0;g ps
-: 1585912284:0;g lol |grep "theme"
-: 1585912320:0;down
-: 1585912367:0;vi
 : 1585912440:0;g revert 5e26bb5
-: 1585912445:0;vi
-: 1585912463:0;g d
-: 1585912467:0;vi
-: 1585912560:0;g d
-: 1585912563:0;g lol
-: 1585912566:0;g d
-: 1585912570:0;g s
-: 1585912573:0;g reset
-: 1585912575:0;g d
 : 1585912619:0;g g "[Theme] Move back to onedark"
-: 1585912653:0;vi
-: 1585912677:0;jt work
-: 1585912677:0;la
-: 1585912679:0;cd Lyon
-: 1585912680:0;la
-: 1585912682:0;cd html-renderer
-: 1585912682:0;la
-: 1585912684:0;vi
-: 1585912773:0;jt dotfiles
-: 1585912774:0;la
-: 1585912775:0;vi
-: 1585912827:0;g d
 : 1585912840:0;g g "move to config for hiding nerdtree path and statusline"
-: 1585912864:0;vi
-: 1585913010:0;g d
-: 1585913011:0;g st
-: 1585913014:0;vi
-: 1585914258:0;jt personal
-: 1585914259:0;la
-: 1585914261:0;cd kuru-anime
-: 1585914261:0;la
-: 1585914263:0;cd main-website
-: 1585914264:0;la
-: 1585914266:0;cd server
-: 1585914266:0;la
-: 1585914270:0;../client
-: 1585914323:0;vi
-: 1585914340:0;jt dotfiles
-: 1585914340:0;la
-: 1585914341:0;vi
-: 1585914371:0;jt work
-: 1585914371:0;la
-: 1585914373:0;cd Lyon
-: 1585914373:0;la
-: 1585914375:0;cd html-renderer
-: 1585914375:0;la
-: 1585914381:0;../api-server
-: 1585914382:0;la
-: 1585914382:0;vi
-: 1585914473:0;..
-: 1585914474:0;la
 : 1585914477:0;server
 : 1585914478:0;la
 : 1585914492:0;g pl origin master
@@ -11770,3 +10043,239 @@ fi
 : 1593653222:0;g a
 : 1593653235:0;g c -m "update trix-editmode version"
 : 1593653288:0;down
+: 1593653416:0;g lol
+: 1593653422:0;g bnc
+: 1593653426:0;g ps origin staging-url-validation
+: 1593655482:0;rails s -p 3002 -P 23
+: 1593655482:0;rails s
+: 1593655490:0;bundle install && rails c
+: 1593655572:0;rails s
+: 1593655573:0;rails s -p 3002 -P 23
+: 1593655575:0;rails c
+: 1593655616:0;rails s -p 3002 -P 23
+: 1593655617:0;rails s
+: 1593655619:0;rails c
+: 1593655908:0;g d
+: 1593655945:0;g a
+: 1593655968:0;g lol
+: 1593655978:0;g st
+: 1593655980:0;g lol
+: 1593655982:0;g clean -fd
+: 1593655983:0;g lol
+: 1593655993:0;g reset 2a095b2
+: 1593655994:0;g d
+: 1593656007:0;g a
+: 1593656018:0;g s
+: 1593656022:0;g st
+: 1593656024:0;g clean -fd
+: 1593656025:0;g s
+: 1593656029:0;rm -rf 23
+: 1593656032:0;g st
+: 1593656033:0;g s
+: 1593656034:0;g d
+: 1593656039:0;g lol
+: 1593656043:0;g st apply
+: 1593656048:0;g co Gemfile
+: 1593656050:0;g co Gemfile.lock
+: 1593656055:0;g st
+: 1593656058:0;g co staging
+: 1593656061:0;g pl origin staging
+: 1593656078:0;g co -b "staging-slug-validation"
+: 1593656082:0;g st apply
+: 1593656083:0;g a
+: 1593656100:0;g c -m "add beore_save validatioN
+: 1593656102:0;g c -m "add beore_save validatio"
+: 1593656107:0;g bnc
+: 1593656109:0;g ps origin staging-slug-validation
+: 1593656215:0;g co staging
+: 1593656218:0;g st
+: 1593656219:0;g co staging
+: 1593656223:0;g pl origin staging
+: 1593656389:0;vi
+: 1593656587:0;g co -b staging-unique-slug-on-save
+: 1593656589:0;g a
+: 1593656606:0;g c -m "add unique validation for slug"
+: 1593656607:0;g bnc
+: 1593656612:0;g ps origin staging-unique-slug-on-save
+: 1593656745:0;g lol
+: 1593656842:0;g co staging
+: 1593656844:0;g d
+: 1593656846:0;g st
+: 1593656848:0;g pl origin staging
+: 1593656904:0;g co staging
+: 1593656906:0;g pl origin staging
+: 1593656921:0;exit
+: 1593656931:0;jt work
+: 1593656933:0;exit
+: 1593663685:0;jt work
+: 1593663685:0;la
+: 1593664192:0;jt work
+: 1593664192:0;la
+: 1593664196:0;cd lyon
+: 1593664196:0;la
+: 1593664198:0;cd api-server
+: 1593664198:0;la
+: 1593664200:0;vi
+: 1593664205:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
+: 1593664210:0;../html-renderer
+: 1593664211:0;vi
+: 1593664224:0;yarn dev
+: 1593670655:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
+: 1593670664:0;yarn dev
+: 1593671342:0;g co develop
+: 1593671344:0;g d
+: 1593671346:0;g co develop
+: 1593671361:0;rm -rf .git/index.lock
+: 1593671363:0;g co develop
+: 1593671367:0;g pl origin develop
+: 1593671504:0;h pr checkout 136
+: 1593671506:0;gh pr checkout 136
+: 1593671516:0;g bnc
+: 1593671519:0;g pl origin feature-joi-to-up-migrate
+: 1593671541:0;g pl origin develop
+: 1593671547:0;vi
+: 1593671685:0;yarn install
+: 1593671732:0;yarn dev
+: 1593671905:0;g a
+: 1593671914:0;g d
+: 1593671916:0;g s
+: 1593671921:0;git add .
+: 1593671930:0;g c -m "update user payload and controller"
+: 1593671935:0;g bnc
+: 1593671938:0;g ps origin feature-joi-to-up-migrate
+: 1593671974:0;g st apply
+: 1593671976:0;g d
+: 1593671977:0;g s
+: 1593671980:0;g reset
+: 1593671984:0;g co yarn.lock
+: 1593672022:0;yarn install
+: 1593672028:0;yarn dev
+: 1593686328:0;jt dotfiles
+: 1593686330:0;vi
+: 1593686751:0;tldr pbcopy
+: 1593687365:0;jt work
+: 1593687367:0;la
+: 1593687374:0;edit
+: 1593687376:0;editmode
+: 1593687378:0;la
+: 1593687380:0;main-app
+: 1593687383:0;la
+: 1593687397:0;vi
+: 1593687402:0;rails c
+: 1593687407:0;rails s -p 3002 -P 23
+: 1593687409:0;rails s
+: 1593845051:0;jt dotfiles
+: 1593845052:0;la
+: 1593845054:0;vi
+: 1593845512:0;vi ~/Downloads/test.css
+: 1593845550:0;vi
+: 1593845603:0;vi ~/Downloads/test.css
+: 1593845623:0;vi
+: 1593845660:0;vi ~/Downloads/test.css
+: 1593845684:0;vi
+: 1593845902:0;g d
+: 1593845913:0;g a
+: 1593845924:0;g c -m "update the hyper js theme"
+: 1593845926:0;g a
+: 1593845937:0;g c -m "add lua colorizer"
+: 1593846053:0;vi
+: 1593846068:0;g d
+: 1593846070:0;g st
+: 1593846071:0;g lol
+: 1593846084:0;g reset 10537fe
+: 1593846085:0;g d
+: 1593846087:0;g st
+: 1593846090:0;g lol
+: 1593846094:0;g ps origin master
+: 1593846190:0;vi
+: 1593909373:0;jt work
+: 1593909375:0;cd editmode
+: 1593909376:0;la
+: 1593909378:0;cd main-app
+: 1593909378:0;la
+: 1593909394:0;g pl origin staging
+: 1593911448:0;g lol
+: 1593911458:0;g pl origin staging
+: 1593911725:0;jt work
+: 1593911727:0;la
+: 1593911730:0;cd editmode
+: 1593911730:0;la
+: 1593911733:0;cd main-app
+: 1593911733:0;la
+: 1593911760:0;rails s -p 3002 -P 23
+: 1593911763:0;rails s
+: 1593911764:0;rails c
+: 1593911765:0;vi
+: 1593921108:0;jt work
+: 1593921109:0;la
+: 1593921111:0;cd lyon
+: 1593921112:0;la
+: 1593921114:0;cd api-server
+: 1593921115:0;la
+: 1593921120:0;g co develop
+: 1593921123:0;g d
+: 1593921125:0;g s
+: 1593921126:0;g st
+: 1593921132:0;g pl origin develop
+: 1593921159:0;rm -rf node_modules yarn.lock && yarn install && g st apply && yarn dev
+: 1593923217:0;yarn dev
+: 1593923219:0;vi
+: 1593923226:0;../html-renderer
+: 1593923229:0;g co develop
+: 1593923231:0;g d
+: 1593923234:0;g st
+: 1593923236:0;g co develop
+: 1593923238:0;vi
+: 1593923250:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1593927361:0;g co -b feature-self-directed-reward
+: 1593927375:0;src ~/.zshrc
+: 1593927380:0;bos -h
+: 1593927389:0;source ~/.zshrc
+: 1593927397:0;g co -b feature-self-directed-reward
+: 1593936819:0;g d
+: 1593936826:0;g a
+: 1593936912:0;g s
+: 1593936927:0;g c -m "accept selfDirected on cpdunitreward"
+: 1593936929:0;g bnc
+: 1593936932:0;g ps origin feature-self-directed-reward
+: 1593937060:0;g d
+: 1593937206:0;yarn dev
+: 1593937266:0;g d
+: 1593937267:0;g s
+: 1593937273:0;g co src/models/payloads
+: 1593937274:0;g d
+: 1593937280:0;yarn dev
+: 1593937442:0;g d
+: 1593937448:0;g a
+: 1593937462:0;g c -m "add selfdirected to payloads"
+: 1593937507:0;g bnc
+: 1593937510:0;g ps origin feature-self-directed-reward
+: 1593992954:0;jt work
+: 1593992954:0;la
+: 1593992959:0;cd editmode
+: 1593992965:0;la
+: 1593992966:0;cd main-app
+: 1593992968:0;vi
+: 1593997626:0;rails s
+: 1593997627:0;rails s -p 3002 -P 23
+: 1593997627:0;rails c
+: 1594002710:0;jt work
+: 1594002710:0;la
+: 1594002713:0;cd lyon
+: 1594002713:0;la
+: 1594002717:0;cd api-server
+: 1594002721:0;g d
+: 1594002726:0;vi
+: 1594002730:0;yarn dev
+: 1594002737:0;../html-renderer
+: 1594002739:0;vi
+: 1594002746:0;yarn dev
+: 1594014485:0;g bnc
+: 1594014501:0;g b
+: 1594014863:0;vi
+: 1594015003:0;g a
+: 1594015048:0;g c -m "rename selfDirected to isSelfDirected"
+: 1594015050:0;g bnc
+: 1594015053:0;g ps origin feature-self-directed-reward
+: 1594015185:0;yarn dev
+: 1594016223:0;down
