@@ -7,22 +7,17 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +19 src/models/entities/CpdUnitsReward.ts
-badd +1 src/models/entities/RankingReward.ts
-badd +1 src/models/entities/OtherRewardType.ts
-badd +1 src/models/entities/OtherReward.ts
-badd +40 src/models/entities/RewardCertificate.ts
-badd +33 src/models/entities/CertificateSignatory.ts
-badd +65 src/models/entities/User.ts
-badd +35 src/routes/provider.ts
-badd +329 src/controllers/event.ts
-badd +7 build/src/models/payloads/event.d.ts
-badd +13 src/models/payloads/event.ts
-badd +139 src/models/payloads/reward.ts
-badd +17 build/src/models/payloads/reward.d.ts
+badd +21 src/models/entities/CpdUnitsReward.ts
+badd +120 src/models/entities/Event.ts
+badd +461 src/controllers/event.ts
+badd +86 src/models/entities/EventParticipant.ts
+badd +85 src/routes/certificate.ts
+badd +81 src/models/entities/RewardCertificate.ts
+badd +147 src/models/payloads/certificate.ts
+badd +71 src/controllers/user/createUserController.ts
 argglobal
 %argdel
-edit src/models/entities/CpdUnitsReward.ts
+edit src/models/entities/EventParticipant.ts
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -41,12 +36,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 18) / 36)
+let s:l = 86 - ((15 * winheight(0) + 19) / 38)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
-normal! 0
+86
+normal! 069|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

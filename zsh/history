@@ -10279,3 +10279,260 @@ fi
 : 1594015053:0;g ps origin feature-self-directed-reward
 : 1594015185:0;yarn dev
 : 1594016223:0;down
+: 1594017478:0;g co develop
+: 1594017480:0;g d
+: 1594017483:0;g st
+: 1594017489:0;g co develop
+: 1594017493:0;g st apply
+: 1594017495:0;g s
+: 1594017498:0;g d
+: 1594017825:0;vi
+: 1594017841:0;g d
+: 1594017843:0;g s
+: 1594017845:0;g reset
+: 1594017848:0;g co yarn.lock
+: 1594017850:0;g d
+: 1594017856:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594020745:0;g d
+: 1594020748:0;g s
+: 1594020756:0;g co -b feature-automatic-rewards
+: 1594020779:0;g co develop
+: 1594020781:0;g d
+: 1594020782:0;g s
+: 1594020785:0;g st
+: 1594020787:0;g pl origin develop
+: 1594020913:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594021147:0;g co -b feature-self-directed-reward
+: 1594021151:0;g d
+: 1594021152:0;g s
+: 1594021156:0;g co -b feature-self-directed-reward
+: 1594021164:0;g co -b feature-automatic-rewards
+: 1594021444:0;g co feature-self-directed-reward
+: 1594021449:0;g st
+: 1594021451:0;g co feature-self-directed-reward
+: 1594021452:0;g lol
+: 1594021539:0;git stash show -p stash@{0}
+: 1594021544:0;git stash show -p stash@{1}
+: 1594021640:0;git stash apply stash@{1}
+: 1594021642:0;g d
+: 1594021649:0;g a
+: 1594021662:0;g c -m "initial"
+: 1594021668:0;g bnc
+: 1594021673:0;g ps origin feature-self-directed-reward
+: 1594021747:0;g co feature-automatic-rewards
+: 1594021752:0;g st
+: 1594021756:0;g co feature-automatic-rewards
+: 1594021777:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594026917:0;g co feature-self-directed-reward
+: 1594026918:0;g d
+: 1594026922:0;g co yarn.lock
+: 1594026924:0;g st
+: 1594026927:0;g co feature-self-directed-reward
+: 1594026930:0;g st apply
+: 1594026933:0;g d
+: 1594026967:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594027018:0;g d
+: 1594027020:0;g s
+: 1594027023:0;g co yarn.lock
+: 1594027026:0;g co feature-self-directed-reward
+: 1594027032:0;g bnc
+: 1594027039:0;g pl origin feature-self-directed-reward
+: 1594027050:0;g lol
+: 1594027056:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594027664:0;yarn dev
+: 1594027807:0;g bnc
+: 1594027812:0;g pl origin feature-self-directed-reward
+: 1594027827:0;g bnc
+: 1594027844:0;g d
+: 1594027849:0;g st
+: 1594027853:0;g d
+: 1594027857:0;g s
+: 1594027858:0;g reset
+: 1594027861:0;g co yarn.lock
+: 1594027862:0;g d
+: 1594027869:0;g st
+: 1594027879:0;g pl origin feature-self-directed-reward
+: 1594027919:0;g st apply
+: 1594027925:0;g lol
+: 1594027931:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594027948:0;g bnc
+: 1594027953:0;g pl origin feature-self-directed-reward
+: 1594027961:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594030686:0;g a
+: 1594030749:0;g c -m "make 0 the smallest amount the cpd creation can take and add isSelfDirected on the creation of cpd"
+: 1594030751:0;g bnc
+: 1594030755:0;g ps origin feature-self-directed-reward
+: 1594030903:0;jt work
+: 1594030905:0;edit
+: 1594030907:0;editmode
+: 1594030907:0;la
+: 1594030912:0;main-app
+: 1594030914:0;la
+: 1594082175:0;jt work
+: 1594082176:0;la
+: 1594082178:0;cd editmode
+: 1594088667:0;..
+: 1594088668:0;la
+: 1594088670:0;cd lyon
+: 1594088670:0;la
+: 1594088679:0;cd api-server
+: 1594088680:0;la
+: 1594088685:0;g d
+: 1594088690:0;vi
+: 1594088694:0;yarn dev
+: 1594088700:0;../html-renderer
+: 1594088710:0;vi
+: 1594088714:0;yarn dev
+: 1594089730:0;g d
+: 1594089732:0;g a
+: 1594089744:0;g c -m "add disable option for self directed checkbox"
+: 1594089789:0;g bnc
+: 1594089792:0;g ps origin feature-self-directed-reward
+: 1594089962:0;g co develop
+: 1594089964:0;g d
+: 1594089971:0;g co yarn.lock
+: 1594089972:0;g d
+: 1594089978:0;g co src/controllers
+: 1594089979:0;g s
+: 1594089980:0;g d
+: 1594089981:0;g st
+: 1594089983:0;g co develop
+: 1594089988:0;g pl origin develop
+: 1594090015:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594090028:0;g d
+: 1594090029:0;g s
+: 1594090031:0;g st
+: 1594090036:0;g co feature-profile-edit
+: 1594090043:0;g bnc
+: 1594090046:0;g pl origin feature-profile-edit
+: 1594090059:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594090167:0;g st apply
+: 1594090190:0;vi
+: 1594090192:0;g d
+: 1594090194:0;g reset
+: 1594090196:0;g d
+: 1594090214:0;g s
+: 1594090232:0;g d
+: 1594090236:0;yarn dev
+: 1594091179:0;gtop
+: 1594092047:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1594093864:0;g d
+: 1594094906:0;g st
+: 1594094911:0;g st apply
+: 1594094913:0;g d
+: 1594094916:0;g co components
+: 1594095831:0;g d
+: 1594095836:0;g co feature-automatic-rewards
+: 1594095842:0;yarn dev
+: 1594095852:0;g co feature-automatic-rewards
+: 1594095855:0;g d
+: 1594095857:0;g s
+: 1594095860:0;yarn dev
+: 1594095863:0;vi
+: 1594096931:0;g a
+: 1594096954:0;g c -m "move eventParticipant to own folder"
+: 1594098395:0;yarn dev
+: 1594098418:0;g a
+: 1594098450:0;g d
+: 1594098451:0;g s
+: 1594098461:0;g a
+: 1594098480:0;g c -m "move readEventParticipantByApprovedUserController to its the proper folder"
+: 1594098481:0;g bnc
+: 1594098483:0;g ps origin feature-automatic-rewards
+: 1594099483:0;g s
+: 1594099485:0;g a
+: 1594099509:0;g c -m "move createEventParticipantController to its own file"
+: 1594099510:0;g bnc
+: 1594099513:0;g ps origin feature-automatic-rewards
+: 1594100259:0;g a
+: 1594100278:0;g c -m "move readEventParticipantCustomersController to its own file"
+: 1594100280:0;g bnc
+: 1594100283:0;g ps origin feature-automatic-rewards
+: 1594100951:0;g a
+: 1594100967:0;g c -m "move readEventParticipantForEventController to its own file"
+: 1594100968:0;g bnc
+: 1594100972:0;g ps origin feature-automatic-rewards
+: 1594102123:0;g a
+: 1594102149:0;g c -m "move $updateEventParticipantApprovalStatus to its own file"
+: 1594102151:0;g bnc
+: 1594102153:0;g ps origin feature-automatic-rewards
+: 1594103259:0;g a
+: 1594103352:0;g bnc
+: 1594103355:0;g ps origin feature-automatic-rewards
+: 1594103487:0;g co -b feature-event-participant-controller-split
+: 1594103491:0;g bnc
+: 1594103493:0;g ps origin feature-event-participant-controller-split
+: 1594111862:0;jt work
+: 1594111862:0;la
+: 1594111864:0;cd editmode
+: 1594111865:0;la
+: 1594111867:0;cd main-app
+: 1594111870:0;la
+: 1594111874:0;g pl origin staging
+: 1594111907:0;g co -b staging-test-pr
+: 1594111917:0;touch test-file.txt
+: 1594111918:0;g a
+: 1594111919:0;g s
+: 1594111921:0;git add .
+: 1594111928:0;git c -m "add test-file"
+: 1594111934:0;rm -rf test-file.txt
+: 1594111937:0;git add .
+: 1594111942:0;g c -m "remove test-file"
+: 1594111944:0;g bnc
+: 1594111991:0;g ps origin staging-test-pr
+: 1594179336:0;jt work
+: 1594179337:0;la
+: 1594180391:0;cd lyon
+: 1594180396:0;cd api-server
+: 1594180401:0;yarn dev
+: 1594180403:0;vi
+: 1594180408:0;../html-renderer
+: 1594180411:0;vi
+: 1594180440:0;g co feature-automatic-rewards
+: 1594180443:0;g d
+: 1594180444:0;g s
+: 1594180456:0;g reset
+: 1594180458:0;g bnc
+: 1594180470:0;g d
+: 1594180474:0;g lol
+: 1594180519:0;g s
+: 1594180529:0;g d
+: 1594180599:0;g bnc
+: 1594180601:0;g lol
+: 1594180602:0;g s
+: 1594180605:0;g b
+: 1594180613:0;g co feature-event-participant-controller-split
+: 1594180615:0;g d
+: 1594180617:0;g lol
+: 1594180620:0;g a
+: 1594180640:0;g c -m "last commit"
+: 1594180641:0;g bnc
+: 1594180644:0;g ps origin feature-event-participant-controller-split
+: 1594180996:0;g d
+: 1594181000:0;g st
+: 1594181007:0;g co feature-automatic-rewards
+: 1594181011:0;g pl origin feature-event-participant-controller-split
+: 1594181018:0;g st apply
+: 1594181049:0;yarn dev
+: 1594186690:0;vi
+: 1594200041:0;yarn dev
+: 1594203110:0;g b
+: 1594203126:0;g pl origin feature-self-directed-reward
+: 1594203135:0;g d
+: 1594203144:0;g a
+: 1594203162:0;g c -m "initial commit for safety"
+: 1594203163:0;g st
+: 1594203174:0;g pl origin feature-self-directed-reward
+: 1594203185:0;g st apply
+: 1594203232:0;g d
+: 1594203383:0;g a
+: 1594203407:0;g d
+: 1594203409:0;g s
+: 1594203411:0;g reset
+: 1594203413:0;g d
+: 1594203441:0;g a
+: 1594203457:0;g d
+: 1594203458:0;g s
+: 1594203482:0;g d
+: 1594203789:0;yarn dev
+: 1594212849:0;down
