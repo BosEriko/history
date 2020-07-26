@@ -10656,3 +10656,488 @@ fi
 : 1595383495:0;g a
 : 1595383508:0;g c -m "add haul-bundler"
 : 1595383528:0;down
+: 1595383568:0;g remote add origin git@github.com:BosEriko/editmode-rn-test.git
+: 1595383571:0;g ps origin master
+: 1595383613:0;yarn haul init
+: 1595383661:0;g a
+: 1595383674:0;g c -m 'initialize haul'
+: 1595383681:0;yarn haul start
+: 1595383730:0;la
+: 1595383733:0;whereami
+: 1595383734:0;whoami
+: 1595383753:0;la
+: 1595383779:0;yarn install --force
+: 1595383800:0;expo start
+: 1595383896:0;yarn install --force
+: 1595384042:0;yarn add editmode-react
+: 1595384326:0;yarn --force
+: 1595384358:0;yarn start
+: 1595384410:0;yarn haul start
+: 1595384757:0;yarn run android
+: 1595384761:0;/Users/boserikoreyes/Documents/Codes/Work/editmode/reactnative/node_modules/react-native/scripts/launchPackager.command
+: 1595387849:0;jt work
+: 1595387850:0;la
+: 1595387852:0;cd lyon
+: 1595387852:0;la
+: 1595387856:0;cd html-renderer
+: 1595387856:0;la
+: 1595387859:0;vi
+: 1595392659:0;jt work
+: 1595394671:0;cd editmode
+: 1595394672:0;vi
+: 1595394675:0;la
+: 1595394677:0;cd main-app
+: 1595394677:0;la
+: 1595394678:0;..
+: 1595394679:0;la
+: 1595394682:0;cd react-plugin
+: 1595394682:0;la
+: 1595394685:0;vi
+: 1595394744:0;g d
+: 1595394745:0;g s
+: 1595394748:0;g clean -fd
+: 1595398688:0;jt work
+: 1595398689:0;la
+: 1595398749:0;cd lyon
+: 1595398749:0;la
+: 1595398753:0;cd api-server
+: 1595398756:0;g co develop
+: 1595398759:0;g d
+: 1595398763:0;g s
+: 1595398771:0;g clean -fd
+: 1595398775:0;g co src
+: 1595398776:0;g st
+: 1595398779:0;g pl origin develop
+: 1595398851:0;g st apply
+: 1595398871:0;yarn dev
+: 1595400826:0;../html-renderer
+: 1595400829:0;g co develop
+: 1595400830:0;g d
+: 1595400832:0;g s
+: 1595400833:0;g d
+: 1595400853:0;g co scoped-models
+: 1595400856:0;vi
+: 1595400887:0;gh pr checkout 351
+: 1595400900:0;g pl origin develop
+: 1595400920:0;vi
+: 1595400921:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1595401300:0;vi
+: 1595401990:0;jt work
+: 1595401997:0;la
+: 1595402005:0;cd lyon
+: 1595402005:0;la
+: 1595402008:0;cd api-server
+: 1595402010:0;vi
+: 1595402014:0;yarn
+: 1595402020:0;yarn dev
+: 1595402042:0;../html-renderer
+: 1595402048:0;vi
+: 1595402057:0;yarn dev
+: 1595403013:0;g a
+: 1595403029:0;g c -m "work on pr comments"
+: 1595403030:0;g bnc
+: 1595403034:0;g ps origin feature-self-directed-reward
+: 1595403697:0;gh pr checkout 342
+: 1595403706:0;g s
+: 1595403708:0;g st
+: 1595403709:0;gh pr checkout 342
+: 1595403745:0;g st apply
+: 1595403754:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1595404582:0;g d
+: 1595404585:0;g s
+: 1595405016:0;g pl origin develop
+: 1595405021:0;g st
+: 1595405026:0;g a
+: 1595405038:0;g c -m "merge"
+: 1595405039:0;g a
+: 1595405048:0;g c -m "work on pr comments"
+: 1595405054:0;g pl origin develop
+: 1595405523:0;yarn build
+: 1595405799:0;g s
+: 1595405804:0;g a
+: 1595405812:0;g c -m "merge"
+: 1595405833:0;yarn build
+: 1595407772:0;g a
+: 1595407778:0;g c -m "remove optional payloads"
+: 1595407860:0;g bnc
+: 1595407863:0;g ps origin feature-profile-edit
+: 1595408928:0;g a
+: 1595408957:0;g c -m "use mutate instead of refresh"
+: 1595408961:0;g bnc
+: 1595408964:0;g ps origin feature-profile-edit
+: 1595409054:0;g a
+: 1595409067:0;g c -m "add submit type on the submit of edit profile"
+: 1595409069:0;g bnc
+: 1595409071:0;g ps origin feature-profile-edit
+: 1595410585:0;g d
+: 1595415632:0;jt work
+: 1595415632:0;la
+: 1595415637:0;cd editmode
+: 1595415638:0;la
+: 1595415645:0;cd reactnative
+: 1595415648:0;expo start
+: 1595415653:0;vi
+: 1595415660:0;../editmode-react
+: 1595415663:0;la
+: 1595415664:0;..
+: 1595415664:0;la
+: 1595415669:0;react-plugin
+: 1595415918:0;vi
+: 1595464726:0;jt work
+: 1595464731:0;la
+: 1595464732:0;cd editmode
+: 1595464733:0;la
+: 1595466193:0;cd reactnative
+: 1595466229:0;../react-plugin
+: 1595470763:0;jt work
+: 1595470764:0;la
+: 1595470765:0;cd lyon
+: 1595470766:0;la
+: 1595470769:0;cd api-server
+: 1595470779:0;cd ../html-renderer
+: 1595470790:0;yarn dev
+: 1595470792:0;vi
+: 1595470795:0;yarn dev
+: 1595470796:0;vi
+: 1595475064:0;jt work
+: 1595475065:0;la
+: 1595475066:0;cd lyon
+: 1595475066:0;la
+: 1595475888:0;..
+: 1595475889:0;la
+: 1595475890:0;editmode
+: 1595475891:0;la
+: 1595475895:0;reactnative
+: 1595475896:0;la
+: 1595476944:0;expo start
+: 1595476952:0;vi
+: 1595476958:0;../react-plugin
+: 1595476964:0;git reset --hard origin/master
+: 1595477189:0;yarn global add verdaccio
+: 1595477283:0;verdaccio
+: 1595477316:0;npm adduser --registry http://localhost:4873
+: 1595477532:0;npm publish --registry http://localhost:4873
+: 1595477551:0;vi
+: 1595477564:0;npm publish --registry http://localhost:4873
+: 1595477627:0;rm -rf node_modules yarn.lock && yarn install
+: 1595477750:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595477781:0;expo start
+: 1595477969:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595478051:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react@3.1.3
+: 1595478062:0;npm publish --registry http://localhost:4873
+: 1595478071:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595478089:0;expo start
+: 1595478164:0;git reset --hard origin/master
+: 1595478182:0;npm publish --registry http://localhost:4873
+: 1595478190:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595478207:0;expo start
+: 1595478299:0;yarn install --force
+: 1595478335:0;yarn add editmode-react
+: 1595478701:0;expo start
+: 1595478802:0;rm -rf node_modules yarn.lock && yarn install
+: 1595479004:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react@3.1.4
+: 1595479031:0;expo start
+: 1595479444:0;git reset --hard origin/master
+: 1595479453:0;g remote add personal git@github.com:BosEriko/editmode-react.git
+: 1595479463:0;g co -b fork
+: 1595479486:0;g a
+: 1595479504:0;g c -m "bump the version"
+: 1595479506:0;g bnc
+: 1595479514:0;g ps personal fork
+: 1595479527:0;g remote -v
+: 1595479542:0;git remote add main git@github.com:Editmode-app/editmode-react.git
+: 1595479553:0;git remote add origin git@github.com:BosEriko/editmode-react.git
+: 1595479556:0;g so
+: 1595479565:0;git remote add origin git@github.com:BosEriko/editmode-react.git
+: 1595479574:0;git remote add upstream git@github.com:Editmode-app/editmode-react.git
+: 1595479576:0;g remote -v
+: 1595479582:0;g so
+: 1595479600:0;git remote remove main
+: 1595479603:0;g remote remove personal
+: 1595479606:0;g remote -v
+: 1595479613:0;git remote add origin git@github.com:BosEriko/editmode-react.git
+: 1595479617:0;git remote -v
+: 1595479686:0;g a
+: 1595479694:0;g c -m "change package name"
+: 1595479697:0;g bnc
+: 1595479699:0;g ps origin fork
+: 1595479725:0;npm adduser --registry
+: 1595479745:0;npm adduser
+: 1595479779:0;npm publish
+: 1595479982:0;yarn add editmode-react-staging
+: 1595480022:0;g a
+: 1595480032:0;g c -m "use my own editmode-react for now"
+: 1595480037:0;rm -rf node_modules yarn.lock && yarn install
+: 1595480045:0;rm -rf node_modules yarn.lock && yarn install && expo start
+: 1595480645:0;yarn build
+: 1595480649:0;yarn run build
+: 1595480663:0;yarn install
+: 1595480695:0;yarn build
+: 1595480742:0;verdaccio
+: 1595480768:0;npm publish --registry http://localhost:4873
+: 1595480846:0;rm -rf node_modules yarn.lock && yarn install && expo start
+: 1595480915:0;g a
+: 1595480923:0;g c -m "move back to default name"
+: 1595480925:0;g bnc
+: 1595480927:0;g ps origin fork
+: 1595480977:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595481162:0;g a
+: 1595481214:0;g c -m "add react native platform message"
+: 1595481216:0;g bnc
+: 1595481217:0;g ps origin fork
+: 1595481272:0;g a
+: 1595481276:0;g c -m "bump the version"
+: 1595481278:0;yarn build && npm publish --registry http://localhost:4873
+: 1595481296:0;yarn add react-native
+: 1595481400:0;g a
+: 1595481413:0;g c -m "add react native to the dependencies"
+: 1595481415:0;g ps origin fork
+: 1595481429:0;yarn build && npm publish --registry http://localhost:4873
+: 1595481450:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595481829:0;g a
+: 1595481843:0;g c -m "move the platform data to renderChunk"
+: 1595481852:0;g c -m "bump the version"
+: 1595481854:0;g a
+: 1595481856:0;g c -m "bump the version"
+: 1595481873:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595481894:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595482400:0;g a
+: 1595482409:0;g c -m "move the react native platform data"
+: 1595482422:0;g a
+: 1595482426:0;g c -m "bump the version"
+: 1595482431:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595482456:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595482656:0;g a
+: 1595482683:0;g c -m "update code"
+: 1595482685:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595482705:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595482725:0;expo start
+: 1595482804:0;g a
+: 1595482825:0;g c -m "update platform call method"
+: 1595482828:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595482843:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595483184:0;g a
+: 1595483210:0;g c -m "move checking of platform on the main file"
+: 1595483212:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595483231:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595483298:0;g a
+: 1595483309:0;g c -m "declare branch outside of the scope"
+: 1595483311:0;g bnc
+: 1595483314:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595483339:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595483694:0;g a
+: 1595483716:0;g c -m "only use sanitize on the web for now"
+: 1595483718:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595483747:0;g a
+: 1595483755:0;g c -m "fix error on sanitize variable"
+: 1595483757:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595483775:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595484096:0;jt work
+: 1595494562:0;cd lyon
+: 1595494562:0;la
+: 1595494565:0;cd api-server
+: 1595494566:0;la
+: 1595494575:0;../html-renderer
+: 1595496584:0;vi
+: 1595496586:0;yarn dev
+: 1595496587:0;vi
+: 1595496589:0;yarn dev
+: 1595496980:0;g pl origin develop
+: 1595496997:0;g co -b hotfix-edit-profile-email-validation
+: 1595497281:0;g s
+: 1595497284:0;g co src
+: 1595497608:0;vi
+: 1595500489:0;../
+: 1595500490:0;la
+: 1595500491:0;..
+: 1595500491:0;la
+: 1595500495:0;cd editmode
+: 1595500495:0;la
+: 1595500497:0;cd reactnative
+: 1595500507:0;../react-plugin
+: 1595500510:0;vi
+: 1595500514:0;verdaccio
+: 1595502196:0;la
+: 1595502209:0;jt dotfiles
+: 1595502210:0;la
+: 1595502212:0;vi
+: 1595511725:0;ranger
+: 1595552816:0;jt work
+: 1595552817:0;la
+: 1595552823:0;cd editmode
+: 1595552823:0;la
+: 1595552841:0;cd reactnative
+: 1595552848:0;la
+: 1595552857:0;vi
+: 1595552859:0;expo start
+: 1595552866:0;../react-plugin
+: 1595552872:0;verdaccio
+: 1595553069:0;vi
+: 1595553322:0;g a
+: 1595553332:0;g c -m "use text component for react native"
+: 1595553346:0;g a
+: 1595553351:0;g c -m "bump the version"
+: 1595553355:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595553372:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595553486:0;expo start
+: 1595553603:0;g a
+: 1595554514:0;yarn add react-native
+: 1595554646:0;g a
+: 1595554702:0;g c -m "add 2 more chunks for image and long text and update versions"
+: 1595554717:0;expo start
+: 1595555782:0;g a
+: 1595555790:0;g c -m "add image"
+: 1595555791:0;g bnc
+: 1595555794:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595555803:0;g a
+: 1595555806:0;g c -m "bump the version"
+: 1595555809:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595555821:0;expo start
+: 1595555931:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595555950:0;expo start
+: 1595555978:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595555988:0;expo start
+: 1595556107:0;g a
+: 1595556116:0;g c -m "use source instead of src on image chunk"
+: 1595556119:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595556147:0;g a
+: 1595556152:0;g c -m "bump\
+"
+: 1595556156:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595556172:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595556183:0;expo start
+: 1595556295:0;g a
+: 1595556299:0;g c -m "update source of image"
+: 1595556309:0;g a
+: 1595556315:0;g c -m "bump version"
+: 1595556323:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595556339:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595556385:0;expo start
+: 1595556641:0;jt work
+: 1595573798:0;la
+: 1595573800:0;cd lyon
+: 1595573801:0;la
+: 1595573803:0;cd api-server
+: 1595573809:0;g co develop
+: 1595573812:0;g pl origin develop
+: 1595573831:0;g co feature-search
+: 1595573836:0;g pl origin develop
+: 1595573905:0;g d
+: 1595573945:0;vi
+: 1595573969:0;g a
+: 1595573987:0;g s
+: 1595573993:0;g lol
+: 1595573997:0;g reset
+: 1595574000:0;g st
+: 1595574105:0;g d
+: 1595574107:0;g lol
+: 1595574108:0;g s
+: 1595574110:0;g clean -fd
+: 1595574124:0;rm -rf node_modules yarn.lock && yarn install
+: 1595574141:0;../html-renderer
+: 1595574150:0;g co develop
+: 1595574151:0;g s
+: 1595574153:0;g d
+: 1595574157:0;g st
+: 1595574160:0;g co develop
+: 1595574163:0;g pl origin develop
+: 1595574171:0;vi
+: 1595574183:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1595574250:0;yarn dev
+: 1595586053:0;jt work
+: 1595586055:0;la
+: 1595586057:0;cd editmode
+: 1595586058:0;la
+: 1595586064:0;cd react-plugin
+: 1595586064:0;la
+: 1595586066:0;vi
+: 1595586382:0;g d
+: 1595586399:0;g diff master..fork
+: 1595586950:0;g a
+: 1595586966:0;g c -m "bump version backwards and remove data-chunk on react native"
+: 1595586971:0;g bnc
+: 1595586976:0;g ps upstream fork
+: 1595641806:0;jt work
+: 1595641807:0;la
+: 1595641811:0;cd editmode
+: 1595641812:0;la
+: 1595641814:0;cd reactnative
+: 1595641837:0;../react-plugin
+: 1595651302:0;vi
+: 1595651303:0;expo start
+: 1595651305:0;vi
+: 1595651306:0;verdaccio
+: 1595661503:0;g a
+: 1595661507:0;g c -m "remove props for now"
+: 1595661525:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595661557:0;g a
+: 1595661561:0;g c -m "bump the version"
+: 1595661564:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595661608:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595661836:0;g a
+: 1595661842:0;g c -m "update image end remove alt"
+: 1595661853:0;g a
+: 1595661856:0;g c -m "bump the version"
+: 1595661859:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662029:0;g a
+: 1595662038:0;g c -m "add style"
+: 1595662040:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662072:0;g a
+: 1595662076:0;g c- m "bump"
+: 1595662078:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662099:0;g a
+: 1595662102:0;g c- m "bump"
+: 1595662108:0;g c -m "bump"
+: 1595662112:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662127:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595662178:0;g a
+: 1595662182:0;g c -m "update border width"
+: 1595662188:0;g a
+: 1595662191:0;g c- m "bump"
+: 1595662195:0;g c -m "bump"
+: 1595662199:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662229:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595662335:0;g a
+: 1595662341:0;g c -m "remove unwanted keys"
+: 1595662343:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662359:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
+: 1595662533:0;g a
+: 1595662547:0;g c -m "add static on image"
+: 1595662550:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662567:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1595662848:0;g a
+: 1595662857:0;g c -m "update"
+: 1595662859:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595662880:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1595663479:0;g a
+: 1595663483:0;g c -m "add https to file"
+: 1595663485:0;g bnc
+: 1595663490:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595663510:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1595663637:0;g a
+: 1595663651:0;g c -m "remove text from image"
+: 1595663652:0;g bnc
+: 1595663654:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595663670:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1595682464:0;jt dotfiles
+: 1595682465:0;vi
+: 1595682478:0;g a
+: 1595682484:0;g reset
+: 1595682484:0;la
+: 1595682485:0;g s
+: 1595682504:0;g co config/Library/Application Support/VSCodium/
+: 1595682506:0;g s
+: 1595682509:0;g clean -fd
+: 1595682511:0;g s
+: 1595682512:0;g st
+: 1595682519:0;g a
+: 1595682523:0;g c -m "fix typo on twitch"
+: 1595682527:0;g ps origin master
+: 1595723228:0;Y
+: 1595723234:0;source ~/.zshrc
+: 1595723287:0;jt work
+: 1595723288:0;la
+: 1595723291:0;cd editmode
+: 1595723297:0;la
+: 1595723306:0;cd react-plugin
+: 1595723339:0;down
