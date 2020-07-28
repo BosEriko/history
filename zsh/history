@@ -11141,3 +11141,289 @@ fi
 : 1595723297:0;la
 : 1595723306:0;cd react-plugin
 : 1595723339:0;down
+: 1595723464:0;vi
+: 1595723477:0;g a
+: 1595723482:0;g c -m "bump the version down"
+: 1595723488:0;g ps upstream fork
+: 1595723533:0;g a
+: 1595723537:0;g c -m "remove image"
+: 1595723541:0;g ps upstream fork
+: 1595723576:0;g a
+: 1595723590:0;g c -m "update ternary operator to multiple lines"
+: 1595723591:0;g bnc
+: 1595723596:0;g ps upstream fork
+: 1595723925:0;..
+: 1595723925:0;la
+: 1595723930:0;cd main-app
+: 1595723930:0;la
+: 1595723934:0;g co staging
+: 1595723937:0;g pl origin staging
+: 1595723956:0;g d
+: 1595723958:0;g st
+: 1595723961:0;vi
+: 1595723971:0;rails s
+: 1595723971:0;rails s -p 3002 -P 23
+: 1595723982:0;bundle install && rails c
+: 1595724002:0;rails db:migrate
+: 1595724016:0;rake db:migrate
+: 1595724029:0;rails s -p 3002 -P 23
+: 1595724030:0;rails s
+: 1595724031:0;rails c
+: 1595724684:0;g a
+: 1595724697:0;g c -m "update procfile for staging"
+: 1595724702:0;g ps origin staging
+: 1595725110:0;g a
+: 1595725142:0;g c -m "rename procfile_staging to procfile"
+: 1595725143:0;g bnc
+: 1595725145:0;g ps origin staging
+: 1595725321:0;g a
+: 1595725331:0;g c -m "add rails env to the migrate file"
+: 1595725333:0;g bnc
+: 1595725337:0;g ps origin staging
+: 1595725481:0;g a
+: 1595725493:0;g c -m "Hotfix: Remove db:migrate on staging"
+: 1595725495:0;g ps origin staging
+: 1595725625:0;g a
+: 1595725634:0;g c -m "revert procfile to have the migrate option again"
+: 1595725639:0;g ps origin staging
+: 1595725907:0;g a
+: 1595725916:0;g c -m "move Procfile to Procfile_staging for now"
+: 1595725921:0;g ps origin staging
+: 1595726383:0;jt work
+: 1595727693:0;la
+: 1595727860:0;jt work
+: 1595728352:0;jt dotfiles
+: 1595728353:0;la
+: 1595728354:0;vi
+: 1595728374:0;g a
+: 1595728383:0;g c -m "add streamlabs to the list of apps that I use"
+: 1595728384:0;g bnc
+: 1595728387:0;g ps origin master
+: 1595739839:0;jt work
+: 1595739839:0;la
+: 1595739842:0;cd lyon
+: 1595739843:0;la
+: 1595739845:0;cd api-server
+: 1595739856:0;g s
+: 1595739867:0;g pl origin develop
+: 1595739875:0;vi
+: 1595739899:0;g a
+: 1595739904:0;g s
+: 1595739910:0;g c -m "Merge"
+: 1595739916:0;yarn dev
+: 1595739921:0;../html-renderer
+: 1595739932:0;vi
+: 1595739941:0;yarn dev
+: 1595744734:0;g co src/controllers/event.ts -- develop
+: 1595744746:0;g co develop -- src/controllers/event.ts
+: 1595747173:0;g a
+: 1595747199:0;g c -m "finish search api endpoint"
+: 1595747200:0;g bnc
+: 1595747202:0;g ps origin feature-search
+: 1595747215:0;g lol
+: 1595747226:0;g s
+: 1595747232:0;g co -b feature-search-backup
+: 1595747237:0;g co feature-search
+: 1595747241:0;g lol
+: 1595747507:0;g ps origin feature-search --force
+: 1595749709:0;jt personal
+: 1595749709:0;la
+: 1595749714:0;cd twitch-bot
+: 1595749714:0;la
+: 1595749805:0;git remote -v
+: 1595749905:0;vi
+: 1595749963:0;g a
+: 1595749977:0;g c -m "add a .env and a .gitignore"
+: 1595749979:0;g ps origin master
+: 1595750243:0;yarn init -y
+: 1595750256:0;g a
+: 1595750260:0;g lol
+: 1595750262:0;g s
+: 1595750272:0;la
+: 1595750275:0;g lol
+: 1595750286:0;g d
+: 1595750296:0;yarn add tmi.js
+: 1595750313:0;g a
+: 1595750325:0;g c -m "ignore package-lock.json because we're going to use yarn"
+: 1595750326:0;g a
+: 1595750357:0;g c -m "add tmi.js"
+: 1595750360:0;g ps origin master
+: 1595750426:0;g a
+: 1595750434:0;g c -m "add an entry file"
+: 1595750455:0;g a
+: 1595750466:0;g c -m "update main on package.json"
+: 1595750468:0;g ps origin master
+: 1595750526:0;yarn add dotenv
+: 1595750545:0;g a
+: 1595750555:0;g c -m "install dotenv for environment variables"
+: 1595750558:0;g ps origin master
+: 1595750611:0;g a
+: 1595750617:0;g c -m "add a start script"
+: 1595750621:0;g ps origin master
+: 1595750662:0;g a
+: 1595750672:0;g c -m "use .env"
+: 1595750676:0;g ps origin master
+: 1595808247:0;jt work
+: 1595808293:0;la
+: 1595808296:0;cd editmode
+: 1595808297:0;la
+: 1595808310:0;cd reactnative
+: 1595808321:0;../react-plugin
+: 1595808330:0;vi
+: 1595808331:0;expo start
+: 1595808332:0;vi
+: 1595808333:0;verdaccio
+: 1595808507:0;g co master -- src/utils/renderChunk.jsx
+: 1595808638:0;g a
+: 1595808648:0;g c -m "use native file"
+: 1595808655:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
+: 1595808671:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1595809219:0;..
+: 1595809220:0;la
+: 1595809308:0;cd main-app
+: 1595809309:0;la
+: 1595809311:0;g d
+: 1595809312:0;g s
+: 1595809318:0;rake db:migrate:reset db:seeds RAILS_ENV=test
+: 1595809348:0;vi
+: 1595809361:0;rails s -p 3002 -P 23
+: 1595809361:0;rails s
+: 1595809363:0;rails c
+: 1595809558:0;rake db:migrate:reset db:seeds RAILS_ENV=test
+: 1595810786:0;rails s -p 3002 -P 23
+: 1595810788:0;rails s
+: 1595810793:0;rails c
+: 1595810845:0;rake db:migrate:reset db:seeds
+: 1595811967:0;rails c
+: 1595811967:0;rails s
+: 1595811968:0;rails s -p 3002 -P 23
+: 1595812011:0;g lol
+: 1595812024:0;g pl origin staging
+: 1595812040:0;rake db:migrate:reset db:seeds
+: 1595816132:0;jt work
+: 1595820789:0;la
+: 1595820793:0;cd lyon
+: 1595826512:0;la
+: 1595826515:0;cd api-server
+: 1595826516:0;la
+: 1595826693:0;vi
+: 1595826703:0;rm -rf build
+: 1595826739:0;g d
+: 1595826839:0;yarn dev
+: 1595826950:0;g a
+: 1595826970:0;g c -m "rename searchKeyword to query"
+: 1595826976:0;g bnc
+: 1595826979:0;g ps origin feature-search
+: 1595829444:0;g s
+: 1595829447:0;g lol
+: 1595829468:0;g d
+: 1595829470:0;g s
+: 1595829471:0;g lol
+: 1595829478:0;g reset f13ffb4
+: 1595829479:0;g s
+: 1595829481:0;g st
+: 1595829487:0;g pl origin feature-search
+: 1595829538:0;g lol
+: 1595829547:0;g log
+: 1595829594:0;g s
+: 1595829602:0;g reset f13ffb4
+: 1595829604:0;g d
+: 1595829612:0;g st
+: 1595829615:0;g st pop
+: 1595829617:0;g co src
+: 1595829620:0;g st apply
+: 1595829678:0;g a
+: 1595829688:0;g s
+: 1595829694:0;g reset yarn.lock
+: 1595829694:0;g s
+: 1595829699:0;g c -m "rename searchKeyword to query"
+: 1595829702:0;g ps origin feature-search
+: 1595829769:0;g ps origin feature-search --force
+: 1595834672:0;g a
+: 1595834686:0;g c -m "add count numbers on providers"
+: 1595834687:0;g bnc
+: 1595834689:0;g ps origin feature-search
+: 1595835116:0;g pl origin develop
+: 1595835226:0;g bnc
+: 1595835238:0;g ps origin feature-search --force
+: 1595836374:0;yarn dev
+: 1595836578:0;g a
+: 1595836586:0;g c -m "update take amount"
+: 1595836587:0;g nc
+: 1595836589:0;g bnc
+: 1595836592:0;g ps origin feature-search
+: 1595839819:0;g a
+: 1595839845:0;g c -m "add take option"
+: 1595839847:0;g bnc
+: 1595839850:0;g ps origin feature-search
+: 1595840372:0;g a
+: 1595840385:0;g c -m "add individual searches"
+: 1595840387:0;g bnc
+: 1595840389:0;g ps origin feature-search
+: 1595844022:0;jt work
+: 1595844022:0;la
+: 1595844023:0;cd editmode
+: 1595844024:0;la
+: 1595844027:0;cd react-plugin
+: 1595844030:0;vi
+: 1595844074:0;..
+: 1595844075:0;la
+: 1595844076:0;cd main-app
+: 1595844078:0;vi
+: 1595899386:0;jt work
+: 1595899386:0;la
+: 1595899388:0;cd editmode
+: 1595899396:0;la
+: 1595899397:0;cd main-app
+: 1595899403:0;vi
+: 1595899408:0;g d
+: 1595899409:0;g s
+: 1595899412:0;g pl origin staging
+: 1595899503:0;g co -b staging-heroku-startup
+: 1595899806:0;rake heroku:start
+: 1595900089:0;g a
+: 1595900096:0;g bnc
+: 1595900098:0;g ps origin staging-heroku-startup
+: 1595900294:0;g co staging-test-pr
+: 1595900297:0;g s
+: 1595900298:0;g d
+: 1595900306:0;g co staging-heroku-startup
+: 1595900315:0;g c -m "create an entry point for heroku"
+: 1595900316:0;g bnc
+: 1595900319:0;g ps staging-heroku-startup
+: 1595900324:0;g ps origin staging-heroku-startup
+: 1595900362:0;g co staging-test-pr
+: 1595900369:0;g pl origin/staging-heroku-startup
+: 1595900375:0;g bnc
+: 1595900383:0;g pl origin staging-heroku-startup
+: 1595900409:0;g bnc
+: 1595900412:0;g ps origin staging-test-pr
+: 1595900532:0;rake db:migrate:reset db:seeds
+: 1595901372:0;g a
+: 1595901384:0;g c -m "add a test subdomain"
+: 1595901385:0;g bnc
+: 1595901388:0;g ps origin staging-test-pr
+: 1595902283:0;g a
+: 1595902305:0;g c -m "only run db:seeds on development then check if subdomain is the heroku app name on routes.rb"
+: 1595902307:0;g bnc
+: 1595902310:0;g ps origin staging-test-pr
+: 1595902566:0;g a
+: 1595902572:0;g c -m "remove the condition for now"
+: 1595902574:0;g bnc
+: 1595902575:0;g ps origin staging-test-pr
+: 1595902834:0;jt work
+: 1595902836:0;la
+: 1595902838:0;cd lyon
+: 1595902842:0;la
+: 1595927564:0;jt dotfiles
+: 1595930002:0;vi
+: 1595930009:0;la
+: 1595930010:0;g s
+: 1595930023:0;g co config
+: 1595930023:0;g s
+: 1595930026:0;g clean -fd
+: 1595930027:0;g s
+: 1595930029:0;g so
+: 1595930097:0;g a
+: 1595930102:0;g c -m "add verdacio"
+: 1595930104:0;down
