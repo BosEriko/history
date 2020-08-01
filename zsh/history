@@ -11427,3 +11427,333 @@ fi
 : 1595930097:0;g a
 : 1595930102:0;g c -m "add verdacio"
 : 1595930104:0;down
+: 1595930139:0;g ps origin master
+: 1595930328:0;g a
+: 1595930334:0;g c -m "update gitignore"
+: 1595930343:0;g s
+: 1595930696:0;g a
+: 1595930715:0;g c -m "update gitignore"
+: 1595930717:0;g a
+: 1595930728:0;g c -m "remove search.location"
+: 1595930731:0;g a
+: 1595930734:0;g s
+: 1595930737:0;g co config
+: 1595930738:0;g s
+: 1595930741:0;g ps origin master
+: 1595931843:0;jt editmode
+: 1595932293:0;jt work
+: 1595932294:0;la
+: 1595932295:0;cd editmode
+: 1595932296:0;la
+: 1595932298:0;cd main-app
+: 1595932298:0;la
+: 1595933856:0;vi
+: 1595938279:0;jt work
+: 1595984432:0;la
+: 1595984434:0;cd editmode
+: 1595984434:0;la
+: 1595984435:0;cd main-app
+: 1595984436:0;la
+: 1595984437:0;vi
+: 1595984884:0;g a
+: 1595984932:0;g c -m "remove the way I'm dropping the db"
+: 1595984934:0;g bnc
+: 1595984939:0;g ps origin staging-test-pr
+: 1595984952:0;g co -b staging-test-pr-updated
+: 1595984955:0;g bnc
+: 1595984957:0;g ps origin staging-test-pr-updated
+: 1595985979:0;g co -b staging-test-pr-updated-2
+: 1595985987:0;g bnc
+: 1595985990:0;g ps origin staging-test-pr-updated-2
+: 1595986312:0;echo test
+: 1595986341:0;echo ENV
+: 1595986605:0;g a
+: 1595986618:0;g c -m "don't check staging, just the project-name"
+: 1595986620:0;g bnc
+: 1595986622:0;g ps origin staging-test-pr-updated-2
+: 1595986775:0;g s
+: 1595986777:0;g d
+: 1595986781:0;g a
+: 1595986786:0;g c -m "update rails_env"
+: 1595986788:0;g bnc
+: 1595986792:0;g ps origin staging-test-pr-updated-2
+: 1595986812:0;g co -b staging-test-pr-updated-3
+: 1595986813:0;g bnc
+: 1595986816:0;g ps origin staging-test-pr-updated-3
+: 1596014076:0;jt work
+: 1596014077:0;la
+: 1596014078:0;cd lyon
+: 1596014078:0;la
+: 1596014080:0;cd api-server
+: 1596014080:0;la
+: 1596014085:0;g co develop
+: 1596014088:0;g pl origin develop
+: 1596014097:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1596014099:0;vi
+: 1596014104:0;../html-renderer
+: 1596014111:0;gh pr checkout 351
+: 1596014121:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1596014123:0;vi
+: 1596016617:0;g a
+: 1596016632:0;g c -m "add content variable"
+: 1596016633:0;g bnc
+: 1596016636:0;g ps origin feature-self-directed-reward
+: 1596020200:0;jt work
+: 1596020201:0;la
+: 1596020202:0;cd editmode
+: 1596020202:0;la
+: 1596020205:0;cd main-app
+: 1596020206:0;la
+: 1596020206:0;vi
+: 1596020233:0;g s
+: 1596020234:0;g d
+: 1596067941:0;\
+
+: 1596067943:0;jt work
+: 1596067944:0;la
+: 1596092321:0;cd editmode
+: 1596092321:0;la
+: 1596092453:0;cd main-app
+: 1596092453:0;la
+: 1596092456:0;vi
+: 1596093060:0;echo $HEROKU_APP_NAME
+: 1596093070:0;g a
+: 1596093461:0;g c -m "add a way to skip if it's not staging"
+: 1596093462:0;g bnc
+: 1596093464:0;g ps origin staging-test-pr-updated-3
+: 1596093638:0;g a
+: 1596093645:0;g c -m "change the if else statement"
+: 1596093647:0;g bnc
+: 1596093648:0;g ps origin staging-test-pr-updated-3
+: 1596093771:0;if [ "$HEROKU_APP_NAME" == "stagingssss" ]; then rake db:seeds; else echo "Skipping seed"; fi
+: 1596093783:0;if [ "$HEROKU_APP_NAME" = "stagingssss" ]; then rake db:seeds; else echo "Skipping seed"; fi
+: 1596093795:0;if [ "stagingssss" = "stagingssss" ]; then rake db:seeds; else echo "Skipping seed"; fi
+: 1596093815:0;g a
+: 1596093823:0;g c -m "change the condition comparator"
+: 1596093824:0;g bnc
+: 1596093826:0;g ps origin staging-test-pr-updated-3
+: 1596093937:0;g a
+: 1596093945:0;g c -m "change the web procfile"
+: 1596093946:0;g bnc
+: 1596093949:0;g ps origin staging-test-pr-updated-3
+: 1596094040:0;g a
+: 1596094050:0;g c -m "change rails env to staging"
+: 1596094059:0;g a
+: 1596094069:0;g c -m "add message for production"
+: 1596094070:0;g bnc
+: 1596094072:0;g ps origin staging-test-pr-updated-3
+: 1596094531:0;rails --version
+: 1596094653:0;bundle exec rake assets:precompile
+: 1596094677:0;rails s
+: 1596094787:0;g d
+: 1596094788:0;g s
+: 1596094794:0;g co public
+: 1596094795:0;g s
+: 1596094797:0;g a
+: 1596094812:0;g s
+: 1596094826:0;g co config
+: 1596094828:0;g s
+: 1596094832:0;g co public
+: 1596094833:0;g s
+: 1596094835:0;g clean -fd
+: 1596094836:0;g s
+: 1596094849:0;g c -m "compile assets"
+: 1596094860:0;rm -rf public
+: 1596094863:0;g s
+: 1596094865:0;g st
+: 1596094867:0;g s
+: 1596094884:0;g bnc
+: 1596094887:0;g ps origin staging-test-pr-updated-3
+: 1596094897:0;rails s
+: 1596094951:0;g s
+: 1596094954:0;g d
+: 1596095124:0;g s
+: 1596095125:0;g d
+: 1596095129:0;bundle exec rake assets:precompile
+: 1596095144:0;g s
+: 1596095202:0;g a
+: 1596095217:0;g c -m "add assets precompile to heroku start file"
+: 1596095218:0;g bnc
+: 1596095220:0;g ps origin staging-test-pr-updated-3
+: 1596095400:0;g a
+: 1596095409:0;g c -m "add spaces for readability"
+: 1596095409:0;g bnc
+: 1596095411:0;g ps origin staging-test-pr-updated-3
+: 1596095471:0;if [ "$RAILS_ENV" = "staging" ]; then rake db:seeds; else echo "Skipping seed for production"; fi
+: 1596096281:0;echo $PWD
+: 1596096500:0;g a
+: 1596096509:0;g c -m "add checkly"
+: 1596096510:0;g bnc
+: 1596096513:0;g ps origin staging-test-pr-updated-3
+: 1596163408:0;jt work
+: 1596163409:0;la
+: 1596163410:0;jt dotfiles
+: 1596163413:0;la
+: 1596163414:0;vi
+: 1596169777:0;jt work
+: 1596169778:0;la
+: 1596172030:0;..
+: 1596172034:0;~
+: 1596172035:0;Library
+: 1596172036:0;la
+: 1596172043:0;Application\ Support
+: 1596172050:0;la
+: 1596172056:0;open .
+: 1596175508:0;jt work
+: 1596175508:0;la
+: 1596175515:0;cd editmode
+: 1596175699:0;la
+: 1596175700:0;cd main-app
+: 1596175701:0;la
+: 1596175702:0;vi
+: 1596175905:0;htop
+: 1596180280:0;g s
+: 1596180285:0;g co public
+: 1596180286:0;g s
+: 1596180290:0;g co public/assets
+: 1596180291:0;g s
+: 1596180295:0;g clean -fd
+: 1596180296:0;g s
+: 1596180302:0;rm -rf public/assets
+: 1596180303:0;g st
+: 1596180311:0;g co -b staging-test-pr-updated-4
+: 1596180340:0;g bnc
+: 1596180342:0;g ps origin staging-test-pr-updated-4
+: 1596182885:0;g pl origin staging
+: 1596182915:0;g bnc
+: 1596182920:0;g diff staging-test-pr-updated-4..new_layout
+: 1596183646:0;g pl origin new_layout
+: 1596183681:0;bnc
+: 1596183682:0;g bnc
+: 1596183689:0;git reset --hard origin/staging-test-pr-updated-4
+: 1596187794:0;jt work
+: 1596187795:0;la
+: 1596187798:0;cd editmode
+: 1596187799:0;la
+: 1596187801:0;cd main-app
+: 1596187822:0;g cherry-pick cbfa930f3ed889aa4f7fbdf3e60e2127510538eb
+: 1596187824:0;g s
+: 1596187826:0;g lol
+: 1596187833:0;g log
+: 1596187849:0;g a
+: 1596187852:0;g bnc
+: 1596187855:0;g ps origin staging-test-pr-updated-4
+: 1596188460:0;vi
+: 1596188490:0;g lol
+: 1596188497:0;g revert process.env.ENVIRONMENT_URL ? process.env.ENVIRONMENT_URL : process.env.URL
+: 1596188501:0;g revert acc709d
+: 1596188509:0;g s
+: 1596188510:0;g lol
+: 1596188526:0;g diff a5ecfd1..bacd499
+: 1596188536:0;git reset --hard origin/staging-test-pr-updated-4
+: 1596188540:0;g lol
+: 1596188551:0;g revert a5ecfd1
+: 1596188553:0;g diff
+: 1596188558:0;g diff acc709d..a5ecfd1
+: 1596188578:0;g diff a5ecfd1..acc709d
+: 1596188731:0;g cherry-pick 3b18007d5860200896644c82bb3d2dade5c7e3e6
+: 1596188738:0;g bnc
+: 1596188745:0;g diff staging-test-pr-updated-4..origin/staging-test-pr-updated-4
+: 1596188755:0;g lol
+: 1596188760:0;g bnc
+: 1596188763:0;g ps origin staging-test-pr-updated-4
+: 1596189050:0;vi
+: 1596189249:0;g a
+: 1596189259:0;g c -m "remove checkly check on bin/heroku"
+: 1596189260:0;g bnc
+: 1596189262:0;g ps origin staging-test-pr-updated-4
+: 1596194699:0;jt work
+: 1596194700:0;la
+: 1596194703:0;cd kuru-anime
+: 1596194706:0;la
+: 1596194878:0;cd discord-bot
+: 1596194880:0;la
+: 1596194881:0;vi
+: 1596195191:0;yarn dev
+: 1596195418:0;..
+: 1596195418:0;la
+: 1596195426:0;..
+: 1596195426:0;la
+: 1596195430:0;cd kaizen-studios
+: 1596195431:0;la
+: 1596195433:0;cd denik
+: 1596195434:0;la
+: 1596195436:0;cd api-server
+: 1596195441:0;vi
+: 1596195461:0;yarn add firebase-admin
+: 1596195791:0;yarn dev
+: 1596196174:0;htop
+: 1596202899:0;jt work
+: 1596202899:0;la
+: 1596202902:0;cd kuru-anime
+: 1596203042:0;la
+: 1596203044:0;cd discord-bot
+: 1596203047:0;g s
+: 1596203048:0;g d
+: 1596203053:0;g co -b firebase
+: 1596203054:0;g a
+: 1596203068:0;vi
+: 1596203120:0;yarn dev
+: 1596203284:0;yarn add @types/discord.js
+: 1596203293:0;yarn add @types/discord
+: 1596203358:0;yarn add @types/discordjs
+: 1596203697:0;la
+: 1596203698:0;..
+: 1596203698:0;la
+: 1596203699:0;..
+: 1596203699:0;la
+: 1596203705:0;cd kaizen-studios
+: 1596203705:0;la
+: 1596203707:0;cd denik
+: 1596203707:0;la
+: 1596203709:0;cd api-server
+: 1596203709:0;la
+: 1596203710:0;vi
+: 1596203748:0;g s
+: 1596203750:0;g d
+: 1596203754:0;g s
+: 1596203756:0;g d
+: 1596203766:0;g reset
+: 1596203766:0;g d
+: 1596203932:0;...
+: 1596203932:0;la
+: 1596203934:0;..
+: 1596203934:0;la
+: 1596203936:0;cd lyon
+: 1596203936:0;la
+: 1596203939:0;cd api-server
+: 1596203940:0;vi
+: 1596253809:0;jt work
+: 1596253812:0;la
+: 1596253815:0;cd kuru-anime
+: 1596253815:0;la
+: 1596253817:0;cd main-website
+: 1596253818:0;la
+: 1596253821:0;cd server
+: 1596253821:0;la
+: 1596253827:0;vi
+: 1596267505:0;..
+: 1596267505:0;la
+: 1596267508:0;jt personal
+: 1596267508:0;la
+: 1596267514:0;g clone git@github.com:BosEriko/BosEriko.git
+: 1596267603:0;touch README.md
+: 1596267608:0;vi
+: 1596267651:0;mv ~/Desktop/Screen\ Shot\ 2020-08-01\ at\ 3.39.53\ PM.png ./cover.png
+: 1596267701:0;g a
+: 1596267703:0;la
+: 1596267705:0;cd Bs
+: 1596267707:0;cd BosEriko
+: 1596267708:0;la
+: 1596267710:0;g g
+: 1596268294:0;mv ~/Desktop/Screen\ Shot\ 2020-08-01\ at\ 3.51.10\ PM.png ./cover-2.png
+: 1596268299:0;g pl origin master
+: 1596268311:0;g g
+: 1596268999:0;g s
+: 1596269001:0;g lol
+: 1596269014:0;g revert f795e0a
+: 1596269029:0;g g
+: 1596269309:0;jt dotfiles
+: 1596269310:0;jt
+: 1596269312:0;vi
+: 1596269541:0;down
