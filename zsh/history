@@ -11757,3 +11757,68 @@ fi
 : 1596269310:0;jt
 : 1596269312:0;vi
 : 1596269541:0;down
+: 1596272831:0;jt personal
+: 1596272832:0;la
+: 1596272835:0;cd BosEriko
+: 1596272836:0;la
+: 1596272847:0;rm -rf cover.png
+: 1596272849:0;vi
+: 1596272878:0;g reset
+: 1596272880:0;g lol
+: 1596272881:0;g s
+: 1596272882:0;g st
+: 1596272883:0;g s
+: 1596272886:0;g pl origin master
+: 1596272905:0;rm -rf cover.png
+: 1596272909:0;mv cover-2.png cover.png
+: 1596272925:0;vi
+: 1596272956:0;g a
+: 1596272959:0;g s
+: 1596272961:0;git add 
+: 1596272963:0;git add .
+: 1596272977:0;g c -m "clean"
+: 1596272980:0;g g
+: 1596273073:0;touch .gitignore
+: 1596273078:0;g g
+: 1596291882:0;jt work
+: 1596291883:0;la
+: 1596291884:0;cd lyon
+: 1596291884:0;la
+: 1596291887:0;api-server
+: 1596291888:0;vi
+: 1596415212:0;jt work
+: 1596415213:0;la
+: 1596415214:0;cd editmode
+: 1596415858:0;la
+: 1596415863:0;cd react-plugin
+: 1596415870:0;gh pr checkout 15
+: 1596415886:0;g pl origin master
+: 1596415902:0;vi
+: 1596415922:0;g s
+: 1596415924:0;g lol
+: 1596415933:0;git reset --hard upstream/master
+: 1596415943:0;g lol
+: 1596415954:0;g reset 98edfb9
+: 1596415955:0;g st
+: 1596415960:0;g pl origin upstream
+: 1596415993:0;g pl upstream master
+: 1596416512:0;g a
+: 1596416518:0;g s
+: 1596416523:0;g reset src
+: 1596416528:0;g a
+: 1596416548:0;g c -m "Merge master"
+: 1596416549:0;g bnc
+: 1596416554:0;g ps upstream fork
+: 1596416612:0;g a
+: 1596416619:0;g c -m "fix the version"
+: 1596416624:0;g ps upstream fork
+: 1596416665:0;rm -rf src/Editmode.native.jsx
+: 1596416680:0;rm -rf src/utils/renderChunk.native.jsx
+: 1596416682:0;g a
+: 1596416683:0;g s
+: 1596416694:0;g c -m "remove native files"
+: 1596416699:0;g ps upstream fork
+: 1596417087:0;..
+: 1596417088:0;la
+: 1596417092:0;cd main-app
+: 1596417120:0;down
