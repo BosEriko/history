@@ -11822,3 +11822,192 @@ fi
 : 1596417088:0;la
 : 1596417092:0;cd main-app
 : 1596417120:0;down
+: 1596417419:0;g co master
+: 1596417422:0;g co staging
+: 1596417426:0;g pl origin staging
+: 1596417436:0;vi
+: 1596422715:0;ping facebook.com
+: 1596436749:0;jt work
+: 1596436750:0;la
+: 1596436753:0;cd lyon
+: 1596439194:0;la
+: 1596439196:0;cd api-server
+: 1596439199:0;g pl origin develop
+: 1596439208:0;g s
+: 1596439209:0;g d
+: 1596439216:0;g st
+: 1596439235:0;vi
+: 1596439240:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1596441082:0;g co -b feature-certificate-task-runner
+: 1596444163:0;jt work
+: 1596444163:0;la
+: 1596444164:0;cd editmode
+: 1596444165:0;la
+: 1596444321:0;vi
+: 1596444327:0;yarn dev
+: 1596444331:0;rails c
+: 1596444338:0;cd main-app
+: 1596444347:0;vi
+: 1596444353:0;bundle install
+: 1596444361:0;rake db:migrate
+: 1596444373:0;rails c
+: 1596444374:0;rails s
+: 1596444375:0;rails s -p 3002 -P 23
+: 1596445099:0;rake routes |grep basecamp
+: 1596451043:0;../
+: 1596451043:0;la
+: 1596451050:0;cd react-plugin
+: 1596451051:0;vi
+: 1596454390:0;la
+: 1596508373:0;jt work
+: 1596508373:0;la
+: 1596508377:0;cd lyon
+: 1596508378:0;la
+: 1596508477:0;cd api-server
+: 1596508477:0;la
+: 1596508479:0;vi
+: 1596508525:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-production.cdjkyrltcwm4.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
+: 1596508606:0;la ~/Downloads
+: 1596508646:0;pg_restore --verbose --username=boseriko --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
+: 1596508655:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
+: 1596508769:0;g a
+: 1596508773:0;vi
+: 1596508777:0;yarn dev
+: 1596508781:0;../html-renderer
+: 1596508789:0;g co develop
+: 1596508792:0;vi
+: 1596508795:0;yarn dev
+: 1596508844:0;g co -b breakout-test
+: 1596509602:0;yarn dev
+: 1596509991:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
+: 1596510214:0;yarn dev
+: 1596519570:0;jt work
+: 1596519570:0;la
+: 1596519571:0;cd editmode
+: 1596519572:0;la
+: 1596519574:0;cd main-app
+: 1596519582:0;g pl origin staging
+: 1596519658:0;g co -b feature-editmode-js-config
+: 1596520589:0;vi
+: 1596523586:0;jt work
+: 1596523586:0;la
+: 1596523589:0;cd lyon
+: 1596523590:0;la
+: 1596523593:0;cd api-server
+: 1596523594:0;vi
+: 1596530536:0;rails c
+: 1596530539:0;rails s
+: 1596530539:0;rails s -p 3002 -P 23
+: 1596533710:0;../react-plugin
+: 1596533711:0;la
+: 1596533712:0;vi
+: 1596533786:0;..
+: 1596533786:0;la
+: 1596533983:0;..
+: 1596533983:0;la
+: 1596533991:0;vi react-plugin
+: 1596533995:0;react-plugin
+: 1596533997:0;vi
+: 1596534004:0;g co git@github.com:Editmode-app/editmode-rails.git ./rails-plugin
+: 1596534015:0;g clone git@github.com:Editmode-app/editmode-rails.git ./rails-plugin
+: 1596535991:0;la
+: 1596535999:0;cd rails-plugin
+: 1596536001:0;vi
+: 1596585617:0;jt work
+: 1596585617:0;la
+: 1596585618:0;cd lyon
+: 1596585619:0;la
+: 1596585621:0;cd api-server
+: 1596585622:0;la
+: 1596585628:0;g co develop
+: 1596585632:0;g pl origin develop
+: 1596585642:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1596585652:0;g co -b feature-breakout-api
+: 1596585894:0;g d
+: 1596586409:0;vi
+: 1596589419:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
+: 1596589473:0;rm -rf ~/Downloads/lyon-dev.sql
+: 1596589476:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
+: 1596589514:0;la ~/Downloads
+: 1596589526:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
+: 1596589533:0;yarn dev
+: 1596589577:0;../html-renderer
+: 1596589581:0;vi
+: 1596589587:0;g pl origin develop
+: 1596589597:0;g st
+: 1596589600:0;g pl origin develop
+: 1596589628:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1596589943:0;yarn dev
+: 1596591671:0;g a
+: 1596591682:0;g c -m "create breakoutroom and breakoutgroup"
+: 1596591683:0;g a
+: 1596591697:0;g c -m "add relationship to stream"
+: 1596591699:0;g bnc
+: 1596591701:0;g ps origin feature-breakout-api
+: 1596591711:0;yarn dev
+: 1596593127:0;g a
+: 1596593141:0;g c -m "add relationship between group and room"
+: 1596594027:0;g a
+: 1596594032:0;yarn dev
+: 1596594048:0;g c -m "add relationship between group and event participants"
+: 1596594049:0;g bnc
+: 1596594051:0;g ps origin feature-breakout-api
+: 1596598660:0;g a
+: 1596598673:0;g c -m "add a sample breakout route"
+: 1596598680:0;g a
+: 1596598683:0;g bnc
+: 1596598685:0;g ps origin feature-breakout-api
+: 1596603370:0;g a
+: 1596603385:0;g c -m "extend the entities"
+: 1596603484:0;g a
+: 1596603495:0;g c -m "add name to breakoutgroup"
+: 1596607772:0;g bnc
+: 1596607774:0;g ps origin feature-breakout-api
+: 1596608842:0;jt work
+: 1596608845:0;la
+: 1596608846:0;cd editmode
+: 1596608846:0;la
+: 1596608849:0;cd main-app
+: 1596608849:0;la
+: 1596608852:0;vi
+: 1596608860:0;rails c
+: 1596608862:0;rails s -p 3002 -P 23
+: 1596608864:0;rails s
+: 1596613249:0;g a
+: 1596613289:0;g c -m "add a window object for the toggles"
+: 1596613290:0;g bnc
+: 1596613293:0;g ps origin feature-editmode-js-config
+: 1596615628:0;bundle exec rake assets:precompile
+: 1596615650:0;rails s -p 3002 -P 23
+: 1596615651:0;rails s
+: 1596618139:0;g a
+: 1596618158:0;g c -m "add conditional styling"
+: 1596618159:0;g bnc
+: 1596618161:0;g ps origin feature-editmode-js-config
+: 1596618553:0;jt work
+: 1596618553:0;la
+: 1596618555:0;cd lyon
+: 1596618555:0;la
+: 1596618557:0;cd api-server
+: 1596618830:0;vi
+: 1596618834:0;yarn dev
+: 1596618839:0;g s
+: 1596618840:0;g d
+: 1596618846:0;g s
+: 1596618867:0;g clean -fd
+: 1596618906:0;vi
+: 1596618911:0;gh pr checkout 145
+: 1596618921:0;yarn dev
+: 1596623655:0;jt work
+: 1596623655:0;la
+: 1596623657:0;cd editmode
+: 1596623657:0;la
+: 1596623661:0;cd main-app
+: 1596623661:0;la
+: 1596623663:0;g s
+: 1596623668:0;g d
+: 1596623673:0;vi
+: 1596623688:0;rails c
+: 1596623691:0;rails s -p 3002 -P 23
+: 1596623692:0;rails s
+: 1596673207:0;down
