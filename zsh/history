@@ -10134,3 +10134,114 @@ fi
 : 1596806581:0;g bnc
 : 1596806583:0;g ps origin master
 : 1596806587:0;down
+: 1596868663:0;[?1;2cY
+: 1596869304:0;jt work
+: 1596869305:0;la
+: 1596869306:0;cd editmode
+: 1596869306:0;la
+: 1596869308:0;cd main-app
+: 1596869308:0;la
+: 1596869310:0;g d
+: 1596869311:0;g s
+: 1596869313:0;g d
+: 1596869315:0;g st
+: 1596869321:0;g pl origin staging
+: 1596869336:0;rails c
+: 1596869339:0;rails s -p 3002 -P 23
+: 1596869342:0;rails s
+: 1596869795:0;../
+: 1596869796:0;la
+: 1596869805:0;rm -rf react-plugin
+: 1596870166:0;la
+: 1596870168:0;g clone git@github.com:Editmode-app/editmode-react.git
+: 1596870600:0;la
+: 1596870612:0;g clone git@github.com:Editmode-app/editmode-react.git ./react-plugin
+: 1596870863:0;la
+: 1596870866:0;cd react-plugin
+: 1596870884:0;verdaccio
+: 1596870923:0;vi
+: 1596870990:0;verdaccio
+: 1596870999:0;rails c
+: 1596871001:0;rails s -p 3002 -P 23
+: 1596871002:0;rails s
+: 1596871640:0;..
+: 1596871640:0;la
+: 1596871642:0;cd reactnative
+: 1596871652:0;../react-plugin
+: 1596871655:0;../reactnative
+: 1596871822:0;expo start
+: 1596871866:0;g co -b feature-load-hash
+: 1596871868:0;g bnc
+: 1596879902:0;yarn build && npm publish --registry http://localhost:4873
+: 1596879910:0;yarn install
+: 1596880151:0;vi
+: 1596880164:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1596880389:0;yarn build && npm publish --registry http://localhost:4873
+: 1596880405:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1596880693:0;htop
+: 1596881663:0;verdaccio
+: 1596881671:0;vi
+: 1596881678:0;expo start
+: 1596881679:0;vi
+: 1596882380:0;yarn build && npm publish --registry http://localhost:4873
+: 1596882397:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1596882546:0;yarn build && npm publish --registry http://localhost:4873
+: 1596882559:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1596944563:0;jt work
+: 1596944563:0;la
+: 1596944565:0;cd kuru-anime
+: 1596944566:0;la
+: 1596944570:0;cd main-website
+: 1596944570:0;la
+: 1596944572:0;cd client
+: 1597030204:0;jt work
+: 1597030204:0;la
+: 1597030205:0;cd editmode
+: 1597030206:0;la
+: 1597048200:0;jt work
+: 1597049621:0;la
+: 1597049634:0;cd editmode
+: 1597049634:0;la
+: 1597053744:0;reactnative
+: 1597053745:0;vi
+: 1597053769:0;la
+: 1597053794:0;expo start
+: 1597053799:0;../react-plugin
+: 1597053804:0;vi
+: 1597053809:0;verdaccio
+: 1597111566:0;jt work
+: 1597111566:0;la
+: 1597111569:0;cd lyon
+: 1597111569:0;la
+: 1597111571:0;cd api-server
+: 1597111571:0;la
+: 1597111848:0;vi
+: 1597111855:0;yarn dev
+: 1597112492:0;../html-renderer
+: 1597112493:0;vi
+: 1597112499:0;yarn dev
+: 1597112745:0;g a
+: 1597112761:0;g c -m "change the relationship of streams and breakout room"
+: 1597112762:0;g bnc
+: 1597112763:0;g ps origin feature-breakout-api
+: 1597112981:0;g a
+: 1597113003:0;g c -m "get the current date instead for stoppedAt update"
+: 1597113017:0;g a
+: 1597113026:0;g c -m "add isActive to group"
+: 1597113027:0;g bnc
+: 1597113029:0;g ps origin feature-breakout-api
+: 1597114208:0;g a
+: 1597114222:0;g c -m "change the update controller of breakout room"
+: 1597114229:0;g a
+: 1597114241:0;g c -m "remove the end breakout schema"
+: 1597114241:0;g a
+: 1597114252:0;g c -m "update endpoints to not receive payload on /end"
+: 1597114253:0;g bnc
+: 1597114255:0;g ps origin feature-breakout-api
+: 1597114642:0;g a
+: 1597114649:0;g c -m "fix the update controller of breakout"
+: 1597114746:0;g a
+: 1597114757:0;g c -m "change put to post on the start of breakout"
+: 1597114758:0;g bnc
+: 1597114760:0;g ps origin feature-breakout-api
+: 1597130841:0;down
