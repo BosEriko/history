@@ -10698,3 +10698,257 @@ fi
 : 1597801102:0;plugin-react
 : 1597801109:0;vi
 : 1597805432:0;down
+: 1597808843:0;jt work
+: 1597808844:0;la
+: 1597808847:0;cd lyon
+: 1597808924:0;la
+: 1597808927:0;cd rfcs
+: 1597808929:0;g co master
+: 1597808935:0;g co -b rfc-happy-path-test
+: 1597808939:0;la
+: 1597808958:0;cp 0000-template.md rfc/0005-happy-path-test.md
+: 1597809038:0;vi
+: 1597810226:0;g a
+: 1597810232:0;g c -m "happy path test"
+: 1597810271:0;g bnc
+: 1597810273:0;g ps origin rfc-happy-path-test
+: 1597810576:0;g a
+: 1597810579:0;g c -m "update"
+: 1597810580:0;g bnc
+: 1597810582:0;g ps origin rfc-happy-path-test
+: 1597810832:0;g a
+: 1597810836:0;g c -m "update"
+: 1597810837:0;g bnc
+: 1597810838:0;g ps origin rfc-happy-path-test
+: 1597816066:0;curl https://nyaa.si/\?page\=rss
+: 1597822260:0;jt work
+: 1597822261:0;la
+: 1597822262:0;cd editmode
+: 1597822262:0;la
+: 1597822264:0;cd main-app
+: 1597822265:0;vi
+: 1597822292:0;jt work
+: 1597822292:0;la
+: 1597822294:0;cd editmode
+: 1597822294:0;la
+: 1597822298:0;cd plugin-rails
+: 1597822298:0;la
+: 1597822299:0;vi
+: 1597822316:0;..
+: 1597822316:0;la
+: 1597822322:0;cd sample-project-react
+: 1597822323:0;vi
+: 1597822332:0;..
+: 1597822333:0;la
+: 1597822337:0;cd sample-project-rails
+: 1597822338:0;vi
+: 1597822449:0;rails server
+: 1597822452:0;..
+: 1597822452:0;la
+: 1597822457:0;cd plugin-rails
+: 1597822458:0;vi
+: 1597822483:0;pwd
+: 1597822499:0;pwd | pbcopy
+: 1597822522:0;yarn install --check-files
+: 1597823196:0;bundle install
+: 1597823207:0;vi
+: 1597823244:0;bundle install
+: 1597823295:0;rails server
+: 1597823585:0;gem uninstall editmode && bundle install
+: 1597823603:0;bundle install
+: 1597823615:0;rails s
+: 1597824610:0;rails c
+: 1597826244:0;gem uninstall editmode && bundle install
+: 1597826249:0;bundle install
+: 1597826253:0;rails s
+: 1597826375:0;gem uninstall editmode
+: 1597826382:0;bundle install
+: 1597826388:0;rails s
+: 1597885455:0;jt work
+: 1597885456:0;la
+: 1597885458:0;cd lyon
+: 1597885458:0;la
+: 1597885460:0;cd api-server
+: 1597885461:0;la
+: 1597886179:0;vi
+: 1597886716:0;g s
+: 1597886718:0;g st src
+: 1597886720:0;g co src
+: 1597886851:0;yarn dev
+: 1597887008:0;g bnc
+: 1597887011:0;g pl origin feature-breakout-api
+: 1597887021:0;g lol
+: 1597887049:0;..
+: 1597887050:0;la
+: 1597887058:0;cd html-renderer
+: 1597887059:0;la
+: 1597887064:0;vi
+: 1597887069:0;yarn dev
+: 1597887233:0;g a
+: 1597887242:0;g c -m "update create methods"
+: 1597887244:0;g bnc
+: 1597887248:0;g ps origin feature-breakout-api
+: 1597887432:0;g s
+: 1597887433:0;g d
+: 1597888341:0;g a
+: 1597888356:0;g c -m "pr reviews"
+: 1597888357:0;g bnc
+: 1597888359:0;g ps origin feature-breakout-api
+: 1597888967:0;g a
+: 1597889081:0;g c -m "pr update"
+: 1597889223:0;g a
+: 1597889230:0;g c -m "add comments"
+: 1597889840:0;yarn build
+: 1597895942:0;jt work
+: 1597898296:0;la
+: 1597898298:0;cd editmode
+: 1597898298:0;la
+: 1597898307:0;cd sample-project-rails
+: 1597898309:0;vi
+: 1597898314:0;expo start
+: 1597898392:0;..
+: 1597898393:0;la
+: 1597898398:0;plugin-react
+: 1597898417:0;g co feature-load-hash
+: 1597898427:0;g co -b feature-swr
+: 1597898428:0;vi
+: 1597898433:0;verdaccio
+: 1597899888:0;jt work
+: 1597899888:0;la
+: 1597899890:0;cd lyon
+: 1597899891:0;la
+: 1597899895:0;cd html-renderer
+: 1597899897:0;vi
+: 1597900312:0;yarn add swr
+: 1597900414:0;yarn global add expo-cli
+: 1597900476:0;..
+: 1597900479:0;sample-project-react
+: 1597900485:0;../sample-project-react
+: 1597900488:0;expo start
+: 1597900490:0;vi
+: 1597903894:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597903904:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597904123:0;g lol | grep "swr"
+: 1597904133:0;g lol | grep "revalidate"
+: 1597904254:0;g d
+: 1597905233:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597905241:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597905334:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597905343:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597911787:0;g a
+: 1597911799:0;g c -m "add swr"
+: 1597911801:0;g bnc
+: 1597911802:0;g ps origin feature-swr
+: 1597912152:0;g co feature-load-hash
+: 1597912153:0;g s
+: 1597912154:0;g d
+: 1597912157:0;g st
+: 1597912159:0;g co src/Editmode.jsx
+: 1597912162:0;g co feature-load-hash
+: 1597912163:0;vi
+: 1597912269:0;g a
+: 1597912289:0;g c -m "rename chunkFallback to defaultChunks"
+: 1597912290:0;g bnc
+: 1597912292:0;g ps origin feature-load-hash
+: 1597912329:0;g co feature-variables
+: 1597912335:0;g pol origin feature-load-hash
+: 1597912338:0;g pl origin feature-load-hash
+: 1597912347:0;g s
+: 1597912349:0;g d
+: 1597912374:0;git reset --hard origin/feature-variables
+: 1597912498:0;g a
+: 1597912528:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597912537:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597912590:0;g c -m "rename variable to variables"
+: 1597912590:0;g bnc
+: 1597912593:0;g ps origin feature-variables
+: 1597912662:0;g s
+: 1597912671:0;g co feature-swr
+: 1597912673:0;g st
+: 1597912675:0;g co feature-swr
+: 1597912703:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597912722:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597913803:0;g diff feature-swr..feature-load-hash
+: 1597913815:0;g pl origin feature-load-hash
+: 1597913835:0;g s
+: 1597913837:0;g d
+: 1597913870:0;g s
+: 1597913872:0;g a
+: 1597913875:0;g reset
+: 1597913877:0;g a
+: 1597913895:0;g c -m "merge"
+: 1597913902:0;g diff feature-swr..feature-load-hash
+: 1597913925:0;g diff feature-load-hash..feauture-swr
+: 1597913929:0;g diff feature-load-hash..feature-swr
+: 1597916687:0;g lol | grep "cache"
+: 1597916858:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597916865:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597916954:0;vi
+: 1597917041:0;g d
+: 1597917048:0;yarn install
+: 1597917114:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597917121:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597917245:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597917251:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597917388:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597917398:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597917646:0;g a
+: 1597917658:0;g c -m "minimize swr footprint"
+: 1597917659:0;g bnc
+: 1597917660:0;g ps origin feature-swr
+: 1597918519:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597918527:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597918553:0;g st
+: 1597918572:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597918580:0;NPM
+: 1597918664:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597919234:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1597919247:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1597919312:0;g lol | grep "cache"
+: 1597995856:0;la
+: 1597995857:0;jt work
+: 1597995858:0;la
+: 1597995859:0;cd editmode
+: 1597995860:0;la
+: 1597995871:0;cd plugin-react
+: 1597995879:0;vi
+: 1597996073:0;g co master
+: 1597996075:0;g s
+: 1597996076:0;g d
+: 1597996084:0;g a
+: 1597996096:0;g c -m "remove chunk condition"
+: 1597996098:0;g bnc
+: 1597996100:0;g ps origin feature-swr
+: 1597996112:0;g s
+: 1597996114:0;g co master
+: 1597996115:0;g st
+: 1597996117:0;g co master
+: 1597996697:0;../sample-project-react
+: 1597996699:0;vi
+: 1597997544:0;g a
+: 1597997556:0;g c -m "Update README.md"
+: 1597997557:0;g bnc
+: 1597997566:0;g co -b feature-update-readme
+: 1597997567:0;g bnc
+: 1597997570:0;g ps origin feature-update-readme
+: 1597998044:0;g a
+: 1597998050:0;g c -m "add semicolon\
+"
+: 1597998051:0;g bnc
+: 1597998055:0;g ps origin feature-update-readme
+: 1598196412:0;jt work
+: 1598226432:0;la
+: 1598226435:0;cd editmode
+: 1598226482:0;la
+: 1598226489:0;cd sample-project-react
+: 1598226492:0;vi
+: 1598226496:0;expo start
+: 1598226559:0;../
+: 1598226559:0;la
+: 1598226564:0;cd plugin-react
+: 1598226569:0;g br
+: 1598226571:0;g b
+: 1598226582:0;g co feature-swr
+: 1598226584:0;vi
+: 1598226588:0;verdaccio
+: 1598226599:0;down
