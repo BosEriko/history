@@ -10952,3 +10952,59 @@ fi
 : 1598226584:0;vi
 : 1598226588:0;verdaccio
 : 1598226599:0;down
+: 1598228432:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598228447:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598228603:0;la
+: 1598228609:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598228621:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598229124:0;g a
+: 1598229136:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598229147:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598233601:0;(cd node_modules/react && yarn link)
+: 1598233606:0;(cd node_modules/react-dom && yarn link)
+: 1598233619:0;yarn link react
+: 1598233622:0;yarn link react-dom
+: 1598233634:0;yarn install
+: 1598233665:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598233678:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598234204:0;rm -rf node_modules yarn.lock
+: 1598234226:0;yarn link react && yarn link react-dom
+: 1598234258:0;yarn install && expo start
+: 1598234962:0;yarn remove editmode-react && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598235070:0;g s
+: 1598235073:0;g co package.json
+: 1598235076:0;yarn link
+: 1598235085:0;yarn link editmode-react
+: 1598235110:0;yarn install
+: 1598235225:0;yarn build
+: 1598235242:0;yarn install && expo start
+: 1598235786:0;vi
+: 1598235876:0;g a
+: 1598235892:0;g c -m "change defaultChunks default content to []"
+: 1598235993:0;g a
+: 1598237993:0;g co feature-variables
+: 1598237995:0;g d
+: 1598237998:0;g st
+: 1598238000:0;g co feature-variables
+: 1598238004:0;g pl origin master
+: 1598238078:0;g a
+: 1598238086:0;g c -m "merge"
+: 1598238089:0;g bnc
+: 1598238091:0;g ps origin feature-variables
+: 1598238244:0;yarn install
+: 1598238323:0;rm -rf node_modules yarn.lock && yarn install && yarn link react && yarn link react-dom && yarn link editmode-react && yarn install && expo start
+: 1598238478:0;vi
+: 1598238543:0;rm -rf node_modules yarn.lock && yarn install && yarn link editmode-react && yarn install && expo start
+: 1598238619:0;vi
+: 1598238699:0;verdaccio
+: 1598241508:0;yarn link react && yarn link react-dom
+: 1598241979:0;g a
+: 1598241983:0;g c -m "remove unused variable"
+: 1598241985:0;g bnc
+: 1598241986:0;g ps origin feature-variables
+: 1598242412:0;la
+: 1598242415:0;..
+: 1598242415:0;la
+: 1598242423:0;mv plugin-react plugin-react-native
+: 1598242424:0;la
+: 1598242465:0;down
