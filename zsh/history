@@ -11597,3 +11597,46 @@ fi
 : 1598674131:0;g bnc
 : 1598674135:0;g ps origin feature-task-runner
 : 1598681002:0;down
+: 1598682827:0;jt work
+: 1598682829:0;la
+: 1598683578:0;jt work
+: 1598683598:0;la
+: 1598683604:0;cd lyon
+: 1598683604:0;la
+: 1598683606:0;cd api-server
+: 1598683606:0;la
+: 1598683609:0;vi
+: 1598683674:0;yarn task:default --participant "105fe6ae-4c80-4d54-84f9-b346ff8c6cb5"
+: 1598687367:0;jt dotfiles
+: 1598687376:0;vi
+: 1598689661:0;jt work
+: 1598689661:0;la
+: 1598695074:0;jt work
+: 1598695074:0;la
+: 1598695084:0;lyon
+: 1598695084:0;la
+: 1598695085:0;cd api-server
+: 1598695086:0;la
+: 1598695088:0;vi
+: 1598695185:0;yarn task:default --participant "105fe6ae-4c80-4d54-84f9-b346ff8c6cb5"
+: 1598695325:0;g a
+: 1598695333:0;g c -m "move to ts-node for now"
+: 1598695337:0;g bnc
+: 1598695339:0;g ps origin feature-task-runner
+: 1598695416:0;yarn task:default --eventId "860d24aa-fb20-44fb-aa2e-0f856d5d029d"
+: 1598695525:0;yarn task:default --event= fg"860d24aa-fb20-44fb-aa2e-0f856d5d029d"
+: 1598695541:0;yarn task:default --event="860d24aa-fb20-44fb-aa2e-0f856d5d029d"
+: 1598695630:0;yarn task:default --event="b483d541-202e-4df8-9e5d-94c157344eba"
+: 1598696352:0;yarn task:default --user="3uRib2NkpkfCcKcDzqPObPtEhfH3"
+: 1598696512:0;g a
+: 1598696514:0;y
+: 1598696518:0;g c -m "find user"
+: 1598696519:0;g bnc
+: 1598696521:0;g ps origin feature-task-runner
+: 1598696555:0;yarn task:default --user="3uRib2NkpkfCcKcDzqPObPtEhfH3"
+: 1598699578:0;yarn task:default --user="bos.eriko@reyes.com"
+: 1598699783:0;g a
+: 1598699789:0;g c -m "use email instead"
+: 1598699790:0;g bnc
+: 1598699793:0;g ps origin feature-task-runner
+: 1598706459:0;down

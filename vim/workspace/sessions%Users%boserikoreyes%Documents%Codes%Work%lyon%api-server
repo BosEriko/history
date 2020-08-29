@@ -7,23 +7,14 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +60 src/main-load.ts
-badd +72 package.json
-badd +2 src/ormconfig.ts
-badd +9 gulpfile.ts
-badd +2 src/env-load.ts
-badd +21 src/index.ts
-badd +3 src/controllers/certificate/createCertificateController.ts
-badd +1 src/models/entities/RewardCertificate.ts
-badd +16 .env
-badd +6 src/utils/firebaseAdmin.ts
-badd +1 src/models/entities/EventParticipant.ts
-badd +6 src/models/entities/OtherReward.ts
-badd +13 src/models/entities/Event.ts
-badd +0 nodemon.json
+badd +40 task.ts
+badd +5 src/ormconfig.ts
+badd +35 .env
+badd +1 src/models/entities/User.ts
+badd +1 src/controllers/user/readUserByIdController.ts
 argglobal
 %argdel
-edit nodemon.json
+edit task.ts
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -42,11 +33,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 23) / 47)
+let s:l = 37 - ((36 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+37
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
