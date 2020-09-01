@@ -11640,3 +11640,388 @@ fi
 : 1598699790:0;g bnc
 : 1598699793:0;g ps origin feature-task-runner
 : 1598706459:0;down
+: 1598753635:0;jt work
+: 1598753636:0;la
+: 1598753639:0;cd editmode
+: 1598753640:0;la
+: 1598753643:0;cd plugin-react
+: 1598753646:0;vi
+: 1598753652:0;verdaccio
+: 1598753660:0;la
+: 1598753676:0;..
+: 1598753677:0;la
+: 1598753681:0;sample-project-react-web
+: 1598753681:0;la
+: 1598753683:0;vi
+: 1598753690:0;yarn start
+: 1598756439:0;vi
+: 1598764645:0;yarn start
+: 1598770909:15028;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598769965:251;yarn build:microbundle && npm publish --registry http://localhost:4873 && fg
+: 1598770219:0;microbundle --help
+: 1598770235:2;yarn microbundle --help
+: 1598770895:15046;yarn build:microbundle && npm publish --registry http://localhost:4873 && fg
+: 1598835790:0;jt work
+: 1598835790:0;la
+: 1598835794:0;cd editmode
+: 1598835794:0;la
+: 1598835797:0;cd main-app
+: 1598835797:0;la
+: 1598835802:0;vi
+: 1598843534:0;la
+: 1598844504:0;..
+: 1598844505:0;la
+: 1598844511:0;create-react-app test
+: 1598847169:0;cd test
+: 1598847169:0;la
+: 1598847179:0;yarn add editmode-react
+: 1598847243:0;g s
+: 1598847245:0;g d
+: 1598847286:0;vi
+: 1598847300:0;yarn start
+: 1598847320:0;vi
+: 1598847333:0;la
+: 1598847334:0;..
+: 1598847334:0;la
+: 1598847335:0;cd test
+: 1598847336:0;la
+: 1598847337:0;vi
+: 1598847350:0;la
+: 1598847354:0;..
+: 1598847354:0;la
+: 1598847358:0;cd sample-project-react-web
+: 1598847359:0;vi
+: 1598847371:0;yarn start
+: 1598847446:0;..
+: 1598847447:0;la
+: 1598847450:0;cd plugin-react
+: 1598847451:0;la
+: 1598850144:0;vi
+: 1598855286:0;yarn build
+: 1598855364:0;g s
+: 1598855365:0;g d
+: 1598855393:0;yarn add react-native
+: 1598855462:0;g s
+: 1598855464:0;g d
+: 1598855471:0;g a
+: 1598855488:0;g c -m "update"
+: 1598855489:0;g bnc
+: 1598855491:0;g ps origin hotfix-react-native-not-found
+: 1598855512:0;g co master -- src/Editmode.jsx
+: 1598855526:0;yarn build
+: 1598856009:0;la
+: 1598856015:0;jt work
+: 1598856015:0;la
+: 1598856016:0;cd lyon
+: 1598856017:0;la
+: 1598856020:0;cd htm-renderer
+: 1598856020:0;la
+: 1598856025:0;html-renderer
+: 1598856027:0;vi
+: 1598856046:0;jt work
+: 1598856046:0;la
+: 1598856048:0;cd lyon/api-server
+: 1598856049:0;vi
+: 1598856064:0;../html-renderer
+: 1598856066:0;vi
+: 1598856152:0;yarn build
+: 1598856620:0;g s
+: 1598856623:0;g co master -- src/Editmode.jsx
+: 1598856634:0;g reset
+: 1598856636:0;g co master -- src/Editmode.jsx
+: 1598856643:0;g co src
+: 1598856645:0;g co master -- src/Editmode.jsx
+: 1598856650:0;g co webpack.config.js
+: 1598856664:0;g s
+: 1598856667:0;yarn build
+: 1598856782:0;yarn add react-scripts
+: 1598856847:0;yarn add react-native-web
+: 1598856862:0;yarn add react-art
+: 1598856883:0;yarn add react-router-native
+: 1598856895:0;yarn add react-router-dom
+: 1598856969:0;yarn build
+: 1598857053:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598857130:0;verdaccio
+: 1598857141:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598857148:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598857229:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598857241:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598857272:0;yarn start
+: 1598857471:0;g a
+: 1598857500:0;g c -m "install peer dependency of react-native"
+: 1598857531:0;g a
+: 1598857541:0;g c -m "include react-native again"
+: 1598857542:0;g bnc
+: 1598857545:0;g ps origin hotfix-react-native-not-found
+: 1598857592:0;g co master -- src/utils/renderChunk.jsx
+: 1598857614:0;g a
+: 1598857621:0;g c -m "revert"
+: 1598857622:0;g bnc
+: 1598857624:0;g ps origin hotfix-react-native-not-found
+: 1598857658:0;git add yarn.lock
+: 1598857663:0;g c -m "add yarn.lock"
+: 1598857664:0;g bnc
+: 1598857666:0;g ps origin hotfix-react-native-not-found
+: 1598857682:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598857716:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598857744:0;yarn start
+: 1598857785:0;..
+: 1598857785:0;la
+: 1598857790:0;cd SampleProjectReactNative2
+: 1598857793:0;vi
+: 1598857806:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
+: 1598857906:0;expo start
+: 1598858244:0;g co master -- src/useChunk.js
+: 1598858252:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598858279:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598858285:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598858345:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598861439:0;g co feature-swr
+: 1598861441:0;g d
+: 1598861443:0;g s
+: 1598861446:0;g st
+: 1598861448:0;g s
+: 1598861459:0;g co feature-swr
+: 1598861479:0;git reset --hard origin/hotfix-react-native-not-found
+: 1598861486:0;g bnc
+: 1598861496:0;g ps origin feature-swr --force
+: 1598861549:0;g co hotfix-react-native-not-found
+: 1598861558:0;g co master -- src/useChunk.js
+: 1598861562:0;g s
+: 1598861565:0;g c -m "revert"
+: 1598861568:0;g bnc
+: 1598861571:0;g ps origin hotfix-react-native-not-found
+: 1598861587:0;rm -rf node_modules yarn.lock && yarn install
+: 1598861680:0;g s
+: 1598861684:0;g a
+: 1598861691:0;g c -m "update yarn.lock"
+: 1598861692:0;g bnc
+: 1598861696:0;g ps origin hotfix-react-native-not-found
+: 1598861858:0;g co feature-swr
+: 1598861862:0;vi
+: 1598862170:0;g a
+: 1598862191:0;vi
+: 1598862227:0;g a
+: 1598862253:0;g c -m "update initial data and memorize value of fallback chunk"
+: 1598862253:0;g bnc
+: 1598862256:0;g ps origin feature-swr
+: 1598862435:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598862449:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598862716:0;g d
+: 1598862784:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598863400:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598863420:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598863539:0;g a
+: 1598863551:0;g c -m "add revalidate on mount"
+: 1598863552:0;g bnc
+: 1598863554:0;g ps origin feature-swr
+: 1598926720:0;jt work
+: 1598926720:0;la
+: 1598926722:0;cd lyon
+: 1598926723:0;la
+: 1598926726:0;cd api-server
+: 1598926732:0;vi
+: 1598927148:0;jt personal
+: 1598927151:0;git clone git@github.com:BosEriko/ikigai-project.git
+: 1598927163:0;la
+: 1598927165:0;cd BosEriko
+: 1598927166:0;la
+: 1598927167:0;vi
+: 1598927190:0;..
+: 1598927190:0;la
+: 1598927194:0;cd ikigai-project
+: 1598927195:0;la
+: 1598927197:0;vi
+: 1598927224:0;g a
+: 1598927229:0;g c -m "add contributor"
+: 1598927230:0;g bnc
+: 1598927233:0;g ps origin master
+: 1598927283:0;g co -b add-contributors
+: 1598927286:0;g bnc
+: 1598927288:0;g ps origin add-contributors
+: 1598927306:0;g a
+: 1598927311:0;g c -m "add space"
+: 1598927312:0;g bnc
+: 1598927314:0;g ps origin  add-contributors
+: 1598929520:0;jt work
+: 1598929521:0;la
+: 1598929527:0;cd lyon
+: 1598929535:0;g clone git@github.com:LyonInc/lyon-on-demand.git ./on-demand
+: 1598929585:0;la
+: 1598929588:0;cd on-demand
+: 1598929589:0;la
+: 1598929593:0;touch README.md
+: 1598929595:0;vi
+: 1598929604:0;g a
+: 1598929616:0;g c -m "Feature: Initial Commit"
+: 1598929617:0;g bnc
+: 1598929620:0;g ps origin master
+: 1598931681:0;la
+: 1598931693:0;touch Dockerfile
+: 1598931697:0;vi
+: 1598932659:0;touch Gemfile
+: 1598932674:0;touch Gemfile.lock
+: 1598932696:0;touch entrypoint.sh
+: 1598932909:0;touch docker-compose.yml
+: 1598932965:0;g a
+: 1598932979:0;g c -m "Feature: Config for Docker"
+: 1598932980:0;g bnc
+: 1598932983:0;g ps origin master
+: 1598935282:0;docker-compose run web rails new . --api --force --no-deps --database=postgresql
+: 1598936445:0;docker-compose build
+: 1598936829:0;g a
+: 1598936834:0;g s
+: 1598936837:0;git add .
+: 1598936846:0;g c -m "Feature: Project Build"
+: 1598936853:0;g ps origin master
+: 1598936889:0;g a
+: 1598936900:0;g c -m "Feature: Update Database Configuration"
+: 1598936909:0;g ps origin master
+: 1598937025:0;g a
+: 1598937038:0;g c -m "Feature: Add instructions to README.md"
+: 1598937039:0;g bnc
+: 1598937041:0;g ps origin master
+: 1598937052:0;docker-compose up
+: 1598937074:0;docker-compose run web rake db:create
+: 1598937096:0;docker-compose up
+: 1598937098:0;g a
+: 1598937170:0;g c -m "Feature: Update the version of Rails on the README.md"
+: 1598937171:0;g bnc
+: 1598937175:0;g ps origin master
+: 1598937347:0;g a
+: 1598937370:0;g c -m "Feature: Add instructions for db:migrate"
+: 1598937387:0;g bnc
+: 1598937389:0;g ps origin master
+: 1598937465:0;rails g scaffold test-courses
+: 1598937471:0;g d
+: 1598937472:0;g s
+: 1598937487:0;docker-compose run rails g scaffold test-courses
+: 1598937526:0;g a
+: 1598937545:0;g c -m "Hotfix: Fix db:migrate command on README.md"
+: 1598937546:0;g bnc
+: 1598937548:0;g ps origin master
+: 1598937553:0;docker-compose run web rails g scaffold test-courses
+: 1598937597:0;git add .
+: 1598937616:0;g c -m "Feature: Scaffold TestCourse"
+: 1598937618:0;g bnc
+: 1598937621:0;g ps origin master
+: 1598937679:0;docker-compose run web rails db:migrate
+: 1598938397:0;docker-compose up
+: 1598939493:0;docker-compose run web rails console
+: 1598939519:0;docker-compose run web rake routes
+: 1598939576:0;g a
+: 1598939596:0;g c -m "Feature: Update README.md and migration file"
+: 1598939597:0;g bnc
+: 1598939599:0;g ps origin master
+: 1598939778:0;g a
+: 1598939785:0;g c -m "Hotfix: Update README.md"
+: 1598939787:0;g bnc
+: 1598939789:0;g ps origin master
+: 1598940185:0;jt work
+: 1598940185:0;la
+: 1598940187:0;cd editmode
+: 1598940188:0;la
+: 1598940194:0;cd plugin-react
+: 1598940394:0;la
+: 1598940397:0;vi
+: 1598940400:0;verdaccio
+: 1598940403:0;la
+: 1598940501:0;..
+: 1598940501:0;la
+: 1598940506:0;cd SampleProjectReactNative2
+: 1598940515:0;..
+: 1598940515:0;la
+: 1598940519:0;cd sample-project-react-web
+: 1598941025:0;vi
+: 1598941026:0;expo start
+: 1598941027:0;vi
+: 1598941028:0;yarn start
+: 1598941270:0;ts-node --help
+: 1598941327:0;jt work
+: 1598941327:0;la
+: 1598941329:0;cd api-server
+: 1598941329:0;la
+: 1598941336:0;cd lyon
+: 1598941336:0;la
+: 1598941339:0;cd api-server
+: 1598941367:0;vi
+: 1598941472:0;yarn task:default --participant "105fe6ae-4c80-4d54-84f9-b346ff8c6cb5"
+: 1598941763:0;la
+: 1598942585:0;jt work
+: 1598943702:0;la
+: 1598943703:0;cd editmode
+: 1598943704:0;la
+: 1598943710:0;cd plugin-react
+: 1598943713:0;vi
+: 1598943716:0;verdaccio
+: 1598943719:0;la
+: 1598943725:0;SamplePro
+: 1598943729:0;SampleProjectReactNative2
+: 1598943732:0;vi
+: 1598943735:0;expo start
+: 1598943743:0;la
+: 1598943752:0;cd sample-project-react-web
+: 1598943824:0;yarn start
+: 1598943919:0;vi
+: 1598944173:0;g lol
+: 1598944297:0;g a
+: 1598944309:0;g c -m "revert the initial data"
+: 1598944309:0;g bnc
+: 1598944311:0;g ps origin feature-swr
+: 1598944357:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598944378:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598944384:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598944414:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598944430:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598944507:0;g s
+: 1598944512:0;g co src
+: 1598944681:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598944694:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598944695:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598945102:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598945123:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598945124:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598945244:0;g a
+: 1598945251:0;g c -m "refactor"
+: 1598945252:0;g bnc
+: 1598945254:0;g ps origin feature-swr
+: 1598945317:0;g co master -- src/useChunk.js
+: 1598945354:0;yarn buid
+: 1598945357:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598945369:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598945370:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598945472:0;g reset
+: 1598945472:0;g s
+: 1598945477:0;g co src
+: 1598945618:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598945630:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598945630:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598946604:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1598946632:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && expo start
+: 1598946635:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && yarn start
+: 1598962523:0;..la
+: 1598962524:0;la
+: 1598962525:0;..
+: 1598962525:0;la
+: 1598962526:0;..
+: 1598962527:0;la
+: 1598962531:0;mkdir test-directory
+: 1598962533:0;cd test-directory
+: 1598962534:0;la
+: 1598962539:0;yarn init
+: 1598962565:0;la
+: 1598962566:0;vi
+: 1598964089:0;..
+: 1598964090:0;la
+: 1598964091:0;..
+: 1598964093:0;jt work
+: 1598964094:0;cd lyon
+: 1598964095:0;la
+: 1598964096:0;cd api-server
+: 1598964103:0;vi
+: 1598964149:0;yarn task:default --participant "105fe6ae-4c80-4d54-84f9-b346ff8c6cb5"
+: 1598965286:0;g a
+: 1598965296:0;g c -m "fix the task runner"
+: 1598965297:0;g bnc
+: 1598965300:0;g ps origin feature-task-runner
+: 1598967663:0;down

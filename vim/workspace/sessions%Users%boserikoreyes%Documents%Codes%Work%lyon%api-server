@@ -7,11 +7,16 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +40 task.ts
+badd +5 task.ts
 badd +5 src/ormconfig.ts
-badd +35 .env
+badd +1 .env
 badd +1 src/models/entities/User.ts
 badd +1 src/controllers/user/readUserByIdController.ts
+badd +89 src/main-load.ts
+badd +83 package.json
+badd +1 src/env-load.ts
+badd +19 src/controllers/certificate/createCertificateController.ts
+badd +1 src/controllers/eventParticipant/readEventParticipantController.ts
 argglobal
 %argdel
 edit task.ts
@@ -33,12 +38,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 37 - ((36 * winheight(0) + 23) / 47)
+let s:l = 5 - ((4 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-37
-normal! 0
+5
+normal! 047|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
