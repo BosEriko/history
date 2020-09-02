@@ -224,7 +224,6 @@
 : 1575564055:0;g g "add details on login"
 : 1575564055:0;g g "add register page"
 : 1575564055:0;g g "add display option"
-: 1575564055:0;g co src/index.js
 : 1575564055:0;g co src/styles
 : 1575564055:0;g g "update full to screen on app.js"
 : 1575564055:0;g g "change container"
@@ -988,7 +987,6 @@ TAGLINE="El Psy Congroo\
 : 1579257381:0;dr-web rails g migration DropUsers
 : 1579257458:0;gwip remove devise files and created a dropusers migration
 : 1579257519:0;dr-web rake db:migrate
-: 1579257712:0;touch Gemfile.lock
 : 1579258242:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
 : 1579346803:0;dr-down && dr-up
 : 1579349100:0;dr-web rails g devise_token_auth:install User auth
@@ -1357,7 +1355,6 @@ TAGLINE="El Psy Congroo\
 : 1581733000:0;cowsay -l && fortune | cowsay -f vader-koala
 : 1581733004:0;cowsay -l && fortune | cowsay -f vader
 : 1581733009:0;cowsay -l && fortune | cowsay -f udder
-: 1581733014:0;cowsay -l && fortune | cowsay -f turtle
 : 1581733018:0;cowsay -l && fortune | cowsay -f turkey
 : 1581733024:0;cowsay -l && fortune | cowsay -f three-eyes
 : 1581733028:0;cowsay -l && fortune | cowsay -f telebears
@@ -1419,7 +1416,6 @@ TAGLINE="El Psy Congroo\
 : 1581858507:0;rm ~/stow-test-file && stow stow-test
 : 1581858518:0;rm -rf stow-test-file
 : 1581858528:0;rm -rf stow-test
-: 1581904961:0;git --help
 : 1581904964:0;git --help | lolcolor
 : 1581905584:0;brew install lolcolor
 : 1581906018:0;bos -h | lolcat
@@ -1532,7 +1528,6 @@ module.exports = withCSS({}); fg
 : 1582800845:0;git add vim tmux config
 : 1582800855:0;git commit -m "move to xcode theme"
 : 1582804029:0;Mozilla
-: 1582804037:0;a
 : 1582805810:0;code -h
 : 1582806319:0;git add vscodium config
 : 1582806334:0;git commit -m "move windows setting for vscode to config"
@@ -1569,7 +1564,6 @@ module.exports = withCSS({}); fg
 : 1583057424:0;g g "fix git problems"
 : 1583057456:0;g h
 : 1583057744:0;g g "remove unwanted plugins"
-: 1583057916:0;bos -vs backup
 : 1583058167:0;g g "sort plugins"
 : 1583058390:0;.history
 : 1583118646:0;g pl -u origin master
@@ -1718,7 +1712,6 @@ end
 : 1583633687:0;npm --version
 : 1583633716:0;bos -y upgrade
 : 1583633746:0;~/.dotfiles/install/modules/node.sh
-: 1583638746:0;g br
 : 1583641755:0;yarn isntall
 : 1583642614:0;g g "[Hotfix] Remove Firebase"
 : 1583642664:0;g g "[Hotfix] Add package-lock.json to gitignore"
@@ -1765,7 +1758,6 @@ end
 : 1583675104:0;g g "[Hotfix] Add types for node"
 : 1583720344:0;tldr ts-node
 : 1583720350:0;man ts-node
-: 1583720355:0;ts-node --help
 : 1583722796:0;g g "clean"
 : 1583723097:0;g co issue-6-Clean_unused_files
 : 1583723116:0;g g "update template issues for PR"
@@ -2072,7 +2064,6 @@ end
 : 1585200851:0;code components/event/LyonEventStreamsSectionTitle/index.tsx
 : 1585210271:0;g b hotfix-revert-check-manager-method
 : 1585210280:0;g co hotfix-revert-check-manager-method
-: 1585210314:0;g c -m "revert"
 : 1585210317:0;g ps origin hotfix-revert-check-manager-method
 : 1585215000:0;code components/event/LyonEvent/index.tsx
 : 1585215265:0;g diff components/event/LyonEvent/index.tsx
@@ -2176,7 +2167,6 @@ end
 : 1585535891:0;g c -m "remove hardcoded booleans"
 : 1585535897:0;g ps origin feature-event-page\
 
-: 1585537215:0;code .
 : 1585544694:0;git reset --hard origin/feature-event-page
 : 1585554237:0;g co -b feature-provider-facing-event-management-pane
 : 1585562224:0;g c -m "remove hard code isProvider"
@@ -2423,7 +2413,6 @@ end
 : 1586955982:0;yarn add @types/react
 : 1586956118:0;g c -m "add types for node and react"
 : 1586956132:0;g c -m "add _app.tsx"
-: 1586956627:0;y
 : 1586956964:0;g c -m "initialize firebase"
 : 1586999042:0;g c -m "add utils folder with authentication in it"
 : 1587001018:0;g c -m "move authentication files into a single file"
@@ -2463,7 +2452,6 @@ end
 : 1587194109:0;g c -m "add env on next.config.js"
 : 1587194156:0;g c -m "move _app and _document back to jsx"
 : 1587194178:0;g c -m "update authentication file"
-: 1587194186:0;g c -m "update yarn.lock"
 : 1587194941:0;g c -m "minimize the authorization code"
 : 1587195056:0;g c -m "remove function block from authentication file"
 : 1587195271:0;g c -m "add API_URL to next.config.js"
@@ -2681,7 +2669,6 @@ end
 : 1588318294:0;cowsay -l && cowsay -f mutilated "Lyon CLI anyone?"
 : 1588318307:0;cowsay -l && cowsay -f vader "Lyon CLI anyone?"
 : 1588318313:0;cowsay -l && cowsay -f turtle "Lyon CLI anyone?"
-: 1588318367:0;cowsay -l && cowsay -f turtle "Lyon CLI anyone?" | lolcat
 : 1588318649:0;grep --help
 : 1588318654:0;tldr grep
 : 1588318675:0;tldr cat
@@ -2716,7 +2703,6 @@ end
 : 1588386436:0;vi log
 : 1588391625:0;g co issue-100-Task_Authentication_using_Google/Twitter/GitHub/Facebook/Email
 : 1588391646:0;g a yarn.lock
-: 1588391656:0;git add yarn.lock
 : 1588460631:0;jt denik
 : 1588464603:0;g co -b feature-authentication
 : 1588473740:0;g c -m "remove import of firebase"
@@ -2793,14 +2779,12 @@ exit
 : 1589104715:0;ts
 : 1589113497:0;cmatrix
 : 1589113507:0;cowsay
-: 1589113516:0;cowsay hahaha
 : 1589113518:0;figlet
 : 1589113520:0;figlet test
 : 1589113522:0;fortune
 : 1589113537:0;joplin
 : 1589113571:0;links facebook.com
 : 1589113597:0;pastel
-: 1589113647:0;sl
 : 1589113889:0;g lol |grep "[THEME]"
 : 1589113902:0;g lol |grep "THEME"
 : 1589113905:0;g lol |grep "theme"
@@ -2902,12 +2886,9 @@ exit
 : 1590056427:0;pg_ctl -D /usr/local/var/postgres -l logfile start
 : 1590056848:0;rm -r /usr/local/var/postgres
 : 1590056885:0;brew services start postgresql
-: 1590056891:0;psql boserikoreyes
 : 1590056953:0;initdb -D "/usr/local/var/postgres"
-: 1590056958:0;pg_ctl -D /usr/local/var/postgres start && brew services start postgresql
 : 1590056966:0;brew services stop postgresql
 : 1590056974:0;pg_ctl -D /usr/local/var/postgres start && brew services start postgresql
-: 1590056979:0;psql
 : 1590056984:0;psql boserikoreyes
 : 1590057004:0;psql --command="create database boserikoreyes;"
 : 1590057056:0;postgres -v
@@ -2916,2436 +2897,453 @@ exit
 : 1590057118:0;- postgres
 : 1590057121:0;postgres
 : 1590057163:0;createdb boserikoreyes
-: 1590057165:0;psql
-: 1590057170:0;yarn dev
-: 1590057203:0;psql --command="\l"
 : 1590057215:0;psql --command="create database lyon_development;"
-: 1590057272:0;yarn dev
-: 1590057302:0;psql
 : 1590057380:0;netstat -plunt |grep postgres
-: 1590057444:0;psql
-: 1590057477:0;yarn dev
-: 1590057616:0;rm -rf node_modules yarn.lock && yarn install
-: 1590057760:0;yarn dev
-: 1590057931:0;g pl origin feature-event-participants
-: 1590057942:0;g lol
-: 1590057947:0;g bnc
-: 1590057953:0;g lol
-: 1590057955:0;g s
 : 1590057961:0;vi logfile
 : 1590057972:0;rm -rf logfile
-: 1590057978:0;la
-: 1590057979:0;g s
-: 1590057983:0;g bnc
-: 1590057985:0;g ps origin feature-profile-endpoints
-: 1590109357:0;exit
 : 1590109425:0;brew cask install alacritty
 : 1590109598:0;lkajsdlfkajsdlfkj
-: 1590109599:0;exit
-: 1590109608:0;jt dotfiles
-: 1590109609:0;vi
-: 1590109837:0;exit
-: 1590109880:0;jt dotfiles
-: 1590109881:0;vi
-: 1590109937:0;jt work
-: 1590109939:0;la
 : 1590109942:0;cd lyon-api-server
 : 1590109974:0;brew cask install kitty
 : 1590110161:0;laksdjflaksdjflaksdjf
-: 1590110163:0;vi
-: 1590110342:0;la
-: 1590110359:0;jt dotfiles
-: 1590110360:0;g d
-: 1590110362:0;g s
-: 1590110389:0;la
 : 1590110421:0;touch ./config/.gitignore
-: 1590110440:0;vi
-: 1590110461:0;g d
-: 1590110474:0;g a
-: 1590110480:0;g s
-: 1590110494:0;touch .gitignore
 : 1590110496:0;vi .gitignore
-: 1590110518:0;g s
-: 1590110604:0;git reset --hard origin/master
-: 1590110615:0;g pl origin master
-: 1590112031:0;jt work
-: 1590112033:0;la
-: 1590112056:0;mv lyon-html-renderer lyon/html-renderer
-: 1590112064:0;mv lyon-api-server lyon/api-server
-: 1590112065:0;la
 : 1590112071:0;mkdir lyon
 : 1590112073:0;mv lyon-api-server lyon/api-server
 : 1590112075:0;mv lyon-html-renderer lyon/html-renderer
-: 1590112076:0;la
-: 1590112078:0;cd lyon
-: 1590112078:0;la
-: 1590112087:0;..
-: 1590112087:0;la
 : 1590112093:0;touch kaizen-studios
 : 1590112097:0;rm -rf kaizen-studios
 : 1590112101:0;mkdir kaizen-studios
 : 1590112105:0;mkdir kuru-anime
-: 1590112105:0;la
-: 1590112256:0;cd lyon
-: 1590112256:0;la
-: 1590112262:0;cd api-server
-: 1590112270:0;../html-renderer
-: 1590114147:0;vi
-: 1590114149:0;yarn dev
-: 1590114150:0;vi
-: 1590114151:0;yarn dev
-: 1590114184:0;g co feature-profile-page-overhaul
-: 1590114187:0;g pl origin feature-profile-page-overhaul
-: 1590114267:0;yarn dev
-: 1590115064:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
-: 1590115120:0;whoami
 : 1590115130:0;pg_restore --verbose --username=$(whoami) --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1590115146:0;yarn dev
-: 1590115219:0;g co develop
-: 1590115244:0;yarn dev
-: 1590115278:0;g co develop
-: 1590115289:0;g s
-: 1590115292:0;g st
-: 1590115298:0;yarn dev
-: 1590115315:0;g co feature-profile-page-overhaul
-: 1590115318:0;g st
-: 1590115320:0;g co feature-profile-page-overhaul
-: 1590115327:0;g co feature-profile-endpoints
-: 1590115336:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1590115525:0;brew services list
-: 1590115532:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1590115735:0;psql
-: 1590115900:0;yarn dev
-: 1590115904:0;g d
-: 1590115908:0;g lol
-: 1590115910:0;g s
-: 1590115912:0;g co yarn.lock
-: 1590115914:0;g d
-: 1590115928:0;g s
-: 1590115929:0;g d
-: 1590115934:0;yarn dev
-: 1590116072:0;gtop
-: 1590116165:0;htop
-: 1590117609:0;vi
-: 1590117611:0;yarn dev
-: 1590117613:0;vi
-: 1590117615:0;yarn dev
-: 1590118699:0;jt dotfiles
-: 1590118704:0;vi
-: 1590125071:0;g a
-: 1590125255:0;g reset
-: 1590125256:0;g a
 : 1590125277:0;g c -m "change event endpoint to event participated"
-: 1590125278:0;g bnc
-: 1590125282:0;g ps origin feature-profile-endpoints
-: 1590125830:0;g bnc
-: 1590125832:0;g pl origin feature-profile-page-overhaul
-: 1590125842:0;g a
-: 1590125850:0;g bnc
 : 1590125858:0;g c -m "change the url of participated events"
-: 1590126021:0;g a
 : 1590126045:0;g c -m "rename purchased events to participated events"
-: 1590126046:0;g bnc
-: 1590126049:0;g ps origin feature-profile-page-overhaul
 : 1590129769:0;g co components/profile/LyonProfile/LyonProfileTabs/LyonProfileTabsSeminars/index.tsx
-: 1590130562:0;g d
-: 1590130572:0;g a
 : 1590130616:0;g c -m "update the participated events scope model, fix the industry-subscriptions swr, add provider for participated events"
-: 1590130617:0;g bnc
-: 1590130620:0;g ps origin feature-profile-page-overhaul
-: 1590130672:0;g d
-: 1590130684:0;g s
-: 1590130691:0;g co feature-profile-page-overhaul
-: 1590130696:0;g s
 : 1590130706:0;g co components/event-card/LyonEventCard/index.tsx
-: 1590130736:0;g st
-: 1590131095:0;g a
 : 1590131123:0;g c -m "update the example data"
-: 1590131124:0;g bnc
 : 1590131127:0;g ps origin feature-profile-page-overhaul
-: 1590135740:0;jt dotfiles
-: 1590135741:0;vi
-: 1590135793:0;g a
 : 1590135808:0;g c -m "add app store and google play on the list of game providers"
-: 1590135809:0;g bnc
-: 1590135812:0;g ps origin master
-: 1590136600:0;vi
-: 1590136604:0;yarn dev
-: 1590136605:0;vi
-: 1590136607:0;yarn dev
-: 1590136761:0;g a
 : 1590136783:0;g c -m "remove the filter that takes approved events only"
-: 1590136784:0;g bnc
-: 1590136787:0;g ps origin feature-profile-endpoints
-: 1590137367:0;g a
 : 1590137376:0;g c -m "use relations"
-: 1590137376:0;g bnc
-: 1590137378:0;g ps origin feature-profile-endpoints
-: 1590139509:0;g a
-: 1590140429:0;g lol
-: 1590140441:0;g bnc
-: 1590196565:0;down
-: 1590197334:0;jt personal
-: 1590197334:0;la
-: 1590197337:0;jt work
-: 1590197337:0;la
-: 1590197341:0;cd kaizen-studios
-: 1590197341:0;la
 : 1590197468:0;g clone git@github.com:kaizenstudios/denik-api-server.git
-: 1590197607:0;la
-: 1590197609:0;cd denik-api-server
-: 1590197610:0;la
 : 1590197622:0;g co -b feature-authentication-middleware
-: 1590197633:0;vi
-: 1590197680:0;g a
 : 1590197690:0;g co -m "add dotenv on script start"
 : 1590197695:0;g c -m "add dotenv on script start"
-: 1590197696:0;g bnc
-: 1590197699:0;g ps origin feature-authentication-middleware
-: 1590199180:0;yarn install
-: 1590202875:0;la
 : 1590202876:0;tree
-: 1590202879:0;la
 : 1590202899:0;mkdir src/controller
 : 1590202950:0;mkdir src/middleware
 : 1590202958:0;mkdir src/middleware/User
 : 1590202967:0;touch src/middleware/User/userSetCurrentUserMiddleware.ts
-: 1590203106:0;g d
-: 1590203107:0;g s
-: 1590203109:0;g a
 : 1590203173:0;g c -m "create controller and middleware for user token verification"
-: 1590203174:0;g bnc
-: 1590203177:0;g ps origin feature-authentication-middleware
-: 1590207358:0;jt work
-: 1590207359:0;la
 : 1590207362:0;cd lyon/
-: 1590207363:0;la
-: 1590207365:0;cd api-server
-: 1590207365:0;la
-: 1590207367:0;vi
-: 1590209320:0;g a
 : 1590209337:0;g c -m "add a TODO for the problem with userGetByTokenAction"
-: 1590209338:0;g bnc
-: 1590209339:0;g ps origin feature-authentication-middleware
 : 1590209376:0;vi ~/Downloads/kaizen-studios-firebase-adminsdk-28rjt-6f8b5b582d.json
-: 1590209688:0;g a
 : 1590209698:0;g c -m "update env name for db_url"
-: 1590209699:0;g bnc
-: 1590209702:0;g ps origin feature-authentication-middleware
-: 1590209885:0;yarn dev
-: 1590219712:0;gtop
-: 1590229075:0;jt personal
-: 1590229077:0;jt work
-: 1590229077:0;la
-: 1590229083:0;cd kaizen-studios
-: 1590229084:0;la
-: 1590229087:0;cd denik-api-server
 : 1590229088:0;vi .env
-: 1590231901:0;jt work
-: 1590231902:0;la
-: 1590231905:0;cd kaizen-studios
-: 1590231906:0;la
 : 1590231908:0;cd denik-api-server
-: 1590231909:0;vi
-: 1590232079:0;...
-: 1590232079:0;la
-: 1590232081:0;cd lyon
-: 1590232081:0;la
-: 1590232082:0;cd api-server
-: 1590232083:0;vi
-: 1590232340:0;g a
-: 1590232364:0;psql
-: 1590232505:0;jt work
-: 1590232506:0;la
-: 1590232508:0;cd lyon
-: 1590232509:0;cd api-server
-: 1590232513:0;vi
 : 1590233209:0;psql --command="ALTER USER boserikoreyes WITH PASSWORD 'boserikoreyes';"
-: 1590233213:0;psql
-: 1590233288:0;g d
-: 1590233575:0;g a
 : 1590233588:0;g c -m "create a user if it does not exist"
-: 1590233589:0;g bnc
 : 1590233591:0;g ps origin feature-authentication-middleware
-: 1590282957:0;down
-: 1590286910:0;g ps bitbucket master
 : 1590286917:0;cd .history
-: 1590286918:0;g ps bitbucket master
 : 1590286930:0;g ps
-: 1590286933:0;g ps origin master
 : 1590288286:0;g ps github master
 : 1590288304:0;g ps bitbucket master
-: 1590288660:0;jt work
-: 1590288660:0;la
-: 1590288665:0;cd kaizen-studios
-: 1590288665:0;la
 : 1590288671:0;mkdir denik
 : 1590288679:0;mv denik-api-server denik/api-server
-: 1590288682:0;cd denik
-: 1590288682:0;la
-: 1590288684:0;cd api-server
-: 1590288687:0;vi
-: 1590288708:0;yarn dev
-: 1590289637:0;psql
-: 1590296759:0;yarn dev
 : 1590296796:0;ts-node src/index.ts
-: 1590296826:0;yarn dev
-: 1590296871:0;psql --command="\l"
-: 1590315745:0;yarn dev
-: 1590316237:0;g a
-: 1590316256:0;g s
-: 1590316257:0;g reset
-: 1590316258:0;g a
-: 1590316282:0;g reset
 : 1590317838:0;tldr curl
-: 1590361206:0;jt work
-: 1590361206:0;la
-: 1590361208:0;cd lyon
-: 1590361209:0;la
-: 1590361211:0;cd api-server
-: 1590361217:0;../html-renderer
-: 1590363127:0;yarn install && vi
-: 1590363128:0;yarn dev
 : 1590363133:0;yarn install && vi
-: 1590364540:0;yarn dev
-: 1590369203:0;g bnc
-: 1590369206:0;g pl origin feature-profile-endpoints
 : 1590369216:0;g pl origin feature-event-participants
-: 1590369229:0;g d
-: 1590369233:0;g bnc
-: 1590369238:0;g ps origin feature-profile-endpoints
-: 1590370018:0;yarn dev
-: 1590370024:0;g bnc
-: 1590370029:0;g d
-: 1590370042:0;g bnc
-: 1590370044:0;g pl origin feature-profile-page-overhaul
-: 1590372579:0;g lol
 : 1590372595:0;components/certificate-card/LyonCertificateCardItemContainer/index.tsx
-: 1590372601:0;yarn dev
-: 1590373021:0;g lol
-: 1590373030:0;g pl origin feature-profile-page-overhaul
-: 1590379165:0;yarn dev
-: 1590379198:0;g s
-: 1590379199:0;g d
-: 1590379213:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1590394290:0;vi
-: 1590396778:0;yarn dev
-: 1590396779:0;vi
-: 1590396780:0;yarn dev
-: 1590452173:0;la
-: 1590452177:0;jt work
-: 1590452179:0;la
-: 1590452182:0;cd lyon
-: 1590452182:0;la
-: 1590452184:0;cd api-server
-: 1590452192:0;../html-renderer
-: 1590453438:0;yarn dev
-: 1590453439:0;vi
-: 1590453440:0;yarn dev
-: 1590453441:0;vi
-: 1590454256:0;g s
-: 1590454258:0;g d
-: 1590454289:0;g co components/profile/LyonProfile/LyonProfileTabs/LyonProfileTabsCertificates/index.tsx
-: 1590458093:0;g d
-: 1590458096:0;g s
-: 1590467762:0;g d
-: 1590467768:0;g s
-: 1590467780:0;g co components/certificate-modal/LyonCertificateModal.tsx
-: 1590469485:0;g d
-: 1590469987:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1590471407:0;g s
-: 1590471409:0;g d
-: 1590471411:0;g st
-: 1590471415:0;g bnc
-: 1590471418:0;g pl origin feature-profile-page-overhaul
-: 1590471428:0;g pl origin develop
-: 1590471437:0;g d
-: 1590471592:0;g bnc
-: 1590471599:0;git reset --hard origin/feature-profile-page-overhaul
-: 1590471602:0;g st pop
-: 1590471662:0;g d
-: 1590471672:0;g st
-: 1590471677:0;g d
-: 1590471688:0;git reset --hard origin/feature-profile-page-overhaul
-: 1590471695:0;g d
-: 1590471776:0;g bnc
-: 1590471808:0;g co develop
-: 1590471811:0;g pl origin develop
 : 1590471850:0;g co -b feature-profile-page-overhaul-updated
-: 1590471866:0;g pl origin feature-profile-page-overhaul
-: 1590471889:0;g d
-: 1590471892:0;g bnc
-: 1590471894:0;g a
-: 1590471899:0;g d
-: 1590471900:0;g s
-: 1590471910:0;g c -m "merge develop"
-: 1590471913:0;g bnc
 : 1590471919:0;g ps origin feature-profile-page-overhaul-updated
 : 1590471936:0;g co feature-profile-page-overhaul
-: 1590471939:0;g st pop
 : 1590471964:0;git reset --hard origin/feature-profile-page-overhaul
-: 1590472057:0;yarn dev
-: 1590472103:0;g lol
-: 1590472155:0;g log
 : 1590472165:0;g log |grep develop
-: 1590491620:0;jt work
-: 1590491620:0;la
-: 1590491622:0;cd kuru-anime
-: 1590491622:0;la
-: 1590491623:0;vi
-: 1590491651:0;jt work
-: 1590491651:0;la
-: 1590491654:0;cd kuru-anime
-: 1590491701:0;down
-: 1590491758:0;la
 : 1590491773:0;g clone git@github.com:kuru-project/discord-bot.git
-: 1590491799:0;gh pr checkout 22
-: 1590491801:0;la
-: 1590491803:0;cd discord-bot
 : 1590491805:0;gh pr checkout 22
-: 1590491828:0;la
-: 1590532817:0;down
-: 1590542475:0;jt work
-: 1590542475:0;la
-: 1590542480:0;cd lyon
-: 1590542481:0;cd api-server
-: 1590542482:0;vi
-: 1590542551:0;g co develop
-: 1590542556:0;g d
-: 1590542614:0;g pl origin develop
-: 1590543661:0;g co feature-profile-endpoints
-: 1590543663:0;g d
-: 1590543677:0;../html-renderer
-: 1590544283:0;vi
-: 1590544284:0;yarn dev
-: 1590544285:0;vi
-: 1590544286:0;yarn dev
-: 1590553961:0;g bnc
-: 1590553968:0;g st
-: 1590553971:0;g bnc
-: 1590553973:0;g pl origin feature-profile-page-overhaul
-: 1590553994:0;g co -b feature-profile-reward-certificate
-: 1590553997:0;g st apply
-: 1590553999:0;g d
-: 1590554012:0;g a
 : 1590554040:0;g c -m "enabled the certificates tab and add certificate for approved events"
-: 1590554041:0;g bnc
-: 1590554043:0;g ps origin feature-profile-reward-certificate
-: 1590557835:0;g d
-: 1590557853:0;g a
 : 1590557863:0;g c -m "add event completion date"
-: 1590557864:0;g bnc
-: 1590557872:0;g ps origin feature-profile-reward-certificate
-: 1590557876:0;g bnc
-: 1590557881:0;g pl origin feature-profile-endpoints
 : 1590557901:0;g co -b feature-profile-reward-certificate
-: 1590558410:0;g d
-: 1590558849:0;g s
 : 1590558857:0;g d src/models/payloads
-: 1590559200:0;g a
 : 1590559217:0;g c -m "add create date"
-: 1590559218:0;g bnc
-: 1590559219:0;g ps origin feature-profile-reward-certificate
-: 1590559223:0;g a
-: 1590559247:0;g s
-: 1590559260:0;g bnc
 : 1590559267:0;g c -m "pass createdAt"
-: 1590559269:0;g bnc
-: 1590559272:0;g ps origin feature-profile-reward-certificate
-: 1590561169:0;g a
 : 1590561189:0;g c -m "add date formatting"
-: 1590561190:0;g bnc
-: 1590561193:0;g ps origin feature-profile-reward-certificate
-: 1590561493:0;g a
 : 1590561513:0;g c -m "add event id to be used as a link"
-: 1590561514:0;g bnc
-: 1590561517:0;g ps origin feature-profile-reward-certificate
-: 1590572299:0;g d
 : 1590572321:0;g co feature-profile-endpoints
-: 1590572459:0;g a
-: 1590572473:0;g bnc
 : 1590572476:0;g pl origin feature-profile-endpoints
-: 1590572492:0;g a
 : 1590572508:0;g c -m "remove variable for PARTICIPANT_VALIDATOR"
-: 1590572511:0;g bnc
 : 1590572514:0;g ps origin feature-profile-endpoints
-: 1590632228:0;jt work
-: 1590632229:0;la
-: 1590632231:0;cd lyon
-: 1590632232:0;la
-: 1590632234:0;cd api-server
-: 1590633351:0;g b
-: 1590633361:0;g co feature-profile-reward-certificate
-: 1590633378:0;../html-renderer
-: 1590635654:0;vi
-: 1590635655:0;yarn dev
-: 1590635656:0;vi
-: 1590635657:0;yarn dev
-: 1590637434:0;g d
-: 1590637438:0;yarn dev
-: 1590638817:0;g d
-: 1590638832:0;yarn dev
-: 1590649780:0;g d
-: 1590649783:0;g st
-: 1590649789:0;g pl origin develop
-: 1590649798:0;g d
-: 1590649856:0;g s
 : 1590649873:0;rm -rf components/event-card/LyonEventCardLink/index.tsx
 : 1590649889:0;g co origin/develop -- components/event-card/LyonEventCardLink/index.tsx
-: 1590649916:0;g s
-: 1590649924:0;g c -m "merge develop"
-: 1590649926:0;g bnc
-: 1590649929:0;g ps origin feature-profile-reward-certificate
-: 1590650002:0;g lol
-: 1590650087:0;g reset 1e3aa98
-: 1590650090:0;g st
-: 1590650093:0;g lol
-: 1590650114:0;g pl origin feature-profile-page-overhaul
-: 1590650123:0;g d
-: 1590650144:0;g s
-: 1590650148:0;g clean -fd
 : 1590650152:0;g pl origin feature-profile-page-overhaul
-: 1590650277:0;g bnc
-: 1590650285:0;git reset --hard origin/feature-profile-reward-certificate
 : 1590650289:0;g reset 1e3aa98
-: 1590650291:0;g clean -fd
-: 1590650295:0;g st
-: 1590650296:0;g lol
-: 1590650331:0;g bnc
 : 1590650337:0;g ps --force origin feature-profile-reward-certificate
-: 1590650383:0;g b
-: 1590650395:0;g bnc
 : 1590650403:0;g diff feature-profile-page-overhaul..feature-profile-reward-certificate
 : 1590650435:0;g status feature-profile-page-overhaul..feature-profile-reward-certificate
-: 1590651818:0;vi
-: 1590653246:0;g st apply
-: 1590653251:0;g st
-: 1590653263:0;git stash show -p stash@{1}
-: 1590653273:0;git stash list
-: 1590653284:0;git stash show -p stash@{0}
-: 1590653297:0;git stash list
 : 1590653311:0;git stash show -p stash@{2}
 : 1590653315:0;git stash show -p stash@{3}
 : 1590653327:0;git stash apply stash@{3}
-: 1590654829:0;g bnc
-: 1590655783:0;g a
-: 1590655803:0;g d
-: 1590655804:0;g s
 : 1590655821:0;g c -m "add fake data to certificate route"
-: 1590655822:0;g bnc
-: 1590655828:0;g ps origin feature-profile-reward-certificate
-: 1590655867:0;g st
 : 1590655875:0;g co origin/develop -- components/certificate-modal/LyonCertificateModal.tsx
-: 1590656319:0;g a
-: 1590656335:0;g s
 : 1590656343:0;g c -m "add data to fake url"
-: 1590656347:0;g bnc
-: 1590656350:0;g ps origin feature-profile-reward-certificate
-: 1590669831:0;jt work
-: 1590669831:0;la
-: 1590669833:0;cd kuru-anime
-: 1590669834:0;la
 : 1590669849:0;discord-bot
-: 1590669852:0;g co master
-: 1590669855:0;g pl origin master
-: 1590669885:0;vi
-: 1590669989:0;yarn dev
 : 1590670001:0;yarn watch
 : 1590670008:0;yarn install && yarn watch
-: 1590670756:0;down
-: 1590719332:0;jt personal
-: 1590719334:0;la
-: 1590719335:0;cd lyon
-: 1590719337:0;jt work
-: 1590719338:0;lyon
-: 1590719339:0;la
-: 1590719342:0;cd api-server
-: 1590719343:0;vi
-: 1590720069:0;g co develop
-: 1590720072:0;g d
-: 1590720076:0;g s
-: 1590720077:0;g d
-: 1590720094:0;g a
 : 1590720113:0;g c -m "add back the proper certificate endpoint"
-: 1590720118:0;g bnc
-: 1590720120:0;g ps origin feature-profile-reward-certificate
-: 1590720131:0;g stash
-: 1590720135:0;g co develop
-: 1590720139:0;g bnc
-: 1590720144:0;g pl origin develop
 : 1590720200:0;g co -b hotfix-event-customer-list
-: 1590720204:0;g st apply
-: 1590720207:0;g d
-: 1590720215:0;vi
-: 1590720250:0;g d
-: 1590720254:0;g s
-: 1590720256:0;g reset
-: 1590720260:0;g s
-: 1590720262:0;g bnc
-: 1590720266:0;g ps origin hotfix-event-customer-list
-: 1590722277:0;down
-: 1590725543:0;yarn dev
-: 1590725562:0;gh pr checkout 213
-: 1590725573:0;../html-renderer
 : 1590725579:0;gh pr checkout 213
-: 1590725603:0;yarn dev
-: 1590725608:0;g d
-: 1590727200:0;vi
-: 1590733870:0;g bnc
-: 1590733874:0;g st
 : 1590733877:0;g pl origin hotfix-event-customer-list
-: 1590734356:0;g a
 : 1590734367:0;g c -m "add create event participant"
-: 1590734368:0;g bnc
-: 1590734373:0;g ps origin hotfix-event-customer-list
-: 1590734777:0;yarn dev
-: 1590734783:0;g d
-: 1590734794:0;g st apply
-: 1590736986:0;g d
-: 1590736999:0;g a
 : 1590737060:0;g c -m "change the controller for geteventcustomers"
-: 1590737093:0;g bnc
-: 1590737096:0;g ps origin hotfix-event-customer-list
-: 1590737140:0;../html-renderer
-: 1590737141:0;vi
-: 1590737147:0;g co develop
-: 1590737153:0;g s
-: 1590737154:0;g d
-: 1590737157:0;g pl origin develop
-: 1590737206:0;yarn dev
 : 1590737306:0;yarn install && yarn dev
-: 1590737836:0;g a
-: 1590737847:0;g d
-: 1590737943:0;g a
 : 1590738097:0;g c -m "minimize the code footprint of event customers\
 "
-: 1590738101:0;g bnc
-: 1590738104:0;g ps origin hotfix-event-customer-list
-: 1590741146:0;g a
-: 1590741181:0;g bnc
 : 1590741190:0;g c -m "remove the adding of event participant to dragon pay"
-: 1590741193:0;g ps origin hotfix-event-customer-list
-: 1590743225:0;g a
 : 1590743245:0;g c -m "use payload"
-: 1590743246:0;g bnc
-: 1590743249:0;g ps origin hotfix-event-customer-list
-: 1590743443:0;g a
 : 1590743488:0;g c -m "check if event participant exists first before using map"
-: 1590743489:0;g bnc
 : 1590743492:0;g ps origin hotfix-event-customer-list
-: 1590794345:0;jt work
-: 1590794348:0;cd lyon
-: 1590794349:0;la
-: 1590794350:0;vi
 : 1590830898:0;if true; then\
 echo "tae"\
 fi
-: 1590831676:0;jt personal
 : 1590831710:0;g clone git@github.com:BosEriko/Vieb.git
-: 1590831721:0;la
 : 1590831723:0;cd vieb
-: 1590831725:0;yarn install
-: 1590831766:0;vi
-: 1590831819:0;yarn start
-: 1590834476:0;g st
-: 1590834479:0;yarn start
 : 1590834651:0;vi ~/Downloads/chromium.viebrc
-: 1590835035:0;yarn start
-: 1590835771:0;jt dotfiles
-: 1590835775:0;vi
-: 1590836386:0;g a
-: 1590836394:0;g d
-: 1590836395:0;g s
-: 1590836400:0;git add .
-: 1590836402:0;g d
 : 1590836412:0;g c -m "add viebrc"
-: 1590836414:0;g bnc
-: 1590836417:0;g ps origin master
 : 1590836447:0;install/modules/dotfiles.sh
-: 1590836461:0;vi ~/.viebrc
-: 1590836475:0;g d
-: 1590836494:0;g st
-: 1590836536:0;g d
-: 1590836542:0;g s
-: 1590836555:0;g st
-: 1590836557:0;g clean -fd
 : 1590836586:0;vi ~/.viebrc
-: 1590836594:0;yarn start
-: 1590836751:0;g a
-: 1590836862:0;vi
-: 1590836877:0;yarn start
 : 1590836911:0;g c -m "add previous and next tab hotkeys for vieb"
-: 1590836919:0;g ps origin master
-: 1590836988:0;g d
-: 1590837047:0;yarn start
-: 1590837115:0;g d
-: 1590837150:0;yarn start
-: 1590837163:0;g d
-: 1590837169:0;g st
-: 1590837200:0;yarn start
-: 1590837489:0;g st
-: 1590837515:0;yarn start
-: 1590837524:0;g st
-: 1590837670:0;yarn start
 : 1590837737:0;rm -rf app/img/icons/1024x1024.png
 : 1590837746:0;curl https://images.discordapp.net/avatars/544299097121882113/f45728fa365f6162680b99155fc51606.png\?size\=512 > app/img/icons/1024x1024.png
-: 1590837754:0;yarn start
-: 1590837806:0;g d
-: 1590837811:0;g s
-: 1590837878:0;yarn start
 : 1590837916:0;mv app/img/icons/1024x1024.png app/img/icons/personal.png
-: 1590837928:0;g d
-: 1590837934:0;g s
 : 1590837965:0;g co app/img/icons/1024x1024.png
-: 1590837966:0;g d
-: 1590838008:0;g s
-: 1590838060:0;vi
-: 1590838063:0;yarn start
-: 1590838114:0;g st
-: 1590838116:0;g clean -fd
 : 1590838139:0;yarn install && yarn start
-: 1590838907:0;yarn start
-: 1590839053:0;g a
 : 1590839068:0;g c -m "add quit vieb and close tab"
-: 1590839071:0;g ps origin master
-: 1590839280:0;yarn start
-: 1590839300:0;g a
-: 1590839475:0;yarn start
-: 1590839521:0;g a
 : 1590839531:0;g c -m "enable mouse support"
-: 1590839531:0;g bnc
-: 1590839534:0;g ps origin master
-: 1590839541:0;yarn start
-: 1590842227:0;jt dotfiles
-: 1590842228:0;vi
-: 1590847854:0;jt personal
-: 1590847866:0;la
-: 1590847868:0;cd Vieb
-: 1590847871:0;vi
-: 1590899411:0;jt personal
-: 1590899412:0;la
 : 1590899414:0;cd Vieb
-: 1590899415:0;la
-: 1590899417:0;g d
-: 1590899418:0;g s
-: 1590899425:0;vi
 : 1590899446:0;yarn buildmac
 : 1590899580:0;less package.json
-: 1590899588:0;yarn start
-: 1590978567:0;jt work
-: 1590978567:0;la
-: 1590978569:0;cd kuru-anime
-: 1590978569:0;la
-: 1590978572:0;cd discord-bot
-: 1590978572:0;la
-: 1590978598:0;vi
-: 1590978623:0;g a
 : 1590978651:0;g c -m "[Hotfix] Rename watch to dev on yarn scripts"
-: 1590978654:0;g ps origin master
-: 1590978659:0;g remote -v
-: 1590978660:0;g so
-: 1590978669:0;g ps origin master
-: 1590978720:0;yarn dev
-: 1590978727:0;g a
 : 1590978777:0;g c -m "[Hotfix] Add an interface on Axios and fix a few eslint errors"
-: 1590978779:0;g ps origin master
-: 1590979059:0;jt work
-: 1590979059:0;la
-: 1590979061:0;cd lyon
-: 1590979062:0;la
-: 1590979065:0;cd api-server
-: 1590979065:0;la
-: 1590979066:0;vi
-: 1591063927:0;jt work
-: 1591063928:0;la
-: 1591063930:0;cd lyon
-: 1591063934:0;cd api-server
-: 1591063952:0;g co feature-profile-reward-certificate
-: 1591063956:0;g st
-: 1591063959:0;g co feature-profile-reward-certificate
-: 1591063961:0;g st pop
-: 1591063964:0;g d
-: 1591063973:0;git reset --hard origin/feature-profile-reward-certificate
-: 1591063976:0;g lol
-: 1591064377:0;../html-renderer
-: 1591064385:0;g bnc
-: 1591064397:0;g co feature-profile-reward-certificate
-: 1591064400:0;g st
-: 1591064404:0;g co feature-profile-reward-certificate
-: 1591067432:0;g bnc
-: 1591067435:0;g pl origin feature-profile-reward-certificate
-: 1591067451:0;vi
-: 1591067480:0;g lol
-: 1591069390:0;yarn dev
-: 1591072081:0;g bnc
-: 1591072084:0;g pl origin feature-profile-reward-certificate
-: 1591072092:0;yarn dev
-: 1591072097:0;vi
-: 1591072762:0;g a
 : 1591072800:0;g c -m "move the array to ctx.body"
-: 1591081646:0;g d
-: 1591083216:0;g a
 : 1591083238:0;g c -m "add a get participant events"
-: 1591083240:0;g bnc
-: 1591083244:0;g a
-: 1591083273:0;g reset
-: 1591083276:0;g a
-: 1591083317:0;g d
-: 1591083318:0;g s
 : 1591083341:0;g c -m "initial certificates"
-: 1591083342:0;g bnc
-: 1591083345:0;g ps origin feature-profile-reward-certificate
-: 1591093870:0;g d
-: 1591093874:0;g a
 : 1591094028:0;g c -m "use single quote instead of \`'
 : 1591094030:0;g c -m "use single quote instead of \`"
-: 1591094110:0;g d
-: 1591094113:0;g st
-: 1591094116:0;g co develop
-: 1591094118:0;g st apply
-: 1591094122:0;g d
 : 1591094239:0;rm -rf src/models/entities/Discount.ts
 : 1591094241:0;g co src/models/entities/Discount.ts
-: 1591094245:0;g d
-: 1591094247:0;g s
 : 1591094277:0;g co origin/develop -- src/models/entities/Discount.ts
-: 1591094279:0;g d
-: 1591094348:0;g co origin/develop
-: 1591094350:0;g d
-: 1591094364:0;g s
 : 1591094372:0;qg reset
-: 1591094373:0;g reset
 : 1591094391:0;g co origin/develop
-: 1591094396:0;g d
-: 1591094408:0;git reset --hard origin/develop
-: 1591094435:0;g pl origin develop
-: 1591094511:0;g co -b feature-github-templates
-: 1591094536:0;g co develop
-: 1591094540:0;g pl origin develop
 : 1591094558:0;g co -b feature-github-templates
 : 1591095163:0;cp -rf ../../kaizen-studios/denik/api-server/.github
 : 1591095173:0;cp ../../kaizen-studios/denik/api-server/.github
-: 1591095183:0;cp -rf ../../kaizen-studios/denik/api-server/.github .github
-: 1591095185:0;g d
 : 1591095201:0;cp -rf ../../kaizen-studios/denik/api-server/.github .github
-: 1591095340:0;vi
-: 1591095375:0;g d
-: 1591095377:0;g s
-: 1591095991:0;g a
-: 1591096000:0;g d
-: 1591096002:0;g s
 : 1591096007:0;g c -m "add templates"
-: 1591096010:0;g a
 : 1591096019:0;g c -m "add templates\
 "
-: 1591096021:0;g bnc
 : 1591096028:0;g ps origin feature-github-templates
-: 1591152578:0;jt work
-: 1591152578:0;la
-: 1591152584:0;cd lyon
-: 1591152671:0;cd api-server
-: 1591152681:0;g co feature-profile-reward-certificate
-: 1591152685:0;g st apply
-: 1591152700:0;../html-renderer
-: 1591152705:0;g co feature-profile-reward-certificate
-: 1591152713:0;vi
-: 1591152714:0;yarn dev
-: 1591152715:0;vi
-: 1591152716:0;yarn dev
-: 1591160835:0;g a
 : 1591160860:0;g c -m "move the certificate details to controller"
-: 1591160876:0;g bnc
-: 1591160880:0;g ps origin feature-profile-reward-certificate
-: 1591171024:0;g a
 : 1591171119:0;g c -m "add a temporary way to create a reward certificate"
-: 1591171120:0;g bnc
-: 1591171123:0;g ps origin feature-profile-reward-certificate
-: 1591176487:0;g d
-: 1591176504:0;g s
-: 1591176507:0;g st
 : 1591176523:0;gh pr checkout 110
-: 1591241920:0;jt work
-: 1591241921:0;lyon
-: 1591241935:0;cd api-server
-: 1591241956:0;g co feature-profile-reward-certificate
-: 1591241959:0;g st apply
-: 1591241962:0;vi
-: 1591242576:0;g a
 : 1591242588:0;g c -m "update fake data"
-: 1591242828:0;../html-renderer
-: 1591242834:0;vi
-: 1591242903:0;yarn dev
-: 1591242908:0;g a
 : 1591242923:0;g c -m "make 5 arrays for the object fake data"
-: 1591242924:0;g bnc
-: 1591242926:0;g ps origin feature-profile-reward-certificate
-: 1591243829:0;g d
-: 1591243832:0;g st
-: 1591243839:0;g co develop
-: 1591243844:0;g pl origin develop
-: 1591243879:0;g st apply
-: 1591243882:0;g d
-: 1591243910:0;yarn dev
-: 1591245271:0;git reset --hard origin/develop
-: 1591245276:0;g co feature-profile-reward-certificate
-: 1591245278:0;g st apply
-: 1591251857:0;yarn dev
-: 1591252378:0;g d
-: 1591252380:0;g s
 : 1591252386:0;g d   associateUserToProviderSchema,\
 
 : 1591252389:0;g d src/routes/provider.ts
-: 1591252393:0;g co src/routes/provider.ts
-: 1591253995:0;g d
-: 1591253997:0;g s
 : 1591254006:0;g co src/routes/provider.ts
-: 1591254012:0;g co src/controllers
-: 1591254013:0;g d
-: 1591254014:0;g s
-: 1591254318:0;g d
-: 1591254321:0;g s
-: 1591254323:0;g st
-: 1591254326:0;g co develop
-: 1591254329:0;g pl origin develop
-: 1591254343:0;g st apply
-: 1591254464:0;g co develop
-: 1591254468:0;g pl origin develop
-: 1591254474:0;yarn dev
-: 1591259196:0;g d
-: 1591259203:0;g s
-: 1591259205:0;g reset
-: 1591265012:0;g s
-: 1591265015:0;g st
-: 1591265019:0;g co feature-profile-reward-certificate
-: 1591311372:0;jt work
-: 1591311376:0;cd lyon
-: 1591311377:0;la
-: 1591311378:0;cd api-server
-: 1591311379:0;vi
-: 1591325414:0;jt work
-: 1591325414:0;la
-: 1591325416:0;cd lyon
-: 1591325416:0;la
-: 1591325418:0;cd api-server
-: 1591325424:0;../html-renderer
-: 1591325432:0;g co feature-profile-reward-certificate
-: 1591325440:0;vi
-: 1591325442:0;yarn dev
-: 1591325443:0;vi
-: 1591325445:0;yarn dev
-: 1591325775:0;g a
 : 1591325789:0;g c -m "delete the unused controller on event participant"
-: 1591326857:0;g a
 : 1591326877:0;g c -m "remove event participant on the controller of certificates"
-: 1591326879:0;g bnc
-: 1591326882:0;g ps origin feature-profile-reward-certificate
-: 1591328127:0;g a
 : 1591328145:0;g c -m "update the controller of certificate details"
-: 1591328147:0;g bnc
-: 1591328153:0;g ps origin feature-profile-reward-certificate
-: 1591328457:0;g a
 : 1591328467:0;g c -m "add reward certificate type"
-: 1591329698:0;yarn dev
-: 1591330042:0;g a
 : 1591330066:0;g c -m "restructure"
-: 1591330067:0;g bnc
-: 1591330071:0;g ps origin feature-profile-reward-certificate
-: 1591330154:0;g a
-: 1591330182:0;g d
-: 1591330183:0;g s
 : 1591330190:0;g c -m "add todo comments"
-: 1591330191:0;g bnc
-: 1591330194:0;g ps origin feature-profile-reward-certificate
-: 1591330350:0;yarn dev
-: 1591330391:0;g a
 : 1591330405:0;g c -m "comment out certificate signatory type for now"
-: 1591330406:0;g bnc
-: 1591330420:0;g ps origin feature-profile-reward-certificate
-: 1591330458:0;g st apply
-: 1591330459:0;g d
-: 1591330464:0;g s
-: 1591330466:0;g reset
-: 1591330486:0;yarn dev
 : 1591332044:0;ga 
-: 1591332045:0;g a
 : 1591332065:0;g c -m "add undefined as type of getting certs"
-: 1591332066:0;g bnc
-: 1591332068:0;g ps origin feature-profile-reward-certificate
-: 1591338435:0;yarn dev
-: 1591338536:0;g d
-: 1591338541:0;yarn dev
-: 1591339717:0;psql --command="\l"
 : 1591340113:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/dump-postgres-202006051451.sql
-: 1591340241:0;yarn dev
-: 1591341455:0;g d
-: 1591346691:0;gtop
-: 1591348415:0;vi
-: 1591348419:0;g d
-: 1591348425:0;g a
 : 1591348435:0;g c -m "add another route"
-: 1591348436:0;g bnc
-: 1591348437:0;g ps origin feature-profile-reward-certificate
-: 1591348451:0;g d
-: 1591348454:0;g co develop
-: 1591348458:0;g st
-: 1591348464:0;g co develop
-: 1591348468:0;g pl origin develop
-: 1591348471:0;vi
-: 1591348476:0;g co develop
-: 1591348479:0;g pl origin develop
-: 1591348483:0;g st apply
-: 1591348504:0;yarn dev
-: 1591348532:0;g d
-: 1591348533:0;g s
-: 1591348535:0;g reset
-: 1591348536:0;g d
-: 1591348544:0;yarn dev
-: 1591348726:0;g co feature-profile-reward-certificate
-: 1591348735:0;g pl origin feature-profile-reward-certificate
-: 1591348752:0;g co feature-profile-reward-certificate
-: 1591348757:0;g co develop
 : 1591348763:0;g co src/models
-: 1591348764:0;g d
-: 1591348770:0;g co feature-profile-reward-certificate
-: 1591348773:0;g st apply
-: 1591348778:0;yarn dev
-: 1591350661:0;g a
 : 1591350691:0;g c -m "return approved event participant on the fake endpoint"
-: 1591351030:0;g a
 : 1591351052:0;g c -m "add user to the event participant"
-: 1591351055:0;g bnc
-: 1591351057:0;g ps origin feature-profile-reward-certificate
-: 1591352056:0;vi
-: 1591352234:0;g a
-: 1591352255:0;g d
-: 1591352258:0;g s
 : 1591352271:0;g d src/routes/certificate.t
-: 1591352276:0;g co src/routes/certificate.t
-: 1591352280:0;g s
 : 1591352296:0;g c -m "add fake cert"
 : 1591352299:0;g co src/routes/certificate.t
-: 1591352310:0;g co src/routes
-: 1591352579:0;g a
-: 1591352589:0;g bnc
-: 1591352590:0;g d
-: 1591352591:0;g s
 : 1591352597:0;g c -m "add fake data to controller"
-: 1591352614:0;g a
 : 1591352623:0;g c -m "remove fake data on routes"
-: 1591352624:0;g bnc
-: 1591352627:0;g ps origin feature-profile-reward-certificate
-: 1591352630:0;yarn dev
-: 1591354248:0;vi
-: 1591354289:0;g pl origin feature-profile-reward-certificate
-: 1591354297:0;g a
-: 1591354305:0;g bnc
-: 1591354308:0;g a
 : 1591354315:0;g c -m "change the url of certificates"
-: 1591354316:0;g bnc
-: 1591354318:0;g ps origin feature-profile-reward-certificate
-: 1591354680:0;g a
 : 1591354696:0;g c -m "remove the empty fields"
-: 1591354698:0;g bnc
-: 1591354700:0;g ps origin feature-profile-reward-certificate
-: 1591354821:0;g d
-: 1591354824:0;g st
-: 1591354968:0;g a
 : 1591354976:0;g c -m "change description verb"
-: 1591354977:0;g bnc
-: 1591354979:0;g ps origin feature-profile-reward-certificate
-: 1591354987:0;yarn dev
-: 1591355227:0;g a
 : 1591355234:0;g c -m "change cpd unit"
-: 1591355235:0;g bnc
-: 1591355237:0;g ps origin feature-profile-reward-certificate
-: 1591356373:0;g bnc
-: 1591356376:0;g pl origin feature-profile-reward-certificate
-: 1591357156:0;vi
-: 1591357805:0;g d
-: 1591358386:0;g a
 : 1591358418:0;g c -m "create scope model for certificate"
-: 1591358420:0;g bnc
-: 1591358423:0;g ps origin feature-profile-reward-certificate
-: 1591358918:0;g a
-: 1591358965:0;g d
-: 1591358974:0;g st
-: 1591359168:0;g st apply
-: 1591359175:0;g d
-: 1591359176:0;g s
 : 1591359184:0;g co components/certificate-modal/LyonCertificateModal.tsx
-: 1591359481:0;g d
-: 1591359867:0;yarn dev
-: 1591359978:0;g a
 : 1591359986:0;g c -m "update types"
-: 1591359987:0;g bnc
-: 1591359989:0;g ps origin feature-profile-reward-certificate
-: 1591360059:0;g a
 : 1591360067:0;g c -m "update desc and uuid"
-: 1591360078:0;g bnc
-: 1591360081:0;g ps origin feature-profile-reward-certificate
-: 1591360212:0;g d
-: 1591360277:0;yarn dev
-: 1591360389:0;g d
-: 1591360415:0;g st
-: 1591360420:0;g d
-: 1591360421:0;g s
-: 1591361292:0;g a
 : 1591361319:0;g c -m "update hard coded data and check first for event participants"
-: 1591361321:0;g bnc
-: 1591361323:0;g ps origin feature-profile-reward-certificate
-: 1591362044:0;g a
 : 1591362058:0;g c -m "remove the optional map"
-: 1591362059:0;g bnc
-: 1591362061:0;g ps origin feature-profile-reward-certificate
-: 1591362195:0;g d
-: 1591365253:0;g a
 : 1591365273:0;g c -m "remove the optional type"
-: 1591365274:0;g bnc
-: 1591365282:0;g ps origin feature-profile-reward-certificate
-: 1591365340:0;g d
-: 1591365341:0;g s
-: 1591365343:0;g st
-: 1591431714:0;down
-: 1591432686:0;jt work
-: 1591432687:0;la
-: 1591432689:0;cd kuru-anime
-: 1591432691:0;la
-: 1591432694:0;cd discord-bot
-: 1591432697:0;la
-: 1591432698:0;vi
-: 1591432703:0;yarn dev
-: 1591432908:0;yarn add @types/discord
-: 1591433013:0;g a
 : 1591433048:0;g c -m "[Hotfix] Add source type on the linter option and change some require to import"
-: 1591433049:0;g bnc
-: 1591433052:0;g ps origin master
-: 1591433330:0;g d
-: 1591433336:0;g lol
 : 1591433344:0;g revert master
-: 1591433350:0;g revert 678eb31
 : 1591433357:0;g reset 678eb31
-: 1591433358:0;g d
-: 1591433367:0;g st
-: 1591433378:0;g lol
 : 1591433410:0;g revert 678eb31
-: 1591433458:0;g ps origin master
-: 1591433495:0;git reset --hard origin/master
-: 1591433506:0;g lol
 : 1591433516:0;g revert 18aab8b
-: 1591433540:0;g lol
-: 1591433546:0;g ps origin master
-: 1591488616:0;jt work
-: 1591488616:0;la
-: 1591488618:0;cd kuru-anime
-: 1591488618:0;la
 : 1591488626:0;mkdir rails-server
 : 1591488630:0;rm -rf rails-server
-: 1591488818:0;ruby --version
 : 1591488873:0;vi Dockerfile
-: 1591488903:0;la
-: 1591488904:0;cd rails-api
-: 1591488925:0;vi
-: 1591489117:0;jt dotfiles
-: 1591489156:0;la
-: 1591489549:0;docker-compose run web rails new . --api --force --no-deps --database=postgresql
-: 1591490104:0;la
 : 1591490116:0;dr-web rails start
-: 1591490733:0;docker-compose build
-: 1591490753:0;vi
-: 1591490772:0;la
-: 1591490791:0;vi
-: 1591490810:0;docker-compose build
-: 1591490819:0;vi
-: 1591490823:0;la
-: 1591490824:0;..
-: 1591490825:0;la
 : 1591490827:0;cd rails-api
-: 1591490827:0;la
-: 1591490828:0;..
-: 1591490830:0;rm -rf rails-api
-: 1591490834:0;la
 : 1591490836:0;mkdir rails-api
-: 1591582811:0;jt personal
-: 1591582811:0;la
-: 1591582814:0;jt work
-: 1591582815:0;la
-: 1591582820:0;cd lyon
-: 1591582822:0;cd api-server
-: 1591582823:0;la
-: 1591582831:0;yarn dev
-: 1591582836:0;../html-renderer
-: 1591582842:0;yarn dev
-: 1591585551:0;vi
-: 1591590839:0;g d
 : 1591591576:0;eslint
 : 1591591579:0;eslint .
 : 1591591614:0;yarn lint:utils
-: 1591595342:0;g d
-: 1591597460:0;vi
-: 1591597775:0;yarn dev
-: 1591598728:0;vi
-: 1591598881:0;g a
 : 1591598893:0;g c -m "turn the cpd units into a number"
-: 1591598896:0;g a
-: 1591598913:0;yarn dev
-: 1591598914:0;g a
 : 1591598928:0;g c -m "add conditions to avoid errors"
-: 1591598929:0;g bnc
-: 1591598938:0;g ps origin feature-profile-reward-certificate
-: 1591605430:0;gtop
-: 1591613469:0;..
-: 1591613470:0;la
-: 1591613470:0;..
-: 1591613471:0;la
-: 1591613477:0;rm -rf .DS_Store
-: 1591613480:0;la
-: 1591613488:0;cd kuru-anime
-: 1591613490:0;la
 : 1591613494:0;rm -rf rails-api
-: 1591614121:0;la
 : 1591614145:0;g clone git@github.com:kuru-project/main-website-server.git
 : 1591614153:0;g clone git@github.com:kuru-project/main-website-client.git
-: 1591614166:0;la
 : 1591614207:0;mkdir website
 : 1591614213:0;mv main-website-client website/client
 : 1591614218:0;mv main-website-server website/server
-: 1591614223:0;..
-: 1591614224:0;la
-: 1591614227:0;cd kuru-anime
-: 1591614228:0;la
 : 1591614230:0;rm -rf website
-: 1591614255:0;la
 : 1591614257:0;git clone --recurse-submodules https://github.com/kuru-project/main-website.git
-: 1591614278:0;la
-: 1591614281:0;cd main-website
-: 1591614281:0;la
-: 1591614284:0;cd server
-: 1591614289:0;g pl origin master
-: 1591614294:0;vi
-: 1591614315:0;yarn dev
-: 1591614323:0;yarn install
-: 1591614326:0;yarn dev
-: 1591614404:0;la
-: 1591614405:0;g a
-: 1591614422:0;g c -m "[Hotfix] Add default port when PORT is unavailable"
-: 1591614424:0;g bnc
-: 1591614462:0;g lol
-: 1591614470:0;g co master
-: 1591614481:0;g lol
-: 1591614492:0;g a
 : 1591614497:0;g c -m "[Hotfix] Add default port when PORT is unavailable"
-: 1591614503:0;g ps origin master
-: 1591614507:0;la
-: 1591614509:0;g so
 : 1591614523:0;/
-: 1591614529:0;la
-: 1591614543:0;jt work
-: 1591614543:0;la
-: 1591614544:0;cd kuru-anime
-: 1591614545:0;la
-: 1591614546:0;cd main-website
-: 1591614547:0;la
-: 1591614549:0;cd server
-: 1591614549:0;la
-: 1591614552:0;g remote -v
-: 1591614557:0;g lol
-: 1591614582:0;g ps origin master
-: 1591614595:0;g lol
-: 1591614598:0;g remote -v
-: 1591614620:0;g so
-: 1591614625:0;g ps origin master
-: 1591673332:0;jt work
-: 1591673333:0;la
-: 1591673336:0;cd lyon
-: 1591673336:0;la
-: 1591673339:0;cd api-server
-: 1591673345:0;g bnc
-: 1591673348:0;g pl origin feature-profile-reward-certificate
-: 1591673358:0;vi
-: 1591673365:0;yarn dev
-: 1591673374:0;../html-renderer
-: 1591673376:0;g bnc
 : 1591673389:0;g pl origin feature-profile-reward-certificate
-: 1591673407:0;vi
-: 1591673414:0;yarn dev
-: 1591673507:0;g a
 : 1591673525:0;g c -m "move certificate controller to its own folder"
-: 1591673527:0;g bnc
-: 1591673532:0;g ps origin feature-profile-reward-certificate
-: 1591675617:0;g a
 : 1591675643:0;g c -m "getCertificateSignatoryById was moved to its own file"
-: 1591675644:0;g bnc
-: 1591675647:0;g ps origin feature-profile-reward-certificate
-: 1591675852:0;g a
 : 1591675865:0;g c -m "getCertificateSignatoryByProviderId was moved to its own file"
-: 1591675870:0;g bnc
-: 1591675872:0;g ps origin feature-profile-reward-certificate
-: 1591677276:0;g d
-: 1591677397:0;vi
-: 1591680451:0;g d
-: 1591680466:0;g s
-: 1591680478:0;g co src/controllers
-: 1591680486:0;la
-: 1591680489:0;g s
-: 1591680494:0;g co src/routes
-: 1591680497:0;g clean -fd
-: 1591680500:0;g s
-: 1591681089:0;g lol
-: 1591681292:0;g a
-: 1591681311:0;g reset
-: 1591681312:0;g a
 : 1591681325:0;g c -m "rename getProfileEventParticipatedController"
-: 1591681393:0;g a
 : 1591681405:0;g c -m "rename getProfileProviderSubscriptionsController"
-: 1591681493:0;g a
-: 1591681506:0;g d
-: 1591681508:0;g a
-: 1591681511:0;g s
 : 1591681535:0;g c -m "rename getProfileIndustrySubscriptionsController"
-: 1591681536:0;g bnc
-: 1591681538:0;g lol
-: 1591681542:0;g ps origin feature-profile-reward-certificate
-: 1591681609:0;g a
 : 1591681626:0;g c -m "rename getCertificateSignatoryByIdController"
-: 1591681697:0;g a
 : 1591681732:0;g c -m "rename getCertificateSignatoryByProviderIdController"
-: 1591681734:0;g bnc
-: 1591681737:0;g ps origin feature-profile-reward-certificate
-: 1591682124:0;g a
 : 1591682142:0;g c -m "move createCertificateSignatoryController to its own file"
-: 1591682330:0;g a
 : 1591682349:0;g c -m "move updateCertificateSignatoryController to its own file"
-: 1591682652:0;g a
 : 1591682675:0;g c -m "move deleteCertificateSignatoryController to its own file"
-: 1591682678:0;g bnc
-: 1591682681:0;g ps origin feature-profile-reward-certificate
-: 1591682808:0;g d
-: 1591682810:0;g s
-: 1591683005:0;g a
 : 1591683026:0;g c -m "move readCertificateByIdController to its own file"
-: 1591683527:0;g a
 : 1591683543:0;g c -m "move readCertificatesForUserController to its own file"
-: 1591683545:0;g bnc
-: 1591683547:0;g ps origin feature-profile-reward-certificate
-: 1591686772:0;yarn dev
-: 1591692642:0;down
-: 1591744108:0;jt personal
-: 1591744108:0;la
-: 1591744111:0;jt work
-: 1591744111:0;la
-: 1591744118:0;cd kuru-anime
-: 1591744119:0;la
-: 1591744120:0;cd main-website
-: 1591744120:0;la
-: 1591744122:0;cd server
-: 1591744123:0;la
-: 1591744128:0;vi
-: 1591744143:0;yarn dev
-: 1591744468:0;g pl origin master
-: 1591744476:0;g pl
 : 1591744540:0;g co issue-67-Task_Setup_Prisma
-: 1591744612:0;node --version
 : 1591744662:0;yarn add --dev @prisma/cli
-: 1591744704:0;g a
 : 1591744732:0;g c -m "Install Prisma and add a Prisma script starter"
-: 1591744734:0;g bnc
-: 1591744737:0;g ps origin issue-67-Task_Setup_Prisma
 : 1591744778:0;npx prisma init
-: 1591744904:0;psql --command="\l"
 : 1591744926:0;psql --command="create database kuru_development;"
-: 1591744946:0;psql --command="\l"
-: 1591745047:0;g a
 : 1591745069:0;g c -m "Initialize Prisma 2"
-: 1591745070:0;g bnc
-: 1591745072:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591745168:0;psql --version
 : 1591745184:0;node -v
-: 1591745277:0;g a
 : 1591745287:0;g c -m "add a list of prerequisites"
-: 1591745288:0;g bnc
-: 1591745290:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591745385:0;yarn dev
-: 1591747057:0;jt dotfiles
-: 1591747058:0;vi
-: 1591747102:0;g d
-: 1591747105:0;g st
-: 1591747109:0;g s
-: 1591747121:0;g clean -fd
-: 1591756908:0;jt work
-: 1591758335:0;la
-: 1591758337:0;cd lyon
-: 1591758337:0;la
-: 1591758339:0;cd api-server
-: 1591758347:0;../html-renderer
-: 1591758366:0;vi
-: 1591759580:0;yarn dev
-: 1591767064:0;g d
-: 1591767070:0;g s
 : 1591767099:0;g co components/certificate-modal/LyonCertificateModalCertificateTitle/index.tsx
-: 1591767104:0;g s
 : 1591767115:0;g co components/certificate-template/LyonCertificate/LyonBordeauxTemplate/LyonBordeauxTemplateCertificateNumber/index.tsx
-: 1591767248:0;g a
-: 1591767261:0;g d
-: 1591767269:0;g a
 : 1591767280:0;g c -m "move fake route above"
-: 1591767284:0;g s
 : 1591767291:0;g add public
-: 1591767293:0;g s
-: 1591767295:0;git add .
-: 1591767297:0;g s
 : 1591767303:0;g c -m "update hard coded data"
-: 1591767305:0;g bnc
-: 1591767308:0;g ps origin feature-profile-reward-certificate
-: 1591767453:0;yarn dev
-: 1591767608:0;g a
 : 1591767631:0;g c -m "remove typescript errors"
-: 1591767633:0;g a
 : 1591767639:0;g c -m "update the data under mark"
-: 1591767640:0;g bnc
-: 1591767643:0;g ps origin feature-profile-reward-certificate
-: 1591772707:0;g a
-: 1591772711:0;g s
 : 1591772719:0;g c -m "remove foz and his signature"
-: 1591780799:0;jt work
-: 1591780799:0;la
-: 1591780804:0;cd kuru-anime
-: 1591780805:0;la
-: 1591780806:0;cd main-website
-: 1591780807:0;la
-: 1591780808:0;cd server
-: 1591780964:0;la
-: 1591780965:0;vi
-: 1591781180:0;g a
 : 1591781190:0;g c -m "create a User model in Prisma"
-: 1591781191:0;g bnc
-: 1591781195:0;g ps origin issue-67-Task_Setup_Prisma
 : 1591782198:0;yarn prisma generate
-: 1591782341:0;g a
-: 1591782374:0;g reset
-: 1591782375:0;g a
 : 1591782390:0;g c -m "initiate prisma"
-: 1591782392:0;g bnc
-: 1591782394:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591782454:0;g a
 : 1591782468:0;g c -m "add generate command"
-: 1591782475:0;g ps origin issue-67-Task_Setup_Prisma
 : 1591782687:0;yarn add @types/koa
-: 1591782706:0;g a
 : 1591782717:0;g c -m "add koa types"
-: 1591782718:0;g a
-: 1591782731:0;g reset
-: 1591782732:0;g a
 : 1591782752:0;g c -m "update prisma schema andd instantiate prisma client"
-: 1591782753:0;g a
 : 1591782780:0;g c -m "update the way to call koa into an import"
-: 1591782781:0;g bnc
-: 1591782784:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591783060:0;g a
 : 1591783067:0;g c -m "move prisma to its own fiel"
-: 1591783068:0;g bnc
-: 1591783071:0;g ps origin issue-67-Task_Setup_Prisma
 : 1591783242:0;node src/script.ts
-: 1591783265:0;ts-node src/script.ts
-: 1591783704:0;g a
 : 1591783712:0;g c -m "add a way to add user"
 : 1591783715:0;npx prisma introspect
 : 1591783975:0;yarn prisma:migrate
-: 1591783994:0;g a
 : 1591784006:0;g c -m "add migrate and introspect to package.json"
-: 1591784007:0;g bnc
-: 1591784009:0;g ps origin issue-67-Task_Setup_Prisma
 : 1591784031:0;yarn prisma:migrate up
-: 1591784039:0;yarn prisma:migrate up --experimental
-: 1591784061:0;g a
 : 1591784067:0;g c -m "update migrate command"
-: 1591784071:0;g ps origin issue-67-Task_Setup_Prisma
 : 1591784212:0;yarn prisma:migrate save --name "Init" --experimental
-: 1591784248:0;g d
-: 1591784256:0;g s
 : 1591784329:0;yarn prisma:migrate --help
-: 1591784347:0;g d
-: 1591784360:0;g a
 : 1591784382:0;g c -m "revert the migrate command"
-: 1591784410:0;g bnc
-: 1591784413:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591784451:0;g a
-: 1591784456:0;g d
-: 1591784458:0;g clean -fd
-: 1591784459:0;g s
-: 1591784471:0;g clean -fd
 : 1591784479:0;rm -rf prisma/migrations
-: 1591784483:0;g a
 : 1591784490:0;g c -m "add an extra line after Post"
 : 1591784512:0;yarn prisma:migrate save --name "Create User and Post model" --experimental
-: 1591784624:0;g a
 : 1591784634:0;g c -m "add instructions on README.md"
-: 1591784638:0;g d
-: 1591784639:0;g s
 : 1591784644:0;yarn prisma:migrate up --experimental
 : 1591784670:0;ts-node src/script.ts
-: 1591785772:0;down
-: 1591785831:0;g a
-: 1591785843:0;g lol
-: 1591785847:0;g bnc
-: 1591785849:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591785927:0;g lol
-: 1591786015:0;g a
-: 1591786023:0;g d
-: 1591786024:0;g s
 : 1591786032:0;g c -m "create first migration"
-: 1591786034:0;g bnc
 : 1591786036:0;g ps origin issue-67-Task_Setup_Prisma
-: 1591786080:0;g lol
-: 1591786088:0;vi
-: 1591832239:0;jt work
-: 1591832241:0;cd kuru-anime
-: 1591832242:0;la
-: 1591832244:0;cd main-website
-: 1591832244:0;la
-: 1591832246:0;cd server
-: 1591832247:0;la
-: 1591832253:0;g co master
-: 1591832261:0;g pl origin master
-: 1591832279:0;la
-: 1591832283:0;vi
-: 1591832322:0;g pl
 : 1591832331:0;g co  issue-61-Setup_koa-router
-: 1591847234:0;la
-: 1591847237:0;jt work
-: 1591847237:0;la
-: 1591847240:0;cd lyon/api-server
-: 1591847248:0;../html-renderer
-: 1591850634:0;vi
-: 1591850635:0;yarn dev
-: 1591850637:0;vi
-: 1591850638:0;yarn dev
-: 1591871895:0;g a
 : 1591871916:0;g c -m "emptied out the event accr number"
-: 1591871917:0;g bnc
-: 1591871922:0;g ps origin feature-profile-reward-certificate
-: 1591915057:0;jt work
-: 1591915057:0;la
-: 1591915062:0;cd kuru-anime
-: 1591915063:0;la
-: 1591915070:0;cd main-website
-: 1591915070:0;la
-: 1591915071:0;cd server
-: 1591915072:0;la
-: 1591915236:0;vi
-: 1591915260:0;yarn dev
-: 1591915298:0;yarn install
-: 1591915725:0;yarn dev
 : 1591915872:0;../html
-: 1591915876:0;../client
-: 1591915877:0;la
-: 1591915877:0;vi
 : 1591915927:0;cp ../client/tsconfig.json ./tsconfig.json
-: 1591915959:0;yarn dev
 : 1591915984:0;../../
-: 1591915984:0;la
-: 1591915986:0;cd discord-bot
-: 1591915987:0;la
-: 1591915994:0;jt work
-: 1591915995:0;la
-: 1591915997:0;cd lyon
-: 1591915997:0;la
-: 1591916000:0;cd api-server
-: 1591916002:0;vi
-: 1591916058:0;jt work
-: 1591916058:0;la
-: 1591916069:0;cd lyon
-: 1591916070:0;la
-: 1591916071:0;cd api-server
-: 1591916072:0;la
-: 1591916073:0;vi
-: 1591916086:0;../html-renderer
-: 1591916086:0;la
-: 1591916087:0;vi
-: 1591916104:0;yarn dev
-: 1591916188:0;jt work
-: 1591916189:0;cd lyon
-: 1591916190:0;la
-: 1591916192:0;cd api-server
-: 1591916193:0;la
-: 1591916193:0;vi
-: 1591916228:0;g d
-: 1591916229:0;g s
-: 1591916240:0;yarn dev
-: 1591916285:0;g clean -fd
-: 1591916286:0;la
-: 1591916315:0;yarn dev
-: 1591916924:0;g a
 : 1591916935:0;g c -m "revert the koa call"
 : 1591917442:0;mkdir src/routes
 : 1591917445:0;touch src/routes/index.ts
-: 1591917501:0;g a
 : 1591917513:0;g c -m "change the main file on package.json"
-: 1591917529:0;yarn add koa-router
-: 1591919333:0;g d
-: 1591919335:0;g lol
-: 1591919339:0;g st
-: 1591919342:0;g clean -fd
-: 1591919344:0;g lol
-: 1591919464:0;g d
-: 1591919465:0;g s
-: 1591919467:0;g clean -fd
-: 1591919469:0;g s
-: 1591919472:0;g st
-: 1591919473:0;g d
-: 1591919474:0;g s
 : 1591919601:0;yarn add koa-router
-: 1591919607:0;g d
-: 1591919608:0;g a
 : 1591919619:0;g c -m "install koa-router"
-: 1591919620:0;g bnc
-: 1591919622:0;g ps origin issue-61-Setup_koa-router
-: 1591919708:0;yarn dev
-: 1591919873:0;g d
-: 1591919876:0;yarn dev
-: 1591920122:0;g a
 : 1591920131:0;g c -m "create 2 paths for testing"
-: 1591920132:0;g bnc
 : 1591920135:0;g ps origin issue-61-Setup_koa-router
-: 1591920160:0;g co master
-: 1591928619:0;jt personal
-: 1591928619:0;la
-: 1591928622:0;jt work
-: 1591928622:0;la
-: 1591928624:0;cd kuru-anime
-: 1591928624:0;la
 : 1591928628:0;cd main-website/server
-: 1591929464:0;jt work
-: 1591929464:0;la
-: 1591929468:0;cd lyon
-: 1591929468:0;la
-: 1591929470:0;cd html-renderer
-: 1591929470:0;la
-: 1591929471:0;vi
-: 1591931204:0;g sync master
-: 1591932414:0;jt work
-: 1591932414:0;la
-: 1591932415:0;cd lyon
-: 1591932415:0;la
-: 1591932427:0;cd html-renderer
-: 1591932428:0;la
-: 1591932429:0;vi
-: 1591932620:0;g a
 : 1591932639:0;g c -m "add provider accr number"
-: 1591932640:0;g bnc
-: 1591932643:0;g ps origin feature-profile-reward-certificate
-: 1591940301:0;g pl
 : 1591940315:0;g co issue-66-Task_Use_nodemon_instead_of_ts-node-dev_on_local_server
-: 1591940320:0;vi
-: 1591940345:0;jt work
-: 1591940346:0;la
-: 1591940347:0;lyon
-: 1591940347:0;la
-: 1591940349:0;api-server
-: 1591940353:0;vi
 : 1591940370:0;touch nodemon.json
 : 1591940533:0;yarn add nodemon
-: 1591940551:0;g d
-: 1591940563:0;g a
-: 1591940609:0;yarn dev
-: 1591940613:0;g s
 : 1591940621:0;g c -m "upgrade to nodemon for the ts-node watcher"
-: 1591940622:0;g bnc
 : 1591940624:0;g ps origin issue-66-Task_Use_nodemon_instead_of_ts-node-dev_on_local_server
-: 1591940782:0;g co master
-: 1591941168:0;g sync master
-: 1591941301:0;g lol
 : 1591941314:0;g lol | grep "Finishes"
 : 1591941386:0;g pl && g co issue-62-Setup_dotenv
-: 1591941433:0;g lol
-: 1591941436:0;g co issue-62-Setup_dotenv
-: 1591941446:0;yarn add dotenv
-: 1591941487:0;g a
 : 1591941493:0;g c -m "install dotenv"
-: 1591941509:0;vi
-: 1591941571:0;yarn dev
-: 1591941642:0;g a
-: 1591941650:0;g reset
-: 1591941651:0;g a
 : 1591941662:0;g c -m "add the dotenv initiator"
-: 1591941663:0;g a
 : 1591941681:0;g c -m "remove the coalesce operator"
-: 1591941684:0;g bnc
-: 1591941691:0;g ps origin issue-62-Setup_dotenv
-: 1591941753:0;g co master
 : 1591941883:0;g co issue-62-Setup_dotenv
-: 1591941929:0;g a
 : 1591941937:0;g c -m "Create .env.example"
-: 1591941938:0;g bnc
 : 1591941940:0;g ps origin issue-62-Setup_dotenv
-: 1591951690:0;g co master
-: 1591951693:0;g sync master
-: 1591951892:0;g pl
 : 1591951905:0;g co issue-69-Task_Install_Koa_CORS
 : 1591951919:0;yarn add @koa/cors
-: 1591951924:0;g a
-: 1591951932:0;yarn dev
-: 1591952039:0;vi
-: 1591952113:0;g a
 : 1591952121:0;g c -m "Apply Koa CORS"
-: 1591952122:0;g bnc
 : 1591952124:0;g ps origin issue-69-Task_Install_Koa_CORS
-: 1591952255:0;g co master
-: 1591952278:0;g lol
-: 1591953469:0;../client
-: 1591953470:0;la
-: 1591953700:0;g co master
-: 1591953703:0;g pl origin master
-: 1591953710:0;vi
-: 1591953744:0;g pl
-: 1591954223:0;yarn dev
-: 1591954349:0;jt work
-: 1591954350:0;la
-: 1591954351:0;cd lyon
-: 1591954351:0;la
-: 1591954356:0;cd api-server
-: 1591954359:0;vi
-: 1591954515:0;g sync master
-: 1591954566:0;g a
-: 1591954572:0;g d
-: 1591954573:0;g s
-: 1591954576:0;git add .
-: 1591954577:0;g d
-: 1591954578:0;g s
-: 1591954586:0;g c -m "add the relative paths"
-: 1591954608:0;g lol
-: 1591954616:0;g reset
 : 1591954618:0;g reset routes
 : 1591954620:0;g reset d8e4da2
-: 1591954622:0;g lol
-: 1591954624:0;g d
-: 1591954625:0;g s
-: 1591954629:0;g pl
 : 1591954651:0;g co issue-60-Setup_relative_path_similar_to_main-website-client
-: 1591954654:0;g a
-: 1591954656:0;git add .
 : 1591954659:0;g c -m "add the relative paths"
-: 1591954674:0;g lol
-: 1591954677:0;g bnc
 : 1591954679:0;g ps origin issue-60-Setup_relative_path_similar_to_main-website-client
-: 1591954853:0;g co master
-: 1591954857:0;g sync master
-: 1591955849:0;g d
-: 1591955851:0;g st
-: 1591955853:0;g sync master
-: 1591955879:0;g pl
 : 1591955897:0;g co issue-56-Redirect_people_going_to_api_kuru-anime_com_to_web_kuru-anime_com
-: 1591955900:0;g st apply
-: 1591955902:0;g d
-: 1591955904:0;g a
-: 1591955912:0;g s
 : 1591955917:0;g c -m "add the redirect"
-: 1591955918:0;g bnc
 : 1591955921:0;g ps origin issue-56-Redirect_people_going_to_api_kuru-anime_com_to_web_kuru-anime_com
-: 1591956146:0;g co master
-: 1591956149:0;g sync master
-: 1591956206:0;g pl
 : 1591956325:0;g co ssue-63-Add_eslintrc_js -> origin/issue-63-Add_eslintrc_js
 : 1591956339:0;g co issue-63-Add_eslintrc_js -> origin/issue-63-Add_eslintrc_js
 : 1591956350:0;g co issue-63-Add_eslintrc_js
 : 1591956401:0;../client
-: 1591956402:0;vi
-: 1591956521:0;g d
-: 1591956523:0;g st
-: 1591956583:0;la
-: 1591956595:0;jt work
-: 1591956595:0;la
-: 1591956597:0;cd lyon
-: 1591956597:0;la
-: 1591956601:0;cd api-server
-: 1591956602:0;la
 : 1591956622:0;touch .eslintrc.js
-: 1591957149:0;g a
 : 1591957159:0;g c -m "create an eslintrc file"
-: 1591957162:0;g a
 : 1591957179:0;g c -m "add check:syntax command"
-: 1591957181:0;g a
-: 1591957211:0;g reset
-: 1591957213:0;g a
-: 1591957221:0;g reset
-: 1591957222:0;yarn install
-: 1591957401:0;g a
 : 1591957415:0;g c -m "install eslint dependencies"
-: 1591957419:0;g lol
-: 1591957421:0;g bnc
 : 1591957423:0;g ps origin issue-63-Add_eslintrc_js
-: 1591957645:0;g co master
 : 1591957653:0;g sync master
-: 1591960847:0;jt personal
-: 1591960847:0;la
 : 1591960850:0;mkdir test
 : 1591960857:0;mv test float-layout
 : 1591960859:0;cd float-layout
-: 1591960860:0;vi
-: 1591961067:0;bos -h
-: 1591961073:0;bos
 : 1591961075:0;bos --help
 : 1591961089:0;bos -a browser
-: 1591961314:0;la
-: 1591961315:0;..
-: 1591961316:0;la
 : 1591961318:0;rm -rf float-layout
-: 1591961321:0;lolcat
 : 1591961328:0;echo "test" |lolcat
 : 1591961350:0;figlet "Norly" | lolcat
 : 1591961353:0;figlet "test"
-: 1591961358:0;ruby --version
-: 1591961365:0;jt dotfiles
-: 1591961366:0;la
-: 1591961367:0;vi
-: 1591961375:0;brew install lolcat
-: 1592037642:0;jt work
-: 1592037642:0;la
-: 1592037643:0;cd kuru-anime
-: 1592037644:0;la
-: 1592037646:0;cd main-website
-: 1592037646:0;la
-: 1592037648:0;cd client
-: 1592037649:0;la
-: 1592037650:0;vi
-: 1592037676:0;yarn dev
-: 1592037679:0;yarn install
-: 1592037695:0;down
-: 1592123552:0;jt work
-: 1592123553:0;la
-: 1592123595:0;cd kuru-anime
-: 1592123595:0;la
-: 1592123598:0;cd main-website
-: 1592123598:0;la
-: 1592123600:0;cd client
-: 1592123608:0;yarn dev
-: 1592123610:0;vi
-: 1592190135:0;down
-: 1592202802:0;jt work
-: 1592202803:0;la
-: 1592202804:0;cd lyon
-: 1592202805:0;la
-: 1592202809:0;cd api-server
-: 1592202822:0;la
-: 1592202831:0;../html-renderer
-: 1592203087:0;g co develop
-: 1592203090:0;g d
-: 1592203093:0;g st
-: 1592203095:0;g co develop
-: 1592203100:0;g pl origin develop
-: 1592203108:0;g co develop
-: 1592203110:0;g pl origin develop
-: 1592203119:0;yarn install
-: 1592203146:0;vi
-: 1592203149:0;clear
-: 1592203151:0;yarn dev
-: 1592203155:0;vi
-: 1592203156:0;yarn dev
-: 1592203347:0;g st apply
-: 1592203350:0;g d
-: 1592203395:0;ts-node --files ./src/index.ts
-: 1592203399:0;g d
-: 1592203406:0;g s
-: 1592203409:0;g reset
-: 1592203410:0;g d
-: 1592203415:0;ts-node --files ./src/index.ts
-: 1592203445:0;g st
-: 1592203451:0;ts-node --files ./src/index.ts
-: 1592204596:0;g st apply
-: 1592204601:0;yarn dev
-: 1592204793:0;g d
 : 1592206795:0;ex
 : 1592207324:0;ts-node --files ./src/index.ts
-: 1592207351:0;g d
-: 1592207354:0;g st
-: 1592207357:0;yarn dev
-: 1592208151:0;g co feature-profile-reward-certificate
-: 1592208154:0;g d
-: 1592208157:0;g lol
-: 1592208159:0;g s
-: 1592208184:0;g co src
-: 1592208188:0;g co feature-profile-reward-certificate
-: 1592208197:0;g st apply
-: 1592208199:0;g d
-: 1592208230:0;yarn dev
-: 1592208274:0;g d
-: 1592208278:0;g s
-: 1592208279:0;g reset
-: 1592208319:0;yarn install
-: 1592208327:0;g d
-: 1592208332:0;rm -rf yarn.lock
 : 1592208337:0;rm -rf node
-: 1592208345:0;la
-: 1592208348:0;g d
-: 1592208351:0;g s
 : 1592208361:0;rm -rf node_modules
 : 1592208368:0;rm -rf a
-: 1592208371:0;la
-: 1592208373:0;g d
-: 1592208374:0;g s
-: 1592208376:0;yarn install
-: 1592208457:0;yarn dev
-: 1592208471:0;g s
 : 1592208938:0;g co feature-profile-reward-certificate
-: 1592208940:0;g lol
-: 1592208952:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592210292:0;vi
-: 1592210685:0;g d
-: 1592210690:0;yarn dev
-: 1592211304:0;g a
 : 1592211330:0;g c -m "start to divide the event participant controller"
-: 1592211331:0;g bnc
-: 1592211334:0;g ps origin feature-profile-reward-certificate
-: 1592212784:0;g d
-: 1592212787:0;g s
-: 1592212815:0;g clean -fd
-: 1592214060:0;g lol
-: 1592214062:0;g s
-: 1592214072:0;g a
 : 1592214093:0;g c -m "move readEventParticipantsByEventIdController to its own file"
-: 1592214418:0;g d
-: 1592214421:0;g a
 : 1592214462:0;g c -m "make EventParticipant singular on its controller methods"
-: 1592214463:0;g bnc
-: 1592214465:0;g ps origin feature-profile-reward-certificate
-: 1592214679:0;g d
-: 1592214682:0;g s
-: 1592214690:0;g a
 : 1592214769:0;g c -m "move readEventParticipantByApprovedUserController to its own file"
-: 1592214779:0;g bnc
-: 1592214882:0;g a
 : 1592214890:0;g c -m "fix the error for readEventParticipantByApprovedUserController"
-: 1592214892:0;g bnc
-: 1592214894:0;g ps origin feature-profile-reward-certificate
-: 1592216386:0;g a
 : 1592216410:0;g c -m "move appove, reject and approve all controllers to their respective own files"
-: 1592216412:0;g bnc
-: 1592216414:0;g ps origin feature-profile-reward-certificate
-: 1592301265:0;jt work
-: 1592301265:0;la
-: 1592301266:0;cd lyon
-: 1592301267:0;la
-: 1592301268:0;cd api-server
-: 1592301270:0;vi
-: 1592301274:0;yarn dev
-: 1592301278:0;../html-renderer
-: 1592301279:0;vi
-: 1592301283:0;yarn dev
-: 1592301945:0;g d
-: 1592301948:0;g st
-: 1592301951:0;g pl origin develop
 : 1592302244:0;g co origin/develop -- yarn.develop
-: 1592302251:0;g co origin/develop -- yarn.lock
-: 1592302510:0;g d
-: 1592302512:0;g s
 : 1592302532:0;g co origin/develop -- src/controllers/eventParticipant.ts
 : 1592302545:0;g co origin/develop -- src/routes/event.ts
-: 1592302547:0;g d
-: 1592302659:0;g s
-: 1592302672:0;g add .
-: 1592302675:0;g lol
-: 1592302676:0;g s
 : 1592302686:0;g c -m "Merge Develop"
-: 1592302694:0;g bnc
-: 1592302697:0;g ps origin feature-profile-reward-certificate
-: 1592302993:0;g lol
-: 1592302995:0;g s
-: 1592302997:0;g d
-: 1592303003:0;g lol
-: 1592303049:0;g reset
-: 1592303055:0;g lol
 : 1592303060:0;g co src/routes/certificate.ts
 : 1592303063:0;g reset d992f2881ea26b3b0f2efebe256c2d86c56b251d
-: 1592303067:0;g d
-: 1592303078:0;g co .github
-: 1592303081:0;g co yarn.lock
 : 1592303085:0;g co src/utils
-: 1592303086:0;g d
-: 1592303087:0;g s
-: 1592303091:0;g co .github
-: 1592303099:0;g s
 : 1592303133:0;git add src/controllers/eventParticipant
-: 1592303135:0;g clean -fd
-: 1592303137:0;g s
-: 1592303158:0;g reset
-: 1592303163:0;g st
-: 1592303169:0;open .
 : 1592303194:0;git reset --hard origin/feature-profile-reward-certificate
-: 1592303263:0;g lol
-: 1592303268:0;g s
 : 1592303291:0;rm -rf .DS_Store src/.DS_Store src/controllers/.DS_Store
-: 1592303292:0;g d
-: 1592303293:0;g s
-: 1592303298:0;g add .
-: 1592303303:0;git add .
 : 1592303313:0;g c -m "fix the error for eventParticipant"
-: 1592303315:0;g bnc
 : 1592303317:0;g ps origin feature-profile-reward-certificate
-: 1592303400:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592303484:0;g lol
 : 1592303494:0;git stash list
-: 1592303502:0;git stash show -p stash@{1}
-: 1592303510:0;git stash show apply stash@{1}
-: 1592303514:0;yarn dev
-: 1592303882:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592304199:0;g lol
-: 1592305580:0;g bnc
-: 1592308138:0;jt work
-: 1592308138:0;la
-: 1592308140:0;cd kuru-anime
-: 1592308140:0;la
-: 1592308144:0;cd main-website
-: 1592308144:0;la
-: 1592308146:0;cd server
-: 1592308147:0;la
-: 1592308151:0;vi
-: 1592341540:0;jt work
-: 1592341540:0;la
 : 1592341545:0;mkdir editmode
-: 1592341568:0;ruby --version
-: 1592341580:0;jt dotfiles
-: 1592341581:0;vi
-: 1592341600:0;g d
-: 1592341601:0;g s
-: 1592341604:0;g clean -fd
-: 1592341605:0;g lol
-: 1592341607:0;g s
-: 1592341608:0;g st
-: 1592341625:0;la
-: 1592341630:0;cd editmode
-: 1592341638:0;rbenv install 2.7.0
 : 1592342174:0;rbenv --help local
 : 1592342188:0;rbenv local 2.7.0
-: 1592342193:0;la
 : 1592342195:0;vi .ruby-version
-: 1592342205:0;psql --version
 : 1592342261:0;git clone git@github.com:Editmode-app/editmode.git main-app
-: 1592342336:0;la
-: 1592342338:0;cd main-app
-: 1592342338:0;la
-: 1592342343:0;rails --version
-: 1592342348:0;sudo gem install rails
-: 1592342593:0;bundle install
-: 1592342601:0;bundle update --bundler
 : 1592342724:0;gem install bundler:1.17.3
-: 1592342835:0;bundle install
 : 1592342940:0;gem install bcrypt -v '3.1.13' --source 'https://rubygems.org/'
 : 1592342947:0;_ gem install bcrypt -v '3.1.13' --source 'https://rubygems.org/'
-: 1592343037:0;bundle install
 : 1592343057:0;_ bundle install
-: 1592343066:0;bundle install
-: 1592343078:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
-: 1592343202:0;bundle install
-: 1592343232:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
-: 1592343296:0;bundle install
-: 1592343360:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
-: 1592343400:0;bundle install
 : 1592343491:0;_ gem install json -v '1.8.6' --source 'https://rubygems.org/'
-: 1592343597:0;bundle install
-: 1592343617:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
-: 1592343730:0;bundle install
 : 1592343780:0;_ gem install bigdecimal -v '1.4.2' --source 'https://rubygems.org/'
-: 1592343897:0;bundle install
 : 1592344020:0;_ gem install redcarpet -v '3.5.0' --source 'https://rubygems.org/'
-: 1592344065:0;bundle install
 : 1592344127:0;_ gem install eventmachine -v '1.0.8' --source 'https://rubygems.org/'
-: 1592344189:0;bundle install
 : 1592344229:0;_ gem install http_parser.rb -v '0.6.0' --source 'https://rubygems.org/'
-: 1592344300:0;bundle install
 : 1592344352:0;_ gem install ffi -v '1.9.10' --source 'https://rubygems.org/'
-: 1592344432:0;bundle install
 : 1592344548:0;_ gem install jaro_winkler -v '1.5.4' --source 'https://rubygems.org/'
-: 1592344561:0;bundle install
-: 1592344616:0;_ gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
-: 1592344701:0;bundle install
 : 1592344768:0;_ gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/'
 : 1592344864:0;_ gem install libv8 -v '3.16.14.19' --source 'https://rubygems.org/' -- --with-system-v8
-: 1592344880:0;bundle install
-: 1592344944:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/'
 : 1592345015:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-v8-dir=/usr/local/opt/v8-315
-: 1592345034:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-system-v8
-: 1592345142:0;gem uninstall libv8
 : 1592345169:0;/Users/boserikoreyes/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems
-: 1592345172:0;la
 : 1592345197:0;libv8-3.16.14.19
-: 1592345199:0;la
 : 1592345231:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-v8-dir=/Users/boserikoreyes/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/libv8-3.16.14.19
 : 1592345264:0;locate v8
-: 1592345296:0;brew tap homebrew/versions
 : 1592345331:0;brew install v8-315
-: 1592345366:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-system-v8
 : 1592345428:0;brew uninstall libv8 && gem uninstall libv8
 : 1592345452:0;gem uninstall libv8
-: 1592345619:0;bundle install
 : 1592345647:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/'
 : 1592345691:0;brew install v8
-: 1592345710:0;brew install v8@3.15
 : 1592345717:0;brew tap homebrew/versions
 : 1592345731:0;brew install v8@3.15
 : 1592345747:0;brew reinstall v8@3.15
 : 1592345754:0;brew link --force v8@3.15
 : 1592345762:0;_ gem install therubyracer -v '0.12.3' --source 'https://rubygems.org/' -- --with-system-v8
-: 1592345877:0;bundle install
-: 1592345969:0;vi
 : 1592346066:0;touch config/application.yml
-: 1592346086:0;rails --version
-: 1592346092:0;sudo gem install rails
-: 1592346161:0;rails --version
-: 1592346172:0;rake db:create db:migrate
-: 1592346194:0;rake db:seeds
-: 1592346282:0;rake db:seed
-: 1592346318:0;rails console
 : 1592346329:0;sudo gem install rails
-: 1592346401:0;rails --version
-: 1592346427:0;ruby --version
 : 1592346481:0;rails -v
-: 1592346616:0;rails --version
-: 1592346674:0;la
-: 1592346677:0;jt dotfiles
-: 1592346677:0;la
-: 1592346678:0;vi
-: 1592346683:0;rbenv rehash
-: 1592346690:0;rails --version
-: 1592346698:0;rails console
 : 1592346814:0;rake db:seed
-: 1592347313:0;rails s
-: 1592347325:0;rails s -p 3002
 : 1592347481:0;rails --help
-: 1592347743:0;g co new_layout
-: 1592347749:0;rails s -p 3002
-: 1592347756:0;bundle install
-: 1592347983:0;rails s
-: 1592347986:0;rails s -p 3002
-: 1592347996:0;rails console
-: 1592348085:0;rake db:create db:migrate
-: 1592348375:0;rails s -p 3002
 : 1592348410:0;jj
-: 1592348441:0;rails s
 : 1592348450:0;rails s -p 3002
 : 1592348889:0;rails server -h
 : 1592350627:0;lsof -wni tcp:3002
-: 1592352249:0;g d
-: 1592352258:0;g s
-: 1592352266:0;g d
-: 1592352295:0;g st
-: 1592365863:0;la
-: 1592365867:0;jt work
-: 1592365867:0;la
-: 1592365871:0;cd lyon
-: 1592365871:0;la
-: 1592365877:0;cd api-server
-: 1592365879:0;la
-: 1592369605:0;jt work
-: 1592369606:0;la
-: 1592369607:0;cd lyon
-: 1592369607:0;la
-: 1592369610:0;cd api-server
-: 1592369611:0;la
-: 1592369616:0;g bnc
-: 1592369618:0;g co develop
-: 1592369633:0;g st
-: 1592369637:0;g s
-: 1592369640:0;g clean -fd
-: 1592369644:0;g lol
-: 1592369649:0;g pl origin develop
-: 1592369786:0;g co hotfix-profile-reward-certificate
-: 1592369792:0;g co -b hotfix-profile-reward-certificate
-: 1592369801:0;../html-renderer
-: 1592369803:0;la
-: 1592369807:0;g co develop
-: 1592369811:0;g lol
-: 1592369812:0;g d
-: 1592369819:0;g st
-: 1592369823:0;g pl origin develop
 : 1592369930:0;g co -b hotfix-profile-reward-certificate
-: 1592369936:0;vi
-: 1592369937:0;yarn dev
-: 1592369939:0;vi
-: 1592369942:0;yarn dev
-: 1592369979:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592370288:0;yarn dev
-: 1592370366:0;vi
-: 1592371504:0;g a
-: 1592371521:0;g s
 : 1592371529:0;git add public
-: 1592371531:0;g s
 : 1592371571:0;g c -m "update logo and add foz to the signature"
-: 1592371573:0;g bnc
-: 1592371579:0;g ps origin hotfix-profile-reward-certificate
-: 1592372019:0;g d
-: 1592372022:0;g st
-: 1592372027:0;g st apply
-: 1592372028:0;g d
-: 1592372030:0;g co components
-: 1592372443:0;g a
-: 1592372451:0;g lol
-: 1592372463:0;g d
-: 1592372464:0;g s
 : 1592372467:0;g c -m "add endDate"
-: 1592372469:0;g bnc
-: 1592372472:0;g ps origin hotfix-profile-reward-certificate
-: 1592372672:0;g d
-: 1592373543:0;g bnc
-: 1592374451:0;g a
-: 1592374456:0;g d
-: 1592374457:0;g s
 : 1592374463:0;g c -m "update the format of picture"
-: 1592374464:0;g bnc
-: 1592374467:0;g ps origin hotfix-profile-reward-certificate
 : 1592374707:0;bos -p ngrok 8081
 : 1592374722:0;bos -p ngrok 8082
-: 1592376020:0;g d
-: 1592376021:0;g a
 : 1592376041:0;g c -m "update the companyName of foz"
-: 1592376043:0;g bnc
-: 1592376045:0;g ps origin hotfix-profile-reward-certificate
-: 1592376626:0;la
-: 1592376629:0;..
-: 1592376629:0;la
-: 1592376630:0;..
-: 1592376630:0;la
-: 1592376632:0;cd editmode
-: 1592376632:0;la
-: 1592376636:0;cd main-app
-: 1592376648:0;rails s
-: 1592376659:0;rails s -p 3002 -P 23
-: 1592376774:0;rake db:drop
-: 1592376781:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
 : 1592376801:0;rake db:create db:migrate
-: 1592376847:0;rake db:create
-: 1592376917:0;psql --command="\l"
-: 1592376929:0;brew services list
-: 1592376941:0;psql
-: 1592376949:0;..
-: 1592376952:0;psql
-: 1592376957:0;ruby --version
 : 1592376971:0;psql --version
 : 1592377074:0;brew services restart psql
 : 1592377078:0;brew services list
 : 1592377085:0;brew services restart postgresql
-: 1592377092:0;psql
 : 1592377424:0;where psql
 : 1592377434:0;cd /usr/local/bin/psql
 : 1592377450:0;cd /usr/local/bin/
-: 1592377451:0;la
-: 1592377459:0;..
-: 1592377459:0;la
 : 1592377501:0;cat cat /usr/local/var/postgres/postmaster.pid
 : 1592377512:0;cat /usr/local/var/postgres/postmaster.pid
-: 1592377528:0;rm -rf /usr/local/var/postgres/postmaster.pid
-: 1592377536:0;psql
-: 1592377674:0;rails s
-: 1592377689:0;psql
-: 1592377693:0;rake db:drop
 : 1592377709:0;rake db:create
-: 1592377738:0;rake db:migrate
-: 1592377757:0;rake db:seeds
-: 1592377773:0;rails s
-: 1592377785:0;rails s -p 3002 -P 23
-: 1592377899:0;rails c
-: 1592379604:0;g a
 : 1592379610:0;g c -m "acert on mark as well"
-: 1592379611:0;g bnc
-: 1592379613:0;g ps origin hotfix-profile-reward-certificate
-: 1592379798:0;g a
 : 1592379809:0;g c -m "update directory to director"
-: 1592379810:0;g bnc
 : 1592379812:0;g ps origin hotfix-profile-reward-certificate
-: 1592386252:0;vi
-: 1592386421:0;rails c
-: 1592386431:0;rails s
-: 1592386444:0;rails s -p 3002 -P 23
-: 1592387182:0;rake db:seeds
-: 1592387698:0;rails console
 : 1592387820:0;rake db:destroy
-: 1592387824:0;rake db:drop
-: 1592387861:0;yarn dev
-: 1592387870:0;rake db:drop
 : 1592387894:0;rake db:create db:migrate db:seeds
-: 1592387955:0;rails console
-: 1592388061:0;rake db:seeds
-: 1592388198:0;psql --command="\l"
-: 1592428229:0;jt work
-: 1592428230:0;la
-: 1592428232:0;cd editmode
-: 1592428232:0;la
-: 1592428237:0;cd main-app
-: 1592428238:0;la
-: 1592428239:0;g d
-: 1592428240:0;g s
-: 1592428242:0;g d
-: 1592428247:0;g st
-: 1592428251:0;g bnc
-: 1592428253:0;g pl origin new_layout
-: 1592428265:0;g lol
-: 1592428269:0;g log
-: 1592428295:0;rake db:drop db:create db:migrate db:seeds
-: 1592428439:0;rails console
-: 1592428481:0;rake db:drop
 : 1592428574:0;pg_restore --verbose --username=boseriko --dbname=chunk --clean --no-acl --host=localhost ~/Downloads/chunk.sql
-: 1592428783:0;rake db:drop db:create db:migrate db:seeds
-: 1592428955:0;vi
-: 1592429023:0;rails console
-: 1592429170:0;rake db:drop db:create db:migrate db:seeds
 : 1592430375:0;rake routes
-: 1592430472:0;rails c
-: 1592430586:0;rake db:drop db:create db:migrate db:seeds
-: 1592430612:0;rails console
-: 1592430690:0;rake db:drop db:create db:migrate db:seeds
-: 1592430724:0;rails console
-: 1592430756:0;rake db:seeds
-: 1592430879:0;rails console
 : 1592431228:0;rake db:seeds
-: 1592431697:0;g d
-: 1592431701:0;g st
-: 1592431714:0;vi
-: 1592431718:0;rails s
-: 1592431721:0;rails s -p 3002 -P 23
-: 1592432040:0;../
-: 1592432041:0;la
 : 1592432046:0;mkdir tpm
 : 1592432049:0;mv tpm tmp
-: 1592432051:0;..
-: 1592432051:0;la
-: 1592432052:0;cd lyon
-: 1592432052:0;la
 : 1592432056:0;mv temp tmp
-: 1592432057:0;..
-: 1592432057:0;la
-: 1592432058:0;cd editmode
-: 1592432059:0;la
-: 1592434656:0;cd main-app
-: 1592434700:0;la
-: 1592434704:0;g bnc
-: 1592434706:0;g pl origin new_layout
 : 1592434717:0;rake db:drop db:create db:migrate db:seeds
-: 1592435183:0;rails s
-: 1592435191:0;rails s -p 3002 -P 23
-: 1592439642:0;jt dotfiles
-: 1592439643:0;la
-: 1592439669:0;vi
-: 1592439697:0;g d
-: 1592439701:0;g a
 : 1592439707:0;g c -m "add twitch studio"
-: 1592439708:0;g bnc
-: 1592439710:0;g ps origin master
-: 1592442904:0;jt work
-: 1592449590:0;la
-: 1592449591:0;cd lyon
-: 1592449592:0;la
-: 1592449594:0;cd api-server
-: 1592449594:0;la
-: 1592449598:0;g co develop
-: 1592449601:0;g d
-: 1592449606:0;la
-: 1592449609:0;g d
-: 1592449610:0;g s
-: 1592449612:0;g co yarn.lock
-: 1592449614:0;g st
-: 1592449617:0;g pl origin develop
-: 1592449924:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592450117:0;g st apply
-: 1592450121:0;vi
-: 1592450131:0;../html-renderer
-: 1592450134:0;g co develop
-: 1592450138:0;vi
-: 1592450143:0;g st
-: 1592450148:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592450158:0;yarn dev
-: 1592450166:0;g co feature-profile-edit
 : 1592450173:0;g co -b feature-profile-edit
-: 1592450196:0;vi
-: 1592458188:0;g a
-: 1592458205:0;g d
-: 1592458206:0;g s
 : 1592458219:0;g c -m "create a folder for the user controller"
-: 1592459553:0;g a
-: 1592459583:0;g c -m "move createUserController to its own file"
-: 1592460080:0;g a
 : 1592460094:0;g c -m "move createUserController to its own file"
-: 1592460412:0;g a
 : 1592460425:0;g c -m "move readUserListController to its own file"
-: 1592460748:10;g a
 : 1592460768:0;g c -m "move readUserByEmailController to its own file"
-: 1592460770:0;g bnc
-: 1592460773:7;g ps origin feature-profile-edit
-: 1592461354:0;g a
 : 1592461373:0;g c -m "move readUserProviderAccountController and readUserByIdController to their own files"
-: 1592461375:0;g bnc
-: 1592461377:0;g ps origin feature-profile-edit
-: 1592461746:0;g a
-: 1592461754:0;g d
-: 1592461755:0;g s
-: 1592461757:0;g reset
-: 1592461826:0;g a
 : 1592461857:0;g c -m "move updateUserDisplayPhotoController to its own file"
-: 1592462135:0;g a
 : 1592462158:0;g c -m "move deleteUserDisplayPhotoController to its own file"
-: 1592462160:0;g bnc
-: 1592462162:0;g ps origin feature-profile-edit
-: 1592462420:0;g a
 : 1592462435:0;g c -m "move updateUserLicenseController to its own file"
-: 1592462436:0;g bnc
-: 1592462438:0;g ps origin feature-profile-edit
-: 1592462694:0;g a
 : 1592462714:0;g c -m "move deleteUserLicenseController to its own file"
-: 1592462716:0;g bnc
-: 1592462719:0;g ps origin feature-profile-edit
-: 1592462881:0;g d
-: 1592463160:0;g a
 : 1592463176:0;g c -m "move updateUserController to its own file"
-: 1592463178:0;g bnc
-: 1592463181:0;g ps origin feature-profile-edit
-: 1592463421:10;g a
 : 1592463438:0;g c -m "move updateUserPasswordController to its own controller"
-: 1592463439:0;g bnc
-: 1592463441:7;g ps origin feature-profile-edit
-: 1592463545:0;g a
 : 1592463561:0;g c -m "move readUserIsSubscribedController to its own file"
-: 1592463581:0;g a
 : 1592463599:0;g c -m "fix readUserIsSubscribedController error"
-: 1592463603:0;g bnc
-: 1592463610:0;g ps origin feature-profile-edit
-: 1592474835:0;vi
-: 1592474884:0;g d
-: 1592474886:0;g s
-: 1592474896:0;g a
-: 1592474913:0;g s
 : 1592474937:0;g c -m "move eventParticipantNew to a more obvious unused folder"
-: 1592474938:0;g bnc
-: 1592474940:0;g ps origin feature-profile-edit
-: 1592475330:0;yarn dev
-: 1592516450:0;jt work
-: 1592516451:0;la
-: 1592516452:0;cd editmode
-: 1592516452:0;la
-: 1592516455:0;cd main-app
-: 1592516457:0;la
-: 1592516462:0;g bnc
-: 1592516464:0;g pl origin new_layout
-: 1592516578:0;bundle install
-: 1592516615:0;rails s
-: 1592516620:0;rails s -p 3002 -P 23
-: 1592516786:0;vi
 : 1592516805:0;rspec test/controllers/users_controller_test.rb
 : 1592516850:0;rspec test/controllers/demo_controller_test.rb
-: 1592517367:0;vi
-: 1592517424:0;rspec spec/requests/api/v1/users_request_spec.rb
-: 1592517468:0;rake db:migrate
-: 1592517657:0;rspec spec/requests/api/v1/users_request_spec.rb
-: 1592517895:0;rails console
 : 1592518135:0;rspec spec/requests/api/v1/users_request_spec.rb:7
-: 1592518387:0;rspec spec/support/shared_authentication.rb
-: 1592519531:0;rails s
-: 1592519534:0;rails s -p 3002 -P 23
 : 1592519636:0;psql
-: 1592519847:0;rake db:migrate:reset db:seed
-: 1592520059:0;rails s
-: 1592520068:0;rails s -p 3002 -P 23
-: 1592520530:0;rails console
-: 1592520539:0;rspec spec/support/shared_authentication.rb
-: 1592520763:0;bin/rake db:migrate RAILS_ENV=test
-: 1592520870:0;rake db:migrate:reset db:seed
-: 1592520911:0;rspec spec/support/shared_authentication.rb
 : 1592524304:0;rails console
 : 1592524536:0;vi
 : 1592524870:0;rake db:migrate:reset db:seed
@@ -12053,3 +10051,134 @@ fi
 : 1599017647:0;g c -m "add commands to ctrl shift p on vscodium"
 : 1599017652:0;g ps origin master
 : 1599017656:0;down
+: 1599017712:0;vi
+: 1599018070:0;jt dotfiles
+: 1599018071:0;g d
+: 1599018076:0;g a
+: 1599018082:0;g c -m "Add placeholder for commands"
+: 1599018083:0;g bnc
+: 1599018085:0;g ps origin master
+: 1599018292:0;clear
+: 1599018312:0;jt dotfiles
+: 1599018313:0;la
+: 1599018314:0;g d
+: 1599018375:0;jt work
+: 1599018375:0;la
+: 1599018379:0;cd lyon
+: 1599018380:0;la
+: 1599018384:0;cd api-server
+: 1599018385:0;vi
+: 1599018495:0;jt dotfiles
+: 1599018495:0;la
+: 1599018496:0;vi
+: 1599018733:0;la
+: 1599018820:0;vi
+: 1599018836:0;laksdjflaksdjflakdsjfalksdjfalksdjfaldksjf
+: 1599018937:0;vi
+: 1599019200:0;g a
+: 1599019210:0;g c -m "add proper spacing to the css of hyper"
+: 1599019223:0;vi
+: 1599019281:0;yarn task:create-certificates --participant "105fe6ae-4c80-4d54-84f9-b346ff8c6cb5"
+: 1599019527:0;yarn task:create-certificates --participant "baa067fb-5980-4e71-b8b7-a81e83fb0daa"
+: 1599019983:0;g a
+: 1599019995:0;g c -m "properly creating reward from task runner"
+: 1599019996:0;g bnc
+: 1599019998:0;g ps origin feature-task-runner
+: 1599020409:0;jt work
+: 1599020409:0;la
+: 1599020412:0;a
+: 1599020413:0;la
+: 1599020422:0;cd editmode
+: 1599020423:0;cd main-app
+: 1599020424:0;la
+: 1599021509:0;vi
+: 1599022130:0;g co -b "test-pull-request"
+: 1599022132:0;g bnc
+: 1599022151:0;touch test-file.txt
+: 1599022162:0;echo "test" >> test-file.txt
+: 1599022162:0;g a
+: 1599022173:0;g s
+: 1599022176:0;git add test-file.txt
+: 1599022180:0;g c -m "test pr"
+: 1599022181:0;g bnc
+: 1599022185:0;g ps origin test-pull-request
+: 1599034048:0;..
+: 1599034048:0;la
+: 1599034052:0;cd main-app
+: 1599034054:0;g co master
+: 1599034056:0;g d
+: 1599034057:0;g st
+: 1599034059:0;g co master
+: 1599034060:0;g s
+: 1599034067:0;g co staging
+: 1599034071:0;g pl origin staging
+: 1599034077:0;la
+: 1599034088:0;jt work
+: 1599034091:0;cd editmode
+: 1599034092:0;la
+: 1599034093:0;cd main-app
+: 1599034094:0;la
+: 1599034101:0;g co -b feature-assets-precompile
+: 1599034519:0;vi
+: 1599034582:0;g a
+: 1599034594:0;g c -m "Remove assets precompile on bin/heroku"
+: 1599034596:0;g bnc
+: 1599034599:0;g ps origin feature-assets-precompile
+: 1599036258:0;bundle exec rake assets:precompile
+: 1599036279:0;g d
+: 1599036280:0;g s
+: 1599036282:0;git add .
+: 1599036290:0;g c -m "precompiled for testing"
+: 1599036298:0;g bnc
+: 1599036299:0;g ps origin feature-assets-precompile
+: 1599036470:0;g lol
+: 1599036484:0;g revert 77aad15
+: 1599036491:0;g lol
+: 1599036495:0;g bnc
+: 1599036497:0;g ps origin feature-assets-precompile
+: 1599036751:0;g a
+: 1599036789:0;g c -m "use rails_serve_static_assets instead of rails_12factor"
+: 1599036824:0;g a
+: 1599036832:0;g c -m "update config file"
+: 1599036833:0;g bnc
+: 1599036836:0;g ps origin feature-assets-precompile
+: 1599037193:0;bundle install
+: 1599037205:0;g d
+: 1599037209:0;git add .
+: 1599037222:0;g c -m "update gemfile.lock"
+: 1599037223:0;g bnc
+: 1599037225:0;g ps origin feature-assets-precompile
+: 1599037492:0;g a
+: 1599037508:0;g c -m "revert back to static_files"
+: 1599037509:0;g bnc
+: 1599037511:0;g ps origin feature-assets-precompile
+: 1599037544:0;bundle install
+: 1599037548:0;g d
+: 1599037557:0;g c -m "update gemfile.lock"
+: 1599037560:0;g a
+: 1599037564:0;g c -m "update gemfile.lock"
+: 1599037568:0;g ps origin feature-assets-precompile
+: 1599037867:0;g a
+: 1599037873:0;g c -m "update assets.compile"
+: 1599037874:0;g bnc
+: 1599037879:0;g ps origin feature-assets-precompile
+: 1599038013:0;bundle install
+: 1599038020:0;g a
+: 1599038029:0;g c -m "put back rails_12factor"
+: 1599038030:0;g bnc
+: 1599038031:0;g ps origin feature-assets-precompile
+: 1599038312:0;g a
+: 1599038320:0;g c -m "turn off assets compile"
+: 1599038321:0;g bnc
+: 1599038323:0;g ps origin feature-assets-precompile
+: 1599039972:0;bundle install
+: 1599039979:0;g a
+: 1599039994:0;g c -m "use rails_serve_static_assets instead of rails_12factor"
+: 1599039995:0;g bnc
+: 1599039996:0;g ps origin feature-assets-precompile
+: 1599040494:0;bundle install
+: 1599040506:0;g a
+: 1599040513:0;g c -m "use rails 12 factor"
+: 1599040514:0;g bnc
+: 1599040517:0;g ps origin feature-assets-precompile
+: 1599046299:0;down
