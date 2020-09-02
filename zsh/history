@@ -12025,3 +12025,31 @@ fi
 : 1598965297:0;g bnc
 : 1598965300:0;g ps origin feature-task-runner
 : 1598967663:0;down
+: 1599014067:0;jt dotfiles
+: 1599014069:0;la
+: 1599014069:0;g d
+: 1599014253:0;bos -h
+: 1599014279:0;bos -vs backup
+: 1599014285:0;g d
+: 1599014301:0;g a
+: 1599014314:0;g c -m "update vscodium to make it look better"
+: 1599014318:0;g ps origin master
+: 1599014335:0;code .
+: 1599014474:0;la
+: 1599014519:0;vi
+: 1599017029:0;la
+: 1599017032:0;jt work
+: 1599017033:0;la
+: 1599017036:0;cd editmode
+: 1599017037:0;la
+: 1599017066:0;cd main-app
+: 1599017067:0;la
+: 1599017070:0;g pl origin staging
+: 1599017078:0;code .
+: 1599017607:0;jt dotfiles
+: 1599017608:0;la
+: 1599017610:0;g d
+: 1599017629:0;g a
+: 1599017647:0;g c -m "add commands to ctrl shift p on vscodium"
+: 1599017652:0;g ps origin master
+: 1599017656:0;down
