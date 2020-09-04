@@ -10216,3 +10216,245 @@ fi
 : 1599119811:0;g ps origin feature-assets-precompile
 : 1599120205:0;rake assets:precompile RAILS_ENV=production --trace
 : 1599120310:0;down
+: 1599120695:0;g s
+: 1599120697:0;g clean -fd
+: 1599120698:0;g s
+: 1599120704:0;rm -rf public
+: 1599120706:0;g st
+: 1599120710:0;g d
+: 1599120719:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599120794:0;g d
+: 1599120795:0;g s
+: 1599120812:0;rm -rf public && g st
+: 1599120822:0;rake assets:precompile --trace
+: 1599120839:0;g d
+: 1599123271:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599124172:0;g d
+: 1599124178:0;g a
+: 1599124224:0;git add app/assets/javascripts/v2.js
+: 1599124225:0;g s
+: 1599124235:0;g c -m "move alpine to v2.js"
+: 1599124236:0;g bnc
+: 1599124239:0;g ps origin feature-assets-precompile
+: 1599124249:0;g st
+: 1599124250:0;la
+: 1599124251:0;g s
+: 1599124253:0;rm -rf public && g st
+: 1599124256:0;g d
+: 1599124257:0;g s
+: 1599124355:0;rails s
+: 1599124357:0;rails s 
+: 1599124382:0;rails s -p 3002 -P 23
+: 1599124406:0;bin/rake db:migrate RAILS_ENV=development
+: 1599124420:0;rails s 
+: 1599124730:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599124838:0;rails s
+: 1599124839:0;rails s -p 3002 -P 23
+: 1599124952:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599127356:0;g co staging -- app/assets/javascripts/v2.js
+: 1599127357:0;g reset
+: 1599127358:0;g a
+: 1599127374:0;g d
+: 1599127375:0;g s
+: 1599127379:0;g a config
+: 1599127387:0;g c -m "revert"
+: 1599127425:0;g a
+: 1599127431:0;g c -m "remove extra unused gem"
+: 1599127432:0;g bnc
+: 1599127435:0;g ps origin feature-assets-precompile
+: 1599127469:0;g a
+: 1599127474:0;g c -m "remove unused line"
+: 1599127475:0;g bnc
+: 1599127477:0;g ps origin feature-assets-precompile
+: 1599127624:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599127662:0;g d
+: 1599127664:0;g s
+: 1599127667:0;g st
+: 1599127669:0;rm -rf public && g st
+: 1599127681:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599127740:0;g a
+: 1599127752:0;g c -m "remove alpine"
+: 1599127753:0;g bnc
+: 1599127755:0;g ps origin feature-assets-precompile
+: 1599127793:0;g co staging -- app/assets/javascripts/v2.js
+: 1599127806:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599127860:0;g a
+: 1599127869:0;g c -m "remove alpine for now"
+: 1599127870:0;g bnc
+: 1599127872:0;g ps origin feature-assets-precompile
+: 1599128038:0;g co staging -- bin/heroku
+: 1599128041:0;g a
+: 1599128048:0;g c -m "revert back the bin/heroku"
+: 1599128049:0;g bnc
+: 1599128051:0;g ps origin feature-assets-precompile
+: 1599128091:0;g d
+: 1599128093:0;g a
+: 1599128100:0;g c -m "add rails_env"
+: 1599128101:0;g bnc
+: 1599128103:0;g ps origin feature-assets-precompile
+: 1599128252:0;g a
+: 1599128259:0;g c -m "remove assets precompile again"
+: 1599128261:0;g bnc
+: 1599128262:0;g ps origin feature-assets-precompile
+: 1599128362:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599128431:0;g d
+: 1599128433:0;g s
+: 1599128444:0;g a
+: 1599128462:0;rm -rf public && g st
+: 1599128496:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599128528:0;rm -rf public && g st
+: 1599128558:0;rake assets:precompile RAILS_ENV=production --trace
+: 1599128755:0;rm -rf public && g st
+: 1599184487:0;la
+: 1599184488:0;jt work
+: 1599184488:0;la
+: 1599184490:0;jt personal
+: 1599184491:0;la
+: 1599184498:0;jt work
+: 1599184498:0;la
+: 1599184501:0;cd kaizen-studios
+: 1599184502:0;la
+: 1599184505:0;cd denik
+: 1599184505:0;la
+: 1599184508:0;cd api-server
+: 1599184508:0;la
+: 1599184915:0;..
+: 1599184915:0;la
+: 1599184917:0;..
+: 1599184917:0;la
+: 1599184918:0;..
+: 1599184918:0;la
+: 1599184923:0;cd kuru-anime
+: 1599184924:0;la
+: 1599184927:0;cd tamaki
+: 1599184927:0;la
+: 1599184937:0;rm -rf .git package.json
+: 1599184940:0;la
+: 1599184981:0;g clone git@github.com:kuru-project/tamaki-js.git ./js
+: 1599185018:0;la
+: 1599185025:0;rm -rf js
+: 1599185027:0;..
+: 1599185027:0;la
+: 1599185030:0;rm -rf tamaki
+: 1599185103:0;g clone git@github.com:kuru-project/tamaki-js.git ./tamaki
+: 1599185109:0;cd tamaki
+: 1599185118:0;mkdir gamify
+: 1599185121:0;cd gamify
+: 1599185127:0;git init
+: 1599185139:0;g so
+: 1599185150:0;..
+: 1599185151:0;la
+: 1599185169:0;mkdir plugins
+: 1599185176:0;mv gamify plugins/gamify
+: 1599185179:0;la
+: 1599185186:0;cd plugins
+: 1599185186:0;la
+: 1599185197:0;mkdir authentication
+: 1599185200:0;cd authentication
+: 1599185202:0;la
+: 1599185203:0;git init
+: 1599185205:0;g so
+: 1599185223:0;..
+: 1599185224:0;la
+: 1599185225:0;..
+: 1599185225:0;la
+: 1599185229:0;mkdir desktop
+: 1599185232:0;cd desktop
+: 1599185234:0;git init
+: 1599185235:0;g so
+: 1599185243:0;..
+: 1599185249:0;la
+: 1599185252:0;mkdir cli
+: 1599185254:0;cd cli
+: 1599185255:0;git init
+: 1599185256:0;g so
+: 1599185266:0;la
+: 1599185267:0;..
+: 1599185270:0;la
+: 1599185273:0;mkdir api
+: 1599185274:0;cd api
+: 1599185275:0;la
+: 1599185277:0;git init
+: 1599185278:0;g so
+: 1599185287:0;la
+: 1599185288:0;..
+: 1599185289:0;la
+: 1599185302:0;mkdir mobile
+: 1599185303:0;la
+: 1599185305:0;cd mobile
+: 1599185306:0;git init
+: 1599185307:0;g so
+: 1599185315:0;la
+: 1599185325:0;..
+: 1599185325:0;la
+: 1599185329:0;mkdir web
+: 1599185329:0;la
+: 1599185332:0;cd web
+: 1599185335:0;g init
+: 1599185336:0;g so
+: 1599185339:0;..
+: 1599185339:0;la
+: 1599185408:0;touch .gitmodules
+: 1599185411:0;vi
+: 1599185552:0;g a
+: 1599185565:0;la
+: 1599185567:0;cd api
+: 1599185567:0;la
+: 1599185572:0;touch README.md
+: 1599185584:0;echo "### API" >> README.md
+: 1599185590:0;g a
+: 1599185596:0;g c -m "Initial Commit"
+: 1599185598:0;g bnc
+: 1599185600:0;g ps origin master
+: 1599185615:0;..
+: 1599185616:0;la
+: 1599185619:0;cd cli
+: 1599185627:0;echo "### CLI" >> README.md
+: 1599185629:0;g a
+: 1599185633:0;g c -m "Initial Commit"
+: 1599185635:0;g ps origin master
+: 1599185653:0;..
+: 1599185653:0;la
+: 1599185656:0;cd desktop
+: 1599185658:0;echo "### CLI" >> README.md
+: 1599185665:0;vi README.md
+: 1599185671:0;g a
+: 1599185674:0;g c -m "Initial Commit"
+: 1599185676:0;g ps origin master
+: 1599185691:0;..
+: 1599185691:0;la
+: 1599185696:0;cd mobile
+: 1599185705:0;echo "### Mobile" >> README.md
+: 1599185706:0;g a
+: 1599185708:0;g c -m "Initial Commit"
+: 1599185710:0;g ps origin master
+: 1599185759:0;la
+: 1599185765:0;..
+: 1599185765:0;la
+: 1599185767:0;cd web
+: 1599185768:0;la
+: 1599185774:0;echo "### Web" >> README.md
+: 1599185776:0;g a
+: 1599185778:0;g c -m "Initial Commit"
+: 1599185782:0;g ps origin master
+: 1599185797:0;..
+: 1599185797:0;la
+: 1599185802:0;cd plugins/gamify
+: 1599185810:0;echo "### Plugin: Gamify" >> README.md
+: 1599185811:0;g a
+: 1599185817:0;g c -m "Initial Commit"
+: 1599185820:0;g ps origin master
+: 1599185835:0;...
+: 1599185836:0;la
+: 1599185841:0;cd plugins/authentication
+: 1599185847:0;echo "### Plugin: Authentication" >> README.md
+: 1599185855:0;g c -m "Initial Commit"
+: 1599185857:0;g a
+: 1599185859:0;g c -m "Initial Commit"
+: 1599185862:0;g ps origin master
+: 1599185891:0;...
+: 1599185892:0;la
+: 1599185947:0;g a
+: 1599185984:0;g c -m "Initial Commit"
+: 1599185988:0;g ps origin master
+: 1599186064:0;down
