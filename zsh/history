@@ -10717,3 +10717,65 @@ fi
 : 1599291306:0;g ps origin feature-github-issue-and-pr-templates
 : 1599291380:0;g co master && g sync master
 : 1599291403:0;down
+: 1599291563:0;..
+: 1599291564:0;la
+: 1599291566:0;desktop
+: 1599291566:0;la
+: 1599291570:0;cp -r ../.github ./
+: 1599291573:0;g co -b feature-github-issue-and-pr-templates
+: 1599291589:0;vi
+: 1599291623:0;git add .
+: 1599291629:0;g c -m "Feature: Github Issue and PR Templates"
+: 1599291631:0;g bnc
+: 1599291635:0;g ps origin feature-github-issue-and-pr-templates
+: 1599291726:0;g co master && g sync master
+: 1599291745:0;..
+: 1599291745:0;la
+: 1599291763:0;cli
+: 1599291765:0;cp -r ../.github ./
+: 1599291767:0;g co -b feature-github-issue-and-pr-templates
+: 1599291768:0;vi
+: 1599291808:0;git add .
+: 1599291810:0;g c -m "Feature: Github Issue and PR Templates"
+: 1599291811:0;g bnc
+: 1599291813:0;g ps origin feature-github-issue-and-pr-templates
+: 1599291875:0;g co master && g sync master
+: 1599291901:0;..
+: 1599291902:0;la
+: 1599291907:0;api
+: 1599291915:0;g co -b feature-github-issue-and-pr-templates
+: 1599291917:0;cp -r ../.github ./
+: 1599291918:0;vi
+: 1599291944:0;git add .
+: 1599291953:0;g c -m "Feature: Github Issue and PR Templates"
+: 1599291955:0;g bnc
+: 1599291957:0;g ps origin feature-github-issue-and-pr-templates
+: 1599292029:0;g co master && g sync master
+: 1599292363:0;..
+: 1599292364:0;la
+: 1599292366:0;..
+: 1599292366:0;la
+: 1599292370:0;mkdir tamaki-landing-page
+: 1599292374:0;cd tamaki-landing-page
+: 1599292377:0;g init
+: 1599292378:0;g so
+: 1599292395:0;echo "### Tamaki Landing Page" >> README.md
+: 1599292398:0;git add .
+: 1599292405:0;g c -m "Initial Commit"
+: 1599292406:0;g bnc
+: 1599292409:0;g ps origin master
+: 1599293044:0;gatsby -v
+: 1599293054:0;gatsby --help
+: 1599293081:0;bos -h
+: 1599293122:0;bos -y upgrade
+: 1599293587:0;..
+: 1599293592:0;rm -rf tamaki-landing-page
+: 1599293605:0;gatsby new tamaki-landing-page https://github.com/LekoArts/gatsby-starter-minimal-blog
+: 1599293795:0;cd tamaki-landing-page
+: 1599293820:0;la
+: 1599293826:0;gatsby develop
+: 1599293828:0;g so
+: 1599293838:0;g bnc
+: 1599293841:0;g ps origin master
+: 1599293903:0;g ps origin master --force
+: 1599301519:0;down
