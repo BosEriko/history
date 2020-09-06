@@ -10779,3 +10779,47 @@ fi
 : 1599293841:0;g ps origin master
 : 1599293903:0;g ps origin master --force
 : 1599301519:0;down
+: 1599301684:0;la
+: 1599303709:0;jt work
+: 1599303710:0;la
+: 1599303713:0;cd kuru-project
+: 1599303713:0;la
+: 1599303714:0;cd tamaki
+: 1599303715:0;la
+: 1599303717:0;cd plugins
+: 1599303718:0;la
+: 1599303727:0;cp -r gamify currency
+: 1599303730:0;cd currency
+: 1599303731:0;la
+: 1599303733:0;g so
+: 1599303755:0;vi
+: 1599303788:0;git add .
+: 1599303791:0;g c -m "Feature: Github Issue and PR Templates"
+: 1599303799:0;g ps origin master
+: 1599303815:0;vi
+: 1599303826:0;g a
+: 1599303838:0;g c -m "Hotfix: Fix the name on README.md"
+: 1599303839:0;g bnc
+: 1599303841:0;g ps origin master
+: 1599303857:0;yarn init -y
+: 1599303906:0;npm publish
+: 1599303938:0;g st
+: 1599303939:0;gd
+: 1599303940:0;g d
+: 1599303942:0;g s
+: 1599303944:0;g clean -fd
+: 1599303947:0;..
+: 1599303948:0;la
+: 1599303950:0;..
+: 1599303950:0;la
+: 1599303952:0;vi
+: 1599303955:0;g s
+: 1599303962:0;git add .
+: 1599303964:0;g s
+: 1599303967:0;vi
+: 1599303989:0;git add .
+: 1599304016:0;g c -m "Feature: Update Git Submodule list and add issue and PR templates on the submodules"
+: 1599304018:0;g ps origin master
+: 1599309259:0;la
+: 1599309266:0;vi
+: 1599372207:0;down
