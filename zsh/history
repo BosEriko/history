@@ -10823,3 +10823,44 @@ fi
 : 1599309259:0;la
 : 1599309266:0;vi
 : 1599372207:0;down
+: 1599387002:0;cd downloads
+: 1599387005:0;jt vol
+: 1599387006:0;la
+: 1599387007:0;cd Bos
+: 1599387008:0;la
+: 1599387011:0;cd Movies
+: 1599387011:0;la
+: 1599387022:0;rm -rf *
+: 1599387030:0;la
+: 1599387102:0;cp ~/Movies/Anime/Kanojo,\ Okarishimasu/\[HorribleSubs\]\ Kanojo,\ Okarishimasu\ -\ 09\ \[720p\].mkv \[HorribleSubs\]\ Kanojo,\ Okarishimasu\ -\ 09\ \[720p\].mkv
+: 1599387148:0;la
+: 1599387151:0;rm -rf *
+: 1599387156:0;la
+: 1599387236:0;~
+: 1599444585:0;jt work
+: 1599444586:0;la
+: 1599444587:0;cd editmode
+: 1599444587:0;la
+: 1599444594:0;cd main-app
+: 1599444961:0;g s
+: 1599444963:0;g d
+: 1599444967:0;vi
+: 1599444974:0;rails s -p 3002 -P 23
+: 1599444976:0;rails s
+: 1599444982:0;rails c
+: 1599446335:0;g co staging -- app/assets/stylesheets/chunks_site.css.sass
+: 1599446448:0;rake assets:clobber
+: 1599446470:0;rake assets:clobber RAILS_ENV=production --trace
+: 1599446709:0;g a
+: 1599446729:0;g c -m "fix alpine issue"
+: 1599446730:0;g bnc
+: 1599446734:0;g ps origin feature-assets-precompile
+: 1599446849:0;g a
+: 1599446860:0;g c -m "Move alpine back to v2"
+: 1599446861:0;g bnc
+: 1599446864:0;g ps origin feature-assets-precompile
+: 1599446940:0;g a
+: 1599446947:0;g c -m "fix the syntax"
+: 1599446948:0;g bnc
+: 1599446950:0;g ps origin feature-assets-precompile
+: 1599446958:0;down
