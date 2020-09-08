@@ -10864,3 +10864,129 @@ fi
 : 1599446948:0;g bnc
 : 1599446950:0;g ps origin feature-assets-precompile
 : 1599446958:0;down
+: 1599448097:0;g co staging
+: 1599448098:0;g d
+: 1599448100:0;g st
+: 1599448102:0;g co staging
+: 1599448103:0;g s
+: 1599448105:0;g clean -fd
+: 1599448108:0;g s
+: 1599448109:0;g d
+: 1599448110:0;g st
+: 1599448120:0;rm -rf 23
+: 1599448121:0;g st
+: 1599448124:0;g co staging
+: 1599448127:0;g pl origin staging
+: 1599448182:0;g co -b hotfix-alpine-cdn
+: 1599448228:0;g a
+: 1599448291:0;g c -m "move alpine"
+: 1599448292:0;g bnc
+: 1599448294:0;g ps origin hotfix-alpine-cdn
+: 1599448368:0;g co feature-assets-precompile
+: 1599448376:0;g co staging -- app/assets/javascripts/v2.js
+: 1599448383:0;g co staging -- app/views/layouts/_v2_shared.haml
+: 1599448389:0;g co staging -- config/initializers/assets.rb
+: 1599448392:0;g s
+: 1599448398:0;g c -m "revert alpine changes"
+: 1599448399:0;g bnc
+: 1599448401:0;g ps origin feature-assets-precompile
+: 1599451468:0;g co staging
+: 1599451483:0;g pl origin staging
+: 1599451491:0;rails s
+: 1599451494:0;rails s -p 3002 -P 23
+: 1599453138:0;jt work
+: 1599453138:0;la
+: 1599457467:0;jt work
+: 1599457468:0;la
+: 1599457470:0;cd lyon
+: 1599457470:0;la
+: 1599457471:0;..
+: 1599457472:0;la
+: 1599457473:0;cd on-demand
+: 1599457475:0;la
+: 1599457476:0;cd lyon
+: 1599457477:0;la
+: 1599457478:0;cd on-demand
+: 1599457479:0;la
+: 1599457484:0;rails s
+: 1599459183:0;jt work
+: 1599459183:0;la
+: 1599459185:0;cd editmode
+: 1599459185:0;la
+: 1599459188:0;cd main-app
+: 1599459189:0;la
+: 1599459198:0;vi
+: 1599472709:0;jt work
+: 1599472709:0;la
+: 1599472712:0;cd editmode
+: 1599472712:0;la
+: 1599474483:0;cd main-app
+: 1599474485:0;la
+: 1599474488:0;g b
+: 1599474494:0;g co feature-assets-precompile
+: 1599474508:0;rake assets:clobber RAILS_ENV=production --trace && rake assets:clobber
+: 1599474634:0;vi
+: 1599475653:0;rails s -p 3002 -P 23
+: 1599475654:0;rails s
+: 1599475829:0;rails s -p 3002 -P 23
+: 1599484624:0;g a
+: 1599484653:0;bos -h
+: 1599484680:0;bos -f parrotsay |grep "panget mo"
+: 1599484684:0;bos -f parrotsay
+: 1599484690:0;bos -f parrot
+: 1599484701:0;bos -h
+: 1599484709:0;bos -f matrix
+: 1599484717:0;bos -f train
+: 1599484831:0;ve
+: 1599485111:0;lasjdfkasdjflakdsjf
+: 1599485112:0;laksdjflaksdjflasdkjf
+: 1599485115:0;vi
+: 1599485145:0;lasdkjflasdkfjalsdkfjalsdkjfaslkdfjalskdjf
+: 1599485146:0;asdlfkjasldfkj
+: 1599485147:0;asdfklajsdlfkjasdf
+: 1599485152:0;bos -f parrot
+: 1599485156:0;bos -f matrix
+: 1599485160:0;htop
+: 1599485255:0;g d
+: 1599485286:0;jt work
+: 1599485286:0;la
+: 1599485288:0;cd editmode
+: 1599485302:0;la
+: 1599485307:0;main-app
+: 1599485309:0;..
+: 1599485309:0;la
+: 1599485310:0;..
+: 1599485311:0;la
+: 1599485312:0;cd lyon
+: 1599485317:0;la
+: 1599485319:0;cd api-server
+: 1599485319:0;la
+: 1599485321:0;vi
+: 1599527237:0;jt work
+: 1599527238:0;la
+: 1599527245:0;cd editmode
+: 1599527245:0;l
+: 1599527247:0;la
+: 1599527254:0;cd main-app
+: 1599527257:0;g co staging
+: 1599527261:0;g pl origin staging
+: 1599527272:0;g co new_layout
+: 1599527277:0;g pl origin new_layout
+: 1599527289:0;g s
+: 1599527294:0;g reset
+: 1599527296:0;g clean -fd
+: 1599527298:0;g s
+: 1599527302:0;rm -rf config
+: 1599527303:0;g st
+: 1599527306:0;g clean -fd
+: 1599527308:0;g s
+: 1599527312:0;g pl origin new_layout
+: 1599527363:0;git reset --hard origin/new_layout
+: 1599527368:0;g pl origin new_layout
+: 1599527384:0;g co -b new_layout_bos_tasks
+: 1599527388:0;g co new_layout
+: 1599527399:0;g co feature-staging-cherry-pick
+: 1599527404:0;g co -b feature-staging-cherry-pick
+: 1599527610:0;g bnc
+: 1599527715:0;vi
+: 1599532121:0;down
