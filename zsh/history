@@ -10990,3 +10990,118 @@ fi
 : 1599527610:0;g bnc
 : 1599527715:0;vi
 : 1599532121:0;down
+: 1599534905:0;rails s -p 3002 -P 23
+: 1599534907:0;rails s
+: 1599535018:0;vi
+: 1599551556:0;git diff HEAD..b48f400a7cb01cff0e894852e9b2450cc9e9f08d\
+
+: 1599551609:0;g cherry-pick adaea62851b9b2a37f1318cdb7e8b43e60c165db
+: 1599551615:0;g lol
+: 1599551656:0;g s
+: 1599551662:0;rm -rf 23
+: 1599551704:0;g lol
+: 1599551733:0;g a
+: 1599551785:0;g c -m "Cherry-pick 'make slug editable'"
+: 1599551791:0;g s
+: 1599551801:0;git cherry-pick --continue
+: 1599551817:0;git commit --allow-empty
+: 1599551825:0;g s
+: 1599551829:0;g lol
+: 1599551832:0;g bnc
+: 1599551835:0;g ps origin feature-staging-cherry-pick
+: 1599551979:0;git cherry-pick 7506b9355f7e4cd57716d4ef0f5b2ddda2436da4
+: 1599552031:0;g a
+: 1599552043:0;g c -m "Cherry-pick 'Rspec fix for shared authentication...'"
+: 1599552047:0;git commit --allow-empty
+: 1599552052:0;g bnc
+: 1599552054:0;g ps origin feature-staging-cherry-pick
+: 1599552350:0;git cherry-pick 829284252819467c947ad348e2d0ea056aee02dc
+: 1599552387:0;g c -m "Cherry-pick 'add styling to the trix editor'"
+: 1599552392:0;git commit --allow-empty
+: 1599552396:0;g ps origin feature-staging-cherry-pick
+: 1599552897:0;g cherry-pick 06dac330c51e0220f400427b8dc31d8b05f4dd51
+: 1599552901:0;g lol
+: 1599552909:0;git commit --allow-empty
+: 1599552917:0;g lol
+: 1599552934:0;g cherry-pick 6a274ae7ad13882ed66fbe326d1a6f0322f6f375
+: 1599553128:0;vi
+: 1599553449:0;g a
+: 1599553457:0;g c -m "Cherry-pick 'add styling to the trix editor'"
+: 1599553463:0;g lol
+: 1599553471:0;g bnc
+: 1599553474:0;g lol
+: 1599553487:0;g reset 9563817
+: 1599553490:0;g a
+: 1599553505:0;g c -m "Cherry-pick 'add validation to avoid empty string for custom fields slug'"
+: 1599553507:0;g bnc
+: 1599553509:0;g ps origin feature-staging-cherry-pick
+: 1599553535:0;g cherry-pick b48f400a7cb01cff0e894852e9b2450cc9e9f08d
+: 1599553865:0;g a
+: 1599553904:0;g c -m "Cherry-pick 'Sort Collection (#20)'"
+: 1599553906:0;g bnc
+: 1599553908:0;g ps origin feature-staging-cherry-pick
+: 1599553976:0;g cherry-pick d35a4f5a1b6c89536b28c91a488f3ea83ce65ce8
+: 1599554010:0;g c -m "Cherry-pick 'Feature: Update Trix and make putting variables on Link inputs availa…'"
+: 1599554028:0;g a
+: 1599554034:0;g c -m "Cherry-pick 'Feature: Update Trix and make putting variables on Link inputs availa…'"
+: 1599554040:0;git commit --allow-empty
+: 1599554044:0;g bnc
+: 1599554047:0;g ps origin feature-staging-cherry-pick
+: 1599554305:0;g cherry-pick 2ac4b95ea6bb99c7c0782321e43804df566a0f9f
+: 1599554309:0;git commit --allow-empty
+: 1599554312:0;g bnc
+: 1599554314:0;g ps origin feature-staging-cherry-pick
+: 1599554373:0;g cherry-pick 129d77ba2ec17372e0e340af920e1b808b3dafd9
+: 1599554378:0;g a
+: 1599554381:0;g st
+: 1599554383:0;g lol
+: 1599554393:0;g cherry-pick 129d77ba2ec17372e0e340af920e1b808b3dafd9
+: 1599554464:0;vi
+: 1599554481:0;g a
+: 1599554496:0;g c -m "Cherry-pick 'Feature: Slug Validation #23'"
+: 1599554497:0;g bnc
+: 1599554500:0;g ps origin feature-staging-cherry-pick
+: 1599554523:0;g cherry-pick 581aaf172ff534e05fc4e5cf4f7659cbf6a9c2bd
+: 1599554717:0;g a
+: 1599554724:0;g c -m "Cherry-pick 'Feature: Unique Validation for Slug Fields #24'"
+: 1599554727:0;g bnc
+: 1599554731:0;g ps origin feature-staging-cherry-pick
+: 1599554750:0;g cherry-pick cbfa930f3ed889aa4f7fbdf3e60e2127510538eb
+: 1599554752:0;vi
+: 1599554992:0;g a
+: 1599555020:0;g c -m "Cherry-pick 'Hotfix: Distinct IDs for Checkly testing (#30)'"
+: 1599555022:0;g bnc
+: 1599555024:0;g ps origin feature-staging-cherry-pick
+: 1599555158:0;g cherry-pick 3b18007d5860200896644c82bb3d2dade5c7e3e6
+: 1599555208:0;g a
+: 1599555217:0;g c -m "Cherry-pick 'Distinct Identifiers #35'"
+: 1599555218:0;g bnc
+: 1599555220:0;g ps origin feature-staging-cherry-pick
+: 1599555260:0;g co hotfix-alpine-cdn
+: 1599555267:0;g merge feature-staging-cherry-pick
+: 1599555287:0;g bnc
+: 1599555291:0;git reset --hard origin/hotfix-alpine-cdn
+: 1599555538:0;g co feature-staging-cherry-pick
+: 1599555544:0;g cherry-pick 0b7199522582f170cc3b85326acd02bcf1e4cc74
+: 1599555585:0;g a
+: 1599555590:0;g st
+: 1599555592:0;g clean -fd
+: 1599555601:0;g lol
+: 1599555610:0;g bnc
+: 1599555614:0;git reset --hard origin/feature-staging-cherry-pick
+: 1599555652:0;g cherry-pick b7080901233f31403135e8cd2c591bd8fc0707fd
+: 1599555675:0;g s
+: 1599555677:0;g lol
+: 1599555693:0;g cherry-pick 5b3e99373c5f1d21f1264e100a38404e1289719a
+: 1599555694:0;g bnc
+: 1599555701:0;g lol
+: 1599555711:0;g nc
+: 1599555713:0;g bnc
+: 1599555715:0;g ps origin feature-staging-cherry-pick
+: 1599555721:0;jt dotfiless
+: 1599555724:0;jt dotfiles
+: 1599555725:0;vi
+: 1599555774:0;g a
+: 1599555781:0;g c -m "add alias for cherry-pick"
+: 1599555904:0;g ps origin master
+: 1599555914:0;down
