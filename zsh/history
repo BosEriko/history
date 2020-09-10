@@ -11105,3 +11105,258 @@ fi
 : 1599555781:0;g c -m "add alias for cherry-pick"
 : 1599555904:0;g ps origin master
 : 1599555914:0;down
+: 1599651891:0;vi
+: 1599652705:0;la
+: 1599652707:0;la config
+: 1599652714:0;cd ~
+: 1599652715:0;la
+: 1599652720:0;cd .config
+: 1599652720:0;la
+: 1599652724:0;..
+: 1599652725:0;la
+: 1599652786:0;mkdir config/Library/Application\ Support/anime\ downloader
+: 1599652802:0;touch config/Library/Application\ Support/anime\ downloader/config.json
+: 1599652858:0;g a
+: 1599652867:0;g c -m "add anime-downloader config"
+: 1599652868:0;g bnc
+: 1599652869:0;g ps origin master
+: 1599652912:0;anime --help
+: 1599652920:0;anime config
+: 1599652998:0;g a
+: 1599653005:0;g c -m "add anime downloader to stow"
+: 1599653007:0;g bnc
+: 1599653009:0;g ps origin master
+: 1599653039:0;install/modules/dotfiles.sh
+: 1599653072:0;cd ~/.config/anime-downloader
+: 1599653088:0;cd ~/Library/Application Support/anime downloader
+: 1599653093:0;cd ~/Library/Application\ Support/anime\ downloader
+: 1599653094:0;la
+: 1599653109:0;g d
+: 1599653110:0;g s
+: 1599653123:0;g st
+: 1599653136:0;cd config/Library/Application Support/VSCodium/User
+: 1599653140:0;cd config/Library/Application\ Support/VSCodium/User
+: 1599653142:0;la
+: 1599653159:0;install/modules/dotfiles.sh
+: 1599653161:0;g s
+: 1599653163:0;g st
+: 1599653166:0;install/modules/dotfiles.sh
+: 1599653168:0;g d
+: 1599653169:0;g s
+: 1599653171:0;la
+: 1599653185:0;g st
+: 1599653187:0;la
+: 1599653206:0;vi
+: 1599653244:0;rm ~/.gitconfig ~/.hyper.js ~/.viebrc ~/.skhdrc ~/.yabairc\
+
+: 1599653249:0;rm ~/Library/Application\ Support/anime\ downloader/config.json\
+
+: 1599653251:0;rm ~/Library/Application\ Support/VSCodium/User/settings.json\
+
+: 1599653258:0;rm ~/Library/Application\ Support/VSCodium/User/keybindins.json\
+
+: 1599653269:0;rm ~/Library/Application\ Support/VSCodium/User/settins.json\
+
+: 1599653276:0;rm ~/Library/Application\ Support/VSCodium/User/settings.json\
+
+: 1599653294:0;rm ~/.itconfi ~/.hyper.js ~/.viebrc ~/.skhdrc ~/.yabairc\
+
+: 1599653298:0;rm ~/Library/Application\ Support/anime\ downloader/config.json\
+
+: 1599653302:0;rm ~/Library/Application\ Support/VSCodium/User/settings.json\
+
+: 1599653305:0;rm ~/Library/Application\ Support/VSCodium/User/keybindings.json\
+
+: 1599653308:0;g s
+: 1599653309:0;g d
+: 1599653311:0;g s
+: 1599653314:0;g st
+: 1599653320:0;git stash
+: 1599653329:0;(cd ~/.dotfiles && stow config)\
+
+: 1599653333:0;g s
+: 1599653334:0;g d
+: 1599653346:0;cd ~/Library/Application\ Support/VSCodium/User/
+: 1599653347:0;la
+: 1599653375:0;g d
+: 1599653401:0;vi
+: 1599653416:0;la ~/Library/Application\ Support/anime\ downloader/
+: 1599653468:0;vi
+: 1599653521:0;anime --help
+: 1599653580:0;la
+: 1599653614:0;anime --help
+: 1599653627:0;anime config
+: 1599653687:0;g a
+: 1599653710:0;g c -m "add anime command on personal cli"
+: 1599653713:0;g ps origin master
+: 1599653733:0;bos -f anime
+: 1599653739:0;bos -f anime test
+: 1599653745:0;bos -f anime --version
+: 1599653750:0;vi
+: 1599653826:0;bos -f anime
+: 1599653830:0;bos -f anime dl
+: 1599653848:0;vi
+: 1599653897:0;bos -f anime
+: 1599653909:0;src ~/.zshrc
+: 1599653927:0;bos -f anime
+: 1599653930:0;jt dotfiles
+: 1599653931:0;vi
+: 1599653948:0;g a
+: 1599653977:0;g c -m "instruct to use the command directly instead"
+: 1599653978:0;g bnc
+: 1599653980:0;g ps origin master
+: 1599654005:0;bos -f anime
+: 1599654016:0;vi ~/.zshrc
+: 1599654042:0;install/modules/generate.sh
+: 1599654044:0;vi
+: 1599654058:0;./generate.sh
+: 1599654066:0;vi ~/.zshrc
+: 1599654077:0;bos -f anime
+: 1599654091:0;vi
+: 1599654120:0;bos -f anime
+: 1599654128:0;g a
+: 1599654153:0;g c -m "instruct to use the command directly instead"
+: 1599654156:0;g ps origin master
+: 1599654172:0;anime
+: 1599654175:0;anime config
+: 1599654279:0;anime
+: 1599654281:0;anime dl
+: 1599654288:0;anime dl --help
+: 1599654303:0;anime dl breakwater
+: 1599654305:0;anime
+: 1599654307:0;anime watch
+: 1599654317:0;anime dl
+: 1599654320:0;anime ezdl
+: 1599654343:0;anime watch --list
+: 1599654382:0;anime dl 'code geass'
+: 1599654401:0;anime config
+: 1599654428:0;anime dl 'code geass'
+: 1599654436:0;anime dl 'breakwater'
+: 1599654442:0;anime dl 'god of high school'
+: 1599654461:0;g s
+: 1599654464:0;g d
+: 1599654473:0;g s
+: 1599654477:0;anime config
+: 1599654507:0;anime dl 'god of high school'
+: 1599654561:0;g s
+: 1599654563:0;g d
+: 1599654619:0;anime config
+: 1599654627:0;anime
+: 1599654629:0;anime ezdl
+: 1599654635:0;anime config
+: 1599654652:0;anime ezdl "code geass"
+: 1599654832:0;anime config
+: 1599654849:0;anime dl 'god of high school'
+: 1599654861:0;anime config
+: 1599654903:0;anime dl 'deca'
+: 1599654915:0;anime config
+: 1599654932:0;anime ezdl 'deca'
+: 1599654969:0;anime config
+: 1599654979:0;anime ezdl 'deca'
+: 1599655008:0;anime config
+: 1599655021:0;anime dl
+: 1599655024:0;anime dl 'deca'
+: 1599704663:0;jt work
+: 1599704663:0;la
+: 1599704665:0;cd lyon
+: 1599704679:0;la
+: 1599704682:0;cd api-server
+: 1599705045:0;la
+: 1599705052:0;g co develop
+: 1599705056:0;g pl origin develop
+: 1599705136:0;yarn dev
+: 1599705137:0;vi
+: 1599705145:0;la
+: 1599705148:0;g pl origin develop
+: 1599705198:0;gh pr checkout 429
+: 1599705205:0;..
+: 1599705206:0;la
+: 1599705208:0;cd html-renderer
+: 1599705212:0;g co develop
+: 1599705215:0;g st
+: 1599705217:0;g co develop
+: 1599705227:0;g pl origin develop
+: 1599705262:0;rm -rf node_modules yarn.lock && yarn dev
+: 1599705284:0;gh pr checkout 429
+: 1599705294:0;rm -rf node_modules yarn.lock && yarn dev
+: 1599705301:0;vi
+: 1599705325:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
+: 1599705517:0;../on-demand
+: 1599705527:0;vi
+: 1599705667:0;dr-web raisl s
+: 1599705704:0;dr-web rails s
+: 1599705816:0;la README.md
+: 1599705820:0;cat README.md
+: 1599705849:0;dr-up
+: 1599705879:0;dr-down
+: 1599705884:0;dr-up
+: 1599705886:0;g a
+: 1599705911:0;g c -m "Hotfix: Change port to 3001"
+: 1599705912:0;g bnc
+: 1599705915:0;g ps origin master
+: 1599706117:0;g a
+: 1599706131:0;g c -m "Feature: Redirect homepage of API to lyon's main page"
+: 1599706132:0;g bnc
+: 1599706134:0;g ps origin master
+: 1599707045:0;jt work
+: 1599707045:0;la
+: 1599707050:0;cd editmode/main-app
+: 1599707050:0;la
+: 1599707060:0;vi
+: 1599707079:0;rake routes |grep invites
+: 1599707149:0;rake routes |grep demo-overlay
+: 1599712452:0;../html-renderer
+: 1599712454:0;vi
+: 1599719571:0;dr-down
+: 1599719586:0;jt work
+: 1599720143:0;cd editmode
+: 1599720143:0;la
+: 1599720150:0;cd plugin-vscode
+: 1599720153:0;vi
+: 1599722360:0;jt work
+: 1599722360:0;la
+: 1599722362:0;cd editmode
+: 1599722362:0;la
+: 1599722365:0;cd plugin-vscode
+: 1599722370:0;code .
+: 1599723322:0;yarn install
+: 1599724062:0;la
+: 1599724064:0;cd editmode
+: 1599724068:0;yarn install
+: 1599724131:0;..
+: 1599724132:0;la
+: 1599724136:0;g s
+: 1599724147:0;g clean -fd
+: 1599724376:0;..
+: 1599724377:0;la
+: 1599724378:0;cd main-app
+: 1599724378:0;la
+: 1599724381:0;cd new_layout
+: 1599724385:0;g co new_layout
+: 1599724387:0;g st
+: 1599724393:0;g co new_layout
+: 1599724398:0;g pl origin new_layout
+: 1599724420:0;rails s -p 3002 -P 23
+: 1599724422:0;rails s
+: 1599724929:0;vi config/routes.rb 
+: 1599729318:0;g co -b feature-different-chunk-hotkeys
+: 1599729320:0;g bnc
+: 1599729322:0;g a
+: 1599732765:0;jt work
+: 1599732765:0;la
+: 1599732787:0;cd lyon/api-server
+: 1599732795:0;docker-compose run web rails console
+: 1599732821:0;vi
+: 1599732833:0;..
+: 1599732834:0;la
+: 1599732835:0;cd on-demand
+: 1599732838:0;dr-web rails c
+: 1599737668:0;g lol
+: 1599737678:0;g s
+: 1599737680:0;g a
+: 1599737692:0;g reset
+: 1599737694:0;g a
+: 1599737711:0;g c -m "create 4 commands"
+: 1599737712:0;g bnc
+: 1599737714:0;g ps origin feature-different-chunk-hotkeys
+: 1599738277:0;down
