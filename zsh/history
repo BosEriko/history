@@ -379,7 +379,6 @@ fi
 : 1577001624:0;gatsby new app
 : 1577001691:0;npm i gatsby-cli
 : 1577001893:0;gatsy --version
-: 1577001896:0;gatsby -v
 : 1577001921:0;rm -rf app node_modules package-lock.json .DS_Store
 : 1577001939:0;npm i -g gatsby-cli && gatsby new app
 : 1577002009:0;cd app
@@ -685,11 +684,9 @@ fi
 : 1577603665:0;g g "[Hotfix] Update the README.md"
 : 1577603702:0;g g "[Hotfix] Fix typo on the word staging"
 : 1577604105:0;mkdir.github
-: 1577604113:0;mkdir .github
 : 1577604161:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/PULL_REQUEST_TEMPLATE.md > .github/PULL_REQUEST_TEMPLATE.md
 : 1577604188:0;code .github
 : 1577604259:0;g g "[Hotfix] Add a PR template"
-: 1577604297:0;mkdir .github/ISSUE_TEMPLATE
 : 1577604365:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/ISSUE_TEMPLATE/feature_request.md > .github/ISSUE_TEMPLATE/feature_request.md
 : 1577604380:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/ISSUE_TEMPLATE/bug_report.md > .github/ISSUE_TEMPLATE/bug_report.md
 : 1577604393:0;curl https://raw.githubusercontent.com/kuru-project/main-website/master/.github/ISSUE_TEMPLATE/question.md > .github/ISSUE_TEMPLATE/question.md
@@ -843,7 +840,6 @@ fi
 : 1578392978:0;g g "add ishowu to stream apps"
 : 1578393070:0;code markdown/apps.md
 : 1578393133:0;g g "add instructions to iShowU"
-: 1578394922:0;yarn develop
 : 1578395063:0;gwip "revert readme"
 : 1578395325:0;g clone git@github.com:kuru-project/girudo-client.git
 : 1578396059:0;gwip add axios to the dependecies
@@ -921,7 +917,6 @@ TAGLINE="El Psy Congroo\
 : 1578799533:0;alias git-wip
 : 1578799540:0;alias dr-up
 : 1578811269:0;gwip add graphiql
-: 1578812087:0;dr-web rails db:migrate
 : 1578812293:0;gwip update schema.rb and add link on graphql types
 : 1578813036:0;gwip add graphiql and Link types
 : 1578815370:0;gwip use a specific version of graphiql and graphql
@@ -990,10 +985,7 @@ TAGLINE="El Psy Congroo\
 : 1579258242:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
 : 1579346803:0;dr-down && dr-up
 : 1579349100:0;dr-web rails g devise_token_auth:install User auth
-: 1579354460:0;dr-web rails c
-: 1579402809:0;dr-up
 : 1579402861:0;dr-down && dr-web bundle install && dr-up --build
-: 1579405190:0;dr-down
 : 1579405216:0;rails new test-devise
 : 1579405298:0;rm -rf test-devise
 : 1579405302:0;rails new test-devise --api
@@ -1005,7 +997,6 @@ TAGLINE="El Psy Congroo\
 : 1579819866:0;yarn global add gatsby-cli
 : 1579819937:0;cd nuntium
 : 1579820342:0;gatsby -h
-: 1579820350:0;gatsby develop
 : 1579820418:0;(cd gatsby-theme-minimal && gatsby develop)
 : 1579820545:0;g g "change the workspaces"
 : 1579820613:0;g g "add package.json to site"
@@ -1073,7 +1064,6 @@ TAGLINE="El Psy Congroo\
 : 1580347675:0;php -h
 : 1580347677:0;php --help
 : 1580347679:0;php -v
-: 1580347766:0;bos -f train
 : 1580348684:0;g g "remove border for yabai"
 : 1580349315:0;g g "add instructions for Yabai mission control"
 : 1580349391:0;g g "add link to the other yabai text"
@@ -1125,7 +1115,6 @@ TAGLINE="El Psy Congroo\
 : 1580524123:0;https://github.com/jorenrui/
 : 1580528996:0;rm -rf node_modules pages server tsconfig.json yarn.lock next-env.d.ts .next
 : 1580529027:0;g g "remove most files"
-: 1580529048:0;touch .gitmodules
 : 1580529121:0;g g "add submodule details"
 : 1580529234:0;rm -rf yarn-error.log
 : 1580529364:0;g g "add package.json and update gitignore"
@@ -1142,7 +1131,6 @@ TAGLINE="El Psy Congroo\
 : 1580596416:0;rm -rf rebot .DS_Store
 : 1580598706:0;vi ~/.zsh_history
 : 1580599116:0;mv ~/.zsh_history ~/dotfiles/zsh_history
-: 1580600312:0;mkdir web
 : 1580600325:0;echo "# Barangay (Web)" >> README.md
 : 1580600336:0;echo "# Barangay (Server)" >> README.md
 : 1580600515:0;rm -rf .next
@@ -1175,7 +1163,6 @@ TAGLINE="El Psy Congroo\
 : 1580723764:0;brew install hub
 : 1580723800:0;hub --version
 : 1580723875:0;yarn init 
-: 1580724162:0;cd web
 : 1580724166:0;npm init -y
 : 1580724239:0;g g "add package.json for both web and server"
 : 1580776716:0;tldr
@@ -1476,7 +1463,6 @@ module.exports = withCSS({}); fg
 : 1582030443:0;mkdir config/Library/Application\ Support/VSCodium/User
 : 1582030475:0;cp ~/.dotfiles/vscodium/settings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/settings.json
 : 1582030492:0;cp ~/.dotfiles/vscodium/keybindings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/keybindings.json
-: 1582031524:0;la config
 : 1582031567:0;rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc && stow ~/.dotfiles/config
 : 1582031592:0;stow config
 : 1582031656:0;down && g g "fix the stow command"
@@ -1660,7 +1646,6 @@ end
 : 1583552570:0;rm -rf .gitignore
 : 1583552579:0;cp ../client/.gitignore ./.gitignore
 : 1583552605:0;g g "clean rails files"
-: 1583553371:0;vi README.md
 : 1583553435:0;g g "[Hotfix] Remove people that still has no contributions on the contribute section of README.md"
 : 1583553540:0;g g "initialize node"
 : 1583553598:0;g co master -- Procfile
@@ -1710,7 +1695,6 @@ end
 : 1583632717:0;cd kuru-anime/main-website/server/bot
 : 1583633669:0;npm list -g --depth=0
 : 1583633687:0;npm --version
-: 1583633716:0;bos -y upgrade
 : 1583633746:0;~/.dotfiles/install/modules/node.sh
 : 1583641755:0;yarn isntall
 : 1583642614:0;g g "[Hotfix] Remove Firebase"
@@ -1726,9 +1710,7 @@ end
 : 1583643498:0;tsc
 : 1583656055:0;g g "[Hotfix] Update procfile to pull bot as well"
 : 1583656318:0;heroku
-: 1583656322:0;heroku auth:whoami
 : 1583656332:0;heroku auth:logout
-: 1583656362:0;heroku auth:login
 : 1583656578:0;heroku --help
 : 1583656584:0;heroku apps
 : 1583656593:0;tldr heroku
@@ -1820,8 +1802,6 @@ end
 : 1584072411:0;ser
 : 1584073630:0;g co issue-57-Add_a_JavaScript_Style_Guide_on_the_README
 : 1584073651:0;g g "add style guide link"
-: 1584073775:0;g co master && g sync master
-: 1584089660:0;rm -rf *
 : 1584091188:0;script/deploy -B --skip-migrations -f f
 : 1584091862:0;heroku run bash -r staging
 : 1584093277:0;g g "move music icon to the most left"
@@ -2051,7 +2031,6 @@ end
 : 1585189160:0;git switch -c issue-2-Work_on_the_README_md
 : 1585189175:0;g co origin issue-2-Work_on_the_README_md
 : 1585189177:0;g co issue-2-Work_on_the_README_md
-: 1585189848:0;cd .config
 : 1585189944:0;ls -a | wc -l
 : 1585189946:0;ls -a
 : 1585189964:0;vi .zshrc.zs
@@ -2098,10 +2077,7 @@ end
 : 1585391142:0;g co components/SocialMedia.tsx
 : 1585391170:0;g c -m "add few style on the footer and hid some parts on the header"
 : 1585399611:0;jt personalla
-: 1585403907:0;jt vol
-: 1585403922:0;cd Bos
 : 1585403934:0;rm -rf to-print.pdf
-: 1585403936:0;cd Movies
 : 1585445838:0;kuru-anime
 : 1585446043:0;g ps fork issue-73-Header_Component_MVP_Design\
 
@@ -2308,7 +2284,6 @@ end
 : 1586148624:0;curl -sLf https://spacevim.org/install.sh | bash
 : 1586148683:0;\vi
 : 1586148719:0;generate.sh
-: 1586148724:0;./generate.sh
 : 1586149343:0;docker pull spacevim/spacevim
 : 1586149465:0;g g "add spacevim"
 : 1586154059:0;g co -b feature-post-event-management
@@ -2369,7 +2344,6 @@ end
 : 1586746629:0;cd development
 : 1586746631:0;cd OpsManager
 : 1586747394:0;jt ~
-: 1586747396:0;cd ~
 : 1586747400:0;cd Downloads
 : 1586747411:0;pg_restore --verbose --username=boseriko --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads ~/Downloads/lyon-dev.sql
 : 1586747621:0;pg_restore --help |grep --no-acl
@@ -2560,7 +2534,6 @@ end
 : 1587719624:0;g cherry-pick 75b7c7fe42713169b9b4ac8f06b75a2ff8b2bad2
 : 1587719661:0;git reset --hard origin/feature-event-stream-data
 : 1587719665:0;g cherry-pick 6d0b26df5ec840f74fc978d25157617598cad004
-: 1587719672:0;git commit --allow-empty
 : 1587723913:0;g co develop -- .github/workflows/cicd-develop.yml
 : 1587723934:0;g co develop -- src/controllers/stream.ts
 : 1587723952:0;g co develop -- src/routes/stream.ts
@@ -2830,7 +2803,6 @@ exit
 : 1589585339:0;g reset 7f7a2ac
 : 1589585382:0;g c -m "remove extra comma on keybindings.json"
 : 1589585391:0;g c -m "add deno install script"
-: 1589585411:0;g ps origin master --force
 : 1589585457:0;g ps bitbucket master --force
 : 1589585557:0;g ps gitlab master --force
 : 1589585571:0;brew install deno
@@ -2862,9 +2834,7 @@ exit
 : 1590042255:0;~/.dotfiles/install/modules/karabiner.sh
 : 1590050367:0;g st config
 : 1590050390:0;g a zsh/modules/config.z.sh
-: 1590050419:0;rm -rf config
 : 1590050428:0;git s
-: 1590050431:0;git stash
 : 1590050464:0;g c -m "disable compfix"
 : 1590050504:0;bos -p ssh-key
 : 1590050783:0;../lyon-html-renderer
@@ -3012,7 +2982,6 @@ fi
 : 1590831723:0;cd vieb
 : 1590834651:0;vi ~/Downloads/chromium.viebrc
 : 1590836412:0;g c -m "add viebrc"
-: 1590836447:0;install/modules/dotfiles.sh
 : 1590836586:0;vi ~/.viebrc
 : 1590836911:0;g c -m "add previous and next tab hotkeys for vieb"
 : 1590837737:0;rm -rf app/img/icons/1024x1024.png
@@ -3216,7 +3185,6 @@ fi
 : 1591957179:0;g c -m "add check:syntax command"
 : 1591957415:0;g c -m "install eslint dependencies"
 : 1591957423:0;g ps origin issue-63-Add_eslintrc_js
-: 1591957653:0;g sync master
 : 1591960850:0;mkdir test
 : 1591960857:0;mv test float-layout
 : 1591960859:0;cd float-layout
@@ -3344,455 +3312,79 @@ fi
 : 1592516850:0;rspec test/controllers/demo_controller_test.rb
 : 1592518135:0;rspec spec/requests/api/v1/users_request_spec.rb:7
 : 1592519636:0;psql
-: 1592524304:0;rails console
-: 1592524536:0;vi
 : 1592524870:0;rake db:migrate:reset db:seed
-: 1592525059:0;rails console
-: 1592525166:0;rake db:migrate:reset db:seeds
 : 1592525195:0;rake db:drop
-: 1592525248:0;rake db:migrate:reset db:seeds
-: 1592525301:0;rails console
-: 1592525335:0;rails s
-: 1592525351:0;rails s -p 3002 -P 23
 : 1592525368:0;rspec spec/support/shared_authentication.rb
-: 1592527327:0;jt work
-: 1592527328:0;la
-: 1592527329:0;cd lyon
-: 1592527330:0;la
-: 1592527332:0;cd api-server
-: 1592527334:0;la
-: 1592527336:0;g d
 : 1592527353:0;g co src/index.ts
-: 1592527358:0;g s
-: 1592527363:0;g co src/routes/user.ts
-: 1592527373:0;g pl origin develop
-: 1592527390:0;g lol
-: 1592527409:0;../html-renderer
-: 1592527415:0;g pl origin develop
-: 1592527423:0;g d
-: 1592527425:0;g s
-: 1592527438:0;vi
-: 1592527442:0;yarn dev
 : 1592527446:0;g di
-: 1592527448:0;g d
-: 1592527459:0;g s
-: 1592527464:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592542197:0;g d
-: 1592542198:0;g s
 : 1592542208:0;g co src/routes/user.ts
 : 1592542214:0;g co src/models/payloads/user.ts
-: 1592542271:0;g s
-: 1592542277:0;g a
 : 1592542292:0;g c -m "sort alphabetically"
-: 1592542913:0;g a
 : 1592542940:0;g c -m "make the update details optional"
-: 1592542941:0;g bnc
-: 1592542943:0;g ps origin feature-profile-edit
-: 1592542950:0;g pl origin develop
-: 1592545617:0;g a
 : 1592545751:0;g c -m "add scope-models, payload, result, and api endpoint for update user details"
-: 1592545752:0;g bnc
-: 1592545755:0;g ps origin feature-profile-edit
-: 1592637350:0;jt work
-: 1592637354:0;la
-: 1592637357:0;cd editmode
-: 1592637358:0;la
-: 1592637359:0;vi
-: 1592637377:0;rails s
-: 1592637378:0;rails s -p 3002 -P 23
-: 1592637391:0;la
-: 1592637393:0;cd main-app
-: 1592637398:0;rails s
-: 1592637405:0;la
-: 1592637408:0;cd main-app
-: 1592637409:0;la
-: 1592637438:0;rails s -p 3002 -P 23
-: 1592637456:0;vi
-: 1592637460:0;la
-: 1592637462:0;cd main-app
-: 1592637463:0;vi
-: 1592637468:0;cd main-app
-: 1592637500:0;la
-: 1592637502:0;g bnc
-: 1592637505:0;g pl origin new_layout
-: 1592637518:0;rails s
-: 1592637521:0;bundle install
-: 1592637551:0;rails s
-: 1592637572:0;rails s -p 3002 -P 23
-: 1592641651:0;jt work
-: 1592641651:0;la
-: 1592641652:0;cd editmode
-: 1592641653:0;la
-: 1592641655:0;cd main-app
-: 1592641655:0;la
-: 1592641659:0;vi
-: 1592641669:0;rails s -p 3002 -P 23
-: 1592641670:0;rails s
-: 1592705404:0;jt work
-: 1592705404:0;la
-: 1592705406:0;cd editmode
-: 1592705407:0;la
-: 1592705409:0;cd main-app
-: 1592705410:0;la
-: 1592705432:0;rails s
-: 1592705433:0;rails s -p 3002 -P 23
-: 1592705435:0;rails c
-: 1592705441:0;vi
-: 1592705469:0;rspec spec/features/collections/create_spec.rb
-: 1592705915:0;rspec spec/features/projects/create_spec.rb
 : 1592708540:0;rake test:prepare
-: 1592708570:0;g d
-: 1592708580:0;g s
-: 1592708582:0;g st
 : 1592708586:0;vi 23
-: 1592708592:0;g clean -fd
-: 1592708594:0;g d
-: 1592708594:0;g s
-: 1592708603:0;rspec spec/features/projects/create_spec.rb
 : 1592709640:0;bin/rake db:migrate RAILS_ENV=test
-: 1592709670:0;rake db:migrate:reset db:seeds RAILS_ENV=test
-: 1592709695:0;rspec spec/features/projects/create_spec.rb
-: 1592709955:0;bundle install
 : 1592710094:0;rspec spec/features/projects/create_spec.rb
-: 1592710176:0;g d
-: 1592710206:0;g st
-: 1592710212:0;g pl origin new_layout
 : 1592710241:0;g co -b new_layout_spec
-: 1592710263:0;g st apply
-: 1592710374:0;g d
 : 1592710377:0;g co spec
-: 1592710381:0;g a
 : 1592710407:0;g c -m "add webdrivers to avoid error when running spec"
-: 1592711039:0;vi
 : 1592711060:0;rspec spec/requests/api/v1/users_request_spec.rb
-: 1592713165:0;vi
 : 1592713176:0;rspec spec/features/collections/create_spec.rb
 : 1592713235:0;spec/features/collections/create_spec.rb
-: 1592713238:0;rspec ./spec/features/collections/create_spec.rb:13
-: 1592713260:0;rspec ./spec/features/collections/create_spec.rb
-: 1592713553:0;g a
 : 1592713563:0;g c -m "Add project_type to the factory bot of project"
-: 1592714064:0;rake routes |grep "new_user_session"
-: 1592714178:0;rspec ./spec/features/collections/create_spec.rb
 : 1592714281:0;rake routes |grep "new_user_session"
-: 1592714461:0;rspec ./spec/features/collections/create_spec.rb
-: 1592715371:0;rspec ./spec/features/collections/create_spec.rb:13
-: 1592715469:0;rake routes | grep "project_entity_types"
-: 1592715532:0;rspec ./spec/features/collections/create_spec.rb:13
-: 1592715567:0;g d
-: 1592715643:0;rspec ./spec/features/collections/create_spec.rb
-: 1592715863:0;g a
 : 1592715914:0;g c -m "Fix the error for the shared_authentication spec"
-: 1592715920:0;g bnc
-: 1592715923:0;g ps origin new_layout_spec
-: 1592716619:0;rspec ./spec/features/collections/create_spec.rb
-: 1592776973:0;jt work
-: 1592776973:0;la
-: 1592776975:0;cd editmode
-: 1592776975:0;la
-: 1592776978:0;cd main-app
-: 1592776978:0;la
-: 1592776980:0;g d
-: 1592776984:0;g a
 : 1592776998:0;g c -m "fix the collection button issue"
-: 1592777004:0;rspec ./spec/features/collections/create_spec.rb
-: 1592777261:0;vi
 : 1592777450:0;rspec ./spec/features/collections/create_spec.rb
-: 1592777901:0;rspec ./spec/features/collections/create_spec.rb:13
-: 1592777981:0;rake routes | grep "project_entity_types"
-: 1592778071:0;rspec ./spec/features/collections/create_spec.rb:13
-: 1592778709:0;rails s
-: 1592778713:0;rails s -p 3002 -P 23
-: 1592778715:0;rails c
 : 1592778882:0;rspec ./spec/features/collections/create_spec.rb:13
 : 1592780240:0;rake routes | grep "project_entity_types"
-: 1592780363:0;g pl origin new_layout
-: 1592780374:0;g lol
-: 1592780382:0;rails s
-: 1592780383:0;rails s -p 3002 -P 23
-: 1592783211:0;rspec spec/features/collections/index_spec.rb
 : 1592783263:0;rake routes |grep "projects"
 : 1592783333:0;rspec spec/features/collections/index_spec.rb
-: 1592795590:0;jt work
-: 1592795590:0;la
-: 1592795593:0;cd editmode
-: 1592795604:0;la
 : 1592795606:0;cd ../lyon
-: 1592795607:0;la
-: 1592795609:0;cd api-server
-: 1592795614:0;g d
-: 1592795614:0;g s
-: 1592795616:0;g st
-: 1592795619:0;g pl origin develop
-: 1592795629:0;vi
-: 1592795638:0;rm -rf yarn.lock
-: 1592795640:0;g d
-: 1592795641:0;g s
-: 1592795656:0;g co develop -- yarn.lock
-: 1592795659:0;g s
-: 1592795668:0;vi
 : 1592795679:0;g c -m "merge develop"
-: 1592795683:0;g st apply
-: 1592795686:0;vi
-: 1592795693:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592795710:0;../html-renderer
-: 1592795716:0;g d
-: 1592795718:0;g s
-: 1592795720:0;g st
-: 1592795723:0;g pl origin develop
-: 1592795755:0;vi
-: 1592795760:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592798672:0;g a
 : 1592798801:0;g c -m "create a modal"
-: 1592798802:0;g bnc
-: 1592798805:0;g ps origin feature-profile-edit
-: 1592815412:0;g d
-: 1592815417:0;g s
-: 1592862643:0;jt work
-: 1592862644:0;la
-: 1592862647:0;cd editmode
-: 1592862647:0;la
-: 1592862651:0;cd main-app
-: 1592862654:0;g d
-: 1592862668:0;g a
 : 1592862678:0;g c -m "repurpose the collections spec"
-: 1592862678:0;g bnc
-: 1592862685:0;g ps origin new_layout_spec
-: 1592862748:0;g co master
-: 1592862751:0;g pl origin master
-: 1592862805:0;g d
-: 1592862810:0;g pl
-: 1592862911:0;g co staging
 : 1592862935:0;g co -b staging-edit-entity-slug
-: 1592862953:0;rails s
-: 1592862954:0;rails s -p 3002 -P 23
-: 1592862958:0;bundle install
-: 1592862984:0;rails s
-: 1592862986:0;rails s -p 3002 -P 23
-: 1592862987:0;rails c
-: 1592862992:0;vi
-: 1592863101:0;rake db:migrate
-: 1592863175:0;rails c
-: 1592863177:0;rails s
-: 1592863179:0;rails s -p 3002 -P 23
-: 1592864759:0;g a
 : 1592864781:0;g c -m "make slug editable"
-: 1592864782:0;g bnc
 : 1592864785:0;g ps origin staging-edit-entity-slug
-: 1592864834:0;g lol
 : 1592865157:0;g co new_layout_spec
-: 1592865162:0;g pl origin staging
-: 1592865169:0;g d
-: 1592865171:0;g st
-: 1592865173:0;g s
-: 1592865176:0;g clean -fd
-: 1592865179:0;g pl origin staging
-: 1592865186:0;g s
-: 1592865188:0;rm -rf 23
-: 1592865194:0;g d
-: 1592865195:0;g s
 : 1592865206:0;g stash
-: 1592865207:0;g d
-: 1592865208:0;g s
-: 1592865218:0;g pl origin staging
-: 1592865230:0;g bnc
-: 1592865236:0;g ps origin new_layout_spec
 : 1592865262:0;g co staging -- app/views/content_pieces/index.haml
-: 1592865264:0;g d
-: 1592865265:0;g s
-: 1592865268:0;g a
 : 1592865287:0;g co staging -- app/views/users/sessions/new.html.haml
-: 1592865289:0;g d
-: 1592865290:0;g s
 : 1592865302:0;g c -m "restore unwanted changes"
-: 1592865306:0;g bnc
 : 1592865308:0;g ps origin new_layout_spec
-: 1592865336:0;g co staging
-: 1592865339:0;g pl origin staging
 : 1592865350:0;g co -b staging-sort-collection
 : 1592869244:0;bin/rails generate migration AddPositionToContentPiece
-: 1592869258:0;vi
-: 1592869867:0;rake db:migrate
-: 1592869907:0;g a
 : 1592869917:0;g c -m "add position to content piece"
-: 1592870568:0;rails c
-: 1592873929:0;g a
 : 1592873970:0;g c -m "rename the sort feature query to .sortable-block so it can be reused"
-: 1592874335:0;g a
 : 1592874377:0;g c -m "rename the sortable queries to sortable-block and sortable-handle so it can be reused"
-: 1592879148:0;g a
 : 1592879190:0;g c -m "rename position-field to sortable-position-field"
-: 1592879191:0;g a
 : 1592879228:0;g c -m "sort the content page by position ascending"
-: 1592879229:0;g bnc
 : 1592879231:0;g ps origin staging-sort-collection
-: 1592879252:0;g d
-: 1592879255:0;g a
 : 1592879290:0;g c -m "permit content pieces' id and position on update"
-: 1592879294:0;g d
-: 1592879302:0;g st
-: 1592882047:0;jt work
-: 1592882068:0;la
-: 1592882071:0;cd lyon
-: 1592882073:0;cd api-server
-: 1592882077:0;g d
-: 1592882079:0;g s
-: 1592882235:0;g co yarn.lock
-: 1592882236:0;g st
-: 1592882244:0;g pl origin develop
-: 1592882262:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592882270:0;g st apply
-: 1592882276:0;g d
-: 1592882283:0;vi
-: 1592882289:0;../html-renderer
-: 1592882291:0;vi
-: 1592882298:0;g d
-: 1592882299:0;g s
-: 1592882305:0;rm -rf yarn.lock
-: 1592882310:0;g st
-: 1592882317:0;g pl origin develop
-: 1592882328:0;g st apply
-: 1592882332:0;g s
-: 1592882362:0;g d
-: 1592882364:0;g s
-: 1592882373:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592882386:0;g reset
-: 1592882387:0;g d
-: 1592882390:0;g s
-: 1592882397:0;yarn dev
-: 1592884605:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592884767:0;g d
-: 1592884768:0;g s
-: 1592884781:0;g co origin/develop -- yarn.lock
-: 1592884783:0;g d
-: 1592884784:0;g s
-: 1592884787:0;g st
-: 1592884788:0;g d
-: 1592884789:0;g s
 : 1592884795:0;g co origin develop
-: 1592884808:0;g co develop
-: 1592884811:0;g pl origin develop
-: 1592884954:0;g co feature-profile-edit
-: 1592884967:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592885041:0;g d
-: 1592885047:0;g s
-: 1592885049:0;g st apply
-: 1592885062:0;g co origin/develop -- yarn.lock
-: 1592885064:0;g st apply
-: 1592885067:0;g reset
-: 1592885073:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592885206:0;yarn dev
-: 1592885345:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592885631:0;g d
-: 1592885632:0;g s
-: 1592885639:0;g co origin/develop -- yarn.lock
-: 1592885641:0;g st
-: 1592885644:0;g co develop
-: 1592885647:0;g st apply
-: 1592885650:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592885715:0;g st
-: 1592885723:0;g co feature-profile-edit
-: 1592885727:0;g st apply
-: 1592885730:0;g d
-: 1592885730:0;g s
-: 1592885735:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592885925:0;jt work
-: 1592885926:0;cd lyon
-: 1592885927:0;cd api-server
-: 1592885929:0;vi
-: 1592885937:0;g d
-: 1592885938:0;g s
-: 1592885940:0;g reset
-: 1592885944:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592885949:0;jt work
 : 1592885953:0;lyon/html-renderer
-: 1592885955:0;vi
-: 1592885961:0;g s
-: 1592885966:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592889072:0;g d
-: 1592889074:0;g lol
 : 1592889095:0;g reset e922673
-: 1592889097:0;g d
-: 1592889105:0;g co src/controllers
-: 1592889109:0;g co yarn.lock
-: 1592889113:0;g co src/routes
 : 1592889119:0;g co .github
-: 1592889121:0;g lol
-: 1592889122:0;g s
-: 1592889125:0;g clean -fd
-: 1592889129:0;g co package.json
-: 1592889131:0;g lol
-: 1592889136:0;g d
-: 1592889143:0;yarn dev
-: 1592889149:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592889361:0;yarn dev
-: 1592889392:0;rm -rf node_modules yarn.lock
-: 1592889398:0;yarn install
-: 1592889447:0;yarn dev
-: 1592889599:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592889754:0;g d
-: 1592889758:0;g co package.json
-: 1592889759:0;g s
-: 1592889762:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
 : 1592890566:0;g co origin/develop -- yarn.lock
-: 1592890569:0;g d
-: 1592890571:0;g s
 : 1592890579:0;g c -m "fix yarn.lock conflict"
-: 1592890582:0;g bnc
-: 1592890586:0;g ps origin feature-profile-edit
-: 1592891360:0;g s
-: 1592891365:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592895852:0;psql --command="\l"
-: 1592896067:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592898833:0;yarn dev
-: 1592899334:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592899414:0;g co develop
-: 1592899416:0;g d
-: 1592899417:0;g s
-: 1592899424:0;g co develop -- package.json
-: 1592899427:0;g co develop -- yarn.lock
-: 1592899429:0;g co develop
-: 1592899433:0;g st
-: 1592899436:0;g pl origin develop
-: 1592899485:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1592899585:0;node --version
-: 1592899587:0;yarn --version
-: 1592899746:0;node --version
-: 1592899786:0;nvm user 13.9.0
-: 1592899790:0;node --version
 : 1592899798:0;nvm install 13.9.0
 : 1592899875:0;nvm user 13.9.0
 : 1592899878:0;nvm use 13.9.0
-: 1592899934:0;node --version
-: 1592899952:0;g d
-: 1592899953:0;g s
-: 1592899956:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
 : 1592900037:0;nvm use node
-: 1592900046:0;node --version
-: 1592900051:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
 : 1592900976:0;yarn upgrade
-: 1592901009:0;yarn dev
 : 1592901030:0;yarn --version
 : 1592901049:0;rm -rf node_modules yarn.lock && yarn upgrade && yarn install && yarn dev
-: 1592901090:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
-: 1592903125:0;jt work
-: 1592903126:0;cd lyon
-: 1592903128:0;cd api-server
-: 1592903129:0;vi
 : 1592903136:0;gh pr checkout 135
 : 1592903159:0;yarn docker:dev
-: 1592903324:0;docker ps
 : 1592903347:0;docker-compose attach web
 : 1592903359:0;docker-compose attach api-server_lyon-api-server-dev_1
 : 1592903371:0;docker-compose ps
-: 1592903373:0;docker ps
 : 1592903466:0;docker attach 9defdc3f6239
 : 1592903520:0;docker-compose up -d
-: 1592903544:0;docker-compose -f docker-compose.dev.yml up -d
 : 1592903552:0;docker-compose -f docker-compose.dev.yml down -d
 : 1592903564:0;docker-compose -f docker-compose.dev.yml down
-: 1592903570:0;docker-compose -f docker-compose.dev.yml up -d
-: 1592903608:0;docker ps
 : 1592903615:0;docker container attach 89b6a8d59123
 : 1592903638:0;docker container exec 89b6a8d59123
 : 1592903643:0;docker-compose --help
@@ -3802,32 +3394,18 @@ fi
 : 1592903671:0;docker --help |grep "tail"
 : 1592903675:0;docker-compose --help |grep "tail"
 : 1592903686:0;docker attach --help
-: 1592903694:0;docker ps
 : 1592903705:0;docker-compose -f docker-compose.dev.yml up -d
 : 1592903718:0;docker ps
 : 1592903729:0;docker attach api-server_lyon-api-server-dev_1
 : 1592903761:0;docker logs
 : 1592903771:0;docker logs api-server_lyon-api-server-dev_1
-: 1592904419:0;g co feature-profile-edit
-: 1592904423:0;g d
-: 1592904424:0;g s
-: 1592904427:0;g st apply
-: 1592904430:0;yarn dev
 : 1592904705:0;vi ~/Downloads/lyon-bos.ppk
 : 1592904766:0;brew install putty
-: 1592904802:0;jt dotfiles
-: 1592904804:0;la
-: 1592904805:0;vi
-: 1592904848:0;g a
 : 1592904852:0;g c -m "add putty"
-: 1592904854:0;g bnc
-: 1592904855:0;g ps origin master
 : 1592904874:0;puttygen ~/Downloads/lyon-bos.ppk
 : 1592904905:0;puttygen ~/Downloads/lyon-bos.ppk -O private-openssh lyon-bos
 : 1592904909:0;puttygen ~/Downloads/lyon-bos.ppk -O private-openssh
 : 1592904915:0;cd ~/Downloads
-: 1592904921:0;jt work
-: 1592904922:0;la
 : 1592904926:0;mkdir server
 : 1592904940:0;mv ~/Downloads/lyon-bos.ppk lyon-bos.ppk
 : 1592905023:0;puttygen lyon-bos.ppk -O public-openssh ~/.ssh/id_rsa.pub
@@ -3835,1257 +3413,176 @@ fi
 : 1592905035:0;tldr puttygen
 : 1592905043:0;puttygen --help
 : 1592905207:0;puttygen lyon-bos.ppk -O private-openssh -o lyon-bos.pem
-: 1592905210:0;vi
 : 1592905293:0;ssh -i lyon-bos.pem lyon-bos@52.77.185.191
-: 1592905495:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
 : 1592905621:0;history
-: 1592905675:0;bos -h
-: 1592905780:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
-: 1592910275:0;jt dotfiles
-: 1592912179:0;jt personal
-: 1592912181:0;la
-: 1592912184:0;jt work
-: 1592912185:0;la
-: 1592912194:0;cd lyon
-: 1592912196:0;cd api-server
-: 1592912199:0;yarn build
-: 1592912248:0;jt work
-: 1592912257:0;la
-: 1592912265:0;cd editmode
-: 1592912266:0;la
-: 1592912268:0;cd main-app
-: 1592912278:0;rails s -p 3002 -P 23
-: 1592912279:0;rails s
-: 1592912282:0;rails c
-: 1592912286:0;vi
-: 1592912299:0;g b
-: 1592912310:0;g co staging-edit-entity-slug
-: 1592912311:0;g d
-: 1592912313:0;g st
 : 1592912315:0;g co staging-edit-entity-slug
-: 1592912899:0;jt work
-: 1592912899:0;la
-: 1592912901:0;cd lyon
-: 1592912903:0;cd api-server
 : 1592912904:0;yarn why @hapi/hoek
 : 1592914241:0;yarn build && yarn start
 : 1592914625:0;vi package.json
-: 1592953338:0;jt work
-: 1592953339:0;la
 : 1592953354:0;mv lyon-bos.pem server/lyon-bos.pem
 : 1592953361:0;mv lyon-bos.ppk server/lyon-bos.ppk
-: 1592953363:0;la
-: 1592953711:0;cd editmode
-: 1592953746:0;la
-: 1592953747:0;cd main-app
-: 1592953748:0;la
-: 1592953751:0;vi
-: 1592953767:0;g b
-: 1592953779:0;g co staging-sort-collection
-: 1592953784:0;g pl origin staging
-: 1592953850:0;g d
-: 1592953853:0;g s
 : 1592953866:0;g d app/controllers/entity_types_controller.rb
-: 1592953876:0;g add .
-: 1592953885:0;git add .
-: 1592953887:0;g s
-: 1592953897:0;g c -m "Merge staging"
-: 1592953913:0;rails s
-: 1592953915:0;rails s -p 3002 -P 23
-: 1592953917:0;rails c
-: 1592955590:0;g d
-: 1592955595:0;g st
 : 1592956612:0;g co staging -- .
-: 1592956613:0;g d
-: 1592956614:0;g s
-: 1592956616:0;g reset
-: 1592956622:0;g d
-: 1592956624:0;la
-: 1592956625:0;g s
-: 1592956628:0;rm -rf 23
 : 1592956636:0;g d app/views/entity_types/_form.haml
-: 1592956647:0;g st
-: 1592956653:0;g lol
-: 1592956669:0;g co staging
-: 1592956672:0;g pl origin staging
-: 1592956693:0;g co staging-sort-collection
-: 1592956697:0;g pl origin staging
-: 1592956708:0;g lol
-: 1592957831:0;g st
-: 1592957833:0;g co staging
-: 1592957840:0;g pl origin staging
 : 1592957857:0;g co -b staging-editor-styles
-: 1592957869:0;g d
-: 1592957926:0;vi
 : 1592957952:0;rake routes |grep "chunks"
-: 1592959662:0;g a
-: 1592959695:0;vi
-: 1592959710:0;g a
 : 1592959743:0;g c -m "add styling to the trix editor"
-: 1592959744:0;g bnc
 : 1592959746:0;g ps origin staging-editor-styles
-: 1592959936:0;g d
-: 1592959939:0;g st
-: 1592959941:0;g co staging
-: 1592959943:0;g b
-: 1592959950:0;g pl origin staging
 : 1592959960:0;g co staging-editor-styles
-: 1592959962:0;g pl origin staging
-: 1592960121:0;g lol
-: 1592960134:0;g co staging-sort-collection
-: 1592960140:0;g pl origin staging
-: 1592961108:0;vi
-: 1592965001:0;jt work
-: 1592965001:0;la
-: 1592965002:0;cd lyon
-: 1592965002:0;la
-: 1592965005:0;cd api-server
-: 1592965013:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
-: 1592965015:0;g d
-: 1592965016:0;g s
-: 1592972700:0;jt work
-: 1592972701:0;la
-: 1592972703:0;cd lyon
-: 1592972705:0;cd api-server
-: 1592972706:0;la
-: 1592973189:0;g d
-: 1592973191:0;g s
-: 1592973196:0;yarn dev
-: 1592973689:0;vi
-: 1592973722:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
-: 1592974832:0;jt work
-: 1592974833:0;la
-: 1592974834:0;cd lyon
-: 1592974834:0;la
-: 1592974836:0;cd api-server
-: 1592974837:0;l
-: 1592974838:0;la
-: 1592974844:0;l
-: 1592974846:0;la
-: 1592974855:0;g d
-: 1592974856:0;g s
 : 1592974862:0;g d package.json
-: 1592974865:0;g st
-: 1592974868:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
-: 1592974912:0;vi
-: 1592975281:0;...
-: 1592975282:0;la
-: 1592975284:0;cd server
-: 1592975284:0;la
-: 1592975287:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
 : 1592975468:0;node --version
-: 1592976141:0;g d
-: 1592976142:0;g s
-: 1592976146:0;g co yarn.lock
-: 1592976149:0;g st apply
 : 1592976153:0;g d src
-: 1592976220:0;g d
-: 1592977147:0;yarn dev
-: 1592989785:0;jt work
-: 1592989788:0;cd lyon
-: 1592989789:0;la
-: 1592989791:0;cd api-server
-: 1592989791:0;la
-: 1592989792:0;vi
-: 1592996845:0;jt work
-: 1592996847:0;cd editmode
-: 1592996847:0;la
-: 1592996848:0;cd main-app
-: 1592996852:0;rails s
-: 1592996854:0;rails s -p 3002 -P 23
-: 1592996855:0;rails c
-: 1592997143:0;jt work
-: 1592997144:0;la
-: 1592997146:0;cd editmode
-: 1592997146:0;la
-: 1592997148:0;cd main-app
-: 1592997149:0;vi
-: 1593043157:0;jt work
-: 1593043163:0;la
-: 1593043165:0;cd edit
-: 1593043168:0;cd editmode
-: 1593043169:0;la
-: 1593043171:0;cd main-app
-: 1593043178:0;vi
-: 1593043182:0;rails c
-: 1593043185:0;rails s
-: 1593043188:0;rails s -p 3002 -P 23
-: 1593045395:0;rm -rf /usr/local/var/postgres/postmaster.pid
-: 1593045397:0;rails c
-: 1593045399:0;rails s
-: 1593045401:0;rails s -p 3002 -P 23
-: 1593046411:0;g bnc
-: 1593046415:0;g pl origin staging
-: 1593046418:0;g d
-: 1593046419:0;g s
-: 1593046422:0;g clean -fd
-: 1593046422:0;g s
-: 1593046424:0;g st
-: 1593046427:0;g pl origin staging
-: 1593047644:0;rake routes |grep entity_type
-: 1593048722:0;g st
-: 1593048732:0;g st apply
-: 1593049757:0;rake routes |grep entity_type
-: 1593051944:0;rake routes |grep invites
 : 1593052014:0;rake routes |grep entity_type
-: 1593052425:0;g d
-: 1593052593:0;g lol
-: 1593052599:0;g d
-: 1593052600:0;g s
-: 1593052609:0;g bnc
 : 1593052618:0;g co -b staging-sort-collection-jquery-way
-: 1593052620:0;g d
-: 1593052624:0;g s
-: 1593052627:0;git add .
 : 1593052633:0;git commit -m "jquery way"
 : 1593052639:0;g co staging-sort-collection
-: 1593052643:0;g lol
-: 1593071827:0;jt work
-: 1593071827:0;la
-: 1593071833:0;cd lyon
-: 1593071833:0;la
-: 1593071835:0;cd api
-: 1593071837:0;cd api-server
-: 1593071841:0;g d
-: 1593071843:0;g s
-: 1593071852:0;vi
-: 1593071856:0;..
-: 1593071856:0;la
-: 1593071858:0;..
-: 1593071858:0;la
-: 1593071859:0;cd server
-: 1593071859:0;la
-: 1593071863:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
-: 1593071973:0;la
-: 1593071974:0;..
-: 1593071974:0;la
-: 1593071976:0;cd lyon
-: 1593071976:0;la
 : 1593071986:0;cd html
-: 1593071988:0;cd html-renderer
-: 1593071989:0;g d
-: 1593071994:0;vi
-: 1593072053:0;yarn dev
-: 1593080466:0;jt work
-: 1593080468:0;cd lyon/api-server
-: 1593080472:0;...
-: 1593080473:0;la
-: 1593080475:0;cd server
-: 1593080475:0;la
-: 1593080477:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
-: 1593080495:0;g d
-: 1593080496:0;g s
-: 1593080498:0;g st
-: 1593080500:0;g pl origin develop
-: 1593080511:0;g d
-: 1593080512:0;g s
-: 1593080515:0;g st apply
-: 1593080519:0;g d
-: 1593080524:0;g lol
-: 1593080526:0;g s
 : 1593080533:0;g co develop -- yarn.lock
-: 1593080534:0;g d
-: 1593080535:0;g s
 : 1593080543:0;g co develop -- package.json
-: 1593080545:0;g d
-: 1593080546:0;g s
-: 1593080556:0;g co package.json
-: 1593080559:0;g reset
-: 1593080560:0;g co package.json
-: 1593080562:0;g d
-: 1593080563:0;g s
 : 1593080570:0;rm -rf node_modules yarn.lock && yarn install && yarn upgrade && yarn dev
-: 1593080731:0;g d
-: 1593080732:0;g s
-: 1593080734:0;g st
-: 1593080737:0;vi
-: 1593080752:0;g bnc
-: 1593080803:0;g lol
-: 1593080811:0;g bnc
-: 1593080814:0;g ps origin feature-profile-edit
-: 1593080887:0;...
-: 1593080887:0;la
 : 1593080889:0;cd work
-: 1593080889:0;la
-: 1593080891:0;cd lyon
-: 1593080891:0;la
-: 1593080894:0;cd html-renderer
-: 1593080896:0;g d
-: 1593080897:0;g s
-: 1593080902:0;g st
-: 1593080904:0;g s
-: 1593080913:0;g pl origin develop
-: 1593080948:0;g d
-: 1593080950:0;g s
-: 1593080953:0;g st apply
-: 1593080955:0;g d
-: 1593080962:0;g s
 : 1593080986:0;g co develop -- scoped-models/ProviderCheckManager.tsx
-: 1593080988:0;g s
-: 1593080991:0;g reset
-: 1593080992:0;g s
-: 1593080996:0;vi
-: 1593080999:0;yarn dev
-: 1593082185:0;..
-: 1593082186:0;la
-: 1593082186:0;..
-: 1593082187:0;la
-: 1593082190:0;cd editmode
-: 1593082190:0;la
-: 1593082192:0;cd main-app
-: 1593082192:0;la
-: 1593082205:0;rails c
-: 1593082207:0;rails s
-: 1593082209:0;rails s -p 3002 -P 23
-: 1593082211:0;vi
-: 1593082339:0;g b
-: 1593082346:0;g co staging-sort-collection-jquery-way
-: 1593082347:0;g d
-: 1593082348:0;g s
-: 1593082351:0;rm -rf 23
-: 1593129610:0;jt work
-: 1593129610:0;la
-: 1593129612:0;cd editmode
-: 1593129612:0;la
-: 1593129614:0;cd main-app
-: 1593129615:0;la
-: 1593129625:0;rails c
-: 1593129627:0;rails s
-: 1593129629:0;rails s -p 3002 -P 23
-: 1593129630:0;vi
-: 1593130314:0;rm -rf /usr/local/var/postgres/postmaster.pid
-: 1593130318:0;rails s
-: 1593130320:0;rails s -p 3002 -P 23
-: 1593130326:0;rails c
-: 1593132077:0;g a
-: 1593132484:0;rails c
-: 1593132488:0;rails s
-: 1593132580:0;rails s -p 3002 -P 23
-: 1593133449:0;rails s
-: 1593133451:0;rails s -p 3002 -P 23
-: 1593133452:0;rails c
-: 1593135401:0;g a
 : 1593135426:0;g c -m "update jquery way"
-: 1593135430:0;g co staging
-: 1593135433:0;g a
-: 1593135440:0;g st
-: 1593135443:0;g clean -fd
-: 1593135445:0;g st
-: 1593135447:0;g d
-: 1593135449:0;g s
-: 1593135452:0;rm -rf 23
-: 1593135454:0;g d
-: 1593135457:0;g st
-: 1593135462:0;g pl origin staging
-: 1593135472:0;g st apply
-: 1593135474:0;g a
-: 1593135480:0;g lol
-: 1593135481:0;g log
-: 1593135492:0;g s
 : 1593135506:0;g c -m "add validation to avoid empty string for custom fields slug"
-: 1593135507:0;g bnc
-: 1593135509:0;g ps origin staging
-: 1593135557:0;g lol
-: 1593135558:0;g s
-: 1593135559:0;g d
-: 1593135560:0;g st
-: 1593135562:0;g lol
 : 1593135618:0;g co staging-sort-collection-jquery-way
-: 1593135620:0;g pl origin staging
-: 1593135650:0;g s
 : 1593135657:0;g co staging -- db/schema.rb
-: 1593135659:0;g s
-: 1593135663:0;g reset
-: 1593135665:0;g s
-: 1593135681:0;rake db:migrate
-: 1593135689:0;rails c
-: 1593135690:0;rails s -p 3002 -P 23
-: 1593135691:0;rails s
-: 1593135695:0;bundle install
-: 1593135713:0;rake db:migrate
-: 1593135759:0;g d
-: 1593135761:0;g s
-: 1593135775:0;git add .
 : 1593135779:0;g c -m "Merge staging"
-: 1593135781:0;g lol
-: 1593136120:0;rails s
-: 1593136121:0;rails s -p 3002 -P 23
-: 1593136122:0;rails c
-: 1593136785:0;g a
 : 1593136799:0;g c -m "add accepts_nested_attributes_for on the model of EntityType"
-: 1593136802:0;g bnc
 : 1593136803:0;g ps origin staging-sort-collection-jquery-way
-: 1593136839:0;down
-: 1593137182:0;jt work
-: 1593137192:0;cd lyon
-: 1593137193:0;la
-: 1593137194:0;cd api-server
-: 1593137194:0;la
-: 1593142121:0;jt work
 : 1593142122:0;bos
-: 1593142124:0;bos -h
-: 1593142137:0;lolcat
-: 1593142146:0;jt dotfiles
-: 1593142147:0;la
-: 1593142149:0;vi
 : 1593142156:0;brew uninstall lolcat
 : 1593142165:0;lolcat
-: 1593142168:0;bos -h
 : 1593142171:0;brew install lolcat
-: 1593142219:0;bos -h
-: 1593142228:0;jt work
-: 1593142228:0;la
-: 1593142233:0;cd lyon
-: 1593142235:0;la
-: 1593142241:0;cd api-server
-: 1593142246:0;g pl origin develop
-: 1593148168:0;jt work
-: 1593148532:0;la
-: 1593148534:0;cd lyon
-: 1593148535:0;la
-: 1593148536:0;cd api-server
-: 1593148536:0;la
-: 1593148538:0;g lol
-: 1593148542:0;vi
-: 1593148546:0;...
-: 1593148546:0;la
-: 1593148547:0;cd server
-: 1593148548:0;la
-: 1593148551:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
-: 1593148595:0;..
-: 1593148596:0;la
-: 1593148599:0;cd lyon
 : 1593148600:0;html
-: 1593148603:0;html-renderer
-: 1593148606:0;g d
-: 1593148613:0;vi
-: 1593148617:0;yarn dev
-: 1593148904:0;g d
-: 1593148905:0;g st
-: 1593153288:0;g d
-: 1593153290:0;g s
-: 1593153295:0;g clean -fd
 : 1593154904:0;ssh -i lyon-bos.pem ubuntu@52.77.185.191
-: 1593162474:0;g d
-: 1593162534:0;jt dotfiles
-: 1593162535:0;la
-: 1593162536:0;vi
-: 1593166796:0;jt work
-: 1593166797:0;la
-: 1593166797:0;cd lyon
-: 1593166799:0;la
-: 1593166810:0;cd api-server
-: 1593166821:0;vi
-: 1593166866:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593169218:0;...
-: 1593169219:0;la
-: 1593169220:0;cd editmode
-: 1593169220:0;la
-: 1593169222:0;cd main-app
-: 1593169223:0;la
-: 1593169227:0;g co staging
-: 1593169230:0;g pl origin staging
-: 1593169243:0;g lol
-: 1593169248:0;g log
-: 1593169268:0;rails s
-: 1593169269:0;rails s -p 3002 -P 23
-: 1593169271:0;rails c
-: 1593169272:0;vi
-: 1593220920:0;jt work
-: 1593220921:0;la
-: 1593220924:0;jt personal
-: 1593220925:0;la
 : 1593220928:0;mkdir twitch-bot
-: 1593221018:0;la
-: 1593221021:0;cd twitch-bot
-: 1593221023:0;..
-: 1593221023:0;la
 : 1593221027:0;mv Vieb vieb
-: 1593221029:0;la
-: 1593221031:0;cd twitch-bot
-: 1593221243:0;down
-: 1593221501:0;la
-: 1593221503:0;git init
-: 1593221505:0;g so
-: 1593221512:0;touch README.md
-: 1593221513:0;g a
-: 1593221515:0;g lol
-: 1593221517:0;g s
-: 1593221520:0;git add .
-: 1593221530:0;g c -m "Initial Commit"
-: 1593221532:0;g bnc
-: 1593221534:0;g ps origin master
-: 1593221609:0;npm init
-: 1593221612:0;yarn init
-: 1593221616:0;la
-: 1593221617:0;g d
-: 1593221618:0;g s
-: 1593221623:0;g clean -fd
-: 1593221627:0;yarn init -y
-: 1593221631:0;g a
 : 1593221646:0;g c -m "NPM Initialize"
-: 1593221649:0;g ps origin master
-: 1593221671:0;vi
-: 1593221700:0;g a
 : 1593221715:0;g c -m "[Hotfix] Add reference on the README.md"
-: 1593221716:0;g bnc
-: 1593221720:0;g ps origin master
-: 1593263226:0;bos -h
 : 1593263231:0;bos -f pipes
-: 1593263239:0;bos -f matrix
-: 1593390525:0;jt work
-: 1593390525:0;la
-: 1593390526:0;cd editmode
-: 1593390527:0;la
-: 1593390528:0;cd main-app
-: 1593390531:0;g d
-: 1593390532:0;g s
-: 1593390533:0;g clean -fd
-: 1593390538:0;g st
-: 1593390546:0;g pl origin staging
-: 1593390561:0;g lol
-: 1593390569:0;vi
-: 1593390713:0;bundle install
-: 1593390753:0;rails c
-: 1593390757:0;rails s
-: 1593390758:0;rails s -p 3002 -P 23
-: 1593394628:0;la
-: 1593394629:0;..
-: 1593394629:0;la
 : 1593394642:0;mkdir trix-editmode
-: 1593394644:0;la
-: 1593394658:0;cd trix-editmode
-: 1593394660:0;..
-: 1593394660:0;la
-: 1593394662:0;rm -rf trix-editmode
 : 1593394671:0;g clone git@github.com:BosEriko/trix.git trix-editmode
-: 1593395010:0;la
-: 1593395013:0;cd trix-editmode
-: 1593395013:0;la
-: 1593395016:0;vi
-: 1593395284:0;..
-: 1593395284:0;la
 : 1593395287:0;rm -rf trix-editmode
 : 1593395298:0;g clone git@github.com:BosEriko/trix-editmode.git
-: 1593395377:0;la
-: 1593395380:0;cd trix-editmode
-: 1593395380:0;la
-: 1593395450:0;vi
-: 1593395548:0;g co -b editmode
-: 1593395550:0;g a
 : 1593395568:0;g c -m "[Hotfix] Rename trix.gemspec to trix-editmode.gemspec"
-: 1593395596:0;g bnc
-: 1593395603:0;g ps origin editmode
-: 1593395684:0;la
-: 1593395693:0;gem build trix-editmode.gemspec
-: 1593395697:0;la
-: 1593395715:0;rm -rf trix-0.11.1.gem
-: 1593395717:0;g a
-: 1593395719:0;g lol
-: 1593395721:0;g s
-: 1593395725:0;la
 : 1593395735:0;rm -rf trix-editmode.gemspec
-: 1593395739:0;gem build trix-editmode.gemspec
 : 1593395753:0;g pl origin editmode
-: 1593395758:0;g st
-: 1593395761:0;la
-: 1593395768:0;gem build trix-editmode.gemspec
-: 1593395773:0;la
 : 1593395818:0;rm -rf trix-0.11.1.gem
-: 1593395819:0;la
-: 1593395824:0;g a
 : 1593395838:0;g c -m "[Hotfix] Update the gem name to trix-editmode"
-: 1593395838:0;g bnc
-: 1593395841:0;g ps origin editmode
-: 1593395869:0;gem build trix-editmode.gemspec
-: 1593395874:0;la
 : 1593395899:0;curl -u qrush https://rubygems.org/api/v1/api_key.yaml >\
 ~/.gem/credentials; chmod 0600 ~/.gem/credentials
 : 1593395910:0;curl -u qrush https://rubygems.org/api/v1/api_key.yaml ~/.gem/credentials; chmod 0600 ~/.gem/credentials
-: 1593395953:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml ~/.gem/credentials; chmod 0600 ~/.gem/credentials
 : 1593395997:0;mkdir /Users/boserikoreyes/.gem/credentials
 : 1593395999:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml ~/.gem/credentials; chmod 0600 ~/.gem/credentials
 : 1593396019:0;curl -u BosEriko "https://rubygems.org/api/v1/api_key.yaml" ~/.gem/credentials; chmod 0600 ~/.gem/credentials
-: 1593396041:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
 : 1593396054:0;rm -rf /Users/boserikoreyes/.gem/credentials
 : 1593396056:0;curl -u BosEriko https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
-: 1593396151:0;la
 : 1593396156:0;rm -rf trix-editmode-0.11.1.gem
-: 1593396159:0;g a
 : 1593396170:0;g c -m "[Hotfix] Update the version"
-: 1593396174:0;g bnc
-: 1593396176:0;g ps origin editmode
-: 1593396189:0;gem build trix-editmode.gemspec
-: 1593396193:0;la
-: 1593396221:0;g lol
-: 1593396224:0;la
 : 1593396231:0;gem push trix-editmode-0.0.1.gem
-: 1593396339:0;rails s
-: 1593396351:0;g d
-: 1593396352:0;g s
-: 1593396357:0;g st
 : 1593396374:0;g co -b trix-variables-link
-: 1593396380:0;g pl origin staging
-: 1593396388:0;g lol
-: 1593396415:0;la
-: 1593396419:0;g st apply
-: 1593396421:0;g a
 : 1593396437:0;g c -m "change the bundle being installed from trix to trix-editmode"
-: 1593396439:0;g st
-: 1593396441:0;bundle install
-: 1593396456:0;rails s
-: 1593396457:0;rails s -p 3002 -P 23
-: 1593396459:0;rails c
-: 1593396638:0;g d
-: 1593396639:0;g s
-: 1593396643:0;g co app
-: 1593397336:0;rails s
-: 1593397339:0;rails s -p 3002 -P 23
-: 1593397340:0;rails c
-: 1593397514:0;g co staging
-: 1593397534:0;g st
-: 1593397536:0;g d
-: 1593397537:0;g s
-: 1593397539:0;g st
-: 1593397542:0;g clean -fd
-: 1593397545:0;bundle install
-: 1593397555:0;rails s
-: 1593397555:0;rails s -p 3002 -P 23
-: 1593397556:0;rails c
-: 1593397563:0;g pl origin staging
-: 1593397582:0;g b
-: 1593397587:0;g co trix-variables-link
-: 1593397590:0;g st apply
-: 1593397601:0;rails s
-: 1593397603:0;rails s -p 3002 -P 23
-: 1593397603:0;rails c
-: 1593399067:0;jt work
-: 1593399067:0;la
-: 1593399069:0;cd editmode
-: 1593399069:0;la
-: 1593399070:0;..
-: 1593399071:0;la
-: 1593399072:0;cd lyon
-: 1593399072:0;la
-: 1593399074:0;cd api-server
-: 1593399074:0;la
-: 1593399113:0;yarn dev
-: 1593399119:0;vi
-: 1593399129:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593399139:0;la
-: 1593399144:0;..
-: 1593399144:0;la
 : 1593399146:0;cd lyon/html-renderer
-: 1593399148:0;vi
-: 1593399152:0;yarn dev
-: 1593400500:0;g d
-: 1593400501:0;g s
 : 1593400523:0;git add scoped-models/
 : 1593400529:0;g commit -m "create editprofileforminput"
-: 1593400531:0;g bnc
-: 1593400534:0;g ps origin feature-profile-edit
 : 1593400563:0;g diff components/profile/LyonProfile/LyonProfileDetails/LyonProfileDetailsInfo/index.tsx
 : 1593400569:0;git add components/profile/LyonProfile/LyonProfileDetails/LyonProfileDetailsInfo/index.tsx
 : 1593400609:0;git commit -m "change the message on the edit profile button"
-: 1593400617:0;g diff
-: 1593400618:0;g s
-: 1593400626:0;g co components
-: 1593400671:0;g d
-: 1593400674:0;git add .
 : 1593400680:0;git commit -m "remove constants and layout styles"
-: 1593400681:0;g bnc
-: 1593400684:0;g ps origin feature-profile-edit
-: 1593400721:0;g pl origin develop
-: 1593400860:0;g bnc
-: 1593401950:0;yarn install
-: 1593402030:0;yarn dev
-: 1593409558:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593410154:0;g d
-: 1593410156:0;g s
-: 1593410634:0;yarn dev
-: 1593410635:0;vi
-: 1593411177:0;g d
-: 1593411178:0;g s
-: 1593411180:0;git add .
 : 1593411189:0;g c -m "create the base of the form"
-: 1593411190:0;g bnc
-: 1593411193:0;g ps origin feature-profile-edit
-: 1593412401:0;g d
-: 1593412402:0;g s
-: 1593412405:0;git add .
 : 1593412411:0;g c -m "add error"
-: 1593412445:0;g a
 : 1593412452:0;g c -m "call the error component"
-: 1593412453:0;g bnc
-: 1593412455:0;g ps origin feature-profile-edit
-: 1593412608:0;g a
 : 1593412616:0;g c -m "add edit profile to the provider root tree"
-: 1593412617:0;g bnc
-: 1593412618:0;g ps origin feature-profile-edit
-: 1593413184:0;yarn dev
-: 1593413242:0;g a
 : 1593413256:0;g c -m "add the edit profile name component"
-: 1593413257:0;g bnc
-: 1593413261:0;g ps origin feature-profile-edit
-: 1593414228:0;g d
-: 1593414229:0;g s
-: 1593414231:0;g a
 : 1593414270:0;g c -m "add LyonEditProfileActionContainer to the components"
-: 1593414273:0;g d
-: 1593414280:0;g st
-: 1593414455:0;g a
 : 1593414465:0;g c -m "add LyonEditProfileSubmit to the components"
-: 1593414466:0;g bnc
-: 1593414468:0;g ps origin feature-profile-edit
-: 1593414559:0;yarn dev
-: 1593414734:0;g d
-: 1593415018:0;yarn dev
-: 1593415078:0;g a
 : 1593415117:0;g c -m "remove password from the fields, stop signing in of user and stop verification of email"
-: 1593415118:0;g bnc
 : 1593415121:0;g ps orogin feature-profile-edit
-: 1593415134:0;g ps origin feature-profile-edit
-: 1593415738:0;g a
 : 1593415759:0;g c -m "add city and birthdate field"
-: 1593415761:0;g bnc
-: 1593415763:0;g ps origin feature-profile-edit
-: 1593416148:0;g a
 : 1593416168:0;g c -m "add email and update the updateUserDetails"
-: 1593416169:0;g bnc
-: 1593416171:0;g ps origin feature-profile-edit
-: 1593416565:0;g pl origin staging
-: 1593416575:0;g pl origin develop
-: 1593427992:0;jt work
-: 1593427992:0;la
-: 1593427994:0;cd editmode
-: 1593427994:0;la
-: 1593427998:0;cd main-app
-: 1593428112:0;rails c
-: 1593428116:0;rails s
-: 1593428118:0;rails s -p 3002 -P 23
-: 1593428120:0;vi
-: 1593469419:0;jt work
-: 1593472177:0;la
-: 1593472179:0;cd editmode
-: 1593472180:0;la
-: 1593472182:0;cd main-app
-: 1593472182:0;la
-: 1593472185:0;vi
-: 1593472197:0;g pl origin staging
-: 1593472302:0;g d
-: 1593472303:0;g s
-: 1593472305:0;g st
-: 1593472307:0;g pl origin staging
-: 1593472318:0;g st apply
-: 1593472320:0;rails c
-: 1593472323:0;rails s
-: 1593472331:0;bundle install
-: 1593472350:0;rails c
-: 1593472559:0;rails s
-: 1593472560:0;rails s -p 3002 -P 23
-: 1593473450:0;..
-: 1593473451:0;la
 : 1593473454:0;cd trix-editmode
 : 1593473497:0;git remote add kylefox git@github.com:kylefox/trix.git
-: 1593473510:0;g co master
-: 1593473518:0;g pl kylefox master
-: 1593473527:0;g d
-: 1593473528:0;g s
-: 1593473542:0;g co editmode
 : 1593473549:0;g pl kylefox master
-: 1593473555:0;vi
-: 1593473596:0;g d
-: 1593473604:0;git add .
 : 1593473608:0;git commit -m "Fix conflict"
-: 1593473612:0;g bnc
-: 1593473615:0;g ps origin editmode
-: 1593473624:0;g co master
-: 1593473626:0;g ps origin master
 : 1593473640:0;g co editmode
-: 1593473645:0;gem build trix-editmode.gemspec
-: 1593473648:0;g lol
-: 1593473653:0;la
 : 1593473669:0;gem push trix-editmode-0.0.2.gem
-: 1593473710:0;bundle install
-: 1593473866:0;rm -rf Gemfile.lock
-: 1593473868:0;bundle install
 : 1593473898:0;bundle update --bundler
-: 1593473904:0;bundle install
-: 1593473912:0;g d
-: 1593473913:0;g s
 : 1593473923:0;g co master -- Gemfile
-: 1593473925:0;g d
-: 1593473927:0;g s
-: 1593473935:0;g co master -- Gemfile.lock
-: 1593473937:0;g d
-: 1593473939:0;g reset
-: 1593473939:0;g s
-: 1593473944:0;bundle install
 : 1593473953:0;bundle info trix-editmode
 : 1593473963:0;bundle info uglifier
-: 1593473972:0;bundle install
-: 1593474046:0;g d
-: 1593474047:0;g s
-: 1593474051:0;g co Gemfile
-: 1593474068:0;g d
-: 1593474069:0;g s
-: 1593474081:0;bundle install
-: 1593474096:0;g co staging -- Gemfile.lock
-: 1593474098:0;g s
-: 1593474101:0;g reset
-: 1593474106:0;bundle install
 : 1593474128:0;bundle info trix-rails
-: 1593474159:0;git reset --hard origin/master
-: 1593474161:0;g d
-: 1593474162:0;g s
-: 1593474165:0;vi
-: 1593474212:0;g d
-: 1593474216:0;g s
-: 1593474222:0;git add .
 : 1593474228:0;git commit -m "force change"
 : 1593474235:0;g push origin editmode --force
-: 1593474271:0;gem build trix-editmode.gemspec
 : 1593474280:0;gem push trix-editmode-0.0.3.gem
-: 1593474303:0;bundle install
-: 1593474316:0;rails s
-: 1593474318:0;rails s -p 3002 -P 23
-: 1593474320:0;rails c
-: 1593475099:0;g d
-: 1593475100:0;g s
-: 1593475105:0;git add .
 : 1593475116:0;g c -m "move the assets from trix to trix-editmode"
-: 1593475117:0;g bnc
-: 1593475121:0;g ps origin editmode
-: 1593475132:0;git diff master..editmode
-: 1593475169:0;g d
-: 1593475172:0;g a
-: 1593475177:0;g c -m "bump version"
-: 1593475178:0;g bnc
-: 1593475183:0;g ps origin editmode
-: 1593475203:0;gem push trix-editmode-0.0.4.gem
-: 1593475209:0;gem build trix-editmode.gemspec
 : 1593475212:0;gem push trix-editmode-0.0.4.gem
-: 1593475238:0;bundle install
-: 1593475389:0;rails s
-: 1593475390:0;rails s -p 3002 -P 23
-: 1593475400:0;rails c
-: 1593475554:0;g d
-: 1593475555:0;g s
-: 1593475560:0;git add .
 : 1593475570:0;git commit -m "move back the assets to its real name"
-: 1593475571:0;g bnc
-: 1593475573:0;g ps origin editmode
-: 1593475584:0;g d
-: 1593475586:0;g s
-: 1593475592:0;g lol
-: 1593475606:0;git add .
-: 1593475609:0;g c -m "bump version"
-: 1593475615:0;gem build trix-editmode.gemspec
 : 1593475625:0;gem push trix-editmode-0.0.5.gem
-: 1593475698:0;g d
-: 1593475702:0;g s
 : 1593475708:0;git diff app
-: 1593475714:0;g a
 : 1593475732:0;git commit -m "add a way to source local gems"
-: 1593475734:0;g a
-: 1593475758:0;g d
-: 1593475759:0;g s
-: 1593475761:0;g reset
-: 1593475767:0;g d
-: 1593475768:0;g s
-: 1593475772:0;g a
-: 1593475788:0;g d
-: 1593475789:0;g s
 : 1593475807:0;g commit -m "rename trix-editmode asset to trix"
-: 1593475810:0;g d
-: 1593475812:0;g diff
 : 1593475817:0;g st app
-: 1593475842:0;bundle install
-: 1593475852:0;rails s
-: 1593475853:0;rails s -p 3002 -P 23
-: 1593475858:0;rails c
-: 1593475920:0;git diff
-: 1593475923:0;la
-: 1593475924:0;g s
-: 1593475928:0;git add Gemfile.lock
 : 1593475933:0;g c -m "update gemfile"
-: 1593475933:0;g d
-: 1593475935:0;g st
-: 1593475939:0;g pl origin staging
-: 1593475957:0;git diff staging..trix-variables-link
-: 1593475991:0;g co staging
-: 1593475993:0;g d
-: 1593475998:0;la
-: 1593476000:0;g s
-: 1593476003:0;g co app
-: 1593476007:0;rm -rf 23
-: 1593476009:0;g co staging
-: 1593476015:0;g pl origin staging
 : 1593476028:0;g co trix-variables-link
 : 1593476031:0;git diff staging..trix-variables-link
-: 1593477756:0;vi
 : 1593477840:0;rm -rf vendor/assets/javascripts/trix.js
 : 1593477842:0;rm -rf vendor/assets/javascripts/trix.css
 : 1593477864:0;curl https://raw.githubusercontent.com/basecamp/trix/master/dist/trix.js > vendor/assets/javascripts/trix.js
 : 1593477871:0;curl https://raw.githubusercontent.com/basecamp/trix/master/dist/trix.css > vendor/assets/javascripts/trix.css
-: 1593477923:0;g s
-: 1593477933:0;g c -m "update from 1.2.0 to 1.2.3"
-: 1593477939:0;git add .
 : 1593477941:0;g c -m "update from 1.2.0 to 1.2.3"
-: 1593477960:0;g d
-: 1593477964:0;git add .
-: 1593477967:0;g c -m "bump version"
-: 1593477970:0;g lol
-: 1593477978:0;g ps origin editmode
-: 1593477999:0;gem build trix-editmode.gemspec
 : 1593478006:0;gem push trix-editmode-0.0.6.gem
-: 1593478030:0;g a
 : 1593478040:0;g c -m "update trix-editmode to 0.0.6"
-: 1593478043:0;g bnc
-: 1593478047:0;g ps origin trix-variables-link
-: 1593478056:0;rails s
-: 1593478061:0;bundle install
-: 1593478070:0;rails s
-: 1593478073:0;rails s -p 3002 -P 23
-: 1593478075:0;rails c
-: 1593478241:0;..
-: 1593478242:0;la
 : 1593478247:0;g co git@github.com:BosEriko/trix.git trix-basecamp
 : 1593478255:0;g clone git@github.com:BosEriko/trix.git trix-basecamp
-: 1593478266:0;Y
-: 1593478286:0;la
 : 1593478297:0;mv trix-editmode trix-gem
-: 1593478299:0;la
-: 1593478421:0;bundle install
-: 1593478431:0;rails c
-: 1593478435:0;rails s -p 3002 -P 23
-: 1593478438:0;rails s
-: 1593491296:0;jt personal
-: 1593491297:0;la
-: 1593491298:0;jt work
-: 1593491298:0;la
-: 1593491302:0;cd lyon
-: 1593491302:0;la
-: 1593491304:0;cd api-server
-: 1593491306:0;la
-: 1593491309:0;vi
-: 1593491313:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593491335:0;la
-: 1593491337:0;..
-: 1593491337:0;la
-: 1593491340:0;cd lyon
-: 1593491340:0;la
 : 1593491342:0;ht
-: 1593491344:0;html-renderer
-: 1593491346:0;la
-: 1593491349:0;vi
-: 1593491353:0;yarn dev
-: 1593499317:0;g a
 : 1593499329:0;g c -m "add style to the edit profile button"
-: 1593499331:0;g bnc
-: 1593499333:0;g ps origin feature-profile-edit
-: 1593505514:0;g d
-: 1593514698:0;jt work
-: 1593514698:0;la
-: 1593514699:0;cd edit
-: 1593514702:0;cd editmode
-: 1593514703:0;la
-: 1593514705:0;cd main-app
-: 1593514706:0;la
-: 1593514712:0;rails s -p 3002 -P 23
-: 1593514714:0;rails s
-: 1593514716:0;rails c
-: 1593515292:0;vi
-: 1593516681:0;..
-: 1593516681:0;la
-: 1593516684:0;cd trix-gem
-: 1593516685:0;la
-: 1593516686:0;vi
-: 1593561872:0;jt work
-: 1593561872:0;la
-: 1593561874:0;cd editmode
-: 1593561874:0;la
-: 1593561894:0;cd main-app
-: 1593561895:0;la
-: 1593561903:0;vi
-: 1593561913:0;rails c
-: 1593561916:0;rails s -p 3002 -P 23
-: 1593561917:0;rails s
-: 1593561922:0;vi
-: 1593562682:0;la
-: 1593562685:0;..
-: 1593562686:0;la
-: 1593562690:0;cd trix-gem
-: 1593562693:0;vi
-: 1593562700:0;../trix-basecamp
-: 1593562704:0;la
 : 1593562710:0;rbenv install 2.3.4
-: 1593563257:0;la
-: 1593563260:0;vi
 : 1593563487:0;g co -b editmode
-: 1593563491:0;g ps origin editmode
-: 1593563517:0;down
-: 1593563681:0;g a
 : 1593563693:0;g c -m "[Hotfix] Update the links for updating"
-: 1593563694:0;g bnc
-: 1593563696:0;g ps origin editmode
-: 1593564280:0;vi
-: 1593565796:0;g d
-: 1593565798:0;g a
 : 1593565814:0;g c -m "[Hotfix] Remove validation for URL"
-: 1593565815:0;g bnc
-: 1593565818:0;g ps origin editmode
-: 1593565889:0;g d
-: 1593565891:0;g a
 : 1593565905:0;g c -m "[Hotfix] Change the path of the css and js for trix updating"
-: 1593565906:0;g bnc
-: 1593565908:0;g ps origin editmode
-: 1593565949:0;g d
-: 1593565958:0;bin/blade build
-: 1593565964:0;bundle install
 : 1593566010:0;gem install bundler
-: 1593566022:0;bundle install
-: 1593566110:0;bin/blade build
-: 1593566135:0;npm install
-: 1593566140:0;yarn install
-: 1593566173:0;bin/blade build
-: 1593566185:0;g s
 : 1593566194:0;git add dist
-: 1593566198:0;g d
 : 1593566214:0;g c -m "[Hotfix] Update the trix js"
-: 1593566215:0;g bnc
-: 1593566219:0;g ps origin editmode
-: 1593566308:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
-: 1593566312:0;g d
-: 1593566313:0;g s
-: 1593566409:0;g a
 : 1593566427:0;g c -m "[Hotfix] Update the command to update the assets"
-: 1593566428:0;g a
 : 1593566435:0;g c -m "[Hotfix] Update trix"
-: 1593566437:0;g bnc
-: 1593566441:0;g ps origin editmode
-: 1593566459:0;g a
 : 1593566467:0;g c -m "[Hotfix] Bump version"
-: 1593566475:0;gem build trix-editmode.gemspec
 : 1593566483:0;gem push trix-editmode-0.0.7.gem
-: 1593566494:0;g a
 : 1593566509:0;g c -m "update trix-editmode to 0.0.7"
-: 1593566517:0;bundle install
-: 1593566549:0;rails c
-: 1593566551:0;rails s
-: 1593566554:0;rails s -p 3002 -P 23
-: 1593567050:0;git diff master..editmode
 : 1593567056:0;git status master..editmode
 : 1593567059:0;git diff master..editmode
-: 1593567234:0;rails c
-: 1593567850:0;g pl origin staging
-: 1593569115:0;g a
-: 1593569146:0;g s
 : 1593569157:0;g c -m "update styling}
 : 1593569159:0;g c -m "update styling"
 : 1593569161:0;g bnc 
-: 1593569164:0;g ps origin trix-variables-link
-: 1593569647:0;g co staging -- Gemfile.lock
-: 1593569649:0;g d
-: 1593569652:0;g s
 : 1593569659:0;git add Gemfile.lock
-: 1593569661:0;g s
 : 1593569669:0;g c -m "revert gemfile"
 : 1593569682:0;g ps origin trix-variables-link
-: 1593569778:0;g co staging
-: 1593569780:0;g st
-: 1593569782:0;g co staging
-: 1593569785:0;g s
-: 1593569788:0;rm -rf 23
-: 1593569790:0;g st
-: 1593569794:0;g co staging
-: 1593569818:0;g pl origin staging
-: 1593569828:0;bundle install
-: 1593569910:0;jt work
-: 1593577811:0;la
-: 1593577813:0;cd lyon
-: 1593577814:0;la
-: 1593577817:0;cd api-server
-: 1593577820:0;vi
-: 1593577831:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593577842:0;la
-: 1593577843:0;...
-: 1593577844:0;la
 : 1593577847:0;cd Work
-: 1593577848:0;la
-: 1593577849:0;cd lyon
-: 1593577849:0;la
-: 1593577852:0;cd api-server
-: 1593577852:0;la
-: 1593577856:0;../html-renderer
-: 1593577858:0;g d
-: 1593577862:0;vi
-: 1593577869:0;yarn dev
-: 1593601472:0;jt work
-: 1593601472:0;la
-: 1593601474:0;cd editmode
-: 1593601476:0;la
-: 1593601479:0;cd main-app
-: 1593601485:0;rails s
-: 1593601496:0;rails s -p 3002 -P 23
-: 1593601498:0;rails c
-: 1593646532:0;clear
-: 1593646533:0;la
-: 1593646539:0;jt work
-: 1593646542:0;clear
-: 1593646555:0;jt work
-: 1593646558:0;cd editmode
-: 1593646559:0;la
-: 1593646561:0;cd main-app
-: 1593646562:0;la
-: 1593647220:0;g d
-: 1593647222:0;g st
-: 1593647225:0;g pl origin staging
-: 1593647232:0;g d
 : 1593647583:0;g co -b staging-url-validation
-: 1593647605:0;rails c
-: 1593647606:0;rails s -p 3002 -P 23
-: 1593647608:0;rails s
-: 1593647611:0;bundle install
-: 1593647632:0;rails s
-: 1593647634:0;rails s -p 3002 -P 23
-: 1593647635:0;rails c
-: 1593647638:0;..
-: 1593647639:0;la
 : 1593647641:0;cd trix-gem
-: 1593647643:0;vi
 : 1593647651:0;../trix-basecamp
-: 1593647653:0;vi
-: 1593650766:0;g d
-: 1593650769:0;g s
-: 1593650772:0;g a
 : 1593650797:0;g c -m "[Hotfix] Add a URL validator using Regexp"
-: 1593650804:0;g bnc
-: 1593650806:0;g ps origin editmode
-: 1593650818:0;g d
-: 1593650831:0;g s
-: 1593650845:0;rm -rf Gemfile.lock
-: 1593650849:0;rm -rf yarn.lock
 : 1593650858:0;bundle install && npm install
-: 1593650963:0;g d
-: 1593650965:0;g s
-: 1593650985:0;la
-: 1593650997:0;git add .
 : 1593651013:0;g c -m "[Hotfix] Update Gemfile and remove yarn.lock"
-: 1593651015:0;g s
-: 1593651017:0;g lol
-: 1593651086:0;bin/blade build
-: 1593651097:0;bundle install
-: 1593651100:0;g d
-: 1593651101:0;g s
-: 1593651104:0;bin/blade build
-: 1593651129:0;rm -rf Gemfile.lock
-: 1593651131:0;bin/blade build
-: 1593651139:0;g lol
-: 1593651140:0;g s
-: 1593651141:0;g d
-: 1593651144:0;bundle install
-: 1593651148:0;g s
-: 1593651151:0;g lol
-: 1593651154:0;g s
-: 1593651155:0;la
 : 1593651165:0;rm -rf Gemfile.lock
-: 1593651166:0;la
-: 1593651167:0;g s
-: 1593651173:0;bin/blade build
-: 1593651177:0;bundle install
-: 1593651183:0;bin/blade build
 : 1593651332:0;bin/setup
 : 1593651341:0;bin/rackup
-: 1593651369:0;bin/blade build
 : 1593651474:0;gem cleanup uglifier
-: 1593651477:0;bin/blade build
 : 1593651483:0;gem uninstall uglifier
-: 1593651489:0;bundle install
-: 1593651495:0;bin/blade build
 : 1593651539:0;g co master -- Gemfile.lock
-: 1593651541:0;g d
-: 1593651543:0;g s
-: 1593651548:0;bundle install
-: 1593651564:0;bin/blade build
-: 1593651573:0;g d
-: 1593651574:0;g s
-: 1593651577:0;git add .
 : 1593651595:0;g c -m "[Hotfix] Revert Gemfile.lock and update trix.js"
-: 1593651599:0;g s
-: 1593651602:0;g ps origin editmode
-: 1593651643:0;g d
-: 1593651647:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
-: 1593651651:0;g d
-: 1593651653:0;g s
-: 1593651663:0;g d
-: 1593651664:0;g s
-: 1593651666:0;git add .
 : 1593651685:0;g c -m "[Hotfix] Use version of trix with url validation using regex and bump version"
-: 1593651687:0;g ps origin editmode
-: 1593651726:0;gem build trix-editmode.gemspec
 : 1593651741:0;gem push trix-editmode-0.0.8.gem
-: 1593651765:0;g d
-: 1593651768:0;g s
-: 1593651771:0;rm -rf 23
 : 1593651777:0;g co staging -- Gemfile.lock
-: 1593651780:0;g s
-: 1593651783:0;g d
-: 1593651787:0;g a
 : 1593651797:0;g c -m "update trix-editmode to 0.0.8"
-: 1593651815:0;bundle install
-: 1593651843:0;rails s
-: 1593651844:0;rails s -p 3002 -P 23
-: 1593651845:0;rails c
-: 1593651936:0;bundle install
-: 1593651947:0;rails c
-: 1593651953:0;rails s -p 3002 -P 23
-: 1593651954:0;bundle install
-: 1593651965:0;rails s
-: 1593651968:0;rails s -p 3002 -P 23
-: 1593651970:0;rails c
-: 1593652022:0;bin/blade build
-: 1593652033:0;g s
-: 1593652047:0;git add .
 : 1593652063:0;g c -m "[Hotfix] Define input on toolbar.coffee"
-: 1593652066:0;g bnc
-: 1593652072:0;g ps origin editmode
-: 1593652087:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
-: 1593652103:0;g d
-: 1593652104:0;g s
-: 1593652106:0;git add .
 : 1593652118:0;g c -m "[Hotfix] fix the input problem and bump version"
-: 1593652121:0;gem build trix-editmode.gemspec
 : 1593652126:0;gem push trix-editmode-0.0.9.gem
-: 1593652140:0;bundle install
-: 1593652170:0;g d
-: 1593652171:0;g s
-: 1593652174:0;g a
 : 1593652191:0;g c -m "update trix-editmode to 0.0.9"
-: 1593652193:0;g bnc
-: 1593652196:0;g ps origin staging-url-validation
-: 1593652197:0;rails s
-: 1593652198:0;rails s -p 3002 -P 23
-: 1593652199:0;rails c
-: 1593652477:0;g d
-: 1593652479:0;bin/blade build
-: 1593652489:0;git add .
-: 1593652551:0;g s
 : 1593652568:0;g c -m "update trix and move the validator on the html itself"
-: 1593652573:0;g ps origin editmode
-: 1593652583:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
-: 1593652587:0;g d
-: 1593652588:0;g s
-: 1593652610:0;g a
 : 1593652618:0;g c -m "update trix version"
-: 1593652623:0;g a
-: 1593652627:0;g c -m "bump version"
-: 1593652631:0;gem build trix-editmode.gemspec
 : 1593652637:0;gem push trix-editmode-0.0.10.gem
-: 1593652653:0;bundle install && rails c
-: 1593652689:0;bundle install
-: 1593652746:0;bundle install && rails c
-: 1593652759:0;rails s
 : 1593652760:0;rails s -p 3002 -P 23
 : 1593652966:0;git diff
 : 1593652968:0;g a
@@ -11360,3 +9857,378 @@ fi
 : 1599737712:0;g bnc
 : 1599737714:0;g ps origin feature-different-chunk-hotkeys
 : 1599738277:0;down
+: 1599788961:0;jt work
+: 1599788963:0;la
+: 1599789337:0;cd editmode
+: 1599789338:0;la
+: 1599789408:0;cd plugin-vscode
+: 1599789423:0;code .
+: 1599789506:0;..
+: 1599789507:0;la
+: 1599790021:0;cd main-app
+: 1599790026:0;rails s -p 3002 -P 23
+: 1599790027:0;rails s
+: 1599790636:0;rake routes |grep chunks
+: 1599790691:0;vi
+: 1599790743:0;rake routes |grep bit
+: 1599790753:0;rake routes |grep bits
+: 1599790780:0;rake routes |grep "api/v1/chunks#creat"
+: 1599793600:0;g pl origin new_layout
+: 1599793606:0;vi
+: 1599793751:0;g s
+: 1599793753:0;g a
+: 1599793795:0;g c -m "Hotfix: Undefined chunksConfiguration and ignored public/assets"
+: 1599793799:0;g s
+: 1599793801:0;g d
+: 1599793803:0;g st
+: 1599793805:0;g clean -fd
+: 1599793807:0;g st
+: 1599793808:0;g s
+: 1599793814:0;g co app
+: 1599793815:0;g s
+: 1599793817:0;g clean -fd
+: 1599793820:0;rm -rf 23
+: 1599793838:0;la
+: 1599793839:0;g s
+: 1599793848:0;g lol
+: 1599793860:0;rake assets:precompile
+: 1599793878:0;g s
+: 1599793884:0;g co 23
+: 1599793886:0;g s
+: 1599793900:0;g bnc
+: 1599793904:0;g ps origin new_layout
+: 1599796774:0;g a
+: 1599796821:0;g c -m "add chunk_type to create_snippet and made the image command name more descriptive"
+: 1599796822:0;g bnc
+: 1599796824:0;g ps origin feature-different-chunk-hotkeys
+: 1599797225:0;jt work
+: 1599797225:0;la
+: 1599797234:0;cd lyon
+: 1599797234:0;la
+: 1599797236:0;cd on-demand
+: 1599797237:0;la
+: 1599797237:0;vi
+: 1599798413:0;la
+: 1599798441:0;vi
+: 1599799103:0;g a
+: 1599799128:0;g c -m "Hotfix: Check the window object itself instead of checking for an undefined variable"
+: 1599799129:0;g bnc
+: 1599799132:0;g ps origin new_layout
+: 1599799369:0;g a
+: 1599799384:0;g c -m "Hotfix: is_editmode_logo_visible check for window"
+: 1599799384:0;g bnc
+: 1599799387:0;g ps origin new_layout
+: 1599800062:0;rails s -p 3002 -P 23
+: 1599800063:0;rails s
+: 1599800711:0;rails s -p 3002 -P 23
+: 1599804893:0;jt work
+: 1599804893:0;la
+: 1599804895:0;cd editmode
+: 1599804903:0;cd html-renderer
+: 1599804910:0;../lyon/html-renderer
+: 1599804933:0;../api-server
+: 1599804943:0;../lyon/api-server
+: 1599804948:0;../lyon/on-demand
+: 1599809318:0;vi
+: 1599809345:0;jt work
+: 1599809346:0;la
+: 1599809378:0;cd editmode
+: 1599809378:0;la
+: 1599809382:0;cd main-app
+: 1599809384:0;vi
+: 1599811238:0;rails s
+: 1599811245:0;rails s -p 3002 -P 23
+: 1599811262:0;../plugin-vscode
+: 1599811265:0;code .
+: 1599882998:0;jt work
+: 1599882998:0;la
+: 1599882999:0;cd editmode
+: 1599883000:0;la
+: 1599883004:0;cd plugin-vscode
+: 1599883004:0;la
+: 1599883006:0;g a
+: 1599883043:0;g c -m "Add chunk type selection and remove labels on rails_erb"
+: 1599883046:0;g bnc
+: 1599883048:0;g ps origin feature-different-chunk-hotkeys
+: 1599883067:0;code .
+: 1599883102:0;vi
+: 1599969619:0;jt vol
+: 1599969620:0;la
+: 1599969622:0;cd Bos
+: 1599969622:0;la
+: 1599969625:0;cd Movies
+: 1599969626:0;la
+: 1599969628:0;..
+: 1599969628:0;la
+: 1599969631:0;rm -rf Movies
+: 1599969638:0;mkdir to-print
+: 1599969717:0;la
+: 1599969774:0;jt work
+: 1599988423:0;jt vol
+: 1599988424:0;la
+: 1599988455:0;jt vol
+: 1599988457:0;la
+: 1599988458:0;cd Bos
+: 1599988459:0;la
+: 1599988463:0;rm -rf to-print
+: 1599988646:0;..
+: 1600050169:0;jt work
+: 1600050169:0;la
+: 1600050171:0;cd lyon
+: 1600050172:0;la
+: 1600050179:0;cd api-server
+: 1600050184:0;cd ../html-renderer
+: 1600050189:0;../on-demand
+: 1600050199:0;g pl origin develop
+: 1600050207:0;yarn develop
+: 1600050213:0;la
+: 1600050220:0;g bnc
+: 1600050222:0;g pl origin feature-course--create-page
+: 1600050227:0;yarn dev
+: 1600050232:0;la
+: 1600050276:0;dr-up
+: 1600055224:0;vi
+: 1600055253:0;dr-web rails g migration AssociateCoursesToCourseObjectives
+: 1600055441:0;rails generate model Commentzzzz commenter:string body:text article:references
+: 1600055450:0;dr-web rails generate model Commentzzzz commenter:string body:text article:references
+: 1600055541:0;g d
+: 1600055543:0;g s
+: 1600055544:0;g clean -fd
+: 1600055545:0;g s
+: 1600055547:0;g st
+: 1600055553:0;g st apply
+: 1600055568:0;vi
+: 1600055597:0;dr-web rails g migration AssociateCoursesToCourseObjectives
+: 1600055649:0;g s
+: 1600055651:0;g clean -fd
+: 1600055653:0;g st
+: 1600055723:0;dr-web rails generate migration AddCourseObjectivesRefToCourses course_objectives:references
+: 1600055746:0;vi
+: 1600055866:0;dr-web rails db:migrate
+: 1600056241:0;dr-web rake routes |grep course_objectives
+: 1600056485:0;dr-web rails generate migration AddCoursesRefToCourses course_pdfs:references course_assessments:references course_videos:references course_items:references course_modules:references course_requirements:references
+: 1600056613:0;dr-web rails generate migration AddLiveSessionParticipantsRefToLiveSessions live_session_participants:references
+: 1600056745:0;dr-web rails g scaffold Speakers name:string description:text user_id:string && dr-web rails db:migrate
+: 1600056809:0;dr-web rails generate migration AddSpeakersRefToCourses speakers:references
+: 1600056831:0;dr-web rails db:migrate
+: 1600056859:0;jt work
+: 1600056860:0;la
+: 1600056862:0;cd editmode
+: 1600056863:0;la
+: 1600056865:0;cd main-app
+: 1600056867:0;vi
+: 1600056976:0;la
+: 1600056983:0;dr-web rails db:migrate
+: 1600056993:0;g s
+: 1600056995:0;git add .
+: 1600057005:0;g c -m "relationships"
+: 1600057018:0;g co -b "feature-initial-relationships"
+: 1600057020:0;g bnc
+: 1600057022:0;g ps origin feature-initial-relationships
+: 1600067181:0;npm i -g vsce
+: 1600067522:0;vsce login MeganEnnis
+: 1600067544:0;dr-down
+: 1600072101:0;vsce help
+: 1600072166:0;jt work
+: 1600072166:0;la
+: 1600072168:0;cd editmode
+: 1600072168:0;la
+: 1600072174:0;cd plugin-vscode
+: 1600072177:0;vsce help
+: 1600072184:0;vsce ls-publishers
+: 1600072191:0;vsce publich
+: 1600072304:0;la
+: 1600072309:0;cd editmode
+: 1600072315:0;..
+: 1600072316:0;la
+: 1600072318:0;vsce publish
+: 1600072324:0;cd editmode
+: 1600072326:0;vsce publish
+: 1600072345:0;yarn install
+: 1600072354:0;vsce publish
+: 1600072383:0;g co master
+: 1600072385:0;g bnc
+: 1600072387:0;g pl origin master
+: 1600072401:0;vi
+: 1600072761:0;vsce publish
+: 1600072778:0;npm list --production --parseable --depth=99999 --loglevel=error
+: 1600072820:0;la
+: 1600072834:0;vi yarn.lock
+: 1600072860:0;vsce publish --yarn
+: 1600073295:0;la
+: 1600073326:0;rm -rf yarn.lock node_modules
+: 1600073332:0;npm install
+: 1600073594:0;vsce publish
+: 1600073624:0;g a
+: 1600073628:0;..
+: 1600073629:0;la
+: 1600073634:0;g a
+: 1600073637:0;g lol
+: 1600073647:0;g c -m "Hotfix: Bump the version"
+: 1600073648:0;g bnc
+: 1600073651:0;g ps origin master
+: 1600074983:0;jt work
+: 1600074985:0;la
+: 1600075001:0;cd editmode
+: 1600075002:0;la
+: 1600075009:0;sample-project-react-web
+: 1600075011:0;la
+: 1600075014:0;vi
+: 1600075056:0;yarn start
+: 1600075192:0;la
+: 1600075413:0;yarn start
+: 1600075726:0;..
+: 1600075726:0;la
+: 1600075729:0;cd plugin-react
+: 1600075730:0;la
+: 1600075731:0;vi
+: 1600076227:0;g a
+: 1600076247:0;g c -m "push swr above"
+: 1600076248:0;g bnc
+: 1600076250:0;g ps origin feature-swr
+: 1600076269:0;g co master
+: 1600076289:0;g s
+: 1600076289:0;g st
+: 1600076291:0;g co master
+: 1600076297:0;g pl origin master
+: 1600076473:0;g co -b hotfix-filter-error
+: 1600076476:0;g a
+: 1600076492:0;g c -m "hotfix for filter error"
+: 1600076494:0;g bnc
+: 1600076495:0;g ps origin hotfix-filter-error
+: 1600076557:0;yarn start
+: 1600076992:0;g a
+: 1600077004:0;g c -m "hotfix for useContext"
+: 1600077005:0;g bnc
+: 1600077008:0;g ps origin hotfix-filter-error
+: 1600079807:0;la
+: 1600079811:0;..
+: 1600079811:0;la
+: 1600079830:0;cd main-app
+: 1600079831:0;la
+: 1600079832:0;vi
+: 1600129502:0;jt work
+: 1600132164:0;la
+: 1600132169:0;cd lyon
+: 1600132170:0;la
+: 1600132177:0;cd api-server
+: 1600132179:0;la
+: 1600132182:0;../
+: 1600132183:0;la
+: 1600132184:0;cd on-demand
+: 1600132184:0;la
+: 1600132186:0;dr-up
+: 1600132194:0;dr-web rake routes |grep course
+: 1600132316:0;vi
+: 1600142880:0;bos -f matrix
+: 1600215993:0;[?1;2cY
+: 1600216006:0;exit
+: 1600216019:0;jt work
+: 1600216020:0;la
+: 1600216022:0;cd lyon
+: 1600216024:0;cd api-server
+: 1600216055:0;../html-renderer
+: 1600216060:0;g bnc
+: 1600216063:0;g pl origin feature-course--create-page
+: 1600216072:0;g d
+: 1600216078:0;g st
+: 1600216081:0;g pl origin feature-course--create-page
+: 1600216105:0;../on-demand
+: 1600217502:0;g co master
+: 1600217508:0;g pl origin master
+: 1600217517:0;g lol
+: 1600217526:0;git reset --hard origin/master
+: 1600217551:0;g co -b feature-initial-relationships-fix
+: 1600217557:0;vi
+: 1600217559:0;dr-up
+: 1600217577:0;vi
+: 1600217583:0;yarn dev
+: 1600217584:0;vi
+: 1600217586:0;yarn dev
+: 1600217587:0;vi
+: 1600222029:0;docker-compose run web rake db:drop
+: 1600222043:0;docker-compose run web rake db:create
+: 1600222057:0;dr-web rails db:migrate
+: 1600222082:0;dr-down
+: 1600222086:0;dr-web rails db:migrate
+: 1600223657:0;dr-up
+: 1600224844:0;dr-web rails g scaffold Speakers name:string description:text user_id:string && dr-web rails db:migrate
+: 1600225149:0;g a
+: 1600225193:0;g c -m "create speaker"
+: 1600225194:0;g bnc
+: 1600225197:0;g ps origin feature-initial-relationships-fix
+: 1600229035:0;dr-web rake routes |grep "live_session_participants"
+: 1600231056:0;dr-web rake routes |grep course
+: 1600246067:0;dr-web rake routes |grep courses
+: 1600246495:0;dr-web rails console
+: 1600308145:0;jt work
+: 1600308145:0;la
+: 1600308150:0;cd lyon
+: 1600308150:0;la
+: 1600308152:0;cd on-demand
+: 1600308153:0;la
+: 1600308153:0;vi
+: 1600311801:0;dr-web rails test test/controllers/courses_controller_test.rb
+: 1600340083:0;jt dotfiles
+: 1600340085:0;la
+: 1600340088:0;g lol
+: 1600340102:0;g revert db37eee1e698d5658c34e5347efb808e38921391
+: 1600340108:0;g revert dfafdb3b3a6318edd7af7eb3f802955a58d09883
+: 1600340114:0;g revert 30f665de9c029bbda427fc14178e40621ef60866
+: 1600340120:0;g revert b517850a3c43fb9e0c664c1950335de637196184
+: 1600340127:0;g revert 2fe28cb645e4498ddd976da28339443ff1c94a33
+: 1600340130:0;g s
+: 1600340132:0;g st
+: 1600340134:0;git reset --hard origin/master
+: 1600340149:0;g reset 2fe28cb645e4498ddd976da28339443ff1c94a33
+: 1600340151:0;g lol
+: 1600340154:0;g s
+: 1600340156:0;g lol
+: 1600340167:0;g reset 2fe28cb645e4498ddd976da28339443ff1c94a33
+: 1600340168:0;g lol
+: 1600340174:0;g reset b227ba8
+: 1600340176:0;g lol
+: 1600340179:0;g st
+: 1600340181:0;g clean -fd
+: 1600340188:0;g ps origin master --force
+: 1600340209:0;vi
+: 1600340235:0;rm ~/.gitconfig ~/.hyper.js ~/.viebrc ~/.skhdrc ~/.yabairc\
+
+: 1600340243:0;rm ~/Library/Application\ Support/VSCodium/User/settings.json\
+
+: 1600340247:0;rm ~/Library/Application\ Support/VSCodium/User/keybindings.json\
+
+: 1600340249:0;g st
+: 1600340251:0;g s
+: 1600340253:0;g clean -fd
+: 1600340256:0;g s
+: 1600340257:0;g lol
+: 1600340260:0;git log
+: 1600340262:0;git status
+: 1600340265:0;git stash
+: 1600340272:0;(cd ~/.dotfiles && stow config)\
+
+: 1600340273:0;g s
+: 1600340381:0;bos -f
+: 1600340382:0;bos -h
+: 1600340390:0;src ~/.zshrc
+: 1600340408:0;la
+: 1600340412:0;jt dotfiles
+: 1600340415:0;bos -f
+: 1600340417:0;bos -h
+: 1600340422:0;vi
+: 1600340437:0;bos -h
+: 1600340464:0;bos -vs backup
+: 1600340470:0;g d
+: 1600340473:0;g a
+: 1600340503:0;g st
+: 1600340505:0;vi
+: 1600340658:0;g a
+: 1600340677:0;vi
+: 1600340823:0;g a
+: 1600340834:0;g c -m "add an easy way to backup vscode extensions changes"
+: 1600340837:0;g ps origin master
+: 1600340855:0;bos -vs backup
+: 1600340862:0;g st
+: 1600340871:0;bos -vs backup
+: 1600340910:0;down
