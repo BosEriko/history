@@ -767,7 +767,6 @@ fi
 : 1577979275:0;rspec test/models/user_test.rb
 : 1577979280:0;dr-web rspec test/models/user_test.rb
 : 1577979441:0;gwip add before_action to ApplicationController
-: 1577981154:0;dr-web rails console
 : 1578060105:0;g co issue-33-Use_devise_token_auth_for_authentication
 : 1578060618:0;gwip add devise_token_auth
 : 1578112661:0;dr-web rails g CreateUserModle
@@ -960,7 +959,6 @@ TAGLINE="El Psy Congroo\
 : 1578911660:0;g co issue-42-Update_your_GraphQL_and_authenticate_it_using_devise_token_auth
 : 1579085082:0;jd vol
 : 1579085089:0;rm -rf Avengers\ Endgame\ \(2019\)\ \[WEBRip\]\ \[720p\]\ \[YTS.LT\]
-: 1579085099:0;rm -rf ._*
 : 1579085104:0;rm -rf [*
 : 1579085114:0;rm -rf [H*
 : 1579085119:0;rm -rf \[*
@@ -981,7 +979,6 @@ TAGLINE="El Psy Congroo\
 : 1579257209:0;gwip remove devise_token_auth checker
 : 1579257381:0;dr-web rails g migration DropUsers
 : 1579257458:0;gwip remove devise files and created a dropusers migration
-: 1579257519:0;dr-web rake db:migrate
 : 1579258242:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
 : 1579346803:0;dr-down && dr-up
 : 1579349100:0;dr-web rails g devise_token_auth:install User auth
@@ -2247,7 +2244,6 @@ end
 : 1586049413:0;cp -rf ../server/.github ./.github
 : 1586049551:0;g ps origin feature-templates
 : 1586049654:0;git diff feature-templates..master
-: 1586049672:0;git log
 : 1586049990:0;g c -m "change main path on package.json"
 : 1586049997:0;g ps origin issue-59-Setup_Postgres_and_TypeORM\
 
@@ -3583,184 +3579,39 @@ fi
 : 1593652568:0;g c -m "update trix and move the validator on the html itself"
 : 1593652618:0;g c -m "update trix version"
 : 1593652637:0;gem push trix-editmode-0.0.10.gem
-: 1593652760:0;rails s -p 3002 -P 23
 : 1593652966:0;git diff
-: 1593652968:0;g a
 : 1593652974:0;g c -m "escape the escape"
 : 1593652978:0;bin/blade build
-: 1593652987:0;git add .
 : 1593652991:0;g c -m "update trix"
-: 1593652992:0;g bnc
-: 1593652994:0;g ps origin editmode
 : 1593653002:0;rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js
-: 1593653005:0;g d
-: 1593653012:0;git add .
 : 1593653024:0;git commit -m "bump version and escape the escape"
-: 1593653025:0;g bnc
 : 1593653027:0;g ps origin editmode
 : 1593653040:0;gem build trix-editmode.gemspec
 : 1593653044:0;gem push trix-editmode-0.0.11.gem
-: 1593653052:0;bundle install && rails c
-: 1593653075:0;rails s -p 3002 -P 23
-: 1593653076:0;rails s
-: 1593653193:0;g d
-: 1593653198:0;g s
-: 1593653201:0;rm -rf 23
-: 1593653204:0;bundle install
-: 1593653222:0;g a
 : 1593653235:0;g c -m "update trix-editmode version"
-: 1593653288:0;down
-: 1593653416:0;g lol
-: 1593653422:0;g bnc
 : 1593653426:0;g ps origin staging-url-validation
-: 1593655482:0;rails s -p 3002 -P 23
-: 1593655482:0;rails s
-: 1593655490:0;bundle install && rails c
-: 1593655572:0;rails s
-: 1593655573:0;rails s -p 3002 -P 23
-: 1593655575:0;rails c
-: 1593655616:0;rails s -p 3002 -P 23
-: 1593655617:0;rails s
-: 1593655619:0;rails c
-: 1593655908:0;g d
-: 1593655945:0;g a
-: 1593655968:0;g lol
-: 1593655978:0;g st
-: 1593655980:0;g lol
-: 1593655982:0;g clean -fd
-: 1593655983:0;g lol
 : 1593655993:0;g reset 2a095b2
-: 1593655994:0;g d
-: 1593656007:0;g a
-: 1593656018:0;g s
-: 1593656022:0;g st
-: 1593656024:0;g clean -fd
-: 1593656025:0;g s
-: 1593656029:0;rm -rf 23
-: 1593656032:0;g st
-: 1593656033:0;g s
-: 1593656034:0;g d
-: 1593656039:0;g lol
-: 1593656043:0;g st apply
 : 1593656048:0;g co Gemfile
 : 1593656050:0;g co Gemfile.lock
-: 1593656055:0;g st
-: 1593656058:0;g co staging
-: 1593656061:0;g pl origin staging
 : 1593656078:0;g co -b "staging-slug-validation"
-: 1593656082:0;g st apply
-: 1593656083:0;g a
 : 1593656100:0;g c -m "add beore_save validatioN
 : 1593656102:0;g c -m "add beore_save validatio"
-: 1593656107:0;g bnc
 : 1593656109:0;g ps origin staging-slug-validation
-: 1593656215:0;g co staging
-: 1593656218:0;g st
-: 1593656219:0;g co staging
-: 1593656223:0;g pl origin staging
-: 1593656389:0;vi
 : 1593656587:0;g co -b staging-unique-slug-on-save
-: 1593656589:0;g a
 : 1593656606:0;g c -m "add unique validation for slug"
-: 1593656607:0;g bnc
 : 1593656612:0;g ps origin staging-unique-slug-on-save
-: 1593656745:0;g lol
-: 1593656842:0;g co staging
-: 1593656844:0;g d
-: 1593656846:0;g st
-: 1593656848:0;g pl origin staging
-: 1593656904:0;g co staging
-: 1593656906:0;g pl origin staging
-: 1593656921:0;exit
-: 1593656931:0;jt work
-: 1593656933:0;exit
-: 1593663685:0;jt work
-: 1593663685:0;la
-: 1593664192:0;jt work
-: 1593664192:0;la
-: 1593664196:0;cd lyon
-: 1593664196:0;la
-: 1593664198:0;cd api-server
-: 1593664198:0;la
-: 1593664200:0;vi
-: 1593664205:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593664210:0;../html-renderer
-: 1593664211:0;vi
-: 1593664224:0;yarn dev
 : 1593670655:0;(cd ~/Documents/Codes/Work/server && ssh -i lyon-bos.pem ubuntu@52.77.185.191)
-: 1593670664:0;yarn dev
-: 1593671342:0;g co develop
-: 1593671344:0;g d
-: 1593671346:0;g co develop
 : 1593671361:0;rm -rf .git/index.lock
-: 1593671363:0;g co develop
-: 1593671367:0;g pl origin develop
 : 1593671504:0;h pr checkout 136
 : 1593671506:0;gh pr checkout 136
-: 1593671516:0;g bnc
 : 1593671519:0;g pl origin feature-joi-to-up-migrate
-: 1593671541:0;g pl origin develop
-: 1593671547:0;vi
-: 1593671685:0;yarn install
-: 1593671732:0;yarn dev
-: 1593671905:0;g a
-: 1593671914:0;g d
-: 1593671916:0;g s
-: 1593671921:0;git add .
 : 1593671930:0;g c -m "update user payload and controller"
-: 1593671935:0;g bnc
 : 1593671938:0;g ps origin feature-joi-to-up-migrate
-: 1593671974:0;g st apply
-: 1593671976:0;g d
-: 1593671977:0;g s
-: 1593671980:0;g reset
-: 1593671984:0;g co yarn.lock
-: 1593672022:0;yarn install
-: 1593672028:0;yarn dev
-: 1593686328:0;jt dotfiles
-: 1593686330:0;vi
 : 1593686751:0;tldr pbcopy
-: 1593687365:0;jt work
-: 1593687367:0;la
-: 1593687374:0;edit
-: 1593687376:0;editmode
-: 1593687378:0;la
-: 1593687380:0;main-app
-: 1593687383:0;la
-: 1593687397:0;vi
-: 1593687402:0;rails c
-: 1593687407:0;rails s -p 3002 -P 23
-: 1593687409:0;rails s
-: 1593845051:0;jt dotfiles
-: 1593845052:0;la
-: 1593845054:0;vi
-: 1593845512:0;vi ~/Downloads/test.css
-: 1593845550:0;vi
-: 1593845603:0;vi ~/Downloads/test.css
-: 1593845623:0;vi
 : 1593845660:0;vi ~/Downloads/test.css
-: 1593845684:0;vi
-: 1593845902:0;g d
-: 1593845913:0;g a
 : 1593845924:0;g c -m "update the hyper js theme"
-: 1593845926:0;g a
 : 1593845937:0;g c -m "add lua colorizer"
-: 1593846053:0;vi
-: 1593846068:0;g d
-: 1593846070:0;g st
-: 1593846071:0;g lol
 : 1593846084:0;g reset 10537fe
-: 1593846085:0;g d
-: 1593846087:0;g st
-: 1593846090:0;g lol
-: 1593846094:0;g ps origin master
-: 1593846190:0;vi
-: 1593909373:0;jt work
-: 1593909375:0;cd editmode
-: 1593909376:0;la
-: 1593909378:0;cd main-app
-: 1593909378:0;la
-: 1593909394:0;g pl origin staging
 : 1593911448:0;g lol
 : 1593911458:0;g pl origin staging
 : 1593911725:0;jt work
@@ -10232,3 +10083,490 @@ fi
 : 1600340862:0;g st
 : 1600340871:0;bos -vs backup
 : 1600340910:0;down
+: 1600393596:0;jt work
+: 1600393596:0;la
+: 1600393599:0;cd lyon
+: 1600393599:0;la
+: 1600393603:0;cd api-server
+: 1600393611:0;../html-renderer
+: 1600393618:0;../on-demand
+: 1600393631:0;g bnc
+: 1600393633:0;g pl origin feature-course--create-page
+: 1600393650:0;clear
+: 1600394021:0;g pl origin develop
+: 1600394034:0;g bnc
+: 1600394037:0;g pl origin feature-course--create-page
+: 1600419687:0;vi
+: 1600419815:0;dr-web rake db:migrate
+: 1600569701:0;jt work
+: 1600569702:0;la
+: 1600569705:0;cd editmode
+: 1600569705:0;la
+: 1600569706:0;vi
+: 1600569721:0;la
+: 1600569723:0;cd main-app
+: 1600569723:0;la
+: 1600569724:0;vi
+: 1600589997:0;jt work
+: 1600589997:0;la
+: 1600589999:0;jt vol
+: 1600589999:0;la
+: 1600590001:0;cd Bos
+: 1600590002:0;la
+: 1600590009:0;rm -rf ._*
+: 1600590010:0;la
+: 1600590014:0;rm -rf [Horr*
+: 1600590015:0;la
+: 1600590021:0;rm -rf \[Horr*
+: 1600590022:0;la
+: 1600590342:0;~
+: 1600599451:0;jt vol
+: 1600599457:0;la
+: 1600599458:0;cd bos
+: 1600599458:0;la
+: 1600599461:0;rm -rf print
+: 1600599462:0;la
+: 1600599464:0;exit
+: 1600653741:0;jt work
+: 1600653741:0;la
+: 1600653743:0;cd editmode
+: 1600653744:0;la
+: 1600653745:0;cd main-app
+: 1600653745:0;la
+: 1600653748:0;g bnc
+: 1600653754:0;g s
+: 1600653760:0;g d
+: 1600653769:0;g st
+: 1600653779:0;g pl origin new_layout
+: 1600653788:0;g lol
+: 1600653797:0;g log
+: 1600653836:0;g co -b hotfix-sign-out-edit-project-buttons
+: 1600653845:0;rails s -p 3002 -P 23
+: 1600653846:0;rails s
+: 1600653848:0;vi
+: 1600653877:0;bundle install
+: 1600653903:0;rails s
+: 1600653907:0;rails s -p 3002 -P 23
+: 1600653932:0;bin/rake db:migrate RAILS_ENV=development && rails s
+: 1600653947:0;rails s -p 3002 -P 23
+: 1600673645:0;..
+: 1600673645:0;la
+: 1600673647:0;..
+: 1600673647:0;la
+: 1600673649:0;cd lyon
+: 1600673650:0;la
+: 1600673653:0;cd api-server
+: 1600673665:0;../html-renderer
+: 1600673681:0;../on-demand
+: 1600673808:0;g pl origin develop
+: 1600673813:0;la
+: 1600673816:0;g s
+: 1600673822:0;g co yarn.lock
+: 1600673826:0;vi
+: 1600673831:0;yarn dev
+: 1600673834:0;g bnc
+: 1600673836:0;g pl origin feature-course--create-page
+: 1600673846:0;vi
+: 1600673846:0;yarn dev
+: 1600673852:0;g co master
+: 1600673853:0;la
+: 1600673854:0;g s
+: 1600673854:0;g st
+: 1600673856:0;g co master
+: 1600673857:0;g bnc
+: 1600673859:0;g pl origin master
+: 1600673875:0;dr-up
+: 1600673876:0;vi
+: 1600674209:0;g co -b feature-connect-firebase
+: 1600675699:0;fg
+: 1600675703:0;yarn dev
+: 1600676091:0;vi
+: 1600677503:0;dr-down
+: 1600682469:0;la
+: 1600682484:0;cd editmode
+: 1600682484:0;la
+: 1600682486:0;jt work
+: 1600682487:0;la
+: 1600682488:0;cd editmode
+: 1600682489:0;la
+: 1600682493:0;cd main-app
+: 1600682493:0;la
+: 1600682494:0;vi
+: 1600683707:0;jt work
+: 1600683707:0;la
+: 1600683709:0;cd editmode
+: 1600683710:0;la
+: 1600683711:0;cd main-app
+: 1600683711:0;la
+: 1600683712:0;vi
+: 1600735794:0;jt work
+: 1600735794:0;la
+: 1600735798:0;cd editmode
+: 1600735798:0;la
+: 1600735802:0;cd main-app
+: 1600735802:0;la
+: 1600735808:0;g s
+: 1600735809:0;g d
+: 1600735825:0;vi
+: 1600735865:0;rails s
+: 1600735866:0;rails s -p 3002 -P 23
+: 1600736675:0;g a
+: 1600736725:0;g c -m "Change 'Sign in' to 'My Projects' on the landing pages and docs pages when a user is logged in"
+: 1600736726:0;g bnc
+: 1600736738:0;g ps origin hotfix-sign-out-edit-project-buttons
+: 1600737095:0;g bnc
+: 1600737098:0;g co new_layout
+: 1600737099:0;g bnc
+: 1600737102:0;g s
+: 1600737104:0;g st
+: 1600737107:0;g s
+: 1600737112:0;rm -rf 23
+: 1600737114:0;g stash
+: 1600737117:0;la
+: 1600737121:0;g co new_layout
+: 1600737124:0;g bnc
+: 1600737126:0;g pl origin new_layout
+: 1600738994:0;vi
+: 1600740514:0;la
+: 1600740514:0;..
+: 1600740515:0;la
+: 1600740520:0;mkdir checkly-tests
+: 1600740521:0;g so
+: 1600740530:0;git remote add origin git@github.com:editmodelabs/editmode-checkly-tests.git
+: 1600740533:0;git init
+: 1600740536:0;git remote add origin git@github.com:editmodelabs/editmode-checkly-tests.git
+: 1600740578:0;la
+: 1600740583:0;rm -rf .git
+: 1600740585:0;la
+: 1600740589:0;cd checkly-tests
+: 1600740589:0;la
+: 1600740594:0;git init
+: 1600740597:0;git remote add origin git@github.com:editmodelabs/editmode-checkly-tests.git
+: 1600740607:0;mkdir "Browser Check"
+: 1600740610:0;cd Browser\ Check
+: 1600740610:0;la
+: 1600740611:0;..
+: 1600740612:0;la
+: 1600740621:0;touch Browser\ Check/Editmode.js
+: 1600740635:0;touch Browser\ Check/Happy\ Path.checkly
+: 1600740636:0;la
+: 1600740655:0;mv Browser\ Check/Editmode.js Browser\ Check/Editmode.js.checkly
+: 1600740656:0;la
+: 1600740658:0;vi
+: 1600740698:0;g a
+: 1600740712:0;g c -m "Add both Editmode.js test and Happy path test"
+: 1600740712:0;g bnc
+: 1600740715:0;g ps origin master
+: 1600740882:0;g bnc
+: 1600740884:0;g pl origin new_layout
+: 1600740900:0;g co -b feature-rake-task-for-clearing-disposable-projects
+: 1600740988:0;vi
+: 1600741390:0;rails c
+: 1600751049:0;jt work
+: 1600751049:0;la
+: 1600751060:0;cd lyon
+: 1600751060:0;la
+: 1600751069:0;cd api-server
+: 1600751077:0;../html-renderer
+: 1600751093:0;../on-demand
+: 1600751120:0;yarn dev
+: 1600751125:0;dr-up
+: 1600751130:0;vi
+: 1600751133:0;yarn dev
+: 1600751134:0;vi
+: 1600751136:0;yarn dev
+: 1600751326:0;vi
+: 1600751336:0;dr-down
+: 1600751381:0;dr-web bundle install && dr-up --build
+: 1600757351:0;jt work
+: 1600757351:0;la
+: 1600757353:0;cd editmode
+: 1600757354:0;la
+: 1600757355:0;cd main-app
+: 1600757355:0;la
+: 1600757357:0;vi
+: 1600757360:0;rails c
+: 1600760406:0;dr-web rake db:migrate
+: 1600760434:0;docker-compose run web rake db:migrate:reset
+: 1600760454:0;dr-down
+: 1600760456:0;dr-up
+: 1600760737:0;dr-web rails c
+: 1600761424:0;la
+: 1600761429:0;jt work
+: 1600761430:0;la
+: 1600761431:0;cd editmode
+: 1600761433:0;la
+: 1600761436:0;cd main-app
+: 1600761436:0;vi
+: 1600762674:0;dr-down
+: 1600762691:0;dr-web bundle install && dr-up --build
+: 1600763420:0;g a
+: 1600763444:0;g c -m "Install both jwt and simple_command"
+: 1600763445:0;g a
+: 1600763472:0;g c -m "create the method authenticate user and the class JsonWebToken"
+: 1600763474:0;g bnc
+: 1600763477:0;g ps origin feature-connect-firebase
+: 1600766791:0;dr-down
+: 1600773456:0;jt work
+: 1600773457:0;la
+: 1600773461:0;cd editmode
+: 1600773461:0;la
+: 1600773472:0;..
+: 1600773472:0;la
+: 1600773474:0;cd lyon
+: 1600773475:0;la
+: 1600773476:0;cd on-demand
+: 1600773477:0;la
+: 1600773483:0;dr-web rails c
+: 1600773535:0;vi
+: 1600823024:0;jt work
+: 1600823024:0;la
+: 1600823026:0;cd editmode
+: 1600823027:0;la
+: 1600823030:0;cd main-app
+: 1600823099:0;rake -T
+: 1600823191:0;bundle exec rails g task delete_disposable_projects disposable_projects projects
+: 1600823282:0;vi
+: 1600823469:0;rake delete:delete_disposable_projects:disposable_projects['dev@editmode.app']
+: 1600823477:0;rake delete_disposable_projects:disposable_projects['dev@editmode.app']
+: 1600823483:0;bundle exec rake delete_disposable_projects:disposable_projects['dev@editmode.app']
+: 1600823487:0;bundle exec rake delete_disposable_projects:disposable_projects\['dev@editmode.app'\]
+: 1600823509:0;bundle exec rake delete_disposable_projects:disposable_projects\['dev@editmode.app', 'test again'\]
+: 1600823585:0;bundle exec rake delete_disposable_projects:disposable_projects\['dev@editmode.app'\]
+: 1600823653:0;rake delete_disposable_projects:disposable_projects\['dev@editmode.app'\]
+: 1600823750:0;rails s -p 3002 -P 23
+: 1600823751:0;rails s
+: 1600823965:0;rake delete_disposable_projects:disposable_projects\['dev@editmode.app'\]
+: 1600824150:0;rails c
+: 1600825072:0;bundle exec rake delete_disposable_projects:projects_suffix\['dev@editmode.app'\]
+: 1600825183:0;g a
+: 1600825196:0;g c -m "Create a rake task to delete disposable-projects by a single user"
+: 1600825198:0;g bnc
+: 1600825201:0;g ps origin feature-rake-task-for-clearing-disposable-projects
+: 1600825693:0;gh pr checkout 75
+: 1600825899:0;g a
+: 1600825945:0;g c -m "Fix the weird variable that I am using"
+: 1600825946:0;g bnc
+: 1600825948:0;g ps origin hotfix-sign-out-edit-project-buttons
+: 1600826002:0;g lol
+: 1600826008:0;g revert afb114e
+: 1600826011:0;g st
+: 1600826015:0;g clean -fd
+: 1600826017:0;rm -rf 23
+: 1600826021:0;g st
+: 1600826026:0;g revert afb114e
+: 1600826039:0;g reset afb114e
+: 1600826040:0;g st
+: 1600826042:0;g lol
+: 1600826046:0;vi
+: 1600826078:0;g a
+: 1600826090:0;g c -m "reverse the logic"
+: 1600826092:0;g bnc
+: 1600826096:0;g ps origin hotfix-sign-out-edit-project-buttons --force
+: 1600826662:0;gh pr checkout 76
+: 1600826697:0;g a
+: 1600826709:0;g c -m "rename prefix to suffix"
+: 1600826710:0;g bnc
+: 1600826711:0;g ps origin feature-rake-task-for-clearing-disposable-projects
+: 1600826773:0;g co new_layout
+: 1600826774:0;g bnc
+: 1600826776:0;g pl origin new_layout
+: 1600826882:0;g lol
+: 1600826942:0;..
+: 1600826942:0;la
+: 1600826945:0;cd checkly-tests
+: 1600826946:0;vi
+: 1600826953:0;touch README.md
+: 1600827234:0;g a
+: 1600827250:0;g co -b feature-local-setup
+: 1600827255:0;g a
+: 1600827257:0;g bnc
+: 1600827260:0;g ps origin feature-local-setup
+: 1600827622:0;touch .gitignore
+: 1600827629:0;yarn init -y
+: 1600827701:0;g a
+: 1600827716:0;g c -m "add a gitignore and initialize a package.json"
+: 1600827785:0;yarn add chai
+: 1600827839:0;yarn add puppeteer
+: 1600827984:0;g a
+: 1600827993:0;g c -m "install chai and puppeteer\
+"
+: 1600828159:0;vi
+: 1600828315:0;g a
+: 1600828324:0;g s
+: 1600828329:0;git add screenshots
+: 1600828331:0;g s
+: 1600828345:0;g c -m "create a screenshots directory"
+: 1600828350:0;g a
+: 1600828361:0;g c -m "make 2 scripts"
+: 1600828362:0;g bnc
+: 1600828364:0;g ps origin feature-local-setup
+: 1600828877:0;yarn test:happy-path
+: 1600828935:0;g a
+: 1600828942:0;g c -m "ignore .env"
+: 1600828943:0;g a
+: 1600828953:0;g c -m "put the tests insinde an async function"
+: 1600828954:0;g bnc
+: 1600828956:0;g ps origin feature-local-setup
+: 1600829109:0;g a
+: 1600829140:0;g c -m "update README.md"
+: 1600829142:0;g bnc
+: 1600829144:0;g ps origin feature-local-setup
+: 1600829293:0;yarn add dotenv
+: 1600829323:0;g a
+: 1600829330:0;g c -m "setup .env"
+: 1600829331:0;g bnc
+: 1600829332:0;g ps origin feature-local-setup
+: 1600829589:0;g a
+: 1600829593:0;yarn test:happy-path
+: 1600830231:0;g s
+: 1600830232:0;g d
+: 1600830239:0;g st
+: 1600830296:0;yarn test:happy-path
+: 1600830403:0;open screenshots/image.jpg
+: 1600830477:0;yarn test:happy-path
+: 1600832682:0;open screenshots
+: 1600832759:0;yarn test:happy-path
+: 1600833027:0;yarn test:editmode-js
+: 1600833047:0;g a
+: 1600833063:0;g c -m "add delay time after submitting login details on happy-path"
+: 1600833064:0;g bnc
+: 1600833066:0;g ps origin feature-local-setup
+: 1600833159:0;g a
+: 1600833163:0;g c -m "add a sample.env"
+: 1600833223:0;g a
+: 1600833227:0;g c -m "update the readme.md"
+: 1600833228:0;g bnc
+: 1600833230:0;g ps origin feature-local-setup
+: 1600833323:0;g co master
+: 1600833327:0;g pl origin master
+: 1600833334:0;la
+: 1600833341:0;g clean -fd
+: 1600833363:0;g a
+: 1600833386:0;g c -m "Hotfix: Add .DS_Store to .gitignore"
+: 1600833387:0;g bnc
+: 1600833388:0;g ps origin master
+: 1600833696:0;g d
+: 1600833697:0;g s
+: 1600834030:0;g a
+: 1600834049:0;g s
+: 1600834059:0;g c -m "Hotfix: Update env variables"
+: 1600834061:0;g bnc
+: 1600834062:0;g ps origin master
+: 1600834092:0;g clean -fd
+: 1600834564:0;g a
+: 1600834567:0;g s
+: 1600834570:0;g clean -fd
+: 1600834965:0;jt work
+: 1600834965:0;la
+: 1600834972:0;cd editmode
+: 1600834972:0;la
+: 1600834973:0;cd main-app
+: 1600834976:0;la
+: 1600834986:0;rails s -p 3002 -P 23
+: 1600834988:0;rails s
+: 1600834989:0;vi
+: 1600835530:0;g c -b "hotfix-disposable-project-task-prod-error"
+: 1600835534:0;g co -b "hotfix-disposable-project-task-prod-error"
+: 1600835537:0;g a
+: 1600835548:0;g c -m "use unpublish instead of destroy"
+: 1600835548:0;g bnc
+: 1600835550:0;g ps origin hotfix-disposable-project-task-prod-error
+: 1600835644:0;bundle exec rake delete_disposable_projects:projects_suffix\['dev@editmode.app'\]
+: 1600835947:0;rails c
+: 1600836504:0;la
+: 1600836506:0;g lol
+: 1600836555:0;vi
+: 1600858231:0;jt work
+: 1600858231:0;la
+: 1600858232:0;cd lyon
+: 1600858233:0;la
+: 1600858234:0;cd api-server
+: 1600858235:0;la
+: 1600858237:0;vi
+: 1600911398:0;jt work
+: 1600911398:0;la
+: 1600911400:0;cd lyon
+: 1600911401:0;la
+: 1600911403:0;cd api-server
+: 1600911403:0;la
+: 1600911407:0;vi
+: 1600911430:0;yarn dev
+: 1600911467:0;vi
+: 1600912200:0;g d
+: 1600913966:0;g a
+: 1600913987:0;g c -m "add more ways to create certificates"
+: 1600913988:0;g bnc
+: 1600914017:0;g co -b hotfix-multiple-certificate-type
+: 1600914020:0;g lol
+: 1600914031:0;g log
+: 1600914036:0;g bnc
+: 1600914040:0;g ps origin hotfix-multiple-certificate-type
+: 1600914335:0;g a
+: 1600914342:0;g c -m "add return types"
+: 1600914343:0;g bnc
+: 1600914345:0;g ps origin hotfix-multiple-certificate-type
+: 1600916144:0;g a
+: 1600916158:0;g c -m "remove redundant codes"
+: 1600916159:0;g bnc
+: 1600916161:0;g ps origin hotfix-multiple-certificate-type
+: 1600916228:0;g co develop
+: 1600916231:0;g bnc
+: 1600916237:0;git reset --hard origin/develop
+: 1600916241:0;g pl origin develop
+: 1600916256:0;g co -b hotfix-move-creation-of-certs
+: 1600916257:0;g bnc
+: 1600916261:0;vi
+: 1600918090:0;g a
+: 1600918104:0;g c -m "move creation of certs to approve and approve all"
+: 1600918105:0;g bnc
+: 1600918106:0;g ps origin hotfix-move-creation-of-certs
+: 1600918414:0;g co develop
+: 1600918416:0;g bnc
+: 1600918418:0;g pl origin evelop
+: 1600918426:0;g pl origin develop
+: 1600918445:0;../html-renderer
+: 1600918448:0;g co develop
+: 1600918450:0;g bnc
+: 1600918452:0;g pl origin develop
+: 1600918470:0;../on-demand
+: 1600924408:0;jt work
+: 1600924409:0;la
+: 1600924410:0;cd editmode
+: 1600924411:0;la
+: 1600924414:0;cd main-app
+: 1600924423:0;g co new_layout
+: 1600924424:0;g bnc
+: 1600924426:0;g st
+: 1600924428:0;g pl origin new_layout
+: 1600924436:0;rails s -p 3002 -P 23
+: 1600924437:0;rails s
+: 1600924442:0;bundle install
+: 1600924444:0;rails s -p 3002 -P 23
+: 1600924477:0;gem install mysql2 -v '0.4.10' --source 'https://rubygems.org/'
+: 1600924483:0;bundle install
+: 1600924496:0;g lol
+: 1600925954:0;g reset ### Tomorrow's Notes:\
+\
+- Check out the following link to see how you can destroy a project properly:\
+[https://github.com/ActsAsParanoid/acts_as_paranoid/issues/151#issuecomment-589964580](https://github.com/ActsAsParanoid/acts_as_paranoid/issues/151#issuecomment-589964580)\
+- Create a rake task to destroy all the projects generated by checkly (don't just unpublish them)\
+- Ask Tony for more tasks\
+- Check this out as well:\
+[https://stackoverflow.com/a/51752216/8292839](https://stackoverflow.com/a/51752216/8292839)\
+- Jen told me this after I told him about my new froala task\
+\
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26db5f6c-e2c7-40c9-bdd1-b262c18a2ff5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26db5f6c-e2c7-40c9-bdd1-b262c18a2ff5/Untitled.png)\
+exit\
+exit
+: 1600925963:0;g reset b8e6065
+: 1600925983:0;g lol
+: 1600925986:0;g st
+: 1600925988:0;g s
+: 1600925989:0;g clean -fd
+: 1600925991:0;g s
+: 1600925995:0;bundle install
+: 1600925999:0;rails s
+: 1600926000:0;rails s -p 3002 -P 23
+: 1600926003:0;vi
+: 1600928454:0;down
