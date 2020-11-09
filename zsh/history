@@ -122,7 +122,6 @@
 : 1575564055:0;gatsby new boseriko.com.gatsby
 : 1575564055:0;cd boseriko.com.gatsby
 : 1575564055:0;mv ../boseriko.com/.git ./.git
-: 1575564055:0;rm -rf README.md
 : 1575564055:0;mv ../boseriko.com/README.md ./README.md
 : 1575564055:0;g g "move to gatsby"
 : 1575564055:0;g g "update readme.md and update package.json"
@@ -175,7 +174,6 @@
 : 1575564055:0;ggit push --set-upstream origin master
 : 1575564055:0;g g "add react suspense for lazy loading"
 : 1575564055:0;g g "delete home component"
-: 1575564055:0;git add .gitignore
 : 1575564055:0;git rm -r yarn.lock
 : 1575564055:0;git rm -r package-lock.json
 : 1575564055:0;git commit -m "remove package and yarn lock on git files"
@@ -339,7 +337,6 @@ fi
 : 1576192597:0;g commit -m "remove axios"
 : 1576194012:0;g g "add relationship"
 : 1576194453:0;g g "add data being printed"
-: 1576198857:0;fg
 : 1576198903:0;g g "add cards for list of books"
 : 1576200442:0;g g "add line"
 : 1576201102:0;g g "add route for artist books"
@@ -730,11 +727,9 @@ fi
 : 1577859572:0;g g "remove unwanted files generated and created by devise"
 : 1577859615:0;docker-compose down
 : 1577859686:0;docker-compose run web bundle install
-: 1577859716:0;docker-compose up --build
 : 1577860118:0;g g "update gemfile.lock"
 : 1577872395:0;g co origin/issue-27-Use_Doorkeeper_for_authentication
 : 1577872430:0;g co issue-27-Use_Doorkeeper_for_authentication
-: 1577872599:0;dr-web bundle install && dr-up --build
 : 1577872889:0;gwip add doorkeeper to the gems
 : 1577872943:0;bundle add doorkeeper
 : 1577872958:0;dr-web bundle add doorkeeper
@@ -1004,7 +999,6 @@ TAGLINE="El Psy Congroo\
 : 1579821789:0;g d site
 : 1579821797:0;g g "install dependency for site"
 : 1579826090:0;yarn workspace info
-: 1579826139:0;yarn workspaces info
 : 1579826170:0;g g "add gatsby-theme-events to the workspaces"
 : 1579826680:0;yarn workspace gatsby-theme-events add -P gatsby react react-dom
 : 1579826702:0;g g "add dependency to gatsby theme event\
@@ -1364,7 +1358,6 @@ TAGLINE="El Psy Congroo\
 : 1581744822:0;g add . && g commit -m "Initial Commit"
 : 1581744827:0;g ps -u origin master
 : 1581745130:0;g g "add package.json"
-: 1581745225:0;echo "node_modules" >> .gitignore
 : 1581745229:0;g g "add gitignore"
 : 1581746177:0;cp ../barangay/server/.gitignore .gitignore
 : 1581746197:0;g g "update gitignore"
@@ -1406,7 +1399,6 @@ TAGLINE="El Psy Congroo\
 : 1581906157:0;down && g g "add lolcat to the list"
 : 1581909359:0;brew install stow fortune cowsay cmatrix
 : 1581911706:0;rake -t
-: 1581911712:0;rake -T
 : 1581911726:0;rk -T | grep "catalog_items" | lolcat
 : 1581911756:0;rake catatalog_items:update_make_names
 : 1581911803:0;rails s | lolcat
@@ -1577,13 +1569,9 @@ module.exports = withCSS({}); fg
 : 1583220197:0;mv main-website-client main-website-client-old
 : 1583220204:0;mkdir main-website-client
 : 1583220255:0;mv main-website-client-old/.git main-website-client/.git
-: 1583220287:0;yarn add next react react-dom
 : 1583220547:0;g co issue-34-Upgrade_to_Next_js_9_for_you_front-end
 : 1583220645:0;g reset ded337b
 : 1583220669:0;g g "delete most files"
-: 1583220721:0;mkdir pages
-: 1583220734:0;touch pages/index.tsx
-: 1583220755:0;yarn add --dev typescript @types/react @types/node
 : 1583220999:0;g rm -rf yarn.lock
 : 1583221018:0;g c -m "initiate typescript"
 : 1583221050:0;git push --set-upstream origin issue-34-Upgrade_to_Next_js_9_for_you_front-end
@@ -1942,7 +1930,6 @@ end
 : 1584852058:0;g c -m "fix the link for issues"
 : 1584852541:0;g c -m "proofread"
 : 1584852543:0;g ps fork issue-2-Work_on_the_README_md
-: 1584941535:0;up
 : 1584941560:0;g g "add tagbar"
 : 1584941674:0;jt Work
 : 1584942504:0;yarn global add git+https://github.com/ramitos/jsctags.git
@@ -2705,7 +2692,6 @@ end
 : 1588480670:0;gh pr status
 : 1588563958:0;gh pr 130
 : 1588563965:0;gh pr checkout 130
-: 1588566304:0;g c -m "remove redundant codes"
 : 1588567099:0;g co -b feature-attendance-scope-models
 : 1588668182:0;fortune | cowsay -f ghostbusters | lolcat\
 
@@ -2873,7 +2859,6 @@ exit
 : 1590109974:0;brew cask install kitty
 : 1590110161:0;laksdjflaksdjflaksdjf
 : 1590110421:0;touch ./config/.gitignore
-: 1590110496:0;vi .gitignore
 : 1590112071:0;mkdir lyon
 : 1590112073:0;mv lyon-api-server lyon/api-server
 : 1590112075:0;mv lyon-html-renderer lyon/html-renderer
@@ -3056,7 +3041,6 @@ fi
 : 1591433516:0;g revert 18aab8b
 : 1591488626:0;mkdir rails-server
 : 1591488630:0;rm -rf rails-server
-: 1591488873:0;vi Dockerfile
 : 1591490116:0;dr-web rails start
 : 1591490827:0;cd rails-api
 : 1591490836:0;mkdir rails-api
@@ -3345,7 +3329,6 @@ fi
 : 1592864781:0;g c -m "make slug editable"
 : 1592864785:0;g ps origin staging-edit-entity-slug
 : 1592865157:0;g co new_layout_spec
-: 1592865206:0;g stash
 : 1592865262:0;g co staging -- app/views/content_pieces/index.haml
 : 1592865287:0;g co staging -- app/views/users/sessions/new.html.haml
 : 1592865302:0;g c -m "restore unwanted changes"
@@ -3612,1232 +3595,169 @@ fi
 : 1593845924:0;g c -m "update the hyper js theme"
 : 1593845937:0;g c -m "add lua colorizer"
 : 1593846084:0;g reset 10537fe
-: 1593911448:0;g lol
-: 1593911458:0;g pl origin staging
-: 1593911725:0;jt work
-: 1593911727:0;la
-: 1593911730:0;cd editmode
-: 1593911730:0;la
-: 1593911733:0;cd main-app
-: 1593911733:0;la
-: 1593911760:0;rails s -p 3002 -P 23
-: 1593911763:0;rails s
-: 1593911764:0;rails c
-: 1593911765:0;vi
-: 1593921108:0;jt work
-: 1593921109:0;la
-: 1593921111:0;cd lyon
-: 1593921112:0;la
-: 1593921114:0;cd api-server
-: 1593921115:0;la
-: 1593921120:0;g co develop
-: 1593921123:0;g d
-: 1593921125:0;g s
-: 1593921126:0;g st
-: 1593921132:0;g pl origin develop
 : 1593921159:0;rm -rf node_modules yarn.lock && yarn install && g st apply && yarn dev
-: 1593923217:0;yarn dev
-: 1593923219:0;vi
-: 1593923226:0;../html-renderer
-: 1593923229:0;g co develop
-: 1593923231:0;g d
-: 1593923234:0;g st
-: 1593923236:0;g co develop
-: 1593923238:0;vi
-: 1593923250:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1593927361:0;g co -b feature-self-directed-reward
-: 1593927375:0;src ~/.zshrc
-: 1593927380:0;bos -h
-: 1593927389:0;source ~/.zshrc
-: 1593927397:0;g co -b feature-self-directed-reward
-: 1593936819:0;g d
-: 1593936826:0;g a
-: 1593936912:0;g s
 : 1593936927:0;g c -m "accept selfDirected on cpdunitreward"
-: 1593936929:0;g bnc
-: 1593936932:0;g ps origin feature-self-directed-reward
-: 1593937060:0;g d
-: 1593937206:0;yarn dev
-: 1593937266:0;g d
-: 1593937267:0;g s
 : 1593937273:0;g co src/models/payloads
-: 1593937274:0;g d
-: 1593937280:0;yarn dev
-: 1593937442:0;g d
-: 1593937448:0;g a
 : 1593937462:0;g c -m "add selfdirected to payloads"
-: 1593937507:0;g bnc
-: 1593937510:0;g ps origin feature-self-directed-reward
-: 1593992954:0;jt work
-: 1593992954:0;la
-: 1593992959:0;cd editmode
-: 1593992965:0;la
-: 1593992966:0;cd main-app
-: 1593992968:0;vi
-: 1593997626:0;rails s
-: 1593997627:0;rails s -p 3002 -P 23
-: 1593997627:0;rails c
-: 1594002710:0;jt work
-: 1594002710:0;la
-: 1594002713:0;cd lyon
-: 1594002713:0;la
-: 1594002717:0;cd api-server
-: 1594002721:0;g d
-: 1594002726:0;vi
-: 1594002730:0;yarn dev
-: 1594002737:0;../html-renderer
-: 1594002739:0;vi
-: 1594002746:0;yarn dev
-: 1594014485:0;g bnc
-: 1594014501:0;g b
-: 1594014863:0;vi
-: 1594015003:0;g a
 : 1594015048:0;g c -m "rename selfDirected to isSelfDirected"
-: 1594015050:0;g bnc
-: 1594015053:0;g ps origin feature-self-directed-reward
-: 1594015185:0;yarn dev
-: 1594016223:0;down
-: 1594017478:0;g co develop
-: 1594017480:0;g d
-: 1594017483:0;g st
-: 1594017489:0;g co develop
-: 1594017493:0;g st apply
-: 1594017495:0;g s
-: 1594017498:0;g d
-: 1594017825:0;vi
-: 1594017841:0;g d
-: 1594017843:0;g s
-: 1594017845:0;g reset
-: 1594017848:0;g co yarn.lock
-: 1594017850:0;g d
-: 1594017856:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594020745:0;g d
-: 1594020748:0;g s
-: 1594020756:0;g co -b feature-automatic-rewards
-: 1594020779:0;g co develop
-: 1594020781:0;g d
-: 1594020782:0;g s
-: 1594020785:0;g st
-: 1594020787:0;g pl origin develop
-: 1594020913:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594021147:0;g co -b feature-self-directed-reward
-: 1594021151:0;g d
-: 1594021152:0;g s
 : 1594021156:0;g co -b feature-self-directed-reward
 : 1594021164:0;g co -b feature-automatic-rewards
-: 1594021444:0;g co feature-self-directed-reward
-: 1594021449:0;g st
-: 1594021451:0;g co feature-self-directed-reward
-: 1594021452:0;g lol
 : 1594021539:0;git stash show -p stash@{0}
-: 1594021544:0;git stash show -p stash@{1}
-: 1594021640:0;git stash apply stash@{1}
-: 1594021642:0;g d
-: 1594021649:0;g a
 : 1594021662:0;g c -m "initial"
-: 1594021668:0;g bnc
-: 1594021673:0;g ps origin feature-self-directed-reward
-: 1594021747:0;g co feature-automatic-rewards
-: 1594021752:0;g st
-: 1594021756:0;g co feature-automatic-rewards
-: 1594021777:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594026917:0;g co feature-self-directed-reward
-: 1594026918:0;g d
-: 1594026922:0;g co yarn.lock
-: 1594026924:0;g st
-: 1594026927:0;g co feature-self-directed-reward
-: 1594026930:0;g st apply
-: 1594026933:0;g d
-: 1594026967:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594027018:0;g d
-: 1594027020:0;g s
-: 1594027023:0;g co yarn.lock
 : 1594027026:0;g co feature-self-directed-reward
-: 1594027032:0;g bnc
-: 1594027039:0;g pl origin feature-self-directed-reward
-: 1594027050:0;g lol
-: 1594027056:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594027664:0;yarn dev
-: 1594027807:0;g bnc
-: 1594027812:0;g pl origin feature-self-directed-reward
-: 1594027827:0;g bnc
-: 1594027844:0;g d
-: 1594027849:0;g st
-: 1594027853:0;g d
-: 1594027857:0;g s
-: 1594027858:0;g reset
-: 1594027861:0;g co yarn.lock
-: 1594027862:0;g d
-: 1594027869:0;g st
-: 1594027879:0;g pl origin feature-self-directed-reward
-: 1594027919:0;g st apply
-: 1594027925:0;g lol
-: 1594027931:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594027948:0;g bnc
-: 1594027953:0;g pl origin feature-self-directed-reward
-: 1594027961:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594030686:0;g a
 : 1594030749:0;g c -m "make 0 the smallest amount the cpd creation can take and add isSelfDirected on the creation of cpd"
-: 1594030751:0;g bnc
-: 1594030755:0;g ps origin feature-self-directed-reward
-: 1594030903:0;jt work
-: 1594030905:0;edit
-: 1594030907:0;editmode
-: 1594030907:0;la
-: 1594030912:0;main-app
-: 1594030914:0;la
-: 1594082175:0;jt work
-: 1594082176:0;la
-: 1594082178:0;cd editmode
-: 1594088667:0;..
-: 1594088668:0;la
-: 1594088670:0;cd lyon
-: 1594088670:0;la
-: 1594088679:0;cd api-server
-: 1594088680:0;la
-: 1594088685:0;g d
-: 1594088690:0;vi
-: 1594088694:0;yarn dev
-: 1594088700:0;../html-renderer
-: 1594088710:0;vi
-: 1594088714:0;yarn dev
-: 1594089730:0;g d
-: 1594089732:0;g a
 : 1594089744:0;g c -m "add disable option for self directed checkbox"
-: 1594089789:0;g bnc
-: 1594089792:0;g ps origin feature-self-directed-reward
-: 1594089962:0;g co develop
-: 1594089964:0;g d
-: 1594089971:0;g co yarn.lock
-: 1594089972:0;g d
 : 1594089978:0;g co src/controllers
-: 1594089979:0;g s
-: 1594089980:0;g d
-: 1594089981:0;g st
-: 1594089983:0;g co develop
-: 1594089988:0;g pl origin develop
-: 1594090015:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594090028:0;g d
-: 1594090029:0;g s
-: 1594090031:0;g st
 : 1594090036:0;g co feature-profile-edit
-: 1594090043:0;g bnc
 : 1594090046:0;g pl origin feature-profile-edit
-: 1594090059:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594090167:0;g st apply
-: 1594090190:0;vi
-: 1594090192:0;g d
-: 1594090194:0;g reset
-: 1594090196:0;g d
-: 1594090214:0;g s
-: 1594090232:0;g d
-: 1594090236:0;yarn dev
 : 1594091179:0;gtop
-: 1594092047:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1594093864:0;g d
-: 1594094906:0;g st
-: 1594094911:0;g st apply
-: 1594094913:0;g d
-: 1594094916:0;g co components
-: 1594095831:0;g d
-: 1594095836:0;g co feature-automatic-rewards
-: 1594095842:0;yarn dev
-: 1594095852:0;g co feature-automatic-rewards
-: 1594095855:0;g d
-: 1594095857:0;g s
-: 1594095860:0;yarn dev
-: 1594095863:0;vi
-: 1594096931:0;g a
 : 1594096954:0;g c -m "move eventParticipant to own folder"
-: 1594098395:0;yarn dev
-: 1594098418:0;g a
-: 1594098450:0;g d
-: 1594098451:0;g s
-: 1594098461:0;g a
 : 1594098480:0;g c -m "move readEventParticipantByApprovedUserController to its the proper folder"
-: 1594098481:0;g bnc
-: 1594098483:0;g ps origin feature-automatic-rewards
-: 1594099483:0;g s
-: 1594099485:0;g a
 : 1594099509:0;g c -m "move createEventParticipantController to its own file"
-: 1594099510:0;g bnc
-: 1594099513:0;g ps origin feature-automatic-rewards
-: 1594100259:0;g a
 : 1594100278:0;g c -m "move readEventParticipantCustomersController to its own file"
-: 1594100280:0;g bnc
-: 1594100283:0;g ps origin feature-automatic-rewards
-: 1594100951:0;g a
 : 1594100967:0;g c -m "move readEventParticipantForEventController to its own file"
-: 1594100968:0;g bnc
-: 1594100972:0;g ps origin feature-automatic-rewards
-: 1594102123:0;g a
 : 1594102149:0;g c -m "move $updateEventParticipantApprovalStatus to its own file"
-: 1594102151:0;g bnc
-: 1594102153:0;g ps origin feature-automatic-rewards
-: 1594103259:0;g a
-: 1594103352:0;g bnc
-: 1594103355:0;g ps origin feature-automatic-rewards
 : 1594103487:0;g co -b feature-event-participant-controller-split
-: 1594103491:0;g bnc
-: 1594103493:0;g ps origin feature-event-participant-controller-split
-: 1594111862:0;jt work
-: 1594111862:0;la
-: 1594111864:0;cd editmode
-: 1594111865:0;la
-: 1594111867:0;cd main-app
-: 1594111870:0;la
-: 1594111874:0;g pl origin staging
 : 1594111907:0;g co -b staging-test-pr
-: 1594111917:0;touch test-file.txt
-: 1594111918:0;g a
-: 1594111919:0;g s
-: 1594111921:0;git add .
 : 1594111928:0;git c -m "add test-file"
 : 1594111934:0;rm -rf test-file.txt
-: 1594111937:0;git add .
 : 1594111942:0;g c -m "remove test-file"
-: 1594111944:0;g bnc
-: 1594111991:0;g ps origin staging-test-pr
-: 1594179336:0;jt work
-: 1594179337:0;la
-: 1594180391:0;cd lyon
-: 1594180396:0;cd api-server
-: 1594180401:0;yarn dev
-: 1594180403:0;vi
-: 1594180408:0;../html-renderer
-: 1594180411:0;vi
-: 1594180440:0;g co feature-automatic-rewards
-: 1594180443:0;g d
-: 1594180444:0;g s
-: 1594180456:0;g reset
-: 1594180458:0;g bnc
-: 1594180470:0;g d
-: 1594180474:0;g lol
-: 1594180519:0;g s
-: 1594180529:0;g d
-: 1594180599:0;g bnc
-: 1594180601:0;g lol
-: 1594180602:0;g s
-: 1594180605:0;g b
 : 1594180613:0;g co feature-event-participant-controller-split
-: 1594180615:0;g d
-: 1594180617:0;g lol
-: 1594180620:0;g a
 : 1594180640:0;g c -m "last commit"
-: 1594180641:0;g bnc
 : 1594180644:0;g ps origin feature-event-participant-controller-split
-: 1594180996:0;g d
-: 1594181000:0;g st
-: 1594181007:0;g co feature-automatic-rewards
 : 1594181011:0;g pl origin feature-event-participant-controller-split
-: 1594181018:0;g st apply
-: 1594181049:0;yarn dev
-: 1594186690:0;vi
-: 1594200041:0;yarn dev
-: 1594203110:0;g b
-: 1594203126:0;g pl origin feature-self-directed-reward
-: 1594203135:0;g d
-: 1594203144:0;g a
 : 1594203162:0;g c -m "initial commit for safety"
-: 1594203163:0;g st
 : 1594203174:0;g pl origin feature-self-directed-reward
-: 1594203185:0;g st apply
-: 1594203232:0;g d
-: 1594203383:0;g a
-: 1594203407:0;g d
-: 1594203409:0;g s
-: 1594203411:0;g reset
-: 1594203413:0;g d
-: 1594203441:0;g a
-: 1594203457:0;g d
-: 1594203458:0;g s
-: 1594203482:0;g d
-: 1594203789:0;yarn dev
-: 1594212849:0;down
-: 1594256583:0;jt work
-: 1594256583:0;la
-: 1594256585:0;cd editmode
-: 1594256586:0;la
-: 1594256589:0;cd main-app
-: 1594256589:0;la
-: 1594256592:0;g co staging
-: 1594256596:0;vi
-: 1594256607:0;g pl origin staging
-: 1594256718:0;rails c
-: 1594256722:0;bundle install
-: 1594256752:0;rails c
-: 1594256754:0;rails s
-: 1594256760:0;rails s -p 3002 -P 23
 : 1594257199:0;bin/rake db:migrate RAILS_ENV=development && rails c
-: 1594257296:0;rails s -p 3002 -P 23
-: 1594257296:0;rails s
-: 1594260608:0;jt work
-: 1594260608:0;la
-: 1594260611:0;cd editmode
-: 1594260612:0;la
-: 1594260613:0;cd main-app
-: 1594260613:0;la
-: 1594260617:0;vi
-: 1594260621:0;rails c
-: 1594260623:0;rails s
-: 1594260626:0;rails s -p 3002 -P 23
-: 1594261229:0;rm -rf /usr/local/var/postgres/postmaster.pid
-: 1594261232:0;rails s -p 3002 -P 23
-: 1594261235:0;rails s
-: 1594261241:0;rails c
-: 1594261283:0;g co new_layout
-: 1594261287:0;g pl origin new_layout
 : 1594261323:0;g co -b new_layout_distinct_ids
-: 1594261333:0;bin/rake db:migrate RAILS_ENV=development && rails s
-: 1594261352:0;rails s -p 3002 -P 23
-: 1594261355:0;rails c
-: 1594264103:0;g d
-: 1594264119:0;g a
-: 1594264169:0;g d
-: 1594264191:0;g a
 : 1594264200:0;g c -m "add ids"
-: 1594265577:0;g a
-: 1594265595:0;g d
-: 1594265617:0;g a
 : 1594265628:0;g c -m "add ids again"
-: 1594265629:0;g bnc
-: 1594265632:0;g ps origin new_layout_distinct_ids
-: 1594266089:0;g a
 : 1594266105:0;g c -m "add chunk id"
-: 1594266106:0;g bnc
 : 1594266108:0;g ps origin new_layout_distinct_ids
 : 1594270536:0;natapos ko kahapon ung pag gawa ng certificate entry pag ung event participant na approve
 : 1594270562:0;so ngayong araw ang gagawin ko ayusin naman ung mga endpoints ng reward certificate. mga get endpoints.
-: 1594274073:0;jt work
-: 1594274073:0;la
-: 1594274075:0;cd lyon
-: 1594274076:0;la
-: 1594274077:0;vi
-: 1594274087:0;la
-: 1594274088:0;cd api-server
-: 1594274089:0;la
-: 1594274091:0;vi
-: 1594274098:0;yarn dev
-: 1594274105:0;../html-renderer
-: 1594274106:0;vi
-: 1594274111:0;yarn dev
-: 1594279537:0;g a
-: 1594279551:0;g d
-: 1594279555:0;g s
 : 1594279588:0;g c -m "add join table and save shitty data"
-: 1594279590:0;g bnc
-: 1594279596:0;g ps origin feature-automatic-rewards
-: 1594280111:0;g a
 : 1594280119:0;g c -m "clean up"
-: 1594280121:0;g bnc
-: 1594280124:0;g ps origin feature-automatic-rewards
-: 1594280225:0;yarn dev
-: 1594280462:0;g a
 : 1594280472:0;g c -m "fix the missing id"
-: 1594280473:0;g bnc
-: 1594280476:0;g ps origin feature-automatic-rewards
-: 1594291635:0;jt work
-: 1594292301:0;rails c
-: 1594292432:0;rails s
-: 1594292443:0;la
-: 1594292445:0;cd editmode
-: 1594292445:0;la
-: 1594292451:0;cd main-app
-: 1594292451:0;la
-: 1594292453:0;rails c
-: 1594292457:0;rails s
-: 1594292465:0;rails s -p 3002 -P 23
-: 1594292474:0;bos -p ngrok 3000
 : 1594292758:0;bos -p ngrok 3002
-: 1594339841:0;jt work
-: 1594339841:0;la
-: 1594339858:0;editmode
-: 1594339858:0;la
-: 1594339866:0;cd main-app
-: 1594339868:0;g d
-: 1594339874:0;g co new_layout
-: 1594339876:0;g st
-: 1594339878:0;g co new_layout
-: 1594339882:0;g pl origin new_layout
-: 1594340707:0;vi
-: 1594340722:0;rails c
-: 1594340725:0;rails s
-: 1594340727:0;rails s -p 3002 -P 23
-: 1594340751:0;ngrok http -host-header=rewrite lvh.me:3000
-: 1594347178:0;jt work
-: 1594347181:0;cd lyon
-: 1594347184:0;api-server
-: 1594347187:0;vi
-: 1594347191:0;yarn dev
-: 1594347194:0;../html-renderer
-: 1594347196:0;vi
-: 1594347200:0;yarn dev
-: 1594347604:0;vi
-: 1594351864:0;g d
-: 1594351867:0;g a
 : 1594351886:0;g c -m "add relations when pulling reward certificates""\
 "
-: 1594351891:0;g a
 : 1594351914:0;g c -m "remove eager true to avoid loop on the provider <-> industry relationship"
-: 1594351915:0;g bnc
-: 1594351918:0;g a
 : 1594351940:0;g c -m "update the payload of certificate"
-: 1594351942:0;g a
-: 1594351949:0;g bnc
-: 1594351965:0;g ps origin feature-automatic-rewards
-: 1594354319:0;yarn dev
-: 1594354415:0;g d
-: 1594354568:0;g a
 : 1594354647:0;g c -m "add an any type for certificates (for fake)"
-: 1594354652:0;g bnc
-: 1594354658:0;g ps origin feature-automatic-rewards
-: 1594368049:0;jt work
-: 1594368050:0;la
-: 1594368051:0;cd editmode
-: 1594368051:0;la
-: 1594368053:0;cd main-app
-: 1594368054:0;la
-: 1594368075:0;rails s -p 3002 -P 23
-: 1594368076:0;rails s
-: 1594368076:0;rails c
-: 1594368077:0;ngrok http -host-header=rewrite lvh.me:3000
-: 1594601562:0;jt work
-: 1594601562:0;la
-: 1594601564:0;cd lyon
-: 1594601568:0;la
-: 1594602229:0;cd api-server
-: 1594602234:0;jt work
-: 1594602238:0;cd lyon/api-server
-: 1594602240:0;vi
-: 1594602244:0;yarn dev
-: 1594602248:0;../html-renderer
-: 1594602249:0;vi
-: 1594602253:0;yarn dev
-: 1594606861:0;g d
-: 1594606862:0;g s
 : 1594606869:0;g co components/profile/LyonProfile/LyonProfileTabs/LyonProfileTabsCertificates/index.tsx
-: 1594607511:0;yarn dev
-: 1594607807:0;g d
-: 1594607962:0;g s
 : 1594607969:0;g co src/models/entities
-: 1594607971:0;g d
-: 1594608388:0;yarn dev
-: 1594610596:0;g a
-: 1594610619:0;g d
 : 1594610624:0;g c -m "few adjustments"
-: 1594610626:0;g s
-: 1594610628:0;g a
 : 1594610659:0;g c -m "cleanup"
-: 1594610661:0;g bnc
-: 1594611897:0;g d
-: 1594614362:0;g a
 : 1594614370:0;g c -m "add event title and event industry"
-: 1594614371:0;g bnc
-: 1594614373:0;g ps origin feature-automatic-rewards
-: 1594614513:0;jt work
-: 1594614513:0;la
-: 1594614515:0;cd editmode
-: 1594614516:0;la
-: 1594614520:0;cd main-app
-: 1594614523:0;g d
-: 1594614524:0;g 
-: 1594614525:0;g s
-: 1594614527:0;g d
-: 1594614532:0;g pl origin new_layout
-: 1594614540:0;g d
-: 1594614548:0;g st
-: 1594614551:0;g pl origin new_layout
-: 1594614558:0;g st apply
-: 1594614562:0;vi
-: 1594614573:0;bundle install
-: 1594614582:0;rails s
-: 1594614583:0;rails s -p 3002 -P 23
-: 1594614583:0;ngrok http -host-header=rewrite lvh.me:3000
-: 1594614584:0;rails c
 : 1594617881:0;rake routes |grep projects
 : 1594618052:0;rake routes |grep project_content_pieces
-: 1594619628:0;g d
-: 1594619632:0;g st
-: 1594619634:0;g lol
 : 1594619662:0;g reset 2ba9ccb
-: 1594619664:0;g lol
-: 1594619667:0;g reset
-: 1594619668:0;g d
-: 1594619670:0;g s
-: 1594619675:0;g clean -fd
-: 1594619679:0;g st
 : 1594619688:0;git stash show -p stash@{1}
 : 1594619713:0;git stash show apply stash@{1}
-: 1594619714:0;g d
-: 1594619715:0;g s
 : 1594619737:0;git stash apply stash@{1}
-: 1594619741:0;g d
-: 1594619755:0;rails c
-: 1594619756:0;rails s
-: 1594619764:0;rails s -p 3002 -P 23
-: 1594625587:0;g d
-: 1594636685:0;exit
-: 1594686197:0;jt work
-: 1594686198:0;la
-: 1594686200:0;cd lyon
-: 1594686210:0;la
-: 1594686214:0;..
-: 1594686214:0;la
-: 1594686216:0;cd editmode
-: 1594686817:0;jt work
-: 1594686817:0;la
-: 1594686823:0;editmode
-: 1594686827:0;la
 : 1594686833:0;rm -rf .ruby-version
-: 1594686835:0;cd main-app
-: 1594686840:0;vi
-: 1594686857:0;rails s -p 3002 -P 23
-: 1594686858:0;rails s
-: 1594686859:0;rails c
-: 1594686860:0;ngrok http -host-header=rewrite lvh.me:3000
-: 1594693088:0;jt work
-: 1594693090:0;la
-: 1594693981:0;cd lyon
-: 1594694030:0;la
-: 1594694032:0;cd api-server
-: 1594694034:0;la
-: 1594694037:0;g d
-: 1594694081:0;vi
-: 1594694084:0;yarn dev
-: 1594694104:0;../html-renderer
-: 1594694105:0;yarn dev
-: 1594694111:0;vi
-: 1594694115:0;yarn dev
-: 1594707301:0;g a
 : 1594707313:0;g c -m "simplify the calling of details"
-: 1594707315:0;g bnc
-: 1594707318:0;g ps origin feature-automatic-rewards
-: 1594707321:0;g d
-: 1594707323:0;g s
-: 1594709047:0;g a
 : 1594709059:0;g c -m "add a few missing details"
-: 1594709061:0;g bnc
-: 1594709063:0;g ps origin feature-automatic-rewards
-: 1594711372:0;g d
-: 1594711374:0;g a
-: 1594711400:0;g s
-: 1594711401:0;g reset
-: 1594711402:0;g a
 : 1594711417:0;g c -m "add signatories to request and creation of reward certificate"
-: 1594711418:0;g bnc
-: 1594711420:0;g ps origin feature-automatic-rewards
-: 1594712683:0;g a
 : 1594712711:0;g c -m "fix signatories and the images needed"
-: 1594714167:0;g a
 : 1594714201:0;g 
-: 1594714202:0;g d
-: 1594714204:0;g reset
-: 1594714205:0;g a
 : 1594714221:0;g c -m "fix industry type problem"
-: 1594714222:0;g bnc
-: 1594714224:0;g ps origin feature-automatic-rewards
-: 1594714733:0;jt work
-: 1594714735:0;cd editmode
-: 1594714735:0;la
-: 1594716393:0;cd main-app
-: 1594716396:0;g d
-: 1594716398:0;vi
-: 1594716411:0;rails s -p 3002 -P 23
-: 1594716411:0;rails s
-: 1594716412:0;rails c
 : 1594716413:0;ngrok http -host-header=rewrite lvh.me:3000
-: 1594717321:0;jt work
-: 1594717321:0;la
-: 1594717322:0;cd editmode
-: 1594717323:0;la
 : 1594717332:0;mkdir puppeteer-test
-: 1594717334:0;cd puppeteer-test
-: 1594717339:0;yarn init -y
 : 1594717342:0;git init -y
-: 1594717345:0;git init
-: 1594717359:0;yarn add puppeteer
 : 1594717405:0;yarn add puppeteer-core
-: 1594717412:0;g a
-: 1594717419:0;git add .
 : 1594717427:0;g c -m "add puppeteer and puppeteer core"
 : 1594717451:0;touch example.js
 : 1594717453:0;vi example.js
-: 1594717458:0;g a
 : 1594717465:0;g c -m "create an example file"
 : 1594717468:0;node example.js
-: 1594717477:0;g d
-: 1594717477:0;g s
 : 1594717482:0;open example.png
 : 1594717518:0;cp example.js authenticate.js
-: 1594717705:0;node authenticate.js
-: 1594717709:0;yarn add chai
 : 1594717741:0;node authenticate.js
-: 1594717835:0;g a
 : 1594717862:0;git rm node_modules/
 : 1594717869:0;git rm -rf node_modules/
-: 1594717875:0;touch .gitignore
-: 1594717886:0;rm -rf .git
-: 1594717888:0;git init
-: 1594717906:0;yarn install
-: 1594718171:0;g s
 : 1594718176:0;g a .
 : 1594718182:0;g add .
-: 1594718185:0;git add .
 : 1594718190:0;g c -m "initial commit"
 : 1594718336:0;cp authenticate.js happy-path.js
-: 1594718406:0;node happy-path.js
-: 1594721708:0;rails s
-: 1594721787:0;node happy-path.js
-: 1594723802:0;exit
-: 1594768495:0;jt work
-: 1594768495:0;la
-: 1594768497:0;cd editmode
-: 1594768497:0;la
-: 1594768500:0;cd main-app
-: 1594768501:0;la
-: 1594768505:0;vi
-: 1594768512:0;rails s
-: 1594768514:0;rails s -p 3002 -P 23
-: 1594768515:0;rails c
-: 1594768520:0;../puppeteer-test
-: 1594768524:0;node happy-path.js
-: 1594775777:0;vi
-: 1594775811:0;node happy-path.js
-: 1594775863:0;open test.png
-: 1594775895:0;node happy-path.js
-: 1594775952:0;open test.png
 : 1594775960:0;open test2.png
-: 1594776109:0;open test.png
-: 1594776114:0;node happy-path.js
 : 1594776164:0;open test.png
-: 1594776340:0;node happy-path.js
-: 1594776910:0;g d
 : 1594776982:0;g co app/views/chunks/create.js.erb
-: 1594776984:0;g d
-: 1594777027:0;node happy-path.js
-: 1594777511:0;la
 : 1594777517:0;rm -rf test.png
-: 1594777521:0;la
 : 1594777529:0;rm -rf example.png
-: 1594777530:0;la
-: 1594777534:0;g d
-: 1594777535:0;g s
-: 1594777547:0;la
-: 1594777593:0;g a
-: 1594777599:0;g d
-: 1594777600:0;g s
 : 1594777609:0;g c -m "add happy path and remove example.png"
-: 1594777678:0;node happy-path.js
 : 1594777704:0;mkdir tmp
-: 1594777713:0;node happy-path.js
 : 1594777745:0;open tmp/settings-button-click.jpg 
-: 1594777926:0;node happy-path.js
-: 1594778252:0;open tmp
-: 1594778281:0;node happy-path.js
 : 1594778308:0;open tmp/delete-button-click.jpg
-: 1594778350:0;node happy-path.js
-: 1594778448:0;rake db:migrate:reset db:seeds RAILS_ENV=test
-: 1594778471:0;rails c
-: 1594778475:0;rails s
-: 1594778476:0;rails s -p 3002 -P 23
-: 1594778636:0;g a
 : 1594778642:0;g c -m "scroll into view the button"
-: 1594778651:0;node happy-path.js
-: 1594778725:0;open tmp
-: 1594778839:0;node happy-path.js
-: 1594780359:0;g d
-: 1594780553:0;node happy-path.js
-: 1594781869:0;g a
 : 1594781887:0;g c -m "add project delete button scroll"
-: 1594781903:0;jt work
-: 1594781904:0;la
-: 1594781909:0;cd lyon
-: 1594788506:0;jt work
-: 1594788509:0;la
-: 1594788511:0;cd lyon
-: 1594789230:0;cd html-renderer
-: 1594789231:0;vi
-: 1594789274:0;../api-server
-: 1594789276:0;vi
-: 1594789443:0;g co develop
-: 1594789446:0;g pl origin develop
-: 1594789541:0;g lol
-: 1594789542:0;g s
 : 1594789554:0;g co -b feature-search
-: 1594789566:0;yarn dev
-: 1594791489:0;g a
 : 1594791506:0;g c -m "add fake search result under /search"
-: 1594791509:0;g bnc
-: 1594791513:0;g ps origin feature-search
 : 1594794645:0;g co -b feature-search-fake
-: 1594794647:0;g bnc
 : 1594794649:0;g ps origin feature-search-fake
-: 1594794659:0;g co feature-search
-: 1594799786:0;jt work
-: 1594799786:0;la
-: 1594799788:0;cd editmode
-: 1594801834:0;la
-: 1594801835:0;cd main-app
-: 1594801838:0;vi
-: 1594801850:0;rails c
-: 1594801853:0;rails s
-: 1594801854:0;rails s -p 3002 -P 23
-: 1594801859:0;..
-: 1594801860:0;la
 : 1594801868:0;cd puppeteer-test
-: 1594802132:0;vi
-: 1594802537:0;node happy-path.js
-: 1594802603:0;open tmp
-: 1594802906:0;node happy-path.js
-: 1594804967:0;jt lyon
-: 1594804967:0;la
-: 1594804968:0;jt work
-: 1594804968:0;la
-: 1594804969:0;cd lyon
-: 1594804970:0;la
-: 1594804972:0;cd html-renderer
-: 1594804973:0;la
-: 1594804974:0;vi
-: 1594805109:0;node happy-path.js
-: 1594805265:0;open tmp
-: 1594805335:0;node happy-path.js
-: 1594805440:0;g a
 : 1594805463:0;g c -m "add creating of collection"
-: 1594815888:0;jt work
-: 1594815889:0;la
-: 1594815890:0;cd lyon
-: 1594815891:0;la
-: 1594815892:0;cd html-renderer
-: 1594815892:0;la
-: 1594815893:0;vi
-: 1594816051:0;yarn dev
 : 1594816073:0;bos -p ngrok 3000
-: 1594816080:0;../api-server
-: 1594816082:0;yarn dev
-: 1594858030:0;jt work
-: 1594858031:0;la
-: 1594858032:0;cd editmode
-: 1594858035:0;la
-: 1594858038:0;cd main-app
-: 1594858040:0;vi
-: 1594858059:0;rails s -p 3002 -P 23
-: 1594858060:0;rails s
-: 1594858061:0;rails c
-: 1594858066:0;../puppeteer-test
-: 1594858068:0;vi
-: 1594858074:0;yarn dev
-: 1594861162:0;node happy-path.js
 : 1594861218:0;tmp
-: 1594861220:0;..
-: 1594861223:0;open tmp
-: 1594861362:0;node happy-path.js
-: 1594861382:0;open tmp
-: 1594861470:0;node happy-path.js
-: 1594861491:0;open tmp
-: 1594861571:0;node happy-path.js
-: 1594861594:0;open tmp
-: 1594861660:0;g a
 : 1594861700:0;g c -m "create an add chunk test"
-: 1594861867:0;node happy-path.js
-: 1594861935:0;g a
 : 1594861944:0;g c -m "add collection chunk test"
 : 1594862024:0;g add remote origin git@github.com:BosEriko/editmode-puppeteer-check.git
 : 1594862036:0;git remote add origin git@github.com:BosEriko/editmode-puppeteer-check.git
-: 1594862045:0;g lol
-: 1594862048:0;g s
 : 1594862052:0;rm -rf .DS_Store
-: 1594862062:0;g bnc
-: 1594862064:0;g ps origin master
-: 1594875910:0;exit
-: 1594875915:0;jt work
-: 1594877594:0;lyon
-: 1594877594:0;la
-: 1594877596:0;api-server
-: 1594877599:0;g d
-: 1594877603:0;g st
-: 1594877607:0;g co develop
-: 1594877609:0;g pl origin develop
-: 1594877623:0;g co -b hotfix-payment-profile
-: 1594877628:0;vi
-: 1594877634:0;g st apply
-: 1594877637:0;yarn dev
-: 1594877646:0;../html-renderer
-: 1594877649:0;g co develop
-: 1594877654:0;g d
-: 1594877657:0;g st
-: 1594877659:0;g co develop
-: 1594877661:0;g pl origin develop
 : 1594877673:0;g co -b hotfix-payment-profile
-: 1594877675:0;g st apply
-: 1594877676:0;vi
-: 1594877681:0;yarn dev
-: 1594890049:0;g co develop
-: 1594890052:0;g pl origin develop
-: 1594890067:0;g co feature-search
-: 1594890069:0;g st
-: 1594890071:0;g co feature-search
-: 1594890073:0;g st apply
-: 1594890090:0;g co develop
-: 1594890101:0;yarn dev
-: 1594890104:0;g d
-: 1594890105:0;g s
-: 1594890117:0;g pl origin develop
-: 1594890124:0;g co feature-search
-: 1594890128:0;g d
-: 1594890131:0;yarn dev
-: 1594891646:0;jt work
-: 1594891651:0;edit
-: 1594891653:0;editmode
-: 1594891654:0;la
-: 1594891656:0;cd main-app
-: 1594891658:0;vi
-: 1594891664:0;rails c
-: 1594891666:0;rails s
-: 1594891670:0;rails s -p 3002 -P 23
-: 1594891674:0;la
-: 1594891678:0;../puppeteer-test
-: 1594891680:0;la
-: 1594891681:0;vi
-: 1594892062:0;node happy-path.js
-: 1594892107:0;open tmp
-: 1594892154:0;node happy-path.js
-: 1594893020:0;g a
 : 1594893026:0;g c -m "finish the test"
-: 1594893027:0;g bnc
-: 1594893030:0;g ps origin master
-: 1594893136:0;node happy-path.js
-: 1594893267:0;g a
 : 1594893283:0;g c -m "move team test to the bottom of 200 tests and remove the unwanted browser-close"
-: 1594893284:0;g bnc
-: 1594893286:0;g ps origin master
-: 1594949542:0;jt work
-: 1594949543:0;cd lyon
-: 1594949546:0;cd api-server
-: 1594949553:0;../html-renderer
-: 1594949556:0;vi
-: 1594949560:0;yarn dev
-: 1594949562:0;vi
-: 1594949564:0;yarn dev
-: 1594949939:0;gh pr checkout 143
-: 1594950040:0;g d
-: 1594950043:0;g st
 : 1594950045:0;gh pr checkout 143
-: 1594950055:0;g st apply
-: 1594950058:0;g co src
-: 1594950739:0;g a
 : 1594950748:0;g c -m "code review updates"
-: 1594950750:0;g bnc
-: 1594950752:0;g ps origin feature-automatic-rewards
-: 1594950810:0;g co develop
-: 1594950814:0;g pl origin develop
-: 1594950922:0;vi
-: 1594950926:0;gh pr checkout 342
-: 1594951391:0;gh pr checkout 358
-: 1594951399:0;g st
 : 1594951401:0;gh pr checkout 358
-: 1594951409:0;g st apply
-: 1594951412:0;g d
 : 1594951417:0;g co components
-: 1594951548:0;g a
-: 1594951920:0;la
-: 1594951922:0;rm -rf build
-: 1594968014:0;jt work
 : 1594968015:0;cd edit
-: 1594968019:0;cd editmode
-: 1594968021:0;la
-: 1594968025:0;cd main-app
-: 1594968026:0;vi
-: 1594968038:0;rails s
-: 1594968039:0;rails s -p 3002 -P 23
-: 1594968040:0;rails c
 : 1594968046:0;../puppeteer-test
-: 1594968048:0;vi
-: 1594969256:0;node happy-path.js
 : 1594969262:0;open tmp
-: 1594969595:0;node happy-path.js
-: 1594970588:0;g a
 : 1594970640:0;g c -m "add variable for delay time"
-: 1594970657:0;g a
 : 1594970664:0;g c -m "change 3000"
-: 1594970665:0;g bnc
-: 1594970667:0;g ps origin master
-: 1594970669:0;node happy-path.js
-: 1594971751:0;g a
 : 1594971773:0;g c -m "fix happy path"
-: 1594971774:0;g bnc
-: 1594971776:0;g ps origin master
-: 1594971778:0;node happy-path.js
-: 1594971974:0;g d
-: 1594971975:0;g s
-: 1594971979:0;rm -rf 23
-: 1594971981:0;g st
-: 1594971984:0;g pl origin new_layout
-: 1594971993:0;g st apply
-: 1594972073:0;g s
-: 1594972087:0;g co app/views/content_pieces/_form.haml
-: 1594972092:0;g d
-: 1594972106:0;g reset
-: 1594972107:0;g s
 : 1594972112:0;g co app/views/content_pieces/_form.haml
-: 1594972121:0;g a
-: 1594972215:0;g s
 : 1594972229:0;g c -m "add IDs"
-: 1594972231:0;g bnc
 : 1594972246:0;g co -b new_layout_distinct_identifiers
-: 1594972248:0;g lol
-: 1594972251:0;g bnc
 : 1594972254:0;g ps origin new_layout_distinct_identifiers
-: 1594972492:0;bundle install
-: 1594972529:0;bin/rake db:migrate RAILS_ENV=development
-: 1594972542:0;rails s -p 3002 -P 23
-: 1594972542:0;rails s
-: 1594972543:0;rails c
-: 1594972588:0;node happy-path.js
-: 1594974069:0;rails c
-: 1594974070:0;rails s
-: 1594974071:0;rails s -p 3002 -P 23
-: 1594974133:0;node happy-path.js
-: 1594975703:0;rails c
-: 1594975704:0;rails s
-: 1594975705:0;rails s -p 3002 -P 23
-: 1594977048:0;node happy-path.js
 : 1594977264:0;rake lib/tasks/stripe.rake
-: 1594977283:0;node happy-path.js
-: 1594977352:0;rails c
-: 1594977353:0;rails s -p 3002 -P 23
-: 1594977354:0;rails s
 : 1594977429:0;rake stripe:create_editmode_customers
 : 1594977444:0;rake stripe:subscribe_editmode_projects
-: 1594977538:0;rails c
-: 1594977540:0;rails s -p 3002 -P 23
-: 1594977541:0;rails s
 : 1594977571:0;node happy-path.js
-: 1595075147:0;jt dotfiles
-: 1595075147:0;la
-: 1595075152:0;git remote -v
 : 1595075168:0;git remote add linux git@github.com:BosEriko/dotfiles-linux.git
 : 1595075176:0;git push linux master
 : 1595075321:0;git remote --help
 : 1595075327:0;git remote remove linux
-: 1595075331:0;g remote -v
-: 1595118838:0;jt work
-: 1595118838:0;la
-: 1595118840:0;cd lyon
-: 1595118841:0;la
-: 1595118845:0;cd api-server
-: 1595118853:0;../html-renderer
-: 1595126807:0;jt work
-: 1595126817:0;la
-: 1595126822:0;cd lyon
-: 1595126825:0;la
-: 1595126826:0;cd api-server
-: 1595126829:0;la
-: 1595126834:0;g co feature-search
-: 1595126838:0;vi
-: 1595126843:0;yarn dev
-: 1595126865:0;../html-renderer
 : 1595126868:0;g co feature-s
-: 1595126871:0;g co feature-search
-: 1595126881:0;g co develop
-: 1595126883:0;g d
-: 1595126893:0;g s
-: 1595126896:0;g reset
-: 1595126896:0;g d
-: 1595126904:0;g a
 : 1595126937:0;g c -m "code reviews"
-: 1595126938:0;g bnc
-: 1595126942:0;g ps origin feature-automatic-rewards
-: 1595126951:0;g d
-: 1595126958:0;g co develop
-: 1595126959:0;g st
-: 1595126961:0;g co develop
-: 1595126964:0;g pl origin develop
-: 1595126975:0;g st apply
-: 1595126982:0;yarn dev
-: 1595126983:0;vi
 : 1595128160:0;g co src/models/queryParameters/common.ts
-: 1595128349:0;g d
-: 1595128350:0;g s
-: 1595128356:0;g d
 : 1595128360:0;g co src/routes
-: 1595128471:0;yarn dev
-: 1595128931:0;g d
-: 1595128933:0;g a
-: 1595128948:0;g c -m "fix the error on the linter for the user payload"
-: 1595128949:0;g a
-: 1595128988:0;g c -m "move the event search request above /event/:eventId to avoid error"
-: 1595128989:0;g bnc
-: 1595128990:0;g ps origin feature-search
-: 1595129140:0;g d
-: 1595129141:0;g lol
 : 1595129147:0;g reset feature-search
 : 1595129151:0;g reset bcbaee3
-: 1595129156:0;g bnc
-: 1595129158:0;g pl origin feature-search
-: 1595129167:0;g a
 : 1595129179:0;g c -m "fix the error on the linter for the user payload"
-: 1595129180:0;g a
 : 1595129186:0;g c -m "move the event search request above /event/:eventId to avoid error"
-: 1595129187:0;g bnc
-: 1595129191:0;g ps origin feature-search
-: 1595130669:0;g a
 : 1595130687:0;g c -m "remove industries on event search for now"
-: 1595130688:0;g bnc
-: 1595130711:0;g a
 : 1595130727:0;g c -m "comment out getindustriesforevent for now"
-: 1595130728:0;g bnc
-: 1595130730:0;g ps origin feature-search
-: 1595134430:0;g d
-: 1595134484:0;vi
-: 1595134494:0;g co feature-automatic-rewards
-: 1595134495:0;g d
-: 1595134499:0;g s
-: 1595134501:0;g co src
-: 1595134502:0;g st
-: 1595134509:0;g co feature-automatic-rewards
-: 1595134569:0;g d
-: 1595134572:0;g st apply
-: 1595134574:0;yarn dev
-: 1595134616:0;g co feature-automatic-rewards
-: 1595134617:0;g st
 : 1595134618:0;g co feature-automatic-rewards
-: 1595134620:0;g st apply
-: 1595134623:0;yarn dev
-: 1595134797:0;g lol
-: 1595135664:0;jt work
-: 1595135666:0;la
-: 1595135667:0;cd kuru-anime
-: 1595135667:0;la
 : 1595135670:0;cd mian
-: 1595135671:0;cd main-website
-: 1595135672:0;la
-: 1595135674:0;cd server
-: 1595135675:0;vi
-: 1595137637:0;jt work
-: 1595137638:0;la
-: 1595137639:0;cd lyon
-: 1595137640:0;la
-: 1595137640:0;cd api-server
-: 1595137642:0;vi
-: 1595137645:0;yarn dev
-: 1595137648:0;../html-renderer
-: 1595137649:0;vi
-: 1595137652:0;yarn dev
-: 1595138025:0;yarn build
-: 1595138999:0;vi
-: 1595139027:0;yarn build
-: 1595140028:0;vi
-: 1595140048:0;g a
-: 1595140053:0;yarn build
-: 1595140065:0;yarn dev
-: 1595140305:0;g a
 : 1595140341:0;g c -m "update industry interface"
-: 1595140343:0;g bnc
 : 1595140346:0;g ps origin feature-automatic-rewards
-: 1595141354:0;g pl origin develop
-: 1595141362:0;g d
-: 1595141364:0;g s
-: 1595141366:0;g st
-: 1595141369:0;g pl origin develop
-: 1595141544:0;g co develop
-: 1595141549:0;g pl origin develop
-: 1595141558:0;yarn build
-: 1595141749:0;vi
-: 1595142221:0;g d
-: 1595142223:0;g st
-: 1595144115:0;g pl origin develop
-: 1595144132:0;yarn build
-: 1595155280:0;jt work
-: 1595155281:0;cd lyon
-: 1595155319:0;la
-: 1595155320:0;cd api-server
-: 1595155321:0;la
-: 1595155334:0;vi
-: 1595155368:0;yarn dev
-: 1595155371:0;../html-renderer
-: 1595155375:0;yarn dev
-: 1595155376:0;vi
 : 1595156662:0;g co -b hotfix-certificate-industry
-: 1595156664:0;g a
 : 1595156677:0;g c -m "take industry from cpd now"
-: 1595156678:0;g bnc
-: 1595156681:0;g ps origin hotfix-certificate-industry
-: 1595206688:0;yarn global add expo-cli
-: 1595206807:0;jt work
-: 1595206807:0;la
-: 1595206811:0;cd editmode
-: 1595206888:0;jt dotfiles
-: 1595206896:0;vi
-: 1595206963:0;la
 : 1595206974:0;expo init editmode-rn
 : 1595207050:0;expo init editmodern
-: 1595207465:0;la
 : 1595207467:0;cd editmodern
 : 1595207470:0;yarn android
 : 1595207474:0;/Users/boserikoreyes/Documents/Codes/Work/editmode/editmodern/node_modules/react-native/scripts/launchPackager.command
-: 1595207502:0;yarn start
-: 1595207521:0;expo start
-: 1595207652:0;vi
-: 1595207709:0;yarn add editmode-react
-: 1595207756:0;la
-: 1595207763:0;..
-: 1595207763:0;la
 : 1595207766:0;rm -rf editmodern
 : 1595207780:0;expo init reactnative
-: 1595207960:0;expo start
-: 1595207968:0;la
-: 1595207971:0;cd reactnative
-: 1595207972:0;vi
-: 1595207975:0;la
-: 1595207976:0;..
-: 1595207976:0;la
-: 1595207980:0;cd reactnative
-: 1595207982:0;expo init
-: 1595207991:0;expo start
-: 1595208158:0;yarn add editmode-react
-: 1595208685:0;la
-: 1595208690:0;..
-: 1595208690:0;la
-: 1595208703:0;g clone git@github.com:Editmode-app/editmode-react.git
-: 1595208831:0;la
-: 1595208838:0;cd editmode-react
-: 1595208840:0;vi
 : 1595210251:0;rm -rf yarn.lock
-: 1595210259:0;yarn install
-: 1595213392:0;jt work
-: 1595213393:0;la
-: 1595213394:0;cd lyon
-: 1595213394:0;la
-: 1595213395:0;cd api-server
-: 1595213397:0;vi
-: 1595213403:0;yarn dev
-: 1595213421:0;g d
-: 1595213424:0;../html-renderer
-: 1595213428:0;vi
-: 1595213432:0;yarn dev
-: 1595213680:0;g co develop
-: 1595213707:0;g pl origin develop
-: 1595218660:0;yarn build
-: 1595219291:0;yarn start
-: 1595219991:0;yarn build
-: 1595220029:0;yarn start
-: 1595220234:0;yarn dev
-: 1595227178:0;g a
-: 1595227181:0;g lol
-: 1595227193:0;g bnc
-: 1595227196:0;g ps origin hotfix-certificate-industry
-: 1595233874:0;g a
 : 1595233926:0;g c -m "move the creation of reward certificate on the request on the profile"
-: 1595233927:0;g bnc
 : 1595233940:0;g co -b hotfix-afterload-move-to-profile
-: 1595233943:0;g bnc
-: 1595233944:0;g ps origin hotfix-afterload-move-to-profile
-: 1595234019:0;yarn build
-: 1595234663:0;g a
 : 1595234680:0;g c -m "change forEach to map"
-: 1595234680:0;g bnc
 : 1595234682:0;g ps origin hotfix-afterload-move-to-profile
-: 1595238379:0;g a
 : 1595238389:0;g c -m "fix for the 2 null values"
 : 1595238390:0;g bnc
 : 1595238393:0;g ps origin hotfix-certificate-industry
@@ -10570,3 +9490,667 @@ exit
 : 1600926000:0;rails s -p 3002 -P 23
 : 1600926003:0;vi
 : 1600928454:0;down
+: 1604295669:7;rubocop
+: 1604295695:2;rubocop app/models/version.rb -a
+: 1604295708:2;rubocop app/models/version.rb
+: 1604295712:7;rubocop
+: 1604295725:19;up
+: 1604295757:0;bos -h
+: 1604295761:0;bos -h |grep history
+: 1604295768:7;rubocop
+: 1604295782:1;rubocop app/models/user.rb
+: 1604295800:1;g a
+: 1604295805:1;g c -m "more fixes"
+: 1604295808:2;rubocop app/models/user.rb -a
+: 1604295813:74;g d
+: 1604295890:2;rubocop app/models/user.rb
+: 1604295911:4;g a
+: 1604295917:1;g c -m "more fixes"
+: 1604295919:0;g bnc
+: 1604295920:6;g ps origin feature-rubocop
+: 1604295930:2;rubocop app/models/user.rb
+: 1604295973:5;rubocop
+: 1604295989:1;rubocop app/models/subscription.rb
+: 1604296009:1;rubocop app/models/subscription.rb -a
+: 1604296012:14;g d
+: 1604296027:2;g a
+: 1604296032:0;g c -m "more fixes"
+: 1604296038:6;g ps origin feature-rubocop
+: 1604296527:6;rubocop
+: 1604296544:2;rubocop app/models/project.rb
+: 1604296553:2;rubocop app/models/project.rb -a
+: 1604296558:22;g d
+: 1604296732:42;g a
+: 1604296782:2;vi
+: 1604296814:4;g a
+: 1604296820:0;g c -m "more fixes"
+: 1604296821:0;g bnc
+: 1604296825:6;g ps origin feature-rubocop
+: 1604296955:2;rubocop app/models/project.rb
+: 1604296997:2;g a
+: 1604297002:0;g c -m "more fixes"
+: 1604297042:6;g ps origin feature-rubocop
+: 1604297051:6;rubocop
+: 1604297081:2;rubocop app/models/message_template.rb
+: 1604297086:2;rubocop app/models/message_template.rb -a
+: 1604297216:41;g a
+: 1604297261:0;g c -m "more fixes"
+: 1604297265:2;rubocop app/models/message_template.rb
+: 1604297671:7;rubocop
+: 1604297778:0;exit
+: 1604290268:3985;expo start
+: 1604294256:115;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && fg
+: 1604295116:263;expo start
+: 1604295391:232;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604295630:0;../main-app
+: 1604295637:9;rubocop
+: 1604295670:1139;vi
+: 1604300405:2;g d
+: 1604375545:0;../plugin-react-native
+: 1604376164:387;vi
+: 1604376558:656;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604377216:2;yarn build
+: 1604378650:178;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604378828:5;g d
+: 1604378849:0;cd src/utils
+: 1604378849:0;la
+: 1604378850:8;g d
+: 1604378859:0;g st
+: 1604378865:0;...
+: 1604378866:0;la
+: 1604379092:0;cd src/utils
+: 1604379092:1;g d
+: 1604379094:8;g a
+: 1604379106:0;g s
+: 1604379121:0;g c -m "Feature: Create own sanitize and render chunk for react native"
+: 1604379126:6;g ps origin master
+: 1604379134:0;...
+: 1604379134:0;la
+: 1604379135:2;g d
+: 1604379137:19;g a
+: 1604379166:0;g c -m "use own renderchunk and sanitize content"
+: 1604379167:0;g bnc
+: 1604379171:6;g ps origin feature-initial-react-native
+: 1604382209:302;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604382513:23;g a
+: 1604382549:0;cd src/utils
+: 1604382551:13;g a
+: 1604382589:0;g c -m "Feature: Update native renderChunk to use native components"
+: 1604382591:6;g ps origin master
+: 1604382599:0;...
+: 1604382599:0;la
+: 1604382602:5;g a
+: 1604382612:0;g c -m "Update the submodule"
+: 1604382614:1;g bnc
+: 1604382617:6;g ps origin feature-initial-react-native
+: 1604382806:1;g d
+: 1604382867:5;g a
+: 1604382876:0;g c -m "Update package.json"
+: 1604376065:0;verdaccio
+: 1604382400:0;../main-app
+: 1604382401:0;vi
+: 1604370817:0;jt work
+: 1604370818:0;la
+: 1604375531:0;cd editmode
+: 1604375532:0;la
+: 1604375538:0;cd sample-project-react-native
+: 1604376098:461;vi
+: 1604376564:112;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604380828:1;g lol
+: 1604380830:0;g s
+: 1604380831:2;g d
+: 1604380834:9;g lol
+: 1604380853:2;g diff f0e1926..f0d0d40
+: 1604376677:688;expo start
+: 1604377372:471;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604377846:67;expo start
+: 1604380207:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604380245:129;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604382217:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604457690:951;verdaccio
+: 1604545660:1440;expo start
+: 1604548361:4425;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604552827:0;(cd ../plugin-react-native && yarn build && npm publish --registry http://localhost:4873) && yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604545660:1440;expo start
+: 1604548361:4425;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604552827:0;(cd ../plugin-react-native && yarn build && npm publish --registry http://localhost:4873) && yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604549018:0;la
+: 1604549019:0;..
+: 1604549019:0;la
+: 1604549024:0;cd plugin-react
+: 1604549025:0;la
+: 1604549031:2;g pl origin master
+: 1604549036:1;g d
+: 1604549038:6;g log
+: 1604549049:0;cd src/utils
+: 1604549050:0;la
+: 1604549055:2;g pl origin master
+: 1604549060:8;g lol
+: 1604549070:0;...
+: 1604549070:0;la
+: 1604549077:0;g lol |grep "skip ci"
+: 1604549089:1;g a
+: 1604549107:0;g c -m "Bump src/utils [skip ci]"
+: 1604549115:55;vi
+: 1604549171:6;g a
+: 1604549218:0;g c -m "Hotfix: Remove both swr and react-router-native on dependencies"
+: 1604549219:1;g d
+: 1604549220:0;g s
+: 1604549223:0;g bnc
+: 1604549226:6;g ps origin master
+: 1604552865:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604552874:11;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604552895:0;..
+: 1604552913:0;la
+: 1604552915:0;cd sample-project-react-native
+: 1604553294:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604553467:1;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604560235:610;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604560848:1;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604561563:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604542894:0;..
+: 1604542894:0;la
+: 1604542898:0;cd plugin-react-native
+: 1604544902:0;la
+: 1604545654:1346;vi
+: 1604547001:1;g d
+: 1604547007:0;cd src/utils
+: 1604547008:2;g d
+: 1604547011:6;g a
+: 1604547056:0;g c -m "Feature: Use both AsyncStorage and localstorage on native/cache"
+: 1604547059:6;g ps origin master
+: 1604547068:0;...
+: 1604547068:0;la
+: 1604548353:4221;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604552575:4;g d
+: 1604552580:0;g st
+: 1604552699:0;g d
+: 1604552704:0;cd src/utils
+: 1604552705:0;g d
+: 1604552706:0;g s
+: 1604552716:4;g pl origin master
+: 1604552722:0;...
+: 1604552724:1;g d
+: 1604552725:0;g s
+: 1604552860:37;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604552898:1;g d
+: 1604552900:0;g s
+: 1604552904:0;g st
+: 1604552905:1;g d
+: 1604553458:3771;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604557230:2;g d
+: 1604557234:0;cd src/utils
+: 1604557236:0;g d
+: 1604557237:0;...
+: 1604557238:0;la
+: 1604557239:8;g d
+: 1604557248:5;g a
+: 1604557254:0;la
+: 1604557254:0;g s
+: 1604557258:0;rm -rf .expo
+: 1604557260:0;g d
+: 1604557261:0;g s
+: 1604560231:989;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604561222:0;cd src/utils
+: 1604561223:1;g d
+: 1604561224:0;g st
+: 1604561226:0;...
+: 1604561352:175;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604561529:0;cd src/utils
+: 1604561529:3;g d
+: 1604561578:9;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604561590:0;...
+: 1604561592:127;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604561720:4;g d
+: 1604561729:0;cd src/utils
+: 1604561729:0;la
+: 1604561730:1;g d
+: 1604561731:2;g a
+: 1604561760:0;g c -m "Feature: Stop using dangerouslySetInnerHTML for React Native"
+: 1604561762:7;g ps origin master
+: 1604561775:0;...
+: 1604561776:0;la
+: 1604561777:10;g a
+: 1604561795:0;g c -m "remove dangerouslySetInnerHTML"
+: 1604561798:0;g bnc
+: 1604561800:6;g ps origin feature-initial-react-native
+: 1604562505:2;g d
+: 1604562820:267;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604563089:0;cd src/utils
+: 1604563090:2;g d
+: 1604563104:8;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604563117:0;...
+: 1604563120:9;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604563131:0;cd src/utils
+: 1604563132:0;la
+: 1604563134:0;g d
+: 1604563135:2;g a
+: 1604563153:0;g c -m "Hotfix: Use source instead of src for React Native Images"
+: 1604563155:6;g ps origin master
+: 1604563167:0;...
+: 1604563492:35;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604563528:1;g d
+: 1604563531:0;cd src/utils
+: 1604563534:2;g a
+: 1604563549:0;g c -m "Hotfix: Add colon for the uri source on React Native"
+: 1604563552:6;g ps origin master
+: 1604563560:0;...
+: 1604563563:5;g a
+: 1604563570:0;g c -m "update"
+: 1604563573:1;g bnc
+: 1604563575:6;g ps origin feature-initial-react-native
+: 1604564017:2125;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604561622:1025;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604562655:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604562665:157;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604563201:0;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604563206:288;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604564025:179;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604542881:0;jt work
+: 1604542881:0;la
+: 1604542884:0;cd editmode
+: 1604542886:0;la
+: 1604542888:0;cd sample-project-react-native
+: 1604559358:3259;vi
+: 1604562641:10;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604559876:3;vi
+: 1604559880:0;..
+: 1604559880:0;la
+: 1604579241:0;jt work
+: 1604579242:0;la
+: 1604579244:0;cd editmode
+: 1604579246:0;la
+: 1604579293:0;..
+: 1604579294:0;la
+: 1604579296:0;cd kuru-studio
+: 1604579297:0;la
+: 1604579302:0;cd website-theme-v1
+: 1604579359:1146;vi
+: 1604580506:2;g a
+: 1604580515:0;g c -m "Feature: Create base package.json"
+: 1604580516:0;g bnc
+: 1604580519:17;g ps origin master
+: 1604580540:0;mkdir site
+: 1604580542:0;mkdir kuru-studio-website-theme-v1
+: 1604580548:0;touch site/package.json
+: 1604580552:0;touch kuru-studio-website-theme-v1/package.json
+: 1604580553:0;g a
+: 1604580555:1;g d
+: 1604580556:0;g s
+: 1604580558:0;git add .
+: 1604580566:0;g c -m "Feature: Create 2 folders and add package.json in them"
+: 1604580645:2;g a
+: 1604580661:0;g c -m "Feature: Create index.js and add content to package.json of kuru-studio-website-theme-v1"
+: 1604580663:0;g ps origin amster
+: 1604580666:18;g ps origin master
+: 1604580699:1;g a
+: 1604580707:0;g c -m "Feature: Add content to package.json of 'site'"
+: 1604580709:20;g ps origin master
+: 1604580762:0;yarn workspace site add gatsby react react-dom kuru-studio-website-theme-v1@*
+: 1604580774:31;yarn workspace site add gatsby react react-dom kuru-studio-website-theme-v1
+: 1604580806:1;g d
+: 1604580809:0;g s
+: 1604580810:1;g d
+: 1604580812:0;g s
+: 1604580825:90;yarn workspace site add gatsby react react-dom kuru-studio-website-theme-v1@"*"
+: 1604581004:5;g a
+: 1604581018:0;exit
+: 1604581020:8;g a
+: 1604581038:0;jt work
+: 1604581039:0;la
+: 1604581042:0;cd kuru-studio
+: 1604581043:0;la
+: 1604581045:0;cd website-theme-v1
+: 1604581048:8;g a
+: 1604581059:2;g d
+: 1604581063:2;g s
+: 1604581076:0;touch .gitignore
+: 1604581082:178;vi .gitignore
+: 1604581263:1;g d
+: 1604581269:1;g s
+: 1604581276:2;g a .gitignore
+: 1604581281:0;git add .gitignore
+: 1604581289:13;vi
+: 1604581304:0;git add site/package.json
+: 1604581313:1;g c -m "Feature: Install dependencies for site"
+: 1604581321:18;g ps origin master
+: 1604581342:1;g d
+: 1604581345:0;g s
+: 1604581355:4;git reset --hard origin/master
+: 1604581395:62;yarn install
+: 1604581471:0;g d
+: 1604581472:0;g s
+: 1604581494:3;g a
+: 1604581502:0;g c -m "Feature: Generate yarn.lock"
+: 1604581504:0;g ps origin matser
+: 1604581507:20;g ps origin master
+: 1604581596:1;yarn workspaces info
+: 1604581644:11;yarn workspace kuru-studio-website-theme-v1 add -P gatsby react react-dom
+: 1604581658:1;g a
+: 1604581669:0;g c -m "Feature: Add peer dependencies to kuru-studio-website-theme-v1"
+: 1604581671:18;g ps origin master
+: 1604582352:11;yarn workspace kuru-studio-website-theme-v1 add -D gatsby react react-dom
+: 1604582380:2;g a
+: 1604582395:0;#g c -m "Feature: Add development dependencies to kuru-studio-website-theme-v1"
+: 1604582410:0;g c -m "Feature: Add development dependencies to kuru-studio-website-theme-v1 (https://www.gatsbyjs.com/tutorial/building-a-theme/\#add-development-dependencies-to-gatsby-theme-events)"
+: 1604582415:16;g ps origin master
+: 1604635441:1;verdaccio
+: 1604635482:736;expo start
+: 1604639352:13722;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1604635393:0;jt work
+: 1604635393:0;la
+: 1604635395:0;cd editmode
+: 1604635396:0;la
+: 1604635411:0;cd sample-project-react-native
+: 1604635442:3898;vi
+: 1604635466:0;../plugin-react-native
+: 1604635468:601;vi
+: 1604636136:0;g co master
+: 1604636137:1;g d
+: 1604636139:0;g st
+: 1604636140:0;g co master
+: 1604636142:5;g pl origin master
+: 1604636186:1;g d
+: 1604636203:0;cd src/utils
+: 1604636203:0;la
+: 1604636204:3;g d
+: 1604636211:0;...
+: 1604636214:164;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604636388:0;g co -b feature-image-auto-dimension
+: 1604637943:148;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604638092:185;g d
+: 1604639339:246;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1604639586:1;g d
+: 1604639589:0;cd src/utils
+: 1604639590:0;la
+: 1604639593:15;g d
+: 1604639609:3;g a
+: 1604639628:0;g c -m "Feature: Add imageWidth and imageHeight as props on images"
+: 1604639672:6;g ps origin master
+: 1604639680:0;...
+: 1604639683:2;g a
+: 1604639693:1;g c -m "Feature: Add imageWidth and imageHeight as props on images"
+: 1604639697:0;g bnc
+: 1604639700:7;g ps origin feature-image-auto-dimension
+: 1604641613:1;g d
+: 1604641617:0;g co master
+: 1604641622:3;g pl origin master
+: 1604641629:1;g d
+: 1604641631:0;g s
+: 1604641640:2;g a
+: 1604641662:0;g c -m "Feature: Add imageWidth and imageHeight documentation on README.md"
+: 1604641665:5;g ps origin master
+: 1604642203:2;g a
+: 1604642221:0;g c -m "Hotfix: Add pixel note for the imageHeight and imageWidth prop on README.md"
+: 1604642222:0;g bnc
+: 1604642234:6;g ps origin master
+: 1604649194:3;g pl origin master
+: 1604649205:0;g co -b feature-rich-text
+: 1604649554:0;vi
+: 1604635434:26;verdaccio
+: 1604635464:0;../plugin-react-native
+: 1604635475:17595;verdaccio
+: 1604733499:0;../
+: 1604733499:0;la
+: 1604733500:0;..
+: 1604733500:0;la
+: 1604733502:0;cd lyon
+: 1604733502:0;la
+: 1604733503:0;cd on-demand
+: 1604733504:0;la
+: 1604733506:27;vi
+: 1604733370:0;jt work
+: 1604733371:0;la
+: 1604733373:0;cd kuru-studio
+: 1604733374:0;la
+: 1604733382:0;mkdir social-server
+: 1604733386:0;cd social-server
+: 1604733388:0;git init
+: 1604733398:19;g so
+: 1604733469:0;touch Dockerfile
+: 1604733472:78;vi Dockerfile
+: 1604733551:2;g a
+: 1604733559:0;g c -m "Feature: Add Dockerfile"
+: 1604733569:16;g ps origin master
+: 1604733591:0;touch Gemfile
+: 1604733607:1;g a
+: 1604733614:0;g c -m "Feature: Add Gemfile"
+: 1604733616:0;touch Gemfile.lock
+: 1604733619:0;g a
+: 1604733623:0;g d
+: 1604733624:0;g s
+: 1604733625:0;git add .
+: 1604733633:0;g c -m "Feature: Add GGemfile.lock"
+: 1604733637:14;g ps origin master
+: 1604733654:0;touch entrypoint.sh
+: 1604733660:1;g a
+: 1604733667:0;g c -m "Feature: Add entrypoint.sh"
+: 1604733669:15;g ps origin master
+: 1604733689:0;touch docker-compose.yml
+: 1604733691:8;vi
+: 1604733700:1;g a
+: 1604733708:0;g c -m "Feature: Add docker-compose.yml"
+: 1604733710:21;g ps origin master
+: 1604733784:344;docker-compose run web rails new . --api --force --no-deps --database=postgresql
+: 1604734405:0;git add .
+: 1604734423:0;g c -m "Feature: Initialize Docker"
+: 1604734426:15;g ps origin master
+: 1604734446:1;rbenv install 2.7.2
+: 1604734456:3;vi
+: 1604734472:175;brew update && brew upgrade ruby-build
+: 1604735489:518;rbenv install 2.7.2
+: 1604738779:0;rbenv rehash
+: 1604738790:12;vi /Users/boserikoreyes/.rbenv/shims/.rbenv-shim
+: 1604738807:0;mv /Users/boserikoreyes/.rbenv/shims/.rbenv-shim /Users/boserikoreyes/.rbenv/shims/.rbenv-shim-old
+: 1604738810:0;rbenv rehash
+: 1604738816:0;la /Users/boserikoreyes/.rbenv/shims/
+: 1604738822:0;la /Users/boserikoreyes/.rbenv/shims/ |grep hash
+: 1604738829:0;la /Users/boserikoreyes/.rbenv/shims/ |grep shim
+: 1604738836:0;la /Users/boserikoreyes/.rbenv/shims/ |grep rbenv
+: 1604738840:0;rbenv rehash
+: 1604738911:0;g d
+: 1604738912:0;g s
+: 1604738937:2;g log
+: 1604738942:8;vi
+: 1604738965:155;docker-compose build
+: 1604739178:1;g d
+: 1604739179:0;g s
+: 1604739198:38;vi
+: 1604739236:3;g a
+: 1604739260:1;g d
+: 1604739261:0;g s
+: 1604739276:0;g c -m "Feature: Configure database.yml appropriately"
+: 1604739278:15;g ps origin master
+: 1604739370:0;g d
+: 1604739371:2;g a
+: 1604739389:0;g c -m "Feature: Configure README.md appropriately"
+: 1604739391:15;g ps origin master
+: 1604739502:1;g a
+: 1604739512:0;g c -m "Feature: Comment in require_master_key"
+: 1604739515:15;g ps origin master
+: 1604739296:0;...
+: 1604739296:0;la
+: 1604739298:0;cd lyon
+: 1604739299:0;la
+: 1604739300:0;cd on-demand
+: 1604739304:122;vi
+: 1604739427:14;g lol
+: 1604739444:1;git diff d5d3ae9..
+: 1604739448:2;g lol
+: 1604739452:8;git diff d5d3ae9..070c810
+: 1604739467:3;g lol
+: 1604806738:0;jt work
+: 1604806738:1;la
+: 1604806872:0;jt work
+: 1604806873:0;la
+: 1604806875:0;cd kuru-studio
+: 1604806876:0;la
+: 1604806879:0;cd social-server
+: 1604807051:0;la
+: 1604807053:84;dr-up
+: 1604807141:0;cat README.md
+: 1604807264:18;vi .gitignore
+: 1604807305:42;docker-compose up --build
+: 1604807358:52;docker-compose run web bash
+: 1604807413:0;g d
+: 1604807418:15;vi config/master.key
+: 1604807436:1;g a
+: 1604807448:0;g c -m "Feature: Initialize secret credentials"
+: 1604807450:0;g bnc
+: 1604807457:15;g ps origin master
+: 1604807488:0;cat README.md
+: 1604807541:215;dr-web bash
+: 1604807758:102;vi
+: 1604807862:2;g d
+: 1604807864:3;g a
+: 1604807874:0;g c -m "Feature: Use secret credentials for database.yml"
+: 1604807879:14;g ps origin master
+: 1604807935:56;dr-up
+: 1604806738:0;jt work
+: 1604806738:1;la
+: 1604806872:0;jt work
+: 1604806873:0;la
+: 1604806875:0;cd kuru-studio
+: 1604806876:0;la
+: 1604806879:0;cd social-server
+: 1604807051:0;la
+: 1604807053:84;dr-up
+: 1604807141:0;cat README.md
+: 1604807264:18;vi .gitignore
+: 1604807305:42;docker-compose up --build
+: 1604807358:52;docker-compose run web bash
+: 1604807413:0;g d
+: 1604807418:15;vi config/master.key
+: 1604807436:1;g a
+: 1604807448:0;g c -m "Feature: Initialize secret credentials"
+: 1604807450:0;g bnc
+: 1604807457:15;g ps origin master
+: 1604807488:0;cat README.md
+: 1604807541:215;dr-web bash
+: 1604807758:102;vi
+: 1604807862:2;g d
+: 1604807864:3;g a
+: 1604807874:0;g c -m "Feature: Use secret credentials for database.yml"
+: 1604807879:14;g ps origin master
+: 1604807935:56;dr-up
+: 1604808499:0;...
+: 1604808499:0;la
+: 1604808502:0;cd lyon/on-demand
+: 1604808503:3688;vi
+: 1604815404:373;yarn dev
+: 1604815785:0;exit
+: 1604814585:0;..
+: 1604814585:0;la
+: 1604814616:0;mkdir social-web
+: 1604814620:0;cd social-web
+: 1604814620:0;la
+: 1604814627:0;git init
+: 1604814630:8;g so
+: 1604814642:0;mkdir README.md
+: 1604814648:6;vi
+: 1604814657:0;rm -rf README.md
+: 1604814669:0;echo "### Kuru Studio Social (Web)" >> README.md
+: 1604814670:1;g a
+: 1604814681:0;g c -m "Feature: Create README.md"
+: 1604814683:16;g ps origin master
+: 1604814838:0;yarn init -y
+: 1604814839:2;g a
+: 1604814848:0;g c -m "Feature: Initialize a package.json"
+: 1604814850:72;yarn add next react react-dom
+: 1604814926:0;la
+: 1604814938:0;g d
+: 1604814939:0;g s
+: 1604814957:0;echo "node_modules" >> .gitignore
+: 1604814960:0;g d
+: 1604814961:0;g s
+: 1604814964:3;g a
+: 1604814972:0;g c -m "Feature: Add .gitignore"
+: 1604814973:4;g a
+: 1604814996:0;g c -m "Feature: Install next, react and react-dom"
+: 1604815002:10;vi
+: 1604815013:1;g a
+: 1604815020:0;g c -m "Feature: Add Next scripts to package.json"
+: 1604815022:18;g ps origin master
+: 1604815043:0;mkdir pages
+: 1604815047:0;touch pages/index.tsx
+: 1604815055:12;g a
+: 1604815074:0;g c -m "Feature: Create the homapage"
+: 1604815076:17;g ps origin master
+: 1604815121:0;g d
+: 1604815123:2;yarn dev
+: 1604815189:13;vi
+: 1604815204:1;g a
+: 1604815219:0;g c -m "Feature: Specify port on the dev script"
+: 1604815220:16;g ps origin master
+: 1604815262:3;yarn dev
+: 1604815292:9;yarn add --dev typescript @types/react @types/node
+: 1604815304:5;g a
+: 1604815313:7;g d
+: 1604815321:0;g s
+: 1604815341:0;g c -m "Feature: Add typescript, @types/react and @types/node to package.json\
+"
+: 1604815345:17;g ps origin master
+: 1604815365:0;touch tsconfig.json
+: 1604815370:0;g a
+: 1604815372:0;git add .
+: 1604815378:0;g c -m "Feature: Create tsconfig.json"
+: 1604815380:16;g ps origin master
+: 1604815412:2;g d
+: 1604815414:0;g s
+: 1604815427:1;g a
+: 1604815446:0;g c -m "Feature: Add .next to .gitignore"
+: 1604815447:2;g a
+: 1604815456:0;g c -m "Feature: Configure tsconfig.json properly"
+: 1604815458:16;g ps origin master
+: 1604815787:0;exit
+: 1604813843:1936;dr-up
+: 1604815781:1;dr-down
+: 1604815788:0;exit
+: 1604807464:0;../
+: 1604807464:0;la
+: 1604807466:0;..
+: 1604807466:0;la
+: 1604807469:0;cd lyon
+: 1604807474:0;la
+: 1604807477:0;cd on-demand
+: 1604807477:0;la
+: 1604807497:279;dr-web bash
+: 1604807778:216;vi
+: 1604807996:0;...
+: 1604807996:0;la
+: 1604807997:0;jt work
+: 1604807997:1;la
+: 1604808000:0;cd kuru-studio
+: 1604808001:0;la
+: 1604808003:0;cd social-server
+: 1604808003:0;la
+: 1604808024:23;vi
+: 1604808051:0;cat README.md
+: 1604808057:31;docker-compose run web rake db:create
+: 1604808371:44;vi
+: 1604808416:1;g a
+: 1604808429:0;g c -m "Feature: Add config/master.key note to README.md"
+: 1604808430:0;g bnc
+: 1604808432:15;g ps origin master
+: 1604808453:95;dr-up
+: 1604808551:1;dr-down
+: 1604808555:23;vi
+: 1604808579:1;g a
+: 1604808592:0;g c -m "Feature: Add redirect that goes to social.kuru.studio"
+: 1604808594:17;g ps origin master
+: 1604813817:0;la
+: 1604813845:1944;vi
+: 1604815791:0;exit
+: 1604843121:1;jt work
+: 1604843122:0;la
+: 1604843124:0;cd kuru-studio
+: 1604843124:0;la
+: 1604843128:0;mkdir website
+: 1604843130:0;cd website
+: 1604843131:5;g so
+: 1604843140:0;git init
+: 1604843141:2;g so
+: 1604843163:0;echo "# Kuru Studio Website" > README.md
+: 1604843165:1;g a
+: 1604843172:0;g c -m "Feature: Initial commit"
+: 1604843174:17;g ps origin master
