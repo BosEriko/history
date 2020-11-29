@@ -351,8 +351,6 @@ fi
 : 1576586372:0;mkdir playground
 : 1576586382:0;npm install -g firebase-tools
 : 1576586452:0;g clone git@github.com:BosEriko/playground.git ./
-: 1576757469:0;mkdir social
-: 1576757472:0;rm -rf social
 : 1576757479:0;gatsby new social
 : 1576759220:0;now init
 : 1576763301:0;firebase login
@@ -381,7 +379,6 @@ fi
 : 1577002009:0;cd app
 : 1577002293:0;g g "ignore .firebase, package-lock.json and yarn.lock. add deploy script"
 : 1577002400:0;g g "add a clear message on the homepage"
-: 1577002493:0;cd social
 : 1577002508:0;rm -rf package-lock.json yarn.lock
 : 1577002518:0;cp ../app/.gitignore ./.gitignore
 : 1577002552:0;g g "add firebase to ignored files"
@@ -620,7 +617,6 @@ fi
 : 1577494775:0;heroku logs --tail
 : 1577494783:0;heroku logs --tail --app opsmanager-production
 : 1577495010:0;heroku run --app opsmanager-production git log
-: 1577495062:0;heroku run --app opsmanager-production bash
 : 1577495138:0;git log production
 : 1577496048:0;g co origin/hotfix-production
 : 1577496095:0;git branch -D hotfix-production 
@@ -725,8 +721,6 @@ fi
 : 1577859059:0;git commit -m "remove posts and users table"
 : 1577859348:0;g g "remove the 2 unwanted migration file regarding posts"
 : 1577859572:0;g g "remove unwanted files generated and created by devise"
-: 1577859615:0;docker-compose down
-: 1577859686:0;docker-compose run web bundle install
 : 1577860118:0;g g "update gemfile.lock"
 : 1577872395:0;g co origin/issue-27-Use_Doorkeeper_for_authentication
 : 1577872430:0;g co issue-27-Use_Doorkeeper_for_authentication
@@ -975,7 +969,6 @@ TAGLINE="El Psy Congroo\
 : 1579257381:0;dr-web rails g migration DropUsers
 : 1579257458:0;gwip remove devise files and created a dropusers migration
 : 1579258242:0;dr-web rake db:drop && dr-web rake db:create &&  dr-web rake db:migrate
-: 1579346803:0;dr-down && dr-up
 : 1579349100:0;dr-web rails g devise_token_auth:install User auth
 : 1579402861:0;dr-down && dr-web bundle install && dr-up --build
 : 1579405216:0;rails new test-devise
@@ -1365,7 +1358,6 @@ TAGLINE="El Psy Congroo\
 : 1581746878:0;g g "create a simple page"
 : 1581746990:0;g g "add types for react and node"
 : 1581747079:0;g g "add tsconfig and ignore .next"
-: 1581747820:0;now
 : 1581747873:0;npm i -g now@latest
 : 1581747903:0;g g "add a deploy script"
 : 1581749068:0;g commit -m "add .now to gitignore" && g ps
@@ -1607,7 +1599,6 @@ module.exports = withCSS({}); fg
 : 1583249141:0;g reset 065be98
 : 1583249189:0;g ps --force
 : 1583330334:0;brew cask install vlc
-: 1583389073:0;web
 : 1583389423:0;g g "[Hotfix] Add Kalpa, Neon and Dante on the README.md contributors"
 : 1583393055:0;g g "add merge methods"
 : 1583396085:0;website-application
@@ -1686,7 +1677,6 @@ end
 : 1583642664:0;g g "[Hotfix] Add package-lock.json to gitignore"
 : 1583643055:0;g g "[Hotfix] Change workspace name to discord-bot"
 : 1583643183:0;yarn workspace discord-bot start
-: 1583643193:0;yarn workspace
 : 1583643196:0;yarn workspace list
 : 1583643200:0;yarn workspace --help
 : 1583643214:0;man yarn workspace
@@ -1750,7 +1740,6 @@ end
 : 1583903215:0;tldr stow
 : 1583984633:0;gwip duplicate catalog id
 : 1583986362:0;g g 'change icons'
-: 1584004163:0;irb
 : 1584005419:0;gwip check duplicate
 : 1584009845:0;bos -cpu usage
 : 1584009852:0;bos -cpu temp
@@ -1797,7 +1786,6 @@ end
 : 1584095337:0;script/deploy -B --skip-migrations -f
 : 1584095738:0;script/deploy --skip-migrations -f
 : 1584101776:0;g clone git@github.com:BosEriko/discord-bot.git
-: 1584101955:0;git remote remove github
 : 1584101969:0;git remote add github git@github.com:BosEriko/discord-bot.git
 : 1584102822:0;git remote rb gitlab
 : 1584103063:0;git remote rm bitbucket github gitlab origin
@@ -1957,7 +1945,6 @@ end
 : 1584956274:0;jake -t
 : 1584956279:0;jake otherTask
 : 1584956960:0;jake routes
-: 1584957442:0;node
 : 1584957596:0;jake
 : 1584958347:0;g g "add hyperline"
 : 1584961923:0;brew list |grep "yarn"
@@ -2197,7 +2184,6 @@ end
 : 1585888852:0;g c -m "fix error on customer"
 : 1585896901:0;g c -m "fix the import for types"
 : 1585906526:0;g c -m "use reduce"
-: 1585906908:0;g c -m "fix conflict"
 : 1585909342:0;g g "add airline toggle"
 : 1585909892:0;g c -m "remove redundant template literals"
 : 1585912112:0;g c -m "hide statusbar"
@@ -2398,7 +2384,6 @@ end
 : 1587177693:0;yarn add @types/react @types/node
 : 1587177742:0;g c -m "update types for node and react"
 : 1587177819:0;g c -m "update structure of .env.sample"
-: 1587177838:0;yarn add firebase
 : 1587177948:0;g c -m "install firebase"
 : 1587178095:0;g c -m "initialize firebase and changed _app and _document from jsx to tsx"
 : 1587178099:0;g top
@@ -2502,7 +2487,6 @@ end
 : 1587690963:0;cd docs
 : 1587690964:0;g co feature-endpoint-docs\
 
-: 1587690970:0;cat package.json
 : 1587698858:0;g c -m "add user stream controller/route for testing"
 : 1587698914:0;g c -m "remove add user to stream route/controller"
 : 1587706251:0;g c -m "add participants to the payload of streams and remove eventStreamsRouter"
@@ -2655,15 +2639,12 @@ end
 : 1588384612:0;g c -m "update env variable for FIREBASE_DATABASE_URL"
 : 1588384628:0;g ps origin feature-firebase
 : 1588386395:0;denik
-: 1588386418:0;../server
 : 1588386436:0;vi log
 : 1588391625:0;g co issue-100-Task_Authentication_using_Google/Twitter/GitHub/Facebook/Email
 : 1588391646:0;g a yarn.lock
 : 1588460631:0;jt denik
-: 1588464603:0;g co -b feature-authentication
 : 1588473740:0;g c -m "remove import of firebase"
 : 1588474770:0;g c -m "add middlewares"
-: 1588475281:0;g ps origin feature-authentication
 : 1588476950:0;cd blog
 : 1588476978:0;blitz generate pages test
 : 1588477037:0;blitz generate crud test
@@ -2878,7 +2859,6 @@ exit
 : 1590135808:0;g c -m "add app store and google play on the list of game providers"
 : 1590136783:0;g c -m "remove the filter that takes approved events only"
 : 1590137376:0;g c -m "use relations"
-: 1590197468:0;g clone git@github.com:kaizenstudios/denik-api-server.git
 : 1590197622:0;g co -b feature-authentication-middleware
 : 1590197690:0;g co -m "add dotenv on script start"
 : 1590197695:0;g c -m "add dotenv on script start"
@@ -2893,12 +2873,10 @@ exit
 : 1590209376:0;vi ~/Downloads/kaizen-studios-firebase-adminsdk-28rjt-6f8b5b582d.json
 : 1590209698:0;g c -m "update env name for db_url"
 : 1590229088:0;vi .env
-: 1590231908:0;cd denik-api-server
 : 1590233209:0;psql --command="ALTER USER boserikoreyes WITH PASSWORD 'boserikoreyes';"
 : 1590233588:0;g c -m "create a user if it does not exist"
 : 1590233591:0;g ps origin feature-authentication-middleware
 : 1590286917:0;cd .history
-: 1590286930:0;g ps
 : 1590288286:0;g ps github master
 : 1590288304:0;g ps bitbucket master
 : 1590288671:0;mkdir denik
@@ -3052,7 +3030,6 @@ fi
 : 1591613494:0;rm -rf rails-api
 : 1591614145:0;g clone git@github.com:kuru-project/main-website-server.git
 : 1591614153:0;g clone git@github.com:kuru-project/main-website-client.git
-: 1591614207:0;mkdir website
 : 1591614213:0;mv main-website-client website/client
 : 1591614218:0;mv main-website-server website/server
 : 1591614230:0;rm -rf website
@@ -3267,7 +3244,6 @@ fi
 : 1592387894:0;rake db:create db:migrate db:seeds
 : 1592428574:0;pg_restore --verbose --username=boseriko --dbname=chunk --clean --no-acl --host=localhost ~/Downloads/chunk.sql
 : 1592430375:0;rake routes
-: 1592431228:0;rake db:seeds
 : 1592432046:0;mkdir tpm
 : 1592432049:0;mv tpm tmp
 : 1592432056:0;mv temp tmp
@@ -3678,7 +3654,6 @@ fi
 : 1594717862:0;git rm node_modules/
 : 1594717869:0;git rm -rf node_modules/
 : 1594718176:0;g a .
-: 1594718182:0;g add .
 : 1594718190:0;g c -m "initial commit"
 : 1594718336:0;cp authenticate.js happy-path.js
 : 1594775960:0;open test2.png
@@ -3704,7 +3679,6 @@ fi
 : 1594861944:0;g c -m "add collection chunk test"
 : 1594862024:0;g add remote origin git@github.com:BosEriko/editmode-puppeteer-check.git
 : 1594862036:0;git remote add origin git@github.com:BosEriko/editmode-puppeteer-check.git
-: 1594862052:0;rm -rf .DS_Store
 : 1594877673:0;g co -b hotfix-payment-profile
 : 1594893026:0;g c -m "finish the test"
 : 1594893283:0;g c -m "move team test to the bottom of 200 tests and remove the unwanted browser-close"
@@ -3753,1537 +3727,279 @@ fi
 : 1595207474:0;/Users/boserikoreyes/Documents/Codes/Work/editmode/editmodern/node_modules/react-native/scripts/launchPackager.command
 : 1595207766:0;rm -rf editmodern
 : 1595207780:0;expo init reactnative
-: 1595210251:0;rm -rf yarn.lock
 : 1595233926:0;g c -m "move the creation of reward certificate on the request on the profile"
 : 1595233940:0;g co -b hotfix-afterload-move-to-profile
 : 1595234680:0;g c -m "change forEach to map"
 : 1595234682:0;g ps origin hotfix-afterload-move-to-profile
 : 1595238389:0;g c -m "fix for the 2 null values"
-: 1595238390:0;g bnc
-: 1595238393:0;g ps origin hotfix-certificate-industry
-: 1595238468:0;yarn dev
-: 1595238883:0;g lol
-: 1595238886:0;g bnc
-: 1595240396:0;yarn build
-: 1595240484:0;g a
 : 1595240513:0;g c -m "add industry name on the card title and capitalize the verb"
-: 1595240514:0;g bnc
-: 1595240516:0;g ps origin hotfix-certificate-industry
-: 1595240721:0;yarn build
-: 1595240848:0;g a
 : 1595240855:0;g c -m "fix build error\
 "
-: 1595240860:0;g bnc
 : 1595240863:0;g ps origin hotfix-certificate-industry
 : 1595240955:0;g co -b hotfix-certificate-build-error
-: 1595240958:0;g bnc
-: 1595240960:0;g ps origin hotfix-certificate-build-error
-: 1595240991:0;g pl origin develop
 : 1595241005:0;g ps origin hotfix-certificate-build-error
-: 1595243424:0;jt work
-: 1595243425:0;la
-: 1595243441:0;cd editmode
-: 1595243442:0;la
-: 1595243453:0;cd reactnative
-: 1595243456:0;expo start
-: 1595243724:0;../
-: 1595243725:0;la
 : 1595243728:0;cd editmode-react
-: 1595243729:0;vi
-: 1595247011:0;jt work
-: 1595247011:0;la
-: 1595247013:0;cd lyon
-: 1595247014:0;la
-: 1595247016:0;cd html-renderer
-: 1595247017:0;la
-: 1595247017:0;vi
-: 1595249645:0;la
-: 1595249650:0;../api-server
-: 1595249651:0;la
-: 1595249651:0;vi
-: 1595252131:0;../api-server
-: 1595252132:0;yarn dev
-: 1595290527:0;jt work
-: 1595290528:0;la
-: 1595307663:0;jt work
-: 1595307664:0;la
-: 1595307665:0;cd lyon
-: 1595307666:0;la
-: 1595307668:0;cd html-renderer
-: 1595307668:0;la
-: 1595307670:0;vi
-: 1595307830:0;../api-server
-: 1595307835:0;vi
-: 1595307839:0;yarn dev
-: 1595307845:0;vi
-: 1595307852:0;../html-renderer
-: 1595307854:0;vi
-: 1595307860:0;yarn dev
-: 1595311981:0;g d
-: 1595311985:0;g s
-: 1595311989:0;g d
-: 1595311995:0;g s
 : 1595311999:0;g co src/controllers/certificate
-: 1595316724:0;yarn dev
-: 1595316920:0;psql --command="\l"
-: 1595316995:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
-: 1595317033:0;pg_restore --verbose --username=boseriko --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1595317046:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1595317063:0;psql --command="\l"
-: 1595317235:0;yarn dev
-: 1595318412:0;g d
-: 1595318422:0;g s
-: 1595318423:0;g st
-: 1595318426:0;g co develop
-: 1595318431:0;g pl origin develop
-: 1595318447:0;git reset --hard origin/develop
 : 1595318456:0;g co -b hotfix-certificate-unique-error
-: 1595318460:0;g st apply
-: 1595318462:0;g a
 : 1595318480:0;g c -m "attempt fix"
-: 1595318481:0;g bnc
 : 1595318484:0;g ps origin hotfix-certificate-unique-error
-: 1595321108:0;g d
-: 1595321112:0;g s
-: 1595321120:0;g d
-: 1595321123:0;g co src
-: 1595333531:0;jt work
-: 1595333532:0;la
-: 1595333534:0;cd kuru-anime
-: 1595333535:0;la
-: 1595333540:0;cd main-website
-: 1595333540:0;la
-: 1595333542:0;cd server
-: 1595333545:0;la
-: 1595333548:0;vi
-: 1595333552:0;yarn dev
-: 1595333679:0;la
-: 1595333680:0;..
-: 1595333681:0;la
-: 1595333683:0;cd client
-: 1595333684:0;vi
-: 1595378064:0;jt work
-: 1595378064:0;la
-: 1595378069:0;cd editmode
-: 1595378070:0;la
-: 1595379089:0;cd reactnative
-: 1595379089:0;la
-: 1595379091:0;expo start
-: 1595379104:0;vi
-: 1595379113:0;../editmode-react
-: 1595379115:0;..
-: 1595379116:0;la
 : 1595379127:0;mv editmode-react react-plugin
 : 1595379130:0;cd react
-: 1595379134:0;cd react-plugin
-: 1595379136:0;vi
-: 1595379428:0;yarn add editmode-react
-: 1595379671:0;yarn install
-: 1595379682:0;rm -rf node_modules yarn.lock && yarn install
-: 1595379686:0;yarn link
-: 1595379836:0;yarn install
-: 1595379852:0;yarn link "editmode-react"
-: 1595379994:0;vi ~/.config/yarn/link
-: 1595380019:0;yarn install
-: 1595380072:0;expo init
-: 1595380085:0;expo start
-: 1595380163:0;yarn unlink "editmode-react"
-: 1595380170:0;yarn install --force
 : 1595380216:0;yarn link "editmode-react"
-: 1595380223:0;yarn install --force
-: 1595380548:0;yarn link
 : 1595380567:0;vi ~/.config/yarn/link
-: 1595380588:0;expo start
 : 1595381764:0;yarn un
 : 1595381768:0;yarn unlink "editmode-react"
 : 1595381809:0;cp ../react-plugin ./node_modules/editmode-react
-: 1595381818:0;cp -r ../react-plugin ./node_modules/editmode-react
-: 1595381875:0;expo start
-: 1595381974:0;yarn install --force
 : 1595382040:0;rm -rf ./node_modules/editmode-react && cp -r ../react-plugin ./node_modules/editmode-react
-: 1595382058:0;expo start
 : 1595382130:0;rm -rf ./node_modules/editmode-react
 : 1595382145:0;cp -r ../react-plugin ./node_modules/editmode-react
 : 1595382193:0;expo init
-: 1595382208:0;expo start
-: 1595382576:0;g d
-: 1595382581:0;g a
 : 1595382605:0;g c -m "add editmode to the project"
-: 1595382613:0;git reset --hard origin/master
-: 1595382616:0;g pl origin master
-: 1595382637:0;g a
 : 1595382650:0;g c -m "remove text from the imports"
-: 1595382655:0;yarn install --force
 : 1595382738:0;yarn add --dev @haul-bundler/cli
-: 1595383495:0;g a
 : 1595383508:0;g c -m "add haul-bundler"
-: 1595383528:0;down
 : 1595383568:0;g remote add origin git@github.com:BosEriko/editmode-rn-test.git
-: 1595383571:0;g ps origin master
 : 1595383613:0;yarn haul init
-: 1595383661:0;g a
 : 1595383674:0;g c -m 'initialize haul'
-: 1595383681:0;yarn haul start
-: 1595383730:0;la
 : 1595383733:0;whereami
 : 1595383734:0;whoami
-: 1595383753:0;la
-: 1595383779:0;yarn install --force
-: 1595383800:0;expo start
-: 1595383896:0;yarn install --force
-: 1595384042:0;yarn add editmode-react
 : 1595384326:0;yarn --force
-: 1595384358:0;yarn start
 : 1595384410:0;yarn haul start
 : 1595384757:0;yarn run android
 : 1595384761:0;/Users/boserikoreyes/Documents/Codes/Work/editmode/reactnative/node_modules/react-native/scripts/launchPackager.command
-: 1595387849:0;jt work
-: 1595387850:0;la
-: 1595387852:0;cd lyon
-: 1595387852:0;la
-: 1595387856:0;cd html-renderer
-: 1595387856:0;la
-: 1595387859:0;vi
-: 1595392659:0;jt work
-: 1595394671:0;cd editmode
-: 1595394672:0;vi
-: 1595394675:0;la
-: 1595394677:0;cd main-app
-: 1595394677:0;la
-: 1595394678:0;..
-: 1595394679:0;la
-: 1595394682:0;cd react-plugin
-: 1595394682:0;la
-: 1595394685:0;vi
-: 1595394744:0;g d
-: 1595394745:0;g s
-: 1595394748:0;g clean -fd
-: 1595398688:0;jt work
-: 1595398689:0;la
-: 1595398749:0;cd lyon
-: 1595398749:0;la
-: 1595398753:0;cd api-server
-: 1595398756:0;g co develop
-: 1595398759:0;g d
-: 1595398763:0;g s
-: 1595398771:0;g clean -fd
-: 1595398775:0;g co src
-: 1595398776:0;g st
-: 1595398779:0;g pl origin develop
-: 1595398851:0;g st apply
-: 1595398871:0;yarn dev
-: 1595400826:0;../html-renderer
-: 1595400829:0;g co develop
-: 1595400830:0;g d
-: 1595400832:0;g s
-: 1595400833:0;g d
 : 1595400853:0;g co scoped-models
-: 1595400856:0;vi
-: 1595400887:0;gh pr checkout 351
-: 1595400900:0;g pl origin develop
-: 1595400920:0;vi
-: 1595400921:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1595401300:0;vi
-: 1595401990:0;jt work
-: 1595401997:0;la
-: 1595402005:0;cd lyon
-: 1595402005:0;la
-: 1595402008:0;cd api-server
-: 1595402010:0;vi
 : 1595402014:0;yarn
-: 1595402020:0;yarn dev
-: 1595402042:0;../html-renderer
-: 1595402048:0;vi
-: 1595402057:0;yarn dev
-: 1595403013:0;g a
-: 1595403029:0;g c -m "work on pr comments"
-: 1595403030:0;g bnc
-: 1595403034:0;g ps origin feature-self-directed-reward
-: 1595403697:0;gh pr checkout 342
-: 1595403706:0;g s
-: 1595403708:0;g st
 : 1595403709:0;gh pr checkout 342
-: 1595403745:0;g st apply
-: 1595403754:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1595404582:0;g d
-: 1595404585:0;g s
-: 1595405016:0;g pl origin develop
-: 1595405021:0;g st
-: 1595405026:0;g a
-: 1595405038:0;g c -m "merge"
-: 1595405039:0;g a
 : 1595405048:0;g c -m "work on pr comments"
-: 1595405054:0;g pl origin develop
-: 1595405523:0;yarn build
-: 1595405799:0;g s
-: 1595405804:0;g a
-: 1595405812:0;g c -m "merge"
-: 1595405833:0;yarn build
-: 1595407772:0;g a
 : 1595407778:0;g c -m "remove optional payloads"
-: 1595407860:0;g bnc
-: 1595407863:0;g ps origin feature-profile-edit
-: 1595408928:0;g a
 : 1595408957:0;g c -m "use mutate instead of refresh"
-: 1595408961:0;g bnc
-: 1595408964:0;g ps origin feature-profile-edit
-: 1595409054:0;g a
 : 1595409067:0;g c -m "add submit type on the submit of edit profile"
-: 1595409069:0;g bnc
 : 1595409071:0;g ps origin feature-profile-edit
-: 1595410585:0;g d
-: 1595415632:0;jt work
-: 1595415632:0;la
-: 1595415637:0;cd editmode
-: 1595415638:0;la
-: 1595415645:0;cd reactnative
-: 1595415648:0;expo start
-: 1595415653:0;vi
 : 1595415660:0;../editmode-react
-: 1595415663:0;la
-: 1595415664:0;..
-: 1595415664:0;la
-: 1595415669:0;react-plugin
-: 1595415918:0;vi
-: 1595464726:0;jt work
-: 1595464731:0;la
-: 1595464732:0;cd editmode
-: 1595464733:0;la
-: 1595466193:0;cd reactnative
-: 1595466229:0;../react-plugin
-: 1595470763:0;jt work
-: 1595470764:0;la
-: 1595470765:0;cd lyon
-: 1595470766:0;la
-: 1595470769:0;cd api-server
-: 1595470779:0;cd ../html-renderer
-: 1595470790:0;yarn dev
-: 1595470792:0;vi
-: 1595470795:0;yarn dev
-: 1595470796:0;vi
-: 1595475064:0;jt work
-: 1595475065:0;la
-: 1595475066:0;cd lyon
-: 1595475066:0;la
-: 1595475888:0;..
-: 1595475889:0;la
-: 1595475890:0;editmode
-: 1595475891:0;la
-: 1595475895:0;reactnative
-: 1595475896:0;la
-: 1595476944:0;expo start
-: 1595476952:0;vi
-: 1595476958:0;../react-plugin
-: 1595476964:0;git reset --hard origin/master
 : 1595477189:0;yarn global add verdaccio
-: 1595477283:0;verdaccio
 : 1595477316:0;npm adduser --registry http://localhost:4873
-: 1595477532:0;npm publish --registry http://localhost:4873
-: 1595477551:0;vi
-: 1595477564:0;npm publish --registry http://localhost:4873
-: 1595477627:0;rm -rf node_modules yarn.lock && yarn install
-: 1595477750:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595477781:0;expo start
-: 1595477969:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
 : 1595478051:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react@3.1.3
-: 1595478062:0;npm publish --registry http://localhost:4873
-: 1595478071:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595478089:0;expo start
-: 1595478164:0;git reset --hard origin/master
-: 1595478182:0;npm publish --registry http://localhost:4873
-: 1595478190:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595478207:0;expo start
 : 1595478299:0;yarn install --force
-: 1595478335:0;yarn add editmode-react
-: 1595478701:0;expo start
-: 1595478802:0;rm -rf node_modules yarn.lock && yarn install
 : 1595479004:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react@3.1.4
-: 1595479031:0;expo start
-: 1595479444:0;git reset --hard origin/master
 : 1595479453:0;g remote add personal git@github.com:BosEriko/editmode-react.git
 : 1595479463:0;g co -b fork
-: 1595479486:0;g a
-: 1595479504:0;g c -m "bump the version"
-: 1595479506:0;g bnc
 : 1595479514:0;g ps personal fork
-: 1595479527:0;g remote -v
 : 1595479542:0;git remote add main git@github.com:Editmode-app/editmode-react.git
-: 1595479553:0;git remote add origin git@github.com:BosEriko/editmode-react.git
-: 1595479556:0;g so
-: 1595479565:0;git remote add origin git@github.com:BosEriko/editmode-react.git
 : 1595479574:0;git remote add upstream git@github.com:Editmode-app/editmode-react.git
-: 1595479576:0;g remote -v
-: 1595479582:0;g so
 : 1595479600:0;git remote remove main
 : 1595479603:0;g remote remove personal
-: 1595479606:0;g remote -v
 : 1595479613:0;git remote add origin git@github.com:BosEriko/editmode-react.git
-: 1595479617:0;git remote -v
-: 1595479686:0;g a
 : 1595479694:0;g c -m "change package name"
-: 1595479697:0;g bnc
-: 1595479699:0;g ps origin fork
 : 1595479725:0;npm adduser --registry
-: 1595479745:0;npm adduser
-: 1595479779:0;npm publish
 : 1595479982:0;yarn add editmode-react-staging
-: 1595480022:0;g a
 : 1595480032:0;g c -m "use my own editmode-react for now"
-: 1595480037:0;rm -rf node_modules yarn.lock && yarn install
-: 1595480045:0;rm -rf node_modules yarn.lock && yarn install && expo start
-: 1595480645:0;yarn build
 : 1595480649:0;yarn run build
-: 1595480663:0;yarn install
-: 1595480695:0;yarn build
-: 1595480742:0;verdaccio
 : 1595480768:0;npm publish --registry http://localhost:4873
 : 1595480846:0;rm -rf node_modules yarn.lock && yarn install && expo start
-: 1595480915:0;g a
 : 1595480923:0;g c -m "move back to default name"
-: 1595480925:0;g bnc
-: 1595480927:0;g ps origin fork
-: 1595480977:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595481162:0;g a
 : 1595481214:0;g c -m "add react native platform message"
-: 1595481216:0;g bnc
-: 1595481217:0;g ps origin fork
-: 1595481272:0;g a
-: 1595481276:0;g c -m "bump the version"
-: 1595481278:0;yarn build && npm publish --registry http://localhost:4873
-: 1595481296:0;yarn add react-native
-: 1595481400:0;g a
 : 1595481413:0;g c -m "add react native to the dependencies"
 : 1595481415:0;g ps origin fork
-: 1595481429:0;yarn build && npm publish --registry http://localhost:4873
-: 1595481450:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595481829:0;g a
 : 1595481843:0;g c -m "move the platform data to renderChunk"
-: 1595481852:0;g c -m "bump the version"
-: 1595481854:0;g a
-: 1595481856:0;g c -m "bump the version"
-: 1595481873:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595481894:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595482400:0;g a
 : 1595482409:0;g c -m "move the react native platform data"
-: 1595482422:0;g a
-: 1595482426:0;g c -m "bump the version"
-: 1595482431:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595482456:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595482656:0;g a
 : 1595482683:0;g c -m "update code"
-: 1595482685:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595482705:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595482725:0;expo start
-: 1595482804:0;g a
 : 1595482825:0;g c -m "update platform call method"
-: 1595482828:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595482843:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595483184:0;g a
 : 1595483210:0;g c -m "move checking of platform on the main file"
-: 1595483212:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595483231:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595483298:0;g a
 : 1595483309:0;g c -m "declare branch outside of the scope"
-: 1595483311:0;g bnc
-: 1595483314:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595483339:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595483694:0;g a
 : 1595483716:0;g c -m "only use sanitize on the web for now"
-: 1595483718:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595483747:0;g a
 : 1595483755:0;g c -m "fix error on sanitize variable"
-: 1595483757:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595483775:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595484096:0;jt work
-: 1595494562:0;cd lyon
-: 1595494562:0;la
-: 1595494565:0;cd api-server
-: 1595494566:0;la
-: 1595494575:0;../html-renderer
-: 1595496584:0;vi
-: 1595496586:0;yarn dev
-: 1595496587:0;vi
-: 1595496589:0;yarn dev
-: 1595496980:0;g pl origin develop
 : 1595496997:0;g co -b hotfix-edit-profile-email-validation
-: 1595497281:0;g s
-: 1595497284:0;g co src
-: 1595497608:0;vi
-: 1595500489:0;../
-: 1595500490:0;la
-: 1595500491:0;..
-: 1595500491:0;la
-: 1595500495:0;cd editmode
-: 1595500495:0;la
-: 1595500497:0;cd reactnative
-: 1595500507:0;../react-plugin
-: 1595500510:0;vi
-: 1595500514:0;verdaccio
-: 1595502196:0;la
-: 1595502209:0;jt dotfiles
-: 1595502210:0;la
-: 1595502212:0;vi
 : 1595511725:0;ranger
-: 1595552816:0;jt work
-: 1595552817:0;la
-: 1595552823:0;cd editmode
-: 1595552823:0;la
-: 1595552841:0;cd reactnative
-: 1595552848:0;la
-: 1595552857:0;vi
-: 1595552859:0;expo start
-: 1595552866:0;../react-plugin
-: 1595552872:0;verdaccio
-: 1595553069:0;vi
-: 1595553322:0;g a
 : 1595553332:0;g c -m "use text component for react native"
-: 1595553346:0;g a
-: 1595553351:0;g c -m "bump the version"
-: 1595553355:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595553372:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595553486:0;expo start
-: 1595553603:0;g a
-: 1595554514:0;yarn add react-native
-: 1595554646:0;g a
 : 1595554702:0;g c -m "add 2 more chunks for image and long text and update versions"
-: 1595554717:0;expo start
-: 1595555782:0;g a
 : 1595555790:0;g c -m "add image"
-: 1595555791:0;g bnc
-: 1595555794:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595555803:0;g a
-: 1595555806:0;g c -m "bump the version"
-: 1595555809:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595555821:0;expo start
-: 1595555931:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595555950:0;expo start
-: 1595555978:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595555988:0;expo start
-: 1595556107:0;g a
 : 1595556116:0;g c -m "use source instead of src on image chunk"
-: 1595556119:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595556147:0;g a
 : 1595556152:0;g c -m "bump\
 "
-: 1595556156:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595556172:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595556183:0;expo start
-: 1595556295:0;g a
 : 1595556299:0;g c -m "update source of image"
-: 1595556309:0;g a
 : 1595556315:0;g c -m "bump version"
-: 1595556323:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595556339:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595556385:0;expo start
-: 1595556641:0;jt work
-: 1595573798:0;la
-: 1595573800:0;cd lyon
-: 1595573801:0;la
-: 1595573803:0;cd api-server
-: 1595573809:0;g co develop
-: 1595573812:0;g pl origin develop
-: 1595573831:0;g co feature-search
-: 1595573836:0;g pl origin develop
-: 1595573905:0;g d
-: 1595573945:0;vi
-: 1595573969:0;g a
-: 1595573987:0;g s
-: 1595573993:0;g lol
-: 1595573997:0;g reset
-: 1595574000:0;g st
-: 1595574105:0;g d
-: 1595574107:0;g lol
-: 1595574108:0;g s
-: 1595574110:0;g clean -fd
-: 1595574124:0;rm -rf node_modules yarn.lock && yarn install
-: 1595574141:0;../html-renderer
-: 1595574150:0;g co develop
-: 1595574151:0;g s
-: 1595574153:0;g d
-: 1595574157:0;g st
-: 1595574160:0;g co develop
-: 1595574163:0;g pl origin develop
-: 1595574171:0;vi
-: 1595574183:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1595574250:0;yarn dev
-: 1595586053:0;jt work
-: 1595586055:0;la
-: 1595586057:0;cd editmode
-: 1595586058:0;la
-: 1595586064:0;cd react-plugin
-: 1595586064:0;la
-: 1595586066:0;vi
-: 1595586382:0;g d
 : 1595586399:0;g diff master..fork
-: 1595586950:0;g a
 : 1595586966:0;g c -m "bump version backwards and remove data-chunk on react native"
-: 1595586971:0;g bnc
-: 1595586976:0;g ps upstream fork
-: 1595641806:0;jt work
-: 1595641807:0;la
-: 1595641811:0;cd editmode
-: 1595641812:0;la
-: 1595641814:0;cd reactnative
-: 1595641837:0;../react-plugin
-: 1595651302:0;vi
-: 1595651303:0;expo start
-: 1595651305:0;vi
-: 1595651306:0;verdaccio
-: 1595661503:0;g a
 : 1595661507:0;g c -m "remove props for now"
-: 1595661525:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595661557:0;g a
-: 1595661561:0;g c -m "bump the version"
-: 1595661564:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595661608:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595661836:0;g a
 : 1595661842:0;g c -m "update image end remove alt"
-: 1595661853:0;g a
 : 1595661856:0;g c -m "bump the version"
-: 1595661859:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662029:0;g a
 : 1595662038:0;g c -m "add style"
-: 1595662040:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662072:0;g a
-: 1595662076:0;g c- m "bump"
-: 1595662078:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662099:0;g a
-: 1595662102:0;g c- m "bump"
-: 1595662108:0;g c -m "bump"
-: 1595662112:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662127:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595662178:0;g a
 : 1595662182:0;g c -m "update border width"
-: 1595662188:0;g a
 : 1595662191:0;g c- m "bump"
 : 1595662195:0;g c -m "bump"
-: 1595662199:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662229:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595662335:0;g a
 : 1595662341:0;g c -m "remove unwanted keys"
-: 1595662343:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662359:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react
-: 1595662533:0;g a
 : 1595662547:0;g c -m "add static on image"
-: 1595662550:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662567:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1595662848:0;g a
-: 1595662857:0;g c -m "update"
-: 1595662859:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595662880:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1595663479:0;g a
 : 1595663483:0;g c -m "add https to file"
-: 1595663485:0;g bnc
-: 1595663490:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595663510:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1595663637:0;g a
 : 1595663651:0;g c -m "remove text from image"
-: 1595663652:0;g bnc
-: 1595663654:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595663670:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1595682464:0;jt dotfiles
-: 1595682465:0;vi
-: 1595682478:0;g a
-: 1595682484:0;g reset
-: 1595682484:0;la
-: 1595682485:0;g s
 : 1595682504:0;g co config/Library/Application Support/VSCodium/
-: 1595682506:0;g s
-: 1595682509:0;g clean -fd
-: 1595682511:0;g s
-: 1595682512:0;g st
-: 1595682519:0;g a
 : 1595682523:0;g c -m "fix typo on twitch"
-: 1595682527:0;g ps origin master
 : 1595723228:0;Y
 : 1595723234:0;source ~/.zshrc
-: 1595723287:0;jt work
-: 1595723288:0;la
-: 1595723291:0;cd editmode
-: 1595723297:0;la
-: 1595723306:0;cd react-plugin
-: 1595723339:0;down
-: 1595723464:0;vi
-: 1595723477:0;g a
 : 1595723482:0;g c -m "bump the version down"
-: 1595723488:0;g ps upstream fork
-: 1595723533:0;g a
 : 1595723537:0;g c -m "remove image"
-: 1595723541:0;g ps upstream fork
-: 1595723576:0;g a
 : 1595723590:0;g c -m "update ternary operator to multiple lines"
-: 1595723591:0;g bnc
-: 1595723596:0;g ps upstream fork
-: 1595723925:0;..
-: 1595723925:0;la
-: 1595723930:0;cd main-app
-: 1595723930:0;la
-: 1595723934:0;g co staging
-: 1595723937:0;g pl origin staging
-: 1595723956:0;g d
-: 1595723958:0;g st
-: 1595723961:0;vi
-: 1595723971:0;rails s
-: 1595723971:0;rails s -p 3002 -P 23
 : 1595723982:0;bundle install && rails c
-: 1595724002:0;rails db:migrate
-: 1595724016:0;rake db:migrate
-: 1595724029:0;rails s -p 3002 -P 23
-: 1595724030:0;rails s
-: 1595724031:0;rails c
-: 1595724684:0;g a
 : 1595724697:0;g c -m "update procfile for staging"
-: 1595724702:0;g ps origin staging
-: 1595725110:0;g a
 : 1595725142:0;g c -m "rename procfile_staging to procfile"
-: 1595725143:0;g bnc
-: 1595725145:0;g ps origin staging
-: 1595725321:0;g a
 : 1595725331:0;g c -m "add rails env to the migrate file"
-: 1595725333:0;g bnc
-: 1595725337:0;g ps origin staging
-: 1595725481:0;g a
 : 1595725493:0;g c -m "Hotfix: Remove db:migrate on staging"
-: 1595725495:0;g ps origin staging
-: 1595725625:0;g a
 : 1595725634:0;g c -m "revert procfile to have the migrate option again"
-: 1595725639:0;g ps origin staging
-: 1595725907:0;g a
 : 1595725916:0;g c -m "move Procfile to Procfile_staging for now"
-: 1595725921:0;g ps origin staging
-: 1595726383:0;jt work
-: 1595727693:0;la
-: 1595727860:0;jt work
-: 1595728352:0;jt dotfiles
-: 1595728353:0;la
-: 1595728354:0;vi
-: 1595728374:0;g a
 : 1595728383:0;g c -m "add streamlabs to the list of apps that I use"
-: 1595728384:0;g bnc
-: 1595728387:0;g ps origin master
-: 1595739839:0;jt work
-: 1595739839:0;la
-: 1595739842:0;cd lyon
-: 1595739843:0;la
-: 1595739845:0;cd api-server
-: 1595739856:0;g s
-: 1595739867:0;g pl origin develop
-: 1595739875:0;vi
-: 1595739899:0;g a
-: 1595739904:0;g s
 : 1595739910:0;g c -m "Merge"
-: 1595739916:0;yarn dev
-: 1595739921:0;../html-renderer
-: 1595739932:0;vi
-: 1595739941:0;yarn dev
 : 1595744734:0;g co src/controllers/event.ts -- develop
 : 1595744746:0;g co develop -- src/controllers/event.ts
-: 1595747173:0;g a
 : 1595747199:0;g c -m "finish search api endpoint"
-: 1595747200:0;g bnc
-: 1595747202:0;g ps origin feature-search
-: 1595747215:0;g lol
-: 1595747226:0;g s
 : 1595747232:0;g co -b feature-search-backup
 : 1595747237:0;g co feature-search
-: 1595747241:0;g lol
-: 1595747507:0;g ps origin feature-search --force
-: 1595749709:0;jt personal
-: 1595749709:0;la
 : 1595749714:0;cd twitch-bot
-: 1595749714:0;la
-: 1595749805:0;git remote -v
-: 1595749905:0;vi
-: 1595749963:0;g a
 : 1595749977:0;g c -m "add a .env and a .gitignore"
-: 1595749979:0;g ps origin master
-: 1595750243:0;yarn init -y
-: 1595750256:0;g a
-: 1595750260:0;g lol
-: 1595750262:0;g s
-: 1595750272:0;la
-: 1595750275:0;g lol
-: 1595750286:0;g d
 : 1595750296:0;yarn add tmi.js
-: 1595750313:0;g a
 : 1595750325:0;g c -m "ignore package-lock.json because we're going to use yarn"
-: 1595750326:0;g a
 : 1595750357:0;g c -m "add tmi.js"
-: 1595750360:0;g ps origin master
-: 1595750426:0;g a
 : 1595750434:0;g c -m "add an entry file"
-: 1595750455:0;g a
 : 1595750466:0;g c -m "update main on package.json"
-: 1595750468:0;g ps origin master
-: 1595750526:0;yarn add dotenv
-: 1595750545:0;g a
 : 1595750555:0;g c -m "install dotenv for environment variables"
-: 1595750558:0;g ps origin master
-: 1595750611:0;g a
 : 1595750617:0;g c -m "add a start script"
-: 1595750621:0;g ps origin master
-: 1595750662:0;g a
 : 1595750672:0;g c -m "use .env"
-: 1595750676:0;g ps origin master
-: 1595808247:0;jt work
-: 1595808293:0;la
-: 1595808296:0;cd editmode
-: 1595808297:0;la
-: 1595808310:0;cd reactnative
-: 1595808321:0;../react-plugin
-: 1595808330:0;vi
-: 1595808331:0;expo start
-: 1595808332:0;vi
-: 1595808333:0;verdaccio
-: 1595808507:0;g co master -- src/utils/renderChunk.jsx
-: 1595808638:0;g a
 : 1595808648:0;g c -m "use native file"
 : 1595808655:0;g ps origin fork && yarn build && npm publish --registry http://localhost:4873
-: 1595808671:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1595809219:0;..
-: 1595809220:0;la
-: 1595809308:0;cd main-app
-: 1595809309:0;la
-: 1595809311:0;g d
-: 1595809312:0;g s
-: 1595809318:0;rake db:migrate:reset db:seeds RAILS_ENV=test
-: 1595809348:0;vi
-: 1595809361:0;rails s -p 3002 -P 23
-: 1595809361:0;rails s
-: 1595809363:0;rails c
 : 1595809558:0;rake db:migrate:reset db:seeds RAILS_ENV=test
-: 1595810786:0;rails s -p 3002 -P 23
-: 1595810788:0;rails s
-: 1595810793:0;rails c
-: 1595810845:0;rake db:migrate:reset db:seeds
-: 1595811967:0;rails c
-: 1595811967:0;rails s
-: 1595811968:0;rails s -p 3002 -P 23
-: 1595812011:0;g lol
-: 1595812024:0;g pl origin staging
-: 1595812040:0;rake db:migrate:reset db:seeds
-: 1595816132:0;jt work
-: 1595820789:0;la
-: 1595820793:0;cd lyon
-: 1595826512:0;la
-: 1595826515:0;cd api-server
-: 1595826516:0;la
-: 1595826693:0;vi
-: 1595826703:0;rm -rf build
-: 1595826739:0;g d
-: 1595826839:0;yarn dev
-: 1595826950:0;g a
-: 1595826970:0;g c -m "rename searchKeyword to query"
-: 1595826976:0;g bnc
-: 1595826979:0;g ps origin feature-search
-: 1595829444:0;g s
-: 1595829447:0;g lol
-: 1595829468:0;g d
-: 1595829470:0;g s
-: 1595829471:0;g lol
-: 1595829478:0;g reset f13ffb4
-: 1595829479:0;g s
-: 1595829481:0;g st
 : 1595829487:0;g pl origin feature-search
-: 1595829538:0;g lol
-: 1595829547:0;g log
-: 1595829594:0;g s
 : 1595829602:0;g reset f13ffb4
-: 1595829604:0;g d
-: 1595829612:0;g st
 : 1595829615:0;g st pop
-: 1595829617:0;g co src
-: 1595829620:0;g st apply
-: 1595829678:0;g a
-: 1595829688:0;g s
 : 1595829694:0;g reset yarn.lock
-: 1595829694:0;g s
 : 1595829699:0;g c -m "rename searchKeyword to query"
-: 1595829702:0;g ps origin feature-search
-: 1595829769:0;g ps origin feature-search --force
-: 1595834672:0;g a
 : 1595834686:0;g c -m "add count numbers on providers"
-: 1595834687:0;g bnc
-: 1595834689:0;g ps origin feature-search
-: 1595835116:0;g pl origin develop
-: 1595835226:0;g bnc
 : 1595835238:0;g ps origin feature-search --force
-: 1595836374:0;yarn dev
-: 1595836578:0;g a
 : 1595836586:0;g c -m "update take amount"
-: 1595836587:0;g nc
-: 1595836589:0;g bnc
-: 1595836592:0;g ps origin feature-search
-: 1595839819:0;g a
 : 1595839845:0;g c -m "add take option"
-: 1595839847:0;g bnc
-: 1595839850:0;g ps origin feature-search
-: 1595840372:0;g a
 : 1595840385:0;g c -m "add individual searches"
-: 1595840387:0;g bnc
-: 1595840389:0;g ps origin feature-search
-: 1595844022:0;jt work
-: 1595844022:0;la
-: 1595844023:0;cd editmode
-: 1595844024:0;la
-: 1595844027:0;cd react-plugin
-: 1595844030:0;vi
-: 1595844074:0;..
-: 1595844075:0;la
-: 1595844076:0;cd main-app
-: 1595844078:0;vi
-: 1595899386:0;jt work
-: 1595899386:0;la
-: 1595899388:0;cd editmode
-: 1595899396:0;la
-: 1595899397:0;cd main-app
-: 1595899403:0;vi
-: 1595899408:0;g d
-: 1595899409:0;g s
-: 1595899412:0;g pl origin staging
 : 1595899503:0;g co -b staging-heroku-startup
 : 1595899806:0;rake heroku:start
-: 1595900089:0;g a
-: 1595900096:0;g bnc
-: 1595900098:0;g ps origin staging-heroku-startup
-: 1595900294:0;g co staging-test-pr
-: 1595900297:0;g s
-: 1595900298:0;g d
 : 1595900306:0;g co staging-heroku-startup
 : 1595900315:0;g c -m "create an entry point for heroku"
-: 1595900316:0;g bnc
 : 1595900319:0;g ps staging-heroku-startup
 : 1595900324:0;g ps origin staging-heroku-startup
 : 1595900362:0;g co staging-test-pr
 : 1595900369:0;g pl origin/staging-heroku-startup
-: 1595900375:0;g bnc
 : 1595900383:0;g pl origin staging-heroku-startup
-: 1595900409:0;g bnc
-: 1595900412:0;g ps origin staging-test-pr
-: 1595900532:0;rake db:migrate:reset db:seeds
-: 1595901372:0;g a
 : 1595901384:0;g c -m "add a test subdomain"
-: 1595901385:0;g bnc
-: 1595901388:0;g ps origin staging-test-pr
-: 1595902283:0;g a
 : 1595902305:0;g c -m "only run db:seeds on development then check if subdomain is the heroku app name on routes.rb"
-: 1595902307:0;g bnc
-: 1595902310:0;g ps origin staging-test-pr
-: 1595902566:0;g a
 : 1595902572:0;g c -m "remove the condition for now"
-: 1595902574:0;g bnc
-: 1595902575:0;g ps origin staging-test-pr
-: 1595902834:0;jt work
-: 1595902836:0;la
-: 1595902838:0;cd lyon
-: 1595902842:0;la
-: 1595927564:0;jt dotfiles
-: 1595930002:0;vi
-: 1595930009:0;la
-: 1595930010:0;g s
-: 1595930023:0;g co config
-: 1595930023:0;g s
-: 1595930026:0;g clean -fd
-: 1595930027:0;g s
-: 1595930029:0;g so
-: 1595930097:0;g a
 : 1595930102:0;g c -m "add verdacio"
-: 1595930104:0;down
-: 1595930139:0;g ps origin master
-: 1595930328:0;g a
-: 1595930334:0;g c -m "update gitignore"
-: 1595930343:0;g s
-: 1595930696:0;g a
 : 1595930715:0;g c -m "update gitignore"
-: 1595930717:0;g a
 : 1595930728:0;g c -m "remove search.location"
-: 1595930731:0;g a
-: 1595930734:0;g s
-: 1595930737:0;g co config
-: 1595930738:0;g s
-: 1595930741:0;g ps origin master
-: 1595931843:0;jt editmode
-: 1595932293:0;jt work
-: 1595932294:0;la
-: 1595932295:0;cd editmode
-: 1595932296:0;la
-: 1595932298:0;cd main-app
-: 1595932298:0;la
-: 1595933856:0;vi
-: 1595938279:0;jt work
-: 1595984432:0;la
-: 1595984434:0;cd editmode
-: 1595984434:0;la
-: 1595984435:0;cd main-app
-: 1595984436:0;la
-: 1595984437:0;vi
-: 1595984884:0;g a
 : 1595984932:0;g c -m "remove the way I'm dropping the db"
-: 1595984934:0;g bnc
 : 1595984939:0;g ps origin staging-test-pr
 : 1595984952:0;g co -b staging-test-pr-updated
-: 1595984955:0;g bnc
 : 1595984957:0;g ps origin staging-test-pr-updated
 : 1595985979:0;g co -b staging-test-pr-updated-2
-: 1595985987:0;g bnc
-: 1595985990:0;g ps origin staging-test-pr-updated-2
 : 1595986312:0;echo test
 : 1595986341:0;echo ENV
-: 1595986605:0;g a
 : 1595986618:0;g c -m "don't check staging, just the project-name"
-: 1595986620:0;g bnc
-: 1595986622:0;g ps origin staging-test-pr-updated-2
-: 1595986775:0;g s
-: 1595986777:0;g d
-: 1595986781:0;g a
 : 1595986786:0;g c -m "update rails_env"
-: 1595986788:0;g bnc
 : 1595986792:0;g ps origin staging-test-pr-updated-2
 : 1595986812:0;g co -b staging-test-pr-updated-3
-: 1595986813:0;g bnc
-: 1595986816:0;g ps origin staging-test-pr-updated-3
-: 1596014076:0;jt work
-: 1596014077:0;la
-: 1596014078:0;cd lyon
-: 1596014078:0;la
-: 1596014080:0;cd api-server
-: 1596014080:0;la
-: 1596014085:0;g co develop
-: 1596014088:0;g pl origin develop
-: 1596014097:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1596014099:0;vi
-: 1596014104:0;../html-renderer
 : 1596014111:0;gh pr checkout 351
-: 1596014121:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1596014123:0;vi
-: 1596016617:0;g a
 : 1596016632:0;g c -m "add content variable"
-: 1596016633:0;g bnc
 : 1596016636:0;g ps origin feature-self-directed-reward
-: 1596020200:0;jt work
-: 1596020201:0;la
-: 1596020202:0;cd editmode
-: 1596020202:0;la
-: 1596020205:0;cd main-app
-: 1596020206:0;la
-: 1596020206:0;vi
-: 1596020233:0;g s
-: 1596020234:0;g d
 : 1596067941:0;\
 
-: 1596067943:0;jt work
-: 1596067944:0;la
-: 1596092321:0;cd editmode
-: 1596092321:0;la
-: 1596092453:0;cd main-app
-: 1596092453:0;la
-: 1596092456:0;vi
 : 1596093060:0;echo $HEROKU_APP_NAME
-: 1596093070:0;g a
 : 1596093461:0;g c -m "add a way to skip if it's not staging"
-: 1596093462:0;g bnc
-: 1596093464:0;g ps origin staging-test-pr-updated-3
-: 1596093638:0;g a
 : 1596093645:0;g c -m "change the if else statement"
-: 1596093647:0;g bnc
-: 1596093648:0;g ps origin staging-test-pr-updated-3
 : 1596093771:0;if [ "$HEROKU_APP_NAME" == "stagingssss" ]; then rake db:seeds; else echo "Skipping seed"; fi
 : 1596093783:0;if [ "$HEROKU_APP_NAME" = "stagingssss" ]; then rake db:seeds; else echo "Skipping seed"; fi
 : 1596093795:0;if [ "stagingssss" = "stagingssss" ]; then rake db:seeds; else echo "Skipping seed"; fi
-: 1596093815:0;g a
 : 1596093823:0;g c -m "change the condition comparator"
-: 1596093824:0;g bnc
-: 1596093826:0;g ps origin staging-test-pr-updated-3
-: 1596093937:0;g a
 : 1596093945:0;g c -m "change the web procfile"
-: 1596093946:0;g bnc
-: 1596093949:0;g ps origin staging-test-pr-updated-3
-: 1596094040:0;g a
 : 1596094050:0;g c -m "change rails env to staging"
-: 1596094059:0;g a
 : 1596094069:0;g c -m "add message for production"
-: 1596094070:0;g bnc
-: 1596094072:0;g ps origin staging-test-pr-updated-3
 : 1596094531:0;rails --version
-: 1596094653:0;bundle exec rake assets:precompile
-: 1596094677:0;rails s
-: 1596094787:0;g d
-: 1596094788:0;g s
-: 1596094794:0;g co public
-: 1596094795:0;g s
-: 1596094797:0;g a
-: 1596094812:0;g s
 : 1596094826:0;g co config
-: 1596094828:0;g s
-: 1596094832:0;g co public
-: 1596094833:0;g s
-: 1596094835:0;g clean -fd
-: 1596094836:0;g s
 : 1596094849:0;g c -m "compile assets"
-: 1596094860:0;rm -rf public
-: 1596094863:0;g s
-: 1596094865:0;g st
-: 1596094867:0;g s
-: 1596094884:0;g bnc
-: 1596094887:0;g ps origin staging-test-pr-updated-3
-: 1596094897:0;rails s
-: 1596094951:0;g s
-: 1596094954:0;g d
-: 1596095124:0;g s
-: 1596095125:0;g d
-: 1596095129:0;bundle exec rake assets:precompile
-: 1596095144:0;g s
-: 1596095202:0;g a
 : 1596095217:0;g c -m "add assets precompile to heroku start file"
-: 1596095218:0;g bnc
-: 1596095220:0;g ps origin staging-test-pr-updated-3
-: 1596095400:0;g a
 : 1596095409:0;g c -m "add spaces for readability"
-: 1596095409:0;g bnc
-: 1596095411:0;g ps origin staging-test-pr-updated-3
 : 1596095471:0;if [ "$RAILS_ENV" = "staging" ]; then rake db:seeds; else echo "Skipping seed for production"; fi
 : 1596096281:0;echo $PWD
-: 1596096500:0;g a
 : 1596096509:0;g c -m "add checkly"
-: 1596096510:0;g bnc
 : 1596096513:0;g ps origin staging-test-pr-updated-3
-: 1596163408:0;jt work
-: 1596163409:0;la
-: 1596163410:0;jt dotfiles
-: 1596163413:0;la
-: 1596163414:0;vi
-: 1596169777:0;jt work
-: 1596169778:0;la
-: 1596172030:0;..
-: 1596172034:0;~
 : 1596172035:0;Library
-: 1596172036:0;la
 : 1596172043:0;Application\ Support
-: 1596172050:0;la
 : 1596172056:0;open .
-: 1596175508:0;jt work
-: 1596175508:0;la
-: 1596175515:0;cd editmode
-: 1596175699:0;la
-: 1596175700:0;cd main-app
-: 1596175701:0;la
-: 1596175702:0;vi
-: 1596175905:0;htop
-: 1596180280:0;g s
-: 1596180285:0;g co public
-: 1596180286:0;g s
-: 1596180290:0;g co public/assets
-: 1596180291:0;g s
-: 1596180295:0;g clean -fd
-: 1596180296:0;g s
-: 1596180302:0;rm -rf public/assets
-: 1596180303:0;g st
 : 1596180311:0;g co -b staging-test-pr-updated-4
-: 1596180340:0;g bnc
-: 1596180342:0;g ps origin staging-test-pr-updated-4
-: 1596182885:0;g pl origin staging
-: 1596182915:0;g bnc
 : 1596182920:0;g diff staging-test-pr-updated-4..new_layout
-: 1596183646:0;g pl origin new_layout
 : 1596183681:0;bnc
-: 1596183682:0;g bnc
-: 1596183689:0;git reset --hard origin/staging-test-pr-updated-4
-: 1596187794:0;jt work
-: 1596187795:0;la
-: 1596187798:0;cd editmode
-: 1596187799:0;la
-: 1596187801:0;cd main-app
-: 1596187822:0;g cherry-pick cbfa930f3ed889aa4f7fbdf3e60e2127510538eb
-: 1596187824:0;g s
-: 1596187826:0;g lol
-: 1596187833:0;g log
-: 1596187849:0;g a
-: 1596187852:0;g bnc
-: 1596187855:0;g ps origin staging-test-pr-updated-4
-: 1596188460:0;vi
-: 1596188490:0;g lol
 : 1596188497:0;g revert process.env.ENVIRONMENT_URL ? process.env.ENVIRONMENT_URL : process.env.URL
 : 1596188501:0;g revert acc709d
-: 1596188509:0;g s
-: 1596188510:0;g lol
 : 1596188526:0;g diff a5ecfd1..bacd499
 : 1596188536:0;git reset --hard origin/staging-test-pr-updated-4
-: 1596188540:0;g lol
 : 1596188551:0;g revert a5ecfd1
 : 1596188553:0;g diff
 : 1596188558:0;g diff acc709d..a5ecfd1
 : 1596188578:0;g diff a5ecfd1..acc709d
-: 1596188731:0;g cherry-pick 3b18007d5860200896644c82bb3d2dade5c7e3e6
-: 1596188738:0;g bnc
 : 1596188745:0;g diff staging-test-pr-updated-4..origin/staging-test-pr-updated-4
-: 1596188755:0;g lol
-: 1596188760:0;g bnc
-: 1596188763:0;g ps origin staging-test-pr-updated-4
-: 1596189050:0;vi
-: 1596189249:0;g a
 : 1596189259:0;g c -m "remove checkly check on bin/heroku"
-: 1596189260:0;g bnc
 : 1596189262:0;g ps origin staging-test-pr-updated-4
-: 1596194699:0;jt work
-: 1596194700:0;la
-: 1596194703:0;cd kuru-anime
-: 1596194706:0;la
-: 1596194878:0;cd discord-bot
-: 1596194880:0;la
-: 1596194881:0;vi
-: 1596195191:0;yarn dev
-: 1596195418:0;..
-: 1596195418:0;la
-: 1596195426:0;..
-: 1596195426:0;la
-: 1596195430:0;cd kaizen-studios
-: 1596195431:0;la
-: 1596195433:0;cd denik
-: 1596195434:0;la
-: 1596195436:0;cd api-server
-: 1596195441:0;vi
 : 1596195461:0;yarn add firebase-admin
-: 1596195791:0;yarn dev
-: 1596196174:0;htop
-: 1596202899:0;jt work
-: 1596202899:0;la
-: 1596202902:0;cd kuru-anime
-: 1596203042:0;la
 : 1596203044:0;cd discord-bot
-: 1596203047:0;g s
-: 1596203048:0;g d
 : 1596203053:0;g co -b firebase
-: 1596203054:0;g a
-: 1596203068:0;vi
-: 1596203120:0;yarn dev
 : 1596203284:0;yarn add @types/discord.js
 : 1596203293:0;yarn add @types/discord
 : 1596203358:0;yarn add @types/discordjs
-: 1596203697:0;la
-: 1596203698:0;..
-: 1596203698:0;la
-: 1596203699:0;..
-: 1596203699:0;la
-: 1596203705:0;cd kaizen-studios
-: 1596203705:0;la
-: 1596203707:0;cd denik
-: 1596203707:0;la
-: 1596203709:0;cd api-server
-: 1596203709:0;la
-: 1596203710:0;vi
-: 1596203748:0;g s
-: 1596203750:0;g d
-: 1596203754:0;g s
-: 1596203756:0;g d
-: 1596203766:0;g reset
-: 1596203766:0;g d
-: 1596203932:0;...
-: 1596203932:0;la
-: 1596203934:0;..
-: 1596203934:0;la
-: 1596203936:0;cd lyon
-: 1596203936:0;la
-: 1596203939:0;cd api-server
-: 1596203940:0;vi
-: 1596253809:0;jt work
-: 1596253812:0;la
-: 1596253815:0;cd kuru-anime
-: 1596253815:0;la
-: 1596253817:0;cd main-website
-: 1596253818:0;la
-: 1596253821:0;cd server
-: 1596253821:0;la
-: 1596253827:0;vi
-: 1596267505:0;..
-: 1596267505:0;la
-: 1596267508:0;jt personal
-: 1596267508:0;la
 : 1596267514:0;g clone git@github.com:BosEriko/BosEriko.git
-: 1596267603:0;touch README.md
-: 1596267608:0;vi
 : 1596267651:0;mv ~/Desktop/Screen\ Shot\ 2020-08-01\ at\ 3.39.53\ PM.png ./cover.png
-: 1596267701:0;g a
-: 1596267703:0;la
 : 1596267705:0;cd Bs
-: 1596267707:0;cd BosEriko
-: 1596267708:0;la
-: 1596267710:0;g g
 : 1596268294:0;mv ~/Desktop/Screen\ Shot\ 2020-08-01\ at\ 3.51.10\ PM.png ./cover-2.png
-: 1596268299:0;g pl origin master
-: 1596268311:0;g g
-: 1596268999:0;g s
-: 1596269001:0;g lol
 : 1596269014:0;g revert f795e0a
-: 1596269029:0;g g
-: 1596269309:0;jt dotfiles
 : 1596269310:0;jt
-: 1596269312:0;vi
-: 1596269541:0;down
-: 1596272831:0;jt personal
-: 1596272832:0;la
-: 1596272835:0;cd BosEriko
-: 1596272836:0;la
-: 1596272847:0;rm -rf cover.png
-: 1596272849:0;vi
-: 1596272878:0;g reset
-: 1596272880:0;g lol
-: 1596272881:0;g s
-: 1596272882:0;g st
-: 1596272883:0;g s
-: 1596272886:0;g pl origin master
 : 1596272905:0;rm -rf cover.png
 : 1596272909:0;mv cover-2.png cover.png
-: 1596272925:0;vi
-: 1596272956:0;g a
-: 1596272959:0;g s
 : 1596272961:0;git add 
-: 1596272963:0;git add .
 : 1596272977:0;g c -m "clean"
-: 1596272980:0;g g
-: 1596273073:0;touch .gitignore
 : 1596273078:0;g g
-: 1596291882:0;jt work
-: 1596291883:0;la
-: 1596291884:0;cd lyon
-: 1596291884:0;la
 : 1596291887:0;api-server
-: 1596291888:0;vi
-: 1596415212:0;jt work
-: 1596415213:0;la
-: 1596415214:0;cd editmode
-: 1596415858:0;la
-: 1596415863:0;cd react-plugin
 : 1596415870:0;gh pr checkout 15
-: 1596415886:0;g pl origin master
-: 1596415902:0;vi
-: 1596415922:0;g s
-: 1596415924:0;g lol
 : 1596415933:0;git reset --hard upstream/master
-: 1596415943:0;g lol
 : 1596415954:0;g reset 98edfb9
-: 1596415955:0;g st
 : 1596415960:0;g pl origin upstream
 : 1596415993:0;g pl upstream master
-: 1596416512:0;g a
-: 1596416518:0;g s
 : 1596416523:0;g reset src
-: 1596416528:0;g a
 : 1596416548:0;g c -m "Merge master"
-: 1596416549:0;g bnc
-: 1596416554:0;g ps upstream fork
-: 1596416612:0;g a
 : 1596416619:0;g c -m "fix the version"
-: 1596416624:0;g ps upstream fork
 : 1596416665:0;rm -rf src/Editmode.native.jsx
 : 1596416680:0;rm -rf src/utils/renderChunk.native.jsx
-: 1596416682:0;g a
-: 1596416683:0;g s
 : 1596416694:0;g c -m "remove native files"
 : 1596416699:0;g ps upstream fork
-: 1596417087:0;..
-: 1596417088:0;la
-: 1596417092:0;cd main-app
-: 1596417120:0;down
-: 1596417419:0;g co master
-: 1596417422:0;g co staging
-: 1596417426:0;g pl origin staging
-: 1596417436:0;vi
 : 1596422715:0;ping facebook.com
-: 1596436749:0;jt work
-: 1596436750:0;la
-: 1596436753:0;cd lyon
-: 1596439194:0;la
-: 1596439196:0;cd api-server
-: 1596439199:0;g pl origin develop
-: 1596439208:0;g s
-: 1596439209:0;g d
-: 1596439216:0;g st
-: 1596439235:0;vi
-: 1596439240:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
 : 1596441082:0;g co -b feature-certificate-task-runner
-: 1596444163:0;jt work
-: 1596444163:0;la
-: 1596444164:0;cd editmode
-: 1596444165:0;la
-: 1596444321:0;vi
-: 1596444327:0;yarn dev
-: 1596444331:0;rails c
-: 1596444338:0;cd main-app
-: 1596444347:0;vi
-: 1596444353:0;bundle install
-: 1596444361:0;rake db:migrate
-: 1596444373:0;rails c
-: 1596444374:0;rails s
-: 1596444375:0;rails s -p 3002 -P 23
 : 1596445099:0;rake routes |grep basecamp
-: 1596451043:0;../
-: 1596451043:0;la
-: 1596451050:0;cd react-plugin
-: 1596451051:0;vi
-: 1596454390:0;la
-: 1596508373:0;jt work
-: 1596508373:0;la
-: 1596508377:0;cd lyon
-: 1596508378:0;la
-: 1596508477:0;cd api-server
-: 1596508477:0;la
-: 1596508479:0;vi
 : 1596508525:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-production.cdjkyrltcwm4.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
-: 1596508606:0;la ~/Downloads
 : 1596508646:0;pg_restore --verbose --username=boseriko --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1596508655:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1596508769:0;g a
-: 1596508773:0;vi
-: 1596508777:0;yarn dev
-: 1596508781:0;../html-renderer
-: 1596508789:0;g co develop
-: 1596508792:0;vi
-: 1596508795:0;yarn dev
 : 1596508844:0;g co -b breakout-test
-: 1596509602:0;yarn dev
-: 1596509991:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1596510214:0;yarn dev
-: 1596519570:0;jt work
-: 1596519570:0;la
-: 1596519571:0;cd editmode
-: 1596519572:0;la
-: 1596519574:0;cd main-app
-: 1596519582:0;g pl origin staging
 : 1596519658:0;g co -b feature-editmode-js-config
-: 1596520589:0;vi
-: 1596523586:0;jt work
-: 1596523586:0;la
-: 1596523589:0;cd lyon
-: 1596523590:0;la
-: 1596523593:0;cd api-server
-: 1596523594:0;vi
-: 1596530536:0;rails c
-: 1596530539:0;rails s
-: 1596530539:0;rails s -p 3002 -P 23
-: 1596533710:0;../react-plugin
-: 1596533711:0;la
-: 1596533712:0;vi
-: 1596533786:0;..
-: 1596533786:0;la
-: 1596533983:0;..
-: 1596533983:0;la
 : 1596533991:0;vi react-plugin
 : 1596533995:0;react-plugin
-: 1596533997:0;vi
 : 1596534004:0;g co git@github.com:Editmode-app/editmode-rails.git ./rails-plugin
 : 1596534015:0;g clone git@github.com:Editmode-app/editmode-rails.git ./rails-plugin
-: 1596535991:0;la
 : 1596535999:0;cd rails-plugin
-: 1596536001:0;vi
-: 1596585617:0;jt work
-: 1596585617:0;la
-: 1596585618:0;cd lyon
-: 1596585619:0;la
-: 1596585621:0;cd api-server
-: 1596585622:0;la
-: 1596585628:0;g co develop
-: 1596585632:0;g pl origin develop
-: 1596585642:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
 : 1596585652:0;g co -b feature-breakout-api
-: 1596585894:0;g d
-: 1596586409:0;vi
-: 1596589419:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
 : 1596589473:0;rm -rf ~/Downloads/lyon-dev.sql
 : 1596589476:0;pg_dump --clean --create --no-owner --format=c --compress=9 --host=lyon-api-server-development.cdql90g5q32v.ap-southeast-1.rds.amazonaws.com -U postgres > ~/Downloads/lyon-dev.sql
 : 1596589514:0;la ~/Downloads
 : 1596589526:0;pg_restore --verbose --username=boserikoreyes --dbname=lyon_development --clean --no-acl --host=localhost ~/Downloads/lyon-dev.sql
-: 1596589533:0;yarn dev
-: 1596589577:0;../html-renderer
-: 1596589581:0;vi
-: 1596589587:0;g pl origin develop
-: 1596589597:0;g st
-: 1596589600:0;g pl origin develop
-: 1596589628:0;rm -rf node_modules yarn.lock && yarn install && yarn dev
-: 1596589943:0;yarn dev
-: 1596591671:0;g a
 : 1596591682:0;g c -m "create breakoutroom and breakoutgroup"
-: 1596591683:0;g a
 : 1596591697:0;g c -m "add relationship to stream"
-: 1596591699:0;g bnc
-: 1596591701:0;g ps origin feature-breakout-api
-: 1596591711:0;yarn dev
-: 1596593127:0;g a
 : 1596593141:0;g c -m "add relationship between group and room"
-: 1596594027:0;g a
-: 1596594032:0;yarn dev
 : 1596594048:0;g c -m "add relationship between group and event participants"
-: 1596594049:0;g bnc
-: 1596594051:0;g ps origin feature-breakout-api
-: 1596598660:0;g a
 : 1596598673:0;g c -m "add a sample breakout route"
-: 1596598680:0;g a
-: 1596598683:0;g bnc
-: 1596598685:0;g ps origin feature-breakout-api
-: 1596603370:0;g a
 : 1596603385:0;g c -m "extend the entities"
-: 1596603484:0;g a
 : 1596603495:0;g c -m "add name to breakoutgroup"
-: 1596607772:0;g bnc
-: 1596607774:0;g ps origin feature-breakout-api
-: 1596608842:0;jt work
-: 1596608845:0;la
-: 1596608846:0;cd editmode
-: 1596608846:0;la
-: 1596608849:0;cd main-app
-: 1596608849:0;la
-: 1596608852:0;vi
-: 1596608860:0;rails c
-: 1596608862:0;rails s -p 3002 -P 23
-: 1596608864:0;rails s
-: 1596613249:0;g a
 : 1596613289:0;g c -m "add a window object for the toggles"
-: 1596613290:0;g bnc
-: 1596613293:0;g ps origin feature-editmode-js-config
-: 1596615628:0;bundle exec rake assets:precompile
-: 1596615650:0;rails s -p 3002 -P 23
-: 1596615651:0;rails s
-: 1596618139:0;g a
 : 1596618158:0;g c -m "add conditional styling"
-: 1596618159:0;g bnc
 : 1596618161:0;g ps origin feature-editmode-js-config
-: 1596618553:0;jt work
-: 1596618553:0;la
-: 1596618555:0;cd lyon
-: 1596618555:0;la
-: 1596618557:0;cd api-server
-: 1596618830:0;vi
-: 1596618834:0;yarn dev
-: 1596618839:0;g s
-: 1596618840:0;g d
-: 1596618846:0;g s
-: 1596618867:0;g clean -fd
-: 1596618906:0;vi
-: 1596618911:0;gh pr checkout 145
-: 1596618921:0;yarn dev
-: 1596623655:0;jt work
-: 1596623655:0;la
-: 1596623657:0;cd editmode
-: 1596623657:0;la
-: 1596623661:0;cd main-app
-: 1596623661:0;la
-: 1596623663:0;g s
-: 1596623668:0;g d
-: 1596623673:0;vi
-: 1596623688:0;rails c
-: 1596623691:0;rails s -p 3002 -P 23
-: 1596623692:0;rails s
-: 1596673207:0;down
-: 1596673308:0;git remote -v
-: 1596673311:0;jt dotfiles
-: 1596673315:0;git remote -v
-: 1596677615:0;jt work
-: 1596677616:0;cd lyon
-: 1596677616:0;la
-: 1596677617:0;cd api-server
-: 1596677619:0;vi
 : 1596677649:0;g co feature-breakout-api
-: 1596677652:0;vi
-: 1596677656:0;yarn dev
 : 1596681048:0;vi
 : 1596681435:0;g a
 : 1596681450:0;g c -m "add stopped at on breakout room"
@@ -10154,3 +8870,1278 @@ exit
 : 1604843165:1;g a
 : 1604843172:0;g c -m "Feature: Initial commit"
 : 1604843174:17;g ps origin master
+: 1604901821:0;jt dotfiles
+: 1604901821:0;la
+: 1604901822:39;vi
+: 1604901862:25;down
+: 1604915492:2323;rails console
+: 1604917817:0;exit
+: 1604914888:2925;rails s -p 3002 -P 23
+: 1604917818:0;exit
+: 1604901813:83;bundle install
+: 1604901909:5;rails db:migrate
+: 1604901917:10;rake db:migrate
+: 1604914886:2933;rails s
+: 1604917820:0;exit
+: 1604886554:0;jt work
+: 1604886555:0;la
+: 1604886556:0;cd editmode
+: 1604886556:0;la
+: 1604886710:0;cd main-app
+: 1604886711:0;la
+: 1604886716:3;g pl origin master
+: 1604886721:5;g pl origin staging
+: 1604886735:1;g d
+: 1604886741:0;git reset --hard origin/staging
+: 1604886748:0;g co hotfix-n1-issue
+: 1604886782:0;g co staging -- app/views/content_pieces/_index.haml
+: 1604886784:29;vi
+: 1604886816:4;g a
+: 1604886822:9;vi
+: 1604886833:4;g a
+: 1604886842:0;g c -m "fix conflict"
+: 1604886845:0;g bnc
+: 1604886847:6;g ps origin hotfix-n1-issue
+: 1604886893:4;g pl origin staging
+: 1604886949:9;g a
+: 1604886958:1;g d
+: 1604886959:2;g a
+: 1604886965:0;g c -m "fix conflict"
+: 1604886968:0;g bnc
+: 1604886969:5;g ps origin hotfix-n1-issue
+: 1604892990:0;..
+: 1604892991:0;la
+: 1604892994:0;cd plugin-react-native
+: 1604892997:0;cd main-ap
+: 1604892998:0;cd main-app
+: 1604893001:0;..
+: 1604893001:0;la
+: 1604893002:0;main-app
+: 1604893003:0;la
+: 1604893005:1;g co staging
+: 1604893008:10;g pl origin staging
+: 1604893029:9;g log
+: 1604893610:0;la
+: 1604893615:8170;vi
+: 1604901955:0;g co -b feature-rake-csv-task
+: 1604901956:12;g a
+: 1604901977:0;g c -m "Add the empty rake task and install csv"
+: 1604901979:0;g bnc
+: 1604901981:8;g ps origin feature-rake-csv-task
+: 1604903069:1;bundle exec rake create_projects:csv\['project_id', 'csv_file_path'\]
+: 1604903119:11;bundle exec rake create_projects:csv\['project_id, csv_file_path'\]
+: 1604904480:11;bundle exec rake create_projects:csv\['project_id, tmp/csv/bridge/placeholders.csv'\]
+: 1604912590:976;vi
+: 1604913578:0;la tmp/csv/bridge
+: 1604914330:2;bundle exec rake create_projects:csv\['project_id, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604914333:5;erb
+: 1604914341:43;irb
+: 1604914417:8;bundle exec rake create_projects:csv\['project_id, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604914433:14;vi
+: 1604914449:8;bundle exec rake create_projects:csv\['project_id, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604914554:42;vi
+: 1604914597:4;g a
+: 1604914617:0;g c -m "Add the proper gsub way"
+: 1604914619:1;g bnc
+: 1604914622:6;g ps origin feature-rake-csv-task
+: 1604915194:18;bundle exec rake create_projects:csv\['1, 1, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604915350:26;vi
+: 1604915377:22;irb
+: 1604915412:5;g a
+: 1604915420:0;g c -m "Create chunks"
+: 1604915422:0;g bnc
+: 1604915424:6;g ps origin feature-rake-csv-task
+: 1604915545:4;g a
+: 1604915589:14;bundle exec rake create_projects:csv\['1, 1, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604915641:3;g a
+: 1604915650:0;g c -m "Add content_key on chunk created"
+: 1604915651:0;g bnc
+: 1604915653:6;g ps origin feature-rake-csv-task
+: 1604917821:0;exit
+: 1604983017:0;...
+: 1604983018:0;la
+: 1604983022:0;cd editmode
+: 1604983022:0;la
+: 1604983040:0;mkdir react-native-example
+: 1604983046:0;cd react-native-example
+: 1604983048:0;la
+: 1604983051:0;git init
+: 1604984511:0;la
+: 1604984513:6;g so
+: 1604985098:1;yarn init -y
+: 1604985101:395;vi
+: 1604985497:1;g a
+: 1604985513:0;g c -m "Feature: Initialize NodeJS"
+: 1604985521:0;mkdir react-native
+: 1604985522:0;mkdir react-native-web
+: 1604985609:0;cd react-native
+: 1604985631:0;yarn init -y
+: 1604985658:0;la
+: 1604985660:0;..
+: 1604985667:0;react-native-web
+: 1604985667:0;la
+: 1604985671:0;yarn init -y
+: 1604985674:0;..
+: 1604985675:0;la
+: 1604985675:4;g a
+: 1604985692:0;g c -m "Feature: Initialize NodeJS on react-native and react-native-web"
+: 1604985695:12;g ps origin master
+: 1604985749:0;..
+: 1604985752:0;la
+: 1604985764:0;cd react-native-example
+: 1604985765:0;la
+: 1604985770:0;..
+: 1604985775:0;la
+: 1604985783:0;mv react-native-example starters
+: 1604985783:0;la
+: 1604985785:0;cd starters
+: 1604985785:0;la
+: 1604985787:0;g d
+: 1604985800:6;vi
+: 1604985808:1;g lol
+: 1604985813:0;g remote -v
+: 1604985821:3;g ps origin master
+: 1604985848:1;g so
+: 1604985852:0;g remote -v
+: 1604985858:0;g remote rm github
+: 1604985860:0;g remote rm gitlab
+: 1604985862:0;g remote rm bitbucket
+: 1604985872:0;git remote add origin git@bitbucket.org:editmodelabs/editmode-starters.git
+: 1604985874:0;g remote -v
+: 1604985961:1;la
+: 1604985973:89;expo init ReactNative
+: 1604986142:0;la
+: 1604986143:1;g d
+: 1604986150:0;la ReactNative
+: 1604977151:273;rails s -p 3002 -P 23
+: 1604977430:16;rake db:migrate:reset db:seeds
+: 1604977469:12;rake db:migrate
+: 1604977487:13;rake db:seeds
+: 1604977505:404;rails s -p 3002 -P 23
+: 1604977941:12;rake db:seeds
+: 1604977956:132;rails s -p 3002 -P 23
+: 1604978128:12;rake db:seeds
+: 1604978150:22912;rails s -p 3002 -P 23
+: 1604977507:405;rails s
+: 1604977927:13;rake db:migrate:reset
+: 1604977957:131;rails s
+: 1604978101:14;rake db:migrate:reset
+: 1604978151:22909;rails s
+: 1604977964:139;rails console
+: 1604978152:22915;rails c
+: 1605001068:0;exit
+: 1604976482:0;jt work
+: 1604976482:0;la
+: 1604976485:0;cd editmode
+: 1604976485:0;la
+: 1604977132:0;cd main-app
+: 1604977137:1;g a
+: 1604977141:0;g st
+: 1604977145:0;g d
+: 1604977146:0;g s
+: 1604977573:12;bundle exec rake create_projects:csv\['1, 1, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604977607:32;rails console
+: 1604977652:12;bundle exec rake create_projects:csv\['2, 1, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604977669:21;rails console
+: 1604977695:16;bundle exec rake create_projects:csv\['2, 2, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604977827:53;vi
+: 1604977984:12;bundle exec rake create_projects:csv\['2, 2, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604978168:20;bundle exec rake create_projects:csv\['1, 1, tmp/csv/bridge/in-app-copy.csv'\]
+: 1604978250:5;g a
+: 1604978259:0;g c -m "Fix the space issue"
+: 1604978259:0;g bnc
+: 1604978261:6;g ps origin feature-rake-csv-task
+: 1604978439:5;vi
+: 1604978448:0;mv lib/tasks/creat_projects_from_csv.rake lib/tasks/create_projects_from_csv.rake
+: 1604978450:2;g a
+: 1604978453:1;g d
+: 1604978454:0;g s
+: 1604978458:0;g c -m "Rename the task"
+: 1604978459:0;g bnc
+: 1604978461:5;g ps origin feature-rake-csv-task
+: 1604991147:2;g a
+: 1604991160:1;g d
+: 1604991161:0;g s
+: 1604991170:0;rm -rf lib/tasks/creat_projects_from_csv.rake
+: 1604991171:36;vi
+: 1604991208:2;g a
+: 1604991215:0;g c -m "Move the rake task"
+: 1604991216:0;g bnc
+: 1604991218:9;g ps origin feature-rake-csv-task
+: 1604991626:38;vi
+: 1604991665:0;g d
+: 1604991666:0;g s
+: 1604991667:0;g st
+: 1604991668:8;g d
+: 1604991676:0;g s
+: 1604991679:0;g st
+: 1604991682:0;rm -rf 23
+: 1604991683:0;g st
+: 1604991689:164;vi
+: 1604992053:12;bundle exec rake project:export_chunks_details\['1'\]
+: 1604992073:0;mkdir tmp/json
+: 1604992074:12;bundle exec rake project:export_chunks_details\['1'\]
+: 1604993952:1;g a
+: 1604993953:2;g d
+: 1604993955:0;g s
+: 1604993978:0;g reset
+: 1604993979:1;g d
+: 1604993980:0;g s
+: 1604993983:0;rm -rf lib/tasks/create_json_from_list_of_chunks.rake
+: 1604993985:1;g a
+: 1604993990:0;g c -m "add 2 new tasks"
+: 1604993991:0;g bnc
+: 1604993992:7;g ps origin feature-rake-csv-task
+: 1604994552:15;irb
+: 1604994916:1;g a
+: 1604994929:0;g c -m "Finish the rake task for the object"
+: 1604994929:0;g bnc
+: 1604994931:6;g ps origin feature-rake-csv-task
+: 1604995000:12;bundle exec rake project:export_chunks_details\['1'\]
+: 1604995165:1;g a
+: 1604995171:0;g c -m "change to_json"
+: 1604995172:0;g bnc
+: 1604995174:6;g ps origin feature-rake-csv-task
+: 1604995182:12;bundle exec rake project:export_chunks_details\['1'\]
+: 1604995425:0;g a
+: 1604995429:0;g c -m 'rename to ids'
+: 1604995440:12;bundle exec rake project:export_chunks_ids\['1'\]
+: 1605001070:0;exit
+: 1604986011:0;echo "node_modules" >> .gitignore
+: 1604986014:3;g a
+: 1604986027:0;g c -m "Feature: Create .gitignore and add node_modules"
+: 1604986030:6;g ps origin master
+: 1604986049:0;git remote -v
+: 1604986120:0;g ps origin amster
+: 1604986133:0;g remote rm origin
+: 1604986137:0;git remote add origin git@github.com:editmodelabs/editmode-starters.git
+: 1604986140:8;g ps origin master
+: 1604986157:56;vi
+: 1604986214:0;la
+: 1604986217:0;rm -rf react-native
+: 1604986226:0;mv ReactNative react-native
+: 1604986228:0;g d
+: 1604986229:0;g s
+: 1604986237:2;g a
+: 1604986241:0;git add .
+: 1604986247:0;g c -m "Feature: Create an example react-native project"
+: 1604986293:0;g bnc
+: 1604986295:10;g ps origin master
+: 1604986621:0;touch README.md
+: 1604986622:86;vi
+: 1604986709:0;g d
+: 1604986710:0;g s
+: 1604986722:0;la
+: 1604986769:0;g d
+: 1604986770:0;g s
+: 1604986850:0;la
+: 1604986856:0;mv react-native-web-old
+: 1604986863:0;mv react-native-web react-native-web-old
+: 1604986863:0;la
+: 1604986876:0;cp react-native react-native-web
+: 1604986883:23;cp -rf react-native react-native-web
+: 1604986971:1;g d
+: 1604986972:0;g s
+: 1604986979:0;rm -rf react-native-web-old
+: 1604987017:0;yarn workspace
+: 1604987053:1;yarn workspaces info
+: 1604987071:22;vi
+: 1604987094:1;yarn workspaces info
+: 1604987111:0;git add .
+: 1604987118:0;g c -m "Feature: Create an example react-native-web project"
+: 1604987120:8;g ps origin master
+: 1604992321:3;vi
+: 1604992869:3;g lol
+: 1604994654:0;..
+: 1604994655:0;la
+: 1604994657:0;cd sample-project-react-native
+: 1604994659:0;la
+: 1604994666:1;g d
+: 1604994667:0;g s
+: 1604994672:67;expo start
+: 1604998552:8;vi
+: 1604998563:0;..
+: 1604998563:0;la
+: 1604998565:0;starters
+: 1604998565:0;la
+: 1604998566:15;vi
+: 1605001073:0;exit
+: 1605011626:0;echo "tae" | pbcopy
+: 1605011658:0;exit
+: 1605016116:0;la
+: 1605016118:0;..
+: 1605016119:0;la
+: 1605016120:0;cd starters
+: 1605016121:0;la
+: 1605016121:1;g d
+: 1605016122:0;g s
+: 1605016127:0;rm -rf .DS_Store
+: 1605016128:2;g d
+: 1605016159:64;vi
+: 1605016990:0;exit
+: 1605013708:0;la
+: 1605013742:7;heroku run --app opsmanager-production bash
+: 1605013770:3;heroku auth:whoami
+: 1605013775:4;heroku run --app opsmanager-production bash
+: 1605013897:1;heroku run --app editmode-production
+: 1605013907:2058;heroku run --app editmode-production bash
+: 1605016991:0;exit
+: 1605005723:0;jt work
+: 1605005724:0;la
+: 1605005725:0;cd editmode
+: 1605005726:0;la
+: 1605005762:2;vi
+: 1605005766:0;main-app
+: 1605005766:0;la
+: 1605005767:25;vi
+: 1605005822:12;bundle exec rake csv:create_chunks\['1, 1, https://editmode.s3-eu-west-1.amazonaws.com/static/In+App+Copy+%5BEN%5D-Grid+view.csv'\]
+: 1605005982:47;vi
+: 1605006031:29;bundle exec rake csv:create_chunks\['1, 1, https://editmode.s3-eu-west-1.amazonaws.com/static/In+App+Copy+%5BEN%5D-Grid+view.csv'\]
+: 1605006070:4;vi
+: 1605006075:10;g a
+: 1605006157:0;g c -m "use a url instead"
+: 1605006158:0;g bnc
+: 1605006161:7;g ps origin feature-rake-csv-task
+: 1605010223:0;g co new_layout
+: 1605010228:6;g pl origin new_layout
+: 1605010460:0;g co staging -- lib/tasks/create_chunks_from_csv.rake
+: 1605011292:0;touch lib/tasks/create_chunks_from_csv.rake
+: 1605011326:0;touch lib/tasks/export_chunk_ids_array_from_project.rake
+: 1605011329:1;touch lib/tasks/export_chunks_details_json_from_project.rake
+: 1605011331:80;vi
+: 1605011443:3;bundle install
+: 1605011468:0;mv /Users/boserikoreyes/.rbenv/shims/.rbenv-shim-old /Users/boserikoreyes/.rbenv/shims/.rbenv-shim
+: 1605011470:3;bundle install
+: 1605011475:0;rbenv shim
+: 1605011484:0;rbenv rehash
+: 1605011522:0;rm -rf /Users/boserikoreyes/.rbenv/shims/.rbenv-shim
+: 1605011524:0;rbenv rehash
+: 1605011528:2;bundle install
+: 1605011585:74;sudo bundle install
+: 1605011671:1;bundle install
+: 1605011683:0;g d
+: 1605011683:1;g s
+: 1605011686:4;g d
+: 1605011695:4;g a
+: 1605011710:0;g c -m "Feature: Rake CSV Task"
+: 1605011715:0;bundle install
+: 1605011734:78;sudo bundle install
+: 1605011839:3;g a
+: 1605011851:1;g c -m "Hotfix: Update Gemfile.lock"
+: 1605011852:0;g bnc
+: 1605011855:7;g ps origin new_layout
+: 1605016995:0;exit
+: 1605017371:0;la
+: 1605017374:0;jt work
+: 1605017374:0;la
+: 1605017377:0;cd lyon
+: 1605017377:0;la
+: 1605017456:0;cd api-server
+: 1605017457:0;la
+: 1605017461:0;rm -rf .git
+: 1605017512:0;la
+: 1605017514:0;git init
+: 1605017517:1;g so
+: 1605017524:0;git add .
+: 1605017527:0;g c -m "archive"
+: 1605017531:26;g ps origin master
+: 1605017650:2;vi
+: 1605017654:0;la
+: 1605017655:0;..
+: 1605017656:0;la
+: 1605017663:0;cd html-renderer
+: 1605019507:0;rm -rf .git
+: 1605019509:0;git init
+: 1605019520:5;g so
+: 1605019610:2;git add .
+: 1605019614:1;g c -m "archive"
+: 1605019620:29;g ps origin master
+: 1605019697:0;..
+: 1605019697:0;la
+: 1605019702:6;rm -rf api-server
+: 1605019709:12;rm -rf html-renderer
+: 1605019725:0;cd on-demand
+: 1605019737:0;rm -rf .git
+: 1605019741:0;git init
+: 1605019743:0;git add .
+: 1605019744:0;g c -m "archive"
+: 1605019746:5;g so
+: 1605019819:17;g ps origin master
+: 1605019887:0;..
+: 1605019888:0;la
+: 1605019889:0;..
+: 1605019891:0;la
+: 1605019893:1;rm -rf lyon
+: 1605019896:0;rm -rf server
+: 1605019898:0;rm -rf test-directory
+: 1605019899:0;la
+: 1605019902:15;rm -rf kuru-project
+: 1605019922:2;rm -rf kaizen-studios .DS_Store
+: 1605019925:0;la
+: 1605019929:0;exit
+: 1605056282:22;yarn workspace react-native add editmode-react-native
+: 1605056323:0;exit
+: 1605056167:0;cat package.json
+: 1605056176:313;yarn workspace react-native-web start
+: 1605056121:0;jt work
+: 1605056122:0;la
+: 1605056124:0;cd editmode
+: 1605056125:0;la
+: 1605056127:0;cd starters
+: 1605056129:0;la
+: 1605056149:0;mv -rf files react-native-web/data
+: 1605056154:0;mv files react-native-web/data
+: 1605056157:68;vi
+: 1605056239:0;yarn workspaces react-native-web add editmode-react-native
+: 1605056327:58;yarn workspace react-native-web add editmode-react-native
+: 1605056397:0;rm -rf yarn.lock
+: 1605056399:22;yarn workspace react-native-web add editmode-react-native
+: 1605056485:0;..
+: 1605056485:0;la
+: 1605056499:0;cd sample-project-react-native
+: 1605056510:1976;yarn remove editmode-react-native && yarn add editmode-react-native && expo start
+: 1605058052:0;la
+: 1605058058:0;..
+: 1605058058:0;la
+: 1605058063:0;cd plugin-react-native
+: 1605058064:407;vi
+: 1605058473:1;g d
+: 1605059335:3127;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1605062465:0;cd src/utils
+: 1605062466:0;la
+: 1605062467:3;g a
+: 1605062478:0;g c -m "Feature: Remove em-var"
+: 1605062480:6;g ps origin master
+: 1605062489:0;...
+: 1605062490:0;la
+: 1605062493:2;g d
+: 1605062495:2;g a
+: 1605062500:0;g c -m "Feature: Remove em-var"
+: 1605062503:3;g ps origin master
+: 1605062559:0;la
+: 1605062560:1;g d
+: 1605062561:0;g st
+: 1605062562:1;g d
+: 1605062564:0;g s
+: 1605062570:0;g co master
+: 1605062574:0;git reset --hard origin/master
+: 1605062578:3;g pl origin master
+: 1605062593:4;g a
+: 1605062605:18;vi
+: 1605062626:0;la
+: 1605062630:0;g lol
+: 1605062633:0;cd src/utils
+: 1605062633:0;la
+: 1605062639:1;g lol
+: 1605062641:10;vi
+: 1605062655:1;g lol
+: 1605062672:4;vi
+: 1605062678:0;...
+: 1605062678:0;la
+: 1605062680:0;g a
+: 1605062682:0;g d
+: 1605062683:0;g s
+: 1605062691:0;g c -m "Feature: Remove em-var"
+: 1605062693:6;g ps origin master
+: 1605062822:6;g log
+: 1605062830:6;g pl origin master
+: 1605062838:2;vi
+: 1605062841:0;la
+: 1605062842:1771;g log
+: 1605058460:6155;verdaccio
+: 1605064616:0;exit
+: 1605056710:1156;vi
+: 1605057867:9;g a
+: 1605057883:0;g c -m "working example"
+: 1605057886:57;g so
+: 1605057946:9;g ps origin master
+: 1605057999:0;la
+: 1605058003:1;g d
+: 1605058010:0;git remote remove gitlab
+: 1605058013:0;git remote remove github
+: 1605058016:0;git remote remove bitbucket
+: 1605058019:0;git remote remove origin
+: 1605058021:0;g remote -v
+: 1605058030:0;git remote add origin git@github.com:editmodelabs/bridge-starter.git
+: 1605060592:1;g a
+: 1605060598:0;g c -m "add readme.md"
+: 1605060599:0;g bnc
+: 1605060603:6;g ps origin master
+: 1605062764:2;g a
+: 1605062770:0;g c -m "Use a variable"
+: 1605062771:0;g bnc
+: 1605062774:7;g ps origin master
+: 1605062813:6;g log
+: 1605062864:611;yarn remove editmode-react-native && yarn add editmode-react-native && expo start
+: 1605063502:2;g a
+: 1605063512:0;g c -m "update the example variable"
+: 1605064619:0;exit
+: 1605059342:884;yarn remove editmode-react-native && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react-native && expo start
+: 1605060233:167;yarn remove editmode-react-native && yarn add editmode-react-native && expo start
+: 1605060404:2476;yarn remove editmode-react-native && yarn add editmode-react-native && expo start --web
+: 1605063489:1131;expo start --web
+: 1605064621:0;exit
+: 1605070108:0;jt work
+: 1605070108:0;la
+: 1605070110:0;cd editmode
+: 1605070111:0;la
+: 1605070116:0;cd sample-project-react-native
+: 1605070165:0;la
+: 1605070167:133;vi
+: 1605070301:1;g a
+: 1605070307:0;g c -m "Remove unused imports"
+: 1605070309:0;g bnc
+: 1605070311:9;g ps origin master
+: 1605070472:1;g a
+: 1605070478:0;g c -m "add defaultchunks comment"
+: 1605070480:12;g ps origin master
+: 1605070589:1;g a
+: 1605070596:0;g c -m "update the name on app.json"
+: 1605070598:11;g ps origin master
+: 1605070670:3;g a
+: 1605070677:0;g c -m "remove the constant variable"
+: 1605070680:9;g ps origin master
+: 1605075400:8;g a
+: 1605075411:0;g c -m "fix"
+: 1605075412:0;g bnc
+: 1605075414:13;g ps origin master
+: 1605076109:0;g a
+: 1605076115:0;g c -m "use contentKey instead of identifier"
+: 1605076115:0;g bnc
+: 1605076117:12;g ps origin master
+: 1605079272:5;g a
+: 1605079286:0;g c -m "use variables object on the loop\
+"
+: 1605079289:0;g bnc
+: 1605079291:9;g ps origin master
+: 1605071866:0;../plugin-react
+: 1605071870:1648;vi
+: 1605073521:0;g st
+: 1605073522:0;..
+: 1605073522:0;la
+: 1605073528:0;cd plugin-react-native
+: 1605073530:32;vi
+: 1605073578:306;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1605090562:0;exit
+: 1605073571:16992;verdaccio
+: 1605090565:0;exit
+: 1605070602:2979;expo start --web
+: 1605073591:16975;yarn remove editmode-react-native && yarn add editmode-react-native && expo start --web
+: 1605090567:0;exit
+: 1605079718:0;..
+: 1605079719:0;la
+: 1605079726:0;cd sample-project-react-native
+: 1605079728:10840;vi
+: 1605090569:0;exit
+: 1605258942:0;jt work
+: 1605258942:0;la
+: 1605258945:0;jt dotfiles
+: 1605258945:0;la
+: 1605259947:8730;vi
+: 1605268678:0;la
+: 1605268679:0;jt work
+: 1605268680:0;la
+: 1605268681:0;cd kuru-studio
+: 1605268682:0;la
+: 1605268685:0;cd social-web
+: 1605268685:0;la
+: 1605268690:797;vi
+: 1605269488:2;g a
+: 1605269494:0;g c -m "Rename dev to develop"
+: 1605269495:0;g bnc
+: 1605269497:15;g ps origin feature-authentication
+: 1605268700:0;g co -b feature-authentication
+: 1605269255:1;yarn start
+: 1605269275:1;yarn install
+: 1605269281:751;yarn dev
+: 1605276737:0;la
+: 1605276740:0;..
+: 1605276740:0;la
+: 1605276742:0;..
+: 1605276742:0;la
+: 1605270022:0;..
+: 1605270038:0;la
+: 1605270041:0;mkdir social
+: 1605270043:0;la
+: 1605270048:0;mv social-server socia/server
+: 1605270052:0;mv -rf social-server socia/server
+: 1605270078:0;mv social-server social/server
+: 1605270082:0;mv social-web social/web
+: 1605270083:0;la
+: 1605270085:0;cd social
+: 1605270085:0;la
+: 1605270090:0;git init
+: 1605270126:1;rm -rf server
+: 1605270132:2;rm -rf web
+: 1605270159:4;git submodule add git@github.com:kuru-studio/kuru-studio-social-web.git
+: 1605270167:4;git submodule add git@github.com:kuru-studio/kuru-studio-social-server.git
+: 1605270173:132;vi
+: 1605270307:2;g a
+: 1605270333:1;g d
+: 1605270334:0;g s
+: 1605270338:0;g a
+: 1605270340:0;git add .
+: 1605270344:10;vi
+: 1605270354:3;g a
+: 1605270362:0;g c -m "Feature: Add submodules"
+: 1605270364:0;g ps origin master
+: 1605270370:6;g so
+: 1605270378:12;g ps origin master
+: 1605271175:0;touch README.md
+: 1605271177:50;vi
+: 1605271228:0;g a
+: 1605271244:0;g d
+: 1605271244:0;g s
+: 1605271256:0;git add .
+: 1605271257:0;g s
+: 1605271269:0;git status --porcelain=2
+: 1605271283:27;vi
+: 1605271312:0;..
+: 1605271313:0;la
+: 1605271315:0;cd social
+: 1605271316:0;la
+: 1605271322:0;..
+: 1605271323:0;la
+: 1605271377:12;git clone --recurse-submodules git@github.com:kuru-studio/kuru-studio-social.git social-new
+: 1605271391:0;la
+: 1605271393:0;cd social-new
+: 1605271394:0;la
+: 1605271402:0;cp ../social/README.md ./
+: 1605271404:1;g a
+: 1605271410:0;g c -m "Feature: Add README.md"
+: 1605271412:6;g ps origin master
+: 1605271425:0;..
+: 1605271425:0;la
+: 1605271427:0;rm -rf social
+: 1605271429:0;mv social-new social
+: 1605271431:0;cd social
+: 1605271431:0;la
+: 1605271433:39;vi
+: 1605271473:0;g a
+: 1605271482:0;g c -m "Feature: Update README.md to be more descriptive"
+: 1605271483:7;g ps origin master
+: 1605278146:0;la
+: 1605278148:0;cd web
+: 1605278149:0;la
+: 1605278150:43;vi
+: 1605278196:0;exit
+: 1605291392:0;jt work
+: 1605291393:0;la
+: 1605291395:0;cd kuru-studio
+: 1605291396:0;la
+: 1605291398:0;cd social
+: 1605291398:0;la
+: 1605291404:0;cd web
+: 1605291407:0;vi
+: 1605321416:0;yarn develop
+: 1605321427:51;yarn install
+: 1605322271:8958;yarn develop
+: 1605321402:0;jt work
+: 1605321402:0;la
+: 1605321404:0;cd kuru-studio
+: 1605321404:0;la
+: 1605321406:0;cd website
+: 1605321406:1;la
+: 1605321409:0;..
+: 1605321410:0;la
+: 1605321411:0;cd social/web
+: 1605321412:0;la
+: 1605321412:168;vi
+: 1605321581:4;yarn add dotenv
+: 1605321600:13;g a
+: 1605321627:0;g c -m "Feature: Add dotenv and next.config.js"
+: 1605321769:8;g a
+: 1605321787:0;g c -m "Feature: Add firebase env variables"
+: 1605321790:0;g bnc
+: 1605321793:4;g ps origin master
+: 1605321804:5;g lol
+: 1605321816:0;g remote -v
+: 1605321819:0;g ps origin
+: 1605321822:3;g ps origin master
+: 1605321831:0;g ps
+: 1605321842:6;g ps origin HEAD:master
+: 1605321854:10;g so
+: 1605321867:13;g sync master
+: 1605322227:1;g co master
+: 1605322231:3;g pl origin master
+: 1605322239:13;g sync master
+: 1605322408:10;g ps origin master
+: 1605322448:1;g a
+: 1605322456:0;g c -m "Feature: Use env variable on the homepage"
+: 1605322457:12;g ps origin master
+: 1605329133:0;la
+: 1605329418:0;jt personal
+: 1605329419:0;la
+: 1605329428:5;g clone git@github.com:kaizenstudios/denik-app.git
+: 1605329437:0;cd denik-app
+: 1605329439:0;rm -rf .git
+: 1605329441:0;git init
+: 1605329442:4;g a
+: 1605329448:0;git add .
+: 1605329451:1;g c -m "archive"
+: 1605329454:19;g so
+: 1605329475:16;g ps origin master
+: 1605329495:0;..
+: 1605329495:0;la
+: 1605329498:0;rm -rf denik-app
+: 1605329504:4;g clone git@github.com:kaizenstudios/denik-api-server.git
+: 1605329537:0;cd denik-api-server
+: 1605329540:0;rm -rf .git
+: 1605329541:0;git init
+: 1605329545:1;g add .
+: 1605329547:0;git add .
+: 1605329568:0;g c -m "archive"
+: 1605329569:5;g so
+: 1605329577:16;g ps origin master
+: 1605329621:0;..
+: 1605329623:0;rm -rf denik-api-server
+: 1605329909:0;la
+: 1605329912:0;jt work
+: 1605329913:0;la
+: 1605329914:0;cd kuru-studio
+: 1605329915:0;la
+: 1605329919:0;cd social
+: 1605329920:0;la
+: 1605329921:0;cd web
+: 1605329921:0;la
+: 1605329927:32;yarn add firebase
+: 1605329961:166;vi
+: 1605330128:5;g a
+: 1605330139:0;g c -m "Feature: Initialize Firebase"
+: 1605330140:0;g bnc
+: 1605330142:13;g ps origin master
+: 1605335520:0;jt work
+: 1605335522:0;la
+: 1605335524:0;cd kuru-studio
+: 1605335527:0;la
+: 1605335529:0;cd social
+: 1605335530:0;la
+: 1605335533:0;cd web
+: 1605335535:0;la
+: 1605335545:527;vi
+: 1605336073:2;g a
+: 1605336084:0;g c -m "Feature: Simple form:\
+g bnc
+: 1605336089:1;g lol
+: 1605336097:0;g c -m "Feature: Simple form"
+: 1605336100:13;g ps origin master
+: 1605339693:7;g a
+: 1605339713:0;g c -m "Hotfix: Remove the optional type on IFirebaseConfig"
+: 1605339717:16;g ps origin master
+: 1605341817:1;g a
+: 1605341827:0;g c -m "Feature: Create a simple register form"
+: 1605341829:13;g ps origin master
+: 1605342171:3;g a
+: 1605342179:0;g c -m "Feature: Add login form"
+: 1605342181:12;g ps origin master
+: 1605342256:0;exit
+: 1605335548:6709;yarn develop
+: 1605342259:0;exit
+: 1605349565:0;la
+: 1605349569:0;..
+: 1605349569:0;la
+: 1605349570:0;..
+: 1605349570:0;la
+: 1605349572:0;..
+: 1605349572:0;la
+: 1605349574:0;cd editmode
+: 1605349574:0;la
+: 1605349584:0;cd plugin-react
+: 1605349586:3893;vi
+: 1605354366:48;docker-compose up --build
+: 1605354418:1;psql --command="\l"
+: 1605354451:1;docker-compose down
+: 1605353544:16;dr-up
+: 1605353561:1;dr-down
+: 1605353564:5;docker-compose build
+: 1605354280:14;docker-compose run web rake db:create
+: 1605354681:178;docker-compose run web bash
+: 1605354874:7;docker-compose build
+: 1605354887:9;docker-compose run web rake db:create
+: 1605354927:0;exit
+: 1605353489:0;../server
+: 1605353490:0;la
+: 1605353517:2;vi
+: 1605353523:0;touch config/master.key
+: 1605353541:815;vi
+: 1605354487:2;g a
+: 1605354493:0;g remote -v
+: 1605354506:1;g so
+: 1605354509:1;g a
+: 1605354523:0;g c -m "Hotfix: Change the build command on the edit instructions of config"
+: 1605354537:17;g ps origin HEAD:master
+: 1605354559:0;g co master
+: 1605354563:0;g pl origing master
+: 1605354625:5;g pl origin master
+: 1605354661:11;docker-compose build
+: 1605354834:1;g a
+: 1605354842:0;g c -m "Hotfix: Remove the unwanted line on README.md"
+: 1605354850:15;g ps origin master
+: 1605345239:9692;yarn develop
+: 1605344675:0;jt work
+: 1605344676:0;la
+: 1605344677:0;cd kuru-studio
+: 1605344677:0;la
+: 1605344680:0;cd social
+: 1605344680:0;la
+: 1605344683:0;cd web
+: 1605344683:0;la
+: 1605344684:557;vi
+: 1605345241:11;g d
+: 1605345688:3;g a
+: 1605345700:0;g c -m "Feature: Get the token when a user is signed in"
+: 1605345702:13;g ps origin master
+: 1605345758:1;g a
+: 1605345766:0;g c -m "Hotfix: Remove usage of the window object"
+: 1605345767:12;g ps origin master
+: 1605346029:2;g a
+: 1605346036:0;g c -m "Feature: Add title tag"
+: 1605346037:12;g ps origin master
+: 1605354502:0;g remote -v
+: 1605354935:0;exit
+: 1605357644:2;vi
+: 1605357648:0;jt work
+: 1605357678:0;la
+: 1605357681:0;cd kuru-studio
+: 1605357681:0;la
+: 1605357683:0;cd social
+: 1605357683:0;la
+: 1605357685:0;cd server
+: 1605357782:23;dr-up
+: 1605358105:0;jt work
+: 1605358105:0;la
+: 1605358108:0;cd kuru-studio
+: 1605358108:0;la
+: 1605358110:0;cd social
+: 1605358110:0;la
+: 1605358114:0;cd web
+: 1605358115:0;la
+: 1605358116:273;vi
+: 1605358390:4;g a
+: 1605358402:0;g c -m "Feature: Add API_PATH to the environment variables"
+: 1605358403:0;g bnc
+: 1605358406:18;g ps origin master
+: 1605358434:0;exit
+: 1605360755:0;docker-compose run web bash
+: 1605361635:0;exit
+: 1605363012:0;jt work
+: 1605363013:0;la
+: 1605363013:0;cd editmode
+: 1605363014:0;la
+: 1605363016:0;cd main-app
+: 1605363016:0;la
+: 1605363017:4026;vi
+: 1605367047:0;jt work
+: 1605367048:0;la
+: 1605367050:0;cd kuru-studio
+: 1605367050:0;la
+: 1605367052:0;cd social
+: 1605367052:0;la
+: 1605367054:0;web
+: 1605367055:66;vi
+: 1605358446:6;docker-compose build
+: 1605358454:10;docker-compose run web rake db:create
+: 1605358899:50;docker-compose run web bash
+: 1605358953:8;docker-compose run web rake db:create
+: 1605359154:0;dr-down
+: 1605359178:2;docker-compose run web rake db:create
+: 1605359186:448;docker-compose build
+: 1605359846:9;docker-compose run web rake db:create
+: 1605359867:6;docker-compose build
+: 1605359896:10;docker-compose run web rake db:create
+: 1605359922:52;dr-up
+: 1605359988:1;dr-down
+: 1605360064:468;docker-compose build
+: 1605360536:46;docker-compose run web rake db:create
+: 1605360609:0;entrypoint.sh
+: 1605360622:0;./entrypoint.sh
+: 1605360626:0;sh ./entrypoint.sh
+: 1605360630:21;docker-compose run web rake db:create
+: 1605360693:490;docker-compose up
+: 1605366904:1850;dr-down && dr-up
+: 1605366949:0;../web
+: 1605366953:0;yarn develop
+: 1605358427:0;../server
+: 1605358428:0;la
+: 1605358439:1466;vi
+: 1605359906:1;g d
+: 1605359907:0;g s
+: 1605359939:1877;vi
+: 1605361818:2;g d
+: 1605361821:0;g st
+: 1605361830:5127;vi
+: 1605366960:5;g a
+: 1605366976:0;g c -m "Feature: Add a root for development and production"
+: 1605366978:12;g ps origin master
+: 1605368710:1;g a
+: 1605368729:0;g c -m "Hotfix: Add comment for the initialization of config/default.yml"
+: 1605368730:0;g bnc
+: 1605368734:13;g ps origin master
+: 1605407279:8945;dr-up
+: 1605416226:1;docker-compose down
+: 1605416230:8;docker-compose run web bundle install
+: 1605416303:10914;docker-compose up --build
+: 1605427218:1;dr-down
+: 1605427226:0;exit
+: 1605407242:0;../server
+: 1605407267:8683;vi
+: 1605415987:23;dr-web rails g scaffold TestBlog title:string description:text && dr-web rails db:migrate
+: 1605416020:0;g co -b feature-token-verification
+: 1605416022:5;g a
+: 1605416035:0;g c -m "Feature: Token Verification"
+: 1605416037:1;g reset
+: 1605416040:0;g bnc
+: 1605416043:13;g ps origin feature-token-verification
+: 1605417031:4;g a
+: 1605417040:0;g c -m "install jwt"
+: 1605417041:0;g bnc
+: 1605417043:13;g ps origin feature-token-verification
+: 1605427228:0;exit
+: 1605407252:19962;yarn develop
+: 1605427230:0;exit
+: 1605407005:0;jt work
+: 1605407005:0;la
+: 1605407008:0;cd editmode
+: 1605407008:0;la
+: 1605407010:0;..
+: 1605407151:0;la
+: 1605407153:0;cd kuru-studio
+: 1605407154:0;la
+: 1605407156:0;cd social
+: 1605407235:0;la
+: 1605407237:0;cd web
+: 1605407250:252;vi
+: 1605407503:1;g a
+: 1605407509:0;g c -m "Feature: Update README.md to be more descriptive"
+: 1605407510:0;g bnc
+: 1605407512:15;g ps origin master
+: 1605417141:1;g a
+: 1605417152:0;g c -m "Hotfix: Make the fond on NodeJS bold"
+: 1605417153:13;g ps origin master
+: 1605427232:0;exit
+: 1605433524:3056;yarn develop
+: 1605433531:0;../server
+: 1605433533:159;vi
+: 1605433694:0;touch lib/json_web_token.rb
+: 1605433881:8;g a
+: 1605433897:0;g c -m "add JsonWebToken simpleton"
+: 1605434964:3;g a
+: 1605434972:0;g c -m "add simple_command"
+: 1605434973:0;g bnc
+: 1605434975:13;g ps origin feature-token-verification
+: 1605435097:1;g a
+: 1605435107:0;g c -m "create a simple command called authenticateuser"
+: 1605435108:0;g bnc
+: 1605435109:15;g ps origin feature-token-verification
+: 1605435269:1;g a
+: 1605435276:1;g c -m "create a simple command called authorizeapirequest"
+: 1605435277:0;g bnc
+: 1605435279:12;g ps origin feature-token-verification
+: 1605433480:0;jt work
+: 1605518216:49;yarn test:happy-path
+: 1605527588:0;exit
+: 1605513905:0;la
+: 1605513906:0;cd editmode
+: 1605513907:0;la
+: 1605513909:0;cd checkly-tests
+: 1605513910:13679;vi
+: 1605527590:0;exit
+: 1605514043:0;../main-app
+: 1605514049:3;g pl origin new_layout
+: 1605514072:1;g d
+: 1605514073:0;g st
+: 1605514075:3;g pl origin new_layout
+: 1605514187:13405;vi
+: 1605527593:0;exit
+: 1605514316:13279;rails s -p 3002 -P 23
+: 1605527596:0;exit
+: 1605514083:5;bundle install && rake db:migrate && rails s
+: 1605514180:13418;sudo bundle install && rake db:migrate && rails s
+: 1605527598:0;exit
+: 1605575434:40;yarn test:happy-path
+: 1605574237:0;../checkly-tests
+: 1605574238:28035;vi
+: 1605602274:0;exit
+: 1605574233:28042;rails s
+: 1605602276:0;exit
+: 1605574232:28045;rails s -p 3002 -P 23
+: 1605602278:0;exit
+: 1605604228:0;la
+: 1605604229:0;cd main-app
+: 1605604229:0;la
+: 1605604232:0;..
+: 1605604232:0;la
+: 1605604233:0;cd main-app
+: 1605604234:0;la
+: 1605604240:3;g pl origin new_layout
+: 1605604245:0;g co staging
+: 1605604247:0;g st
+: 1605604249:0;g co staging
+: 1605604252:3;g pl origin staging
+: 1605604258:7;vi
+: 1605604273:0;g co -b feature-cloudflare-webhook
+: 1605604409:13;rake routes |grep clear_cache
+: 1605574215:0;jt work
+: 1605574216:0;la
+: 1605574219:0;cd editmode
+: 1605574219:0;la
+: 1605574223:0;cd main-app
+: 1605574225:28055;vi
+: 1605602283:0;..
+: 1605602283:0;la
+: 1605602291:0;cd sample-project-react-native
+: 1605602295:13929;expo start --web
+: 1605602878:0;la
+: 1605602882:13345;vi
+: 1605679568:3951;heroku run --app editmode-production rails console
+: 1605687583:0;exit
+: 1605679510:8074;heroku logs --tail --app editmode-production
+: 1605687586:0;exit
+: 1605661509:0;jt work
+: 1605661509:0;la
+: 1605661512:0;cd editmode/main-app
+: 1605661514:26413;vi
+: 1605687930:13;rake routes |grep clear_cache
+: 1605691950:8;g a
+: 1605691968:0;g c -m "Feature: Cloudflare webhook"
+: 1605691968:0;g bnc
+: 1605691970:6;g ps origin feature-cloudflare-webhook
+: 1605692417:7;g a
+: 1605692435:0;g c -m "Add the clear cache on after save of chunk"
+: 1605692436:0;g bnc
+: 1605692438:6;g ps origin feature-cloudflare-webhook
+: 1605691126:16126;rails s -p 3002 -P 23
+: 1605691124:0;rails s
+: 1605846879:2197;rails console
+: 1605868632:0;exit
+: 1605843447:184;vi
+: 1605843636:12;rake routes |grep chunks
+: 1605848051:0;g d
+: 1605848058:3;g pl origin staging
+: 1605848063:10;g a
+: 1605848084:0;g c -m "Hotfix: Position ordering not workign"
+: 1605848098:6;g ps origin staging
+: 1605848108:0;g co new_layout
+: 1605848120:4;g a
+: 1605848127:2;g pl origin new_layout
+: 1605848136:3;g a
+: 1605848142:0;g c -m "Hotfix: Position ordering not working"
+: 1605848146:5;g ps origin new_layout
+: 1605868633:0;exit
+: 1605855490:13140;rails s -p 3002 -P 23
+: 1605868635:0;exit
+: 1605842457:0;jt work
+: 1605842457:0;la
+: 1605842459:0;cd editmode
+: 1605842460:0;la
+: 1605842463:0;cd main-app
+: 1605842471:3;g pl origin staging
+: 1605842475:0;la
+: 1605843343:2686;heroku logs --tail --app editmode-production
+: 1605855491:13137;rails s
+: 1605868635:0;exit
+: 1605855496:0;../checkly-tests
+: 1605855504:42;yarn test:happy-path
+: 1605868637:0;exit
+: 1605943106:0;[?1;2cY
+: 1605943112:0;exit
+: 1605943117:0;la
+: 1605976012:0;exit
+: 1606033612:0;jt work
+: 1606033613:0;la
+: 1606033616:0;cd kuru-studio
+: 1606033617:0;la
+: 1606033619:0;cd social
+: 1606033620:0;la
+: 1606033685:0;cd server
+: 1606033686:0;la
+: 1606033775:0;vi
+: 1606033785:0;dr-up
+: 1606033787:0;vi
+: 1606033901:0;g a
+: 1606033909:0;g c -m "firebase verifier"
+: 1606033910:0;g bnc
+: 1606033912:0;g ps origin feature-token-verification
+: 1606035464:0;g a
+: 1606035469:0;y
+: 1606035473:0;g c -m "revert the deleted lines"
+: 1606035475:0;g bnc
+: 1606035476:0;g ps origin feature-token-verification
+: 1606094924:0;jt work
+: 1606094925:0;la
+: 1606094980:0;cd editmode/main-app
+: 1606094985:0;rake routes |grep login
+: 1606095005:0;vi
+: 1606095319:0;rails s -p 3002 -P 23
+: 1606095321:0;rails s
+: 1606095325:0;g pl origin new_layout
+: 1606095344:0;g d
+: 1606095358:0;g a
+: 1606095378:0;g c -m "Hotfix: Hide signs that email exists when logging in using the API"
+: 1606095380:0;g bnc
+: 1606095385:0;g ps origin new_layout
+: 1606095416:0;g co staging
+: 1606095419:0;g pl origin staging
+: 1606095428:0;g d
+: 1606095435:0;g a
+: 1606095445:0;g c -m "Hotfix: Hide signs that email exists when logging in using the API"
+: 1606095446:0;g bnc
+: 1606095448:0;g ps origin staging
+: 1606095484:0;g d
+: 1606095488:0;g pl origin staging
+: 1606095565:0;g co -b feature-list-dropdown
+: 1606095567:0;vi
+: 1606099568:0;g a
+: 1606099582:0;g c -m "create the list-select file"
+: 1606099582:0;g bnc
+: 1606099584:0;g ps origin feature-list-dropdown
+: 1606102866:0;g co new_layout
+: 1606102871:0;g pl origin new_layout
+: 1606102881:0;g d
+: 1606102882:0;g st
+: 1606102885:0;rm -rf 23
+: 1606102888:0;g st
+: 1606102904:0;g co -b hotfix-cloudflare-cache-content-key
+: 1606102905:0;vi
+: 1606109124:0;rails s
+: 1606109126:0;rails s -p 3002 -P 23
+: 1606109311:0;rails s
+: 1606109575:0;g a
+: 1606109626:0;la
+: 1606109627:0;g d
+: 1606109629:0;g s
+: 1606109631:0;g reset
+: 1606109633:0;g co new_layout
+: 1606109635:0;g a
+: 1606109652:0;g c -m "Hotfix: Fix the clear cache for content_key"
+: 1606109659:0;g bnc
+: 1606109660:0;g ps origin new_layout
+: 1606109672:0;g co staging
+: 1606109674:0;g pl origin staging
+: 1606109688:0;g a
+: 1606109692:0;g c -m "Hotfix: Fix the clear cache for content_key"
+: 1606109694:0;g bnc
+: 1606109695:0;g ps origin staging
+: 1606109710:0;g lol
+: 1606110417:0;la
+: 1606110424:0;..
+: 1606110424:0;la
+: 1606110428:0;cd plugin-react-native
+: 1606110428:0;la
+: 1606110429:0;vi
+: 1606110541:0;la
+: 1606110543:0;..
+: 1606110543:0;la
+: 1606110550:0;cd sample-project-react-native
+: 1606110551:0;la
+: 1606110557:0;vi
+: 1606110585:0;expo start --web
+: 1606110660:0;..
+: 1606110660:0;la
+: 1606110668:0;cd plugin-react-native
+: 1606110677:0;expo start --web
+: 1606110689:0;la
+: 1606110704:0;vi
+: 1606110710:0;verdaccio
+: 1606110826:0;yarn build && npm publish --registry http://localhost:4873 && fg
+: 1606110837:0;yarn remove editmode-react-native && yarn add editmode-react-native && expo start --web
+: 1606111702:0;../main-app
+: 1606111702:0;la
+: 1606111704:0;heroku logs --tail --app editmode-production
+: 1606181207:0;jt work
+: 1606181208:0;la
+: 1606181210:0;cd editmode
+: 1606181211:0;la
+: 1606181215:0;cd sample-project-react-native
+: 1606181216:0;vi
+: 1606181224:0;expo start --web
+: 1606181289:0;../main-app
+: 1606181289:0;la
+: 1606181292:0;vi
+: 1606194849:0;expo --help
+: 1606194854:0;expo --help |grep port
+: 1606194865:0;expo --help |grep web
+: 1606194880:0;expo start --help
+: 1606195666:0;node
+: 1606196442:0;~/Library/Caches
+: 1606196443:0;la
+: 1606196450:0;la |grep "brave"
+: 1606196456:0;rm -rf com.brave.Browser
+: 1606196936:0;touch .exprc
+: 1606196937:0;vi
+: 1606196954:0;expo start --help
+: 1606196967:0;expo start:web
+: 1606197053:0;vi
+: 1606197124:0;rm -rf .exprc
+: 1606197132:0;expo start:web DEFAULT_PORT=8888
+: 1606197154:0;DEFAULT_PORT=8888 expo start:web
+: 1606197217:0;expo start:web --help
+: 1606197230:0;touch .exprc
+: 1606197232:0;vi
+: 1606197274:0;expo start:web --config .exprc
+: 1606197334:0;bos -h
+: 1606197337:0;expo start:web
+: 1606197355:0;bos -p ngrok 19006
+: 1606197834:0;heroku logs --tail --app editmode-production
+: 1606198456:0;exit
+: 1606198465:0;bos -p ngrok 19006
+: 1606211537:0;exit
+: 1606283849:0;jt work
+: 1606283850:0;la
+: 1606283852:0;cd editmode
+: 1606283853:0;la
+: 1606283855:0;cd main-app
+: 1606284386:0;g d
+: 1606284387:0;g s
+: 1606284391:0;g st
+: 1606353089:0;jt work
+: 1606353089:0;la
+: 1606353092:0;cd editmode
+: 1606353092:0;la
+: 1606353097:0;cd main-app
+: 1606353097:0;la
+: 1606353106:0;..
+: 1606353107:0;la
+: 1606353109:0;cd sample-project-react-native
+: 1606353110:0;la
+: 1606353111:0;vi
+: 1606353147:0;expo start:web
+: 1606359039:0;heroku logs --tail --app editmode-production
+: 1606562027:0;jt work
+: 1606562028:0;la
+: 1606562030:0;cd editmode
+: 1606562030:0;la
+: 1606562035:0;cd main-app
+: 1606562038:0;rails s
+: 1606562043:0;rails s -p 3002 -P 23
+: 1606562309:0;vi
+: 1606562500:0;htop
+: 1606565736:0;exit
+: 1606606586:0;jt work
+: 1606606587:0;l
+: 1606606588:0;la
+: 1606606590:0;cd editmode
+: 1606606590:0;la
+: 1606606594:0;..
+: 1606606594:0;la
+: 1606606596:0;cd kuru-studio
+: 1606606596:0;la
+: 1606606794:0;cd social
+: 1606606795:0;la
+: 1606606797:0;cd web
+: 1606606799:0;now
+: 1606607089:0;..
+: 1606607090:0;la
+: 1606607092:0;cd server
+: 1606607730:0;vi
+: 1606607961:0;dr-up
+: 1606612057:0;vi
+: 1606612165:0;python3 -m pip install --user --uprade pynvim
+: 1606612175:0;python3 --help
+: 1606612180:0;python3 --help |grep update
+: 1606612182:0;python3 --help |grep up
+: 1606612251:0;pip3 install --upgrade pynvim
+: 1606612264:0;vi
+: 1606614253:0;exit
+: 1606643532:0;la
+: 1606643535:0;down
