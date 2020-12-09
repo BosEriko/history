@@ -4111,56 +4111,16 @@ fi
 : 1597904133:0;g lol | grep "revalidate"
 : 1597912159:0;g co src/Editmode.jsx
 : 1597912162:0;g co feature-load-hash
-: 1597912269:0;g a
 : 1597912289:0;g c -m "rename chunkFallback to defaultChunks"
-: 1597912290:0;g bnc
 : 1597912292:0;g ps origin feature-load-hash
-: 1597912329:0;g co feature-variables
 : 1597912335:0;g pol origin feature-load-hash
-: 1597912338:0;g pl origin feature-load-hash
-: 1597912347:0;g s
-: 1597912349:0;g d
 : 1597912374:0;git reset --hard origin/feature-variables
-: 1597912498:0;g a
-: 1597912528:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597912537:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
 : 1597912590:0;g c -m "rename variable to variables"
-: 1597912590:0;g bnc
-: 1597912593:0;g ps origin feature-variables
-: 1597912662:0;g s
-: 1597912671:0;g co feature-swr
-: 1597912673:0;g st
-: 1597912675:0;g co feature-swr
-: 1597912703:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597912722:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597913803:0;g diff feature-swr..feature-load-hash
 : 1597913815:0;g pl origin feature-load-hash
-: 1597913835:0;g s
-: 1597913837:0;g d
-: 1597913870:0;g s
-: 1597913872:0;g a
-: 1597913875:0;g reset
-: 1597913877:0;g a
-: 1597913895:0;g c -m "merge"
 : 1597913902:0;g diff feature-swr..feature-load-hash
 : 1597913925:0;g diff feature-load-hash..feauture-swr
 : 1597913929:0;g diff feature-load-hash..feature-swr
-: 1597916687:0;g lol | grep "cache"
-: 1597916858:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597916865:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597916954:0;vi
-: 1597917041:0;g d
-: 1597917048:0;yarn install
-: 1597917114:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597917121:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597917245:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597917251:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597917388:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597917398:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597917646:0;g a
 : 1597917658:0;g c -m "minimize swr footprint"
-: 1597917659:0;g bnc
-: 1597917660:0;g ps origin feature-swr
 : 1597918519:0;yarn build && npm publish --registry http://localhost:4873 && fg
 : 1597918527:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
 : 1597918553:0;g st
@@ -10166,3 +10126,26 @@ g bnc
 : 1607440217:0;g c -m "Feature: Move pages/_app.jsx to pages/_app.tsx"
 : 1607440220:0;g ps origin master
 : 1607440420:0;down
+: 1607440453:0;exit
+: 1607473052:0;jt work
+: 1607473053:0;la
+: 1607473054:0;cd kuru-studio
+: 1607473055:0;la
+: 1607473057:0;cd social
+: 1607473058:0;la
+: 1607473059:0;cd web
+: 1607473067:0;yarn develop
+: 1607473068:0;vi
+: 1607473072:0;../server
+: 1607473160:0;dr-up
+: 1607473163:0;vi
+: 1607473726:0;la
+: 1607473728:0;jt work
+: 1607473729:0;la
+: 1607475294:0;g d
+: 1607475299:0;g a
+: 1607475319:0;g c -m "Hotfix: Refactor authentication file"
+: 1607475322:0;g ps origin master
+: 1607475434:0;exit
+: 1607475445:0;dr-down
+: 1607475447:0;down
