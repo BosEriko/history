@@ -4104,7 +4104,6 @@ fi
 : 1597889230:0;g c -m "add comments"
 : 1597898307:0;cd sample-project-rails
 : 1597898427:0;g co -b feature-swr
-: 1597900312:0;yarn add swr
 : 1597900414:0;yarn global add expo-cli
 : 1597900479:0;sample-project-react
 : 1597904123:0;g lol | grep "swr"
@@ -4121,163 +4120,34 @@ fi
 : 1597913925:0;g diff feature-load-hash..feauture-swr
 : 1597913929:0;g diff feature-load-hash..feature-swr
 : 1597917658:0;g c -m "minimize swr footprint"
-: 1597918519:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597918527:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597918553:0;g st
-: 1597918572:0;yarn build && npm publish --registry http://localhost:4873 && fg
 : 1597918580:0;NPM
-: 1597918664:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1597919234:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1597919247:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
 : 1597919312:0;g lol | grep "cache"
-: 1597995856:0;la
-: 1597995857:0;jt work
-: 1597995858:0;la
-: 1597995859:0;cd editmode
-: 1597995860:0;la
-: 1597995871:0;cd plugin-react
-: 1597995879:0;vi
-: 1597996073:0;g co master
-: 1597996075:0;g s
-: 1597996076:0;g d
-: 1597996084:0;g a
 : 1597996096:0;g c -m "remove chunk condition"
-: 1597996098:0;g bnc
-: 1597996100:0;g ps origin feature-swr
-: 1597996112:0;g s
-: 1597996114:0;g co master
-: 1597996115:0;g st
-: 1597996117:0;g co master
 : 1597996697:0;../sample-project-react
-: 1597996699:0;vi
-: 1597997544:0;g a
 : 1597997556:0;g c -m "Update README.md"
-: 1597997557:0;g bnc
 : 1597997566:0;g co -b feature-update-readme
-: 1597997567:0;g bnc
-: 1597997570:0;g ps origin feature-update-readme
-: 1597998044:0;g a
 : 1597998050:0;g c -m "add semicolon\
 "
-: 1597998051:0;g bnc
 : 1597998055:0;g ps origin feature-update-readme
-: 1598196412:0;jt work
-: 1598226432:0;la
-: 1598226435:0;cd editmode
-: 1598226482:0;la
 : 1598226489:0;cd sample-project-react
-: 1598226492:0;vi
-: 1598226496:0;expo start
-: 1598226559:0;../
-: 1598226559:0;la
-: 1598226564:0;cd plugin-react
 : 1598226569:0;g br
-: 1598226571:0;g b
-: 1598226582:0;g co feature-swr
-: 1598226584:0;vi
-: 1598226588:0;verdaccio
-: 1598226599:0;down
-: 1598228432:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1598228447:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1598228603:0;la
-: 1598228609:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1598228621:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1598229124:0;g a
-: 1598229136:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1598229147:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1598233601:0;(cd node_modules/react && yarn link)
-: 1598233606:0;(cd node_modules/react-dom && yarn link)
 : 1598233619:0;yarn link react
 : 1598233622:0;yarn link react-dom
-: 1598233634:0;yarn install
-: 1598233665:0;yarn build && npm publish --registry http://localhost:4873 && fg
-: 1598233678:0;NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
 : 1598234204:0;rm -rf node_modules yarn.lock
-: 1598234226:0;yarn link react && yarn link react-dom
-: 1598234258:0;yarn install && expo start
-: 1598234962:0;yarn remove editmode-react && NPM_CONFIG_REGISTRY=http://localhost:4873 yarn add editmode-react && fg
-: 1598235070:0;g s
 : 1598235073:0;g co package.json
-: 1598235076:0;yarn link
-: 1598235085:0;yarn link editmode-react
-: 1598235110:0;yarn install
-: 1598235225:0;yarn build
 : 1598235242:0;yarn install && expo start
-: 1598235786:0;vi
-: 1598235876:0;g a
 : 1598235892:0;g c -m "change defaultChunks default content to []"
-: 1598235993:0;g a
-: 1598237993:0;g co feature-variables
-: 1598237995:0;g d
-: 1598237998:0;g st
 : 1598238000:0;g co feature-variables
-: 1598238004:0;g pl origin master
-: 1598238078:0;g a
-: 1598238086:0;g c -m "merge"
-: 1598238089:0;g bnc
-: 1598238091:0;g ps origin feature-variables
-: 1598238244:0;yarn install
 : 1598238323:0;rm -rf node_modules yarn.lock && yarn install && yarn link react && yarn link react-dom && yarn link editmode-react && yarn install && expo start
-: 1598238478:0;vi
 : 1598238543:0;rm -rf node_modules yarn.lock && yarn install && yarn link editmode-react && yarn install && expo start
-: 1598238619:0;vi
-: 1598238699:0;verdaccio
-: 1598241508:0;yarn link react && yarn link react-dom
-: 1598241979:0;g a
 : 1598241983:0;g c -m "remove unused variable"
-: 1598241985:0;g bnc
 : 1598241986:0;g ps origin feature-variables
-: 1598242412:0;la
-: 1598242415:0;..
-: 1598242415:0;la
 : 1598242423:0;mv plugin-react plugin-react-native
-: 1598242424:0;la
-: 1598242465:0;down
-: 1598242487:0;vi
-: 1598242493:0;jt dotfiles
-: 1598242494:0;la
-: 1598242497:0;vi
-: 1598242515:0;jt work
 : 1598242519:0;yarn global add create-react-app
-: 1598242538:0;la
-: 1598242539:0;cd editmode
-: 1598242540:0;la
 : 1598242552:0;mv plugin-react-native plugin-react
 : 1598242564:0;mv sample-project-react sample-project-react-native
-: 1598242564:0;la
 : 1598242571:0;create-react-app sample-project-react-web
-: 1598242665:0;la
-: 1598242671:0;cd sample-project-react-web
-: 1598242672:0;la
-: 1598242674:0;vi
-: 1598242685:0;yarn start
-: 1598242759:0;yarn add editmode-react
-: 1598242881:0;yarn start
-: 1598243012:0;yarn install
-: 1598243100:0;yarn start
-: 1598243136:0;la
 : 1598243143:0;cd src
-: 1598243145:0;..
-: 1598243145:0;la
-: 1598243146:0;..
-: 1598243147:0;la
-: 1598243149:0;cd plugin-react
-: 1598243149:0;la
-: 1598243151:0;vi
-: 1598243421:0;g co master
-: 1598243427:0;g s
-: 1598243428:0;g st
-: 1598243429:0;g co master
-: 1598243432:0;g st apply
-: 1598243434:0;g a
-: 1598243452:0;g c -m "Feature: Add react-native to peerDependecies"
-: 1598243453:0;g bnc
-: 1598243458:0;g ps origin master
-: 1598243495:0;git reset --hard origin/master
-: 1598243502:0;g a
-: 1598243506:0;g c -m "Feature: Add react-native to peerDependecies"
-: 1598243508:0;g bnc
-: 1598243510:0;g ps origin master
 : 1598243529:0;g lol
 : 1598243549:0;git reset --hard origin/master
 : 1598243551:0;g lol
@@ -10149,3 +10019,133 @@ g bnc
 : 1607475434:0;exit
 : 1607475445:0;dr-down
 : 1607475447:0;down
+: 1607475463:0;exit
+: 1607525977:0;jt work
+: 1607525978:0;la
+: 1607525979:0;cd kuru-studio
+: 1607525980:0;la
+: 1607525982:0;cd social
+: 1607525982:0;la
+: 1607525987:0;cd wbe
+: 1607525989:0;cd wweb
+: 1607525990:0;la
+: 1607525992:0;web
+: 1607525996:0;la
+: 1607526001:0;g d
+: 1607526011:0;g st
+: 1607586651:0;jt work
+: 1607586652:0;la
+: 1607596947:0;cd kuru-studio
+: 1607596948:0;la
+: 1607596950:0;cd social
+: 1607596950:0;la
+: 1607596952:0;cd web
+: 1607596952:0;la
+: 1607596955:0;vi
+: 1607596958:0;yarn develop
+: 1607740707:0;jt work
+: 1607740708:0;la
+: 1607740709:0;cd kuru-studio
+: 1607740710:0;la
+: 1607740712:0;cd social
+: 1607740713:0;la
+: 1607740715:0;cd web
+: 1607740720:0;yarn develop
+: 1607740730:0;../server
+: 1607740741:0;dr-up
+: 1607740750:0;a
+: 1607740753:0;clear
+: 1607740755:0;dr-up
+: 1607740757:0;vi
+: 1607776143:0;dr-down
+: 1607776149:0;exit
+: 1607823170:0;jt work
+: 1607823171:0;la
+: 1607823172:0;cd kuru-studio
+: 1607823173:0;la
+: 1607823175:0;cd social
+: 1607823175:0;la
+: 1607823178:0;cd web
+: 1607823178:0;la
+: 1607823180:0;vi
+: 1607823186:0;yarn develop
+: 1607823190:0;../server
+: 1607823192:0;vi
+: 1607823290:0;dr-up
+: 1607824048:0;g a
+: 1607824060:0;g c -m "Feature: Add Types folder and rename data to defitinions"
+: 1607824062:0;g ps origin master
+: 1607826632:0;dr-down
+: 1607826641:0;docker-compose run web bundle install
+: 1607826689:0;docker-compose up --build
+: 1607827347:0;dr-down && dr-up
+: 1607827473:0;dr-down
+: 1607827481:0;g d
+: 1607827486:0;exit
+: 1607827493:0;g d
+: 1607827499:0;g lol
+: 1607827500:0;g a
+: 1607827510:0;g c -m "Feature: Created a data folder"
+: 1607827511:0;g a
+: 1607827530:0;g c -m "Feature: Created a user method inside the data folder"
+: 1607827531:0;g a
+: 1607827549:0;g c -m "Feature: Created user types"
+: 1607827550:0;g a
+: 1607828018:0;exit
+: 1607862530:0;jt work
+: 1607862530:0;la
+: 1607862532:0;cd kuru-studio
+: 1607862532:0;la
+: 1607862533:0;cd web
+: 1607862536:0;cd social
+: 1607862538:0;cd web
+: 1607862539:0;vi
+: 1607862542:0;yarn dev
+: 1607862545:0;yarn develop
+: 1607862550:0;../server
+: 1607862567:0;vi
+: 1607862571:0;dr-up
+: 1607863036:0;dr-down && dr-up
+: 1607863370:0;docker-compose up --build
+: 1607863832:0;dr-down && dr-up
+: 1607863910:0;exit
+: 1607864193:0;dr-down
+: 1607864196:0;exit
+: 1607995929:0;jt work
+: 1607995930:0;la
+: 1607995932:0;cd kuru-studio
+: 1607995933:0;la
+: 1607995935:0;cd social
+: 1607995942:0;la
+: 1607995944:0;cd web
+: 1607995945:0;vi
+: 1607995948:0;yarn develop
+: 1607995952:0;../server
+: 1607996176:0;vi
+: 1607996177:0;dr-up
+: 1607996998:0;dr-down
+: 1607997001:0;exit
+: 1608031065:0;jt work
+: 1608031066:0;la
+: 1608031068:0;cd kuru-studio
+: 1608031070:0;la
+: 1608031072:0;cd social
+: 1608073071:0;jt work
+: 1608073072:0;la
+: 1608073074:0;cd kuru-studio
+: 1608073076:0;cd socia
+: 1608073078:0;cd social
+: 1608073081:0;la
+: 1608073082:0;cd web
+: 1608073083:0;vi
+: 1608073091:0;yarn develop
+: 1608073097:0;../server
+: 1608073102:0;vi
+: 1608073259:0;dr-up
+: 1608073544:0;g st apply
+: 1608073545:0;g d
+: 1608073726:0;docker attach server_web_1
+: 1608073970:0;yarn add swr
+: 1608074524:0;exit
+: 1608074529:0;dr-down && dr-up
+: 1608074880:0;down
